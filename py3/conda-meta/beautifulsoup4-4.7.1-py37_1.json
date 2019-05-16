@@ -7,7 +7,7 @@
     "python >=3.7,<3.8.0a0",
     "soupsieve"
   ],
-  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\beautifulsoup4-4.7.1-py37_1",
+  "extracted_package_dir": "C:\\Users\\derbates\\anaconda3\\pkgs\\beautifulsoup4-4.7.1-py37_1",
   "features": "",
   "files": [
     "Lib/site-packages/beautifulsoup4-4.7.1.dist-info/COPYING.txt",
@@ -56,12 +56,12 @@
   "license": "MIT",
   "license_family": "MIT",
   "link": {
-    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\beautifulsoup4-4.7.1-py37_1",
+    "source": "C:\\Users\\derbates\\anaconda3\\pkgs\\beautifulsoup4-4.7.1-py37_1",
     "type": 1
   },
   "md5": "b8f8429b121e59ae347d82821661e707",
   "name": "beautifulsoup4",
-  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\beautifulsoup4-4.7.1-py37_1.tar.bz2",
+  "package_tarball_full_path": "C:\\Users\\derbates\\anaconda3\\pkgs\\beautifulsoup4-4.7.1-py37_1.tar.bz2",
   "paths_data": {
     "paths": [
       {
@@ -354,7 +354,7 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "beautifulsoup4",
+  "requested_spec": "defaults/win-64::beautifulsoup4==4.7.1=py37_1",
   "size": 146058,
   "subdir": "win-64",
   "timestamp": 1547908966848,

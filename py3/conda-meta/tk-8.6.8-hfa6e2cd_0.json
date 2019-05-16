@@ -6,7 +6,7 @@
   "depends": [
     "vc 14.*"
   ],
-  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\tk-8.6.8-hfa6e2cd_0",
+  "extracted_package_dir": "C:\\Users\\derbates\\anaconda3\\pkgs\\tk-8.6.8-hfa6e2cd_0",
   "features": "",
   "files": [
     "Library/bin/tcl86t.dll",
@@ -1101,12 +1101,12 @@
   "license": "Tcl/Tk",
   "license_family": "BSD",
   "link": {
-    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\tk-8.6.8-hfa6e2cd_0",
+    "source": "C:\\Users\\derbates\\anaconda3\\pkgs\\tk-8.6.8-hfa6e2cd_0",
     "type": 1
   },
   "md5": "13cd026af1b90010901b7339bf19c35a",
   "name": "tk",
-  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\tk-8.6.8-hfa6e2cd_0.tar.bz2",
+  "package_tarball_full_path": "C:\\Users\\derbates\\anaconda3\\pkgs\\tk-8.6.8-hfa6e2cd_0.tar.bz2",
   "paths_data": {
     "paths": [
       {
@@ -7270,7 +7270,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:\\ci\\tk_1535487422822\\_h_env",
         "sha256": "1229d8fbbc59a65556e676aec85207a5818dd61cbff62c2f3b0f95d62b40aa4e",
-        "sha256_in_prefix": "1793fdc48c7cb379a92f98ab6563c1aacd027a6d78a458551e2d41a391b8940b",
+        "sha256_in_prefix": "edf8c98827110e7f1a18b2794f063bfb7e1eb2b757db899490a158b2367d1f6c",
         "size_in_bytes": 7811
       },
       {
@@ -7321,7 +7321,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:\\ci\\tk_1535487422822\\_h_env",
         "sha256": "df79c55747c469f495a3fb386fbba4db0d2491c58f5b9b8ca5c9662cd34385c9",
-        "sha256_in_prefix": "da9f2208c6c26d5e7e4d4e18ed457460cd05fb8e3f83af98b33705a5f2b98b10",
+        "sha256_in_prefix": "1f30e2ee25bfca43167ce1df3fa2adfec1922fb723fa78701dd47b84c19b10e0",
         "size_in_bytes": 3946
       },
       {
@@ -8727,7 +8727,7 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "defaults/win-64::tk==8.6.8=hfa6e2cd_0",
   "size": 3974859,
   "subdir": "win-64",
   "timestamp": 1535487641843,

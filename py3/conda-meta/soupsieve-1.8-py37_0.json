@@ -6,7 +6,7 @@
   "depends": [
     "python >=3.7,<3.8.0a0"
   ],
-  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\soupsieve-1.8-py37_0",
+  "extracted_package_dir": "C:\\Users\\derbates\\anaconda3\\pkgs\\soupsieve-1.8-py37_0",
   "features": "",
   "files": [
     "Lib/site-packages/soupsieve-1.8.dist-info/INSTALLER",
@@ -193,12 +193,12 @@
   "fn": "soupsieve-1.8-py37_0.tar.bz2",
   "license": "MIT",
   "link": {
-    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\soupsieve-1.8-py37_0",
+    "source": "C:\\Users\\derbates\\anaconda3\\pkgs\\soupsieve-1.8-py37_0",
     "type": 1
   },
   "md5": "2b1a802618fe1017fc896066e3af03db",
   "name": "soupsieve",
-  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\soupsieve-1.8-py37_0.tar.bz2",
+  "package_tarball_full_path": "C:\\Users\\derbates\\anaconda3\\pkgs\\soupsieve-1.8-py37_0.tar.bz2",
   "paths_data": {
     "paths": [
       {
@@ -1464,7 +1464,7 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "defaults/win-64::soupsieve==1.8=py37_0",
   "size": 107075,
   "subdir": "win-64",
   "timestamp": 1552446829116,

@@ -12,8 +12,8 @@
 # Perl c_rehash script, scan all files in a directory
 # and add symbolic links to their hash values.
 
-my $dir = "C:/Users/dbates/Anaconda3/envs/py3\\Library";
-my $prefix = "C:/Users/dbates/Anaconda3/envs/py3\\Library";
+my $dir = "C:/Users/derbates/anaconda3/envs/py3\\Library";
+my $prefix = "C:/Users/derbates/anaconda3/envs/py3\\Library";
 
 my $errorcount = 0;
 my $openssl = $ENV{OPENSSL} || "openssl";

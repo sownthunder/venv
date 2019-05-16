@@ -6,7 +6,7 @@
   "depends": [
     "vc 14.*"
   ],
-  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\xz-5.2.4-h2fa13f4_4",
+  "extracted_package_dir": "C:\\Users\\derbates\\anaconda3\\pkgs\\xz-5.2.4-h2fa13f4_4",
   "features": "",
   "files": [
     "Library/bin/liblzma.dll",
@@ -35,12 +35,12 @@
   "fn": "xz-5.2.4-h2fa13f4_4.tar.bz2",
   "license": "LGPL-2.1 and GPL-2.0",
   "link": {
-    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\xz-5.2.4-h2fa13f4_4",
+    "source": "C:\\Users\\derbates\\anaconda3\\pkgs\\xz-5.2.4-h2fa13f4_4",
     "type": 1
   },
   "md5": "4d85f36274b4d66be67bb1fffd81613f",
   "name": "xz",
-  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\xz-5.2.4-h2fa13f4_4.tar.bz2",
+  "package_tarball_full_path": "C:\\Users\\derbates\\anaconda3\\pkgs\\xz-5.2.4-h2fa13f4_4.tar.bz2",
   "paths_data": {
     "paths": [
       {
@@ -200,7 +200,7 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "defaults/win-64::xz==5.2.4=h2fa13f4_4",
   "size": 831687,
   "subdir": "win-64",
   "timestamp": 1526494081589,

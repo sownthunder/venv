@@ -10,7 +10,7 @@
     "zlib >=1.2.11,<1.3.0a0",
     "zstd >=1.3.7,<1.3.8.0a0"
   ],
-  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\libtiff-4.0.10-hb898794_2",
+  "extracted_package_dir": "C:\\Users\\derbates\\anaconda3\\pkgs\\libtiff-4.0.10-hb898794_2",
   "features": "",
   "files": [
     "Library/bin/fax2ps.exe",
@@ -243,12 +243,12 @@
   "fn": "libtiff-4.0.10-hb898794_2.tar.bz2",
   "license": "HPND",
   "link": {
-    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\libtiff-4.0.10-hb898794_2",
+    "source": "C:\\Users\\derbates\\anaconda3\\pkgs\\libtiff-4.0.10-hb898794_2",
     "type": 1
   },
   "md5": "181742712383c04626ec76353dee85ba",
   "name": "libtiff",
-  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\libtiff-4.0.10-hb898794_2.tar.bz2",
+  "package_tarball_full_path": "C:\\Users\\derbates\\anaconda3\\pkgs\\libtiff-4.0.10-hb898794_2.tar.bz2",
   "paths_data": {
     "paths": [
       {
@@ -446,7 +446,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:/ci/libtiff_1548707345360/_h_env",
         "sha256": "5990c554812935fe5905971edade04fb180c4f57a3a173001660344070a46bb1",
-        "sha256_in_prefix": "02cb776f4eeaaad2ceecbbcf16465aebfb73e4c088608c51b207456f0a592dee",
+        "sha256_in_prefix": "fe6dc8a3ccbee3cc2326e9935377fba83fb8e81a194efadb6da8ccccc0fa0d41",
         "size_in_bytes": 453
       },
       {
@@ -1838,7 +1838,7 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "defaults/win-64::libtiff==4.0.10=hb898794_2",
   "size": 1101524,
   "subdir": "win-64",
   "timestamp": 1548707483102,

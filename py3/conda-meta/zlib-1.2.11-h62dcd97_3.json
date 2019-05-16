@@ -6,7 +6,7 @@
   "depends": [
     "vc >=14.1,<15.0a0"
   ],
-  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\zlib-1.2.11-h62dcd97_3",
+  "extracted_package_dir": "C:\\Users\\derbates\\anaconda3\\pkgs\\zlib-1.2.11-h62dcd97_3",
   "features": "",
   "files": [
     "Library/bin/zlib.dll",
@@ -23,12 +23,12 @@
   "license": "zlib",
   "license_family": "Other",
   "link": {
-    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\zlib-1.2.11-h62dcd97_3",
+    "source": "C:\\Users\\derbates\\anaconda3\\pkgs\\zlib-1.2.11-h62dcd97_3",
     "type": 1
   },
   "md5": "6f96fd91475cc78aabf76d2e1a9ed91f",
   "name": "zlib",
-  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\zlib-1.2.11-h62dcd97_3.tar.bz2",
+  "package_tarball_full_path": "C:\\Users\\derbates\\anaconda3\\pkgs\\zlib-1.2.11-h62dcd97_3.tar.bz2",
   "paths_data": {
     "paths": [
       {
@@ -93,13 +93,13 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:/ci/zlib_1542815121147/_h_env",
         "sha256": "00176449f92f2e193e58a612a7060ebc83a68cc42e648113123e9cb785302164",
-        "sha256_in_prefix": "0517f75835929781bd8cd9ef1b5e98c1116de0f4595228af5938a5f64cb863e3",
+        "sha256_in_prefix": "3cec5e48d1de501eaaa651bff86a16e302029fb6a5c221dfb6f1c84a4bc05a3c",
         "size_in_bytes": 420
       }
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "defaults/win-64::zlib==1.2.11=h62dcd97_3",
   "size": 131359,
   "subdir": "win-64",
   "timestamp": 1542815182812,

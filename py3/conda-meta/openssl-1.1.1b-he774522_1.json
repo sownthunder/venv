@@ -7,7 +7,7 @@
     "ca-certificates",
     "vc >=14.1,<15.0a0"
   ],
-  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\openssl-1.1.1b-he774522_1",
+  "extracted_package_dir": "C:\\Users\\derbates\\anaconda3\\pkgs\\openssl-1.1.1b-he774522_1",
   "features": "",
   "files": [
     "Library/bin/c_rehash.pl",
@@ -141,12 +141,12 @@
   "license": "OpenSSL",
   "license_family": "Apache",
   "link": {
-    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\openssl-1.1.1b-he774522_1",
+    "source": "C:\\Users\\derbates\\anaconda3\\pkgs\\openssl-1.1.1b-he774522_1",
     "type": 1
   },
   "md5": "de52a7d28c27da8e682a1810d4616c52",
   "name": "openssl",
-  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\openssl-1.1.1b-he774522_1.tar.bz2",
+  "package_tarball_full_path": "C:\\Users\\derbates\\anaconda3\\pkgs\\openssl-1.1.1b-he774522_1.tar.bz2",
   "paths_data": {
     "paths": [
       {
@@ -155,7 +155,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:\\\\ci\\\\openssl_1551973421175\\\\_h_env",
         "sha256": "a6c5fa57ea33e3820e1df24249e9622d7c8586d371498947bf491baecaf16606",
-        "sha256_in_prefix": "d98d29400e55f18e7f40ced00c09db655dead6144f188f39b2d52b27f2c46b5c",
+        "sha256_in_prefix": "529442f8de9c8f186d254c44039b2a3551fa1c78968398c250b40471e204aa46",
         "size_in_bytes": 6538
       },
       {
@@ -1023,7 +1023,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:\\ci\\openssl_1551973421175\\_h_env",
         "sha256": "80ff0d3fac225d2aa7989e2de5ad7680246a06418bd40c21558991c04c84a510",
-        "sha256_in_prefix": "108b664b7579baa11f9be0174a50d66422ef04671646803ace89815a1880e883",
+        "sha256_in_prefix": "b620bc27e68c8a5079b9942c51f19a8f3b3bd654cbb9a20ed9c49eded0ee2595",
         "size_in_bytes": 7851
       },
       {
@@ -1032,7 +1032,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:\\ci\\openssl_1551973421175\\_h_env",
         "sha256": "9eac3c0c9983393c96bf1ed65e336b3e7fd63a219caa4da4ca716d441325870c",
-        "sha256_in_prefix": "d9f721da84465b62c31b86fea3ea88acb2532a43c63f0461dbaaa60ce76d7215",
+        "sha256_in_prefix": "c54815336796adf54c94b4c87ab714113800bfcf4cc390e8201c4627a2c7a959",
         "size_in_bytes": 6817
       },
       {
@@ -1052,7 +1052,7 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "defaults/win-64::openssl==1.1.1b=he774522_1",
   "size": 5991444,
   "subdir": "win-64",
   "timestamp": 1551974582793,

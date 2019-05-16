@@ -1,8 +1,8 @@
-prefix=C:/Users/dbates/Anaconda3/envs/py3/Library
-exec_prefix=C:/Users/dbates/Anaconda3/envs/py3/Library
-libdir=C:/Users/dbates/Anaconda3/envs/py3/Library/lib
-sharedlibdir=C:/Users/dbates/Anaconda3/envs/py3/Library/lib
-includedir=C:/Users/dbates/Anaconda3/envs/py3/Library/include
+prefix=C:/Users/derbates/anaconda3/envs/py3/Library
+exec_prefix=C:/Users/derbates/anaconda3/envs/py3/Library
+libdir=C:/Users/derbates/anaconda3/envs/py3/Library/lib
+sharedlibdir=C:/Users/derbates/anaconda3/envs/py3/Library/lib
+includedir=C:/Users/derbates/anaconda3/envs/py3/Library/include
 
 Name: zlib
 Description: zlib compression library

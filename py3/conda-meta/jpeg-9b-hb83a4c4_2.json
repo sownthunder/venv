@@ -6,7 +6,7 @@
   "depends": [
     "vc 14.*"
   ],
-  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\jpeg-9b-hb83a4c4_2",
+  "extracted_package_dir": "C:\\Users\\derbates\\anaconda3\\pkgs\\jpeg-9b-hb83a4c4_2",
   "features": "",
   "files": [
     "Library/bin/cjpeg.exe",
@@ -26,12 +26,12 @@
   "fn": "jpeg-9b-hb83a4c4_2.tar.bz2",
   "license": "Custom free software license",
   "link": {
-    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\jpeg-9b-hb83a4c4_2",
+    "source": "C:\\Users\\derbates\\anaconda3\\pkgs\\jpeg-9b-hb83a4c4_2",
     "type": 1
   },
   "md5": "7abafa9f9a2c609e1b77424f5ffa6a8a",
   "name": "jpeg",
-  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\jpeg-9b-hb83a4c4_2.tar.bz2",
+  "package_tarball_full_path": "C:\\Users\\derbates\\anaconda3\\pkgs\\jpeg-9b-hb83a4c4_2.tar.bz2",
   "paths_data": {
     "paths": [
       {
@@ -128,7 +128,7 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "defaults/win-64::jpeg==9b=hb83a4c4_2",
   "size": 320107,
   "subdir": "win-64",
   "timestamp": 1510201967655,

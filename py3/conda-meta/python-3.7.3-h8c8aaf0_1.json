@@ -1,4 +1,5 @@
 {
+  "arch": "x86_64",
   "build": "h8c8aaf0_1",
   "build_number": 1,
   "channel": "https://repo.anaconda.com/pkgs/main/win-64",
@@ -9,7 +10,7 @@
     "vc >=14.1,<15.0a0",
     "pip"
   ],
-  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\python-3.7.3-h8c8aaf0_1",
+  "extracted_package_dir": "C:\\Users\\derbates\\anaconda3\\pkgs\\python-3.7.3-h8c8aaf0_1",
   "features": "",
   "files": [
     "DLLs/_asyncio.pyd",
@@ -3559,12 +3560,12 @@
   "fn": "python-3.7.3-h8c8aaf0_1.tar.bz2",
   "license": "PSF",
   "link": {
-    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\python-3.7.3-h8c8aaf0_1",
+    "source": "C:\\Users\\derbates\\anaconda3\\pkgs\\python-3.7.3-h8c8aaf0_1",
     "type": 1
   },
   "md5": "da72a954aec12511e9a7d2474b853116",
   "name": "python",
-  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\python-3.7.3-h8c8aaf0_1.tar.bz2",
+  "package_tarball_full_path": "C:\\Users\\derbates\\anaconda3\\pkgs\\python-3.7.3-h8c8aaf0_1.tar.bz2",
   "paths_data": {
     "paths": [
       {
@@ -28376,7 +28377,8 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "python=3.7",
+  "platform": "win32",
+  "requested_spec": "defaults/win-64::python==3.7.3=h8c8aaf0_1",
   "size": 18630905,
   "subdir": "win-64",
   "timestamp": 1556137911340,

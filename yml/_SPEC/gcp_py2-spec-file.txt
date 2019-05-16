@@ -1,0 +1,13 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+@EXPLICIT
+https://repo.anaconda.com/pkgs/main/win-64/vs2008_runtime-9.00.30729.1-hfaea7d5_1.tar.bz2
+https://repo.anaconda.com/pkgs/main/win-64/vc-9-h7299396_1.tar.bz2
+https://repo.anaconda.com/pkgs/main/win-64/sqlite-3.28.0-h0c8e037_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/win-64/python-2.7.16-hcb6e200_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/win-64/certifi-2019.3.9-py27_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/win-64/wincertstore-0.2-py27hf04cefb_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/win-64/setuptools-41.0.1-py27_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/win-64/wheel-0.33.2-py27_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/win-64/pip-19.1.1-py27_0.tar.bz2

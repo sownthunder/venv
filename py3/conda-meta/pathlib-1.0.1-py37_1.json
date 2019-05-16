@@ -1,0 +1,101 @@
+{
+  "arch": "x86_64",
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\derbates\\anaconda3\\pkgs\\pathlib-1.0.1-py37_1",
+  "features": "",
+  "files": [
+    "Lib/site-packages/__pycache__/pathlib.cpython-37.pyc",
+    "Lib/site-packages/pathlib-1.0.1.dist-info/INSTALLER",
+    "Lib/site-packages/pathlib-1.0.1.dist-info/LICENSE.txt",
+    "Lib/site-packages/pathlib-1.0.1.dist-info/METADATA",
+    "Lib/site-packages/pathlib-1.0.1.dist-info/RECORD",
+    "Lib/site-packages/pathlib-1.0.1.dist-info/WHEEL",
+    "Lib/site-packages/pathlib-1.0.1.dist-info/top_level.txt",
+    "Lib/site-packages/pathlib.py"
+  ],
+  "fn": "pathlib-1.0.1-py37_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\derbates\\anaconda3\\pkgs\\pathlib-1.0.1-py37_1",
+    "type": 1
+  },
+  "md5": "b6e0f803471307b0632295da3b24c0f6",
+  "name": "pathlib",
+  "package_tarball_full_path": "C:\\Users\\derbates\\anaconda3\\pkgs\\pathlib-1.0.1-py37_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/__pycache__/pathlib.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d3e718b48264c77ad04600cb061bc8a9cb62bbe43e780fa95acbda0f6ddb2da",
+        "sha256_in_prefix": "0d3e718b48264c77ad04600cb061bc8a9cb62bbe43e780fa95acbda0f6ddb2da",
+        "size_in_bytes": 36676
+      },
+      {
+        "_path": "Lib/site-packages/pathlib-1.0.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "Lib/site-packages/pathlib-1.0.1.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "ec52b4460787a7da1f6db70bbe9e1e649c73f7cb14eebaf10e5db9fe7f7e9cd9",
+        "sha256_in_prefix": "ec52b4460787a7da1f6db70bbe9e1e649c73f7cb14eebaf10e5db9fe7f7e9cd9",
+        "size_in_bytes": 1080
+      },
+      {
+        "_path": "Lib/site-packages/pathlib-1.0.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b100f025d105c2d8e793f534b4df5f5f3eeb554e87aa19fa3fc1c5c5c7d0a848",
+        "sha256_in_prefix": "b100f025d105c2d8e793f534b4df5f5f3eeb554e87aa19fa3fc1c5c5c7d0a848",
+        "size_in_bytes": 5123
+      },
+      {
+        "_path": "Lib/site-packages/pathlib-1.0.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "926ec7225f367968d6f8f514bc91d23e0ecd54fd34811023d010d9ddc9bbd987",
+        "sha256_in_prefix": "926ec7225f367968d6f8f514bc91d23e0ecd54fd34811023d010d9ddc9bbd987",
+        "size_in_bytes": 589
+      },
+      {
+        "_path": "Lib/site-packages/pathlib-1.0.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "75aecfc62be416f0b58e70284c00b8d8fee2af4cc83d8f391f0650079b39206a",
+        "sha256_in_prefix": "75aecfc62be416f0b58e70284c00b8d8fee2af4cc83d8f391f0650079b39206a",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "Lib/site-packages/pathlib-1.0.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ce179fb1a36e01261aa1917e10b1b74cf167e92d9cb81d5f77c3e53452eb321d",
+        "sha256_in_prefix": "ce179fb1a36e01261aa1917e10b1b74cf167e92d9cb81d5f77c3e53452eb321d",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "Lib/site-packages/pathlib.py",
+        "path_type": "hardlink",
+        "sha256": "f4c7dba104c472eb1c826ed900b04c4c3a4bc03fb63c24d2532865036b5cbeac",
+        "sha256_in_prefix": "f4c7dba104c472eb1c826ed900b04c4c3a4bc03fb63c24d2532865036b5cbeac",
+        "size_in_bytes": 41481
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "defaults/win-64::pathlib==1.0.1=py37_1",
+  "size": 28597,
+  "subdir": "win-64",
+  "timestamp": 1539187352063,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pathlib-1.0.1-py37_1.tar.bz2",
+  "version": "1.0.1"
+}

@@ -6,7 +6,7 @@
   "depends": [
     "python >=3.7,<3.8.0a0"
   ],
-  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\wincertstore-0.2-py37_0",
+  "extracted_package_dir": "C:\\Users\\derbates\\anaconda3\\pkgs\\wincertstore-0.2-py37_0",
   "features": "",
   "files": [
     "Lib/site-packages/__pycache__/wincertstore.cpython-37.pyc",
@@ -16,12 +16,12 @@
   "fn": "wincertstore-0.2-py37_0.tar.bz2",
   "license": "PSF 2",
   "link": {
-    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\wincertstore-0.2-py37_0",
+    "source": "C:\\Users\\derbates\\anaconda3\\pkgs\\wincertstore-0.2-py37_0",
     "type": 1
   },
   "md5": "0418cf653523e6ef0174c259efaa78b4",
   "name": "wincertstore",
-  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\wincertstore-0.2-py37_0.tar.bz2",
+  "package_tarball_full_path": "C:\\Users\\derbates\\anaconda3\\pkgs\\wincertstore-0.2-py37_0.tar.bz2",
   "paths_data": {
     "paths": [
       {
@@ -48,7 +48,7 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "defaults/win-64::wincertstore==0.2=py37_0",
   "size": 13785,
   "subdir": "win-64",
   "timestamp": 1530221279113,
