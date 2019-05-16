@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Odbc Result Methods</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for OdbcResult {odbc}"><tr><td>OdbcResult {odbc}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Odbc Result Methods</h2>
+
+<h3>Description</h3>
+
+<p>Implementations of pure virtual functions defined in the <code>DBI</code> package
+for OdbcResult objects.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+## S4 method for signature 'OdbcResult'
+dbClearResult(res, ...)
+
+## S4 method for signature 'OdbcResult'
+dbFetch(res, n = -1, ...)
+
+## S4 method for signature 'OdbcResult'
+dbHasCompleted(res, ...)
+
+## S4 method for signature 'OdbcResult'
+dbIsValid(dbObj, ...)
+
+## S4 method for signature 'OdbcResult'
+dbGetStatement(res, ...)
+
+## S4 method for signature 'OdbcResult'
+dbColumnInfo(res, ...)
+
+## S4 method for signature 'OdbcResult'
+dbGetRowCount(res, ...)
+
+## S4 method for signature 'OdbcResult'
+dbGetRowsAffected(res, ...)
+
+## S4 method for signature 'OdbcResult'
+dbBind(res, params, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>res</code></td>
+<td>
+<p>An object inheriting from <a href="../../DBI/html/DBIResult-class.html">DBIResult</a>.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Other arguments passed on to methods.</p>
+</td></tr>
+<tr valign="top"><td><code>n</code></td>
+<td>
+<p>maximum number of records to retrieve per fetch. Use <code>n = -1</code>
+or <code>n = Inf</code>
+to retrieve all pending records.  Some implementations may recognize other
+special values.</p>
+</td></tr>
+<tr valign="top"><td><code>dbObj</code></td>
+<td>
+<p>An object inheriting from <a href="../../DBI/html/DBIObject-class.html">DBIObject</a>,
+i.e. <a href="../../DBI/html/DBIDriver-class.html">DBIDriver</a>, <a href="../../DBI/html/DBIConnection-class.html">DBIConnection</a>,
+or a <a href="../../DBI/html/DBIResult-class.html">DBIResult</a></p>
+</td></tr>
+<tr valign="top"><td><code>params</code></td>
+<td>
+<p>A list of bindings, named or unnamed.</p>
+</td></tr>
+</table>
+
+<hr /><div style="text-align: center;">[Package <em>odbc</em> version 1.1.5 <a href="00Index.html">Index</a>]</div>
+</body></html>

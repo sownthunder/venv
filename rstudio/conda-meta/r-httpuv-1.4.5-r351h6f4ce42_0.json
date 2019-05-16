@@ -1,0 +1,369 @@
+{
+  "build": "r351h6f4ce42_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "r-bh",
+    "r-later >=0.7.3",
+    "r-promises",
+    "r-rcpp >=0.11.0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-httpuv-1.4.5-r351h6f4ce42_0",
+  "features": "",
+  "files": [
+    "lib/R/library/httpuv/DESCRIPTION",
+    "lib/R/library/httpuv/INDEX",
+    "lib/R/library/httpuv/LICENSE",
+    "lib/R/library/httpuv/MD5",
+    "lib/R/library/httpuv/Meta/Rd.rds",
+    "lib/R/library/httpuv/Meta/demo.rds",
+    "lib/R/library/httpuv/Meta/features.rds",
+    "lib/R/library/httpuv/Meta/hsearch.rds",
+    "lib/R/library/httpuv/Meta/links.rds",
+    "lib/R/library/httpuv/Meta/nsInfo.rds",
+    "lib/R/library/httpuv/Meta/package.rds",
+    "lib/R/library/httpuv/NAMESPACE",
+    "lib/R/library/httpuv/NEWS.md",
+    "lib/R/library/httpuv/R/httpuv",
+    "lib/R/library/httpuv/R/httpuv.rdb",
+    "lib/R/library/httpuv/R/httpuv.rdx",
+    "lib/R/library/httpuv/demo/daemon-echo.R",
+    "lib/R/library/httpuv/demo/echo.R",
+    "lib/R/library/httpuv/demo/json-server.R",
+    "lib/R/library/httpuv/help/AnIndex",
+    "lib/R/library/httpuv/help/aliases.rds",
+    "lib/R/library/httpuv/help/httpuv.rdb",
+    "lib/R/library/httpuv/help/httpuv.rdx",
+    "lib/R/library/httpuv/help/paths.rds",
+    "lib/R/library/httpuv/html/00Index.html",
+    "lib/R/library/httpuv/html/R.css",
+    "lib/R/library/httpuv/html/WebSocket-class.html",
+    "lib/R/library/httpuv/html/encodeURI.html",
+    "lib/R/library/httpuv/html/getRNGState.html",
+    "lib/R/library/httpuv/html/httpuv-package.html",
+    "lib/R/library/httpuv/html/interrupt.html",
+    "lib/R/library/httpuv/html/ipFamily.html",
+    "lib/R/library/httpuv/html/rawToBase64.html",
+    "lib/R/library/httpuv/html/runServer.html",
+    "lib/R/library/httpuv/html/service.html",
+    "lib/R/library/httpuv/html/startDaemonizedServer.html",
+    "lib/R/library/httpuv/html/startServer.html",
+    "lib/R/library/httpuv/html/stopAllServers.html",
+    "lib/R/library/httpuv/html/stopDaemonizedServer.html",
+    "lib/R/library/httpuv/html/stopServer.html",
+    "lib/R/library/httpuv/libs/x64/httpuv.dll"
+  ],
+  "fn": "r-httpuv-1.4.5-r351h6f4ce42_0.tar.bz2",
+  "license": "GPL (>= 2) | file LICENSE",
+  "license_family": "GPL3",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-httpuv-1.4.5-r351h6f4ce42_0",
+    "type": 1
+  },
+  "md5": "d29e98aeb7dd4b7987dddc50041b0e2d",
+  "name": "r-httpuv",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-httpuv-1.4.5-r351h6f4ce42_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/httpuv/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "11100d668229792fc6540f2965c36a12298e7f8e832e0d980a3ea61835fa67bc",
+        "sha256_in_prefix": "11100d668229792fc6540f2965c36a12298e7f8e832e0d980a3ea61835fa67bc",
+        "size_in_bytes": 1350
+      },
+      {
+        "_path": "lib/R/library/httpuv/INDEX",
+        "path_type": "hardlink",
+        "sha256": "eeae6af3590b16b566818f38448f5e56337f2613808f71d04d3639e08783a7c7",
+        "sha256_in_prefix": "eeae6af3590b16b566818f38448f5e56337f2613808f71d04d3639e08783a7c7",
+        "size_in_bytes": 771
+      },
+      {
+        "_path": "lib/R/library/httpuv/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "bc67df3f1d487626b3adcc3af16aec9554157e7a65249515d838849f77ecde16",
+        "sha256_in_prefix": "bc67df3f1d487626b3adcc3af16aec9554157e7a65249515d838849f77ecde16",
+        "size_in_bytes": 4207
+      },
+      {
+        "_path": "lib/R/library/httpuv/MD5",
+        "path_type": "hardlink",
+        "sha256": "ed5368ac998441300a675d2bfb6a9bd809f734dbdb0655358e7f0a38fef3aac6",
+        "sha256_in_prefix": "ed5368ac998441300a675d2bfb6a9bd809f734dbdb0655358e7f0a38fef3aac6",
+        "size_in_bytes": 2087
+      },
+      {
+        "_path": "lib/R/library/httpuv/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "92af5bc8793acb82ad88dc3d1d5a59a71e9a00c4e31b1f2b6b750c1a431a8e9c",
+        "sha256_in_prefix": "92af5bc8793acb82ad88dc3d1d5a59a71e9a00c4e31b1f2b6b750c1a431a8e9c",
+        "size_in_bytes": 765
+      },
+      {
+        "_path": "lib/R/library/httpuv/Meta/demo.rds",
+        "path_type": "hardlink",
+        "sha256": "90ea616ef694165b9a69d2ca016ddf8886412bc2452449d7cb57d29c4f559895",
+        "sha256_in_prefix": "90ea616ef694165b9a69d2ca016ddf8886412bc2452449d7cb57d29c4f559895",
+        "size_in_bytes": 173
+      },
+      {
+        "_path": "lib/R/library/httpuv/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/httpuv/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "26d0c642b8f81cbe5aa67e160147f51d2b3fb70b3e9ad23d31d4d192d55b93cd",
+        "sha256_in_prefix": "26d0c642b8f81cbe5aa67e160147f51d2b3fb70b3e9ad23d31d4d192d55b93cd",
+        "size_in_bytes": 738
+      },
+      {
+        "_path": "lib/R/library/httpuv/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "259bd2141361a038e6d3e7720aad2a72b31d45bd2f1b42c341f5744b334e29af",
+        "sha256_in_prefix": "259bd2141361a038e6d3e7720aad2a72b31d45bd2f1b42c341f5744b334e29af",
+        "size_in_bytes": 352
+      },
+      {
+        "_path": "lib/R/library/httpuv/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "91b696cf216e07face574b573b283fabbdfba60130e5a2d3c626978c5fb51ac4",
+        "sha256_in_prefix": "91b696cf216e07face574b573b283fabbdfba60130e5a2d3c626978c5fb51ac4",
+        "size_in_bytes": 431
+      },
+      {
+        "_path": "lib/R/library/httpuv/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "97767509fe82ec241dea89d634fca5fcabdd59c9ed4c84f3e2088bfe7490cdc4",
+        "sha256_in_prefix": "97767509fe82ec241dea89d634fca5fcabdd59c9ed4c84f3e2088bfe7490cdc4",
+        "size_in_bytes": 1283
+      },
+      {
+        "_path": "lib/R/library/httpuv/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "02b46a1a3a155d3f3ae05db5cce64af41288c8d7c32c76e638ff65e28e3ba9af",
+        "sha256_in_prefix": "02b46a1a3a155d3f3ae05db5cce64af41288c8d7c32c76e638ff65e28e3ba9af",
+        "size_in_bytes": 676
+      },
+      {
+        "_path": "lib/R/library/httpuv/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "9d7797eb8a580f4919a73ced2c05fff4255d24dace26fd1fef0602342c81a8ed",
+        "sha256_in_prefix": "9d7797eb8a580f4919a73ced2c05fff4255d24dace26fd1fef0602342c81a8ed",
+        "size_in_bytes": 8045
+      },
+      {
+        "_path": "lib/R/library/httpuv/R/httpuv",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/httpuv/R/httpuv.rdb",
+        "path_type": "hardlink",
+        "sha256": "2590656a999bfa02745c155dfe139e6bb70e11e2b35006d0178fb919869ab2b0",
+        "sha256_in_prefix": "2590656a999bfa02745c155dfe139e6bb70e11e2b35006d0178fb919869ab2b0",
+        "size_in_bytes": 124732
+      },
+      {
+        "_path": "lib/R/library/httpuv/R/httpuv.rdx",
+        "path_type": "hardlink",
+        "sha256": "e100638c4586cdaa5819d07bc6ad4fd536f60e4e0527a544d3afb7c195c6796a",
+        "sha256_in_prefix": "e100638c4586cdaa5819d07bc6ad4fd536f60e4e0527a544d3afb7c195c6796a",
+        "size_in_bytes": 1110
+      },
+      {
+        "_path": "lib/R/library/httpuv/demo/daemon-echo.R",
+        "path_type": "hardlink",
+        "sha256": "4b8fc75a8fa8b141c7f801d198726bdc5bee54804ae896e5c68265f050252be2",
+        "sha256_in_prefix": "4b8fc75a8fa8b141c7f801d198726bdc5bee54804ae896e5c68265f050252be2",
+        "size_in_bytes": 1772
+      },
+      {
+        "_path": "lib/R/library/httpuv/demo/echo.R",
+        "path_type": "hardlink",
+        "sha256": "e335a4e0df1a545e0aab6245af32c70984e6e8f14cee29b8c95a25353f46037d",
+        "sha256_in_prefix": "e335a4e0df1a545e0aab6245af32c70984e6e8f14cee29b8c95a25353f46037d",
+        "size_in_bytes": 1607
+      },
+      {
+        "_path": "lib/R/library/httpuv/demo/json-server.R",
+        "path_type": "hardlink",
+        "sha256": "eaad54027c1cf39c18e43d82a1a5af806bb1e16ecff8bd5d5c0f835740e95f95",
+        "sha256_in_prefix": "eaad54027c1cf39c18e43d82a1a5af806bb1e16ecff8bd5d5c0f835740e95f95",
+        "size_in_bytes": 623
+      },
+      {
+        "_path": "lib/R/library/httpuv/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "323f82272fdafe163b3a3a6782cd5b6bf57d8a9037ad2b147ac9a6f87bd08881",
+        "sha256_in_prefix": "323f82272fdafe163b3a3a6782cd5b6bf57d8a9037ad2b147ac9a6f87bd08881",
+        "size_in_bytes": 540
+      },
+      {
+        "_path": "lib/R/library/httpuv/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "bab5cc0bcc07b4623723232ed4aa538966b7b825ea9cc10f181a640fe75ad5c2",
+        "sha256_in_prefix": "bab5cc0bcc07b4623723232ed4aa538966b7b825ea9cc10f181a640fe75ad5c2",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "lib/R/library/httpuv/help/httpuv.rdb",
+        "path_type": "hardlink",
+        "sha256": "05fa215ac6794cf3bdd8ff8f9dd3dec0f6f0c492ae58015c64c4ee0adde24072",
+        "sha256_in_prefix": "05fa215ac6794cf3bdd8ff8f9dd3dec0f6f0c492ae58015c64c4ee0adde24072",
+        "size_in_bytes": 26396
+      },
+      {
+        "_path": "lib/R/library/httpuv/help/httpuv.rdx",
+        "path_type": "hardlink",
+        "sha256": "252847bb57705cc2beac2ee89feb3ae08d0394bd98db84a621504e7c2cb24025",
+        "sha256_in_prefix": "252847bb57705cc2beac2ee89feb3ae08d0394bd98db84a621504e7c2cb24025",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "lib/R/library/httpuv/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "242ab2f79c50e53779486bbe25011186bf363a1cc9bcbc6813a2129d3332f50d",
+        "sha256_in_prefix": "242ab2f79c50e53779486bbe25011186bf363a1cc9bcbc6813a2129d3332f50d",
+        "size_in_bytes": 296
+      },
+      {
+        "_path": "lib/R/library/httpuv/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "aacfbc50bb0f92a2e0099178185c4d3c27bdac4578de637f4d79f303508d1b78",
+        "sha256_in_prefix": "aacfbc50bb0f92a2e0099178185c4d3c27bdac4578de637f4d79f303508d1b78",
+        "size_in_bytes": 3394
+      },
+      {
+        "_path": "lib/R/library/httpuv/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/httpuv/html/WebSocket-class.html",
+        "path_type": "hardlink",
+        "sha256": "eb404ed66d2c4785430f8c8278693eee949fd43ad76c45fd97f2613162a8ed17",
+        "sha256_in_prefix": "eb404ed66d2c4785430f8c8278693eee949fd43ad76c45fd97f2613162a8ed17",
+        "size_in_bytes": 2395
+      },
+      {
+        "_path": "lib/R/library/httpuv/html/encodeURI.html",
+        "path_type": "hardlink",
+        "sha256": "55990b7128c791abceff1ba00f359181739f883660d98e2e25d8413dc22dd6a2",
+        "sha256_in_prefix": "55990b7128c791abceff1ba00f359181739f883660d98e2e25d8413dc22dd6a2",
+        "size_in_bytes": 2643
+      },
+      {
+        "_path": "lib/R/library/httpuv/html/getRNGState.html",
+        "path_type": "hardlink",
+        "sha256": "4ec66fa67e40b6717a2035d54587acdccddc91eaf1e4e1c3b9809edce6f88959",
+        "sha256_in_prefix": "4ec66fa67e40b6717a2035d54587acdccddc91eaf1e4e1c3b9809edce6f88959",
+        "size_in_bytes": 1155
+      },
+      {
+        "_path": "lib/R/library/httpuv/html/httpuv-package.html",
+        "path_type": "hardlink",
+        "sha256": "57ef083b68f59fb64f040a48d6258c035b85f778ae61b40d302b293ce4bbcbe0",
+        "sha256_in_prefix": "57ef083b68f59fb64f040a48d6258c035b85f778ae61b40d302b293ce4bbcbe0",
+        "size_in_bytes": 1599
+      },
+      {
+        "_path": "lib/R/library/httpuv/html/interrupt.html",
+        "path_type": "hardlink",
+        "sha256": "dd6db940ba43524440aad67d8f4eeb35a04201b9192e774309590aad04810be8",
+        "sha256_in_prefix": "dd6db940ba43524440aad67d8f4eeb35a04201b9192e774309590aad04810be8",
+        "size_in_bytes": 1132
+      },
+      {
+        "_path": "lib/R/library/httpuv/html/ipFamily.html",
+        "path_type": "hardlink",
+        "sha256": "a412895afaac8ae6fc717a6430ac4cdd037572c53979cc1819d08c51b786744b",
+        "sha256_in_prefix": "a412895afaac8ae6fc717a6430ac4cdd037572c53979cc1819d08c51b786744b",
+        "size_in_bytes": 1423
+      },
+      {
+        "_path": "lib/R/library/httpuv/html/rawToBase64.html",
+        "path_type": "hardlink",
+        "sha256": "173c5a900fac6f6b43f59fe592278e650e7d6b43d29b0ca9b37dfe165ea2beb4",
+        "sha256_in_prefix": "173c5a900fac6f6b43f59fe592278e650e7d6b43d29b0ca9b37dfe165ea2beb4",
+        "size_in_bytes": 1218
+      },
+      {
+        "_path": "lib/R/library/httpuv/html/runServer.html",
+        "path_type": "hardlink",
+        "sha256": "479022aaa0802867bd47a23c04389eb1fb7cc8f77d580a3fb0614ed581f2ca7e",
+        "sha256_in_prefix": "479022aaa0802867bd47a23c04389eb1fb7cc8f77d580a3fb0614ed581f2ca7e",
+        "size_in_bytes": 2638
+      },
+      {
+        "_path": "lib/R/library/httpuv/html/service.html",
+        "path_type": "hardlink",
+        "sha256": "6128282918935ff7e85c03fef7118cef0f36844c3308f5d71a8c0bf67998e0df",
+        "sha256_in_prefix": "6128282918935ff7e85c03fef7118cef0f36844c3308f5d71a8c0bf67998e0df",
+        "size_in_bytes": 2255
+      },
+      {
+        "_path": "lib/R/library/httpuv/html/startDaemonizedServer.html",
+        "path_type": "hardlink",
+        "sha256": "331968a35ada3fac7b7c7c869a63b85173d1cf58654b501f8417d6b1e90adb4e",
+        "sha256_in_prefix": "331968a35ada3fac7b7c7c869a63b85173d1cf58654b501f8417d6b1e90adb4e",
+        "size_in_bytes": 1944
+      },
+      {
+        "_path": "lib/R/library/httpuv/html/startServer.html",
+        "path_type": "hardlink",
+        "sha256": "38771cf013055e2d0d955cde5eb3d276642c77dca62c7e68007984d60e85311c",
+        "sha256_in_prefix": "38771cf013055e2d0d955cde5eb3d276642c77dca62c7e68007984d60e85311c",
+        "size_in_bytes": 6132
+      },
+      {
+        "_path": "lib/R/library/httpuv/html/stopAllServers.html",
+        "path_type": "hardlink",
+        "sha256": "9b79d8e32d55aecd607c277b289f1226378fdd7a7955d16b91e8fc646ded2157",
+        "sha256_in_prefix": "9b79d8e32d55aecd607c277b289f1226378fdd7a7955d16b91e8fc646ded2157",
+        "size_in_bytes": 1061
+      },
+      {
+        "_path": "lib/R/library/httpuv/html/stopDaemonizedServer.html",
+        "path_type": "hardlink",
+        "sha256": "9a0a0aed02caea6dbddd7e5cd77873a3e7aeae47126d965ce7a5ca842eaf3346",
+        "sha256_in_prefix": "9a0a0aed02caea6dbddd7e5cd77873a3e7aeae47126d965ce7a5ca842eaf3346",
+        "size_in_bytes": 1307
+      },
+      {
+        "_path": "lib/R/library/httpuv/html/stopServer.html",
+        "path_type": "hardlink",
+        "sha256": "007a9496b2dae9c7433c9df20318607b73746677e58d1f256574757a958f83d0",
+        "sha256_in_prefix": "007a9496b2dae9c7433c9df20318607b73746677e58d1f256574757a958f83d0",
+        "size_in_bytes": 1427
+      },
+      {
+        "_path": "lib/R/library/httpuv/libs/x64/httpuv.dll",
+        "path_type": "hardlink",
+        "sha256": "2455c0dba08869f761fbce31b3ea2329cdd9a55aac8ab7610f88660bee22e9f4",
+        "sha256_in_prefix": "2455c0dba08869f761fbce31b3ea2329cdd9a55aac8ab7610f88660bee22e9f4",
+        "size_in_bytes": 629760
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 459660,
+  "subdir": "win-64",
+  "timestamp": 1538169973656,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-httpuv-1.4.5-r351h6f4ce42_0.tar.bz2",
+  "version": "1.4.5"
+}

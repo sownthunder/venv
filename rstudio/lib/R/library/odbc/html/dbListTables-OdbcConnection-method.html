@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: List remote tables</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for dbListTables,OdbcConnection-method {odbc}"><tr><td>dbListTables,OdbcConnection-method {odbc}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>List remote tables</h2>
+
+<h3>Description</h3>
+
+<p>Returns the unquoted names of remote tables accessible through this
+connection.
+This should include views and temporary objects, but not all database backends
+(in particular <span class="pkg">RMariaDB</span> and <span class="pkg">RMySQL</span>) support this.
+</p>
+
+
+<h4>Methods in other packages</h4>
+
+
+<ul>
+<li> <p><code><a href="dbListTables-OdbcConnection-method.html">odbc::dbListTables(&quot;OdbcConnection&quot;)</a></code>
+</p>
+</li>
+<li> <p><code><a href="hidden_aliases.html">odbc::dbListTables(&quot;Teradata&quot;)</a></code>
+</p>
+</li></ul>
+
+
+
+
+<h3>Usage</h3>
+
+<pre>
+## S4 method for signature 'OdbcConnection'
+dbListTables(conn, catalog_name = NULL,
+  schema_name = NULL, table_name = NULL, table_type = NULL, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>conn</code></td>
+<td>
+<p>A <a href="../../DBI/html/DBIConnection-class.html">DBIConnection</a> object, as returned by
+<code><a href="dbConnect-OdbcDriver-method.html">dbConnect()</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>catalog_name</code></td>
+<td>
+<p>The name of the catalog to return, the default returns all catalogs.</p>
+</td></tr>
+<tr valign="top"><td><code>schema_name</code></td>
+<td>
+<p>The name of the schema to return, the default returns all schemas.</p>
+</td></tr>
+<tr valign="top"><td><code>table_name</code></td>
+<td>
+<p>The name of the table to return, the default returns all tables.</p>
+</td></tr>
+<tr valign="top"><td><code>table_type</code></td>
+<td>
+<p>The type of the table to return, the default returns all table types.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Other parameters passed on to methods.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p><code>%</code> can be used as a wildcard in any of the search parameters to
+match 0 or more characters. <code>_</code> can be used to match any single character.
+</p>
+
+
+<h3>Value</h3>
+
+<p><code>dbListTables()</code>
+returns a character vector
+that enumerates all tables
+and views
+in the database.
+Tables added with <code><a href="../../DBI/html/dbWriteTable.html">dbWriteTable()</a></code>
+are part of the list,
+including temporary tables if supported by the database.
+As soon a table is removed from the database,
+it is also removed from the list of database tables.
+</p>
+<p>The returned names are suitable for quoting with <code>dbQuoteIdentifier()</code>.
+An error is raised when calling this method for a closed
+or invalid connection.
+</p>
+
+
+<h3>Additional arguments</h3>
+
+<p>TBD: <code>temporary = NA</code>
+</p>
+<p>This must be provided as named argument.
+See the &quot;Specification&quot; section for details on their usage.
+</p>
+
+
+<h3>See Also</h3>
+
+<p>The ODBC documentation on <a href="https://docs.microsoft.com/en-us/sql/odbc/reference/develop-app/pattern-value-arguments">Pattern Value Arguments</a>
+for further details on the supported syntax.
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>odbc</em> version 1.1.5 <a href="00Index.html">Index</a>]</div>
+</body></html>

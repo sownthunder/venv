@@ -1,0 +1,319 @@
+{
+  "build": "r351h6f4ce42_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "m2w64-openssl",
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "r-base64enc",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-pki-0.1_5.1-r351h6f4ce42_0",
+  "features": "",
+  "files": [
+    "lib/R/library/PKI/DESCRIPTION",
+    "lib/R/library/PKI/INDEX",
+    "lib/R/library/PKI/LICENSE",
+    "lib/R/library/PKI/MD5",
+    "lib/R/library/PKI/Meta/Rd.rds",
+    "lib/R/library/PKI/Meta/features.rds",
+    "lib/R/library/PKI/Meta/hsearch.rds",
+    "lib/R/library/PKI/Meta/links.rds",
+    "lib/R/library/PKI/Meta/nsInfo.rds",
+    "lib/R/library/PKI/Meta/package.rds",
+    "lib/R/library/PKI/NAMESPACE",
+    "lib/R/library/PKI/NEWS",
+    "lib/R/library/PKI/R/PKI",
+    "lib/R/library/PKI/R/PKI.rdb",
+    "lib/R/library/PKI/R/PKI.rdx",
+    "lib/R/library/PKI/certs/RForge-ca.crt",
+    "lib/R/library/PKI/certs/demo.crt",
+    "lib/R/library/PKI/help/AnIndex",
+    "lib/R/library/PKI/help/PKI.rdb",
+    "lib/R/library/PKI/help/PKI.rdx",
+    "lib/R/library/PKI/help/aliases.rds",
+    "lib/R/library/PKI/help/paths.rds",
+    "lib/R/library/PKI/html/00Index.html",
+    "lib/R/library/PKI/html/ASN1.html",
+    "lib/R/library/PKI/html/BIGNUMint.html",
+    "lib/R/library/PKI/html/PKI.crypt.html",
+    "lib/R/library/PKI/html/PKI.digest.html",
+    "lib/R/library/PKI/html/PKI.random.html",
+    "lib/R/library/PKI/html/PKI.sign.html",
+    "lib/R/library/PKI/html/PKI.sign.tar.html",
+    "lib/R/library/PKI/html/R.css",
+    "lib/R/library/PKI/html/RSA.html",
+    "lib/R/library/PKI/html/X509.html",
+    "lib/R/library/PKI/html/raw2hex.html",
+    "lib/R/library/PKI/libs/x64/PKI.dll"
+  ],
+  "fn": "r-pki-0.1_5.1-r351h6f4ce42_0.tar.bz2",
+  "license": "GPL-2 | GPL-3 | file LICENSE",
+  "license_family": "GPL3",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-pki-0.1_5.1-r351h6f4ce42_0",
+    "type": 1
+  },
+  "md5": "558c3fd47deed3d22ef3c76b3b50235e",
+  "name": "r-pki",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-pki-0.1_5.1-r351h6f4ce42_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/PKI/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "7bcf9244dbb460f3a74a3c4f6dffac4de1ac1501eef2735bad831cea470fa893",
+        "sha256_in_prefix": "7bcf9244dbb460f3a74a3c4f6dffac4de1ac1501eef2735bad831cea470fa893",
+        "size_in_bytes": 753
+      },
+      {
+        "_path": "lib/R/library/PKI/INDEX",
+        "path_type": "hardlink",
+        "sha256": "23a72063e9d60e8b71aab2a5ed0e16a368c12d81a3c040f0422171f059f0c067",
+        "sha256_in_prefix": "23a72063e9d60e8b71aab2a5ed0e16a368c12d81a3c040f0422171f059f0c067",
+        "size_in_bytes": 865
+      },
+      {
+        "_path": "lib/R/library/PKI/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "aa81392d89fe40d07deab4d55b184d53a6faf74aad0fa2d7f00e502b6c4e587b",
+        "sha256_in_prefix": "aa81392d89fe40d07deab4d55b184d53a6faf74aad0fa2d7f00e502b6c4e587b",
+        "size_in_bytes": 16851
+      },
+      {
+        "_path": "lib/R/library/PKI/MD5",
+        "path_type": "hardlink",
+        "sha256": "ec4f87e590c49ea6a44da576ff3d28fe18d3f86f4780f83ecaea5a6cb7d6ae3b",
+        "sha256_in_prefix": "ec4f87e590c49ea6a44da576ff3d28fe18d3f86f4780f83ecaea5a6cb7d6ae3b",
+        "size_in_bytes": 1690
+      },
+      {
+        "_path": "lib/R/library/PKI/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "1a5f10ba71e8210c32f2307c0dac41c72807f8b76a1d92ca3ae1ec35eea69d4d",
+        "sha256_in_prefix": "1a5f10ba71e8210c32f2307c0dac41c72807f8b76a1d92ca3ae1ec35eea69d4d",
+        "size_in_bytes": 772
+      },
+      {
+        "_path": "lib/R/library/PKI/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/PKI/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "03f7018372f627e63e3815b0946752624f3328fe72f3ea4799171ecece6b1c39",
+        "sha256_in_prefix": "03f7018372f627e63e3815b0946752624f3328fe72f3ea4799171ecece6b1c39",
+        "size_in_bytes": 803
+      },
+      {
+        "_path": "lib/R/library/PKI/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "d62b094e19d3905f843e47d901d2ae37351fde5bebff61ce53df2e975f54b68c",
+        "sha256_in_prefix": "d62b094e19d3905f843e47d901d2ae37351fde5bebff61ce53df2e975f54b68c",
+        "size_in_bytes": 357
+      },
+      {
+        "_path": "lib/R/library/PKI/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "dad5838832bd6eba40f260cf2f84ff7ffeb9efa29da97ba30b5f3e9e4e4c5414",
+        "sha256_in_prefix": "dad5838832bd6eba40f260cf2f84ff7ffeb9efa29da97ba30b5f3e9e4e4c5414",
+        "size_in_bytes": 583
+      },
+      {
+        "_path": "lib/R/library/PKI/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "eb4d94824fb64cd71ea2760c775c09efc1b6c8551ed4a7c66e7ae84f4a6eeeae",
+        "sha256_in_prefix": "eb4d94824fb64cd71ea2760c775c09efc1b6c8551ed4a7c66e7ae84f4a6eeeae",
+        "size_in_bytes": 846
+      },
+      {
+        "_path": "lib/R/library/PKI/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "0ad89654967e08a4d3a85a841d77f45a94d5db42d5423eb8615381366bb959e1",
+        "sha256_in_prefix": "0ad89654967e08a4d3a85a841d77f45a94d5db42d5423eb8615381366bb959e1",
+        "size_in_bytes": 641
+      },
+      {
+        "_path": "lib/R/library/PKI/NEWS",
+        "path_type": "hardlink",
+        "sha256": "1fde38d28faf307c609b3223cec02dd9f8724e55941ce30291d2341edc593739",
+        "sha256_in_prefix": "1fde38d28faf307c609b3223cec02dd9f8724e55941ce30291d2341edc593739",
+        "size_in_bytes": 2581
+      },
+      {
+        "_path": "lib/R/library/PKI/R/PKI",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/PKI/R/PKI.rdb",
+        "path_type": "hardlink",
+        "sha256": "34468b0dceb6022b7c83589e4197bf80507c7b9d4042d00d6585fedfcec48faa",
+        "sha256_in_prefix": "34468b0dceb6022b7c83589e4197bf80507c7b9d4042d00d6585fedfcec48faa",
+        "size_in_bytes": 26404
+      },
+      {
+        "_path": "lib/R/library/PKI/R/PKI.rdx",
+        "path_type": "hardlink",
+        "sha256": "80b9bfa902e11799e6c31ecd3f924b94688cf8da79025af55e6b572f403baa16",
+        "sha256_in_prefix": "80b9bfa902e11799e6c31ecd3f924b94688cf8da79025af55e6b572f403baa16",
+        "size_in_bytes": 623
+      },
+      {
+        "_path": "lib/R/library/PKI/certs/RForge-ca.crt",
+        "path_type": "hardlink",
+        "sha256": "d7cccac5591ea5b953f34a6ef4b245144a521c979fb9774fa86d891a38009d46",
+        "sha256_in_prefix": "d7cccac5591ea5b953f34a6ef4b245144a521c979fb9774fa86d891a38009d46",
+        "size_in_bytes": 1554
+      },
+      {
+        "_path": "lib/R/library/PKI/certs/demo.crt",
+        "path_type": "hardlink",
+        "sha256": "ea47bc496fe52ef1fbc3351d637d544ce96d992c864c6c08d29a7a01194ec5be",
+        "sha256_in_prefix": "ea47bc496fe52ef1fbc3351d637d544ce96d992c864c6c08d29a7a01194ec5be",
+        "size_in_bytes": 4531
+      },
+      {
+        "_path": "lib/R/library/PKI/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "57194803a7416723c666e9d43aa9a26ea654a69f220dbbac1e10dc00779b82b2",
+        "sha256_in_prefix": "57194803a7416723c666e9d43aa9a26ea654a69f220dbbac1e10dc00779b82b2",
+        "size_in_bytes": 553
+      },
+      {
+        "_path": "lib/R/library/PKI/help/PKI.rdb",
+        "path_type": "hardlink",
+        "sha256": "0f6ecb8ba1a5c8d541361bf891217b88ab6c9b421de90c6c816c2563c66c3135",
+        "sha256_in_prefix": "0f6ecb8ba1a5c8d541361bf891217b88ab6c9b421de90c6c816c2563c66c3135",
+        "size_in_bytes": 29142
+      },
+      {
+        "_path": "lib/R/library/PKI/help/PKI.rdx",
+        "path_type": "hardlink",
+        "sha256": "60416f3b3cfa0e31745df79131b90c8c84447d85c68f9dea6ae879951014dde9",
+        "sha256_in_prefix": "60416f3b3cfa0e31745df79131b90c8c84447d85c68f9dea6ae879951014dde9",
+        "size_in_bytes": 377
+      },
+      {
+        "_path": "lib/R/library/PKI/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "364fe25203461637161d14d8af6a2fd60d90f163098ecef7e45d7f357e3e41c0",
+        "sha256_in_prefix": "364fe25203461637161d14d8af6a2fd60d90f163098ecef7e45d7f357e3e41c0",
+        "size_in_bytes": 309
+      },
+      {
+        "_path": "lib/R/library/PKI/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "33ee8fb21113d4a49f494621ff3da89559bd62470d6be61ecc01bcbb3bc2c7a0",
+        "sha256_in_prefix": "33ee8fb21113d4a49f494621ff3da89559bd62470d6be61ecc01bcbb3bc2c7a0",
+        "size_in_bytes": 225
+      },
+      {
+        "_path": "lib/R/library/PKI/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "deb418454a078ec068e0488b1aa15cda674461074039d538de85554e62dabf7e",
+        "sha256_in_prefix": "deb418454a078ec068e0488b1aa15cda674461074039d538de85554e62dabf7e",
+        "size_in_bytes": 4754
+      },
+      {
+        "_path": "lib/R/library/PKI/html/ASN1.html",
+        "path_type": "hardlink",
+        "sha256": "4d38bce39849c4804d6cbf0b8ccc8bf4df2b6f3b66111b98f904b50af0a4573a",
+        "sha256_in_prefix": "4d38bce39849c4804d6cbf0b8ccc8bf4df2b6f3b66111b98f904b50af0a4573a",
+        "size_in_bytes": 3814
+      },
+      {
+        "_path": "lib/R/library/PKI/html/BIGNUMint.html",
+        "path_type": "hardlink",
+        "sha256": "f716381a489d70ee1d76de13b81f741b5c3f667fc89819e8fd566bf1d3df2275",
+        "sha256_in_prefix": "f716381a489d70ee1d76de13b81f741b5c3f667fc89819e8fd566bf1d3df2275",
+        "size_in_bytes": 2205
+      },
+      {
+        "_path": "lib/R/library/PKI/html/PKI.crypt.html",
+        "path_type": "hardlink",
+        "sha256": "a12d5dd97edc92946f158fc0de6f75fa4ab5d5624d70b36f2c4fc59854aa9301",
+        "sha256_in_prefix": "a12d5dd97edc92946f158fc0de6f75fa4ab5d5624d70b36f2c4fc59854aa9301",
+        "size_in_bytes": 3447
+      },
+      {
+        "_path": "lib/R/library/PKI/html/PKI.digest.html",
+        "path_type": "hardlink",
+        "sha256": "8c9eabfdcb75e796b157f4d16f39fcaca43f5b703fc80a932263517b9104a77a",
+        "sha256_in_prefix": "8c9eabfdcb75e796b157f4d16f39fcaca43f5b703fc80a932263517b9104a77a",
+        "size_in_bytes": 1583
+      },
+      {
+        "_path": "lib/R/library/PKI/html/PKI.random.html",
+        "path_type": "hardlink",
+        "sha256": "a445159fe2a8096ddfc44fe3b9bac4f852199c90713ebe30466c141a56e1fbe7",
+        "sha256_in_prefix": "a445159fe2a8096ddfc44fe3b9bac4f852199c90713ebe30466c141a56e1fbe7",
+        "size_in_bytes": 1596
+      },
+      {
+        "_path": "lib/R/library/PKI/html/PKI.sign.html",
+        "path_type": "hardlink",
+        "sha256": "1aaba3d140cbb0fede89626691072b1b74594a00819c5bd1f4c288bde53b000f",
+        "sha256_in_prefix": "1aaba3d140cbb0fede89626691072b1b74594a00819c5bd1f4c288bde53b000f",
+        "size_in_bytes": 3011
+      },
+      {
+        "_path": "lib/R/library/PKI/html/PKI.sign.tar.html",
+        "path_type": "hardlink",
+        "sha256": "b247b06c63bacab0a1b1528d1472ad9e7d10a3d63ba84568bf3bf301128868f3",
+        "sha256_in_prefix": "b247b06c63bacab0a1b1528d1472ad9e7d10a3d63ba84568bf3bf301128868f3",
+        "size_in_bytes": 4288
+      },
+      {
+        "_path": "lib/R/library/PKI/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/PKI/html/RSA.html",
+        "path_type": "hardlink",
+        "sha256": "72c93cfc8042051b7c6b0871fc7b85eb49bde9b637bc2f6a33c53f6f9fe5d57a",
+        "sha256_in_prefix": "72c93cfc8042051b7c6b0871fc7b85eb49bde9b637bc2f6a33c53f6f9fe5d57a",
+        "size_in_bytes": 6225
+      },
+      {
+        "_path": "lib/R/library/PKI/html/X509.html",
+        "path_type": "hardlink",
+        "sha256": "6da8af0ec5590b710da964c7c204fc7d4e3f87f9cc78b576bdf8738f1f1e3901",
+        "sha256_in_prefix": "6da8af0ec5590b710da964c7c204fc7d4e3f87f9cc78b576bdf8738f1f1e3901",
+        "size_in_bytes": 2948
+      },
+      {
+        "_path": "lib/R/library/PKI/html/raw2hex.html",
+        "path_type": "hardlink",
+        "sha256": "a99451a924a0916364ceb89c8e97b67577b358193fb8aa3fe1b8eec106058fc3",
+        "sha256_in_prefix": "a99451a924a0916364ceb89c8e97b67577b358193fb8aa3fe1b8eec106058fc3",
+        "size_in_bytes": 2228
+      },
+      {
+        "_path": "lib/R/library/PKI/libs/x64/PKI.dll",
+        "path_type": "hardlink",
+        "sha256": "8d42e10c2af89ea855f53499ac14817d785ac8461118aa481b7ce8718159b2a5",
+        "sha256_in_prefix": "8d42e10c2af89ea855f53499ac14817d785ac8461118aa481b7ce8718159b2a5",
+        "size_in_bytes": 1486336
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 752318,
+  "subdir": "win-64",
+  "timestamp": 1538173961726,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-pki-0.1_5.1-r351h6f4ce42_0.tar.bz2",
+  "version": "0.1_5.1"
+}

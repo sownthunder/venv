@@ -1,0 +1,1451 @@
+{
+  "build": "2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-openssl",
+    "m2w64-zlib",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-libssh2-1.7.0-2",
+  "features": "",
+  "files": [
+    "Library/mingw-w64/bin/libssh2-1.dll",
+    "Library/mingw-w64/include/libssh2.h",
+    "Library/mingw-w64/include/libssh2_publickey.h",
+    "Library/mingw-w64/include/libssh2_sftp.h",
+    "Library/mingw-w64/lib/libssh2.a",
+    "Library/mingw-w64/lib/libssh2.dll.a",
+    "Library/mingw-w64/lib/pkgconfig/libssh2.pc",
+    "Library/mingw-w64/share/licenses/libssh2/LICENSE",
+    "Library/mingw-w64/share/man/man3/libssh2_agent_connect.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_agent_disconnect.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_agent_free.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_agent_get_identity.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_agent_init.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_agent_list_identities.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_agent_userauth.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_banner_set.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_base64_decode.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_close.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_direct_tcpip.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_direct_tcpip_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_eof.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_exec.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_flush.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_flush_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_flush_stderr.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_forward_accept.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_forward_cancel.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_forward_listen.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_forward_listen_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_free.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_get_exit_signal.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_get_exit_status.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_handle_extended_data.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_handle_extended_data2.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_ignore_extended_data.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_open_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_open_session.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_process_startup.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_read.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_read_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_read_stderr.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_receive_window_adjust.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_receive_window_adjust2.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_request_pty.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_request_pty_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_request_pty_size.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_request_pty_size_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_send_eof.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_set_blocking.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_setenv.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_setenv_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_shell.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_subsystem.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_wait_closed.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_wait_eof.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_window_read.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_window_read_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_window_write.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_window_write_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_write.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_write_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_write_stderr.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_x11_req.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_channel_x11_req_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_exit.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_free.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_hostkey_hash.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_init.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_keepalive_config.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_keepalive_send.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_knownhost_add.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_knownhost_addc.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_knownhost_check.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_knownhost_checkp.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_knownhost_del.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_knownhost_free.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_knownhost_get.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_knownhost_init.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_knownhost_readfile.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_knownhost_readline.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_knownhost_writefile.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_knownhost_writeline.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_poll.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_poll_channel_read.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_publickey_add.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_publickey_add_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_publickey_init.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_publickey_list_fetch.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_publickey_list_free.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_publickey_remove.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_publickey_remove_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_publickey_shutdown.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_scp_recv.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_scp_recv2.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_scp_send.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_scp_send64.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_scp_send_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_abstract.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_banner_get.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_banner_set.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_block_directions.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_callback_set.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_disconnect.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_disconnect_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_flag.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_free.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_get_blocking.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_get_timeout.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_handshake.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_hostkey.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_init.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_init_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_last_errno.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_last_error.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_method_pref.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_methods.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_set_blocking.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_set_last_error.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_set_timeout.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_startup.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_session_supported_algs.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_close.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_close_handle.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_closedir.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_fsetstat.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_fstat.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_fstat_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_fstatvfs.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_fsync.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_get_channel.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_init.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_last_error.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_lstat.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_mkdir.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_mkdir_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_open.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_open_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_opendir.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_read.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_readdir.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_readdir_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_readlink.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_realpath.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_rename.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_rename_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_rewind.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_rmdir.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_rmdir_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_seek.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_seek64.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_setstat.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_shutdown.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_stat.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_stat_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_statvfs.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_symlink.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_symlink_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_tell.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_tell64.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_unlink.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_unlink_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_sftp_write.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_trace.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_trace_sethandler.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_userauth_authenticated.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_userauth_hostbased_fromfile.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_userauth_hostbased_fromfile_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_userauth_keyboard_interactive.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_userauth_keyboard_interactive_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_userauth_list.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_userauth_password.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_userauth_password_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_userauth_publickey.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_userauth_publickey_fromfile.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_userauth_publickey_fromfile_ex.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_userauth_publickey_frommemory.3.gz",
+    "Library/mingw-w64/share/man/man3/libssh2_version.3.gz"
+  ],
+  "fn": "m2w64-libssh2-1.7.0-2.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-libssh2-1.7.0-2",
+    "type": 1
+  },
+  "md5": "16d57277188bfc7a36190da4194f0da2",
+  "name": "m2w64-libssh2",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-libssh2-1.7.0-2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/mingw-w64/bin/libssh2-1.dll",
+        "path_type": "hardlink",
+        "sha256": "2da739019533e267c96fa56b45297f571c030493c6729fd7442900d83df1a850",
+        "sha256_in_prefix": "2da739019533e267c96fa56b45297f571c030493c6729fd7442900d83df1a850",
+        "size_in_bytes": 200058
+      },
+      {
+        "_path": "Library/mingw-w64/include/libssh2.h",
+        "path_type": "hardlink",
+        "sha256": "6793f8809b09f67f38d4fb7432af7fe9ca659b0b9ee29b4e94ea902169d6d1b2",
+        "sha256_in_prefix": "6793f8809b09f67f38d4fb7432af7fe9ca659b0b9ee29b4e94ea902169d6d1b2",
+        "size_in_bytes": 52029
+      },
+      {
+        "_path": "Library/mingw-w64/include/libssh2_publickey.h",
+        "path_type": "hardlink",
+        "sha256": "7183d9221c88637ca448c7aba01dd7d68c862f9efad4218d24c5afc66f5712da",
+        "sha256_in_prefix": "7183d9221c88637ca448c7aba01dd7d68c862f9efad4218d24c5afc66f5712da",
+        "size_in_bytes": 4913
+      },
+      {
+        "_path": "Library/mingw-w64/include/libssh2_sftp.h",
+        "path_type": "hardlink",
+        "sha256": "5d49ff0c838d253980eca2b34001ae457c3c2bf08e732ac9c9d0c6633d63a07f",
+        "sha256_in_prefix": "5d49ff0c838d253980eca2b34001ae457c3c2bf08e732ac9c9d0c6633d63a07f",
+        "size_in_bytes": 15716
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libssh2.a",
+        "path_type": "hardlink",
+        "sha256": "704c922353b228fc2f15c93bd5fa1491d242e92d909ae8cdf0a8c41f76ee5c6d",
+        "sha256_in_prefix": "704c922353b228fc2f15c93bd5fa1491d242e92d909ae8cdf0a8c41f76ee5c6d",
+        "size_in_bytes": 228980
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libssh2.dll.a",
+        "path_type": "hardlink",
+        "sha256": "8fcac977a21f365c4d2cb5debbd106207527246217fd7566aa664cb01ef2e61c",
+        "sha256_in_prefix": "8fcac977a21f365c4d2cb5debbd106207527246217fd7566aa664cb01ef2e61c",
+        "size_in_bytes": 84704
+      },
+      {
+        "_path": "Library/mingw-w64/lib/pkgconfig/libssh2.pc",
+        "path_type": "hardlink",
+        "sha256": "67c5d0780bf2a7767e3d7af9a6547c2a9a12d03663968046b8411fdc136649bf",
+        "sha256_in_prefix": "67c5d0780bf2a7767e3d7af9a6547c2a9a12d03663968046b8411fdc136649bf",
+        "size_in_bytes": 508
+      },
+      {
+        "_path": "Library/mingw-w64/share/licenses/libssh2/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "e15ed284a15e80115467d6d7f030f0d89d8fabbecd78fb6e0f861f0cfc128fd9",
+        "sha256_in_prefix": "e15ed284a15e80115467d6d7f030f0d89d8fabbecd78fb6e0f861f0cfc128fd9",
+        "size_in_bytes": 1886
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_agent_connect.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5db4d7fb77fa51e5899a48d39ab99133a549832c12bc2c27cb843b8ee5c91458",
+        "sha256_in_prefix": "5db4d7fb77fa51e5899a48d39ab99133a549832c12bc2c27cb843b8ee5c91458",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_agent_disconnect.3.gz",
+        "path_type": "hardlink",
+        "sha256": "15cf1cbad72ca6eb5adb21e30b844b871142dfcaac2819401d56727fc38cf775",
+        "sha256_in_prefix": "15cf1cbad72ca6eb5adb21e30b844b871142dfcaac2819401d56727fc38cf775",
+        "size_in_bytes": 312
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_agent_free.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5b2d37abb5a0c03384cdff3fc5011199e800d945cdb325800369aab54031e2e1",
+        "sha256_in_prefix": "5b2d37abb5a0c03384cdff3fc5011199e800d945cdb325800369aab54031e2e1",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_agent_get_identity.3.gz",
+        "path_type": "hardlink",
+        "sha256": "98c039af08a2dd923c5e8740244fa4d23256ad59cadceed05525d3c7092a6ca4",
+        "sha256_in_prefix": "98c039af08a2dd923c5e8740244fa4d23256ad59cadceed05525d3c7092a6ca4",
+        "size_in_bytes": 575
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_agent_init.3.gz",
+        "path_type": "hardlink",
+        "sha256": "874cb5c64807163c2e4f0bea864eb065c54c0d8b955d5a06f97f7f6634a51d51",
+        "sha256_in_prefix": "874cb5c64807163c2e4f0bea864eb065c54c0d8b955d5a06f97f7f6634a51d51",
+        "size_in_bytes": 485
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_agent_list_identities.3.gz",
+        "path_type": "hardlink",
+        "sha256": "df8d642a64a9777b761943c471b0ea3186ef0fa4dc478a6e4b218144efbdd42f",
+        "sha256_in_prefix": "df8d642a64a9777b761943c471b0ea3186ef0fa4dc478a6e4b218144efbdd42f",
+        "size_in_bytes": 399
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_agent_userauth.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4212210e810f1907a9d46bb25985b165e74dd83357c8736eacedd1a17ecd9d1b",
+        "sha256_in_prefix": "4212210e810f1907a9d46bb25985b165e74dd83357c8736eacedd1a17ecd9d1b",
+        "size_in_bytes": 453
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_banner_set.3.gz",
+        "path_type": "hardlink",
+        "sha256": "74ccf0c68c7681041ccea14d7d956c3b09a083dbd478e22b535db01db5ceec2f",
+        "sha256_in_prefix": "74ccf0c68c7681041ccea14d7d956c3b09a083dbd478e22b535db01db5ceec2f",
+        "size_in_bytes": 616
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_base64_decode.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9d349d2a9f933ea55f77910316491a459d1ae2366890c049c9310d81a7c8712d",
+        "sha256_in_prefix": "9d349d2a9f933ea55f77910316491a459d1ae2366890c049c9310d81a7c8712d",
+        "size_in_bytes": 530
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_close.3.gz",
+        "path_type": "hardlink",
+        "sha256": "758c54fb4ad8759464128770f7934381f1cbdcb3060fd0886b657d9e1375c020",
+        "sha256_in_prefix": "758c54fb4ad8759464128770f7934381f1cbdcb3060fd0886b657d9e1375c020",
+        "size_in_bytes": 576
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_direct_tcpip.3.gz",
+        "path_type": "hardlink",
+        "sha256": "feb51f407c391eb2c9bc234048ce0e79f8118f56a216cff24e564fdbaeda72f0",
+        "sha256_in_prefix": "feb51f407c391eb2c9bc234048ce0e79f8118f56a216cff24e564fdbaeda72f0",
+        "size_in_bytes": 328
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_direct_tcpip_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "00b6859e92f02ce93e2ac47e8321673110f007e04effcac4cd85af58a5c3f4c3",
+        "sha256_in_prefix": "00b6859e92f02ce93e2ac47e8321673110f007e04effcac4cd85af58a5c3f4c3",
+        "size_in_bytes": 565
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_eof.3.gz",
+        "path_type": "hardlink",
+        "sha256": "afd5c3e4fc43f4efb1c61faee747ece94997579d59ae93720af7cbe5fa12c52f",
+        "sha256_in_prefix": "afd5c3e4fc43f4efb1c61faee747ece94997579d59ae93720af7cbe5fa12c52f",
+        "size_in_bytes": 318
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_exec.3.gz",
+        "path_type": "hardlink",
+        "sha256": "88a944446ac2bc6261e60d36deb7310b33b7e9e5a80b042b7f22c91b3ac62f1f",
+        "sha256_in_prefix": "88a944446ac2bc6261e60d36deb7310b33b7e9e5a80b042b7f22c91b3ac62f1f",
+        "size_in_bytes": 318
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_flush.3.gz",
+        "path_type": "hardlink",
+        "sha256": "1e9c32d3f9583578844f997171deadb1b9806a0895bf5070c207fdfed3dbba6e",
+        "sha256_in_prefix": "1e9c32d3f9583578844f997171deadb1b9806a0895bf5070c207fdfed3dbba6e",
+        "size_in_bytes": 296
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_flush_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c4cf86c4c2a9c1ceb30027c7932b862e88aada86e6d268ffa5125564257093d9",
+        "sha256_in_prefix": "c4cf86c4c2a9c1ceb30027c7932b862e88aada86e6d268ffa5125564257093d9",
+        "size_in_bytes": 517
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_flush_stderr.3.gz",
+        "path_type": "hardlink",
+        "sha256": "de8be5604125d106e87df7797ccb47374d9c6c449879fe506a3aacb0294b7a73",
+        "sha256_in_prefix": "de8be5604125d106e87df7797ccb47374d9c6c449879fe506a3aacb0294b7a73",
+        "size_in_bytes": 300
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_forward_accept.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4af2b465e51fe288208f7803d85c00e953ed49e4f471e5e2060cbd224b88e4fe",
+        "sha256_in_prefix": "4af2b465e51fe288208f7803d85c00e953ed49e4f471e5e2060cbd224b88e4fe",
+        "size_in_bytes": 426
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_forward_cancel.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4139d87ee70f11108ae943f259676e8c9d04ef4eda57cef590b666a639776cc8",
+        "sha256_in_prefix": "4139d87ee70f11108ae943f259676e8c9d04ef4eda57cef590b666a639776cc8",
+        "size_in_bytes": 494
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_forward_listen.3.gz",
+        "path_type": "hardlink",
+        "sha256": "91131dbd1e97d5e3889b4de9918042894ca8d6a2c65b4df4fb76daf4d25e145b",
+        "sha256_in_prefix": "91131dbd1e97d5e3889b4de9918042894ca8d6a2c65b4df4fb76daf4d25e145b",
+        "size_in_bytes": 311
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_forward_listen_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "3bf18ca4ec59becbf7b4a4eb07faa194a419557002d9c67e13e0f346a5efa9a1",
+        "sha256_in_prefix": "3bf18ca4ec59becbf7b4a4eb07faa194a419557002d9c67e13e0f346a5efa9a1",
+        "size_in_bytes": 833
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_free.3.gz",
+        "path_type": "hardlink",
+        "sha256": "396a4a2742be024ce008fef97a7730526d035495e2d23a3870e32dee24d15e34",
+        "sha256_in_prefix": "396a4a2742be024ce008fef97a7730526d035495e2d23a3870e32dee24d15e34",
+        "size_in_bytes": 442
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_get_exit_signal.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5fcd0f2e24149ded3823b5213228605f52c8447f61e2df2279d9756f128a3c1a",
+        "sha256_in_prefix": "5fcd0f2e24149ded3823b5213228605f52c8447f61e2df2279d9756f128a3c1a",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_get_exit_status.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8443e40b3851de1c800f9e81e9edcb806fcc79cce78e81a6b55bd98efa78cbe7",
+        "sha256_in_prefix": "8443e40b3851de1c800f9e81e9edcb806fcc79cce78e81a6b55bd98efa78cbe7",
+        "size_in_bytes": 374
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_handle_extended_data.3.gz",
+        "path_type": "hardlink",
+        "sha256": "ff5de97158651ec86178fadec7decb4337de1409515e8f85ec938a9c53b9c8b5",
+        "sha256_in_prefix": "ff5de97158651ec86178fadec7decb4337de1409515e8f85ec938a9c53b9c8b5",
+        "size_in_bytes": 565
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_handle_extended_data2.3.gz",
+        "path_type": "hardlink",
+        "sha256": "d38f1b625bf45b5b7b5526acf5a530ae59c091795607da2a5d12ab74616cc733",
+        "sha256_in_prefix": "d38f1b625bf45b5b7b5526acf5a530ae59c091795607da2a5d12ab74616cc733",
+        "size_in_bytes": 571
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_ignore_extended_data.3.gz",
+        "path_type": "hardlink",
+        "sha256": "b24bb50b63b5dadad9470dd9c402a5558e62beac264d2b00775a537b8a39ccf2",
+        "sha256_in_prefix": "b24bb50b63b5dadad9470dd9c402a5558e62beac264d2b00775a537b8a39ccf2",
+        "size_in_bytes": 329
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_open_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "47d3ec7a9507e547b0deecae4d5a47e61d3b9064dba0588f904663327b3d2bbb",
+        "sha256_in_prefix": "47d3ec7a9507e547b0deecae4d5a47e61d3b9064dba0588f904663327b3d2bbb",
+        "size_in_bytes": 886
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_open_session.3.gz",
+        "path_type": "hardlink",
+        "sha256": "ddb3a8e19370258cd2e7acba5cea282e2d764c822c2158ed1184fe7c58202cf4",
+        "sha256_in_prefix": "ddb3a8e19370258cd2e7acba5cea282e2d764c822c2158ed1184fe7c58202cf4",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_process_startup.3.gz",
+        "path_type": "hardlink",
+        "sha256": "28bdeb54f73a25eaa1f2d04005c403dd34d27124a00766007622253babe99ae9",
+        "sha256_in_prefix": "28bdeb54f73a25eaa1f2d04005c403dd34d27124a00766007622253babe99ae9",
+        "size_in_bytes": 646
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_read.3.gz",
+        "path_type": "hardlink",
+        "sha256": "89d625b1a5d70bd75f4e94b4a67a28e6473a148d6f21571b05309ac71b66343d",
+        "sha256_in_prefix": "89d625b1a5d70bd75f4e94b4a67a28e6473a148d6f21571b05309ac71b66343d",
+        "size_in_bytes": 312
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_read_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "07681ed5a7760e51e494672598897ce823b781163fb208820484539bf34c9e90",
+        "sha256_in_prefix": "07681ed5a7760e51e494672598897ce823b781163fb208820484539bf34c9e90",
+        "size_in_bytes": 776
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_read_stderr.3.gz",
+        "path_type": "hardlink",
+        "sha256": "183f2eda20b21e12763a1d0f447af76961faf4bf7556b8ec5e685e0c9b753c48",
+        "sha256_in_prefix": "183f2eda20b21e12763a1d0f447af76961faf4bf7556b8ec5e685e0c9b753c48",
+        "size_in_bytes": 318
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_receive_window_adjust.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c3fb944c337fff1e148620698f8e738e893323da61cc7306388f4bcd2693cef9",
+        "sha256_in_prefix": "c3fb944c337fff1e148620698f8e738e893323da61cc7306388f4bcd2693cef9",
+        "size_in_bytes": 642
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_receive_window_adjust2.3.gz",
+        "path_type": "hardlink",
+        "sha256": "63208f16c1569925a5784d30a56ba4f4730937a65be1bdd697f2631b3f447660",
+        "sha256_in_prefix": "63208f16c1569925a5784d30a56ba4f4730937a65be1bdd697f2631b3f447660",
+        "size_in_bytes": 556
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_request_pty.3.gz",
+        "path_type": "hardlink",
+        "sha256": "ceb7d53a8c6b6d74309a9636476529a5670c62b839a7de49f7d0f19d2d5fd9a7",
+        "sha256_in_prefix": "ceb7d53a8c6b6d74309a9636476529a5670c62b839a7de49f7d0f19d2d5fd9a7",
+        "size_in_bytes": 315
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_request_pty_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "e2afb2fcedd1d09b75f8f48b5c5ca27ad740c4a23602c34e211788c6cc03b06a",
+        "sha256_in_prefix": "e2afb2fcedd1d09b75f8f48b5c5ca27ad740c4a23602c34e211788c6cc03b06a",
+        "size_in_bytes": 739
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_request_pty_size.3.gz",
+        "path_type": "hardlink",
+        "sha256": "7ddab19db68c273ac00928c3665c301cce9e6f87a871c87703505f3dc07fedd6",
+        "sha256_in_prefix": "7ddab19db68c273ac00928c3665c301cce9e6f87a871c87703505f3dc07fedd6",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_request_pty_size_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "47e862822ea6612d44c5d502aa03a16c820a49b09e449e29daaf0af396e1ccee",
+        "sha256_in_prefix": "47e862822ea6612d44c5d502aa03a16c820a49b09e449e29daaf0af396e1ccee",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_send_eof.3.gz",
+        "path_type": "hardlink",
+        "sha256": "28d6fe446a38dfcb6f57a27be1f592614cf509c11944bb281319e8202fcd01c9",
+        "sha256_in_prefix": "28d6fe446a38dfcb6f57a27be1f592614cf509c11944bb281319e8202fcd01c9",
+        "size_in_bytes": 451
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_set_blocking.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f4b9f49fa05e5e78f3c9efbd6858ca641413c67486beda97b2217b0fd35487dd",
+        "sha256_in_prefix": "f4b9f49fa05e5e78f3c9efbd6858ca641413c67486beda97b2217b0fd35487dd",
+        "size_in_bytes": 386
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_setenv.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a210830f1553a22a40a31ef94b207a0f149c502f1f82da3789c71f72e4689f84",
+        "sha256_in_prefix": "a210830f1553a22a40a31ef94b207a0f149c502f1f82da3789c71f72e4689f84",
+        "size_in_bytes": 315
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_setenv_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "db11bb5779997ce3e85c83b97e8e7e7434e710b7c71d3c0fb49627dd65171a08",
+        "sha256_in_prefix": "db11bb5779997ce3e85c83b97e8e7e7434e710b7c71d3c0fb49627dd65171a08",
+        "size_in_bytes": 664
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_shell.3.gz",
+        "path_type": "hardlink",
+        "sha256": "d2eceb4ae6b5c15a452d27ecbeafe6971b081ed60d842c9b9508a5a23673a5cd",
+        "sha256_in_prefix": "d2eceb4ae6b5c15a452d27ecbeafe6971b081ed60d842c9b9508a5a23673a5cd",
+        "size_in_bytes": 304
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_subsystem.3.gz",
+        "path_type": "hardlink",
+        "sha256": "17d22bdb715cf60bd1b07e0568334605ae80f91d869f66f872f292f4b946cb3b",
+        "sha256_in_prefix": "17d22bdb715cf60bd1b07e0568334605ae80f91d869f66f872f292f4b946cb3b",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_wait_closed.3.gz",
+        "path_type": "hardlink",
+        "sha256": "23a02b52b58298a0db3e0401b2097cd4f3ab585edf3eff6dbd2e8f1a6ee8ce79",
+        "sha256_in_prefix": "23a02b52b58298a0db3e0401b2097cd4f3ab585edf3eff6dbd2e8f1a6ee8ce79",
+        "size_in_bytes": 431
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_wait_eof.3.gz",
+        "path_type": "hardlink",
+        "sha256": "915c2e3511807c2a68d156c6be9c21cea8a0cf4a145d92e78ba8d9e4fda11f1f",
+        "sha256_in_prefix": "915c2e3511807c2a68d156c6be9c21cea8a0cf4a145d92e78ba8d9e4fda11f1f",
+        "size_in_bytes": 359
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_window_read.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c2fd57dc6e9ed183e979c29f82cf6fa88225bd31383e2661f5341ae6cc3e092f",
+        "sha256_in_prefix": "c2fd57dc6e9ed183e979c29f82cf6fa88225bd31383e2661f5341ae6cc3e092f",
+        "size_in_bytes": 308
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_window_read_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "80f59120b68344cc9ec6611e57b8d5812daa64bf00d0186a2891cdf07400e547",
+        "sha256_in_prefix": "80f59120b68344cc9ec6611e57b8d5812daa64bf00d0186a2891cdf07400e547",
+        "size_in_bytes": 437
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_window_write.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a69d6110bef6f55048f48c36efcc84ad7140fd8c54ae01f00d128b21ba5da562",
+        "sha256_in_prefix": "a69d6110bef6f55048f48c36efcc84ad7140fd8c54ae01f00d128b21ba5da562",
+        "size_in_bytes": 309
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_window_write_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "05a51507ff34b5d28ad544741f4b19e7b336aa9843f9514b53eb5822d152be39",
+        "sha256_in_prefix": "05a51507ff34b5d28ad544741f4b19e7b336aa9843f9514b53eb5822d152be39",
+        "size_in_bytes": 398
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_write.3.gz",
+        "path_type": "hardlink",
+        "sha256": "eaec97177643d5f3c96ef43ee74f2f64381210bd0fa1bf9e0d18883887da9ad6",
+        "sha256_in_prefix": "eaec97177643d5f3c96ef43ee74f2f64381210bd0fa1bf9e0d18883887da9ad6",
+        "size_in_bytes": 316
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_write_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "03754d6eddc6acd4a0bdba5b4f9a29864d35eeac3d13b78a474a1cf4d7def492",
+        "sha256_in_prefix": "03754d6eddc6acd4a0bdba5b4f9a29864d35eeac3d13b78a474a1cf4d7def492",
+        "size_in_bytes": 886
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_write_stderr.3.gz",
+        "path_type": "hardlink",
+        "sha256": "abd4a7be57b2e46d40cf22bcfe9a76e13a8df4b181ae3920f8dc07f4a6fb7a45",
+        "sha256_in_prefix": "abd4a7be57b2e46d40cf22bcfe9a76e13a8df4b181ae3920f8dc07f4a6fb7a45",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_x11_req.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5ebd3907054d0bdb45198150208f4c0783946c3a1257194c5a3250b8aae953b6",
+        "sha256_in_prefix": "5ebd3907054d0bdb45198150208f4c0783946c3a1257194c5a3250b8aae953b6",
+        "size_in_bytes": 311
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_channel_x11_req_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "de09b0c822490d8c93085b8ac5c696d548776518f592c42932f699d3bceb81c9",
+        "sha256_in_prefix": "de09b0c822490d8c93085b8ac5c696d548776518f592c42932f699d3bceb81c9",
+        "size_in_bytes": 707
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_exit.3.gz",
+        "path_type": "hardlink",
+        "sha256": "86629b34e0cd16646f39796cb715ada056b4ba51e3fd86a1fc842cadd1894ba2",
+        "sha256_in_prefix": "86629b34e0cd16646f39796cb715ada056b4ba51e3fd86a1fc842cadd1894ba2",
+        "size_in_bytes": 247
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_free.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c6bb67e6142fbc1ae56593492543a4010990bcc57ed1fdc45fb427f1d05712c2",
+        "sha256_in_prefix": "c6bb67e6142fbc1ae56593492543a4010990bcc57ed1fdc45fb427f1d05712c2",
+        "size_in_bytes": 386
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_hostkey_hash.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4a565bea645e0ea7e7a3d1aefa005362b7b0d69ae5c8c447a74b1e5b57c1531a",
+        "sha256_in_prefix": "4a565bea645e0ea7e7a3d1aefa005362b7b0d69ae5c8c447a74b1e5b57c1531a",
+        "size_in_bytes": 531
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_init.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8614c7afd2d78830c8e57c51f1a98c3dc5c7cba220e86d7ee430d516281d0161",
+        "sha256_in_prefix": "8614c7afd2d78830c8e57c51f1a98c3dc5c7cba220e86d7ee430d516281d0161",
+        "size_in_bytes": 390
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_keepalive_config.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f6a12feb40684359a9a614b360bcdeda9f37acde12efac961d675519736a8969",
+        "sha256_in_prefix": "f6a12feb40684359a9a614b360bcdeda9f37acde12efac961d675519736a8969",
+        "size_in_bytes": 529
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_keepalive_send.3.gz",
+        "path_type": "hardlink",
+        "sha256": "dda61358fbb3f70c02362c450e03ecc8dd225b0527289c137f6802afb5d5413a",
+        "sha256_in_prefix": "dda61358fbb3f70c02362c450e03ecc8dd225b0527289c137f6802afb5d5413a",
+        "size_in_bytes": 387
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_knownhost_add.3.gz",
+        "path_type": "hardlink",
+        "sha256": "39ecf32f882b8f511ede8c23d2dccc6fc3b5b569cab38fc02ced3bcac1ed0dd2",
+        "sha256_in_prefix": "39ecf32f882b8f511ede8c23d2dccc6fc3b5b569cab38fc02ced3bcac1ed0dd2",
+        "size_in_bytes": 1089
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_knownhost_addc.3.gz",
+        "path_type": "hardlink",
+        "sha256": "cadcfbc2ee78aeb9e887d601ea1c4b1cf50aca14eee86f9ada371862fa4c6857",
+        "sha256_in_prefix": "cadcfbc2ee78aeb9e887d601ea1c4b1cf50aca14eee86f9ada371862fa4c6857",
+        "size_in_bytes": 1132
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_knownhost_check.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5dd4add353e59992c88bc522f3acd06e03ec4e5f38dc2f0e201abda0da41f031",
+        "sha256_in_prefix": "5dd4add353e59992c88bc522f3acd06e03ec4e5f38dc2f0e201abda0da41f031",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_knownhost_checkp.3.gz",
+        "path_type": "hardlink",
+        "sha256": "766e4e3733e6fdb2f159181e33efa11d75d8debf57ef32116d0aabebf6f3631e",
+        "sha256_in_prefix": "766e4e3733e6fdb2f159181e33efa11d75d8debf57ef32116d0aabebf6f3631e",
+        "size_in_bytes": 1079
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_knownhost_del.3.gz",
+        "path_type": "hardlink",
+        "sha256": "554bd189367a17a25e9bb5124eef6c0b400ec10d101596af43693569a5a7c208",
+        "sha256_in_prefix": "554bd189367a17a25e9bb5124eef6c0b400ec10d101596af43693569a5a7c208",
+        "size_in_bytes": 438
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_knownhost_free.3.gz",
+        "path_type": "hardlink",
+        "sha256": "cd43a8e532188cf4a8bf22b66fabc56a6367615bc34d59eb3624845afde9e5aa",
+        "sha256_in_prefix": "cd43a8e532188cf4a8bf22b66fabc56a6367615bc34d59eb3624845afde9e5aa",
+        "size_in_bytes": 294
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_knownhost_get.3.gz",
+        "path_type": "hardlink",
+        "sha256": "216397a8c16ed895599512039ac7786dbfa16ff3e9be6931238774a25b3924dd",
+        "sha256_in_prefix": "216397a8c16ed895599512039ac7786dbfa16ff3e9be6931238774a25b3924dd",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_knownhost_init.3.gz",
+        "path_type": "hardlink",
+        "sha256": "d80db283852b94eea82ac93c644cd28d7c41074604b2a1a34c9b62cdafcb3cbb",
+        "sha256_in_prefix": "d80db283852b94eea82ac93c644cd28d7c41074604b2a1a34c9b62cdafcb3cbb",
+        "size_in_bytes": 465
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_knownhost_readfile.3.gz",
+        "path_type": "hardlink",
+        "sha256": "b1155c81d7e6e9b747f1bcd1742e79796cd5e85af0940e6f4bd2f9c0437c60b7",
+        "sha256_in_prefix": "b1155c81d7e6e9b747f1bcd1742e79796cd5e85af0940e6f4bd2f9c0437c60b7",
+        "size_in_bytes": 537
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_knownhost_readline.3.gz",
+        "path_type": "hardlink",
+        "sha256": "b53dc065a966069014920b705ffd88fc15c544807386fc77bcd3d2691a65ee9a",
+        "sha256_in_prefix": "b53dc065a966069014920b705ffd88fc15c544807386fc77bcd3d2691a65ee9a",
+        "size_in_bytes": 547
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_knownhost_writefile.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4fdc33f48f29785a8c93b34e92f54d6d2d29fdee95993edcc8b62946310c0e64",
+        "sha256_in_prefix": "4fdc33f48f29785a8c93b34e92f54d6d2d29fdee95993edcc8b62946310c0e64",
+        "size_in_bytes": 483
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_knownhost_writeline.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c10fe5d29bff2365ab3f235f99ad98681039779e8131a02be9708a41619316ac",
+        "sha256_in_prefix": "c10fe5d29bff2365ab3f235f99ad98681039779e8131a02be9708a41619316ac",
+        "size_in_bytes": 803
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_poll.3.gz",
+        "path_type": "hardlink",
+        "sha256": "904ff3bc0c8df731697362fb6ba0fa037c2fa322fed553b23eeb9cdeac4a8e46",
+        "sha256_in_prefix": "904ff3bc0c8df731697362fb6ba0fa037c2fa322fed553b23eeb9cdeac4a8e46",
+        "size_in_bytes": 581
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_poll_channel_read.3.gz",
+        "path_type": "hardlink",
+        "sha256": "06fc268bf96a2de6bd940c1084b7706440ff542532b89aa93292bf193d2694de",
+        "sha256_in_prefix": "06fc268bf96a2de6bd940c1084b7706440ff542532b89aa93292bf193d2694de",
+        "size_in_bytes": 385
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_publickey_add.3.gz",
+        "path_type": "hardlink",
+        "sha256": "bd0b3861995066a44fcdd1eac874be92bca76960f1c1140b1d075f58e78d26f2",
+        "sha256_in_prefix": "bd0b3861995066a44fcdd1eac874be92bca76960f1c1140b1d075f58e78d26f2",
+        "size_in_bytes": 377
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_publickey_add_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "bf3dfb904e10bb85e347e81e0c9143978c5883d46defbaaef19cd48fa6228e53",
+        "sha256_in_prefix": "bf3dfb904e10bb85e347e81e0c9143978c5883d46defbaaef19cd48fa6228e53",
+        "size_in_bytes": 375
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_publickey_init.3.gz",
+        "path_type": "hardlink",
+        "sha256": "be360ab066628024cc3edfd07bfc38f2f86c39c2a32a281cbd5f1e6eff007238",
+        "sha256_in_prefix": "be360ab066628024cc3edfd07bfc38f2f86c39c2a32a281cbd5f1e6eff007238",
+        "size_in_bytes": 151
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_publickey_list_fetch.3.gz",
+        "path_type": "hardlink",
+        "sha256": "60acb472d23ac89f05d5d513ef9964fa91316d1519e1eff298f99654381dec1d",
+        "sha256_in_prefix": "60acb472d23ac89f05d5d513ef9964fa91316d1519e1eff298f99654381dec1d",
+        "size_in_bytes": 156
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_publickey_list_free.3.gz",
+        "path_type": "hardlink",
+        "sha256": "3493d2d8ec98ddbd3f9e0e118783b4e59e9c8b11e03cd5cfeec92dad6319e698",
+        "sha256_in_prefix": "3493d2d8ec98ddbd3f9e0e118783b4e59e9c8b11e03cd5cfeec92dad6319e698",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_publickey_remove.3.gz",
+        "path_type": "hardlink",
+        "sha256": "713254093d380fef890ac18c7295af93c91e0b5cc18dd0b5764db1c941e3bd5b",
+        "sha256_in_prefix": "713254093d380fef890ac18c7295af93c91e0b5cc18dd0b5764db1c941e3bd5b",
+        "size_in_bytes": 347
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_publickey_remove_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "2ee34d27fc5f86f5df34c0acee7b5bd2a52a4fe65bd80743c88bbd44b40fb610",
+        "sha256_in_prefix": "2ee34d27fc5f86f5df34c0acee7b5bd2a52a4fe65bd80743c88bbd44b40fb610",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_publickey_shutdown.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a1e470fef43bde8e5aeff2606268aacb52a6e53d07738afd4b9a7a6f3cb731a9",
+        "sha256_in_prefix": "a1e470fef43bde8e5aeff2606268aacb52a6e53d07738afd4b9a7a6f3cb731a9",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_scp_recv.3.gz",
+        "path_type": "hardlink",
+        "sha256": "56b394476b5ebe955458c64591741a9824981868c9dc47fc142e27db118eabff",
+        "sha256_in_prefix": "56b394476b5ebe955458c64591741a9824981868c9dc47fc142e27db118eabff",
+        "size_in_bytes": 572
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_scp_recv2.3.gz",
+        "path_type": "hardlink",
+        "sha256": "2ba750edf9f429102f31c2faec029a9a6102372f939c7e82a58187d585ccdf69",
+        "sha256_in_prefix": "2ba750edf9f429102f31c2faec029a9a6102372f939c7e82a58187d585ccdf69",
+        "size_in_bytes": 535
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_scp_send.3.gz",
+        "path_type": "hardlink",
+        "sha256": "d9b9c5bedd886cd2a1972807c69b30cd445140868e9e6f49e0986a2f97a965ee",
+        "sha256_in_prefix": "d9b9c5bedd886cd2a1972807c69b30cd445140868e9e6f49e0986a2f97a965ee",
+        "size_in_bytes": 328
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_scp_send64.3.gz",
+        "path_type": "hardlink",
+        "sha256": "1331b0c1751c7aabebdf8185d6ce98388d23f0f3099806c90ad94130a64c334d",
+        "sha256_in_prefix": "1331b0c1751c7aabebdf8185d6ce98388d23f0f3099806c90ad94130a64c334d",
+        "size_in_bytes": 806
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_scp_send_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9e0363cb8116408fb7871fa60f2a2a050f0f5f14d32944d6948ddc86ada644a8",
+        "sha256_in_prefix": "9e0363cb8116408fb7871fa60f2a2a050f0f5f14d32944d6948ddc86ada644a8",
+        "size_in_bytes": 774
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_abstract.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4f6bdad100ec32c90f73db1c122f2c17a1b11bbfd9e277ce2c5c879ea8900e58",
+        "sha256_in_prefix": "4f6bdad100ec32c90f73db1c122f2c17a1b11bbfd9e277ce2c5c879ea8900e58",
+        "size_in_bytes": 383
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_banner_get.3.gz",
+        "path_type": "hardlink",
+        "sha256": "788e373c29a9be862eb2a38239d1590a1842aaa9e4f0e710cd8d4c30abd3f61d",
+        "sha256_in_prefix": "788e373c29a9be862eb2a38239d1590a1842aaa9e4f0e710cd8d4c30abd3f61d",
+        "size_in_bytes": 445
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_banner_set.3.gz",
+        "path_type": "hardlink",
+        "sha256": "65bb9bd0f68bff50ad29fbeaacf326f7df99e8c87bf6f3fc4fbdb24853134da0",
+        "sha256_in_prefix": "65bb9bd0f68bff50ad29fbeaacf326f7df99e8c87bf6f3fc4fbdb24853134da0",
+        "size_in_bytes": 628
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_block_directions.3.gz",
+        "path_type": "hardlink",
+        "sha256": "222441936cc0c775c946efbf36a9cb6ecf64b9fbb8188cb7aa7af48ec72492ec",
+        "sha256_in_prefix": "222441936cc0c775c946efbf36a9cb6ecf64b9fbb8188cb7aa7af48ec72492ec",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_callback_set.3.gz",
+        "path_type": "hardlink",
+        "sha256": "344c4c804a28b72cd4563d584597bdf18788a1d01e65888489551f3aaba13033",
+        "sha256_in_prefix": "344c4c804a28b72cd4563d584597bdf18788a1d01e65888489551f3aaba13033",
+        "size_in_bytes": 768
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_disconnect.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9481733abcb49dd9ba68377d20655f0fa6c12c434f6b521aedc11fe315534973",
+        "sha256_in_prefix": "9481733abcb49dd9ba68377d20655f0fa6c12c434f6b521aedc11fe315534973",
+        "size_in_bytes": 314
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_disconnect_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f9715ebd45e54e290fbad1996332f9a1d90c8c8ca7fd74bd5ccd76e5162239ff",
+        "sha256_in_prefix": "f9715ebd45e54e290fbad1996332f9a1d90c8c8ca7fd74bd5ccd76e5162239ff",
+        "size_in_bytes": 637
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_flag.3.gz",
+        "path_type": "hardlink",
+        "sha256": "25075aa36d4d79d85fe9f46ce97f4d0c8bbe78d48ef7eb5438d3f0e6b6a87e8f",
+        "sha256_in_prefix": "25075aa36d4d79d85fe9f46ce97f4d0c8bbe78d48ef7eb5438d3f0e6b6a87e8f",
+        "size_in_bytes": 507
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_free.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5117248fd9c79574848ba88db2d7ba24aac0cb14d546d63689d2585bdc73e269",
+        "sha256_in_prefix": "5117248fd9c79574848ba88db2d7ba24aac0cb14d546d63689d2585bdc73e269",
+        "size_in_bytes": 367
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_get_blocking.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4bbf4c269ed5325f7717576a28a0f88ce69bd60e92bd4892fb6de6f377b6a604",
+        "sha256_in_prefix": "4bbf4c269ed5325f7717576a28a0f88ce69bd60e92bd4892fb6de6f377b6a604",
+        "size_in_bytes": 262
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_get_timeout.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4163027d61b96e744fb9af183888cb36f149c08db55615406f08baed1a28e615",
+        "sha256_in_prefix": "4163027d61b96e744fb9af183888cb36f149c08db55615406f08baed1a28e615",
+        "size_in_bytes": 384
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_handshake.3.gz",
+        "path_type": "hardlink",
+        "sha256": "90743b9b4a995da5ee0bf56d776788bc67cf53624743c3f548e153e6d41f82ac",
+        "sha256_in_prefix": "90743b9b4a995da5ee0bf56d776788bc67cf53624743c3f548e153e6d41f82ac",
+        "size_in_bytes": 662
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_hostkey.3.gz",
+        "path_type": "hardlink",
+        "sha256": "de2f80adbbaa23d927b89242742c6c4fc07d092bc988b321807f15c4e4091b05",
+        "sha256_in_prefix": "de2f80adbbaa23d927b89242742c6c4fc07d092bc988b321807f15c4e4091b05",
+        "size_in_bytes": 398
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_init.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c300a1d5957fffe5c928ee58e722370776287a82339ec63ad573c61232f3891a",
+        "sha256_in_prefix": "c300a1d5957fffe5c928ee58e722370776287a82339ec63ad573c61232f3891a",
+        "size_in_bytes": 293
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_init_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "d4a49bfe4f2734255136f5774436ef01a5797f7890523b71f9325397719bba4c",
+        "sha256_in_prefix": "d4a49bfe4f2734255136f5774436ef01a5797f7890523b71f9325397719bba4c",
+        "size_in_bytes": 729
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_last_errno.3.gz",
+        "path_type": "hardlink",
+        "sha256": "011710ef78326dec055385968300256600f88dbc7bf810e1a15d29107439365e",
+        "sha256_in_prefix": "011710ef78326dec055385968300256600f88dbc7bf810e1a15d29107439365e",
+        "size_in_bytes": 316
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_last_error.3.gz",
+        "path_type": "hardlink",
+        "sha256": "371338581053c88b6c6c79d38e9fbadf2579fb2603fa57904af65bf03ac10104",
+        "sha256_in_prefix": "371338581053c88b6c6c79d38e9fbadf2579fb2603fa57904af65bf03ac10104",
+        "size_in_bytes": 561
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_method_pref.3.gz",
+        "path_type": "hardlink",
+        "sha256": "7389435794100e1f5e5eef815abae06ff56d26f95212ef3ff43232483e022a24",
+        "sha256_in_prefix": "7389435794100e1f5e5eef815abae06ff56d26f95212ef3ff43232483e022a24",
+        "size_in_bytes": 698
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_methods.3.gz",
+        "path_type": "hardlink",
+        "sha256": "ca32e529625628845db766a9e02f0066197176f6300938619eb36c0da29a17d5",
+        "sha256_in_prefix": "ca32e529625628845db766a9e02f0066197176f6300938619eb36c0da29a17d5",
+        "size_in_bytes": 495
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_set_blocking.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6763a776a031c397f98db67e2932e12b3cbbd88f47fb7223039d72c74a701ec6",
+        "sha256_in_prefix": "6763a776a031c397f98db67e2932e12b3cbbd88f47fb7223039d72c74a701ec6",
+        "size_in_bytes": 521
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_set_last_error.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6c52d529f452db83de1ea76bc9ae15997f5b66b2a14efeac517e71ec53fefd63",
+        "sha256_in_prefix": "6c52d529f452db83de1ea76bc9ae15997f5b66b2a14efeac517e71ec53fefd63",
+        "size_in_bytes": 558
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_set_timeout.3.gz",
+        "path_type": "hardlink",
+        "sha256": "7b1e0b5267224f44f7f5534e41a7b5d9d163faa69dd1ddec754dd5a6d6119c6d",
+        "sha256_in_prefix": "7b1e0b5267224f44f7f5534e41a7b5d9d163faa69dd1ddec754dd5a6d6119c6d",
+        "size_in_bytes": 388
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_startup.3.gz",
+        "path_type": "hardlink",
+        "sha256": "84504e314f7e1fc3667826d16382f0096fc14e5fd009f4e3394535618b68d99e",
+        "sha256_in_prefix": "84504e314f7e1fc3667826d16382f0096fc14e5fd009f4e3394535618b68d99e",
+        "size_in_bytes": 697
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_session_supported_algs.3.gz",
+        "path_type": "hardlink",
+        "sha256": "2ba6f571005a5d10075059df0d7e1fa7d9b77774dd27ff1faae0fc15c3d09921",
+        "sha256_in_prefix": "2ba6f571005a5d10075059df0d7e1fa7d9b77774dd27ff1faae0fc15c3d09921",
+        "size_in_bytes": 1180
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_close.3.gz",
+        "path_type": "hardlink",
+        "sha256": "56cb211b4cd05596754802b5e5ad22406d55c7eadcdc7dec99133800facf57e1",
+        "sha256_in_prefix": "56cb211b4cd05596754802b5e5ad22406d55c7eadcdc7dec99133800facf57e1",
+        "size_in_bytes": 301
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_close_handle.3.gz",
+        "path_type": "hardlink",
+        "sha256": "85fb71c7a01bfdd5e78242139813ef34847f1635ecca245baff8ea122d302440",
+        "sha256_in_prefix": "85fb71c7a01bfdd5e78242139813ef34847f1635ecca245baff8ea122d302440",
+        "size_in_bytes": 664
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_closedir.3.gz",
+        "path_type": "hardlink",
+        "sha256": "afd73b7ee0e8ca35efddc1efa65c2e6388aa88192823aa2e329b01af88982c8a",
+        "sha256_in_prefix": "afd73b7ee0e8ca35efddc1efa65c2e6388aa88192823aa2e329b01af88982c8a",
+        "size_in_bytes": 301
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_fsetstat.3.gz",
+        "path_type": "hardlink",
+        "sha256": "15dda23590b0b76d66aea54a8a30e331adc4e99d70522f78e40daf6c48d3da57",
+        "sha256_in_prefix": "15dda23590b0b76d66aea54a8a30e331adc4e99d70522f78e40daf6c48d3da57",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_fstat.3.gz",
+        "path_type": "hardlink",
+        "sha256": "ebb8ca385e1aff3fee6821cad3f0a435a182415a6faf80683197377d930ea1f3",
+        "sha256_in_prefix": "ebb8ca385e1aff3fee6821cad3f0a435a182415a6faf80683197377d930ea1f3",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_fstat_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "56e63a553350b13917a5e08496fd481f26c50fc410e2653e4cda5b8bac38455d",
+        "sha256_in_prefix": "56e63a553350b13917a5e08496fd481f26c50fc410e2653e4cda5b8bac38455d",
+        "size_in_bytes": 1550
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_fstatvfs.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4b0dfd3ef272211aa0f3f2d25a835c3f8f09849b80aa92c69b90c85883c3409e",
+        "sha256_in_prefix": "4b0dfd3ef272211aa0f3f2d25a835c3f8f09849b80aa92c69b90c85883c3409e",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_fsync.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4ed18fd33a3ce0e20191dfb1eeafaba073b993387da6984ac529a479de81e93d",
+        "sha256_in_prefix": "4ed18fd33a3ce0e20191dfb1eeafaba073b993387da6984ac529a479de81e93d",
+        "size_in_bytes": 731
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_get_channel.3.gz",
+        "path_type": "hardlink",
+        "sha256": "08f15f32c401dc73d8017a2b4a38ae30902b68ece2a9ed5a35e8bee90f55ead1",
+        "sha256_in_prefix": "08f15f32c401dc73d8017a2b4a38ae30902b68ece2a9ed5a35e8bee90f55ead1",
+        "size_in_bytes": 329
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_init.3.gz",
+        "path_type": "hardlink",
+        "sha256": "dc06e819db81e9d443e502ed7cfce4ed5b2254b46bbfdddbd7a8695ee9454a75",
+        "sha256_in_prefix": "dc06e819db81e9d443e502ed7cfce4ed5b2254b46bbfdddbd7a8695ee9454a75",
+        "size_in_bytes": 709
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_last_error.3.gz",
+        "path_type": "hardlink",
+        "sha256": "3aec4ff163aa7061b769cd88b4934eb68ea59c6ed5af84a7839253712f59b4e3",
+        "sha256_in_prefix": "3aec4ff163aa7061b769cd88b4934eb68ea59c6ed5af84a7839253712f59b4e3",
+        "size_in_bytes": 414
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_lstat.3.gz",
+        "path_type": "hardlink",
+        "sha256": "736d17999ce24e32be189a51d91f5f7b1c1f9fe4e0bab2da52cea8ca2380bf69",
+        "sha256_in_prefix": "736d17999ce24e32be189a51d91f5f7b1c1f9fe4e0bab2da52cea8ca2380bf69",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_mkdir.3.gz",
+        "path_type": "hardlink",
+        "sha256": "101a70e1054467baa453033078b0e9b0d537e5dd63810fb7a7e17294c268741f",
+        "sha256_in_prefix": "101a70e1054467baa453033078b0e9b0d537e5dd63810fb7a7e17294c268741f",
+        "size_in_bytes": 314
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_mkdir_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "334849c412dba6ad02df4600c067361ddfaeeb183da03712ac03f198cb265e16",
+        "sha256_in_prefix": "334849c412dba6ad02df4600c067361ddfaeeb183da03712ac03f198cb265e16",
+        "size_in_bytes": 678
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_open.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a2f7555cc2795ff3c36bf36d56600a184d3d7e4bdfa0477b245ccbab6beb4f09",
+        "sha256_in_prefix": "a2f7555cc2795ff3c36bf36d56600a184d3d7e4bdfa0477b245ccbab6beb4f09",
+        "size_in_bytes": 331
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_open_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "7b63ba0b5ba1f1db18d7416c84fc936a915cf2be84fb052569f49c384e14bc81",
+        "sha256_in_prefix": "7b63ba0b5ba1f1db18d7416c84fc936a915cf2be84fb052569f49c384e14bc81",
+        "size_in_bytes": 1072
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_opendir.3.gz",
+        "path_type": "hardlink",
+        "sha256": "885451f853801aac9a074a0bf285b8489d8cbbc24c6787b83b7d97703566ec70",
+        "sha256_in_prefix": "885451f853801aac9a074a0bf285b8489d8cbbc24c6787b83b7d97703566ec70",
+        "size_in_bytes": 314
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_read.3.gz",
+        "path_type": "hardlink",
+        "sha256": "194575f19a46e66aa88ad6a48e41fc886191c730506e64ce6d8720ad2b8c98a5",
+        "sha256_in_prefix": "194575f19a46e66aa88ad6a48e41fc886191c730506e64ce6d8720ad2b8c98a5",
+        "size_in_bytes": 767
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_readdir.3.gz",
+        "path_type": "hardlink",
+        "sha256": "937c2b57cafccb92ab847dc8307a8ced5a084752a344231ce9cd70b5d283540c",
+        "sha256_in_prefix": "937c2b57cafccb92ab847dc8307a8ced5a084752a344231ce9cd70b5d283540c",
+        "size_in_bytes": 342
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_readdir_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "230f00c6cfa693ad255d330365db569553d850d7b8c3158e44deb1e27fe8a0b5",
+        "sha256_in_prefix": "230f00c6cfa693ad255d330365db569553d850d7b8c3158e44deb1e27fe8a0b5",
+        "size_in_bytes": 1155
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_readlink.3.gz",
+        "path_type": "hardlink",
+        "sha256": "818c343707077487dd9248d78f74342ae325b74e465dfc0c20ca7b6bccfac702",
+        "sha256_in_prefix": "818c343707077487dd9248d78f74342ae325b74e465dfc0c20ca7b6bccfac702",
+        "size_in_bytes": 347
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_realpath.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9c61c0a5c454bc94a166f2c348ca89d58fc82c2c6c82284b9694d5de10a923e0",
+        "sha256_in_prefix": "9c61c0a5c454bc94a166f2c348ca89d58fc82c2c6c82284b9694d5de10a923e0",
+        "size_in_bytes": 348
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_rename.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8324b81b475d01951f2b6485406d4ac8132bc9dc603cc5bbee855d310c53772a",
+        "sha256_in_prefix": "8324b81b475d01951f2b6485406d4ac8132bc9dc603cc5bbee855d310c53772a",
+        "size_in_bytes": 319
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_rename_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "02a8cb1a21aa43ba7fa0b9c60dab0fa29e22f298ca1a197fd6843f98355912b3",
+        "sha256_in_prefix": "02a8cb1a21aa43ba7fa0b9c60dab0fa29e22f298ca1a197fd6843f98355912b3",
+        "size_in_bytes": 893
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_rewind.3.gz",
+        "path_type": "hardlink",
+        "sha256": "e0482dd407570f6f593231b00f444c25a428a8286b1efceef5c3ce2681afb623",
+        "sha256_in_prefix": "e0482dd407570f6f593231b00f444c25a428a8286b1efceef5c3ce2681afb623",
+        "size_in_bytes": 304
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_rmdir.3.gz",
+        "path_type": "hardlink",
+        "sha256": "0745cf9ac3a2af1c512233389a3a4ad35e99df1527d5ba8ee534c1ae91b5950c",
+        "sha256_in_prefix": "0745cf9ac3a2af1c512233389a3a4ad35e99df1527d5ba8ee534c1ae91b5950c",
+        "size_in_bytes": 305
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_rmdir_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "45405c654328a9027fdae87f662b3c48093517c949d2bcac50d2e610cdac66d5",
+        "sha256_in_prefix": "45405c654328a9027fdae87f662b3c48093517c949d2bcac50d2e610cdac66d5",
+        "size_in_bytes": 618
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_seek.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8e69c86cef460d97e9cdd2493d2510f90e0e681281d2e0d764cf25f8ad14b9eb",
+        "sha256_in_prefix": "8e69c86cef460d97e9cdd2493d2510f90e0e681281d2e0d764cf25f8ad14b9eb",
+        "size_in_bytes": 526
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_seek64.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6d3201f391e5b9a6ce9b65af7cb9e67a8e2ea554444c52f6146b829c1e059173",
+        "sha256_in_prefix": "6d3201f391e5b9a6ce9b65af7cb9e67a8e2ea554444c52f6146b829c1e059173",
+        "size_in_bytes": 589
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_setstat.3.gz",
+        "path_type": "hardlink",
+        "sha256": "23e769a1ff706cbbde0461a042fb01db7f8f0d96b222768fbaad7e47ec5645e8",
+        "sha256_in_prefix": "23e769a1ff706cbbde0461a042fb01db7f8f0d96b222768fbaad7e47ec5645e8",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_shutdown.3.gz",
+        "path_type": "hardlink",
+        "sha256": "cb79af5968d0769fff91cd376d5c8e2b19d2fd08853b68e74b68fc38d17ce574",
+        "sha256_in_prefix": "cb79af5968d0769fff91cd376d5c8e2b19d2fd08853b68e74b68fc38d17ce574",
+        "size_in_bytes": 402
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_stat.3.gz",
+        "path_type": "hardlink",
+        "sha256": "28309579ea612d30b07e7c87bdcba43fd93cab18c223c83b18daae42042ab18c",
+        "sha256_in_prefix": "28309579ea612d30b07e7c87bdcba43fd93cab18c223c83b18daae42042ab18c",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_stat_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "b03d24b8529e40e8b6f21930b264697109c9041f3fe843347fd7c607b9693f3f",
+        "sha256_in_prefix": "b03d24b8529e40e8b6f21930b264697109c9041f3fe843347fd7c607b9693f3f",
+        "size_in_bytes": 1040
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_statvfs.3.gz",
+        "path_type": "hardlink",
+        "sha256": "94de8898894497402f36bce1a2b1b8a9e42d65ab95528e06bb15aa0ab3a33b7f",
+        "sha256_in_prefix": "94de8898894497402f36bce1a2b1b8a9e42d65ab95528e06bb15aa0ab3a33b7f",
+        "size_in_bytes": 1161
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_symlink.3.gz",
+        "path_type": "hardlink",
+        "sha256": "834cf98d8077714f8605f5927d250cca807cf9bd9028ebad791160d59de1d31f",
+        "sha256_in_prefix": "834cf98d8077714f8605f5927d250cca807cf9bd9028ebad791160d59de1d31f",
+        "size_in_bytes": 340
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_symlink_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "0449601bf9736b0733aea3cfc1295f7814ab18a04e01eaa5149bc82881daafb0",
+        "sha256_in_prefix": "0449601bf9736b0733aea3cfc1295f7814ab18a04e01eaa5149bc82881daafb0",
+        "size_in_bytes": 1210
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_tell.3.gz",
+        "path_type": "hardlink",
+        "sha256": "b7d83f95602e15079bd8520e11e1a19c1933e53a7b4d09d5d0e2c36331b72399",
+        "sha256_in_prefix": "b7d83f95602e15079bd8520e11e1a19c1933e53a7b4d09d5d0e2c36331b72399",
+        "size_in_bytes": 394
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_tell64.3.gz",
+        "path_type": "hardlink",
+        "sha256": "7b767a380d804a4043e61864670d185ce0c208a0329ac01e1658d06fbf3039b3",
+        "sha256_in_prefix": "7b767a380d804a4043e61864670d185ce0c208a0329ac01e1658d06fbf3039b3",
+        "size_in_bytes": 374
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_unlink.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a4fb7a0b305e50066edecbea3f197dc858db065eece08a1db73c9062c08c2a5d",
+        "sha256_in_prefix": "a4fb7a0b305e50066edecbea3f197dc858db065eece08a1db73c9062c08c2a5d",
+        "size_in_bytes": 307
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_unlink_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "997e0cbc091a0e369363d0988839e4875504a6b69254cb97f64828ca17db1ab7",
+        "sha256_in_prefix": "997e0cbc091a0e369363d0988839e4875504a6b69254cb97f64828ca17db1ab7",
+        "size_in_bytes": 621
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_sftp_write.3.gz",
+        "path_type": "hardlink",
+        "sha256": "15d741ef7d21545ccbd7c25bb68c58def3f52bc12eaa8e3fb9afecdf9e12b215",
+        "sha256_in_prefix": "15d741ef7d21545ccbd7c25bb68c58def3f52bc12eaa8e3fb9afecdf9e12b215",
+        "size_in_bytes": 1440
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_trace.3.gz",
+        "path_type": "hardlink",
+        "sha256": "bbe5380439b784ae9f919c9bd817c94fbf71e9553fe14887188fe6cf949bc9ab",
+        "sha256_in_prefix": "bbe5380439b784ae9f919c9bd817c94fbf71e9553fe14887188fe6cf949bc9ab",
+        "size_in_bytes": 530
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_trace_sethandler.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9601c54961f4851d8fa6255d6f2c34f9a79e4341d9b2e95ecec0c88f99de374d",
+        "sha256_in_prefix": "9601c54961f4851d8fa6255d6f2c34f9a79e4341d9b2e95ecec0c88f99de374d",
+        "size_in_bytes": 608
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_userauth_authenticated.3.gz",
+        "path_type": "hardlink",
+        "sha256": "99cec4da7db33791b2c8c8d76601c4cd4fbe5f6d7207dc3e01a90068af4a27cd",
+        "sha256_in_prefix": "99cec4da7db33791b2c8c8d76601c4cd4fbe5f6d7207dc3e01a90068af4a27cd",
+        "size_in_bytes": 309
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_userauth_hostbased_fromfile.3.gz",
+        "path_type": "hardlink",
+        "sha256": "e246e71629b3e7b6cf40a585ce59008cc0735a6f3cbaa0fecbbb15e9608c5599",
+        "sha256_in_prefix": "e246e71629b3e7b6cf40a585ce59008cc0735a6f3cbaa0fecbbb15e9608c5599",
+        "size_in_bytes": 349
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_userauth_hostbased_fromfile_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "b92491fd71c18f6cd35eb389af52f536d16ef573470ea9051bc8835ec7aeee94",
+        "sha256_in_prefix": "b92491fd71c18f6cd35eb389af52f536d16ef573470ea9051bc8835ec7aeee94",
+        "size_in_bytes": 164
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_userauth_keyboard_interactive.3.gz",
+        "path_type": "hardlink",
+        "sha256": "eef82fd384272569f642677cb9bddd5749a7bfdd032af451aa4de94c2d18b913",
+        "sha256_in_prefix": "eef82fd384272569f642677cb9bddd5749a7bfdd032af451aa4de94c2d18b913",
+        "size_in_bytes": 372
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_userauth_keyboard_interactive_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "731a5970df13e2f1e3c4ab0f87ab7771ba1574ee776fd5d9c46c1177a9cf4536",
+        "sha256_in_prefix": "731a5970df13e2f1e3c4ab0f87ab7771ba1574ee776fd5d9c46c1177a9cf4536",
+        "size_in_bytes": 1042
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_userauth_list.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f59666b5a86bc50e34a98911ae7b27705c2bdf700063f2de8b9fdeead89bc00f",
+        "sha256_in_prefix": "f59666b5a86bc50e34a98911ae7b27705c2bdf700063f2de8b9fdeead89bc00f",
+        "size_in_bytes": 830
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_userauth_password.3.gz",
+        "path_type": "hardlink",
+        "sha256": "cf17f9d143255b1f3f408130cd010fd8919c8896d23ef49daec72901eb6a5d9f",
+        "sha256_in_prefix": "cf17f9d143255b1f3f408130cd010fd8919c8896d23ef49daec72901eb6a5d9f",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_userauth_password_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "161abae4a688218393d6fb02bdb56f640b9e4a1af568447667046268726eadb4",
+        "sha256_in_prefix": "161abae4a688218393d6fb02bdb56f640b9e4a1af568447667046268726eadb4",
+        "size_in_bytes": 953
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_userauth_publickey.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f8751e254d30d2e83fb614b8b97fe0d52dd783f8fb7ebb61385728c2a8271c51",
+        "sha256_in_prefix": "f8751e254d30d2e83fb614b8b97fe0d52dd783f8fb7ebb61385728c2a8271c51",
+        "size_in_bytes": 433
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_userauth_publickey_fromfile.3.gz",
+        "path_type": "hardlink",
+        "sha256": "714b6317e0fc95ebd59b3386bc7a28772c30c6c6d8492954dde15ef0ce1b9d8f",
+        "sha256_in_prefix": "714b6317e0fc95ebd59b3386bc7a28772c30c6c6d8492954dde15ef0ce1b9d8f",
+        "size_in_bytes": 344
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_userauth_publickey_fromfile_ex.3.gz",
+        "path_type": "hardlink",
+        "sha256": "44c3db5e435f204910e695f2853a860c5a1c2a0ddd6a73af34704520adbda3c8",
+        "sha256_in_prefix": "44c3db5e435f204910e695f2853a860c5a1c2a0ddd6a73af34704520adbda3c8",
+        "size_in_bytes": 807
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_userauth_publickey_frommemory.3.gz",
+        "path_type": "hardlink",
+        "sha256": "7927f93f21346cfa734dc3071cfbf2273c2be82aad04c68c66cb40f206f794d6",
+        "sha256_in_prefix": "7927f93f21346cfa734dc3071cfbf2273c2be82aad04c68c66cb40f206f794d6",
+        "size_in_bytes": 832
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libssh2_version.3.gz",
+        "path_type": "hardlink",
+        "sha256": "44e5afc0cca3709c98771b37ca0df9a8ddeffe12c8ed09ea4a09feca644d4c81",
+        "sha256_in_prefix": "44e5afc0cca3709c98771b37ca0df9a8ddeffe12c8ed09ea4a09feca644d4c81",
+        "size_in_bytes": 631
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 266556,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2w64-libssh2-1.7.0-2.tar.bz2",
+  "version": "1.7.0"
+}

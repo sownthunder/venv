@@ -1,0 +1,309 @@
+{
+  "build": "2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2-heimdal",
+    "m2-libcrypt",
+    "m2-libedit",
+    "m2-openssl",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2-openssh-7.1p2-2",
+  "features": "",
+  "files": [
+    "Library/etc/ssh/moduli",
+    "Library/etc/ssh/ssh_config",
+    "Library/etc/ssh/sshd_config",
+    "Library/usr/bin/findssl.sh",
+    "Library/usr/bin/scp.exe",
+    "Library/usr/bin/sftp.exe",
+    "Library/usr/bin/slogin.exe",
+    "Library/usr/bin/ssh-add.exe",
+    "Library/usr/bin/ssh-agent.exe",
+    "Library/usr/bin/ssh-copy-id",
+    "Library/usr/bin/ssh-keygen.exe",
+    "Library/usr/bin/ssh-keyscan.exe",
+    "Library/usr/bin/ssh.exe",
+    "Library/usr/bin/sshd.exe",
+    "Library/usr/lib/ssh/sftp-server.exe",
+    "Library/usr/lib/ssh/ssh-keysign.exe",
+    "Library/usr/lib/ssh/ssh-pkcs11-helper.exe",
+    "Library/usr/share/licenses/openssh/LICENCE",
+    "Library/usr/share/man/man1/scp.1.gz",
+    "Library/usr/share/man/man1/sftp.1.gz",
+    "Library/usr/share/man/man1/slogin.1.gz",
+    "Library/usr/share/man/man1/ssh-add.1.gz",
+    "Library/usr/share/man/man1/ssh-agent.1.gz",
+    "Library/usr/share/man/man1/ssh-copy-id.1.gz",
+    "Library/usr/share/man/man1/ssh-keygen.1.gz",
+    "Library/usr/share/man/man1/ssh-keyscan.1.gz",
+    "Library/usr/share/man/man1/ssh.1.gz",
+    "Library/usr/share/man/man5/moduli.5.gz",
+    "Library/usr/share/man/man5/ssh_config.5.gz",
+    "Library/usr/share/man/man5/sshd_config.5.gz",
+    "Library/usr/share/man/man8/sftp-server.8.gz",
+    "Library/usr/share/man/man8/ssh-keysign.8.gz",
+    "Library/usr/share/man/man8/ssh-pkcs11-helper.8.gz",
+    "Library/usr/share/man/man8/sshd.8.gz"
+  ],
+  "fn": "m2-openssh-7.1p2-2.tar.bz2",
+  "license": "GPL, custom:BSD",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2-openssh-7.1p2-2",
+    "type": 1
+  },
+  "md5": "4a8a65820739611dd92914550075400a",
+  "name": "m2-openssh",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2-openssh-7.1p2-2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/etc/ssh/moduli",
+        "path_type": "hardlink",
+        "sha256": "670ced23d3ba761f4b3f61f9226ca14ef668bef2be8d857a7fa009289bd715a4",
+        "sha256_in_prefix": "670ced23d3ba761f4b3f61f9226ca14ef668bef2be8d857a7fa009289bd715a4",
+        "size_in_bytes": 300324
+      },
+      {
+        "_path": "Library/etc/ssh/ssh_config",
+        "path_type": "hardlink",
+        "sha256": "97839ad4c996db783155c2f0e078383e8bb078446848917d3e0fe2845e68354e",
+        "sha256_in_prefix": "97839ad4c996db783155c2f0e078383e8bb078446848917d3e0fe2845e68354e",
+        "size_in_bytes": 1574
+      },
+      {
+        "_path": "Library/etc/ssh/sshd_config",
+        "path_type": "hardlink",
+        "sha256": "8c23458bd28667ec1b79398afcb74e8643a172b2004b5b9a311e0d8cb644a9ec",
+        "sha256_in_prefix": "8c23458bd28667ec1b79398afcb74e8643a172b2004b5b9a311e0d8cb644a9ec",
+        "size_in_bytes": 3663
+      },
+      {
+        "_path": "Library/usr/bin/findssl.sh",
+        "path_type": "hardlink",
+        "sha256": "d84595a545dc2c11dd12fc6488eef991d488fa93cb3a554cbbbe1bf1199849ba",
+        "sha256_in_prefix": "d84595a545dc2c11dd12fc6488eef991d488fa93cb3a554cbbbe1bf1199849ba",
+        "size_in_bytes": 4857
+      },
+      {
+        "_path": "Library/usr/bin/scp.exe",
+        "path_type": "hardlink",
+        "sha256": "d93e16cfaa3b8b2fb574c0692da899c9446e366c1e33a4b08fc034554be1b3c5",
+        "sha256_in_prefix": "d93e16cfaa3b8b2fb574c0692da899c9446e366c1e33a4b08fc034554be1b3c5",
+        "size_in_bytes": 69591
+      },
+      {
+        "_path": "Library/usr/bin/sftp.exe",
+        "path_type": "hardlink",
+        "sha256": "b12483c5afe47540d6d10d5cd53305c1eb3dd8bf791a7dd9dc182014eb09e3c2",
+        "sha256_in_prefix": "b12483c5afe47540d6d10d5cd53305c1eb3dd8bf791a7dd9dc182014eb09e3c2",
+        "size_in_bytes": 120388
+      },
+      {
+        "_path": "Library/usr/bin/slogin.exe",
+        "path_type": "hardlink",
+        "sha256": "00868269d80e2a9578daf6f613cd20fed3e682778c68bd3a3e4675acf7fbf6b3",
+        "sha256_in_prefix": "00868269d80e2a9578daf6f613cd20fed3e682778c68bd3a3e4675acf7fbf6b3",
+        "size_in_bytes": 637744
+      },
+      {
+        "_path": "Library/usr/bin/ssh-add.exe",
+        "path_type": "hardlink",
+        "sha256": "4bb7243689dcb170331332037fc17848db2f52e91d8ef55cf0bed89b4688452e",
+        "sha256_in_prefix": "4bb7243689dcb170331332037fc17848db2f52e91d8ef55cf0bed89b4688452e",
+        "size_in_bytes": 312908
+      },
+      {
+        "_path": "Library/usr/bin/ssh-agent.exe",
+        "path_type": "hardlink",
+        "sha256": "fd076bb59fae6d746e9b46b7202eb4424396ba3e8942c6f5496dd1b7100ec832",
+        "sha256_in_prefix": "fd076bb59fae6d746e9b46b7202eb4424396ba3e8942c6f5496dd1b7100ec832",
+        "size_in_bytes": 330343
+      },
+      {
+        "_path": "Library/usr/bin/ssh-copy-id",
+        "path_type": "hardlink",
+        "sha256": "2def2a8b1779456893ff7b597ece971c0cae2875f1e475d1a39705e62a95c871",
+        "sha256_in_prefix": "2def2a8b1779456893ff7b597ece971c0cae2875f1e475d1a39705e62a95c871",
+        "size_in_bytes": 9325
+      },
+      {
+        "_path": "Library/usr/bin/ssh-keygen.exe",
+        "path_type": "hardlink",
+        "sha256": "46495dd6d9b06619448ba3f408258c2c57744e7585aa719c8d4b66059d79aa28",
+        "sha256_in_prefix": "46495dd6d9b06619448ba3f408258c2c57744e7585aa719c8d4b66059d79aa28",
+        "size_in_bytes": 371307
+      },
+      {
+        "_path": "Library/usr/bin/ssh-keyscan.exe",
+        "path_type": "hardlink",
+        "sha256": "ca5e0ad5ef9599d61d74622d500d74dc56331f84d371defd7b7093e2f639a3be",
+        "sha256_in_prefix": "ca5e0ad5ef9599d61d74622d500d74dc56331f84d371defd7b7093e2f639a3be",
+        "size_in_bytes": 380486
+      },
+      {
+        "_path": "Library/usr/bin/ssh.exe",
+        "path_type": "hardlink",
+        "sha256": "00868269d80e2a9578daf6f613cd20fed3e682778c68bd3a3e4675acf7fbf6b3",
+        "sha256_in_prefix": "00868269d80e2a9578daf6f613cd20fed3e682778c68bd3a3e4675acf7fbf6b3",
+        "size_in_bytes": 637744
+      },
+      {
+        "_path": "Library/usr/bin/sshd.exe",
+        "path_type": "hardlink",
+        "sha256": "97edfd880bb891a4ad27814ba881b421344a34575813767d055d601912643751",
+        "sha256_in_prefix": "97edfd880bb891a4ad27814ba881b421344a34575813767d055d601912643751",
+        "size_in_bytes": 685725
+      },
+      {
+        "_path": "Library/usr/lib/ssh/sftp-server.exe",
+        "path_type": "hardlink",
+        "sha256": "b79e95c980ef9bef420656128996a7e954f249f644d1626fe0c472cb1d74bf42",
+        "sha256_in_prefix": "b79e95c980ef9bef420656128996a7e954f249f644d1626fe0c472cb1d74bf42",
+        "size_in_bytes": 80555
+      },
+      {
+        "_path": "Library/usr/lib/ssh/ssh-keysign.exe",
+        "path_type": "hardlink",
+        "sha256": "2fe9808c32602adeef2cb0826d8c6c17a8a8dfbe2b453de71d18be633821188d",
+        "sha256_in_prefix": "2fe9808c32602adeef2cb0826d8c6c17a8a8dfbe2b453de71d18be633821188d",
+        "size_in_bytes": 390716
+      },
+      {
+        "_path": "Library/usr/lib/ssh/ssh-pkcs11-helper.exe",
+        "path_type": "hardlink",
+        "sha256": "b4af26dad5320c39fedab539f17ac02dbaf6ac36c2b1aa03e3fc326436f7afb0",
+        "sha256_in_prefix": "b4af26dad5320c39fedab539f17ac02dbaf6ac36c2b1aa03e3fc326436f7afb0",
+        "size_in_bytes": 324322
+      },
+      {
+        "_path": "Library/usr/share/licenses/openssh/LICENCE",
+        "path_type": "hardlink",
+        "sha256": "894e7b6ae112e9c71ab5a5d9190112826355588b2f1d246d87a3f82b625b332d",
+        "sha256_in_prefix": "894e7b6ae112e9c71ab5a5d9190112826355588b2f1d246d87a3f82b625b332d",
+        "size_in_bytes": 16040
+      },
+      {
+        "_path": "Library/usr/share/man/man1/scp.1.gz",
+        "path_type": "hardlink",
+        "sha256": "70f4544c1895bc204e4fd83866e4979e40b116e421295949265f79231d9e5aa1",
+        "sha256_in_prefix": "70f4544c1895bc204e4fd83866e4979e40b116e421295949265f79231d9e5aa1",
+        "size_in_bytes": 2204
+      },
+      {
+        "_path": "Library/usr/share/man/man1/sftp.1.gz",
+        "path_type": "hardlink",
+        "sha256": "32b8c26fbd0614ea17ddb69465bde5619eeedfdfe72e88eeddb1a8e16478a873",
+        "sha256_in_prefix": "32b8c26fbd0614ea17ddb69465bde5619eeedfdfe72e88eeddb1a8e16478a873",
+        "size_in_bytes": 5371
+      },
+      {
+        "_path": "Library/usr/share/man/man1/slogin.1.gz",
+        "path_type": "hardlink",
+        "sha256": "7cbdb1a1c563f5f109f90bfb24ba1048f2f7b0de731b103274588fa8e24f4eec",
+        "sha256_in_prefix": "7cbdb1a1c563f5f109f90bfb24ba1048f2f7b0de731b103274588fa8e24f4eec",
+        "size_in_bytes": 14529
+      },
+      {
+        "_path": "Library/usr/share/man/man1/ssh-add.1.gz",
+        "path_type": "hardlink",
+        "sha256": "dc283963ce61617ba3686fa81acb321834efd2e47f5f419ed9a81d928b6c81a9",
+        "sha256_in_prefix": "dc283963ce61617ba3686fa81acb321834efd2e47f5f419ed9a81d928b6c81a9",
+        "size_in_bytes": 2862
+      },
+      {
+        "_path": "Library/usr/share/man/man1/ssh-agent.1.gz",
+        "path_type": "hardlink",
+        "sha256": "2083b635ab966a82784917532b82b5264d98e4d10ea2e5f6837b4969f1bcf0d9",
+        "sha256_in_prefix": "2083b635ab966a82784917532b82b5264d98e4d10ea2e5f6837b4969f1bcf0d9",
+        "size_in_bytes": 2968
+      },
+      {
+        "_path": "Library/usr/share/man/man1/ssh-copy-id.1.gz",
+        "path_type": "hardlink",
+        "sha256": "cd25f7f3405e5a4fe09c01236281d82b41562ad5975c4f34dc28133b284509df",
+        "sha256_in_prefix": "cd25f7f3405e5a4fe09c01236281d82b41562ad5975c4f34dc28133b284509df",
+        "size_in_bytes": 2871
+      },
+      {
+        "_path": "Library/usr/share/man/man1/ssh-keygen.1.gz",
+        "path_type": "hardlink",
+        "sha256": "e4f82f87e6d83d6cc700381c02485c6b676626736ab1d87ca346b8d83f0760fb",
+        "sha256_in_prefix": "e4f82f87e6d83d6cc700381c02485c6b676626736ab1d87ca346b8d83f0760fb",
+        "size_in_bytes": 8879
+      },
+      {
+        "_path": "Library/usr/share/man/man1/ssh-keyscan.1.gz",
+        "path_type": "hardlink",
+        "sha256": "8c4474b6d9069fba4138a2ac550d828dcaf1746d6d95a508129271807858f115",
+        "sha256_in_prefix": "8c4474b6d9069fba4138a2ac550d828dcaf1746d6d95a508129271807858f115",
+        "size_in_bytes": 2035
+      },
+      {
+        "_path": "Library/usr/share/man/man1/ssh.1.gz",
+        "path_type": "hardlink",
+        "sha256": "7cbdb1a1c563f5f109f90bfb24ba1048f2f7b0de731b103274588fa8e24f4eec",
+        "sha256_in_prefix": "7cbdb1a1c563f5f109f90bfb24ba1048f2f7b0de731b103274588fa8e24f4eec",
+        "size_in_bytes": 14529
+      },
+      {
+        "_path": "Library/usr/share/man/man5/moduli.5.gz",
+        "path_type": "hardlink",
+        "sha256": "472535860809c60b66bba4f9679622ec00d4da3b190ac86ee3655ab780cf0162",
+        "sha256_in_prefix": "472535860809c60b66bba4f9679622ec00d4da3b190ac86ee3655ab780cf0162",
+        "size_in_bytes": 1801
+      },
+      {
+        "_path": "Library/usr/share/man/man5/ssh_config.5.gz",
+        "path_type": "hardlink",
+        "sha256": "9d027111bd020b794e68c848c6de54b6708b6bbc270729f62f6c9619e393f7db",
+        "sha256_in_prefix": "9d027111bd020b794e68c848c6de54b6708b6bbc270729f62f6c9619e393f7db",
+        "size_in_bytes": 14398
+      },
+      {
+        "_path": "Library/usr/share/man/man5/sshd_config.5.gz",
+        "path_type": "hardlink",
+        "sha256": "e978cc33e1d3ee8065c90c15863042bc4d46d926be8b371cb7bb4c13e0ab395b",
+        "sha256_in_prefix": "e978cc33e1d3ee8065c90c15863042bc4d46d926be8b371cb7bb4c13e0ab395b",
+        "size_in_bytes": 13946
+      },
+      {
+        "_path": "Library/usr/share/man/man8/sftp-server.8.gz",
+        "path_type": "hardlink",
+        "sha256": "8af6543168ddd3d3d1e54ec537d6f8cbf5c114d06946260aae5c331b98db6e93",
+        "sha256_in_prefix": "8af6543168ddd3d3d1e54ec537d6f8cbf5c114d06946260aae5c331b98db6e93",
+        "size_in_bytes": 2402
+      },
+      {
+        "_path": "Library/usr/share/man/man8/ssh-keysign.8.gz",
+        "path_type": "hardlink",
+        "sha256": "d4d703c347a3b832e0e701974d3b0bcea0b551e3c351a3e560a0a830805c23b5",
+        "sha256_in_prefix": "d4d703c347a3b832e0e701974d3b0bcea0b551e3c351a3e560a0a830805c23b5",
+        "size_in_bytes": 1457
+      },
+      {
+        "_path": "Library/usr/share/man/man8/ssh-pkcs11-helper.8.gz",
+        "path_type": "hardlink",
+        "sha256": "9c85a5de29234fc3d193c59f16628ec6c552a0e72fc056872f9a217eaa42f417",
+        "sha256_in_prefix": "9c85a5de29234fc3d193c59f16628ec6c552a0e72fc056872f9a217eaa42f417",
+        "size_in_bytes": 810
+      },
+      {
+        "_path": "Library/usr/share/man/man8/sshd.8.gz",
+        "path_type": "hardlink",
+        "sha256": "45e0b5ac1e51217e9a052a4a5c98f1d04025c6c3ad197a2d2e380b472a580227",
+        "sha256_in_prefix": "45e0b5ac1e51217e9a052a4a5c98f1d04025c6c3ad197a2d2e380b472a580227",
+        "size_in_bytes": 11153
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 1496957,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2-openssh-7.1p2-2.tar.bz2",
+  "version": "7.1p2"
+}

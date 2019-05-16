@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Checks for Presence of Control Sequences</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for has_ctl {fansi}"><tr><td>has_ctl {fansi}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Checks for Presence of Control Sequences</h2>
+
+<h3>Description</h3>
+
+<p><code>has_ctl</code> checks for any <em>Control Sequence</em>, whereas <code>has_sgr</code> checks only
+for ANSI CSI SGR sequences.  You can check for different types of sequences
+with the <code>which</code> parameter.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+has_ctl(x, which = "all", warn = getOption("fansi.warn"))
+
+has_sgr(x, warn = getOption("fansi.warn"))
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>a character vector or object that can be coerced to character.</p>
+</td></tr>
+<tr valign="top"><td><code>which</code></td>
+<td>
+<p>character, what <em>Control Sequences</em> to check for; see <code>strip</code>
+parameter for <a href="strip_ctl.html">strip_ctl</a> for details.</p>
+</td></tr>
+<tr valign="top"><td><code>warn</code></td>
+<td>
+<p>TRUE (default) or FALSE, whether to warn when potentially
+problematic <em>Control Sequences</em> are encountered.  These could cause the
+assumptions <code>fansi</code> makes about how strings are rendered on your display
+to be incorrect, for example by moving the cursor (see <a href="fansi.html">fansi</a>).</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>logical of same length as <code>x</code>; NA values in <code>x</code> result in NA values
+in return
+</p>
+
+
+<h3>See Also</h3>
+
+<p><a href="fansi.html">fansi</a> for details on how <em>Control Sequences</em> are
+interpreted, particularly if you are getting unexpected results.
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>fansi</em> version 0.2.3 <a href="00Index.html">Index</a>]</div>
+</body></html>

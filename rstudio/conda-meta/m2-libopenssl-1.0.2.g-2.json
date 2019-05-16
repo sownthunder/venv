@@ -1,0 +1,146 @@
+{
+  "build": "2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2-zlib",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2-libopenssl-1.0.2.g-2",
+  "features": "",
+  "files": [
+    "Library/usr/bin/msys-crypto-1.0.0.dll",
+    "Library/usr/bin/msys-ssl-1.0.0.dll",
+    "Library/usr/lib/openssl/engines/lib4758cca.so",
+    "Library/usr/lib/openssl/engines/libaep.so",
+    "Library/usr/lib/openssl/engines/libatalla.so",
+    "Library/usr/lib/openssl/engines/libcapi.so",
+    "Library/usr/lib/openssl/engines/libchil.so",
+    "Library/usr/lib/openssl/engines/libcswift.so",
+    "Library/usr/lib/openssl/engines/libgmp.so",
+    "Library/usr/lib/openssl/engines/libgost.so",
+    "Library/usr/lib/openssl/engines/libnuron.so",
+    "Library/usr/lib/openssl/engines/libpadlock.so",
+    "Library/usr/lib/openssl/engines/libsureware.so",
+    "Library/usr/lib/openssl/engines/libubsec.so"
+  ],
+  "fn": "m2-libopenssl-1.0.2.g-2.tar.bz2",
+  "license": "GPL, custom:BSD",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2-libopenssl-1.0.2.g-2",
+    "type": 1
+  },
+  "md5": "27216e4ac021dab5f94a6d9c51adde92",
+  "name": "m2-libopenssl",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2-libopenssl-1.0.2.g-2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/usr/bin/msys-crypto-1.0.0.dll",
+        "path_type": "hardlink",
+        "sha256": "05856346a079adcd473b9491315d7209078c3c095f05a11a041fbbcad62c7448",
+        "sha256_in_prefix": "05856346a079adcd473b9491315d7209078c3c095f05a11a041fbbcad62c7448",
+        "size_in_bytes": 1797120
+      },
+      {
+        "_path": "Library/usr/bin/msys-ssl-1.0.0.dll",
+        "path_type": "hardlink",
+        "sha256": "9c51d8767044438337fcdff8cf0f15d72cea2052b3ff73d72d8d658d8d6fa3e7",
+        "sha256_in_prefix": "9c51d8767044438337fcdff8cf0f15d72cea2052b3ff73d72d8d658d8d6fa3e7",
+        "size_in_bytes": 399872
+      },
+      {
+        "_path": "Library/usr/lib/openssl/engines/lib4758cca.so",
+        "path_type": "hardlink",
+        "sha256": "49ec63bd0f3257a689731bef19d987ffc9d6a5e264c917f2fcb74a4d43d03a2e",
+        "sha256_in_prefix": "49ec63bd0f3257a689731bef19d987ffc9d6a5e264c917f2fcb74a4d43d03a2e",
+        "size_in_bytes": 17408
+      },
+      {
+        "_path": "Library/usr/lib/openssl/engines/libaep.so",
+        "path_type": "hardlink",
+        "sha256": "89fffcd53596853866625f290e1db263fe02d7a7eb13734a652713b34ac80e42",
+        "sha256_in_prefix": "89fffcd53596853866625f290e1db263fe02d7a7eb13734a652713b34ac80e42",
+        "size_in_bytes": 17920
+      },
+      {
+        "_path": "Library/usr/lib/openssl/engines/libatalla.so",
+        "path_type": "hardlink",
+        "sha256": "e0a39618d578d7d7e18780c3d48f0cb3763e32d1c8b1190d32dcb410a649f418",
+        "sha256_in_prefix": "e0a39618d578d7d7e18780c3d48f0cb3763e32d1c8b1190d32dcb410a649f418",
+        "size_in_bytes": 13824
+      },
+      {
+        "_path": "Library/usr/lib/openssl/engines/libcapi.so",
+        "path_type": "hardlink",
+        "sha256": "5634408ac77815f37a64830125c49376dd90b6d2d0f35b496690feb20e2d1114",
+        "sha256_in_prefix": "5634408ac77815f37a64830125c49376dd90b6d2d0f35b496690feb20e2d1114",
+        "size_in_bytes": 7168
+      },
+      {
+        "_path": "Library/usr/lib/openssl/engines/libchil.so",
+        "path_type": "hardlink",
+        "sha256": "b50687953f4ce17d102d2db25139e4870e9f5178942b9ccdc7b6e6ca8e77c2de",
+        "sha256_in_prefix": "b50687953f4ce17d102d2db25139e4870e9f5178942b9ccdc7b6e6ca8e77c2de",
+        "size_in_bytes": 20992
+      },
+      {
+        "_path": "Library/usr/lib/openssl/engines/libcswift.so",
+        "path_type": "hardlink",
+        "sha256": "2a1da01919928d3612f4e442facea71f14a61c55444ca46874cd37326663adeb",
+        "sha256_in_prefix": "2a1da01919928d3612f4e442facea71f14a61c55444ca46874cd37326663adeb",
+        "size_in_bytes": 20992
+      },
+      {
+        "_path": "Library/usr/lib/openssl/engines/libgmp.so",
+        "path_type": "hardlink",
+        "sha256": "e8ae10114ef2d155f611e6b926221f5545c857d3e1e23c0ad8454e2f1c4ad5f2",
+        "sha256_in_prefix": "e8ae10114ef2d155f611e6b926221f5545c857d3e1e23c0ad8454e2f1c4ad5f2",
+        "size_in_bytes": 7168
+      },
+      {
+        "_path": "Library/usr/lib/openssl/engines/libgost.so",
+        "path_type": "hardlink",
+        "sha256": "4bd906577152963b783b940c754dfb4a479c727176e1f82d81f4e4f8cbd38557",
+        "sha256_in_prefix": "4bd906577152963b783b940c754dfb4a479c727176e1f82d81f4e4f8cbd38557",
+        "size_in_bytes": 92160
+      },
+      {
+        "_path": "Library/usr/lib/openssl/engines/libnuron.so",
+        "path_type": "hardlink",
+        "sha256": "147f40b54fcc76b04024c33e1f271845ebf1effca32d2c29503180010fa0a0b8",
+        "sha256_in_prefix": "147f40b54fcc76b04024c33e1f271845ebf1effca32d2c29503180010fa0a0b8",
+        "size_in_bytes": 12288
+      },
+      {
+        "_path": "Library/usr/lib/openssl/engines/libpadlock.so",
+        "path_type": "hardlink",
+        "sha256": "16aa487f02869b07aeda13a264e5bf650bc1dd27f683f1785ad1b419630efd57",
+        "sha256_in_prefix": "16aa487f02869b07aeda13a264e5bf650bc1dd27f683f1785ad1b419630efd57",
+        "size_in_bytes": 7168
+      },
+      {
+        "_path": "Library/usr/lib/openssl/engines/libsureware.so",
+        "path_type": "hardlink",
+        "sha256": "27465e8ee9e1ae4673909ebd548ceafba3d146ea45a018090207114732e78c72",
+        "sha256_in_prefix": "27465e8ee9e1ae4673909ebd548ceafba3d146ea45a018090207114732e78c72",
+        "size_in_bytes": 24064
+      },
+      {
+        "_path": "Library/usr/lib/openssl/engines/libubsec.so",
+        "path_type": "hardlink",
+        "sha256": "48c202f5213c18a6569c3ecf12ac07aea0bcf4e7030098a9c86e5949bc4f56ef",
+        "sha256_in_prefix": "48c202f5213c18a6569c3ecf12ac07aea0bcf4e7030098a9c86e5949bc4f56ef",
+        "size_in_bytes": 18432
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 1002926,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2-libopenssl-1.0.2.g-2.tar.bz2",
+  "version": "1.0.2.g"
+}

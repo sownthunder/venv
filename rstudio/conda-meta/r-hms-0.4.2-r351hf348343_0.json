@@ -1,0 +1,230 @@
+{
+  "build": "r351hf348343_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "r-pkgconfig",
+    "r-rlang",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-hms-0.4.2-r351hf348343_0",
+  "features": "",
+  "files": [
+    "lib/R/library/hms/DESCRIPTION",
+    "lib/R/library/hms/INDEX",
+    "lib/R/library/hms/MD5",
+    "lib/R/library/hms/Meta/Rd.rds",
+    "lib/R/library/hms/Meta/features.rds",
+    "lib/R/library/hms/Meta/hsearch.rds",
+    "lib/R/library/hms/Meta/links.rds",
+    "lib/R/library/hms/Meta/nsInfo.rds",
+    "lib/R/library/hms/Meta/package.rds",
+    "lib/R/library/hms/NAMESPACE",
+    "lib/R/library/hms/NEWS.md",
+    "lib/R/library/hms/R/hms",
+    "lib/R/library/hms/R/hms.rdb",
+    "lib/R/library/hms/R/hms.rdx",
+    "lib/R/library/hms/help/AnIndex",
+    "lib/R/library/hms/help/aliases.rds",
+    "lib/R/library/hms/help/hms.rdb",
+    "lib/R/library/hms/help/hms.rdx",
+    "lib/R/library/hms/help/paths.rds",
+    "lib/R/library/hms/html/00Index.html",
+    "lib/R/library/hms/html/R.css",
+    "lib/R/library/hms/html/hms.html",
+    "lib/R/library/hms/html/parse_hms.html",
+    "lib/R/library/hms/html/round_hms.html"
+  ],
+  "fn": "r-hms-0.4.2-r351hf348343_0.tar.bz2",
+  "license": "GPL-3",
+  "license_family": "GPL3",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-hms-0.4.2-r351hf348343_0",
+    "type": 1
+  },
+  "md5": "fe82bee064b2162a99ad5c380535875e",
+  "name": "r-hms",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-hms-0.4.2-r351hf348343_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/hms/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "f79e935ea9e196b5bf41bb5d4ec15f0d73494b4479dd1a3098e69c3c80417e88",
+        "sha256_in_prefix": "f79e935ea9e196b5bf41bb5d4ec15f0d73494b4479dd1a3098e69c3c80417e88",
+        "size_in_bytes": 906
+      },
+      {
+        "_path": "lib/R/library/hms/INDEX",
+        "path_type": "hardlink",
+        "sha256": "fb5a07a792a37676b4e512f652ce10cdfb6e9bd1f946d3bb26525adaa6906dba",
+        "sha256_in_prefix": "fb5a07a792a37676b4e512f652ce10cdfb6e9bd1f946d3bb26525adaa6906dba",
+        "size_in_bytes": 183
+      },
+      {
+        "_path": "lib/R/library/hms/MD5",
+        "path_type": "hardlink",
+        "sha256": "c3a8fcbfdd9231ab54f7b2acb71054218bbf6a182f765f8281c4c48ede19548d",
+        "sha256_in_prefix": "c3a8fcbfdd9231ab54f7b2acb71054218bbf6a182f765f8281c4c48ede19548d",
+        "size_in_bytes": 1116
+      },
+      {
+        "_path": "lib/R/library/hms/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "e8c9beb867dc1306340827a9983ee1848503d8554b1deca240090a590e9ae7b5",
+        "sha256_in_prefix": "e8c9beb867dc1306340827a9983ee1848503d8554b1deca240090a590e9ae7b5",
+        "size_in_bytes": 412
+      },
+      {
+        "_path": "lib/R/library/hms/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/hms/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "6788a5268d10a0d15e343e739943f45e457bea74d101161e5afd58f832a1d163",
+        "sha256_in_prefix": "6788a5268d10a0d15e343e739943f45e457bea74d101161e5afd58f832a1d163",
+        "size_in_bytes": 457
+      },
+      {
+        "_path": "lib/R/library/hms/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "f1a855840c20d479f9d6229ff62a7f17d89ccc5891a2890f2f9e128afe736d60",
+        "sha256_in_prefix": "f1a855840c20d479f9d6229ff62a7f17d89ccc5891a2890f2f9e128afe736d60",
+        "size_in_bytes": 240
+      },
+      {
+        "_path": "lib/R/library/hms/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "4ff6281df2aa019dd4148b4cb5fd43a827fa6fe471c2b4725758dd4bab2c1767",
+        "sha256_in_prefix": "4ff6281df2aa019dd4148b4cb5fd43a827fa6fe471c2b4725758dd4bab2c1767",
+        "size_in_bytes": 381
+      },
+      {
+        "_path": "lib/R/library/hms/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "f9173e1dce6b128b80e3af0073b498afb1b6f6da1d9433e98b477b2d8ff50dfa",
+        "sha256_in_prefix": "f9173e1dce6b128b80e3af0073b498afb1b6f6da1d9433e98b477b2d8ff50dfa",
+        "size_in_bytes": 987
+      },
+      {
+        "_path": "lib/R/library/hms/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "a3b07e3a07263af8ef54665d1f1e06dcc5bbb68a7077219f5f6c30f76b6e9912",
+        "sha256_in_prefix": "a3b07e3a07263af8ef54665d1f1e06dcc5bbb68a7077219f5f6c30f76b6e9912",
+        "size_in_bytes": 595
+      },
+      {
+        "_path": "lib/R/library/hms/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "4fc64da438015c41b312d4cd25e42f7e0356368aeea9bae122f98c2fe5c10ca6",
+        "sha256_in_prefix": "4fc64da438015c41b312d4cd25e42f7e0356368aeea9bae122f98c2fe5c10ca6",
+        "size_in_bytes": 3074
+      },
+      {
+        "_path": "lib/R/library/hms/R/hms",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/hms/R/hms.rdb",
+        "path_type": "hardlink",
+        "sha256": "1f4799d89463cdb27c892e6367757279dc7127b502636a31582699ea0cfbc077",
+        "sha256_in_prefix": "1f4799d89463cdb27c892e6367757279dc7127b502636a31582699ea0cfbc077",
+        "size_in_bytes": 38743
+      },
+      {
+        "_path": "lib/R/library/hms/R/hms.rdx",
+        "path_type": "hardlink",
+        "sha256": "fa910f46938108eaa3eec4617dd834ef4b5870af2a91e549896f303aa947f170",
+        "sha256_in_prefix": "fa910f46938108eaa3eec4617dd834ef4b5870af2a91e549896f303aa947f170",
+        "size_in_bytes": 1283
+      },
+      {
+        "_path": "lib/R/library/hms/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "7b8dd3174abb63a16faf50908936b5de5d6c332ca60d0b7946c94dd3380a366b",
+        "sha256_in_prefix": "7b8dd3174abb63a16faf50908936b5de5d6c332ca60d0b7946c94dd3380a366b",
+        "size_in_bytes": 354
+      },
+      {
+        "_path": "lib/R/library/hms/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "4090f30294c9f3aeed95ee62ae0daa7bcb26c5b72b8839bee5e077a33030a201",
+        "sha256_in_prefix": "4090f30294c9f3aeed95ee62ae0daa7bcb26c5b72b8839bee5e077a33030a201",
+        "size_in_bytes": 212
+      },
+      {
+        "_path": "lib/R/library/hms/help/hms.rdb",
+        "path_type": "hardlink",
+        "sha256": "3e2a6701deeeb24a7938f2980252004979a7972a7288ed20c9d8777831a385f8",
+        "sha256_in_prefix": "3e2a6701deeeb24a7938f2980252004979a7972a7288ed20c9d8777831a385f8",
+        "size_in_bytes": 7137
+      },
+      {
+        "_path": "lib/R/library/hms/help/hms.rdx",
+        "path_type": "hardlink",
+        "sha256": "8942f1cbc92005fad0522c38b8078eb0af1f0c8235f781731bf684aa9e408de8",
+        "sha256_in_prefix": "8942f1cbc92005fad0522c38b8078eb0af1f0c8235f781731bf684aa9e408de8",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "lib/R/library/hms/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "84545e50b0c2256b3f8d05dde12a698d42099da8b70e7e84999689598c7f444b",
+        "sha256_in_prefix": "84545e50b0c2256b3f8d05dde12a698d42099da8b70e7e84999689598c7f444b",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "lib/R/library/hms/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "2e347898db4bd618161fd86dfc117a966e1fb48d7410711f109cf3af7683af5c",
+        "sha256_in_prefix": "2e347898db4bd618161fd86dfc117a966e1fb48d7410711f109cf3af7683af5c",
+        "size_in_bytes": 3372
+      },
+      {
+        "_path": "lib/R/library/hms/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/hms/html/hms.html",
+        "path_type": "hardlink",
+        "sha256": "2ef9b057339aff516fb9745402be1f1b301cb7b0d9241b3d53b8b83c15e292a6",
+        "sha256_in_prefix": "2ef9b057339aff516fb9745402be1f1b301cb7b0d9241b3d53b8b83c15e292a6",
+        "size_in_bytes": 4295
+      },
+      {
+        "_path": "lib/R/library/hms/html/parse_hms.html",
+        "path_type": "hardlink",
+        "sha256": "2ae794a0871856369ff6aff15a60d7949344788497e7f798093ec0c8ae05cfa2",
+        "sha256_in_prefix": "2ae794a0871856369ff6aff15a60d7949344788497e7f798093ec0c8ae05cfa2",
+        "size_in_bytes": 1380
+      },
+      {
+        "_path": "lib/R/library/hms/html/round_hms.html",
+        "path_type": "hardlink",
+        "sha256": "b578bc7d0d153758157975e229a75a437d65c89e315943006a10256d2820c630",
+        "sha256_in_prefix": "b578bc7d0d153758157975e229a75a437d65c89e315943006a10256d2820c630",
+        "size_in_bytes": 1466
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 63861,
+  "subdir": "win-64",
+  "timestamp": 1538132110396,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-hms-0.4.2-r351hf348343_0.tar.bz2",
+  "version": "0.4.2"
+}

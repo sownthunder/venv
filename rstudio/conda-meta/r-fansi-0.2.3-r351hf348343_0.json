@@ -1,0 +1,317 @@
+{
+  "build": "r351hf348343_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-fansi-0.2.3-r351hf348343_0",
+  "features": "",
+  "files": [
+    "lib/R/library/fansi/DESCRIPTION",
+    "lib/R/library/fansi/INDEX",
+    "lib/R/library/fansi/MD5",
+    "lib/R/library/fansi/Meta/Rd.rds",
+    "lib/R/library/fansi/Meta/features.rds",
+    "lib/R/library/fansi/Meta/hsearch.rds",
+    "lib/R/library/fansi/Meta/links.rds",
+    "lib/R/library/fansi/Meta/nsInfo.rds",
+    "lib/R/library/fansi/Meta/package.rds",
+    "lib/R/library/fansi/NAMESPACE",
+    "lib/R/library/fansi/NEWS.md",
+    "lib/R/library/fansi/R/fansi",
+    "lib/R/library/fansi/R/fansi.rdb",
+    "lib/R/library/fansi/R/fansi.rdx",
+    "lib/R/library/fansi/help/AnIndex",
+    "lib/R/library/fansi/help/aliases.rds",
+    "lib/R/library/fansi/help/fansi.rdb",
+    "lib/R/library/fansi/help/fansi.rdx",
+    "lib/R/library/fansi/help/paths.rds",
+    "lib/R/library/fansi/html/00Index.html",
+    "lib/R/library/fansi/html/R.css",
+    "lib/R/library/fansi/html/fansi.html",
+    "lib/R/library/fansi/html/fansi_lines.html",
+    "lib/R/library/fansi/html/has_ctl.html",
+    "lib/R/library/fansi/html/nchar_ctl.html",
+    "lib/R/library/fansi/html/sgr_to_html.html",
+    "lib/R/library/fansi/html/strip_ctl.html",
+    "lib/R/library/fansi/html/strsplit_ctl.html",
+    "lib/R/library/fansi/html/strtrim_ctl.html",
+    "lib/R/library/fansi/html/strwrap_ctl.html",
+    "lib/R/library/fansi/html/substr_ctl.html",
+    "lib/R/library/fansi/html/tabs_as_spaces.html",
+    "lib/R/library/fansi/html/term_cap_test.html",
+    "lib/R/library/fansi/html/unhandled_ctl.html",
+    "lib/R/library/fansi/libs/x64/fansi.dll"
+  ],
+  "fn": "r-fansi-0.2.3-r351hf348343_0.tar.bz2",
+  "license": "GPL (>= 2)",
+  "license_family": "GPL3",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-fansi-0.2.3-r351hf348343_0",
+    "type": 1
+  },
+  "md5": "70e070b2846392f8d3b4d74c70b8fad3",
+  "name": "r-fansi",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-fansi-0.2.3-r351hf348343_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/fansi/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "f117f66c7f3c9ce1117746808973bf7daed94a23f90d7f52682045c481315214",
+        "sha256_in_prefix": "f117f66c7f3c9ce1117746808973bf7daed94a23f90d7f52682045c481315214",
+        "size_in_bytes": 1218
+      },
+      {
+        "_path": "lib/R/library/fansi/INDEX",
+        "path_type": "hardlink",
+        "sha256": "52a532d476a82987f6e5e52f6410e49cb6432a737d1ac822d3b5cbd570312bb6",
+        "sha256_in_prefix": "52a532d476a82987f6e5e52f6410e49cb6432a737d1ac822d3b5cbd570312bb6",
+        "size_in_bytes": 923
+      },
+      {
+        "_path": "lib/R/library/fansi/MD5",
+        "path_type": "hardlink",
+        "sha256": "19fe58373d555d14ce77ed35747b5bb8f2ca7d852745ddb9df27a977d218c89e",
+        "sha256_in_prefix": "19fe58373d555d14ce77ed35747b5bb8f2ca7d852745ddb9df27a977d218c89e",
+        "size_in_bytes": 1755
+      },
+      {
+        "_path": "lib/R/library/fansi/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "f645357a29f9b785458047089cb36f57f2573813fc17ca0a163d6ee9b5f4793d",
+        "sha256_in_prefix": "f645357a29f9b785458047089cb36f57f2573813fc17ca0a163d6ee9b5f4793d",
+        "size_in_bytes": 693
+      },
+      {
+        "_path": "lib/R/library/fansi/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/fansi/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "1ea7f8c697f9dc0fa578cd20ca11ab581d98aa60213ecf5bef8c6aa7316bb2c7",
+        "sha256_in_prefix": "1ea7f8c697f9dc0fa578cd20ca11ab581d98aa60213ecf5bef8c6aa7316bb2c7",
+        "size_in_bytes": 674
+      },
+      {
+        "_path": "lib/R/library/fansi/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "79499e19548e164f6ac282e4774c96a3c5166efe8596b3ca0f1a86f63b421152",
+        "sha256_in_prefix": "79499e19548e164f6ac282e4774c96a3c5166efe8596b3ca0f1a86f63b421152",
+        "size_in_bytes": 310
+      },
+      {
+        "_path": "lib/R/library/fansi/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "9e029d9a888f32293f88b57d14e8fc3f6a75fa48415c6857829676e0f3483552",
+        "sha256_in_prefix": "9e029d9a888f32293f88b57d14e8fc3f6a75fa48415c6857829676e0f3483552",
+        "size_in_bytes": 397
+      },
+      {
+        "_path": "lib/R/library/fansi/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "52644f361fd34daa304b21e89333c77a720ccdb9b037c5a8a8de8b4e8808d6cb",
+        "sha256_in_prefix": "52644f361fd34daa304b21e89333c77a720ccdb9b037c5a8a8de8b4e8808d6cb",
+        "size_in_bytes": 1050
+      },
+      {
+        "_path": "lib/R/library/fansi/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "7d0a71bc9cad65cd29d1d304f0ae8a017f8df361e0d2c831f7abb88ba3d7d3ad",
+        "sha256_in_prefix": "7d0a71bc9cad65cd29d1d304f0ae8a017f8df361e0d2c831f7abb88ba3d7d3ad",
+        "size_in_bytes": 454
+      },
+      {
+        "_path": "lib/R/library/fansi/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "3a3cf1fca3f32cb5864bb49ad85fe023ce28bb79c58a8c87c183cef077efeb4b",
+        "sha256_in_prefix": "3a3cf1fca3f32cb5864bb49ad85fe023ce28bb79c58a8c87c183cef077efeb4b",
+        "size_in_bytes": 916
+      },
+      {
+        "_path": "lib/R/library/fansi/R/fansi",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/fansi/R/fansi.rdb",
+        "path_type": "hardlink",
+        "sha256": "907775b15b4e1508a0a25290c0ed3b412de3004b4a22476d8d3382ee9b2443c5",
+        "sha256_in_prefix": "907775b15b4e1508a0a25290c0ed3b412de3004b4a22476d8d3382ee9b2443c5",
+        "size_in_bytes": 38215
+      },
+      {
+        "_path": "lib/R/library/fansi/R/fansi.rdx",
+        "path_type": "hardlink",
+        "sha256": "c542be9eef8e05eb8c13726022b128a56a7d38a3003a7ca633a5a63a72d44ec7",
+        "sha256_in_prefix": "c542be9eef8e05eb8c13726022b128a56a7d38a3003a7ca633a5a63a72d44ec7",
+        "size_in_bytes": 778
+      },
+      {
+        "_path": "lib/R/library/fansi/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "a82a8ea976991bbf90bbc3ab06f7936f868545a78ab8250cd63aaf764be91bd3",
+        "sha256_in_prefix": "a82a8ea976991bbf90bbc3ab06f7936f868545a78ab8250cd63aaf764be91bd3",
+        "size_in_bytes": 468
+      },
+      {
+        "_path": "lib/R/library/fansi/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "6748a61881ee2105f94094666d0e74897af7d139d81d7e90b411978c858d6884",
+        "sha256_in_prefix": "6748a61881ee2105f94094666d0e74897af7d139d81d7e90b411978c858d6884",
+        "size_in_bytes": 228
+      },
+      {
+        "_path": "lib/R/library/fansi/help/fansi.rdb",
+        "path_type": "hardlink",
+        "sha256": "e63342abd930d9b5db8818adc2fff517f882a166439308fb0cfc77ed77df71db",
+        "sha256_in_prefix": "e63342abd930d9b5db8818adc2fff517f882a166439308fb0cfc77ed77df71db",
+        "size_in_bytes": 47937
+      },
+      {
+        "_path": "lib/R/library/fansi/help/fansi.rdx",
+        "path_type": "hardlink",
+        "sha256": "a58d557bfb1bab6ef92098698efee53c576eb442c6483bccffad8c2835531b48",
+        "sha256_in_prefix": "a58d557bfb1bab6ef92098698efee53c576eb442c6483bccffad8c2835531b48",
+        "size_in_bytes": 446
+      },
+      {
+        "_path": "lib/R/library/fansi/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "7b20905ece137690c99065f3c706526a0e5222022904fed2d49f6d27d1119600",
+        "sha256_in_prefix": "7b20905ece137690c99065f3c706526a0e5222022904fed2d49f6d27d1119600",
+        "size_in_bytes": 261
+      },
+      {
+        "_path": "lib/R/library/fansi/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "79f2ba7e1f4ddb1ab619a9e5952ccabe9691f844ecab78dcbc084e874cdfb8a2",
+        "sha256_in_prefix": "79f2ba7e1f4ddb1ab619a9e5952ccabe9691f844ecab78dcbc084e874cdfb8a2",
+        "size_in_bytes": 3663
+      },
+      {
+        "_path": "lib/R/library/fansi/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/fansi/html/fansi.html",
+        "path_type": "hardlink",
+        "sha256": "73278697cf66385e6591a22c3d9965445e493bef22174ac0101bf3aa1fd18bd6",
+        "sha256_in_prefix": "73278697cf66385e6591a22c3d9965445e493bef22174ac0101bf3aa1fd18bd6",
+        "size_in_bytes": 9961
+      },
+      {
+        "_path": "lib/R/library/fansi/html/fansi_lines.html",
+        "path_type": "hardlink",
+        "sha256": "93b30ac06998685f29233510dd6cdbf90df029d9d7bfbb5cdf0cbec90ab3369c",
+        "sha256_in_prefix": "93b30ac06998685f29233510dd6cdbf90df029d9d7bfbb5cdf0cbec90ab3369c",
+        "size_in_bytes": 1501
+      },
+      {
+        "_path": "lib/R/library/fansi/html/has_ctl.html",
+        "path_type": "hardlink",
+        "sha256": "cf43a39995f44746da3bd7890c0bcd29a12bc7099defc70d4657d12ff98e2bf8",
+        "sha256_in_prefix": "cf43a39995f44746da3bd7890c0bcd29a12bc7099defc70d4657d12ff98e2bf8",
+        "size_in_bytes": 2213
+      },
+      {
+        "_path": "lib/R/library/fansi/html/nchar_ctl.html",
+        "path_type": "hardlink",
+        "sha256": "e117a56fae389800b9b97237f207ab0c6b2220d6256892c1c79b2a80e1704f00",
+        "sha256_in_prefix": "e117a56fae389800b9b97237f207ab0c6b2220d6256892c1c79b2a80e1704f00",
+        "size_in_bytes": 5194
+      },
+      {
+        "_path": "lib/R/library/fansi/html/sgr_to_html.html",
+        "path_type": "hardlink",
+        "sha256": "3ab97f4cb959b1cfa3a17192ded9e2c973b9c6ba39f90a0a057d7dbb8639c7f0",
+        "sha256_in_prefix": "3ab97f4cb959b1cfa3a17192ded9e2c973b9c6ba39f90a0a057d7dbb8639c7f0",
+        "size_in_bytes": 2744
+      },
+      {
+        "_path": "lib/R/library/fansi/html/strip_ctl.html",
+        "path_type": "hardlink",
+        "sha256": "8a2a664563b68e7c83952c8742962e9ed5e7d40a2d3f13f8a7595778d648de19",
+        "sha256_in_prefix": "8a2a664563b68e7c83952c8742962e9ed5e7d40a2d3f13f8a7595778d648de19",
+        "size_in_bytes": 3957
+      },
+      {
+        "_path": "lib/R/library/fansi/html/strsplit_ctl.html",
+        "path_type": "hardlink",
+        "sha256": "dee7465adc8c892fbee93975114504719f1c9391ee8c4531b580c63df57db439",
+        "sha256_in_prefix": "dee7465adc8c892fbee93975114504719f1c9391ee8c4531b580c63df57db439",
+        "size_in_bytes": 4271
+      },
+      {
+        "_path": "lib/R/library/fansi/html/strtrim_ctl.html",
+        "path_type": "hardlink",
+        "sha256": "8db80d52d6bbee36771e905b829676d4e3feee7e4806a9165a6405c6239a8574",
+        "sha256_in_prefix": "8db80d52d6bbee36771e905b829676d4e3feee7e4806a9165a6405c6239a8574",
+        "size_in_bytes": 3329
+      },
+      {
+        "_path": "lib/R/library/fansi/html/strwrap_ctl.html",
+        "path_type": "hardlink",
+        "sha256": "b7640fd1a6cf2e959873e7db265c9ea942abe2a8c8238a0616fbb5cbab8780f2",
+        "sha256_in_prefix": "b7640fd1a6cf2e959873e7db265c9ea942abe2a8c8238a0616fbb5cbab8780f2",
+        "size_in_bytes": 8193
+      },
+      {
+        "_path": "lib/R/library/fansi/html/substr_ctl.html",
+        "path_type": "hardlink",
+        "sha256": "adeeb765edc97b18c86679adc26b431270df94fb5aa71b2d886eb99d8a9593b9",
+        "sha256_in_prefix": "adeeb765edc97b18c86679adc26b431270df94fb5aa71b2d886eb99d8a9593b9",
+        "size_in_bytes": 6013
+      },
+      {
+        "_path": "lib/R/library/fansi/html/tabs_as_spaces.html",
+        "path_type": "hardlink",
+        "sha256": "01ea8cc969e0aa42fbd2c9d587fb00198153edc88319a856ae4be1c0253e859e",
+        "sha256_in_prefix": "01ea8cc969e0aa42fbd2c9d587fb00198153edc88319a856ae4be1c0253e859e",
+        "size_in_bytes": 3078
+      },
+      {
+        "_path": "lib/R/library/fansi/html/term_cap_test.html",
+        "path_type": "hardlink",
+        "sha256": "ed246083bd03ca68281ab65788153f30349e886719803fa2f382af295e8190e9",
+        "sha256_in_prefix": "ed246083bd03ca68281ab65788153f30349e886719803fa2f382af295e8190e9",
+        "size_in_bytes": 2184
+      },
+      {
+        "_path": "lib/R/library/fansi/html/unhandled_ctl.html",
+        "path_type": "hardlink",
+        "sha256": "cb8a01af209c53d364b059ff8cd35ccc266d57d89f5267e2798086472a1881f2",
+        "sha256_in_prefix": "cb8a01af209c53d364b059ff8cd35ccc266d57d89f5267e2798086472a1881f2",
+        "size_in_bytes": 3871
+      },
+      {
+        "_path": "lib/R/library/fansi/libs/x64/fansi.dll",
+        "path_type": "hardlink",
+        "sha256": "d3caf1b2fb04de005afe86ddcd32670945fbfe8fcbc0258187ba1f728208ec98",
+        "sha256_in_prefix": "d3caf1b2fb04de005afe86ddcd32670945fbfe8fcbc0258187ba1f728208ec98",
+        "size_in_bytes": 70144
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 152332,
+  "subdir": "win-64",
+  "timestamp": 1538123767707,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-fansi-0.2.3-r351hf348343_0.tar.bz2",
+  "version": "0.2.3"
+}

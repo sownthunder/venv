@@ -1,0 +1,450 @@
+{
+  "build": "2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-pcre",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-grep-2.24-2",
+  "features": "",
+  "files": [
+    "Library/mingw-w64/bin/egrep",
+    "Library/mingw-w64/bin/fgrep",
+    "Library/mingw-w64/bin/grep.exe",
+    "Library/mingw-w64/share/info/grep.info.gz",
+    "Library/mingw-w64/share/licenses/grep/COPYING",
+    "Library/mingw-w64/share/licenses/grep/README",
+    "Library/mingw-w64/share/locale/af/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/be/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/bg/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/ca/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/cs/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/da/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/de/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/el/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/eo/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/es/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/et/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/eu/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/fi/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/fr/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/ga/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/gl/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/he/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/hr/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/hu/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/id/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/it/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/ja/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/ko/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/ky/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/lt/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/nb/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/nl/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/pa/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/pl/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/pt/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/pt_BR/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/ro/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/ru/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/sk/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/sl/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/sr/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/sv/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/th/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/tr/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/uk/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/vi/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/zh_CN/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/locale/zh_TW/LC_MESSAGES/grep.mo",
+    "Library/mingw-w64/share/man/man1/egrep.1.gz",
+    "Library/mingw-w64/share/man/man1/fgrep.1.gz",
+    "Library/mingw-w64/share/man/man1/grep.1.gz"
+  ],
+  "fn": "m2w64-grep-2.24-2.tar.bz2",
+  "license": "GPL3",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-grep-2.24-2",
+    "type": 1
+  },
+  "md5": "bce7bd1777028b18d0c314df0ced6af2",
+  "name": "m2w64-grep",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-grep-2.24-2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/mingw-w64/bin/egrep",
+        "path_type": "hardlink",
+        "sha256": "f7c621ae0ceb26a76802743830bc469288996f64342901ae5292950ff713e981",
+        "sha256_in_prefix": "f7c621ae0ceb26a76802743830bc469288996f64342901ae5292950ff713e981",
+        "size_in_bytes": 28
+      },
+      {
+        "_path": "Library/mingw-w64/bin/fgrep",
+        "path_type": "hardlink",
+        "sha256": "5c8b1486de899cdd010d3cacde94579999cb82d0be9ec8c131b1b56886cfd36b",
+        "sha256_in_prefix": "5c8b1486de899cdd010d3cacde94579999cb82d0be9ec8c131b1b56886cfd36b",
+        "size_in_bytes": 28
+      },
+      {
+        "_path": "Library/mingw-w64/bin/grep.exe",
+        "path_type": "hardlink",
+        "sha256": "3000125bf81dd36e3a5a305596a2eae851c0a9028f3c9e875c9650d29dd061f1",
+        "sha256_in_prefix": "3000125bf81dd36e3a5a305596a2eae851c0a9028f3c9e875c9650d29dd061f1",
+        "size_in_bytes": 290361
+      },
+      {
+        "_path": "Library/mingw-w64/share/info/grep.info.gz",
+        "path_type": "hardlink",
+        "sha256": "1bfbb3ba4f25f951885149ff9a19b86fbe946050f685e5576c3ad22701838249",
+        "sha256_in_prefix": "1bfbb3ba4f25f951885149ff9a19b86fbe946050f685e5576c3ad22701838249",
+        "size_in_bytes": 28094
+      },
+      {
+        "_path": "Library/mingw-w64/share/licenses/grep/COPYING",
+        "path_type": "hardlink",
+        "sha256": "ca372a7d92560b1fa9f6d832b440e8bcd62d9adfa8870c98287deab66d98310e",
+        "sha256_in_prefix": "ca372a7d92560b1fa9f6d832b440e8bcd62d9adfa8870c98287deab66d98310e",
+        "size_in_bytes": 35148
+      },
+      {
+        "_path": "Library/mingw-w64/share/licenses/grep/README",
+        "path_type": "hardlink",
+        "sha256": "3d62f45126ff2c2663cef4e5d1983c2495b3b16a8220e259c4359d51980e276c",
+        "sha256_in_prefix": "3d62f45126ff2c2663cef4e5d1983c2495b3b16a8220e259c4359d51980e276c",
+        "size_in_bytes": 2404
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/af/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "9be5deb6d405f5d01072b3219df8454bc655f9cde4618916952d7200e351b4d2",
+        "sha256_in_prefix": "9be5deb6d405f5d01072b3219df8454bc655f9cde4618916952d7200e351b4d2",
+        "size_in_bytes": 1410
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/be/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "e188ef595504b8e7f5fc54692d9b33b245e555cd9f3fb45c4b22df0c2f5762cb",
+        "sha256_in_prefix": "e188ef595504b8e7f5fc54692d9b33b245e555cd9f3fb45c4b22df0c2f5762cb",
+        "size_in_bytes": 1738
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/bg/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "48eb8c1fa7fbad1de27e1ff55bdd004ee0c7e4588a3cef9bdddfb3a260bbde09",
+        "sha256_in_prefix": "48eb8c1fa7fbad1de27e1ff55bdd004ee0c7e4588a3cef9bdddfb3a260bbde09",
+        "size_in_bytes": 23923
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/ca/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "d048282b79ae67566e36f3d5eb1513fa921ae559b5ffa231e08967ce4cb0e584",
+        "sha256_in_prefix": "d048282b79ae67566e36f3d5eb1513fa921ae559b5ffa231e08967ce4cb0e584",
+        "size_in_bytes": 17647
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/cs/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "6a1bba67350e06e916ae080a283343304e76a91cb9da060e2ce1fb515e8dffa5",
+        "sha256_in_prefix": "6a1bba67350e06e916ae080a283343304e76a91cb9da060e2ce1fb515e8dffa5",
+        "size_in_bytes": 19109
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/da/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "4960dd87dfd2796462453df0a663f1c32d3988345878b0349eef2bf7e15dfee5",
+        "sha256_in_prefix": "4960dd87dfd2796462453df0a663f1c32d3988345878b0349eef2bf7e15dfee5",
+        "size_in_bytes": 17331
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/de/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "32a96d6be35a1e463396a48c7cccf2e232106a68fde314642b01049fe072a1b6",
+        "sha256_in_prefix": "32a96d6be35a1e463396a48c7cccf2e232106a68fde314642b01049fe072a1b6",
+        "size_in_bytes": 18954
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/el/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "3019d74e14f4e32aff4dc3d9eb0b9bb28a3506d10e9ab454f4473a696bdef052",
+        "sha256_in_prefix": "3019d74e14f4e32aff4dc3d9eb0b9bb28a3506d10e9ab454f4473a696bdef052",
+        "size_in_bytes": 8168
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/eo/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "b85ec68cb27af90a6f2a84d51b82febbfee34a4ac791514e4c999db4b712dab4",
+        "sha256_in_prefix": "b85ec68cb27af90a6f2a84d51b82febbfee34a4ac791514e4c999db4b712dab4",
+        "size_in_bytes": 17796
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/es/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "cc91705aa376e1819bf661b3e54d8e493ebdc428ddd6996fb70bbcb8674cbd2f",
+        "sha256_in_prefix": "cc91705aa376e1819bf661b3e54d8e493ebdc428ddd6996fb70bbcb8674cbd2f",
+        "size_in_bytes": 16966
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/et/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "2c378bf98853bb9020f73d3bf51716a4494964bf4c914cf16bf6687992e990f5",
+        "sha256_in_prefix": "2c378bf98853bb9020f73d3bf51716a4494964bf4c914cf16bf6687992e990f5",
+        "size_in_bytes": 17081
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/eu/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "44464131aedb0318458eb1e81cfbe085862c4551bf1177be9de4bcc12b73776a",
+        "sha256_in_prefix": "44464131aedb0318458eb1e81cfbe085862c4551bf1177be9de4bcc12b73776a",
+        "size_in_bytes": 1531
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/fi/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "600edc580ca9b4ffc1f4365f6eb9cb068471605d95e607460e7802f0f2c7bcfc",
+        "sha256_in_prefix": "600edc580ca9b4ffc1f4365f6eb9cb068471605d95e607460e7802f0f2c7bcfc",
+        "size_in_bytes": 18660
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/fr/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "9ad6d904bc93ffaa970602012cd3d7d624ec14da6ee5125b9db99e5c53ab84af",
+        "sha256_in_prefix": "9ad6d904bc93ffaa970602012cd3d7d624ec14da6ee5125b9db99e5c53ab84af",
+        "size_in_bytes": 17710
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/ga/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "e0d19222e885e6c3db30ddeb7ce49dd6ed7d92b22fba59097f262de3b7fdca46",
+        "sha256_in_prefix": "e0d19222e885e6c3db30ddeb7ce49dd6ed7d92b22fba59097f262de3b7fdca46",
+        "size_in_bytes": 10705
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/gl/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "268d9aca30b41771f91803a1e73b9710adf025f94c87e3e0088985de13471c1e",
+        "sha256_in_prefix": "268d9aca30b41771f91803a1e73b9710adf025f94c87e3e0088985de13471c1e",
+        "size_in_bytes": 12205
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/he/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "2a94cbb08a99526eec29cd74503e5303585d3866227c58b1cfde44b5058f1eac",
+        "sha256_in_prefix": "2a94cbb08a99526eec29cd74503e5303585d3866227c58b1cfde44b5058f1eac",
+        "size_in_bytes": 1380
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/hr/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "d0e5ece524fc0158fa151b36de8f32a6c1f51ce4bea21201606ef201e88c81c9",
+        "sha256_in_prefix": "d0e5ece524fc0158fa151b36de8f32a6c1f51ce4bea21201606ef201e88c81c9",
+        "size_in_bytes": 15803
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/hu/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "6cd64a11bbde44a6f839fd93296e75b2acd308c848f7d6c8f745989ec5b8e67b",
+        "sha256_in_prefix": "6cd64a11bbde44a6f839fd93296e75b2acd308c848f7d6c8f745989ec5b8e67b",
+        "size_in_bytes": 18471
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/id/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "136d4218bd59c9a8d7b47d45768f6f40812fb0f58a70721d62decff1ec10a524",
+        "sha256_in_prefix": "136d4218bd59c9a8d7b47d45768f6f40812fb0f58a70721d62decff1ec10a524",
+        "size_in_bytes": 15970
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/it/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "5347ddb843451461aee2c71bb4f81261d7ff9403ecf4c54d8fb653fbd494d5f1",
+        "sha256_in_prefix": "5347ddb843451461aee2c71bb4f81261d7ff9403ecf4c54d8fb653fbd494d5f1",
+        "size_in_bytes": 18054
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/ja/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "59f2d4db2d80c533e0a2d9e31192f9999f023a6a6a4cd4a38a5bdbad114b11c7",
+        "sha256_in_prefix": "59f2d4db2d80c533e0a2d9e31192f9999f023a6a6a4cd4a38a5bdbad114b11c7",
+        "size_in_bytes": 18182
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/ko/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "be16e3e424dae126cc3db6d1f65d0adf31cc025157139c513b8b6e5c94a6bbb1",
+        "sha256_in_prefix": "be16e3e424dae126cc3db6d1f65d0adf31cc025157139c513b8b6e5c94a6bbb1",
+        "size_in_bytes": 659
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/ky/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "242a775cd165cebf976893a6d2746e5786c564c3ce204cf42f4eaf0d8301f6b8",
+        "sha256_in_prefix": "242a775cd165cebf976893a6d2746e5786c564c3ce204cf42f4eaf0d8301f6b8",
+        "size_in_bytes": 3485
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/lt/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "1f145f7d8e1cef69b0b344e28ac22fba04f7247799309ea13c83d7d60e7aeb0b",
+        "sha256_in_prefix": "1f145f7d8e1cef69b0b344e28ac22fba04f7247799309ea13c83d7d60e7aeb0b",
+        "size_in_bytes": 2920
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/nb/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "850b91a5eb872395a83c326726ed4ebdf6c008a4f7ccf122a1924deaaa2fc6af",
+        "sha256_in_prefix": "850b91a5eb872395a83c326726ed4ebdf6c008a4f7ccf122a1924deaaa2fc6af",
+        "size_in_bytes": 17949
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/nl/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "c873ecfd505c9c71af0eb032f4577518baa19b2af3ea512db024eb0aec9e89fe",
+        "sha256_in_prefix": "c873ecfd505c9c71af0eb032f4577518baa19b2af3ea512db024eb0aec9e89fe",
+        "size_in_bytes": 18740
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/pa/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "c4dcb5b8a1f6c658e31803172c75cb2ef62de24fd8e82b97e2b5b0a0c551653c",
+        "sha256_in_prefix": "c4dcb5b8a1f6c658e31803172c75cb2ef62de24fd8e82b97e2b5b0a0c551653c",
+        "size_in_bytes": 8212
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/pl/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "dda08b062db6919e97c847205570e1c7949cf343c3557ae023a916c6df2706bc",
+        "sha256_in_prefix": "dda08b062db6919e97c847205570e1c7949cf343c3557ae023a916c6df2706bc",
+        "size_in_bytes": 18479
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/pt/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "a0f1e4bcbf9e74c6c68bda86d4e9bd6c80eb6bd2302079766dabaaf097a2fca4",
+        "sha256_in_prefix": "a0f1e4bcbf9e74c6c68bda86d4e9bd6c80eb6bd2302079766dabaaf097a2fca4",
+        "size_in_bytes": 1570
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/pt_BR/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "be8694c7d451ac480018d8cfa2573bf58dbe50bd51da479026cf63a1d229d627",
+        "sha256_in_prefix": "be8694c7d451ac480018d8cfa2573bf58dbe50bd51da479026cf63a1d229d627",
+        "size_in_bytes": 18812
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/ro/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "f4eb793ee89836534966d10af63ad40aa7ef4e17558daed2841b3eb2a144b7e0",
+        "sha256_in_prefix": "f4eb793ee89836534966d10af63ad40aa7ef4e17558daed2841b3eb2a144b7e0",
+        "size_in_bytes": 1520
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/ru/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "cacfb8d32a35c4deb24b2fbfd04ab558d6fefe0610ba025cb4f89958c2d0b3a0",
+        "sha256_in_prefix": "cacfb8d32a35c4deb24b2fbfd04ab558d6fefe0610ba025cb4f89958c2d0b3a0",
+        "size_in_bytes": 23645
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/sk/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "bddf7f81f8486caaaa73439859109fdb63f6db7a0838cc4f4c285b8ae003532f",
+        "sha256_in_prefix": "bddf7f81f8486caaaa73439859109fdb63f6db7a0838cc4f4c285b8ae003532f",
+        "size_in_bytes": 16052
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/sl/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "7d9bcc201f71da785772f9903782eece80e5d5243e89f815238aabf48681e8de",
+        "sha256_in_prefix": "7d9bcc201f71da785772f9903782eece80e5d5243e89f815238aabf48681e8de",
+        "size_in_bytes": 17868
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/sr/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "a5e3319415d7033ed8dd4f84d0a612dd0af635cc9bd247da3ecb39f24dab74d0",
+        "sha256_in_prefix": "a5e3319415d7033ed8dd4f84d0a612dd0af635cc9bd247da3ecb39f24dab74d0",
+        "size_in_bytes": 22578
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/sv/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "7e39b22522d4c879a52edf2292487f585b1a3b02701ac1c05288cfaca1e7b250",
+        "sha256_in_prefix": "7e39b22522d4c879a52edf2292487f585b1a3b02701ac1c05288cfaca1e7b250",
+        "size_in_bytes": 17915
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/th/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "ff4137537d40b75baba865d08e4730c29e9c5283691e7192f7b6f5281f8e02a8",
+        "sha256_in_prefix": "ff4137537d40b75baba865d08e4730c29e9c5283691e7192f7b6f5281f8e02a8",
+        "size_in_bytes": 24293
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/tr/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "b81840cfb1154eaf9aca7a8d5337a47d192dd9f49a37f053a2a00208297afa35",
+        "sha256_in_prefix": "b81840cfb1154eaf9aca7a8d5337a47d192dd9f49a37f053a2a00208297afa35",
+        "size_in_bytes": 1490
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/uk/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "7f574f7ea3d8c4d339b5f43d8a21935f4e8a56b62515f00ba839c00e044e55ea",
+        "sha256_in_prefix": "7f574f7ea3d8c4d339b5f43d8a21935f4e8a56b62515f00ba839c00e044e55ea",
+        "size_in_bytes": 24263
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/vi/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "9bcf966af2e89ac942d95eeda223506f6beb1f2756561ef28f331382404d161c",
+        "sha256_in_prefix": "9bcf966af2e89ac942d95eeda223506f6beb1f2756561ef28f331382404d161c",
+        "size_in_bytes": 20402
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/zh_CN/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "a0a4bef2cb306031f0409d78d8044f72bec1d02f730090bce8363633c6cc7eab",
+        "sha256_in_prefix": "a0a4bef2cb306031f0409d78d8044f72bec1d02f730090bce8363633c6cc7eab",
+        "size_in_bytes": 16797
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/zh_TW/LC_MESSAGES/grep.mo",
+        "path_type": "hardlink",
+        "sha256": "37eadeaabb63219e0953d97a103fea6ba3332ed14be0f72da06d8cb464705aaa",
+        "sha256_in_prefix": "37eadeaabb63219e0953d97a103fea6ba3332ed14be0f72da06d8cb464705aaa",
+        "size_in_bytes": 16933
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man1/egrep.1.gz",
+        "path_type": "hardlink",
+        "sha256": "b6e6596ba913fca3089d056ab0a56ee161b24b1eb248abdd11a5bea28727d31e",
+        "sha256_in_prefix": "b6e6596ba913fca3089d056ab0a56ee161b24b1eb248abdd11a5bea28727d31e",
+        "size_in_bytes": 36
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man1/fgrep.1.gz",
+        "path_type": "hardlink",
+        "sha256": "b6e6596ba913fca3089d056ab0a56ee161b24b1eb248abdd11a5bea28727d31e",
+        "sha256_in_prefix": "b6e6596ba913fca3089d056ab0a56ee161b24b1eb248abdd11a5bea28727d31e",
+        "size_in_bytes": 36
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man1/grep.1.gz",
+        "path_type": "hardlink",
+        "sha256": "428b5d744ef1d82a7b8043414fe5b1b38d49b87083e29e40d55f5791cc1ca17d",
+        "sha256_in_prefix": "428b5d744ef1d82a7b8043414fe5b1b38d49b87083e29e40d55f5791cc1ca17d",
+        "size_in_bytes": 9447
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 325322,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2w64-grep-2.24-2.tar.bz2",
+  "version": "2.24"
+}

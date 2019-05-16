@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Set the Transaction Isolation Level for a Connection</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for odbcSetTransactionIsolationLevel {odbc}"><tr><td>odbcSetTransactionIsolationLevel {odbc}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Set the Transaction Isolation Level for a Connection</h2>
+
+<h3>Description</h3>
+
+<p>Set the Transaction Isolation Level for a Connection
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+odbcSetTransactionIsolationLevel(conn, levels)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>conn</code></td>
+<td>
+<p>A <a href="../../DBI/html/DBIConnection-class.html">DBIConnection</a> object, as returned by
+<code><a href="dbConnect-OdbcDriver-method.html">dbConnect()</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>levels</code></td>
+<td>
+<p>One or more of &lsquo;read_uncommitted&rsquo;, &lsquo;read_committed&rsquo;, &lsquo;repeatable_read&rsquo;, &lsquo;serializable&rsquo;.</p>
+</td></tr>
+</table>
+
+
+<h3>See Also</h3>
+
+<p><a href="https://docs.microsoft.com/en-us/sql/odbc/reference/develop-app/setting-the-transaction-isolation-level">https://docs.microsoft.com/en-us/sql/odbc/reference/develop-app/setting-the-transaction-isolation-level</a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+## Not run: 
+  # Can use spaces or underscores in between words.
+  odbcSetTransactionIsolationLevel(con, "read uncommitted")
+
+  # Can also use the full constant name.
+  odbcSetTransactionIsolationLevel(con, "SQL_TXN_READ_UNCOMMITTED")
+
+## End(Not run)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>odbc</em> version 1.1.5 <a href="00Index.html">Index</a>]</div>
+</body></html>

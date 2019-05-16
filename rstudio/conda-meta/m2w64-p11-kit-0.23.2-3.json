@@ -1,0 +1,189 @@
+{
+  "build": "3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gettext",
+    "m2w64-libffi",
+    "m2w64-libtasn1",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-p11-kit-0.23.2-3",
+  "features": "",
+  "files": [
+    "Library/mingw-w64/bin/libp11-kit-0.dll",
+    "Library/mingw-w64/bin/p11-kit.exe",
+    "Library/mingw-w64/bin/trust.exe",
+    "Library/mingw-w64/etc/pkcs11/pkcs11.conf.example",
+    "Library/mingw-w64/include/p11-kit-1/p11-kit/deprecated.h",
+    "Library/mingw-w64/include/p11-kit-1/p11-kit/iter.h",
+    "Library/mingw-w64/include/p11-kit-1/p11-kit/p11-kit.h",
+    "Library/mingw-w64/include/p11-kit-1/p11-kit/pin.h",
+    "Library/mingw-w64/include/p11-kit-1/p11-kit/pkcs11.h",
+    "Library/mingw-w64/include/p11-kit-1/p11-kit/pkcs11x.h",
+    "Library/mingw-w64/include/p11-kit-1/p11-kit/remote.h",
+    "Library/mingw-w64/include/p11-kit-1/p11-kit/uri.h",
+    "Library/mingw-w64/lib/libp11-kit.dll.a",
+    "Library/mingw-w64/lib/p11-kit/p11-kit-remote.exe",
+    "Library/mingw-w64/lib/p11-kit/trust-extract-compat",
+    "Library/mingw-w64/lib/pkcs11/p11-kit-trust.dll",
+    "Library/mingw-w64/lib/pkcs11/p11-kit-trust.dll.a",
+    "Library/mingw-w64/lib/pkgconfig/p11-kit-1.pc",
+    "Library/mingw-w64/share/p11-kit/modules/p11-kit-trust.module"
+  ],
+  "fn": "m2w64-p11-kit-0.23.2-3.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-p11-kit-0.23.2-3",
+    "type": 1
+  },
+  "md5": "89a6906027b33d99a411ceb5bfdfaf6b",
+  "name": "m2w64-p11-kit",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-p11-kit-0.23.2-3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/mingw-w64/bin/libp11-kit-0.dll",
+        "path_type": "hardlink",
+        "sha256": "d93950bf26b55fd3298cd5480852a5431233f9c3c53664fd5006fdadb648c9ae",
+        "sha256_in_prefix": "d93950bf26b55fd3298cd5480852a5431233f9c3c53664fd5006fdadb648c9ae",
+        "size_in_bytes": 307572
+      },
+      {
+        "_path": "Library/mingw-w64/bin/p11-kit.exe",
+        "path_type": "hardlink",
+        "sha256": "6d94d632e773882007a5bf9698f9317b5f0ebfe1af97ae723293fdf11d00bbce",
+        "sha256_in_prefix": "6d94d632e773882007a5bf9698f9317b5f0ebfe1af97ae723293fdf11d00bbce",
+        "size_in_bytes": 74073
+      },
+      {
+        "_path": "Library/mingw-w64/bin/trust.exe",
+        "path_type": "hardlink",
+        "sha256": "9050c66d571bb273e2294de445973f662f97f539fbe720bb7d608a8805029794",
+        "sha256_in_prefix": "9050c66d571bb273e2294de445973f662f97f539fbe720bb7d608a8805029794",
+        "size_in_bytes": 209520
+      },
+      {
+        "_path": "Library/mingw-w64/etc/pkcs11/pkcs11.conf.example",
+        "path_type": "hardlink",
+        "sha256": "ed748d65837aa3b207bcee346321c84de2f38cd08f7b4fc9694cac4caccae07f",
+        "sha256_in_prefix": "ed748d65837aa3b207bcee346321c84de2f38cd08f7b4fc9694cac4caccae07f",
+        "size_in_bytes": 398
+      },
+      {
+        "_path": "Library/mingw-w64/include/p11-kit-1/p11-kit/deprecated.h",
+        "path_type": "hardlink",
+        "sha256": "5335bb02985dedf8300c291a565413b44da7eef1ac2a1aa299f6048bf1eea98f",
+        "sha256_in_prefix": "5335bb02985dedf8300c291a565413b44da7eef1ac2a1aa299f6048bf1eea98f",
+        "size_in_bytes": 3731
+      },
+      {
+        "_path": "Library/mingw-w64/include/p11-kit-1/p11-kit/iter.h",
+        "path_type": "hardlink",
+        "sha256": "7b7fd4b03036ede4b1035027a6ef52aa4c3097f9d336c9ab69a65faba26895d3",
+        "sha256_in_prefix": "7b7fd4b03036ede4b1035027a6ef52aa4c3097f9d336c9ab69a65faba26895d3",
+        "size_in_bytes": 5010
+      },
+      {
+        "_path": "Library/mingw-w64/include/p11-kit-1/p11-kit/p11-kit.h",
+        "path_type": "hardlink",
+        "sha256": "db9a6a0b42a493a2994b17d3a3c316d235296c949c052445be67e6e054e91b1e",
+        "sha256_in_prefix": "db9a6a0b42a493a2994b17d3a3c316d235296c949c052445be67e6e054e91b1e",
+        "size_in_bytes": 4770
+      },
+      {
+        "_path": "Library/mingw-w64/include/p11-kit-1/p11-kit/pin.h",
+        "path_type": "hardlink",
+        "sha256": "1d089df520f4f442b8a8c5e39e0d314775595efb67b5dbee4db04fc347d8c54c",
+        "sha256_in_prefix": "1d089df520f4f442b8a8c5e39e0d314775595efb67b5dbee4db04fc347d8c54c",
+        "size_in_bytes": 4936
+      },
+      {
+        "_path": "Library/mingw-w64/include/p11-kit-1/p11-kit/pkcs11.h",
+        "path_type": "hardlink",
+        "sha256": "d247d483697d7d7787b934ba1ad5aaffe7aad2dfd621d8d802047ee3d44494c0",
+        "sha256_in_prefix": "d247d483697d7d7787b934ba1ad5aaffe7aad2dfd621d8d802047ee3d44494c0",
+        "size_in_bytes": 44970
+      },
+      {
+        "_path": "Library/mingw-w64/include/p11-kit-1/p11-kit/pkcs11x.h",
+        "path_type": "hardlink",
+        "sha256": "1341adc99f3ceee7a9cb79f5bccbc11fd26b170c4c599475ba59700683dbb388",
+        "sha256_in_prefix": "1341adc99f3ceee7a9cb79f5bccbc11fd26b170c4c599475ba59700683dbb388",
+        "size_in_bytes": 5680
+      },
+      {
+        "_path": "Library/mingw-w64/include/p11-kit-1/p11-kit/remote.h",
+        "path_type": "hardlink",
+        "sha256": "16efc65a0c1d081dc72a0f4de96aecd475c56696b4a88ee423eb2266eefd652e",
+        "sha256_in_prefix": "16efc65a0c1d081dc72a0f4de96aecd475c56696b4a88ee423eb2266eefd652e",
+        "size_in_bytes": 2007
+      },
+      {
+        "_path": "Library/mingw-w64/include/p11-kit-1/p11-kit/uri.h",
+        "path_type": "hardlink",
+        "sha256": "3cbee4cde5e1d125221800b6d3b5bf50ca3c7467219c9036120776f9c28994b6",
+        "sha256_in_prefix": "3cbee4cde5e1d125221800b6d3b5bf50ca3c7467219c9036120776f9c28994b6",
+        "size_in_bytes": 6587
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libp11-kit.dll.a",
+        "path_type": "hardlink",
+        "sha256": "56a55dc3f300a2746e0b08ffd65320616377060363414f8898b210475088fedf",
+        "sha256_in_prefix": "56a55dc3f300a2746e0b08ffd65320616377060363414f8898b210475088fedf",
+        "size_in_bytes": 57452
+      },
+      {
+        "_path": "Library/mingw-w64/lib/p11-kit/p11-kit-remote.exe",
+        "path_type": "hardlink",
+        "sha256": "7f1c3480201e4d34104f0bd20aa18f98c35ee1fbe65328f16e221b126a8e81aa",
+        "sha256_in_prefix": "7f1c3480201e4d34104f0bd20aa18f98c35ee1fbe65328f16e221b126a8e81aa",
+        "size_in_bytes": 62817
+      },
+      {
+        "_path": "Library/mingw-w64/lib/p11-kit/trust-extract-compat",
+        "path_type": "hardlink",
+        "sha256": "8205117522843dcb80664e199d8ea07ebc7196258246e09f82d814b0e05ccb9e",
+        "sha256_in_prefix": "8205117522843dcb80664e199d8ea07ebc7196258246e09f82d814b0e05ccb9e",
+        "size_in_bytes": 1154
+      },
+      {
+        "_path": "Library/mingw-w64/lib/pkcs11/p11-kit-trust.dll",
+        "path_type": "hardlink",
+        "sha256": "8f5d24de9374e12dd248d9ce68959667f685d343ad496213601febcf45ad969f",
+        "sha256_in_prefix": "8f5d24de9374e12dd248d9ce68959667f685d343ad496213601febcf45ad969f",
+        "size_in_bytes": 225174
+      },
+      {
+        "_path": "Library/mingw-w64/lib/pkcs11/p11-kit-trust.dll.a",
+        "path_type": "hardlink",
+        "sha256": "de293a85b2ec05299267ab1424446ac9982cda2c07c6b5ca608c210eeee4331f",
+        "sha256_in_prefix": "de293a85b2ec05299267ab1424446ac9982cda2c07c6b5ca608c210eeee4331f",
+        "size_in_bytes": 1488
+      },
+      {
+        "_path": "Library/mingw-w64/lib/pkgconfig/p11-kit-1.pc",
+        "path_type": "hardlink",
+        "sha256": "edeb560a64611561fc83675fd077738fd7287b66accd1c211ba7f41be011a6c5",
+        "sha256_in_prefix": "edeb560a64611561fc83675fd077738fd7287b66accd1c211ba7f41be011a6c5",
+        "size_in_bytes": 755
+      },
+      {
+        "_path": "Library/mingw-w64/share/p11-kit/modules/p11-kit-trust.module",
+        "path_type": "hardlink",
+        "sha256": "d48401bbbfe4c88168e7c281624c230ffe1fc6599fccfec7b7276c50993b0516",
+        "sha256_in_prefix": "d48401bbbfe4c88168e7c281624c230ffe1fc6599fccfec7b7276c50993b0516",
+        "size_in_bytes": 694
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 276666,
+  "subdir": "win-64",
+  "timestamp": 1551455858667,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2w64-p11-kit-0.23.2-3.tar.bz2",
+  "version": "0.23.2"
+}

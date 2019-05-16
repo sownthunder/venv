@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Read configuration values</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for get {config}"><tr><td>get {config}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Read configuration values</h2>
+
+<h3>Description</h3>
+
+<p>Read from the currently active configuration, retreiving either a
+single named value or all values as a list.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+get(value = NULL, config = Sys.getenv("R_CONFIG_ACTIVE", "default"),
+  file = Sys.getenv("R_CONFIG_FILE", "config.yml"), use_parent = TRUE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>value</code></td>
+<td>
+<p>Name of value (<code>NULL</code> to read all values)</p>
+</td></tr>
+<tr valign="top"><td><code>config</code></td>
+<td>
+<p>Name of configuration to read from. Defaults to
+the value of the <code>R_CONFIG_NAME</code> environment variable
+(&quot;default&quot; if the variable does not exist).</p>
+</td></tr>
+<tr valign="top"><td><code>file</code></td>
+<td>
+<p>Configuration file to read from (defaults to
+&quot;config.yml&quot;). If the file isn't found at the location
+specified then parent directories are searched for a file
+of the same name.</p>
+</td></tr>
+<tr valign="top"><td><code>use_parent</code></td>
+<td>
+<p><code>TRUE</code> to scan parent directories for
+configuration files if the specified config file isn't found.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>For additional details see the package website at
+<a href="https://github.com/rstudio/config">https://github.com/rstudio/config</a>.
+</p>
+
+
+<h3>Value</h3>
+
+<p>The requested configuration value (or all values as
+a list of <code>NULL</code> is passed for <code>value</code>).
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>config</em> version 0.3 <a href="00Index.html">Index</a>]</div>
+</body></html>

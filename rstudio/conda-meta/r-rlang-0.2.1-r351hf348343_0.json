@@ -1,0 +1,1445 @@
+{
+  "build": "r351hf348343_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-rlang-0.2.1-r351hf348343_0",
+  "features": "",
+  "files": [
+    "lib/R/library/rlang/DESCRIPTION",
+    "lib/R/library/rlang/INDEX",
+    "lib/R/library/rlang/MD5",
+    "lib/R/library/rlang/Meta/Rd.rds",
+    "lib/R/library/rlang/Meta/features.rds",
+    "lib/R/library/rlang/Meta/hsearch.rds",
+    "lib/R/library/rlang/Meta/links.rds",
+    "lib/R/library/rlang/Meta/nsInfo.rds",
+    "lib/R/library/rlang/Meta/package.rds",
+    "lib/R/library/rlang/NAMESPACE",
+    "lib/R/library/rlang/NEWS.md",
+    "lib/R/library/rlang/R/rlang",
+    "lib/R/library/rlang/R/rlang.rdb",
+    "lib/R/library/rlang/R/rlang.rdx",
+    "lib/R/library/rlang/help/AnIndex",
+    "lib/R/library/rlang/help/aliases.rds",
+    "lib/R/library/rlang/help/figures/rlang.png",
+    "lib/R/library/rlang/help/paths.rds",
+    "lib/R/library/rlang/help/rlang.rdb",
+    "lib/R/library/rlang/help/rlang.rdx",
+    "lib/R/library/rlang/html/00Index.html",
+    "lib/R/library/rlang/html/R.css",
+    "lib/R/library/rlang/html/abort.html",
+    "lib/R/library/rlang/html/are_na.html",
+    "lib/R/library/rlang/html/arg_match.html",
+    "lib/R/library/rlang/html/as_bytes.html",
+    "lib/R/library/rlang/html/as_data_mask.html",
+    "lib/R/library/rlang/html/as_env.html",
+    "lib/R/library/rlang/html/as_environment.html",
+    "lib/R/library/rlang/html/as_function.html",
+    "lib/R/library/rlang/html/as_overscope.html",
+    "lib/R/library/rlang/html/as_pairlist.html",
+    "lib/R/library/rlang/html/as_quosure.html",
+    "lib/R/library/rlang/html/as_utf8_character.html",
+    "lib/R/library/rlang/html/bare-type-predicates.html",
+    "lib/R/library/rlang/html/box.html",
+    "lib/R/library/rlang/html/call2.html",
+    "lib/R/library/rlang/html/call_args.html",
+    "lib/R/library/rlang/html/call_fn.html",
+    "lib/R/library/rlang/html/call_inspect.html",
+    "lib/R/library/rlang/html/call_modify.html",
+    "lib/R/library/rlang/html/call_name.html",
+    "lib/R/library/rlang/html/call_standardise.html",
+    "lib/R/library/rlang/html/caller_env.html",
+    "lib/R/library/rlang/html/catch_cnd.html",
+    "lib/R/library/rlang/html/chr_unserialise_unicode.html",
+    "lib/R/library/rlang/html/cnd.html",
+    "lib/R/library/rlang/html/cnd_signal.html",
+    "lib/R/library/rlang/html/deprecated-cnd.html",
+    "lib/R/library/rlang/html/dictionary.html",
+    "lib/R/library/rlang/html/dots_definitions.html",
+    "lib/R/library/rlang/html/dots_n.html",
+    "lib/R/library/rlang/html/dots_values.html",
+    "lib/R/library/rlang/html/duplicate.html",
+    "lib/R/library/rlang/html/empty_env.html",
+    "lib/R/library/rlang/html/env.html",
+    "lib/R/library/rlang/html/env_bind.html",
+    "lib/R/library/rlang/html/env_bind_exprs.html",
+    "lib/R/library/rlang/html/env_bury.html",
+    "lib/R/library/rlang/html/env_clone.html",
+    "lib/R/library/rlang/html/env_depth.html",
+    "lib/R/library/rlang/html/env_get.html",
+    "lib/R/library/rlang/html/env_has.html",
+    "lib/R/library/rlang/html/env_inherits.html",
+    "lib/R/library/rlang/html/env_names.html",
+    "lib/R/library/rlang/html/env_parent.html",
+    "lib/R/library/rlang/html/env_poke.html",
+    "lib/R/library/rlang/html/env_unbind.html",
+    "lib/R/library/rlang/html/eval_bare.html",
+    "lib/R/library/rlang/html/eval_tidy.html",
+    "lib/R/library/rlang/html/eval_tidy_.html",
+    "lib/R/library/rlang/html/exiting.html",
+    "lib/R/library/rlang/html/expr_interp.html",
+    "lib/R/library/rlang/html/expr_label.html",
+    "lib/R/library/rlang/html/expr_print.html",
+    "lib/R/library/rlang/html/exprs_auto_name.html",
+    "lib/R/library/rlang/html/f_rhs.html",
+    "lib/R/library/rlang/html/f_text.html",
+    "lib/R/library/rlang/html/flatten.html",
+    "lib/R/library/rlang/html/fn_body.html",
+    "lib/R/library/rlang/html/fn_env.html",
+    "lib/R/library/rlang/html/fn_fmls.html",
+    "lib/R/library/rlang/html/frame_position.html",
+    "lib/R/library/rlang/html/friendly_type.html",
+    "lib/R/library/rlang/html/get_env.html",
+    "lib/R/library/rlang/html/has_length.html",
+    "lib/R/library/rlang/html/has_name.html",
+    "lib/R/library/rlang/html/inherits_any.html",
+    "lib/R/library/rlang/html/invoke.html",
+    "lib/R/library/rlang/html/is_call.html",
+    "lib/R/library/rlang/html/is_callable.html",
+    "lib/R/library/rlang/html/is_condition.html",
+    "lib/R/library/rlang/html/is_copyable.html",
+    "lib/R/library/rlang/html/is_empty.html",
+    "lib/R/library/rlang/html/is_env.html",
+    "lib/R/library/rlang/html/is_expr.html",
+    "lib/R/library/rlang/html/is_expression.html",
+    "lib/R/library/rlang/html/is_formula.html",
+    "lib/R/library/rlang/html/is_frame.html",
+    "lib/R/library/rlang/html/is_function.html",
+    "lib/R/library/rlang/html/is_installed.html",
+    "lib/R/library/rlang/html/is_integerish.html",
+    "lib/R/library/rlang/html/is_lang.html",
+    "lib/R/library/rlang/html/is_named.html",
+    "lib/R/library/rlang/html/is_namespace.html",
+    "lib/R/library/rlang/html/is_pairlist.html",
+    "lib/R/library/rlang/html/is_quosureish.html",
+    "lib/R/library/rlang/html/is_reference.html",
+    "lib/R/library/rlang/html/is_stack.html",
+    "lib/R/library/rlang/html/is_symbol.html",
+    "lib/R/library/rlang/html/is_true.html",
+    "lib/R/library/rlang/html/lang.html",
+    "lib/R/library/rlang/html/lang_head.html",
+    "lib/R/library/rlang/html/lang_modify.html",
+    "lib/R/library/rlang/html/lifecycle.html",
+    "lib/R/library/rlang/html/missing.html",
+    "lib/R/library/rlang/html/missing_arg.html",
+    "lib/R/library/rlang/html/modify.html",
+    "lib/R/library/rlang/html/mut_node_car.html",
+    "lib/R/library/rlang/html/mut_utf8_locale.html",
+    "lib/R/library/rlang/html/names2.html",
+    "lib/R/library/rlang/html/new-vector-along.html",
+    "lib/R/library/rlang/html/new-vector.html",
+    "lib/R/library/rlang/html/new_call.html",
+    "lib/R/library/rlang/html/new_formula.html",
+    "lib/R/library/rlang/html/new_function.html",
+    "lib/R/library/rlang/html/new_node.html",
+    "lib/R/library/rlang/html/ns_env.html",
+    "lib/R/library/rlang/html/op-definition.html",
+    "lib/R/library/rlang/html/op-get-attr.html",
+    "lib/R/library/rlang/html/op-na-default.html",
+    "lib/R/library/rlang/html/op-null-default.html",
+    "lib/R/library/rlang/html/overscope_eval_next.html",
+    "lib/R/library/rlang/html/parse_expr.html",
+    "lib/R/library/rlang/html/parse_quosure.html",
+    "lib/R/library/rlang/html/prepend.html",
+    "lib/R/library/rlang/html/prim_name.html",
+    "lib/R/library/rlang/html/quasiquotation.html",
+    "lib/R/library/rlang/html/quo_expr.html",
+    "lib/R/library/rlang/html/quo_label.html",
+    "lib/R/library/rlang/html/quo_squash.html",
+    "lib/R/library/rlang/html/quosure.html",
+    "lib/R/library/rlang/html/quotation.html",
+    "lib/R/library/rlang/html/restarting.html",
+    "lib/R/library/rlang/html/return_from.html",
+    "lib/R/library/rlang/html/rst_abort.html",
+    "lib/R/library/rlang/html/rst_list.html",
+    "lib/R/library/rlang/html/rst_muffle.html",
+    "lib/R/library/rlang/html/scalar-type-predicates.html",
+    "lib/R/library/rlang/html/scoped_bindings.html",
+    "lib/R/library/rlang/html/scoped_env.html",
+    "lib/R/library/rlang/html/scoped_options.html",
+    "lib/R/library/rlang/html/seq2.html",
+    "lib/R/library/rlang/html/set_attrs.html",
+    "lib/R/library/rlang/html/set_chr_encoding.html",
+    "lib/R/library/rlang/html/set_expr.html",
+    "lib/R/library/rlang/html/set_names.html",
+    "lib/R/library/rlang/html/splice.html",
+    "lib/R/library/rlang/html/stack.html",
+    "lib/R/library/rlang/html/stack_trim.html",
+    "lib/R/library/rlang/html/string.html",
+    "lib/R/library/rlang/html/switch_lang.html",
+    "lib/R/library/rlang/html/switch_type.html",
+    "lib/R/library/rlang/html/sym.html",
+    "lib/R/library/rlang/html/tidy-dots.html",
+    "lib/R/library/rlang/html/tidyeval-data.html",
+    "lib/R/library/rlang/html/type-predicates.html",
+    "lib/R/library/rlang/html/type_of.html",
+    "lib/R/library/rlang/html/vec_poke_n.html",
+    "lib/R/library/rlang/html/vector-coercion.html",
+    "lib/R/library/rlang/html/vector-construction.html",
+    "lib/R/library/rlang/html/vector-old-ctors.html",
+    "lib/R/library/rlang/html/with_env.html",
+    "lib/R/library/rlang/html/with_handlers.html",
+    "lib/R/library/rlang/html/with_restarts.html",
+    "lib/R/library/rlang/libs/x64/rlang.dll"
+  ],
+  "fn": "r-rlang-0.2.1-r351hf348343_0.tar.bz2",
+  "license": "GPL-3",
+  "license_family": "GPL3",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-rlang-0.2.1-r351hf348343_0",
+    "type": 1
+  },
+  "md5": "760798c989d27a7fc5a3e075f940621c",
+  "name": "r-rlang",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-rlang-0.2.1-r351hf348343_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/rlang/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "4f49416505889f07902fd73b4b33fc1d858e9ba795b2ed193047af3050a8dfa2",
+        "sha256_in_prefix": "4f49416505889f07902fd73b4b33fc1d858e9ba795b2ed193047af3050a8dfa2",
+        "size_in_bytes": 1082
+      },
+      {
+        "_path": "lib/R/library/rlang/INDEX",
+        "path_type": "hardlink",
+        "sha256": "afc39d11cc9546e3c8e4e668c3ede765f8bdde06340b929228df95fca6886e0b",
+        "sha256_in_prefix": "afc39d11cc9546e3c8e4e668c3ede765f8bdde06340b929228df95fca6886e0b",
+        "size_in_bytes": 6409
+      },
+      {
+        "_path": "lib/R/library/rlang/MD5",
+        "path_type": "hardlink",
+        "sha256": "c69f07bc36a49033bb1d923628c4614009dc2b33762927ad798268e664c612de",
+        "sha256_in_prefix": "c69f07bc36a49033bb1d923628c4614009dc2b33762927ad798268e664c612de",
+        "size_in_bytes": 9652
+      },
+      {
+        "_path": "lib/R/library/rlang/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "5505e56fe8152aed8b41e8689573f8f4be453818b316afb93e7a29fe0795e113",
+        "sha256_in_prefix": "5505e56fe8152aed8b41e8689573f8f4be453818b316afb93e7a29fe0795e113",
+        "size_in_bytes": 5987
+      },
+      {
+        "_path": "lib/R/library/rlang/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/rlang/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "135dd7a1546dffc98ee3db8462df20265a645eb21cf0432760d403b363271864",
+        "sha256_in_prefix": "135dd7a1546dffc98ee3db8462df20265a645eb21cf0432760d403b363271864",
+        "size_in_bytes": 5763
+      },
+      {
+        "_path": "lib/R/library/rlang/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "5fde8172715e0632ea3301fb983d04df2b0f58d99132a60c7affd489199bdebf",
+        "sha256_in_prefix": "5fde8172715e0632ea3301fb983d04df2b0f58d99132a60c7affd489199bdebf",
+        "size_in_bytes": 3636
+      },
+      {
+        "_path": "lib/R/library/rlang/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "cca6c6cff8019ccf2704b857d81d347e3fe61eca477e57ba77fd1ebe952dd563",
+        "sha256_in_prefix": "cca6c6cff8019ccf2704b857d81d347e3fe61eca477e57ba77fd1ebe952dd563",
+        "size_in_bytes": 2623
+      },
+      {
+        "_path": "lib/R/library/rlang/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "4e86f97244eccbfacd8d2950292c54e8e8e5ac2aa1f7b3fbd4a2f78a593a8dee",
+        "sha256_in_prefix": "4e86f97244eccbfacd8d2950292c54e8e8e5ac2aa1f7b3fbd4a2f78a593a8dee",
+        "size_in_bytes": 1052
+      },
+      {
+        "_path": "lib/R/library/rlang/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "dc7d289781da830cbb8ec0524bba8183c1ba41ae2053e5cd361d2843c7745e04",
+        "sha256_in_prefix": "dc7d289781da830cbb8ec0524bba8183c1ba41ae2053e5cd361d2843c7745e04",
+        "size_in_bytes": 9075
+      },
+      {
+        "_path": "lib/R/library/rlang/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "48b225649f5f4c09a44a8e645b11ebc02704f754a73f980a91dffd3bac374b3a",
+        "sha256_in_prefix": "48b225649f5f4c09a44a8e645b11ebc02704f754a73f980a91dffd3bac374b3a",
+        "size_in_bytes": 19700
+      },
+      {
+        "_path": "lib/R/library/rlang/R/rlang",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/rlang/R/rlang.rdb",
+        "path_type": "hardlink",
+        "sha256": "96d7d2bb8de18c57a1c95ee137d9583f1f4859cd1af4cd28ae6cf871f01605eb",
+        "sha256_in_prefix": "96d7d2bb8de18c57a1c95ee137d9583f1f4859cd1af4cd28ae6cf871f01605eb",
+        "size_in_bytes": 286455
+      },
+      {
+        "_path": "lib/R/library/rlang/R/rlang.rdx",
+        "path_type": "hardlink",
+        "sha256": "c1a6b0c8a70ea42a62d5464863a95fd268b6f41c136d9e5eff3610cfd13bff8d",
+        "sha256_in_prefix": "c1a6b0c8a70ea42a62d5464863a95fd268b6f41c136d9e5eff3610cfd13bff8d",
+        "size_in_bytes": 8106
+      },
+      {
+        "_path": "lib/R/library/rlang/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "f83457a28ccbc260b86feca8ee18a6d291ed2f7796ef040e6012d57c4aa9e7ad",
+        "sha256_in_prefix": "f83457a28ccbc260b86feca8ee18a6d291ed2f7796ef040e6012d57c4aa9e7ad",
+        "size_in_bytes": 10830
+      },
+      {
+        "_path": "lib/R/library/rlang/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "fb59984ac88490348620e9ee2e56c9886d4479ad129d06a723862f04a00b1e66",
+        "sha256_in_prefix": "fb59984ac88490348620e9ee2e56c9886d4479ad129d06a723862f04a00b1e66",
+        "size_in_bytes": 3165
+      },
+      {
+        "_path": "lib/R/library/rlang/help/figures/rlang.png",
+        "path_type": "hardlink",
+        "sha256": "72af219a29ef2de94553ab7e3ad9fb2892c106e9c715fbdfd368048318bddf7e",
+        "sha256_in_prefix": "72af219a29ef2de94553ab7e3ad9fb2892c106e9c715fbdfd368048318bddf7e",
+        "size_in_bytes": 25844
+      },
+      {
+        "_path": "lib/R/library/rlang/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "5820648cdb3d7121a729c427d80f22bda9a9d4bb7c72958c788d72cb2cb2fcb1",
+        "sha256_in_prefix": "5820648cdb3d7121a729c427d80f22bda9a9d4bb7c72958c788d72cb2cb2fcb1",
+        "size_in_bytes": 1321
+      },
+      {
+        "_path": "lib/R/library/rlang/help/rlang.rdb",
+        "path_type": "hardlink",
+        "sha256": "1290bb63f32554e0a373e792503303df6d810f608c2226e6126f4ea8c7aca655",
+        "sha256_in_prefix": "1290bb63f32554e0a373e792503303df6d810f608c2226e6126f4ea8c7aca655",
+        "size_in_bytes": 383531
+      },
+      {
+        "_path": "lib/R/library/rlang/help/rlang.rdx",
+        "path_type": "hardlink",
+        "sha256": "c89ed75bfecee9ec80d7a5e4150880cf0412b7313b91f58edf23e6a6756718fa",
+        "sha256_in_prefix": "c89ed75bfecee9ec80d7a5e4150880cf0412b7313b91f58edf23e6a6756718fa",
+        "size_in_bytes": 3332
+      },
+      {
+        "_path": "lib/R/library/rlang/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "c797f111d9a1e71f46eb3c216460cc1227f2e2e433c3c913312c65e94a6f60bf",
+        "sha256_in_prefix": "c797f111d9a1e71f46eb3c216460cc1227f2e2e433c3c913312c65e94a6f60bf",
+        "size_in_bytes": 41345
+      },
+      {
+        "_path": "lib/R/library/rlang/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/rlang/html/abort.html",
+        "path_type": "hardlink",
+        "sha256": "e30e0f0be9806f59f717169ee49155b2ca3e598736f8240807e5870aa03d7c7c",
+        "sha256_in_prefix": "e30e0f0be9806f59f717169ee49155b2ca3e598736f8240807e5870aa03d7c7c",
+        "size_in_bytes": 3304
+      },
+      {
+        "_path": "lib/R/library/rlang/html/are_na.html",
+        "path_type": "hardlink",
+        "sha256": "322443955f15201b7d607bae0c924d8eaceb7242c9f1a214ccf50de28639a73c",
+        "sha256_in_prefix": "322443955f15201b7d607bae0c924d8eaceb7242c9f1a214ccf50de28639a73c",
+        "size_in_bytes": 2173
+      },
+      {
+        "_path": "lib/R/library/rlang/html/arg_match.html",
+        "path_type": "hardlink",
+        "sha256": "e210c72fdf69f8069300056b3181a123a925e1eae8adbe83b56364f826b697fc",
+        "sha256_in_prefix": "e210c72fdf69f8069300056b3181a123a925e1eae8adbe83b56364f826b697fc",
+        "size_in_bytes": 1789
+      },
+      {
+        "_path": "lib/R/library/rlang/html/as_bytes.html",
+        "path_type": "hardlink",
+        "sha256": "fbd31d40c045b2354bff9e61e85a303bb96588f985f86ed7f332d0d2acdfce5e",
+        "sha256_in_prefix": "fbd31d40c045b2354bff9e61e85a303bb96588f985f86ed7f332d0d2acdfce5e",
+        "size_in_bytes": 1112
+      },
+      {
+        "_path": "lib/R/library/rlang/html/as_data_mask.html",
+        "path_type": "hardlink",
+        "sha256": "cac19cd389820263e1327417bb6471ad368a4070dc798e987ebfa938d6e97f93",
+        "sha256_in_prefix": "cac19cd389820263e1327417bb6471ad368a4070dc798e987ebfa938d6e97f93",
+        "size_in_bytes": 6386
+      },
+      {
+        "_path": "lib/R/library/rlang/html/as_env.html",
+        "path_type": "hardlink",
+        "sha256": "ee25212d82bef39bbc6a6da121ba9645ccb34c8c440f4fe0539ea835fd023848",
+        "sha256_in_prefix": "ee25212d82bef39bbc6a6da121ba9645ccb34c8c440f4fe0539ea835fd023848",
+        "size_in_bytes": 900
+      },
+      {
+        "_path": "lib/R/library/rlang/html/as_environment.html",
+        "path_type": "hardlink",
+        "sha256": "8ad29a839364b89c6aa0147fe3c7b8e47b3c3086078b0e5f70548343b5e2e31c",
+        "sha256_in_prefix": "8ad29a839364b89c6aa0147fe3c7b8e47b3c3086078b0e5f70548343b5e2e31c",
+        "size_in_bytes": 2522
+      },
+      {
+        "_path": "lib/R/library/rlang/html/as_function.html",
+        "path_type": "hardlink",
+        "sha256": "f00fb43d0ec110138bb0bb2ba72c3b02e2aa524f815feb06e0d93b8398fa71ae",
+        "sha256_in_prefix": "f00fb43d0ec110138bb0bb2ba72c3b02e2aa524f815feb06e0d93b8398fa71ae",
+        "size_in_bytes": 2303
+      },
+      {
+        "_path": "lib/R/library/rlang/html/as_overscope.html",
+        "path_type": "hardlink",
+        "sha256": "7c5106be62202a6d75ab9dbeb03d4b5200e15838058ca360bc7dd571159cd406",
+        "sha256_in_prefix": "7c5106be62202a6d75ab9dbeb03d4b5200e15838058ca360bc7dd571159cd406",
+        "size_in_bytes": 2186
+      },
+      {
+        "_path": "lib/R/library/rlang/html/as_pairlist.html",
+        "path_type": "hardlink",
+        "sha256": "e54d5d88eec27f65c895759d5009a77c0a15be08c13795c99950715f2c1e7aab",
+        "sha256_in_prefix": "e54d5d88eec27f65c895759d5009a77c0a15be08c13795c99950715f2c1e7aab",
+        "size_in_bytes": 1210
+      },
+      {
+        "_path": "lib/R/library/rlang/html/as_quosure.html",
+        "path_type": "hardlink",
+        "sha256": "33813d337bdfc38c1579c99d12123b00a1d9def02cfd0ea182c18213581a6ba2",
+        "sha256_in_prefix": "33813d337bdfc38c1579c99d12123b00a1d9def02cfd0ea182c18213581a6ba2",
+        "size_in_bytes": 2535
+      },
+      {
+        "_path": "lib/R/library/rlang/html/as_utf8_character.html",
+        "path_type": "hardlink",
+        "sha256": "d95a4f791758a974b34cf6e488a0905678c60480cd22e5ecad8fe754745a14d7",
+        "sha256_in_prefix": "d95a4f791758a974b34cf6e488a0905678c60480cd22e5ecad8fe754745a14d7",
+        "size_in_bytes": 2918
+      },
+      {
+        "_path": "lib/R/library/rlang/html/bare-type-predicates.html",
+        "path_type": "hardlink",
+        "sha256": "659554124a61f2a5e4ee384877003cb91f45150032eb47437cec900404e74d10",
+        "sha256_in_prefix": "659554124a61f2a5e4ee384877003cb91f45150032eb47437cec900404e74d10",
+        "size_in_bytes": 2452
+      },
+      {
+        "_path": "lib/R/library/rlang/html/box.html",
+        "path_type": "hardlink",
+        "sha256": "b4d74769031e51b423ebb16ce5b11bd7fb1ed2ee10f8163b7a1cd5a19aa21809",
+        "sha256_in_prefix": "b4d74769031e51b423ebb16ce5b11bd7fb1ed2ee10f8163b7a1cd5a19aa21809",
+        "size_in_bytes": 2662
+      },
+      {
+        "_path": "lib/R/library/rlang/html/call2.html",
+        "path_type": "hardlink",
+        "sha256": "9bae4f9ddb7a426d50fff547a67077430303a35f4dbbade326b35620fbe0ac6d",
+        "sha256_in_prefix": "9bae4f9ddb7a426d50fff547a67077430303a35f4dbbade326b35620fbe0ac6d",
+        "size_in_bytes": 2812
+      },
+      {
+        "_path": "lib/R/library/rlang/html/call_args.html",
+        "path_type": "hardlink",
+        "sha256": "f3f62aa1c294768acfd689919bb423be79497e35ce42d816bba7e4d93b8a4f60",
+        "sha256_in_prefix": "f3f62aa1c294768acfd689919bb423be79497e35ce42d816bba7e4d93b8a4f60",
+        "size_in_bytes": 1923
+      },
+      {
+        "_path": "lib/R/library/rlang/html/call_fn.html",
+        "path_type": "hardlink",
+        "sha256": "e3d987d85e8f2a22e91fa1f29d2c8ff65fd6f424f2c1672d45b0e62006d0bec9",
+        "sha256_in_prefix": "e3d987d85e8f2a22e91fa1f29d2c8ff65fd6f424f2c1672d45b0e62006d0bec9",
+        "size_in_bytes": 1854
+      },
+      {
+        "_path": "lib/R/library/rlang/html/call_inspect.html",
+        "path_type": "hardlink",
+        "sha256": "71a45d629e1ac5289cdad96d5caec3b8db4193325770adb098b99ed6ffca4688",
+        "sha256_in_prefix": "71a45d629e1ac5289cdad96d5caec3b8db4193325770adb098b99ed6ffca4688",
+        "size_in_bytes": 1414
+      },
+      {
+        "_path": "lib/R/library/rlang/html/call_modify.html",
+        "path_type": "hardlink",
+        "sha256": "20b392d45cbffbbb5d57f874861bbfa392dffeb0969f164e40ff9fb845078353",
+        "sha256_in_prefix": "20b392d45cbffbbb5d57f874861bbfa392dffeb0969f164e40ff9fb845078353",
+        "size_in_bytes": 3107
+      },
+      {
+        "_path": "lib/R/library/rlang/html/call_name.html",
+        "path_type": "hardlink",
+        "sha256": "c86c1bd845286aef96ee7ae3f43910d805982187a0dddeb2edd58ccc2c690b63",
+        "sha256_in_prefix": "c86c1bd845286aef96ee7ae3f43910d805982187a0dddeb2edd58ccc2c690b63",
+        "size_in_bytes": 1872
+      },
+      {
+        "_path": "lib/R/library/rlang/html/call_standardise.html",
+        "path_type": "hardlink",
+        "sha256": "ec4df895d24f68282dede054cd2664e8d63303d79a447511164cf5e759eeb4d4",
+        "sha256_in_prefix": "ec4df895d24f68282dede054cd2664e8d63303d79a447511164cf5e759eeb4d4",
+        "size_in_bytes": 1712
+      },
+      {
+        "_path": "lib/R/library/rlang/html/caller_env.html",
+        "path_type": "hardlink",
+        "sha256": "b45a2e9df10f79c6d26ef99a973928f4c5073b4af6af7b22523f5af9b21b6f59",
+        "sha256_in_prefix": "b45a2e9df10f79c6d26ef99a973928f4c5073b4af6af7b22523f5af9b21b6f59",
+        "size_in_bytes": 1050
+      },
+      {
+        "_path": "lib/R/library/rlang/html/catch_cnd.html",
+        "path_type": "hardlink",
+        "sha256": "e0edd17c6d7d683abb3b7ce0d024aa368cb9873f49433816feb77e664be35969",
+        "sha256_in_prefix": "e0edd17c6d7d683abb3b7ce0d024aa368cb9873f49433816feb77e664be35969",
+        "size_in_bytes": 1361
+      },
+      {
+        "_path": "lib/R/library/rlang/html/chr_unserialise_unicode.html",
+        "path_type": "hardlink",
+        "sha256": "be6921645555b56ce816417220bde9b1003b783b91072595d7386a93904d558b",
+        "sha256_in_prefix": "be6921645555b56ce816417220bde9b1003b783b91072595d7386a93904d558b",
+        "size_in_bytes": 2140
+      },
+      {
+        "_path": "lib/R/library/rlang/html/cnd.html",
+        "path_type": "hardlink",
+        "sha256": "417b4b632429da513be260069be311165157984fa7223cc203a2e0dc084387dc",
+        "sha256_in_prefix": "417b4b632429da513be260069be311165157984fa7223cc203a2e0dc084387dc",
+        "size_in_bytes": 2913
+      },
+      {
+        "_path": "lib/R/library/rlang/html/cnd_signal.html",
+        "path_type": "hardlink",
+        "sha256": "6416103de044da1c054dba77958f102b8bc81ac436f86bf615cbbdc574aea483",
+        "sha256_in_prefix": "6416103de044da1c054dba77958f102b8bc81ac436f86bf615cbbdc574aea483",
+        "size_in_bytes": 7373
+      },
+      {
+        "_path": "lib/R/library/rlang/html/deprecated-cnd.html",
+        "path_type": "hardlink",
+        "sha256": "278513129a54b6ea9de0abe9998fd3686b13c8830ab3ae6d2ba37a760c98f5c8",
+        "sha256_in_prefix": "278513129a54b6ea9de0abe9998fd3686b13c8830ab3ae6d2ba37a760c98f5c8",
+        "size_in_bytes": 1806
+      },
+      {
+        "_path": "lib/R/library/rlang/html/dictionary.html",
+        "path_type": "hardlink",
+        "sha256": "224e37f58bf8733818cb432b436a7392f7787b2df3b79b358876abce20932d4c",
+        "sha256_in_prefix": "224e37f58bf8733818cb432b436a7392f7787b2df3b79b358876abce20932d4c",
+        "size_in_bytes": 1535
+      },
+      {
+        "_path": "lib/R/library/rlang/html/dots_definitions.html",
+        "path_type": "hardlink",
+        "sha256": "64866a34f4b16d51c28de04f9ae3553f34ca055f90dfd47f3f18526226ecba3b",
+        "sha256_in_prefix": "64866a34f4b16d51c28de04f9ae3553f34ca055f90dfd47f3f18526226ecba3b",
+        "size_in_bytes": 2146
+      },
+      {
+        "_path": "lib/R/library/rlang/html/dots_n.html",
+        "path_type": "hardlink",
+        "sha256": "0e48af4f94adcf9890ae35e4949e9ff671b0fd5d5e498712b0092db7074fe267",
+        "sha256_in_prefix": "0e48af4f94adcf9890ae35e4949e9ff671b0fd5d5e498712b0092db7074fe267",
+        "size_in_bytes": 1151
+      },
+      {
+        "_path": "lib/R/library/rlang/html/dots_values.html",
+        "path_type": "hardlink",
+        "sha256": "2d8a2fbcadf9887c776bc5b86f48a647a6c8b7d70ccafe44db90d91482ab956c",
+        "sha256_in_prefix": "2d8a2fbcadf9887c776bc5b86f48a647a6c8b7d70ccafe44db90d91482ab956c",
+        "size_in_bytes": 1938
+      },
+      {
+        "_path": "lib/R/library/rlang/html/duplicate.html",
+        "path_type": "hardlink",
+        "sha256": "4ce16b40aeacbbabc095ad0443bf80d3680f7a0344b55019ddac0cce5cc91527",
+        "sha256_in_prefix": "4ce16b40aeacbbabc095ad0443bf80d3680f7a0344b55019ddac0cce5cc91527",
+        "size_in_bytes": 2080
+      },
+      {
+        "_path": "lib/R/library/rlang/html/empty_env.html",
+        "path_type": "hardlink",
+        "sha256": "050c3ae5522f3fd3465b15c7ceacbc648758b794abd9b3121f6b4d021b37343e",
+        "sha256_in_prefix": "050c3ae5522f3fd3465b15c7ceacbc648758b794abd9b3121f6b4d021b37343e",
+        "size_in_bytes": 1075
+      },
+      {
+        "_path": "lib/R/library/rlang/html/env.html",
+        "path_type": "hardlink",
+        "sha256": "7483b3a13dfe46af2136b5db49ffc029c3d6cde104f7a71c62f6263fb069d391",
+        "sha256_in_prefix": "7483b3a13dfe46af2136b5db49ffc029c3d6cde104f7a71c62f6263fb069d391",
+        "size_in_bytes": 6209
+      },
+      {
+        "_path": "lib/R/library/rlang/html/env_bind.html",
+        "path_type": "hardlink",
+        "sha256": "3be438e2198b9f2ab00a8765c9c4521d97da4a35115488b0ebc658756f0e9dee",
+        "sha256_in_prefix": "3be438e2198b9f2ab00a8765c9c4521d97da4a35115488b0ebc658756f0e9dee",
+        "size_in_bytes": 5315
+      },
+      {
+        "_path": "lib/R/library/rlang/html/env_bind_exprs.html",
+        "path_type": "hardlink",
+        "sha256": "6de2436bf646a3b199dee56a0f2cf825a5995d52c458be754e7de61513a12b5e",
+        "sha256_in_prefix": "6de2436bf646a3b199dee56a0f2cf825a5995d52c458be754e7de61513a12b5e",
+        "size_in_bytes": 2641
+      },
+      {
+        "_path": "lib/R/library/rlang/html/env_bury.html",
+        "path_type": "hardlink",
+        "sha256": "3f0b0d9025c2ea503408e732579b9c280af57b62751b70b2b50e8cea70416c44",
+        "sha256_in_prefix": "3f0b0d9025c2ea503408e732579b9c280af57b62751b70b2b50e8cea70416c44",
+        "size_in_bytes": 2418
+      },
+      {
+        "_path": "lib/R/library/rlang/html/env_clone.html",
+        "path_type": "hardlink",
+        "sha256": "71d6e2d54270564aac9abba64202dbffa03f356b62a114f9109bd283dd5e4f01",
+        "sha256_in_prefix": "71d6e2d54270564aac9abba64202dbffa03f356b62a114f9109bd283dd5e4f01",
+        "size_in_bytes": 1424
+      },
+      {
+        "_path": "lib/R/library/rlang/html/env_depth.html",
+        "path_type": "hardlink",
+        "sha256": "1701ca97979fee368f05aaa0e37a1c78310e7fca7855b0a153d6f2c4e0510509",
+        "sha256_in_prefix": "1701ca97979fee368f05aaa0e37a1c78310e7fca7855b0a153d6f2c4e0510509",
+        "size_in_bytes": 1607
+      },
+      {
+        "_path": "lib/R/library/rlang/html/env_get.html",
+        "path_type": "hardlink",
+        "sha256": "b1256bdff83e0c2c20250c6a2b4631365a1c677f0523e9b928c4fe62880b6784",
+        "sha256_in_prefix": "b1256bdff83e0c2c20250c6a2b4631365a1c677f0523e9b928c4fe62880b6784",
+        "size_in_bytes": 2049
+      },
+      {
+        "_path": "lib/R/library/rlang/html/env_has.html",
+        "path_type": "hardlink",
+        "sha256": "efe0c3085d104c9a003fab1fa34616f877e0d575630e6373c8387737d39132e0",
+        "sha256_in_prefix": "efe0c3085d104c9a003fab1fa34616f877e0d575630e6373c8387737d39132e0",
+        "size_in_bytes": 1988
+      },
+      {
+        "_path": "lib/R/library/rlang/html/env_inherits.html",
+        "path_type": "hardlink",
+        "sha256": "3655b42cfc759b4f103a05e53bfa981573e1dfebd478514d3898759c496a9043",
+        "sha256_in_prefix": "3655b42cfc759b4f103a05e53bfa981573e1dfebd478514d3898759c496a9043",
+        "size_in_bytes": 1348
+      },
+      {
+        "_path": "lib/R/library/rlang/html/env_names.html",
+        "path_type": "hardlink",
+        "sha256": "e77911e783e6c5dcc6fefddfcad66bc6f460cca0b50a23e1dffa9a2c2dfc03ad",
+        "sha256_in_prefix": "e77911e783e6c5dcc6fefddfcad66bc6f460cca0b50a23e1dffa9a2c2dfc03ad",
+        "size_in_bytes": 2633
+      },
+      {
+        "_path": "lib/R/library/rlang/html/env_parent.html",
+        "path_type": "hardlink",
+        "sha256": "3633ea1cbcff433c5124793085280ce5e857d2631c64dbce7027a081a410ba2f",
+        "sha256_in_prefix": "3633ea1cbcff433c5124793085280ce5e857d2631c64dbce7027a081a410ba2f",
+        "size_in_bytes": 2944
+      },
+      {
+        "_path": "lib/R/library/rlang/html/env_poke.html",
+        "path_type": "hardlink",
+        "sha256": "6eb809461bae58cd546393af5b03a847ad75bda8f1d1af05c261e6761c7c7b69",
+        "sha256_in_prefix": "6eb809461bae58cd546393af5b03a847ad75bda8f1d1af05c261e6761c7c7b69",
+        "size_in_bytes": 2992
+      },
+      {
+        "_path": "lib/R/library/rlang/html/env_unbind.html",
+        "path_type": "hardlink",
+        "sha256": "4971f5ddfdc1090cfb5b6401c2d9286359c9664844b9cdbdf20cfb87fd603807",
+        "sha256_in_prefix": "4971f5ddfdc1090cfb5b6401c2d9286359c9664844b9cdbdf20cfb87fd603807",
+        "size_in_bytes": 2300
+      },
+      {
+        "_path": "lib/R/library/rlang/html/eval_bare.html",
+        "path_type": "hardlink",
+        "sha256": "990a909f7d1ad934d72b84497fad80a39e1d4eff6b65e27597d530f6d70a6a7b",
+        "sha256_in_prefix": "990a909f7d1ad934d72b84497fad80a39e1d4eff6b65e27597d530f6d70a6a7b",
+        "size_in_bytes": 5216
+      },
+      {
+        "_path": "lib/R/library/rlang/html/eval_tidy.html",
+        "path_type": "hardlink",
+        "sha256": "b7141c9a75f785611282c5cf61dc3aa38099d1bf90254210f84476627b63faa1",
+        "sha256_in_prefix": "b7141c9a75f785611282c5cf61dc3aa38099d1bf90254210f84476627b63faa1",
+        "size_in_bytes": 4261
+      },
+      {
+        "_path": "lib/R/library/rlang/html/eval_tidy_.html",
+        "path_type": "hardlink",
+        "sha256": "13e6c7a6ebf080c5cc152cb5582f4e8776ed90285a3641e80b22b231f081529e",
+        "sha256_in_prefix": "13e6c7a6ebf080c5cc152cb5582f4e8776ed90285a3641e80b22b231f081529e",
+        "size_in_bytes": 1739
+      },
+      {
+        "_path": "lib/R/library/rlang/html/exiting.html",
+        "path_type": "hardlink",
+        "sha256": "bfd6e451474ff2d6a21a3ea04b5509ec15aed357adb33df68d49fda244afac39",
+        "sha256_in_prefix": "bfd6e451474ff2d6a21a3ea04b5509ec15aed357adb33df68d49fda244afac39",
+        "size_in_bytes": 4004
+      },
+      {
+        "_path": "lib/R/library/rlang/html/expr_interp.html",
+        "path_type": "hardlink",
+        "sha256": "bf2e4fca9f60edd5dda71036c305d366087a64ef1edb71df10c7fa0bfae1a848",
+        "sha256_in_prefix": "bf2e4fca9f60edd5dda71036c305d366087a64ef1edb71df10c7fa0bfae1a848",
+        "size_in_bytes": 2629
+      },
+      {
+        "_path": "lib/R/library/rlang/html/expr_label.html",
+        "path_type": "hardlink",
+        "sha256": "0ad832ca26cd720d79581d9110aeb544d7665bfb04785eae4f4c6d6a64040721",
+        "sha256_in_prefix": "0ad832ca26cd720d79581d9110aeb544d7665bfb04785eae4f4c6d6a64040721",
+        "size_in_bytes": 1913
+      },
+      {
+        "_path": "lib/R/library/rlang/html/expr_print.html",
+        "path_type": "hardlink",
+        "sha256": "19bdf4fac41465bc984886b99309cb226a99b5e5ee1b1f1ccf149093b52f56da",
+        "sha256_in_prefix": "19bdf4fac41465bc984886b99309cb226a99b5e5ee1b1f1ccf149093b52f56da",
+        "size_in_bytes": 2876
+      },
+      {
+        "_path": "lib/R/library/rlang/html/exprs_auto_name.html",
+        "path_type": "hardlink",
+        "sha256": "4f42effeeadf1e3fda038cf6f1fe4d9c29e44a22a76f16efba64f5fce2e189ca",
+        "sha256_in_prefix": "4f42effeeadf1e3fda038cf6f1fe4d9c29e44a22a76f16efba64f5fce2e189ca",
+        "size_in_bytes": 1837
+      },
+      {
+        "_path": "lib/R/library/rlang/html/f_rhs.html",
+        "path_type": "hardlink",
+        "sha256": "0a81c5dad9b82fbcbd009e2f3e2db0684f14dc62dec9547aa79fa824acdc9bbb",
+        "sha256_in_prefix": "0a81c5dad9b82fbcbd009e2f3e2db0684f14dc62dec9547aa79fa824acdc9bbb",
+        "size_in_bytes": 1650
+      },
+      {
+        "_path": "lib/R/library/rlang/html/f_text.html",
+        "path_type": "hardlink",
+        "sha256": "176907b739cb5d05e1e1bc1a46334174f1a9a297510a4889ed823e54af1fa9b9",
+        "sha256_in_prefix": "176907b739cb5d05e1e1bc1a46334174f1a9a297510a4889ed823e54af1fa9b9",
+        "size_in_bytes": 1575
+      },
+      {
+        "_path": "lib/R/library/rlang/html/flatten.html",
+        "path_type": "hardlink",
+        "sha256": "503ffce524b68fcb989d9b7483b2bfd53f9e1a4b94e23baa14a20253b7060195",
+        "sha256_in_prefix": "503ffce524b68fcb989d9b7483b2bfd53f9e1a4b94e23baa14a20253b7060195",
+        "size_in_bytes": 3330
+      },
+      {
+        "_path": "lib/R/library/rlang/html/fn_body.html",
+        "path_type": "hardlink",
+        "sha256": "b3b82943a5a68f9616161b6f29c685d222ac374847b95e1f5608a74b6e17ea62",
+        "sha256_in_prefix": "b3b82943a5a68f9616161b6f29c685d222ac374847b95e1f5608a74b6e17ea62",
+        "size_in_bytes": 1269
+      },
+      {
+        "_path": "lib/R/library/rlang/html/fn_env.html",
+        "path_type": "hardlink",
+        "sha256": "1636fca6a3fa072665676bab389e86ba9869ac8296ab1a3ec19a6d523da65ecd",
+        "sha256_in_prefix": "1636fca6a3fa072665676bab389e86ba9869ac8296ab1a3ec19a6d523da65ecd",
+        "size_in_bytes": 1893
+      },
+      {
+        "_path": "lib/R/library/rlang/html/fn_fmls.html",
+        "path_type": "hardlink",
+        "sha256": "28c81afdd8bc53fa772093795984a830fbcf4fadead5a72c7fbbd655feb79851",
+        "sha256_in_prefix": "28c81afdd8bc53fa772093795984a830fbcf4fadead5a72c7fbbd655feb79851",
+        "size_in_bytes": 3122
+      },
+      {
+        "_path": "lib/R/library/rlang/html/frame_position.html",
+        "path_type": "hardlink",
+        "sha256": "6774d4c0f59a5c9b86fdcb1673e5bf5c65a6fbf422ce2e2a84db2cdc6eb65195",
+        "sha256_in_prefix": "6774d4c0f59a5c9b86fdcb1673e5bf5c65a6fbf422ce2e2a84db2cdc6eb65195",
+        "size_in_bytes": 2871
+      },
+      {
+        "_path": "lib/R/library/rlang/html/friendly_type.html",
+        "path_type": "hardlink",
+        "sha256": "81d1522f3da467707c6f43f20a2a7ace74c719348f5f752386d76ec351a15e72",
+        "sha256_in_prefix": "81d1522f3da467707c6f43f20a2a7ace74c719348f5f752386d76ec351a15e72",
+        "size_in_bytes": 1482
+      },
+      {
+        "_path": "lib/R/library/rlang/html/get_env.html",
+        "path_type": "hardlink",
+        "sha256": "58636fbc127fac065e9190c335eccb9280b190d1608c7434b4c97a4d885ce55a",
+        "sha256_in_prefix": "58636fbc127fac065e9190c335eccb9280b190d1608c7434b4c97a4d885ce55a",
+        "size_in_bytes": 4254
+      },
+      {
+        "_path": "lib/R/library/rlang/html/has_length.html",
+        "path_type": "hardlink",
+        "sha256": "e27bbc7a7e92d1aa8c240dc7244ba68aa6f824b34a5a86cc62ce543574e44a93",
+        "sha256_in_prefix": "e27bbc7a7e92d1aa8c240dc7244ba68aa6f824b34a5a86cc62ce543574e44a93",
+        "size_in_bytes": 1567
+      },
+      {
+        "_path": "lib/R/library/rlang/html/has_name.html",
+        "path_type": "hardlink",
+        "sha256": "74aca49d125f5b75d67bb4bb21019ae6a725035718e1b8bb836d1c84c7f1cc33",
+        "sha256_in_prefix": "74aca49d125f5b75d67bb4bb21019ae6a725035718e1b8bb836d1c84c7f1cc33",
+        "size_in_bytes": 1548
+      },
+      {
+        "_path": "lib/R/library/rlang/html/inherits_any.html",
+        "path_type": "hardlink",
+        "sha256": "da258db930ea9b17ff26cee2afdcedb29159456f454c0e8a1a68d140fad6f2bd",
+        "sha256_in_prefix": "da258db930ea9b17ff26cee2afdcedb29159456f454c0e8a1a68d140fad6f2bd",
+        "size_in_bytes": 2454
+      },
+      {
+        "_path": "lib/R/library/rlang/html/invoke.html",
+        "path_type": "hardlink",
+        "sha256": "e5209815dde7d0f132c658e1c23852190d8bbee1b12a8e01111c1de88f891968",
+        "sha256_in_prefix": "e5209815dde7d0f132c658e1c23852190d8bbee1b12a8e01111c1de88f891968",
+        "size_in_bytes": 3802
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_call.html",
+        "path_type": "hardlink",
+        "sha256": "b188eee3befbe280450b5758ca33c3fd5db4969c0ef5c6858f8ff3d1d6472ebc",
+        "sha256_in_prefix": "b188eee3befbe280450b5758ca33c3fd5db4969c0ef5c6858f8ff3d1d6472ebc",
+        "size_in_bytes": 3700
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_callable.html",
+        "path_type": "hardlink",
+        "sha256": "ac77caf538c3cf8658bf8fa680007afdddab9c4230083688bf1cb5c42af49789",
+        "sha256_in_prefix": "ac77caf538c3cf8658bf8fa680007afdddab9c4230083688bf1cb5c42af49789",
+        "size_in_bytes": 1955
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_condition.html",
+        "path_type": "hardlink",
+        "sha256": "ef52401d2b5f7f3c797d13455d9e79a9bef084b34acc3d57a4a42e789cf30078",
+        "sha256_in_prefix": "ef52401d2b5f7f3c797d13455d9e79a9bef084b34acc3d57a4a42e789cf30078",
+        "size_in_bytes": 940
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_copyable.html",
+        "path_type": "hardlink",
+        "sha256": "c56e9e96ac7246180a5b4cbd98fd27f92f03928a81a6a33f974de436f87f43bf",
+        "sha256_in_prefix": "c56e9e96ac7246180a5b4cbd98fd27f92f03928a81a6a33f974de436f87f43bf",
+        "size_in_bytes": 1725
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_empty.html",
+        "path_type": "hardlink",
+        "sha256": "5744ee9bf75e50a2645d53a6ae965d146b3d79ac2d1b3e85e6868654e56bcf02",
+        "sha256_in_prefix": "5744ee9bf75e50a2645d53a6ae965d146b3d79ac2d1b3e85e6868654e56bcf02",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_env.html",
+        "path_type": "hardlink",
+        "sha256": "4c23da1b7728626deb0a0ebb3b4e0fe76be6b21b81563c0bd78849c50f26d7cc",
+        "sha256_in_prefix": "4c23da1b7728626deb0a0ebb3b4e0fe76be6b21b81563c0bd78849c50f26d7cc",
+        "size_in_bytes": 1020
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_expr.html",
+        "path_type": "hardlink",
+        "sha256": "eb6a3240a4fb6f69aa9661e8d59838b8f6fb39a8c1547fa1901e645d3e3d4f61",
+        "sha256_in_prefix": "eb6a3240a4fb6f69aa9661e8d59838b8f6fb39a8c1547fa1901e645d3e3d4f61",
+        "size_in_bytes": 1119
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_expression.html",
+        "path_type": "hardlink",
+        "sha256": "c44f5b97e31f49d6d2d746ff7e94d5f3e2202d03215dec182d1699fcf61bf984",
+        "sha256_in_prefix": "c44f5b97e31f49d6d2d746ff7e94d5f3e2202d03215dec182d1699fcf61bf984",
+        "size_in_bytes": 5156
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_formula.html",
+        "path_type": "hardlink",
+        "sha256": "74da52dce2f655fab158ac3dd5eecd980539f9e3c441cc48c139c983ec35780a",
+        "sha256_in_prefix": "74da52dce2f655fab158ac3dd5eecd980539f9e3c441cc48c139c983ec35780a",
+        "size_in_bytes": 2603
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_frame.html",
+        "path_type": "hardlink",
+        "sha256": "49f12440159f66a40dde6bd53699ddcfe304ef9d687e1be384e3596589e2eba3",
+        "sha256_in_prefix": "49f12440159f66a40dde6bd53699ddcfe304ef9d687e1be384e3596589e2eba3",
+        "size_in_bytes": 912
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_function.html",
+        "path_type": "hardlink",
+        "sha256": "bec8000db3860c497ede9df81acf2348cd432d68cc68558b7d8e09990862caad",
+        "sha256_in_prefix": "bec8000db3860c497ede9df81acf2348cd432d68cc68558b7d8e09990862caad",
+        "size_in_bytes": 5349
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_installed.html",
+        "path_type": "hardlink",
+        "sha256": "f7c380f67f9697a4bd37ef02302f0ecf9dad71a43bc71a2b75e88296ae134b5d",
+        "sha256_in_prefix": "f7c380f67f9697a4bd37ef02302f0ecf9dad71a43bc71a2b75e88296ae134b5d",
+        "size_in_bytes": 1281
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_integerish.html",
+        "path_type": "hardlink",
+        "sha256": "08ac7fd745fc04f2588d4615a673d35d860dc4e90a3142bd96812becb56c965b",
+        "sha256_in_prefix": "08ac7fd745fc04f2588d4615a673d35d860dc4e90a3142bd96812becb56c965b",
+        "size_in_bytes": 2017
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_lang.html",
+        "path_type": "hardlink",
+        "sha256": "5546b894b820972b2b27719ba6d28100413e687dbf5d0dafd9aae7ff8242be92",
+        "sha256_in_prefix": "5546b894b820972b2b27719ba6d28100413e687dbf5d0dafd9aae7ff8242be92",
+        "size_in_bytes": 2221
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_named.html",
+        "path_type": "hardlink",
+        "sha256": "8eaea078ebbcd239988d93336e85067798927944203cb1a294833523606b1727",
+        "sha256_in_prefix": "8eaea078ebbcd239988d93336e85067798927944203cb1a294833523606b1727",
+        "size_in_bytes": 2605
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_namespace.html",
+        "path_type": "hardlink",
+        "sha256": "58c6bd898909d914eb533c2f914fe5d029ca055689a5dd8b2a9dde8e4bd726df",
+        "sha256_in_prefix": "58c6bd898909d914eb533c2f914fe5d029ca055689a5dd8b2a9dde8e4bd726df",
+        "size_in_bytes": 985
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_pairlist.html",
+        "path_type": "hardlink",
+        "sha256": "73a410a95a1c090c7efec34e8e93c60c3a5d6739f1ba0998e3c29b4a4bb71984",
+        "sha256_in_prefix": "73a410a95a1c090c7efec34e8e93c60c3a5d6739f1ba0998e3c29b4a4bb71984",
+        "size_in_bytes": 1770
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_quosureish.html",
+        "path_type": "hardlink",
+        "sha256": "9a10da025e557246bade8dfd825f16d1f7c11d75f474ce2e0b16ca75d2b2fcff",
+        "sha256_in_prefix": "9a10da025e557246bade8dfd825f16d1f7c11d75f474ce2e0b16ca75d2b2fcff",
+        "size_in_bytes": 1539
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_reference.html",
+        "path_type": "hardlink",
+        "sha256": "018c15d64bf5d49199120bc6be042a90142e34cacf610e61a80fb1e4a29ecf41",
+        "sha256_in_prefix": "018c15d64bf5d49199120bc6be042a90142e34cacf610e61a80fb1e4a29ecf41",
+        "size_in_bytes": 2165
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_stack.html",
+        "path_type": "hardlink",
+        "sha256": "f265bcb095f8cf8d383c460bf1f3fdda85a8fe5589c415b3617dbc9b972f7bdd",
+        "sha256_in_prefix": "f265bcb095f8cf8d383c460bf1f3fdda85a8fe5589c415b3617dbc9b972f7bdd",
+        "size_in_bytes": 955
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_symbol.html",
+        "path_type": "hardlink",
+        "sha256": "69cf5b957fa7b6b7eab0fde081787566976a4a21cb44cbb0f156936bbb052199",
+        "sha256_in_prefix": "69cf5b957fa7b6b7eab0fde081787566976a4a21cb44cbb0f156936bbb052199",
+        "size_in_bytes": 1053
+      },
+      {
+        "_path": "lib/R/library/rlang/html/is_true.html",
+        "path_type": "hardlink",
+        "sha256": "c1f7f1150c28b7e1e339f020f2f9edbe13a670d3b151039f3c14dab51f9d0876",
+        "sha256_in_prefix": "c1f7f1150c28b7e1e339f020f2f9edbe13a670d3b151039f3c14dab51f9d0876",
+        "size_in_bytes": 1181
+      },
+      {
+        "_path": "lib/R/library/rlang/html/lang.html",
+        "path_type": "hardlink",
+        "sha256": "56a41489a866f40ea6e2f22007aa517cbc17a4ae4a2a55d5ca3070713281d9bc",
+        "sha256_in_prefix": "56a41489a866f40ea6e2f22007aa517cbc17a4ae4a2a55d5ca3070713281d9bc",
+        "size_in_bytes": 1434
+      },
+      {
+        "_path": "lib/R/library/rlang/html/lang_head.html",
+        "path_type": "hardlink",
+        "sha256": "6ec12504635efd31471189fee31910e22e558c3489f46ae2ae6207b2351b7130",
+        "sha256_in_prefix": "6ec12504635efd31471189fee31910e22e558c3489f46ae2ae6207b2351b7130",
+        "size_in_bytes": 1093
+      },
+      {
+        "_path": "lib/R/library/rlang/html/lang_modify.html",
+        "path_type": "hardlink",
+        "sha256": "b4b8820adab7c822e2ae0084abf0b9b928ab15c9ef859f959d9824e797e45ca3",
+        "sha256_in_prefix": "b4b8820adab7c822e2ae0084abf0b9b928ab15c9ef859f959d9824e797e45ca3",
+        "size_in_bytes": 1927
+      },
+      {
+        "_path": "lib/R/library/rlang/html/lifecycle.html",
+        "path_type": "hardlink",
+        "sha256": "684b204a20dbd8721a3b8e8b50cc71e6545cdbdceb05c1ac1f1958da7ac2e863",
+        "sha256_in_prefix": "684b204a20dbd8721a3b8e8b50cc71e6545cdbdceb05c1ac1f1958da7ac2e863",
+        "size_in_bytes": 11515
+      },
+      {
+        "_path": "lib/R/library/rlang/html/missing.html",
+        "path_type": "hardlink",
+        "sha256": "80312d27ca1ee23ba886ed0d3a266ba14f35d9e4bdec93c1458f2ca42113cd8b",
+        "sha256_in_prefix": "80312d27ca1ee23ba886ed0d3a266ba14f35d9e4bdec93c1458f2ca42113cd8b",
+        "size_in_bytes": 2614
+      },
+      {
+        "_path": "lib/R/library/rlang/html/missing_arg.html",
+        "path_type": "hardlink",
+        "sha256": "ba6fc8bfd514d4fe0fdff9735b87aaa33098dafc1d3a3653a729b603cf342a9f",
+        "sha256_in_prefix": "ba6fc8bfd514d4fe0fdff9735b87aaa33098dafc1d3a3653a729b603cf342a9f",
+        "size_in_bytes": 5010
+      },
+      {
+        "_path": "lib/R/library/rlang/html/modify.html",
+        "path_type": "hardlink",
+        "sha256": "55ad65b66229817966413d4cbf778adbf6ddb824f8a2adca94f3134beecad453",
+        "sha256_in_prefix": "55ad65b66229817966413d4cbf778adbf6ddb824f8a2adca94f3134beecad453",
+        "size_in_bytes": 1688
+      },
+      {
+        "_path": "lib/R/library/rlang/html/mut_node_car.html",
+        "path_type": "hardlink",
+        "sha256": "1e5c88b120b1ec9bdeb4a78eb9ffc77042b94f94060a8655e6cf8d2a935ef268",
+        "sha256_in_prefix": "1e5c88b120b1ec9bdeb4a78eb9ffc77042b94f94060a8655e6cf8d2a935ef268",
+        "size_in_bytes": 1774
+      },
+      {
+        "_path": "lib/R/library/rlang/html/mut_utf8_locale.html",
+        "path_type": "hardlink",
+        "sha256": "ecbd7ba1258b4aee3114101e6898d48682db6c750cf158a36c2490e7cf50992e",
+        "sha256_in_prefix": "ecbd7ba1258b4aee3114101e6898d48682db6c750cf158a36c2490e7cf50992e",
+        "size_in_bytes": 2661
+      },
+      {
+        "_path": "lib/R/library/rlang/html/names2.html",
+        "path_type": "hardlink",
+        "sha256": "fa1271e9dcddaa6991a319c5007e33566944dff1614b93b949c9bcf4097da40e",
+        "sha256_in_prefix": "fa1271e9dcddaa6991a319c5007e33566944dff1614b93b949c9bcf4097da40e",
+        "size_in_bytes": 1366
+      },
+      {
+        "_path": "lib/R/library/rlang/html/new-vector-along.html",
+        "path_type": "hardlink",
+        "sha256": "b1a89543ba0b25eb8aaf1d578f83d0ec29f10d94e64c73afd06bff7c5ffc1390",
+        "sha256_in_prefix": "b1a89543ba0b25eb8aaf1d578f83d0ec29f10d94e64c73afd06bff7c5ffc1390",
+        "size_in_bytes": 2291
+      },
+      {
+        "_path": "lib/R/library/rlang/html/new-vector.html",
+        "path_type": "hardlink",
+        "sha256": "3fdd00d6a7b21fdae37107c184124678b3a53a28136ee3167286c5fd1f28f0e3",
+        "sha256_in_prefix": "3fdd00d6a7b21fdae37107c184124678b3a53a28136ee3167286c5fd1f28f0e3",
+        "size_in_bytes": 1750
+      },
+      {
+        "_path": "lib/R/library/rlang/html/new_call.html",
+        "path_type": "hardlink",
+        "sha256": "972059e688e2e084afab7b379a41bd61e7134efc7daa015229efeb1682591be5",
+        "sha256_in_prefix": "972059e688e2e084afab7b379a41bd61e7134efc7daa015229efeb1682591be5",
+        "size_in_bytes": 1242
+      },
+      {
+        "_path": "lib/R/library/rlang/html/new_formula.html",
+        "path_type": "hardlink",
+        "sha256": "643959372c547b42e1ca5bfe6503426fc405fee1accffd4d3668ab71ba3ff3df",
+        "sha256_in_prefix": "643959372c547b42e1ca5bfe6503426fc405fee1accffd4d3668ab71ba3ff3df",
+        "size_in_bytes": 1296
+      },
+      {
+        "_path": "lib/R/library/rlang/html/new_function.html",
+        "path_type": "hardlink",
+        "sha256": "133f7df5ab3ddb9ce3b70b1ea151bb51a1edaa06627c8561a5ab54e054f81929",
+        "sha256_in_prefix": "133f7df5ab3ddb9ce3b70b1ea151bb51a1edaa06627c8561a5ab54e054f81929",
+        "size_in_bytes": 2124
+      },
+      {
+        "_path": "lib/R/library/rlang/html/new_node.html",
+        "path_type": "hardlink",
+        "sha256": "c46e47b289e2ef59b1883bdbde327e4814c03b079d97169f591a07b0812aec17",
+        "sha256_in_prefix": "c46e47b289e2ef59b1883bdbde327e4814c03b079d97169f591a07b0812aec17",
+        "size_in_bytes": 2470
+      },
+      {
+        "_path": "lib/R/library/rlang/html/ns_env.html",
+        "path_type": "hardlink",
+        "sha256": "6be1b5b1fbfbf340e2a1214d6f9932172634afe3529fcd59e01d6dcd755a00da",
+        "sha256_in_prefix": "6be1b5b1fbfbf340e2a1214d6f9932172634afe3529fcd59e01d6dcd755a00da",
+        "size_in_bytes": 1605
+      },
+      {
+        "_path": "lib/R/library/rlang/html/op-definition.html",
+        "path_type": "hardlink",
+        "sha256": "e49026a3f3385246f4bc9eb36f4bedc9569b139459cf489d5b8c316d7474700f",
+        "sha256_in_prefix": "e49026a3f3385246f4bc9eb36f4bedc9569b139459cf489d5b8c316d7474700f",
+        "size_in_bytes": 2745
+      },
+      {
+        "_path": "lib/R/library/rlang/html/op-get-attr.html",
+        "path_type": "hardlink",
+        "sha256": "8f794ef3169c2e2d660a88144ee9b502941c9cd1790c51f1ac226079aaa125df",
+        "sha256_in_prefix": "8f794ef3169c2e2d660a88144ee9b502941c9cd1790c51f1ac226079aaa125df",
+        "size_in_bytes": 1099
+      },
+      {
+        "_path": "lib/R/library/rlang/html/op-na-default.html",
+        "path_type": "hardlink",
+        "sha256": "82f0ad6fd5e9abe2b26608b34e6fd663d46aea268d434f11c8a6d9d1a36e7e57",
+        "sha256_in_prefix": "82f0ad6fd5e9abe2b26608b34e6fd663d46aea268d434f11c8a6d9d1a36e7e57",
+        "size_in_bytes": 1399
+      },
+      {
+        "_path": "lib/R/library/rlang/html/op-null-default.html",
+        "path_type": "hardlink",
+        "sha256": "2549f0448beb68f761a3de710b2f59c4368623945b022178531a45c48c521479",
+        "sha256_in_prefix": "2549f0448beb68f761a3de710b2f59c4368623945b022178531a45c48c521479",
+        "size_in_bytes": 1230
+      },
+      {
+        "_path": "lib/R/library/rlang/html/overscope_eval_next.html",
+        "path_type": "hardlink",
+        "sha256": "6600fd488701b0dbebdb3d39abaa9e4795eb406a13ba356282ebee99af501707",
+        "sha256_in_prefix": "6600fd488701b0dbebdb3d39abaa9e4795eb406a13ba356282ebee99af501707",
+        "size_in_bytes": 1612
+      },
+      {
+        "_path": "lib/R/library/rlang/html/parse_expr.html",
+        "path_type": "hardlink",
+        "sha256": "96fe740443c054f6968b176cd1693151c82b8fa0f8945d4ecfbde65aa7dec627",
+        "sha256_in_prefix": "96fe740443c054f6968b176cd1693151c82b8fa0f8945d4ecfbde65aa7dec627",
+        "size_in_bytes": 3478
+      },
+      {
+        "_path": "lib/R/library/rlang/html/parse_quosure.html",
+        "path_type": "hardlink",
+        "sha256": "ed7cca100f30eee77aaabd3f451f1f1430afbdcdbe7d8c67119473e4062b0e4e",
+        "sha256_in_prefix": "ed7cca100f30eee77aaabd3f451f1f1430afbdcdbe7d8c67119473e4062b0e4e",
+        "size_in_bytes": 1847
+      },
+      {
+        "_path": "lib/R/library/rlang/html/prepend.html",
+        "path_type": "hardlink",
+        "sha256": "7ef170f16e054031340b1d544996ac624fa3d51bf32c38099bed962de3db34da",
+        "sha256_in_prefix": "7ef170f16e054031340b1d544996ac624fa3d51bf32c38099bed962de3db34da",
+        "size_in_bytes": 1807
+      },
+      {
+        "_path": "lib/R/library/rlang/html/prim_name.html",
+        "path_type": "hardlink",
+        "sha256": "f05a8df4d24ba12982b889033bceb2c8e20e4b688f319be18549b04d20ea1c54",
+        "sha256_in_prefix": "f05a8df4d24ba12982b889033bceb2c8e20e4b688f319be18549b04d20ea1c54",
+        "size_in_bytes": 1026
+      },
+      {
+        "_path": "lib/R/library/rlang/html/quasiquotation.html",
+        "path_type": "hardlink",
+        "sha256": "65eaa3adb6f35fde052753eeaa987e2e15a6da5ee756b5e669ad78f8183e1ad3",
+        "sha256_in_prefix": "65eaa3adb6f35fde052753eeaa987e2e15a6da5ee756b5e669ad78f8183e1ad3",
+        "size_in_bytes": 8991
+      },
+      {
+        "_path": "lib/R/library/rlang/html/quo_expr.html",
+        "path_type": "hardlink",
+        "sha256": "5856d5e0d6afd0542c9264697d5c9a81ccb60254e79d18fb6113803d5d5d64b8",
+        "sha256_in_prefix": "5856d5e0d6afd0542c9264697d5c9a81ccb60254e79d18fb6113803d5d5d64b8",
+        "size_in_bytes": 1432
+      },
+      {
+        "_path": "lib/R/library/rlang/html/quo_label.html",
+        "path_type": "hardlink",
+        "sha256": "432b147252c06174e11d0bb16949fbb0d9f3a6db4d5fd48068e046c2bd73c2ee",
+        "sha256_in_prefix": "432b147252c06174e11d0bb16949fbb0d9f3a6db4d5fd48068e046c2bd73c2ee",
+        "size_in_bytes": 2341
+      },
+      {
+        "_path": "lib/R/library/rlang/html/quo_squash.html",
+        "path_type": "hardlink",
+        "sha256": "ef8c0eeb3d8b4b0db9c2304f13dab740e76557c268b9ff008e9c572a83836b74",
+        "sha256_in_prefix": "ef8c0eeb3d8b4b0db9c2304f13dab740e76557c268b9ff008e9c572a83836b74",
+        "size_in_bytes": 2534
+      },
+      {
+        "_path": "lib/R/library/rlang/html/quosure.html",
+        "path_type": "hardlink",
+        "sha256": "c885cd8efe3a9492f92ebe411be3a4db98c8ddaa7e282527526f2c121b3d03e4",
+        "sha256_in_prefix": "c885cd8efe3a9492f92ebe411be3a4db98c8ddaa7e282527526f2c121b3d03e4",
+        "size_in_bytes": 4642
+      },
+      {
+        "_path": "lib/R/library/rlang/html/quotation.html",
+        "path_type": "hardlink",
+        "sha256": "40023dbf643cd9df625cb33a5a703e9912b3dc00c149bb2bc8156226ebc87088",
+        "sha256_in_prefix": "40023dbf643cd9df625cb33a5a703e9912b3dc00c149bb2bc8156226ebc87088",
+        "size_in_bytes": 10819
+      },
+      {
+        "_path": "lib/R/library/rlang/html/restarting.html",
+        "path_type": "hardlink",
+        "sha256": "a971b385bc4db7297bd0512ea29804399f99d9645dd99993fa3943ef12dc4b41",
+        "sha256_in_prefix": "a971b385bc4db7297bd0512ea29804399f99d9645dd99993fa3943ef12dc4b41",
+        "size_in_bytes": 3477
+      },
+      {
+        "_path": "lib/R/library/rlang/html/return_from.html",
+        "path_type": "hardlink",
+        "sha256": "30cc30b6c2c1b28995e35d6104cb46f987bf670ce8d7f834d95c1af76a2a8b58",
+        "sha256_in_prefix": "30cc30b6c2c1b28995e35d6104cb46f987bf670ce8d7f834d95c1af76a2a8b58",
+        "size_in_bytes": 2970
+      },
+      {
+        "_path": "lib/R/library/rlang/html/rst_abort.html",
+        "path_type": "hardlink",
+        "sha256": "6f02bf728ebd6e7ec26eafe67f5e31f391b508c6eceb07391f2b7bbc84c8e309",
+        "sha256_in_prefix": "6f02bf728ebd6e7ec26eafe67f5e31f391b508c6eceb07391f2b7bbc84c8e309",
+        "size_in_bytes": 2296
+      },
+      {
+        "_path": "lib/R/library/rlang/html/rst_list.html",
+        "path_type": "hardlink",
+        "sha256": "36274071aec29c50c06f154cb36a6da9ca4224c56c1d0741e0243dc77927908a",
+        "sha256_in_prefix": "36274071aec29c50c06f154cb36a6da9ca4224c56c1d0741e0243dc77927908a",
+        "size_in_bytes": 1824
+      },
+      {
+        "_path": "lib/R/library/rlang/html/rst_muffle.html",
+        "path_type": "hardlink",
+        "sha256": "94fc4f856cdb213ec4a90c30d20af8a727bfc4b183c413aaf007221e0b6a631f",
+        "sha256_in_prefix": "94fc4f856cdb213ec4a90c30d20af8a727bfc4b183c413aaf007221e0b6a631f",
+        "size_in_bytes": 3292
+      },
+      {
+        "_path": "lib/R/library/rlang/html/scalar-type-predicates.html",
+        "path_type": "hardlink",
+        "sha256": "72e2dbd68e70441ce08cce91a66a08440f893c092e8b3dde28d757cd43021c1c",
+        "sha256_in_prefix": "72e2dbd68e70441ce08cce91a66a08440f893c092e8b3dde28d757cd43021c1c",
+        "size_in_bytes": 1633
+      },
+      {
+        "_path": "lib/R/library/rlang/html/scoped_bindings.html",
+        "path_type": "hardlink",
+        "sha256": "9cd7a460a70bb47b200f6235896add689d5b45318efde50f091e339b620e2fa6",
+        "sha256_in_prefix": "9cd7a460a70bb47b200f6235896add689d5b45318efde50f091e339b620e2fa6",
+        "size_in_bytes": 2760
+      },
+      {
+        "_path": "lib/R/library/rlang/html/scoped_env.html",
+        "path_type": "hardlink",
+        "sha256": "4a0fb846c995ce823135ae6eda7b3c750a2c06b919ebaee215eb54cb69caf035",
+        "sha256_in_prefix": "4a0fb846c995ce823135ae6eda7b3c750a2c06b919ebaee215eb54cb69caf035",
+        "size_in_bytes": 4231
+      },
+      {
+        "_path": "lib/R/library/rlang/html/scoped_options.html",
+        "path_type": "hardlink",
+        "sha256": "2250782f98f6f0863c321a1ecfc07e890b2fd7a2078b741cd5734e71dee0b512",
+        "sha256_in_prefix": "2250782f98f6f0863c321a1ecfc07e890b2fd7a2078b741cd5734e71dee0b512",
+        "size_in_bytes": 3162
+      },
+      {
+        "_path": "lib/R/library/rlang/html/seq2.html",
+        "path_type": "hardlink",
+        "sha256": "4d13a68a5dcf484181916a847caf72d2c0061665ba7b428b764ec97f6ba2f4d9",
+        "sha256_in_prefix": "4d13a68a5dcf484181916a847caf72d2c0061665ba7b428b764ec97f6ba2f4d9",
+        "size_in_bytes": 1692
+      },
+      {
+        "_path": "lib/R/library/rlang/html/set_attrs.html",
+        "path_type": "hardlink",
+        "sha256": "02be12d0b0d76519ada3280fdde16bf9b0376b1a964c8ff5519620dcf788439f",
+        "sha256_in_prefix": "02be12d0b0d76519ada3280fdde16bf9b0376b1a964c8ff5519620dcf788439f",
+        "size_in_bytes": 2992
+      },
+      {
+        "_path": "lib/R/library/rlang/html/set_chr_encoding.html",
+        "path_type": "hardlink",
+        "sha256": "d5c618147d227305187492d97d230c595a4595c3e571ad67f16972892341c851",
+        "sha256_in_prefix": "d5c618147d227305187492d97d230c595a4595c3e571ad67f16972892341c851",
+        "size_in_bytes": 3810
+      },
+      {
+        "_path": "lib/R/library/rlang/html/set_expr.html",
+        "path_type": "hardlink",
+        "sha256": "b8c36a9e96538465fb166c1db9321df7ce94251345d4c6a9a5bdb7def92fabdf",
+        "sha256_in_prefix": "b8c36a9e96538465fb166c1db9321df7ce94251345d4c6a9a5bdb7def92fabdf",
+        "size_in_bytes": 2467
+      },
+      {
+        "_path": "lib/R/library/rlang/html/set_names.html",
+        "path_type": "hardlink",
+        "sha256": "7c9c48f2ab6ccbcbcdd1e4cb70a8da79a99c938b09ec2d2955b9a5f688714dc0",
+        "sha256_in_prefix": "7c9c48f2ab6ccbcbcdd1e4cb70a8da79a99c938b09ec2d2955b9a5f688714dc0",
+        "size_in_bytes": 2275
+      },
+      {
+        "_path": "lib/R/library/rlang/html/splice.html",
+        "path_type": "hardlink",
+        "sha256": "47750a7b3230d363b8474b48e20088b85a58c7675e7ee57dba186c43c00e38a9",
+        "sha256_in_prefix": "47750a7b3230d363b8474b48e20088b85a58c7675e7ee57dba186c43c00e38a9",
+        "size_in_bytes": 4571
+      },
+      {
+        "_path": "lib/R/library/rlang/html/stack.html",
+        "path_type": "hardlink",
+        "sha256": "604d8121a8fdfc277361720f3c6430b41a4ef364b6b3d57c0286880f4cf884a7",
+        "sha256_in_prefix": "604d8121a8fdfc277361720f3c6430b41a4ef364b6b3d57c0286880f4cf884a7",
+        "size_in_bytes": 6287
+      },
+      {
+        "_path": "lib/R/library/rlang/html/stack_trim.html",
+        "path_type": "hardlink",
+        "sha256": "89252dcb265e32a41eb30f74f0b349b8e72c3c4ac64a548cbf3afcbb642683d4",
+        "sha256_in_prefix": "89252dcb265e32a41eb30f74f0b349b8e72c3c4ac64a548cbf3afcbb642683d4",
+        "size_in_bytes": 2775
+      },
+      {
+        "_path": "lib/R/library/rlang/html/string.html",
+        "path_type": "hardlink",
+        "sha256": "0f765390b81fe851c7dd9836560aef2e9c348cb474d45e5b59bcb363c6bc24ba",
+        "sha256_in_prefix": "0f765390b81fe851c7dd9836560aef2e9c348cb474d45e5b59bcb363c6bc24ba",
+        "size_in_bytes": 2293
+      },
+      {
+        "_path": "lib/R/library/rlang/html/switch_lang.html",
+        "path_type": "hardlink",
+        "sha256": "29526aeff7f88a3b9b90c234c5e76837e1cdf9335be3ae171250bbc432bb89fc",
+        "sha256_in_prefix": "29526aeff7f88a3b9b90c234c5e76837e1cdf9335be3ae171250bbc432bb89fc",
+        "size_in_bytes": 4429
+      },
+      {
+        "_path": "lib/R/library/rlang/html/switch_type.html",
+        "path_type": "hardlink",
+        "sha256": "cf857ed1255ea5eac651f9492cc97061f46697eb61dc96b6ce824d78933eb9fe",
+        "sha256_in_prefix": "cf857ed1255ea5eac651f9492cc97061f46697eb61dc96b6ce824d78933eb9fe",
+        "size_in_bytes": 3396
+      },
+      {
+        "_path": "lib/R/library/rlang/html/sym.html",
+        "path_type": "hardlink",
+        "sha256": "a5c3804fdc99463f720609b122163789303b31ec5237493e1e2f6e09af939b4b",
+        "sha256_in_prefix": "a5c3804fdc99463f720609b122163789303b31ec5237493e1e2f6e09af939b4b",
+        "size_in_bytes": 1586
+      },
+      {
+        "_path": "lib/R/library/rlang/html/tidy-dots.html",
+        "path_type": "hardlink",
+        "sha256": "6ccaa0b82124aa31723f3aba27172cf4c79997e41ba31b29135e85ed25fb0a97",
+        "sha256_in_prefix": "6ccaa0b82124aa31723f3aba27172cf4c79997e41ba31b29135e85ed25fb0a97",
+        "size_in_bytes": 4468
+      },
+      {
+        "_path": "lib/R/library/rlang/html/tidyeval-data.html",
+        "path_type": "hardlink",
+        "sha256": "1101f975a741341eb4bc7733a1d5da49a40e1bdea37ea1969a3d6cdbaa3bce9f",
+        "sha256_in_prefix": "1101f975a741341eb4bc7733a1d5da49a40e1bdea37ea1969a3d6cdbaa3bce9f",
+        "size_in_bytes": 1653
+      },
+      {
+        "_path": "lib/R/library/rlang/html/type-predicates.html",
+        "path_type": "hardlink",
+        "sha256": "ca33928ad91232e156f2ed60fdd222a0651e9cc4a781d195a1f3704d5ac29087",
+        "sha256_in_prefix": "ca33928ad91232e156f2ed60fdd222a0651e9cc4a781d195a1f3704d5ac29087",
+        "size_in_bytes": 2591
+      },
+      {
+        "_path": "lib/R/library/rlang/html/type_of.html",
+        "path_type": "hardlink",
+        "sha256": "651570e4e3236e3f28748f27a4b068a8508651720cc420015fd03d24606daab6",
+        "sha256_in_prefix": "651570e4e3236e3f28748f27a4b068a8508651720cc420015fd03d24606daab6",
+        "size_in_bytes": 2221
+      },
+      {
+        "_path": "lib/R/library/rlang/html/vec_poke_n.html",
+        "path_type": "hardlink",
+        "sha256": "f231fe40382d2a0a5666d1e6cbff69e568d8f53bd9a955a962bfc1f74f52dff3",
+        "sha256_in_prefix": "f231fe40382d2a0a5666d1e6cbff69e568d8f53bd9a955a962bfc1f74f52dff3",
+        "size_in_bytes": 2009
+      },
+      {
+        "_path": "lib/R/library/rlang/html/vector-coercion.html",
+        "path_type": "hardlink",
+        "sha256": "88f121225b7ff804700a16a26e079e044b8c17f22efa766ef28bd0346088ebe3",
+        "sha256_in_prefix": "88f121225b7ff804700a16a26e079e044b8c17f22efa766ef28bd0346088ebe3",
+        "size_in_bytes": 5789
+      },
+      {
+        "_path": "lib/R/library/rlang/html/vector-construction.html",
+        "path_type": "hardlink",
+        "sha256": "6d95003e360ac2cd1199786ab61ea8d010c666b39770a2ad66a8dbf52da2d281",
+        "sha256_in_prefix": "6d95003e360ac2cd1199786ab61ea8d010c666b39770a2ad66a8dbf52da2d281",
+        "size_in_bytes": 2913
+      },
+      {
+        "_path": "lib/R/library/rlang/html/vector-old-ctors.html",
+        "path_type": "hardlink",
+        "sha256": "97c0a4d417c1da3d9f7fcee42eabd4e279b9e2a6ef2ea2389298e4cff47bc287",
+        "sha256_in_prefix": "97c0a4d417c1da3d9f7fcee42eabd4e279b9e2a6ef2ea2389298e4cff47bc287",
+        "size_in_bytes": 1381
+      },
+      {
+        "_path": "lib/R/library/rlang/html/with_env.html",
+        "path_type": "hardlink",
+        "sha256": "9ec251d0fd0fac2fe1f2fbf7e84b9ec33432a2f28dbaa5de60dca98ab03dc4a5",
+        "sha256_in_prefix": "9ec251d0fd0fac2fe1f2fbf7e84b9ec33432a2f28dbaa5de60dca98ab03dc4a5",
+        "size_in_bytes": 2976
+      },
+      {
+        "_path": "lib/R/library/rlang/html/with_handlers.html",
+        "path_type": "hardlink",
+        "sha256": "007754c84dc943c5d849f71031c287084539b1af2ee83218cff37eeb80229026",
+        "sha256_in_prefix": "007754c84dc943c5d849f71031c287084539b1af2ee83218cff37eeb80229026",
+        "size_in_bytes": 4814
+      },
+      {
+        "_path": "lib/R/library/rlang/html/with_restarts.html",
+        "path_type": "hardlink",
+        "sha256": "42de026b7dd60eb3cfd6bc71fe8b2ab53ac8abe5ac58c5679624e5d5387c7c10",
+        "sha256_in_prefix": "42de026b7dd60eb3cfd6bc71fe8b2ab53ac8abe5ac58c5679624e5d5387c7c10",
+        "size_in_bytes": 5062
+      },
+      {
+        "_path": "lib/R/library/rlang/libs/x64/rlang.dll",
+        "path_type": "hardlink",
+        "sha256": "ddd5d350c20b44986587da3173cc9727aa2e4b4e7a7c2d7226ac04eb76b8aeb2",
+        "sha256_in_prefix": "ddd5d350c20b44986587da3173cc9727aa2e4b4e7a7c2d7226ac04eb76b8aeb2",
+        "size_in_bytes": 79360
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 854631,
+  "subdir": "win-64",
+  "timestamp": 1538122382700,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-rlang-0.2.1-r351hf348343_0.tar.bz2",
+  "version": "0.2.1"
+}

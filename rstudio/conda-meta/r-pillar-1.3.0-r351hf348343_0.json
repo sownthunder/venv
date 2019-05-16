@@ -1,0 +1,337 @@
+{
+  "build": "r351hf348343_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "r-cli >=1.0.0",
+    "r-crayon >=1.3.4",
+    "r-fansi",
+    "r-rlang >=0.2.0",
+    "r-utf8 >=1.1.3",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-pillar-1.3.0-r351hf348343_0",
+  "features": "",
+  "files": [
+    "lib/R/library/pillar/DESCRIPTION",
+    "lib/R/library/pillar/INDEX",
+    "lib/R/library/pillar/MD5",
+    "lib/R/library/pillar/Meta/Rd.rds",
+    "lib/R/library/pillar/Meta/features.rds",
+    "lib/R/library/pillar/Meta/hsearch.rds",
+    "lib/R/library/pillar/Meta/links.rds",
+    "lib/R/library/pillar/Meta/nsInfo.rds",
+    "lib/R/library/pillar/Meta/package.rds",
+    "lib/R/library/pillar/NAMESPACE",
+    "lib/R/library/pillar/NEWS.md",
+    "lib/R/library/pillar/R/pillar",
+    "lib/R/library/pillar/R/pillar.rdb",
+    "lib/R/library/pillar/R/pillar.rdx",
+    "lib/R/library/pillar/help/AnIndex",
+    "lib/R/library/pillar/help/aliases.rds",
+    "lib/R/library/pillar/help/figures/colours.png",
+    "lib/R/library/pillar/help/paths.rds",
+    "lib/R/library/pillar/help/pillar.rdb",
+    "lib/R/library/pillar/help/pillar.rdx",
+    "lib/R/library/pillar/html/00Index.html",
+    "lib/R/library/pillar/html/R.css",
+    "lib/R/library/pillar/html/colonnade.html",
+    "lib/R/library/pillar/html/dim_desc.html",
+    "lib/R/library/pillar/html/expect_known_display.html",
+    "lib/R/library/pillar/html/extra_cols.html",
+    "lib/R/library/pillar/html/format_type_sum.html",
+    "lib/R/library/pillar/html/get_extent.html",
+    "lib/R/library/pillar/html/new_ornament.html",
+    "lib/R/library/pillar/html/new_pillar_shaft.html",
+    "lib/R/library/pillar/html/new_pillar_title.html",
+    "lib/R/library/pillar/html/new_pillar_type.html",
+    "lib/R/library/pillar/html/pillar-package.html",
+    "lib/R/library/pillar/html/pillar.html",
+    "lib/R/library/pillar/html/pillar_shaft.html",
+    "lib/R/library/pillar/html/style_subtle.html",
+    "lib/R/library/pillar/html/type_sum.html"
+  ],
+  "fn": "r-pillar-1.3.0-r351hf348343_0.tar.bz2",
+  "license": "GPL-3",
+  "license_family": "GPL3",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-pillar-1.3.0-r351hf348343_0",
+    "type": 1
+  },
+  "md5": "971f4b2de8a7838675f0a42a23c67337",
+  "name": "r-pillar",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-pillar-1.3.0-r351hf348343_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/pillar/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "5183447e3b37c7abc836c820416d07edd61324837689482b2677ac0c7b3bd66f",
+        "sha256_in_prefix": "5183447e3b37c7abc836c820416d07edd61324837689482b2677ac0c7b3bd66f",
+        "size_in_bytes": 1457
+      },
+      {
+        "_path": "lib/R/library/pillar/INDEX",
+        "path_type": "hardlink",
+        "sha256": "dc0f882ecf5216e8bc423b8343e668e7104d930aa13669679a5f54c62560da15",
+        "sha256_in_prefix": "dc0f882ecf5216e8bc423b8343e668e7104d930aa13669679a5f54c62560da15",
+        "size_in_bytes": 826
+      },
+      {
+        "_path": "lib/R/library/pillar/MD5",
+        "path_type": "hardlink",
+        "sha256": "5af3075679902c8168c74af62b920a1dcbddba90e0dc0ad3cc0296757cc336fe",
+        "sha256_in_prefix": "5af3075679902c8168c74af62b920a1dcbddba90e0dc0ad3cc0296757cc336fe",
+        "size_in_bytes": 1905
+      },
+      {
+        "_path": "lib/R/library/pillar/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "dcebf95e42d9d97ad922063a78133e145c9f4e90733519dc97bf1d553a5adb6c",
+        "sha256_in_prefix": "dcebf95e42d9d97ad922063a78133e145c9f4e90733519dc97bf1d553a5adb6c",
+        "size_in_bytes": 903
+      },
+      {
+        "_path": "lib/R/library/pillar/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/pillar/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "c3499ccb2167fd3627a33f767bc57bb000de572beb3b8f70d31c962b5004daf3",
+        "sha256_in_prefix": "c3499ccb2167fd3627a33f767bc57bb000de572beb3b8f70d31c962b5004daf3",
+        "size_in_bytes": 909
+      },
+      {
+        "_path": "lib/R/library/pillar/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "d34e4e3d63c6fc380356a952279ea7345fe392e78a4e6694c878806f89fd3f8b",
+        "sha256_in_prefix": "d34e4e3d63c6fc380356a952279ea7345fe392e78a4e6694c878806f89fd3f8b",
+        "size_in_bytes": 493
+      },
+      {
+        "_path": "lib/R/library/pillar/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "67151a8a15c9cf4f55db67b0a4427ccd4924f19afd5b4d8ecc07e522a69a59ef",
+        "sha256_in_prefix": "67151a8a15c9cf4f55db67b0a4427ccd4924f19afd5b4d8ecc07e522a69a59ef",
+        "size_in_bytes": 629
+      },
+      {
+        "_path": "lib/R/library/pillar/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "fdc0c4918aa2ee06d222353f5863fdce52ea3845fcc19f4d22c65e62da74ac27",
+        "sha256_in_prefix": "fdc0c4918aa2ee06d222353f5863fdce52ea3845fcc19f4d22c65e62da74ac27",
+        "size_in_bytes": 1272
+      },
+      {
+        "_path": "lib/R/library/pillar/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "df0ad07260cb4556dfbab4a23ba27184306bf9bfeb97d17fe0d65e4e43f66516",
+        "sha256_in_prefix": "df0ad07260cb4556dfbab4a23ba27184306bf9bfeb97d17fe0d65e4e43f66516",
+        "size_in_bytes": 2020
+      },
+      {
+        "_path": "lib/R/library/pillar/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "7149723bcffdeb41fe053549ae99a1e3a71e7cf80af533d106e5b37763a3f4bd",
+        "sha256_in_prefix": "7149723bcffdeb41fe053549ae99a1e3a71e7cf80af533d106e5b37763a3f4bd",
+        "size_in_bytes": 6114
+      },
+      {
+        "_path": "lib/R/library/pillar/R/pillar",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/pillar/R/pillar.rdb",
+        "path_type": "hardlink",
+        "sha256": "363d204708278e176ebd8760a30afb347ce6a9383e0153b8faad1375fd3388d3",
+        "sha256_in_prefix": "363d204708278e176ebd8760a30afb347ce6a9383e0153b8faad1375fd3388d3",
+        "size_in_bytes": 104498
+      },
+      {
+        "_path": "lib/R/library/pillar/R/pillar.rdx",
+        "path_type": "hardlink",
+        "sha256": "adaedbf1c23450f4032843b601ee35809ca17330323fa3a4c1ab06bbef3833d4",
+        "sha256_in_prefix": "adaedbf1c23450f4032843b601ee35809ca17330323fa3a4c1ab06bbef3833d4",
+        "size_in_bytes": 2880
+      },
+      {
+        "_path": "lib/R/library/pillar/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "779cf1c7ea59f063380a5d2cf1e1f372d29db1f6f7b09970afd10915ebe68df6",
+        "sha256_in_prefix": "779cf1c7ea59f063380a5d2cf1e1f372d29db1f6f7b09970afd10915ebe68df6",
+        "size_in_bytes": 1123
+      },
+      {
+        "_path": "lib/R/library/pillar/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "c8ee19fc20ae8328f82afa4dc972603c463e63f074313d3002786636659c6b96",
+        "sha256_in_prefix": "c8ee19fc20ae8328f82afa4dc972603c463e63f074313d3002786636659c6b96",
+        "size_in_bytes": 410
+      },
+      {
+        "_path": "lib/R/library/pillar/help/figures/colours.png",
+        "path_type": "hardlink",
+        "sha256": "26c910549d600783a80504b3d2547202e1dcc4f3d2f252fc7feb8e9309496f82",
+        "sha256_in_prefix": "26c910549d600783a80504b3d2547202e1dcc4f3d2f252fc7feb8e9309496f82",
+        "size_in_bytes": 4573
+      },
+      {
+        "_path": "lib/R/library/pillar/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "539270482ce8ed4bb696ba11e326a931985b6a910eae90a9519c127dbf818597",
+        "sha256_in_prefix": "539270482ce8ed4bb696ba11e326a931985b6a910eae90a9519c127dbf818597",
+        "size_in_bytes": 292
+      },
+      {
+        "_path": "lib/R/library/pillar/help/pillar.rdb",
+        "path_type": "hardlink",
+        "sha256": "befae3b05b6d81eed67b3667268e12e5ebebda06edb00fc68154f64cd7ac943e",
+        "sha256_in_prefix": "befae3b05b6d81eed67b3667268e12e5ebebda06edb00fc68154f64cd7ac943e",
+        "size_in_bytes": 30408
+      },
+      {
+        "_path": "lib/R/library/pillar/help/pillar.rdx",
+        "path_type": "hardlink",
+        "sha256": "242de3ac1f328f670e57b2b0e42831fc3a7ffcba3974e578baaded5f18ea3bc2",
+        "sha256_in_prefix": "242de3ac1f328f670e57b2b0e42831fc3a7ffcba3974e578baaded5f18ea3bc2",
+        "size_in_bytes": 510
+      },
+      {
+        "_path": "lib/R/library/pillar/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "7eb64f429a14118fd145ac81119654217fad68427f90b97fc5ff4793901c0638",
+        "sha256_in_prefix": "7eb64f429a14118fd145ac81119654217fad68427f90b97fc5ff4793901c0638",
+        "size_in_bytes": 5221
+      },
+      {
+        "_path": "lib/R/library/pillar/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/pillar/html/colonnade.html",
+        "path_type": "hardlink",
+        "sha256": "ba6db61f92557570e22089042707ed5994a83b07abf062185a2ed7327d4bd504",
+        "sha256_in_prefix": "ba6db61f92557570e22089042707ed5994a83b07abf062185a2ed7327d4bd504",
+        "size_in_bytes": 4578
+      },
+      {
+        "_path": "lib/R/library/pillar/html/dim_desc.html",
+        "path_type": "hardlink",
+        "sha256": "7825d7125c096f50b6b17c2300af2dd835dc16d78a4810587a586eb22aa88d49",
+        "sha256_in_prefix": "7825d7125c096f50b6b17c2300af2dd835dc16d78a4810587a586eb22aa88d49",
+        "size_in_bytes": 1100
+      },
+      {
+        "_path": "lib/R/library/pillar/html/expect_known_display.html",
+        "path_type": "hardlink",
+        "sha256": "14aa5bcf9dc3b98e6cda5bd497a213d9dfb8e2c5a2c95a0bf8fdffbc50436359",
+        "sha256_in_prefix": "14aa5bcf9dc3b98e6cda5bd497a213d9dfb8e2c5a2c95a0bf8fdffbc50436359",
+        "size_in_bytes": 2388
+      },
+      {
+        "_path": "lib/R/library/pillar/html/extra_cols.html",
+        "path_type": "hardlink",
+        "sha256": "5e0f2d41eccaa669f3e5aa0fb29d88ceb8d9a2c34927bd5b25327163ce3939de",
+        "sha256_in_prefix": "5e0f2d41eccaa669f3e5aa0fb29d88ceb8d9a2c34927bd5b25327163ce3939de",
+        "size_in_bytes": 1824
+      },
+      {
+        "_path": "lib/R/library/pillar/html/format_type_sum.html",
+        "path_type": "hardlink",
+        "sha256": "a1f5947775f381f80e279620b79bdbfa28cce7ce042f996416bca09b11f66b3d",
+        "sha256_in_prefix": "a1f5947775f381f80e279620b79bdbfa28cce7ce042f996416bca09b11f66b3d",
+        "size_in_bytes": 2034
+      },
+      {
+        "_path": "lib/R/library/pillar/html/get_extent.html",
+        "path_type": "hardlink",
+        "sha256": "2f323fa19162f6f73ddb028393a41dfd5468dbf066195327124020c6fa640d4b",
+        "sha256_in_prefix": "2f323fa19162f6f73ddb028393a41dfd5468dbf066195327124020c6fa640d4b",
+        "size_in_bytes": 1301
+      },
+      {
+        "_path": "lib/R/library/pillar/html/new_ornament.html",
+        "path_type": "hardlink",
+        "sha256": "8cab672fb5ddbf56dab7e3846965090ea2be2bc3e75e0fe752b025706edf180c",
+        "sha256_in_prefix": "8cab672fb5ddbf56dab7e3846965090ea2be2bc3e75e0fe752b025706edf180c",
+        "size_in_bytes": 1950
+      },
+      {
+        "_path": "lib/R/library/pillar/html/new_pillar_shaft.html",
+        "path_type": "hardlink",
+        "sha256": "6f56ee213721becd900d6d8dab793ae4e54c3c5dd47e491b5cc479bf41d3647d",
+        "sha256_in_prefix": "6f56ee213721becd900d6d8dab793ae4e54c3c5dd47e491b5cc479bf41d3647d",
+        "size_in_bytes": 2850
+      },
+      {
+        "_path": "lib/R/library/pillar/html/new_pillar_title.html",
+        "path_type": "hardlink",
+        "sha256": "0aba1187fee77d889e6592bdd196c93184010d37c73678a74b3beec92ed531b7",
+        "sha256_in_prefix": "0aba1187fee77d889e6592bdd196c93184010d37c73678a74b3beec92ed531b7",
+        "size_in_bytes": 1250
+      },
+      {
+        "_path": "lib/R/library/pillar/html/new_pillar_type.html",
+        "path_type": "hardlink",
+        "sha256": "a21c07c2c32415fec9360142c50992388c6fbf324d2547a9065ab1582f075e80",
+        "sha256_in_prefix": "a21c07c2c32415fec9360142c50992388c6fbf324d2547a9065ab1582f075e80",
+        "size_in_bytes": 1255
+      },
+      {
+        "_path": "lib/R/library/pillar/html/pillar-package.html",
+        "path_type": "hardlink",
+        "sha256": "406816878c148c79eb14a093b29ce58cdcecb42312e742c41e2e8948542b6575",
+        "sha256_in_prefix": "406816878c148c79eb14a093b29ce58cdcecb42312e742c41e2e8948542b6575",
+        "size_in_bytes": 2695
+      },
+      {
+        "_path": "lib/R/library/pillar/html/pillar.html",
+        "path_type": "hardlink",
+        "sha256": "57e12317d11e6031340dda7c35735311b4d5a30f54dec2d83226927b96a5a425",
+        "sha256_in_prefix": "57e12317d11e6031340dda7c35735311b4d5a30f54dec2d83226927b96a5a425",
+        "size_in_bytes": 2188
+      },
+      {
+        "_path": "lib/R/library/pillar/html/pillar_shaft.html",
+        "path_type": "hardlink",
+        "sha256": "24a06b95d3c939e65e1caba166fbcf3efd3c6b356980a576b15cc455206bc4a2",
+        "sha256_in_prefix": "24a06b95d3c939e65e1caba166fbcf3efd3c6b356980a576b15cc455206bc4a2",
+        "size_in_bytes": 3287
+      },
+      {
+        "_path": "lib/R/library/pillar/html/style_subtle.html",
+        "path_type": "hardlink",
+        "sha256": "632d1afb0c20640859300ffe5419739f322b0c8dc7ec50c01da70cb1ba9f2be8",
+        "sha256_in_prefix": "632d1afb0c20640859300ffe5419739f322b0c8dc7ec50c01da70cb1ba9f2be8",
+        "size_in_bytes": 2267
+      },
+      {
+        "_path": "lib/R/library/pillar/html/type_sum.html",
+        "path_type": "hardlink",
+        "sha256": "f1153afa89fd3edc47195a9adf4320b122127f96432d2afe120744dcc1ee6004",
+        "sha256_in_prefix": "f1153afa89fd3edc47195a9adf4320b122127f96432d2afe120744dcc1ee6004",
+        "size_in_bytes": 1477
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 168852,
+  "subdir": "win-64",
+  "timestamp": 1538124062397,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-pillar-1.3.0-r351hf348343_0.tar.bz2",
+  "version": "1.3.0"
+}

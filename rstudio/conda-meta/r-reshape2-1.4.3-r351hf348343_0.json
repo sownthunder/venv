@@ -1,0 +1,392 @@
+{
+  "build": "r351hf348343_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "r-plyr >=1.8.1",
+    "r-rcpp",
+    "r-stringr",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-reshape2-1.4.3-r351hf348343_0",
+  "features": "",
+  "files": [
+    "lib/R/library/reshape2/CITATION",
+    "lib/R/library/reshape2/DESCRIPTION",
+    "lib/R/library/reshape2/INDEX",
+    "lib/R/library/reshape2/LICENSE",
+    "lib/R/library/reshape2/MD5",
+    "lib/R/library/reshape2/Meta/Rd.rds",
+    "lib/R/library/reshape2/Meta/data.rds",
+    "lib/R/library/reshape2/Meta/features.rds",
+    "lib/R/library/reshape2/Meta/hsearch.rds",
+    "lib/R/library/reshape2/Meta/links.rds",
+    "lib/R/library/reshape2/Meta/nsInfo.rds",
+    "lib/R/library/reshape2/Meta/package.rds",
+    "lib/R/library/reshape2/NAMESPACE",
+    "lib/R/library/reshape2/NEWS.md",
+    "lib/R/library/reshape2/R/reshape2",
+    "lib/R/library/reshape2/R/reshape2.rdb",
+    "lib/R/library/reshape2/R/reshape2.rdx",
+    "lib/R/library/reshape2/data/Rdata.rdb",
+    "lib/R/library/reshape2/data/Rdata.rds",
+    "lib/R/library/reshape2/data/Rdata.rdx",
+    "lib/R/library/reshape2/help/AnIndex",
+    "lib/R/library/reshape2/help/aliases.rds",
+    "lib/R/library/reshape2/help/paths.rds",
+    "lib/R/library/reshape2/help/reshape2.rdb",
+    "lib/R/library/reshape2/help/reshape2.rdx",
+    "lib/R/library/reshape2/html/00Index.html",
+    "lib/R/library/reshape2/html/R.css",
+    "lib/R/library/reshape2/html/add_margins.html",
+    "lib/R/library/reshape2/html/cast.html",
+    "lib/R/library/reshape2/html/colsplit.html",
+    "lib/R/library/reshape2/html/french_fries.html",
+    "lib/R/library/reshape2/html/guess_value.html",
+    "lib/R/library/reshape2/html/margins.html",
+    "lib/R/library/reshape2/html/melt.array.html",
+    "lib/R/library/reshape2/html/melt.data.frame.html",
+    "lib/R/library/reshape2/html/melt.default.html",
+    "lib/R/library/reshape2/html/melt.html",
+    "lib/R/library/reshape2/html/melt.list.html",
+    "lib/R/library/reshape2/html/melt_check.html",
+    "lib/R/library/reshape2/html/parse_formula.html",
+    "lib/R/library/reshape2/html/recast.html",
+    "lib/R/library/reshape2/html/smiths.html",
+    "lib/R/library/reshape2/html/tips.html",
+    "lib/R/library/reshape2/libs/x64/reshape2.dll"
+  ],
+  "fn": "r-reshape2-1.4.3-r351hf348343_0.tar.bz2",
+  "license": "MIT + file LICENSE",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-reshape2-1.4.3-r351hf348343_0",
+    "type": 1
+  },
+  "md5": "2c80479f442a7c62e3bfac5f791f483b",
+  "name": "r-reshape2",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-reshape2-1.4.3-r351hf348343_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/reshape2/CITATION",
+        "path_type": "hardlink",
+        "sha256": "dd18cdb7c7cad9f0c9952c40e27b6917c6193294d951f4c86bd05f2e48d06520",
+        "sha256_in_prefix": "dd18cdb7c7cad9f0c9952c40e27b6917c6193294d951f4c86bd05f2e48d06520",
+        "size_in_bytes": 637
+      },
+      {
+        "_path": "lib/R/library/reshape2/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "aadfb66d843ab170870966b90de5f57769bd5ff80272ec917da7308ab8561eea",
+        "sha256_in_prefix": "aadfb66d843ab170870966b90de5f57769bd5ff80272ec917da7308ab8561eea",
+        "size_in_bytes": 825
+      },
+      {
+        "_path": "lib/R/library/reshape2/INDEX",
+        "path_type": "hardlink",
+        "sha256": "37c700779d65e123ba9892caf683be1bc714a64b9236752d0c4ca3c07ed6429d",
+        "sha256_in_prefix": "37c700779d65e123ba9892caf683be1bc714a64b9236752d0c4ca3c07ed6429d",
+        "size_in_bytes": 1040
+      },
+      {
+        "_path": "lib/R/library/reshape2/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "87a7ec07e5434939e69af0034e7cd1c9641366fb71be00873c7e481cfbf26e21",
+        "sha256_in_prefix": "87a7ec07e5434939e69af0034e7cd1c9641366fb71be00873c7e481cfbf26e21",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "lib/R/library/reshape2/MD5",
+        "path_type": "hardlink",
+        "sha256": "41fa32343e18eee1d78a45eaaaab6874ea7fa5777d2f26959931c9794763d6ca",
+        "sha256_in_prefix": "41fa32343e18eee1d78a45eaaaab6874ea7fa5777d2f26959931c9794763d6ca",
+        "size_in_bytes": 2203
+      },
+      {
+        "_path": "lib/R/library/reshape2/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "de9846c71daee10dd82dcd4ac0a2edfe8da68709b08305f52a3de7d72aa921fd",
+        "sha256_in_prefix": "de9846c71daee10dd82dcd4ac0a2edfe8da68709b08305f52a3de7d72aa921fd",
+        "size_in_bytes": 871
+      },
+      {
+        "_path": "lib/R/library/reshape2/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "9d16aeead49cc5d4fbbf67511b92e5cf1a0197f8e944720ef0b96f4871f447be",
+        "sha256_in_prefix": "9d16aeead49cc5d4fbbf67511b92e5cf1a0197f8e944720ef0b96f4871f447be",
+        "size_in_bytes": 163
+      },
+      {
+        "_path": "lib/R/library/reshape2/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/reshape2/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "7d8f1505ecfc045ed5dc706ece3fb6dc85c40e41a3360ec0d8ab441dee1884b1",
+        "sha256_in_prefix": "7d8f1505ecfc045ed5dc706ece3fb6dc85c40e41a3360ec0d8ab441dee1884b1",
+        "size_in_bytes": 849
+      },
+      {
+        "_path": "lib/R/library/reshape2/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "64f5feba9672b0f24fbb875e58ba7869e3a5f6f4affa93fe8cdb9e03dcde84ba",
+        "sha256_in_prefix": "64f5feba9672b0f24fbb875e58ba7869e3a5f6f4affa93fe8cdb9e03dcde84ba",
+        "size_in_bytes": 330
+      },
+      {
+        "_path": "lib/R/library/reshape2/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "454e959021c52347dddf9c0c85355574527852c730f2513999c3fa4dab6677ec",
+        "sha256_in_prefix": "454e959021c52347dddf9c0c85355574527852c730f2513999c3fa4dab6677ec",
+        "size_in_bytes": 350
+      },
+      {
+        "_path": "lib/R/library/reshape2/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "aecacea8b90c316bb44c8ea6ded3aa4c879acf1f07cb304e03e2ab1665f573f4",
+        "sha256_in_prefix": "aecacea8b90c316bb44c8ea6ded3aa4c879acf1f07cb304e03e2ab1665f573f4",
+        "size_in_bytes": 953
+      },
+      {
+        "_path": "lib/R/library/reshape2/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "e015cafc2ac6f4a70cf65917e3b650be33c46d64fded25d836e0e399ee76042f",
+        "sha256_in_prefix": "e015cafc2ac6f4a70cf65917e3b650be33c46d64fded25d836e0e399ee76042f",
+        "size_in_bytes": 404
+      },
+      {
+        "_path": "lib/R/library/reshape2/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "e205db911e4e966e6e6e6bfda57a2e4774ecab4ed3b4c210991515431dd9bb01",
+        "sha256_in_prefix": "e205db911e4e966e6e6e6bfda57a2e4774ecab4ed3b4c210991515431dd9bb01",
+        "size_in_bytes": 2877
+      },
+      {
+        "_path": "lib/R/library/reshape2/R/reshape2",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/reshape2/R/reshape2.rdb",
+        "path_type": "hardlink",
+        "sha256": "d7613f9912b1606f525c0e1f1b0088535d87e5d613bbd4cd0e403dac35007a1b",
+        "sha256_in_prefix": "d7613f9912b1606f525c0e1f1b0088535d87e5d613bbd4cd0e403dac35007a1b",
+        "size_in_bytes": 26779
+      },
+      {
+        "_path": "lib/R/library/reshape2/R/reshape2.rdx",
+        "path_type": "hardlink",
+        "sha256": "ff2c10467b2a96b78ee73688bb9c418a549a1aa2f4c1df23d95da245f982c870",
+        "sha256_in_prefix": "ff2c10467b2a96b78ee73688bb9c418a549a1aa2f4c1df23d95da245f982c870",
+        "size_in_bytes": 594
+      },
+      {
+        "_path": "lib/R/library/reshape2/data/Rdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "84b0bb5aaec7c7891bc2a212f763764d9763648503cfbc71e8510cc278b7676e",
+        "sha256_in_prefix": "84b0bb5aaec7c7891bc2a212f763764d9763648503cfbc71e8510cc278b7676e",
+        "size_in_bytes": 10104
+      },
+      {
+        "_path": "lib/R/library/reshape2/data/Rdata.rds",
+        "path_type": "hardlink",
+        "sha256": "e349f17d3e32fdce09cffb6b52a7c78cd0bbf24e96f2b1d54a2a8fc1e3849236",
+        "sha256_in_prefix": "e349f17d3e32fdce09cffb6b52a7c78cd0bbf24e96f2b1d54a2a8fc1e3849236",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "lib/R/library/reshape2/data/Rdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "75411fc985b1954232766ed7020e02a236f5afd289e2d9c7f196067c3b910ebc",
+        "sha256_in_prefix": "75411fc985b1954232766ed7020e02a236f5afd289e2d9c7f196067c3b910ebc",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "lib/R/library/reshape2/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "0706c5cc6d21c436d6ad5ccc02c6117c8805f38364b0adaae713a47a1a745650",
+        "sha256_in_prefix": "0706c5cc6d21c436d6ad5ccc02c6117c8805f38364b0adaae713a47a1a745650",
+        "size_in_bytes": 403
+      },
+      {
+        "_path": "lib/R/library/reshape2/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "f37881543c92f3c61a8fa4ede7a54ba0faa13e436e5fc51bc15755689c27ffc8",
+        "sha256_in_prefix": "f37881543c92f3c61a8fa4ede7a54ba0faa13e436e5fc51bc15755689c27ffc8",
+        "size_in_bytes": 225
+      },
+      {
+        "_path": "lib/R/library/reshape2/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "65dcaaade61146b91a6ce09437a2d19ea0359231dd8049ff55be475c63cbe850",
+        "sha256_in_prefix": "65dcaaade61146b91a6ce09437a2d19ea0359231dd8049ff55be475c63cbe850",
+        "size_in_bytes": 285
+      },
+      {
+        "_path": "lib/R/library/reshape2/help/reshape2.rdb",
+        "path_type": "hardlink",
+        "sha256": "88e118c028e7abdb8a06950661ff2fd3e11a6baf444ea1546b5a2f3b4a674070",
+        "sha256_in_prefix": "88e118c028e7abdb8a06950661ff2fd3e11a6baf444ea1546b5a2f3b4a674070",
+        "size_in_bytes": 29581
+      },
+      {
+        "_path": "lib/R/library/reshape2/help/reshape2.rdx",
+        "path_type": "hardlink",
+        "sha256": "f5d0e9eb66133c4e3cdd9c46dc9ad020872d3dcb186050513401cb9457a2648f",
+        "sha256_in_prefix": "f5d0e9eb66133c4e3cdd9c46dc9ad020872d3dcb186050513401cb9457a2648f",
+        "size_in_bytes": 508
+      },
+      {
+        "_path": "lib/R/library/reshape2/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "e13c322190e5063001b706f4980c0c19146e8c817264201e6b1c0f515ad41a54",
+        "sha256_in_prefix": "e13c322190e5063001b706f4980c0c19146e8c817264201e6b1c0f515ad41a54",
+        "size_in_bytes": 3308
+      },
+      {
+        "_path": "lib/R/library/reshape2/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/reshape2/html/add_margins.html",
+        "path_type": "hardlink",
+        "sha256": "c41cf5ce82fc0d7f70d5160f80e7185ca9f5db1e9099951b0f348eaf8a0e3375",
+        "sha256_in_prefix": "c41cf5ce82fc0d7f70d5160f80e7185ca9f5db1e9099951b0f348eaf8a0e3375",
+        "size_in_bytes": 1372
+      },
+      {
+        "_path": "lib/R/library/reshape2/html/cast.html",
+        "path_type": "hardlink",
+        "sha256": "5cc5d3650f585026a2cfc70a589f558480646b7c50228bcca032be4234ecf333",
+        "sha256_in_prefix": "5cc5d3650f585026a2cfc70a589f558480646b7c50228bcca032be4234ecf333",
+        "size_in_bytes": 6101
+      },
+      {
+        "_path": "lib/R/library/reshape2/html/colsplit.html",
+        "path_type": "hardlink",
+        "sha256": "b84ecad9d94b9513579719e7534b0ae2299c2bdabb60418b72783d3df64bbb8f",
+        "sha256_in_prefix": "b84ecad9d94b9513579719e7534b0ae2299c2bdabb60418b72783d3df64bbb8f",
+        "size_in_bytes": 1575
+      },
+      {
+        "_path": "lib/R/library/reshape2/html/french_fries.html",
+        "path_type": "hardlink",
+        "sha256": "e254e221970c3ad180da1694882dfee2d48e13160bc38a47547a3bfd04356da3",
+        "sha256_in_prefix": "e254e221970c3ad180da1694882dfee2d48e13160bc38a47547a3bfd04356da3",
+        "size_in_bytes": 1520
+      },
+      {
+        "_path": "lib/R/library/reshape2/html/guess_value.html",
+        "path_type": "hardlink",
+        "sha256": "e91327dc6adef45bd6c7a59342eb5f2c994f4f206c100f39dbd79bc89f7ae2ee",
+        "sha256_in_prefix": "e91327dc6adef45bd6c7a59342eb5f2c994f4f206c100f39dbd79bc89f7ae2ee",
+        "size_in_bytes": 1125
+      },
+      {
+        "_path": "lib/R/library/reshape2/html/margins.html",
+        "path_type": "hardlink",
+        "sha256": "64c93c45f29ada60082999aeb9548ccb1e97a8c1805da80176ec26f6e03b38f1",
+        "sha256_in_prefix": "64c93c45f29ada60082999aeb9548ccb1e97a8c1805da80176ec26f6e03b38f1",
+        "size_in_bytes": 1560
+      },
+      {
+        "_path": "lib/R/library/reshape2/html/melt.array.html",
+        "path_type": "hardlink",
+        "sha256": "eed71082562b11cd7b4e2d3266bae307447b1e51b9f77de17e222bb47ce5ac7d",
+        "sha256_in_prefix": "eed71082562b11cd7b4e2d3266bae307447b1e51b9f77de17e222bb47ce5ac7d",
+        "size_in_bytes": 2793
+      },
+      {
+        "_path": "lib/R/library/reshape2/html/melt.data.frame.html",
+        "path_type": "hardlink",
+        "sha256": "a5c2a42d5de96f3be5246fb9e0aa3c8adb5db97999a5dde422531644c3dc1d08",
+        "sha256_in_prefix": "a5c2a42d5de96f3be5246fb9e0aa3c8adb5db97999a5dde422531644c3dc1d08",
+        "size_in_bytes": 3268
+      },
+      {
+        "_path": "lib/R/library/reshape2/html/melt.default.html",
+        "path_type": "hardlink",
+        "sha256": "f9a4628934ef51d8fa2cbbadd5e4ca8835c8f03a223a42ec3a2b6af828c10482",
+        "sha256_in_prefix": "f9a4628934ef51d8fa2cbbadd5e4ca8835c8f03a223a42ec3a2b6af828c10482",
+        "size_in_bytes": 1855
+      },
+      {
+        "_path": "lib/R/library/reshape2/html/melt.html",
+        "path_type": "hardlink",
+        "sha256": "f3fdf346ca8bcda3546475275cc8953ede6cecd795b85c06ad648a8635f9303c",
+        "sha256_in_prefix": "f3fdf346ca8bcda3546475275cc8953ede6cecd795b85c06ad648a8635f9303c",
+        "size_in_bytes": 1924
+      },
+      {
+        "_path": "lib/R/library/reshape2/html/melt.list.html",
+        "path_type": "hardlink",
+        "sha256": "71982629fa4bd084f68fdbfd68b731d66ac9922759ae04e910a8ccc1bdfa0e17",
+        "sha256_in_prefix": "71982629fa4bd084f68fdbfd68b731d66ac9922759ae04e910a8ccc1bdfa0e17",
+        "size_in_bytes": 1941
+      },
+      {
+        "_path": "lib/R/library/reshape2/html/melt_check.html",
+        "path_type": "hardlink",
+        "sha256": "de8f5d83f409853e9738518cb047a4ae4ee1b4858b08ee4c1db52322f81257e4",
+        "sha256_in_prefix": "de8f5d83f409853e9738518cb047a4ae4ee1b4858b08ee4c1db52322f81257e4",
+        "size_in_bytes": 1942
+      },
+      {
+        "_path": "lib/R/library/reshape2/html/parse_formula.html",
+        "path_type": "hardlink",
+        "sha256": "ed867c163f524075863fcabf860d3021c859e17fc13f475e42dcedaff590fad6",
+        "sha256_in_prefix": "ed867c163f524075863fcabf860d3021c859e17fc13f475e42dcedaff590fad6",
+        "size_in_bytes": 1818
+      },
+      {
+        "_path": "lib/R/library/reshape2/html/recast.html",
+        "path_type": "hardlink",
+        "sha256": "24c24830f9d034fd868d62467290fc40793ae8c36a0ed061106e8d4fd3da8f42",
+        "sha256_in_prefix": "24c24830f9d034fd868d62467290fc40793ae8c36a0ed061106e8d4fd3da8f42",
+        "size_in_bytes": 1834
+      },
+      {
+        "_path": "lib/R/library/reshape2/html/smiths.html",
+        "path_type": "hardlink",
+        "sha256": "53a74703d5616b14046dd69b6df63926e3137627469abe8503673a6b36692310",
+        "sha256_in_prefix": "53a74703d5616b14046dd69b6df63926e3137627469abe8503673a6b36692310",
+        "size_in_bytes": 934
+      },
+      {
+        "_path": "lib/R/library/reshape2/html/tips.html",
+        "path_type": "hardlink",
+        "sha256": "1b12b2276a5ef85e557b6b011ee6c083910345e0bd12607cd2230d5dff2b64d1",
+        "sha256_in_prefix": "1b12b2276a5ef85e557b6b011ee6c083910345e0bd12607cd2230d5dff2b64d1",
+        "size_in_bytes": 1622
+      },
+      {
+        "_path": "lib/R/library/reshape2/libs/x64/reshape2.dll",
+        "path_type": "hardlink",
+        "sha256": "a02db6d0251bdc2b69335a669b6bbfbbae8524286c9bcad72008ad08504df9ba",
+        "sha256_in_prefix": "a02db6d0251bdc2b69335a669b6bbfbbae8524286c9bcad72008ad08504df9ba",
+        "size_in_bytes": 108032
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 140537,
+  "subdir": "win-64",
+  "timestamp": 1538133510405,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-reshape2-1.4.3-r351hf348343_0.tar.bz2",
+  "version": "1.4.3"
+}

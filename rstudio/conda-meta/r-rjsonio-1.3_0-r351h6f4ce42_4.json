@@ -1,0 +1,509 @@
+{
+  "build": "r351h6f4ce42_4",
+  "build_number": 4,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-rjsonio-1.3_0-r351h6f4ce42_4",
+  "features": "",
+  "files": [
+    "lib/R/library/RJSONIO/DESCRIPTION",
+    "lib/R/library/RJSONIO/INDEX",
+    "lib/R/library/RJSONIO/LICENSE",
+    "lib/R/library/RJSONIO/MD5",
+    "lib/R/library/RJSONIO/Meta/Rd.rds",
+    "lib/R/library/RJSONIO/Meta/features.rds",
+    "lib/R/library/RJSONIO/Meta/hsearch.rds",
+    "lib/R/library/RJSONIO/Meta/links.rds",
+    "lib/R/library/RJSONIO/Meta/nsInfo.rds",
+    "lib/R/library/RJSONIO/Meta/package.rds",
+    "lib/R/library/RJSONIO/NAMESPACE",
+    "lib/R/library/RJSONIO/R/RJSONIO",
+    "lib/R/library/RJSONIO/R/RJSONIO.rdb",
+    "lib/R/library/RJSONIO/R/RJSONIO.rdx",
+    "lib/R/library/RJSONIO/doc/biblio.xml",
+    "lib/R/library/RJSONIO/doc/fromJSONTimes.rda",
+    "lib/R/library/RJSONIO/doc/missingValues.Rdb",
+    "lib/R/library/RJSONIO/doc/missingValues.html",
+    "lib/R/library/RJSONIO/doc/overview.Rdb",
+    "lib/R/library/RJSONIO/doc/overview.bib",
+    "lib/R/library/RJSONIO/doc/overview.html",
+    "lib/R/library/RJSONIO/doc/overview.pdf",
+    "lib/R/library/RJSONIO/doc/performance.R",
+    "lib/R/library/RJSONIO/doc/timings.docx",
+    "lib/R/library/RJSONIO/doc/toJSONTimes.rda",
+    "lib/R/library/RJSONIO/help/AnIndex",
+    "lib/R/library/RJSONIO/help/RJSONIO.rdb",
+    "lib/R/library/RJSONIO/help/RJSONIO.rdx",
+    "lib/R/library/RJSONIO/help/aliases.rds",
+    "lib/R/library/RJSONIO/help/paths.rds",
+    "lib/R/library/RJSONIO/html/00Index.html",
+    "lib/R/library/RJSONIO/html/JSON_T_NULL.html",
+    "lib/R/library/RJSONIO/html/R.css",
+    "lib/R/library/RJSONIO/html/asJSVars.html",
+    "lib/R/library/RJSONIO/html/basicJSONHandler.html",
+    "lib/R/library/RJSONIO/html/fromJSON.html",
+    "lib/R/library/RJSONIO/html/isValidJSON.html",
+    "lib/R/library/RJSONIO/html/readJSONStream.html",
+    "lib/R/library/RJSONIO/html/toJSON.html",
+    "lib/R/library/RJSONIO/libs/x64/RJSONIO.dll",
+    "lib/R/library/RJSONIO/sampleData/array.json",
+    "lib/R/library/RJSONIO/sampleData/array2.json",
+    "lib/R/library/RJSONIO/sampleData/array3.json",
+    "lib/R/library/RJSONIO/sampleData/embedded.json",
+    "lib/R/library/RJSONIO/sampleData/glossay.json",
+    "lib/R/library/RJSONIO/sampleData/int.json",
+    "lib/R/library/RJSONIO/sampleData/intScalar.json",
+    "lib/R/library/RJSONIO/sampleData/keys.json",
+    "lib/R/library/RJSONIO/sampleData/menu.json",
+    "lib/R/library/RJSONIO/sampleData/menu1.json",
+    "lib/R/library/RJSONIO/sampleData/nestedArray.json",
+    "lib/R/library/RJSONIO/sampleData/nestedObj.json",
+    "lib/R/library/RJSONIO/sampleData/obj.json",
+    "lib/R/library/RJSONIO/sampleData/obj1.json",
+    "lib/R/library/RJSONIO/sampleData/obj2.json",
+    "lib/R/library/RJSONIO/sampleData/obj3.json",
+    "lib/R/library/RJSONIO/sampleData/usaColors.as",
+    "lib/R/library/RJSONIO/sampleData/usaPolygons.as",
+    "lib/R/library/RJSONIO/sampleData/widget.json"
+  ],
+  "fn": "r-rjsonio-1.3_0-r351h6f4ce42_4.tar.bz2",
+  "license": "BSD_3_clause + file LICENSE",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-rjsonio-1.3_0-r351h6f4ce42_4",
+    "type": 1
+  },
+  "md5": "53154e2e249241cceb36c18fe1da2433",
+  "name": "r-rjsonio",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-rjsonio-1.3_0-r351h6f4ce42_4.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/RJSONIO/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "a486f33453ec6c814bcc1bd002ff17ba65f1bce52ea0b3bbe67482353f8b049a",
+        "sha256_in_prefix": "a486f33453ec6c814bcc1bd002ff17ba65f1bce52ea0b3bbe67482353f8b049a",
+        "size_in_bytes": 1810
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/INDEX",
+        "path_type": "hardlink",
+        "sha256": "88c34c6312bbbe5e429c715a0165bbd69c3d4ed8366d8dc0df19ddf9d2f5aa28",
+        "sha256_in_prefix": "88c34c6312bbbe5e429c715a0165bbd69c3d4ed8366d8dc0df19ddf9d2f5aa28",
+        "size_in_bytes": 608
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cd27c93ff01ca7a344968b01dae88d651d9079fd501966799bb0dc8ada68c8bb",
+        "sha256_in_prefix": "cd27c93ff01ca7a344968b01dae88d651d9079fd501966799bb0dc8ada68c8bb",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/MD5",
+        "path_type": "hardlink",
+        "sha256": "0889aa2f6618ffc4d9b4570cf99978a02847d683391001c933c0ab5b72122aef",
+        "sha256_in_prefix": "0889aa2f6618ffc4d9b4570cf99978a02847d683391001c933c0ab5b72122aef",
+        "size_in_bytes": 3122
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "ad23d920ac7bae64a7c2f2a7bcb86662e71ae21da17ecf7456ca9a14c75b3ec3",
+        "sha256_in_prefix": "ad23d920ac7bae64a7c2f2a7bcb86662e71ae21da17ecf7456ca9a14c75b3ec3",
+        "size_in_bytes": 926
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "f70e8ab6877fb646402d5c642c95b0f79d893824b2557303c10d5a096d90a0b4",
+        "sha256_in_prefix": "f70e8ab6877fb646402d5c642c95b0f79d893824b2557303c10d5a096d90a0b4",
+        "size_in_bytes": 977
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "408bb845a0be869c398ec46153c96ba5d87e7e8a1a74b8bd4c4cdd430f70a629",
+        "sha256_in_prefix": "408bb845a0be869c398ec46153c96ba5d87e7e8a1a74b8bd4c4cdd430f70a629",
+        "size_in_bytes": 592
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "699ac85d46865f77296ae5e57deeb1ab8c24ba6ad55ed95df10290a3f5e49e4e",
+        "sha256_in_prefix": "699ac85d46865f77296ae5e57deeb1ab8c24ba6ad55ed95df10290a3f5e49e4e",
+        "size_in_bytes": 323
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "b611d8d3a7b9d1865322c9c89de275a292fbab8fe5cd34990359e1d36537b118",
+        "sha256_in_prefix": "b611d8d3a7b9d1865322c9c89de275a292fbab8fe5cd34990359e1d36537b118",
+        "size_in_bytes": 1272
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "aea3ee7958a7c6c19732fed892879300c176fa617a19fe4927eb089e726ed9bf",
+        "sha256_in_prefix": "aea3ee7958a7c6c19732fed892879300c176fa617a19fe4927eb089e726ed9bf",
+        "size_in_bytes": 344
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/R/RJSONIO",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/R/RJSONIO.rdb",
+        "path_type": "hardlink",
+        "sha256": "eb0c1757ebd83df51f68987591e1f60d210c5f16ae9102b562c632550f6b8aed",
+        "sha256_in_prefix": "eb0c1757ebd83df51f68987591e1f60d210c5f16ae9102b562c632550f6b8aed",
+        "size_in_bytes": 73482
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/R/RJSONIO.rdx",
+        "path_type": "hardlink",
+        "sha256": "e5a4a737b609634c3865c835077da55c47cd7cae42c693338ebcfb3723720a4f",
+        "sha256_in_prefix": "e5a4a737b609634c3865c835077da55c47cd7cae42c693338ebcfb3723720a4f",
+        "size_in_bytes": 1103
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/doc/biblio.xml",
+        "path_type": "hardlink",
+        "sha256": "537e640fcfd60e8294c4dfdfdd912b3989349ea1463f4ce2fedd798deb78ff6e",
+        "sha256_in_prefix": "537e640fcfd60e8294c4dfdfdd912b3989349ea1463f4ce2fedd798deb78ff6e",
+        "size_in_bytes": 689
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/doc/fromJSONTimes.rda",
+        "path_type": "hardlink",
+        "sha256": "f6e8454c3ef237fba4446e6f13ebfc0105e08dcb5a0d21067b7a832bf68b1b6d",
+        "sha256_in_prefix": "f6e8454c3ef237fba4446e6f13ebfc0105e08dcb5a0d21067b7a832bf68b1b6d",
+        "size_in_bytes": 1448
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/doc/missingValues.Rdb",
+        "path_type": "hardlink",
+        "sha256": "35d1ee53a2759cff8932d5247b4897496219fa0ab1c613fd22df9affb477aa1d",
+        "sha256_in_prefix": "35d1ee53a2759cff8932d5247b4897496219fa0ab1c613fd22df9affb477aa1d",
+        "size_in_bytes": 3657
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/doc/missingValues.html",
+        "path_type": "hardlink",
+        "sha256": "5906cc76e43ddbe9d5df89dbdbae99823b03581ba7b529a1e378bebd8e6e65c2",
+        "sha256_in_prefix": "5906cc76e43ddbe9d5df89dbdbae99823b03581ba7b529a1e378bebd8e6e65c2",
+        "size_in_bytes": 9679
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/doc/overview.Rdb",
+        "path_type": "hardlink",
+        "sha256": "a7f562faf1953afdcda91cc1dd576f7ad7ff49b025c6e57c1bddb88d787e7754",
+        "sha256_in_prefix": "a7f562faf1953afdcda91cc1dd576f7ad7ff49b025c6e57c1bddb88d787e7754",
+        "size_in_bytes": 24175
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/doc/overview.bib",
+        "path_type": "hardlink",
+        "sha256": "b946a12a140266381ebfcf8004da81ebc5ce69fdb068cf9edc9160e6b0a81d3f",
+        "sha256_in_prefix": "b946a12a140266381ebfcf8004da81ebc5ce69fdb068cf9edc9160e6b0a81d3f",
+        "size_in_bytes": 223
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/doc/overview.html",
+        "path_type": "hardlink",
+        "sha256": "64afebd6f225abb41d3cb8a4a0c3470f243944ffe21fed4200a45b127295c1d8",
+        "sha256_in_prefix": "64afebd6f225abb41d3cb8a4a0c3470f243944ffe21fed4200a45b127295c1d8",
+        "size_in_bytes": 32403
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/doc/overview.pdf",
+        "path_type": "hardlink",
+        "sha256": "565b75f7701341ee1804afbaff2b6e9002ade8a403632dfe0f0d3ff9b2f4ce4b",
+        "sha256_in_prefix": "565b75f7701341ee1804afbaff2b6e9002ade8a403632dfe0f0d3ff9b2f4ce4b",
+        "size_in_bytes": 147050
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/doc/performance.R",
+        "path_type": "hardlink",
+        "sha256": "cac7ee9ccdda6623be1c66f80cf4ff8d5cf53ba27d229d1b96ebb202b389e17f",
+        "sha256_in_prefix": "cac7ee9ccdda6623be1c66f80cf4ff8d5cf53ba27d229d1b96ebb202b389e17f",
+        "size_in_bytes": 1836
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/doc/timings.docx",
+        "path_type": "hardlink",
+        "sha256": "f105d047b0a9a1779443efa25e4df52b8bb0dc59cc84f761e7129cdabcc1263b",
+        "sha256_in_prefix": "f105d047b0a9a1779443efa25e4df52b8bb0dc59cc84f761e7129cdabcc1263b",
+        "size_in_bytes": 331579
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/doc/toJSONTimes.rda",
+        "path_type": "hardlink",
+        "sha256": "160f09a8debfd524702dd7facc9943729d9c0f24236cdd441595b90906beef23",
+        "sha256_in_prefix": "160f09a8debfd524702dd7facc9943729d9c0f24236cdd441595b90906beef23",
+        "size_in_bytes": 889
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "ce0d246c05d2d5192465a941b8a448ba6d383c95226269cc17e9995810bf0fe1",
+        "sha256_in_prefix": "ce0d246c05d2d5192465a941b8a448ba6d383c95226269cc17e9995810bf0fe1",
+        "size_in_bytes": 1533
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/help/RJSONIO.rdb",
+        "path_type": "hardlink",
+        "sha256": "b940dea56e4d087e994432831b312797e287631e3d7aa0ca64f39812549b79d0",
+        "sha256_in_prefix": "b940dea56e4d087e994432831b312797e287631e3d7aa0ca64f39812549b79d0",
+        "size_in_bytes": 29876
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/help/RJSONIO.rdx",
+        "path_type": "hardlink",
+        "sha256": "3d0c3c59f569bc390786c15f33f0af5679c44cddb97d505e95d1e7bf2eed0428",
+        "sha256_in_prefix": "3d0c3c59f569bc390786c15f33f0af5679c44cddb97d505e95d1e7bf2eed0428",
+        "size_in_bytes": 327
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "a8560f10a6c74c71daa7a7232701ad42d5fb8e80ca07f06aa9a63e6962a45bfc",
+        "sha256_in_prefix": "a8560f10a6c74c71daa7a7232701ad42d5fb8e80ca07f06aa9a63e6962a45bfc",
+        "size_in_bytes": 535
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "eff7644e22d45813ad150b5c929f0d76fadacec0c0161a3621d71874793638ba",
+        "sha256_in_prefix": "eff7644e22d45813ad150b5c929f0d76fadacec0c0161a3621d71874793638ba",
+        "size_in_bytes": 219
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "b13d629b009d63333f7b8df1a420022e01071b272230d3619423f60da648105d",
+        "sha256_in_prefix": "b13d629b009d63333f7b8df1a420022e01071b272230d3619423f60da648105d",
+        "size_in_bytes": 4951
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/html/JSON_T_NULL.html",
+        "path_type": "hardlink",
+        "sha256": "e545e530591ff74f9c4723b4d1213818466a04aa1affd0d32661a446b954666e",
+        "sha256_in_prefix": "e545e530591ff74f9c4723b4d1213818466a04aa1affd0d32661a446b954666e",
+        "size_in_bytes": 1328
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/html/asJSVars.html",
+        "path_type": "hardlink",
+        "sha256": "66697c0c5dd6a03a75b67ba711bb35359ff85847e8f57fdfb9f4b3a33e0effba",
+        "sha256_in_prefix": "66697c0c5dd6a03a75b67ba711bb35359ff85847e8f57fdfb9f4b3a33e0effba",
+        "size_in_bytes": 2854
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/html/basicJSONHandler.html",
+        "path_type": "hardlink",
+        "sha256": "da49b850e3b69b3c9b2ca5819977d193961395ae28eab2ac47d843dfe9a303b1",
+        "sha256_in_prefix": "da49b850e3b69b3c9b2ca5819977d193961395ae28eab2ac47d843dfe9a303b1",
+        "size_in_bytes": 2296
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/html/fromJSON.html",
+        "path_type": "hardlink",
+        "sha256": "e6e631e4651e0c13e8e92c1da7077ec4f9ba97eabf7fd8b61ff2ba7a0b9ff283",
+        "sha256_in_prefix": "e6e631e4651e0c13e8e92c1da7077ec4f9ba97eabf7fd8b61ff2ba7a0b9ff283",
+        "size_in_bytes": 13105
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/html/isValidJSON.html",
+        "path_type": "hardlink",
+        "sha256": "f4ef0fe14248f3c5245f1dc1ca4e25ae48353bf1aa8330fec598d90dec27d6e4",
+        "sha256_in_prefix": "f4ef0fe14248f3c5245f1dc1ca4e25ae48353bf1aa8330fec598d90dec27d6e4",
+        "size_in_bytes": 2252
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/html/readJSONStream.html",
+        "path_type": "hardlink",
+        "sha256": "461178c9092cd0f7306e3f2daf09c98ea1a1380909f14d0967978225d06b362d",
+        "sha256_in_prefix": "461178c9092cd0f7306e3f2daf09c98ea1a1380909f14d0967978225d06b362d",
+        "size_in_bytes": 3717
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/html/toJSON.html",
+        "path_type": "hardlink",
+        "sha256": "4be6a5f6248b21f86d1a66428c3bd14589dc67e8eb30946de17186d02eae417f",
+        "sha256_in_prefix": "4be6a5f6248b21f86d1a66428c3bd14589dc67e8eb30946de17186d02eae417f",
+        "size_in_bytes": 8492
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/libs/x64/RJSONIO.dll",
+        "path_type": "hardlink",
+        "sha256": "7cd74df8cb9802ac830485cc40f7cadd1354bc20b31216d753eff920a744f7c8",
+        "sha256_in_prefix": "7cd74df8cb9802ac830485cc40f7cadd1354bc20b31216d753eff920a744f7c8",
+        "size_in_bytes": 144896
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/sampleData/array.json",
+        "path_type": "hardlink",
+        "sha256": "a51e7b5c0f57aace7ff9d3de582f176780d97bf30bee2c058bf03e6325025506",
+        "sha256_in_prefix": "a51e7b5c0f57aace7ff9d3de582f176780d97bf30bee2c058bf03e6325025506",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/sampleData/array2.json",
+        "path_type": "hardlink",
+        "sha256": "22b7f281b82b30331ad490fa8ffc642f8dc8fb6dde00c1b8799b1b24bf0827eb",
+        "sha256_in_prefix": "22b7f281b82b30331ad490fa8ffc642f8dc8fb6dde00c1b8799b1b24bf0827eb",
+        "size_in_bytes": 26
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/sampleData/array3.json",
+        "path_type": "hardlink",
+        "sha256": "09d81c590da50abfa607f5fce6a8589196c59c4ba41259c2f9e87aba6ee0cb02",
+        "sha256_in_prefix": "09d81c590da50abfa607f5fce6a8589196c59c4ba41259c2f9e87aba6ee0cb02",
+        "size_in_bytes": 56
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/sampleData/embedded.json",
+        "path_type": "hardlink",
+        "sha256": "1980da6c9c2ec16fa4cc7294c74a933917d3e14cb3adc276f8e27db1ed3c7ea5",
+        "sha256_in_prefix": "1980da6c9c2ec16fa4cc7294c74a933917d3e14cb3adc276f8e27db1ed3c7ea5",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/sampleData/glossay.json",
+        "path_type": "hardlink",
+        "sha256": "c1dcdb5bccd089bad9c38ad17f7b7a1b0214a2da3a5724455965ce3d7b8f78e5",
+        "sha256_in_prefix": "c1dcdb5bccd089bad9c38ad17f7b7a1b0214a2da3a5724455965ce3d7b8f78e5",
+        "size_in_bytes": 584
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/sampleData/int.json",
+        "path_type": "hardlink",
+        "sha256": "d1be96124d992521a95e1a618d79025a5f5ee6613e43b0d235beb9b0fe8635a9",
+        "sha256_in_prefix": "d1be96124d992521a95e1a618d79025a5f5ee6613e43b0d235beb9b0fe8635a9",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/sampleData/intScalar.json",
+        "path_type": "hardlink",
+        "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+        "sha256_in_prefix": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+        "size_in_bytes": 2
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/sampleData/keys.json",
+        "path_type": "hardlink",
+        "sha256": "c13f3e1957ddb0aaec77173a0aaae9838f910f8d0b4d6cd0bbdb37e8b49f5bd9",
+        "sha256_in_prefix": "c13f3e1957ddb0aaec77173a0aaae9838f910f8d0b4d6cd0bbdb37e8b49f5bd9",
+        "size_in_bytes": 873
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/sampleData/menu.json",
+        "path_type": "hardlink",
+        "sha256": "bcf0193107b78a8835fe4bbbee161caa6d803d709cff043f2a1191a49d117c7b",
+        "sha256_in_prefix": "bcf0193107b78a8835fe4bbbee161caa6d803d709cff043f2a1191a49d117c7b",
+        "size_in_bytes": 242
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/sampleData/menu1.json",
+        "path_type": "hardlink",
+        "sha256": "c13f3e1957ddb0aaec77173a0aaae9838f910f8d0b4d6cd0bbdb37e8b49f5bd9",
+        "sha256_in_prefix": "c13f3e1957ddb0aaec77173a0aaae9838f910f8d0b4d6cd0bbdb37e8b49f5bd9",
+        "size_in_bytes": 873
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/sampleData/nestedArray.json",
+        "path_type": "hardlink",
+        "sha256": "7514710223e2e115734b6ff120c3a2e829799d10d8b0448424392fd5797db429",
+        "sha256_in_prefix": "7514710223e2e115734b6ff120c3a2e829799d10d8b0448424392fd5797db429",
+        "size_in_bytes": 34
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/sampleData/nestedObj.json",
+        "path_type": "hardlink",
+        "sha256": "ca71d3782e445f3009150a497d92e6e578ce50c2941b6b65ae5aa9bf5af5a722",
+        "sha256_in_prefix": "ca71d3782e445f3009150a497d92e6e578ce50c2941b6b65ae5aa9bf5af5a722",
+        "size_in_bytes": 70
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/sampleData/obj.json",
+        "path_type": "hardlink",
+        "sha256": "4770e9ef458a5670a03918d2797d0a7dc0847573b48bab2ed0c993a6de287799",
+        "sha256_in_prefix": "4770e9ef458a5670a03918d2797d0a7dc0847573b48bab2ed0c993a6de287799",
+        "size_in_bytes": 27
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/sampleData/obj1.json",
+        "path_type": "hardlink",
+        "sha256": "dc3f07ca374048694a0f1698e223ea184c8c6313586fa92c23488737a80f7041",
+        "sha256_in_prefix": "dc3f07ca374048694a0f1698e223ea184c8c6313586fa92c23488737a80f7041",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/sampleData/obj2.json",
+        "path_type": "hardlink",
+        "sha256": "004a9e57de51abcec594927ea867948c8be2e17842de0a14ff799d22105640f0",
+        "sha256_in_prefix": "004a9e57de51abcec594927ea867948c8be2e17842de0a14ff799d22105640f0",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/sampleData/obj3.json",
+        "path_type": "hardlink",
+        "sha256": "224e78798f055b6b6fd1f4f1d2f7196a5968b037c24afa542fe8bea37e19d4ba",
+        "sha256_in_prefix": "224e78798f055b6b6fd1f4f1d2f7196a5968b037c24afa542fe8bea37e19d4ba",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/sampleData/usaColors.as",
+        "path_type": "hardlink",
+        "sha256": "635f6c3a3d1529a053ce0fb4a22bebf3a88b9ad4d7e0662efd27d6eb5ce72e64",
+        "sha256_in_prefix": "635f6c3a3d1529a053ce0fb4a22bebf3a88b9ad4d7e0662efd27d6eb5ce72e64",
+        "size_in_bytes": 739783
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/sampleData/usaPolygons.as",
+        "path_type": "hardlink",
+        "sha256": "f51aa36296ae04057e5c7d52e61eebbca75ea237631d5c87560682c95b751942",
+        "sha256_in_prefix": "f51aa36296ae04057e5c7d52e61eebbca75ea237631d5c87560682c95b751942",
+        "size_in_bytes": 1418989
+      },
+      {
+        "_path": "lib/R/library/RJSONIO/sampleData/widget.json",
+        "path_type": "hardlink",
+        "sha256": "3d636a94d7df13a1b27c4ecfd38e7f73fc336a72be561d636b94fceeedf89e15",
+        "sha256_in_prefix": "3d636a94d7df13a1b27c4ecfd38e7f73fc336a72be561d636b94fceeedf89e15",
+        "size_in_bytes": 606
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 1043811,
+  "subdir": "win-64",
+  "timestamp": 1538174644451,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-rjsonio-1.3_0-r351h6f4ce42_4.tar.bz2",
+  "version": "1.3_0"
+}

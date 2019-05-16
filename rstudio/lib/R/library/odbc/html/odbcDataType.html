@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Return the corresponding ODBC data type for an R object</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for odbcDataType {odbc}"><tr><td>odbcDataType {odbc}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Return the corresponding ODBC data type for an R object</h2>
+
+<h3>Description</h3>
+
+<p>This is used when creating a new table with <code>dbWriteTable()</code>.
+Databases with default methods defined are
+</p>
+
+<ul>
+<li><p> MySQL
+</p>
+</li>
+<li><p> PostgreSQL
+</p>
+</li>
+<li><p> SQL Server
+</p>
+</li>
+<li><p> SQLite
+</p>
+</li>
+<li><p> Spark
+</p>
+</li>
+<li><p> Hive
+</p>
+</li>
+<li><p> Impala
+</p>
+</li>
+<li><p> Redshift
+</p>
+</li>
+<li><p> Vertica
+</p>
+</li></ul>
+
+
+
+<h3>Usage</h3>
+
+<pre>
+odbcDataType(con, obj, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>con</code></td>
+<td>
+<p>A driver connection object, as returned by <code>dbConnect()</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>obj</code></td>
+<td>
+<p>An R object.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Additional arguments passed to methods.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>If you are using a different database and <code>dbWriteTable()</code> fails with a SQL
+parsing error the default method is not appropriate, you will need to write
+a new method.
+</p>
+
+
+<h3>Value</h3>
+
+<p>Corresponding SQL type for the <code>obj</code>.
+</p>
+
+
+<h3>Defining a new dbDataType method</h3>
+
+<p>The object type for your connection will be the database name retrieved by
+<code>dbGetInfo(con)$dbms.name</code>. Use the documentation provided with your
+database to determine appropriate values for each R data type. An example
+method definition of a fictional <code>foo</code> database follows.</p>
+<pre>con &lt;- dbConnect(odbc::odbc(), "FooConnection")
+dbGetInfo(con)$dbms.name
+#&gt; [1] "foo"
+
+`odbcDataType.foo &lt;- function(con, obj, ...) {
+  switch_type(obj,
+    factor = "VARCHAR(255)",
+    datetime = "TIMESTAMP",
+    date = "DATE",
+    binary = "BINARY",
+    integer = "INTEGER",
+    double = "DOUBLE",
+    character = "VARCHAR(255)",
+    logical = "BIT",
+    list = "VARCHAR(255)",
+    stop("Unsupported type", call. = FALSE)
+  )
+}
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>odbc</em> version 1.1.5 <a href="00Index.html">Index</a>]</div>
+</body></html>

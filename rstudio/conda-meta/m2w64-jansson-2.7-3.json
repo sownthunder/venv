@@ -1,0 +1,81 @@
+{
+  "build": "3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "msys2-conda-epoch >=20160418"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-jansson-2.7-3",
+  "features": "",
+  "files": [
+    "Library/mingw-w64/bin/libjansson-4.dll",
+    "Library/mingw-w64/include/jansson.h",
+    "Library/mingw-w64/include/jansson_config.h",
+    "Library/mingw-w64/lib/libjansson.a",
+    "Library/mingw-w64/lib/libjansson.dll.a",
+    "Library/mingw-w64/lib/pkgconfig/jansson.pc"
+  ],
+  "fn": "m2w64-jansson-2.7-3.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-jansson-2.7-3",
+    "type": 1
+  },
+  "md5": "8b94096db925fd1fef6981754492d0d8",
+  "name": "m2w64-jansson",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-jansson-2.7-3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/mingw-w64/bin/libjansson-4.dll",
+        "path_type": "hardlink",
+        "sha256": "e26a484cbbc0f4994341ccc7f42ce927079915e5e933d3da2ed7b49cfae6ec41",
+        "sha256_in_prefix": "e26a484cbbc0f4994341ccc7f42ce927079915e5e933d3da2ed7b49cfae6ec41",
+        "size_in_bytes": 92819
+      },
+      {
+        "_path": "Library/mingw-w64/include/jansson.h",
+        "path_type": "hardlink",
+        "sha256": "efc788ef46a324b2f7caedbd9b7423f77cc0b6581fa0c16c85addfcfa2a70245",
+        "sha256_in_prefix": "efc788ef46a324b2f7caedbd9b7423f77cc0b6581fa0c16c85addfcfa2a70245",
+        "size_in_bytes": 9288
+      },
+      {
+        "_path": "Library/mingw-w64/include/jansson_config.h",
+        "path_type": "hardlink",
+        "sha256": "475d2b812af7f0ec8812c92878f34517b6e682812976d749ad1fb092a372293d",
+        "sha256_in_prefix": "475d2b812af7f0ec8812c92878f34517b6e682812976d749ad1fb092a372293d",
+        "size_in_bytes": 1183
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libjansson.a",
+        "path_type": "hardlink",
+        "sha256": "daae8463043dbeb0e6a7ca8cbdcc421fee1057cbd5aea0d17699890987d8942f",
+        "sha256_in_prefix": "daae8463043dbeb0e6a7ca8cbdcc421fee1057cbd5aea0d17699890987d8942f",
+        "size_in_bytes": 63162
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libjansson.dll.a",
+        "path_type": "hardlink",
+        "sha256": "8802353c298b810a0c7833481a36a7e46e3b2d5ee67c7a51feddac9e3a946726",
+        "sha256_in_prefix": "8802353c298b810a0c7833481a36a7e46e3b2d5ee67c7a51feddac9e3a946726",
+        "size_in_bytes": 42892
+      },
+      {
+        "_path": "Library/mingw-w64/lib/pkgconfig/jansson.pc",
+        "path_type": "hardlink",
+        "sha256": "e910820166ea95c7e9e6c7fc1e4a2e6cbd3cf37305427a07924d2e05c1d2de4c",
+        "sha256_in_prefix": "e910820166ea95c7e9e6c7fc1e4a2e6cbd3cf37305427a07924d2e05c1d2de4c",
+        "size_in_bytes": 244
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 69279,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2w64-jansson-2.7-3.tar.bz2",
+  "version": "2.7"
+}

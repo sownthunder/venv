@@ -1,0 +1,428 @@
+{
+  "build": "r351h6f4ce42_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-packrat-0.4.9_3-r351h6f4ce42_0",
+  "features": "",
+  "files": [
+    "lib/R/library/packrat/DESCRIPTION",
+    "lib/R/library/packrat/INDEX",
+    "lib/R/library/packrat/MD5",
+    "lib/R/library/packrat/Meta/Rd.rds",
+    "lib/R/library/packrat/Meta/features.rds",
+    "lib/R/library/packrat/Meta/hsearch.rds",
+    "lib/R/library/packrat/Meta/links.rds",
+    "lib/R/library/packrat/Meta/nsInfo.rds",
+    "lib/R/library/packrat/Meta/package.rds",
+    "lib/R/library/packrat/NAMESPACE",
+    "lib/R/library/packrat/R/packrat",
+    "lib/R/library/packrat/R/packrat.rdb",
+    "lib/R/library/packrat/R/packrat.rdx",
+    "lib/R/library/packrat/help/AnIndex",
+    "lib/R/library/packrat/help/aliases.rds",
+    "lib/R/library/packrat/help/packrat.rdb",
+    "lib/R/library/packrat/help/packrat.rdx",
+    "lib/R/library/packrat/help/paths.rds",
+    "lib/R/library/packrat/html/00Index.html",
+    "lib/R/library/packrat/html/R.css",
+    "lib/R/library/packrat/html/appDependencies.html",
+    "lib/R/library/packrat/html/bundle.html",
+    "lib/R/library/packrat/html/clean.html",
+    "lib/R/library/packrat/html/disable.html",
+    "lib/R/library/packrat/html/init.html",
+    "lib/R/library/packrat/html/install.html",
+    "lib/R/library/packrat/html/install_local.html",
+    "lib/R/library/packrat/html/lockfile-metadata.html",
+    "lib/R/library/packrat/html/migrate.html",
+    "lib/R/library/packrat/html/packify.html",
+    "lib/R/library/packrat/html/packrat-external.html",
+    "lib/R/library/packrat/html/packrat-mode.html",
+    "lib/R/library/packrat/html/packrat-options.html",
+    "lib/R/library/packrat/html/packrat-resources.html",
+    "lib/R/library/packrat/html/packrat.html",
+    "lib/R/library/packrat/html/repos_create.html",
+    "lib/R/library/packrat/html/repos_upload.html",
+    "lib/R/library/packrat/html/repository-management.html",
+    "lib/R/library/packrat/html/restore.html",
+    "lib/R/library/packrat/html/search_path.html",
+    "lib/R/library/packrat/html/snapshot.html",
+    "lib/R/library/packrat/html/snapshotImpl.html",
+    "lib/R/library/packrat/html/status.html",
+    "lib/R/library/packrat/html/unbundle.html",
+    "lib/R/library/packrat/html/unused_packages.html",
+    "lib/R/library/packrat/resources/init-rprofile.R",
+    "lib/R/library/packrat/resources/init.R",
+    "lib/R/library/packrat/resources/mac_r_userlib.sh",
+    "lib/R/library/packrat/rstudio/rstudio-protocol"
+  ],
+  "fn": "r-packrat-0.4.9_3-r351h6f4ce42_0.tar.bz2",
+  "license": "GPL-2",
+  "license_family": "GPL2",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-packrat-0.4.9_3-r351h6f4ce42_0",
+    "type": 1
+  },
+  "md5": "b38e86eeb9efc1fc4f9b99906e7d639d",
+  "name": "r-packrat",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-packrat-0.4.9_3-r351h6f4ce42_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/packrat/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "319a63a3a9939b67955752e3ba5f013929fd9e04f193105479632c55fe6ca392",
+        "sha256_in_prefix": "319a63a3a9939b67955752e3ba5f013929fd9e04f193105479632c55fe6ca392",
+        "size_in_bytes": 824
+      },
+      {
+        "_path": "lib/R/library/packrat/INDEX",
+        "path_type": "hardlink",
+        "sha256": "57d6603666a476715d943df482984b0b8a2a607528a2e3e7e88b1b4d16bb2156",
+        "sha256_in_prefix": "57d6603666a476715d943df482984b0b8a2a607528a2e3e7e88b1b4d16bb2156",
+        "size_in_bytes": 1502
+      },
+      {
+        "_path": "lib/R/library/packrat/MD5",
+        "path_type": "hardlink",
+        "sha256": "dcdbe7ddc52bace07c27ebdd0ed38571fe8f6322f60040861429a3ab02b84ab6",
+        "sha256_in_prefix": "dcdbe7ddc52bace07c27ebdd0ed38571fe8f6322f60040861429a3ab02b84ab6",
+        "size_in_bytes": 2586
+      },
+      {
+        "_path": "lib/R/library/packrat/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "5d45d77be2bde30af84098b14bf740466735b101660d39be90796abec74a1d91",
+        "sha256_in_prefix": "5d45d77be2bde30af84098b14bf740466735b101660d39be90796abec74a1d91",
+        "size_in_bytes": 1221
+      },
+      {
+        "_path": "lib/R/library/packrat/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/packrat/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "1d2d69badf8d8c1d3a0a61e7ab9f4ea0013fa73b880297685c4729937455ee02",
+        "sha256_in_prefix": "1d2d69badf8d8c1d3a0a61e7ab9f4ea0013fa73b880297685c4729937455ee02",
+        "size_in_bytes": 1158
+      },
+      {
+        "_path": "lib/R/library/packrat/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "0a97fa945bae2d4d4d1a4715f5b87596991b34a75c679bb2db9039077741aeed",
+        "sha256_in_prefix": "0a97fa945bae2d4d4d1a4715f5b87596991b34a75c679bb2db9039077741aeed",
+        "size_in_bytes": 591
+      },
+      {
+        "_path": "lib/R/library/packrat/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "b4a846c5089ed57f1503a18d7e4447fb51bf4206b435171644a645a8b128a50c",
+        "sha256_in_prefix": "b4a846c5089ed57f1503a18d7e4447fb51bf4206b435171644a645a8b128a50c",
+        "size_in_bytes": 475
+      },
+      {
+        "_path": "lib/R/library/packrat/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "1cd5a033eebf4286e9865bf6d5e3b37e5d50339b6e9993de72d37f09b9513bdd",
+        "sha256_in_prefix": "1cd5a033eebf4286e9865bf6d5e3b37e5d50339b6e9993de72d37f09b9513bdd",
+        "size_in_bytes": 929
+      },
+      {
+        "_path": "lib/R/library/packrat/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "9d7faccb51c66194c704c1f64650af889ef8fca5ac96ee27826df7dd19126e78",
+        "sha256_in_prefix": "9d7faccb51c66194c704c1f64650af889ef8fca5ac96ee27826df7dd19126e78",
+        "size_in_bytes": 836
+      },
+      {
+        "_path": "lib/R/library/packrat/R/packrat",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/packrat/R/packrat.rdb",
+        "path_type": "hardlink",
+        "sha256": "bc63408c6e5a77a1aa0e7c6e586f45411a1581cab32debd95791fcf7496c5909",
+        "sha256_in_prefix": "bc63408c6e5a77a1aa0e7c6e586f45411a1581cab32debd95791fcf7496c5909",
+        "size_in_bytes": 373907
+      },
+      {
+        "_path": "lib/R/library/packrat/R/packrat.rdx",
+        "path_type": "hardlink",
+        "sha256": "a099c65da6d9610a44d9468452711bfc645d5a59e3fe786040936bffa033b665",
+        "sha256_in_prefix": "a099c65da6d9610a44d9468452711bfc645d5a59e3fe786040936bffa033b665",
+        "size_in_bytes": 5845
+      },
+      {
+        "_path": "lib/R/library/packrat/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "92e6a5c7eb8d6f50a3e6bbf62d16533c86ee2dadb5e002118e82704b002529dd",
+        "sha256_in_prefix": "92e6a5c7eb8d6f50a3e6bbf62d16533c86ee2dadb5e002118e82704b002529dd",
+        "size_in_bytes": 1295
+      },
+      {
+        "_path": "lib/R/library/packrat/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "f86a8baf0c35b57df15d8111537581727dc3acd17cf1cf7debfcf386f10256ba",
+        "sha256_in_prefix": "f86a8baf0c35b57df15d8111537581727dc3acd17cf1cf7debfcf386f10256ba",
+        "size_in_bytes": 477
+      },
+      {
+        "_path": "lib/R/library/packrat/help/packrat.rdb",
+        "path_type": "hardlink",
+        "sha256": "a382b0bb03026cd6a89050d2eccce83d7f77350623ff521532deb6ed4ffaacc4",
+        "sha256_in_prefix": "a382b0bb03026cd6a89050d2eccce83d7f77350623ff521532deb6ed4ffaacc4",
+        "size_in_bytes": 61012
+      },
+      {
+        "_path": "lib/R/library/packrat/help/packrat.rdx",
+        "path_type": "hardlink",
+        "sha256": "d1ff7c817b4d352bd778644bbaeeb4032b3a7d5d15099fff9bc4debf5b4a96d6",
+        "sha256_in_prefix": "d1ff7c817b4d352bd778644bbaeeb4032b3a7d5d15099fff9bc4debf5b4a96d6",
+        "size_in_bytes": 725
+      },
+      {
+        "_path": "lib/R/library/packrat/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "cfd3d432b0a0896e6617c96574981d62f56131657e07f45e243ad1ebb304e827",
+        "sha256_in_prefix": "cfd3d432b0a0896e6617c96574981d62f56131657e07f45e243ad1ebb304e827",
+        "size_in_bytes": 380
+      },
+      {
+        "_path": "lib/R/library/packrat/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "d312e1a81744dc4ed48639db0efe317df238745ac69546835c989170f3d7d7df",
+        "sha256_in_prefix": "d312e1a81744dc4ed48639db0efe317df238745ac69546835c989170f3d7d7df",
+        "size_in_bytes": 6771
+      },
+      {
+        "_path": "lib/R/library/packrat/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/packrat/html/appDependencies.html",
+        "path_type": "hardlink",
+        "sha256": "85b67864bd18cb14ba9f3a4681f82d093bd0dc6f856454d329c6cf3fab05af45",
+        "sha256_in_prefix": "85b67864bd18cb14ba9f3a4681f82d093bd0dc6f856454d329c6cf3fab05af45",
+        "size_in_bytes": 2445
+      },
+      {
+        "_path": "lib/R/library/packrat/html/bundle.html",
+        "path_type": "hardlink",
+        "sha256": "6bb4aab48ac9a3f7a0ef64d1c92914607c543414dbc4870effb31bcbe9fed9f5",
+        "sha256_in_prefix": "6bb4aab48ac9a3f7a0ef64d1c92914607c543414dbc4870effb31bcbe9fed9f5",
+        "size_in_bytes": 3126
+      },
+      {
+        "_path": "lib/R/library/packrat/html/clean.html",
+        "path_type": "hardlink",
+        "sha256": "97ede4f72a13d6be521aeb0b4866366ed10ee043cd41c53efcb3110aaf3d04f7",
+        "sha256_in_prefix": "97ede4f72a13d6be521aeb0b4866366ed10ee043cd41c53efcb3110aaf3d04f7",
+        "size_in_bytes": 2081
+      },
+      {
+        "_path": "lib/R/library/packrat/html/disable.html",
+        "path_type": "hardlink",
+        "sha256": "73a2506ff867049b2690b2c263cd0e282253f516d5b3b00d8f95206d978d6d54",
+        "sha256_in_prefix": "73a2506ff867049b2690b2c263cd0e282253f516d5b3b00d8f95206d978d6d54",
+        "size_in_bytes": 1888
+      },
+      {
+        "_path": "lib/R/library/packrat/html/init.html",
+        "path_type": "hardlink",
+        "sha256": "a4248f02ec5fcbe647982b46e8221799ae27647b8d5eb0a1eaee434d94d30066",
+        "sha256_in_prefix": "a4248f02ec5fcbe647982b46e8221799ae27647b8d5eb0a1eaee434d94d30066",
+        "size_in_bytes": 4714
+      },
+      {
+        "_path": "lib/R/library/packrat/html/install.html",
+        "path_type": "hardlink",
+        "sha256": "4d359fb50f8709bfc4e9b37233c71c8821f7ca06ef483e3b942e4fb9bdf3fb72",
+        "sha256_in_prefix": "4d359fb50f8709bfc4e9b37233c71c8821f7ca06ef483e3b942e4fb9bdf3fb72",
+        "size_in_bytes": 3991
+      },
+      {
+        "_path": "lib/R/library/packrat/html/install_local.html",
+        "path_type": "hardlink",
+        "sha256": "8e3f03d32ba44654578a6014591ba0e659585816da9b00810f7187a3ee6164bd",
+        "sha256_in_prefix": "8e3f03d32ba44654578a6014591ba0e659585816da9b00810f7187a3ee6164bd",
+        "size_in_bytes": 1597
+      },
+      {
+        "_path": "lib/R/library/packrat/html/lockfile-metadata.html",
+        "path_type": "hardlink",
+        "sha256": "87f3a71455c8e2c320d06ad58c283dc1a28e105eb4146c459c5920be470dcf1c",
+        "sha256_in_prefix": "87f3a71455c8e2c320d06ad58c283dc1a28e105eb4146c459c5920be470dcf1c",
+        "size_in_bytes": 3372
+      },
+      {
+        "_path": "lib/R/library/packrat/html/migrate.html",
+        "path_type": "hardlink",
+        "sha256": "4dc5217d0ef8c1b29715aa56f1165de211f87bd0e234eb783364411a11f0395d",
+        "sha256_in_prefix": "4dc5217d0ef8c1b29715aa56f1165de211f87bd0e234eb783364411a11f0395d",
+        "size_in_bytes": 1702
+      },
+      {
+        "_path": "lib/R/library/packrat/html/packify.html",
+        "path_type": "hardlink",
+        "sha256": "2c371232f81c895939e82125c291e14854834e6208f15ca2c3cfc28d5a583eed",
+        "sha256_in_prefix": "2c371232f81c895939e82125c291e14854834e6208f15ca2c3cfc28d5a583eed",
+        "size_in_bytes": 1950
+      },
+      {
+        "_path": "lib/R/library/packrat/html/packrat-external.html",
+        "path_type": "hardlink",
+        "sha256": "fc7496a17903106273da58ac7dd6301d87ec0a9f355714fd2c160e77df27b0dd",
+        "sha256_in_prefix": "fc7496a17903106273da58ac7dd6301d87ec0a9f355714fd2c160e77df27b0dd",
+        "size_in_bytes": 1859
+      },
+      {
+        "_path": "lib/R/library/packrat/html/packrat-mode.html",
+        "path_type": "hardlink",
+        "sha256": "5ab1535640b6adaeb0f2e0db0ea01f18e3ca5cbefa73cb61e9b9c5346287b97f",
+        "sha256_in_prefix": "5ab1535640b6adaeb0f2e0db0ea01f18e3ca5cbefa73cb61e9b9c5346287b97f",
+        "size_in_bytes": 2252
+      },
+      {
+        "_path": "lib/R/library/packrat/html/packrat-options.html",
+        "path_type": "hardlink",
+        "sha256": "e73e49c5ab5016c695ccf7d6abc77b25bf150b09df93f841d27189da3ca23bae",
+        "sha256_in_prefix": "e73e49c5ab5016c695ccf7d6abc77b25bf150b09df93f841d27189da3ca23bae",
+        "size_in_bytes": 5968
+      },
+      {
+        "_path": "lib/R/library/packrat/html/packrat-resources.html",
+        "path_type": "hardlink",
+        "sha256": "b931accfe0be0735b70d1f0be7eec720285236505c9ccc3cc7ce663bfa5a5454",
+        "sha256_in_prefix": "b931accfe0be0735b70d1f0be7eec720285236505c9ccc3cc7ce663bfa5a5454",
+        "size_in_bytes": 3949
+      },
+      {
+        "_path": "lib/R/library/packrat/html/packrat.html",
+        "path_type": "hardlink",
+        "sha256": "d1d4c49a2c2dfc88db9ba2f80ed82b2919255f509f397492571964ffdf1cf3be",
+        "sha256_in_prefix": "d1d4c49a2c2dfc88db9ba2f80ed82b2919255f509f397492571964ffdf1cf3be",
+        "size_in_bytes": 4100
+      },
+      {
+        "_path": "lib/R/library/packrat/html/repos_create.html",
+        "path_type": "hardlink",
+        "sha256": "bdf8f2e20c3a439850dbe0c1898408b1022f8765888c06325c1ebbf1f476508d",
+        "sha256_in_prefix": "bdf8f2e20c3a439850dbe0c1898408b1022f8765888c06325c1ebbf1f476508d",
+        "size_in_bytes": 1492
+      },
+      {
+        "_path": "lib/R/library/packrat/html/repos_upload.html",
+        "path_type": "hardlink",
+        "sha256": "edfc3c7663bb03871657481fe534634221d49c6f2bc7a0448be4fbe062766836",
+        "sha256_in_prefix": "edfc3c7663bb03871657481fe534634221d49c6f2bc7a0448be4fbe062766836",
+        "size_in_bytes": 1596
+      },
+      {
+        "_path": "lib/R/library/packrat/html/repository-management.html",
+        "path_type": "hardlink",
+        "sha256": "9a638d3ab0cb95800d6082895cf3a9287c3d628894703eb4fcec7ad3f2aa9b0c",
+        "sha256_in_prefix": "9a638d3ab0cb95800d6082895cf3a9287c3d628894703eb4fcec7ad3f2aa9b0c",
+        "size_in_bytes": 1874
+      },
+      {
+        "_path": "lib/R/library/packrat/html/restore.html",
+        "path_type": "hardlink",
+        "sha256": "8decdadb0c222247f3859335f8e8d4cf2a9f00d875f0b9f84574fbfdab916b9e",
+        "sha256_in_prefix": "8decdadb0c222247f3859335f8e8d4cf2a9f00d875f0b9f84574fbfdab916b9e",
+        "size_in_bytes": 4798
+      },
+      {
+        "_path": "lib/R/library/packrat/html/search_path.html",
+        "path_type": "hardlink",
+        "sha256": "76f221822fb14c2ff43c5e93aef187ebea5d0fa8defe7d1f08e7b62045895c06",
+        "sha256_in_prefix": "76f221822fb14c2ff43c5e93aef187ebea5d0fa8defe7d1f08e7b62045895c06",
+        "size_in_bytes": 873
+      },
+      {
+        "_path": "lib/R/library/packrat/html/snapshot.html",
+        "path_type": "hardlink",
+        "sha256": "de88c66e11b0f23e51cac29530a6a7c682d44155c9e41db0f2cb21c30591c410",
+        "sha256_in_prefix": "de88c66e11b0f23e51cac29530a6a7c682d44155c9e41db0f2cb21c30591c410",
+        "size_in_bytes": 4266
+      },
+      {
+        "_path": "lib/R/library/packrat/html/snapshotImpl.html",
+        "path_type": "hardlink",
+        "sha256": "587f837662e37f82a81d4717ec28b3f72247641dc7c7a54fbe075b10487eb6a1",
+        "sha256_in_prefix": "587f837662e37f82a81d4717ec28b3f72247641dc7c7a54fbe075b10487eb6a1",
+        "size_in_bytes": 4177
+      },
+      {
+        "_path": "lib/R/library/packrat/html/status.html",
+        "path_type": "hardlink",
+        "sha256": "7e30edf3354820e44fa31194f5e111322a4da1a07a918903afc4857f872639b6",
+        "sha256_in_prefix": "7e30edf3354820e44fa31194f5e111322a4da1a07a918903afc4857f872639b6",
+        "size_in_bytes": 3099
+      },
+      {
+        "_path": "lib/R/library/packrat/html/unbundle.html",
+        "path_type": "hardlink",
+        "sha256": "8303fdd2b48395581b3970cd2c097995e63fafa284f65ecc5aa36659149ce0a7",
+        "sha256_in_prefix": "8303fdd2b48395581b3970cd2c097995e63fafa284f65ecc5aa36659149ce0a7",
+        "size_in_bytes": 1522
+      },
+      {
+        "_path": "lib/R/library/packrat/html/unused_packages.html",
+        "path_type": "hardlink",
+        "sha256": "fe6c5c97b97906cc30903d5d3c5e957d489f143251ef01e4a279b8fb70e03140",
+        "sha256_in_prefix": "fe6c5c97b97906cc30903d5d3c5e957d489f143251ef01e4a279b8fb70e03140",
+        "size_in_bytes": 1206
+      },
+      {
+        "_path": "lib/R/library/packrat/resources/init-rprofile.R",
+        "path_type": "hardlink",
+        "sha256": "7930a4560148f463b3a3c0ff9b41deb57881e536775a7fb1c239106eee133a07",
+        "sha256_in_prefix": "7930a4560148f463b3a3c0ff9b41deb57881e536775a7fb1c239106eee133a07",
+        "size_in_bytes": 117
+      },
+      {
+        "_path": "lib/R/library/packrat/resources/init.R",
+        "path_type": "hardlink",
+        "sha256": "abd57b8e8ea3c6abbf6adbdb12ab78300d3d1abc3c5eb509536222231b51d259",
+        "sha256_in_prefix": "abd57b8e8ea3c6abbf6adbdb12ab78300d3d1abc3c5eb509536222231b51d259",
+        "size_in_bytes": 8408
+      },
+      {
+        "_path": "lib/R/library/packrat/resources/mac_r_userlib.sh",
+        "path_type": "hardlink",
+        "sha256": "27f82324cb94720200f75847fa4a5343e575d5a06891e00c521604ced8a57f3d",
+        "sha256_in_prefix": "27f82324cb94720200f75847fa4a5343e575d5a06891e00c521604ced8a57f3d",
+        "size_in_bytes": 2919
+      },
+      {
+        "_path": "lib/R/library/packrat/rstudio/rstudio-protocol",
+        "path_type": "hardlink",
+        "sha256": "be2f27e98ccfb4629c7bd740488ade00fb5238d8641611416dcf250298089c14",
+        "sha256_in_prefix": "be2f27e98ccfb4629c7bd740488ade00fb5238d8641611416dcf250298089c14",
+        "size_in_bytes": 11
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 475513,
+  "subdir": "win-64",
+  "timestamp": 1538174855708,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-packrat-0.4.9_3-r351h6f4ce42_0.tar.bz2",
+  "version": "0.4.9_3"
+}

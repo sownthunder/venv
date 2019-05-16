@@ -1,0 +1,886 @@
+{
+  "arch": "x86_64",
+  "build": "py27_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/free/win-64",
+  "constrains": [],
+  "date": "2014-01-01",
+  "depends": [
+    "python 2.7*"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\pil-1.1.7-py27_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/PIL.pth",
+    "Lib/site-packages/PIL/ArgImagePlugin.py",
+    "Lib/site-packages/PIL/ArgImagePlugin.pyc",
+    "Lib/site-packages/PIL/BdfFontFile.py",
+    "Lib/site-packages/PIL/BdfFontFile.pyc",
+    "Lib/site-packages/PIL/BmpImagePlugin.py",
+    "Lib/site-packages/PIL/BmpImagePlugin.pyc",
+    "Lib/site-packages/PIL/BufrStubImagePlugin.py",
+    "Lib/site-packages/PIL/BufrStubImagePlugin.pyc",
+    "Lib/site-packages/PIL/ContainerIO.py",
+    "Lib/site-packages/PIL/ContainerIO.pyc",
+    "Lib/site-packages/PIL/CurImagePlugin.py",
+    "Lib/site-packages/PIL/CurImagePlugin.pyc",
+    "Lib/site-packages/PIL/DcxImagePlugin.py",
+    "Lib/site-packages/PIL/DcxImagePlugin.pyc",
+    "Lib/site-packages/PIL/EpsImagePlugin.py",
+    "Lib/site-packages/PIL/EpsImagePlugin.pyc",
+    "Lib/site-packages/PIL/ExifTags.py",
+    "Lib/site-packages/PIL/ExifTags.pyc",
+    "Lib/site-packages/PIL/FitsStubImagePlugin.py",
+    "Lib/site-packages/PIL/FitsStubImagePlugin.pyc",
+    "Lib/site-packages/PIL/FliImagePlugin.py",
+    "Lib/site-packages/PIL/FliImagePlugin.pyc",
+    "Lib/site-packages/PIL/FontFile.py",
+    "Lib/site-packages/PIL/FontFile.pyc",
+    "Lib/site-packages/PIL/FpxImagePlugin.py",
+    "Lib/site-packages/PIL/FpxImagePlugin.pyc",
+    "Lib/site-packages/PIL/GbrImagePlugin.py",
+    "Lib/site-packages/PIL/GbrImagePlugin.pyc",
+    "Lib/site-packages/PIL/GdImageFile.py",
+    "Lib/site-packages/PIL/GdImageFile.pyc",
+    "Lib/site-packages/PIL/GifImagePlugin.py",
+    "Lib/site-packages/PIL/GifImagePlugin.pyc",
+    "Lib/site-packages/PIL/GimpGradientFile.py",
+    "Lib/site-packages/PIL/GimpGradientFile.pyc",
+    "Lib/site-packages/PIL/GimpPaletteFile.py",
+    "Lib/site-packages/PIL/GimpPaletteFile.pyc",
+    "Lib/site-packages/PIL/GribStubImagePlugin.py",
+    "Lib/site-packages/PIL/GribStubImagePlugin.pyc",
+    "Lib/site-packages/PIL/Hdf5StubImagePlugin.py",
+    "Lib/site-packages/PIL/Hdf5StubImagePlugin.pyc",
+    "Lib/site-packages/PIL/IcnsImagePlugin.py",
+    "Lib/site-packages/PIL/IcnsImagePlugin.pyc",
+    "Lib/site-packages/PIL/IcoImagePlugin.py",
+    "Lib/site-packages/PIL/IcoImagePlugin.pyc",
+    "Lib/site-packages/PIL/ImImagePlugin.py",
+    "Lib/site-packages/PIL/ImImagePlugin.pyc",
+    "Lib/site-packages/PIL/Image.py",
+    "Lib/site-packages/PIL/Image.pyc",
+    "Lib/site-packages/PIL/ImageChops.py",
+    "Lib/site-packages/PIL/ImageChops.pyc",
+    "Lib/site-packages/PIL/ImageCms.py",
+    "Lib/site-packages/PIL/ImageCms.pyc",
+    "Lib/site-packages/PIL/ImageColor.py",
+    "Lib/site-packages/PIL/ImageColor.pyc",
+    "Lib/site-packages/PIL/ImageDraw.py",
+    "Lib/site-packages/PIL/ImageDraw.pyc",
+    "Lib/site-packages/PIL/ImageDraw2.py",
+    "Lib/site-packages/PIL/ImageDraw2.pyc",
+    "Lib/site-packages/PIL/ImageEnhance.py",
+    "Lib/site-packages/PIL/ImageEnhance.pyc",
+    "Lib/site-packages/PIL/ImageFile.py",
+    "Lib/site-packages/PIL/ImageFile.pyc",
+    "Lib/site-packages/PIL/ImageFileIO.py",
+    "Lib/site-packages/PIL/ImageFileIO.pyc",
+    "Lib/site-packages/PIL/ImageFilter.py",
+    "Lib/site-packages/PIL/ImageFilter.pyc",
+    "Lib/site-packages/PIL/ImageFont.py",
+    "Lib/site-packages/PIL/ImageFont.pyc",
+    "Lib/site-packages/PIL/ImageGL.py",
+    "Lib/site-packages/PIL/ImageGL.pyc",
+    "Lib/site-packages/PIL/ImageGrab.py",
+    "Lib/site-packages/PIL/ImageGrab.pyc",
+    "Lib/site-packages/PIL/ImageMath.py",
+    "Lib/site-packages/PIL/ImageMath.pyc",
+    "Lib/site-packages/PIL/ImageMode.py",
+    "Lib/site-packages/PIL/ImageMode.pyc",
+    "Lib/site-packages/PIL/ImageOps.py",
+    "Lib/site-packages/PIL/ImageOps.pyc",
+    "Lib/site-packages/PIL/ImagePalette.py",
+    "Lib/site-packages/PIL/ImagePalette.pyc",
+    "Lib/site-packages/PIL/ImagePath.py",
+    "Lib/site-packages/PIL/ImagePath.pyc",
+    "Lib/site-packages/PIL/ImageQt.py",
+    "Lib/site-packages/PIL/ImageQt.pyc",
+    "Lib/site-packages/PIL/ImageSequence.py",
+    "Lib/site-packages/PIL/ImageSequence.pyc",
+    "Lib/site-packages/PIL/ImageShow.py",
+    "Lib/site-packages/PIL/ImageShow.pyc",
+    "Lib/site-packages/PIL/ImageStat.py",
+    "Lib/site-packages/PIL/ImageStat.pyc",
+    "Lib/site-packages/PIL/ImageTk.py",
+    "Lib/site-packages/PIL/ImageTk.pyc",
+    "Lib/site-packages/PIL/ImageTransform.py",
+    "Lib/site-packages/PIL/ImageTransform.pyc",
+    "Lib/site-packages/PIL/ImageWin.py",
+    "Lib/site-packages/PIL/ImageWin.pyc",
+    "Lib/site-packages/PIL/ImtImagePlugin.py",
+    "Lib/site-packages/PIL/ImtImagePlugin.pyc",
+    "Lib/site-packages/PIL/IptcImagePlugin.py",
+    "Lib/site-packages/PIL/IptcImagePlugin.pyc",
+    "Lib/site-packages/PIL/JpegImagePlugin.py",
+    "Lib/site-packages/PIL/JpegImagePlugin.pyc",
+    "Lib/site-packages/PIL/McIdasImagePlugin.py",
+    "Lib/site-packages/PIL/McIdasImagePlugin.pyc",
+    "Lib/site-packages/PIL/MicImagePlugin.py",
+    "Lib/site-packages/PIL/MicImagePlugin.pyc",
+    "Lib/site-packages/PIL/MpegImagePlugin.py",
+    "Lib/site-packages/PIL/MpegImagePlugin.pyc",
+    "Lib/site-packages/PIL/MspImagePlugin.py",
+    "Lib/site-packages/PIL/MspImagePlugin.pyc",
+    "Lib/site-packages/PIL/OleFileIO.py",
+    "Lib/site-packages/PIL/OleFileIO.pyc",
+    "Lib/site-packages/PIL/PIL-1.1.7-py2.7.egg-info",
+    "Lib/site-packages/PIL/PSDraw.py",
+    "Lib/site-packages/PIL/PSDraw.pyc",
+    "Lib/site-packages/PIL/PaletteFile.py",
+    "Lib/site-packages/PIL/PaletteFile.pyc",
+    "Lib/site-packages/PIL/PalmImagePlugin.py",
+    "Lib/site-packages/PIL/PalmImagePlugin.pyc",
+    "Lib/site-packages/PIL/PcdImagePlugin.py",
+    "Lib/site-packages/PIL/PcdImagePlugin.pyc",
+    "Lib/site-packages/PIL/PcfFontFile.py",
+    "Lib/site-packages/PIL/PcfFontFile.pyc",
+    "Lib/site-packages/PIL/PcxImagePlugin.py",
+    "Lib/site-packages/PIL/PcxImagePlugin.pyc",
+    "Lib/site-packages/PIL/PdfImagePlugin.py",
+    "Lib/site-packages/PIL/PdfImagePlugin.pyc",
+    "Lib/site-packages/PIL/PixarImagePlugin.py",
+    "Lib/site-packages/PIL/PixarImagePlugin.pyc",
+    "Lib/site-packages/PIL/PngImagePlugin.py",
+    "Lib/site-packages/PIL/PngImagePlugin.pyc",
+    "Lib/site-packages/PIL/PpmImagePlugin.py",
+    "Lib/site-packages/PIL/PpmImagePlugin.pyc",
+    "Lib/site-packages/PIL/PsdImagePlugin.py",
+    "Lib/site-packages/PIL/PsdImagePlugin.pyc",
+    "Lib/site-packages/PIL/SgiImagePlugin.py",
+    "Lib/site-packages/PIL/SgiImagePlugin.pyc",
+    "Lib/site-packages/PIL/SpiderImagePlugin.py",
+    "Lib/site-packages/PIL/SpiderImagePlugin.pyc",
+    "Lib/site-packages/PIL/SunImagePlugin.py",
+    "Lib/site-packages/PIL/SunImagePlugin.pyc",
+    "Lib/site-packages/PIL/TarIO.py",
+    "Lib/site-packages/PIL/TarIO.pyc",
+    "Lib/site-packages/PIL/TgaImagePlugin.py",
+    "Lib/site-packages/PIL/TgaImagePlugin.pyc",
+    "Lib/site-packages/PIL/TiffImagePlugin.py",
+    "Lib/site-packages/PIL/TiffImagePlugin.pyc",
+    "Lib/site-packages/PIL/TiffTags.py",
+    "Lib/site-packages/PIL/TiffTags.pyc",
+    "Lib/site-packages/PIL/WalImageFile.py",
+    "Lib/site-packages/PIL/WalImageFile.pyc",
+    "Lib/site-packages/PIL/WmfImagePlugin.py",
+    "Lib/site-packages/PIL/WmfImagePlugin.pyc",
+    "Lib/site-packages/PIL/XVThumbImagePlugin.py",
+    "Lib/site-packages/PIL/XVThumbImagePlugin.pyc",
+    "Lib/site-packages/PIL/XbmImagePlugin.py",
+    "Lib/site-packages/PIL/XbmImagePlugin.pyc",
+    "Lib/site-packages/PIL/XpmImagePlugin.py",
+    "Lib/site-packages/PIL/XpmImagePlugin.pyc",
+    "Lib/site-packages/PIL/__init__.py",
+    "Lib/site-packages/PIL/__init__.pyc",
+    "Lib/site-packages/PIL/_imaging.pyd",
+    "Lib/site-packages/PIL/_imagingft.pyd",
+    "Lib/site-packages/PIL/_imagingmath.pyd",
+    "Scripts/pilconvert.py",
+    "Scripts/pildriver.py",
+    "Scripts/pilfile.py",
+    "Scripts/pilfont.py",
+    "Scripts/pilprint.py"
+  ],
+  "fn": "pil-1.1.7-py27_0.tar.bz2",
+  "license_family": "Other",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\pil-1.1.7-py27_0",
+    "type": 1
+  },
+  "md5": "05e217d1ecfa9636a92af6ea8cfbd409",
+  "name": "pil",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\pil-1.1.7-py27_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/PIL.pth",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ArgImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ArgImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/BdfFontFile.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/BdfFontFile.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/BmpImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/BmpImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/BufrStubImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/BufrStubImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ContainerIO.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ContainerIO.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/CurImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/CurImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/DcxImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/DcxImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/EpsImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/EpsImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ExifTags.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ExifTags.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/FitsStubImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/FitsStubImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/FliImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/FliImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/FontFile.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/FontFile.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/FpxImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/FpxImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/GbrImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/GbrImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/GdImageFile.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/GdImageFile.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/GifImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/GifImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/GimpGradientFile.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/GimpGradientFile.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/GimpPaletteFile.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/GimpPaletteFile.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/GribStubImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/GribStubImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/Hdf5StubImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/Hdf5StubImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/IcnsImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/IcnsImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/IcoImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/IcoImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/Image.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/Image.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageChops.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageChops.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageCms.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageCms.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageColor.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageColor.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageDraw.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageDraw.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageDraw2.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageDraw2.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageEnhance.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageEnhance.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageFile.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageFile.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageFileIO.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageFileIO.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageFilter.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageFilter.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageFont.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageFont.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageGL.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageGL.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageGrab.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageGrab.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageMath.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageMath.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageMode.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageMode.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageOps.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageOps.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImagePalette.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImagePalette.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImagePath.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImagePath.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageQt.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageQt.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageSequence.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageSequence.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageShow.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageShow.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageStat.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageStat.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageTk.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageTk.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageTransform.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageTransform.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageWin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImageWin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImtImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/ImtImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/IptcImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/IptcImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/JpegImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/JpegImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/McIdasImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/McIdasImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/MicImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/MicImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/MpegImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/MpegImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/MspImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/MspImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/OleFileIO.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/OleFileIO.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PIL-1.1.7-py2.7.egg-info",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PSDraw.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PSDraw.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PaletteFile.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PaletteFile.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PalmImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PalmImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PcdImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PcdImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PcfFontFile.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PcfFontFile.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PcxImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PcxImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PdfImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PdfImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PixarImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PixarImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PngImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PngImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PpmImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PpmImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PsdImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/PsdImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/SgiImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/SgiImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/SpiderImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/SpiderImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/SunImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/SunImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/TarIO.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/TarIO.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/TgaImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/TgaImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/TiffImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/TiffImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/TiffTags.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/TiffTags.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/WalImageFile.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/WalImageFile.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/WmfImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/WmfImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/XVThumbImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/XVThumbImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/XbmImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/XbmImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/XpmImagePlugin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/XpmImagePlugin.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/__init__.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/__init__.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/_imaging.pyd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/_imagingft.pyd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Lib/site-packages/PIL/_imagingmath.pyd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Scripts/pilconvert.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Scripts/pildriver.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Scripts/pilfile.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Scripts/pilfont.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Scripts/pilprint.py",
+        "path_type": "hardlink"
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "pil",
+  "size": 764349,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/free/win-64/pil-1.1.7-py27_0.tar.bz2",
+  "version": "1.1.7"
+}

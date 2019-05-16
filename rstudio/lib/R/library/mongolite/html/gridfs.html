@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: GridFS API</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for gridfs {mongolite}"><tr><td>gridfs {mongolite}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>GridFS API</h2>
+
+<h3>Description</h3>
+
+<p>Connect to a GridFS database.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+gridfs(db = "test", url = "mongodb://localhost", prefix = "fs",
+  options = ssl_options())
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>db</code></td>
+<td>
+<p>name of database</p>
+</td></tr>
+<tr valign="top"><td><code>url</code></td>
+<td>
+<p>address of the mongodb server in mongo connection string
+<a href="http://docs.mongodb.org/manual/reference/connection-string">URI format</a></p>
+</td></tr>
+<tr valign="top"><td><code>prefix</code></td>
+<td>
+<p>string to prefix the collection name</p>
+</td></tr>
+<tr valign="top"><td><code>options</code></td>
+<td>
+<p>additional connection options such as SSL keys/certs.</p>
+</td></tr>
+</table>
+
+
+<h3>Examples</h3>
+
+<pre>
+# New GridFS
+
+fs &lt;- gridfs(url = "mongodb+srv://readwrite:test@cluster0-84vdt.mongodb.net/test")
+input &lt;- R.home('doc/NEWS.pdf')
+fs$upload(input)
+fs$download('NEWS.pdf', 'output.pdf')
+hashes &lt;- tools::md5sum(c(input, 'output.pdf'))
+unlink('output.pdf')
+stopifnot(hashes[[1]] == hashes[[1]])
+
+# Insert Binary Data
+fs$write('iris3', serialize(datasets::iris3, NULL))
+out &lt;- fs$read('iris3')
+iris4 &lt;- unserialize(out$data)
+stopifnot(all.equal(iris4, datasets::iris3))
+
+# Show what we have
+fs$find()
+fs$drop()
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>mongolite</em> version 1.6 <a href="00Index.html">Index</a>]</div>
+</body></html>

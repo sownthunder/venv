@@ -1,0 +1,2907 @@
+{
+  "build": "2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-c-ares",
+    "m2w64-ca-certificates",
+    "m2w64-gcc-libs",
+    "m2w64-libidn",
+    "m2w64-libmetalink",
+    "m2w64-libssh2",
+    "m2w64-nghttp2",
+    "m2w64-openssl",
+    "m2w64-rtmpdump-git",
+    "m2w64-zlib",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-curl-7.48.0-2",
+  "features": "",
+  "files": [
+    "Library/mingw-w64/bin/curl-config",
+    "Library/mingw-w64/bin/curl.exe",
+    "Library/mingw-w64/bin/libcurl-4.dll",
+    "Library/mingw-w64/include/curl/curl.h",
+    "Library/mingw-w64/include/curl/curlbuild.h",
+    "Library/mingw-w64/include/curl/curlrules.h",
+    "Library/mingw-w64/include/curl/curlver.h",
+    "Library/mingw-w64/include/curl/easy.h",
+    "Library/mingw-w64/include/curl/mprintf.h",
+    "Library/mingw-w64/include/curl/multi.h",
+    "Library/mingw-w64/include/curl/stdcheaders.h",
+    "Library/mingw-w64/include/curl/typecheck-gcc.h",
+    "Library/mingw-w64/lib/libcurl.a",
+    "Library/mingw-w64/lib/libcurl.dll.a",
+    "Library/mingw-w64/lib/pkgconfig/libcurl.pc",
+    "Library/mingw-w64/share/aclocal/libcurl.m4",
+    "Library/mingw-w64/share/man/man1/curl-config.1.gz",
+    "Library/mingw-w64/share/man/man1/curl.1.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_ACTIVESOCKET.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_APPCONNECT_TIME.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_CERTINFO.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_CONDITION_UNMET.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_CONNECT_TIME.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_CONTENT_LENGTH_DOWNLOAD.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_CONTENT_LENGTH_UPLOAD.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_CONTENT_TYPE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_COOKIELIST.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_EFFECTIVE_URL.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_FILETIME.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_FTP_ENTRY_PATH.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_HEADER_SIZE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_HTTPAUTH_AVAIL.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_HTTP_CONNECTCODE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_LASTSOCKET.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_LOCAL_IP.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_LOCAL_PORT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_NAMELOOKUP_TIME.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_NUM_CONNECTS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_OS_ERRNO.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_PRETRANSFER_TIME.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_PRIMARY_IP.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_PRIMARY_PORT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_PRIVATE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_PROXYAUTH_AVAIL.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_REDIRECT_COUNT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_REDIRECT_TIME.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_REDIRECT_URL.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_REQUEST_SIZE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_RESPONSE_CODE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_RTSP_CLIENT_CSEQ.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_RTSP_CSEQ_RECV.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_RTSP_SERVER_CSEQ.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_RTSP_SESSION_ID.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_SIZE_DOWNLOAD.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_SIZE_UPLOAD.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_SPEED_DOWNLOAD.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_SPEED_UPLOAD.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_SSL_ENGINES.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_SSL_VERIFYRESULT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_STARTTRANSFER_TIME.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_TLS_SESSION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_TLS_SSL_PTR.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLINFO_TOTAL_TIME.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLMOPT_CHUNK_LENGTH_PENALTY_SIZE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLMOPT_CONTENT_LENGTH_PENALTY_SIZE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLMOPT_MAXCONNECTS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLMOPT_MAX_HOST_CONNECTIONS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLMOPT_MAX_PIPELINE_LENGTH.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLMOPT_MAX_TOTAL_CONNECTIONS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLMOPT_PIPELINING.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLMOPT_PIPELINING_SERVER_BL.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLMOPT_PIPELINING_SITE_BL.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLMOPT_PUSHDATA.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLMOPT_PUSHFUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLMOPT_SOCKETDATA.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLMOPT_SOCKETFUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLMOPT_TIMERDATA.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLMOPT_TIMERFUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_ACCEPTTIMEOUT_MS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_ACCEPT_ENCODING.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_ADDRESS_SCOPE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_APPEND.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_AUTOREFERER.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_BUFFERSIZE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_CAINFO.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_CAPATH.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_CERTINFO.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_CHUNK_BGN_FUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_CHUNK_DATA.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_CHUNK_END_FUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_CLOSESOCKETDATA.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_CLOSESOCKETFUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_CONNECTTIMEOUT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_CONNECTTIMEOUT_MS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_CONNECT_ONLY.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_CONV_FROM_NETWORK_FUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_CONV_FROM_UTF8_FUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_CONV_TO_NETWORK_FUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_COOKIE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_COOKIEFILE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_COOKIEJAR.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_COOKIELIST.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_COOKIESESSION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_COPYPOSTFIELDS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_CRLF.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_CRLFILE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_CUSTOMREQUEST.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_DEBUGDATA.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_DEBUGFUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_DEFAULT_PROTOCOL.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_DIRLISTONLY.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_DNS_CACHE_TIMEOUT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_DNS_INTERFACE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_DNS_LOCAL_IP4.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_DNS_LOCAL_IP6.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_DNS_SERVERS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_DNS_USE_GLOBAL_CACHE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_EGDSOCKET.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_ERRORBUFFER.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_EXPECT_100_TIMEOUT_MS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_FAILONERROR.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_FILETIME.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_FNMATCH_DATA.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_FNMATCH_FUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_FOLLOWLOCATION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_FORBID_REUSE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_FRESH_CONNECT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_FTPPORT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_FTPSSLAUTH.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_FTP_ACCOUNT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_FTP_ALTERNATIVE_TO_USER.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_FTP_CREATE_MISSING_DIRS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_FTP_FILEMETHOD.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_FTP_RESPONSE_TIMEOUT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_FTP_SKIP_PASV_IP.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_FTP_SSL_CCC.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_FTP_USE_EPRT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_FTP_USE_EPSV.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_FTP_USE_PRET.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_GSSAPI_DELEGATION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_HEADER.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_HEADERDATA.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_HEADERFUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_HEADEROPT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_HTTP200ALIASES.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_HTTPAUTH.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_HTTPGET.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_HTTPHEADER.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_HTTPPOST.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_HTTPPROXYTUNNEL.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_HTTP_CONTENT_DECODING.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_HTTP_TRANSFER_DECODING.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_HTTP_VERSION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_IGNORE_CONTENT_LENGTH.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_INFILESIZE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_INFILESIZE_LARGE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_INTERFACE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_INTERLEAVEDATA.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_INTERLEAVEFUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_IOCTLDATA.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_IOCTLFUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_IPRESOLVE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_ISSUERCERT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_KEYPASSWD.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_KRBLEVEL.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_LOCALPORT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_LOCALPORTRANGE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_LOGIN_OPTIONS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_LOW_SPEED_LIMIT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_LOW_SPEED_TIME.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_MAIL_AUTH.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_MAIL_FROM.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_MAIL_RCPT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_MAXCONNECTS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_MAXFILESIZE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_MAXFILESIZE_LARGE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_MAXREDIRS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_MAX_RECV_SPEED_LARGE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_MAX_SEND_SPEED_LARGE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_NETRC.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_NETRC_FILE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_NEW_DIRECTORY_PERMS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_NEW_FILE_PERMS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_NOBODY.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_NOPROGRESS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_NOPROXY.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_NOSIGNAL.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_OPENSOCKETDATA.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_OPENSOCKETFUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PASSWORD.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PATH_AS_IS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PINNEDPUBLICKEY.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PIPEWAIT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PORT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_POST.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_POSTFIELDS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_POSTFIELDSIZE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_POSTFIELDSIZE_LARGE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_POSTQUOTE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_POSTREDIR.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PREQUOTE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PRIVATE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PROGRESSDATA.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PROGRESSFUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PROTOCOLS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PROXY.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PROXYAUTH.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PROXYHEADER.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PROXYPASSWORD.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PROXYPORT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PROXYTYPE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PROXYUSERNAME.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PROXYUSERPWD.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PROXY_SERVICE_NAME.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PROXY_TRANSFER_MODE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_PUT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_QUOTE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_RANDOM_FILE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_RANGE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_READDATA.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_READFUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_REDIR_PROTOCOLS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_REFERER.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_RESOLVE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_RESUME_FROM.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_RESUME_FROM_LARGE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_RTSP_CLIENT_CSEQ.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_RTSP_REQUEST.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_RTSP_SERVER_CSEQ.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_RTSP_SESSION_ID.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_RTSP_STREAM_URI.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_RTSP_TRANSPORT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SASL_IR.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SEEKDATA.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SEEKFUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SERVICE_NAME.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SHARE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SOCKOPTDATA.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SOCKOPTFUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SOCKS5_GSSAPI_NEC.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SOCKS5_GSSAPI_SERVICE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSH_AUTH_TYPES.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSH_HOST_PUBLIC_KEY_MD5.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSH_KEYDATA.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSH_KEYFUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSH_KNOWNHOSTS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSH_PRIVATE_KEYFILE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSH_PUBLIC_KEYFILE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSLCERT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSLCERTTYPE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSLENGINE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSLENGINE_DEFAULT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSLKEY.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSLKEYTYPE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSLVERSION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSL_CIPHER_LIST.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSL_CTX_DATA.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSL_CTX_FUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSL_ENABLE_ALPN.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSL_ENABLE_NPN.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSL_FALSESTART.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSL_OPTIONS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSL_SESSIONID_CACHE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSL_VERIFYHOST.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSL_VERIFYPEER.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_SSL_VERIFYSTATUS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_STDERR.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_STREAM_DEPENDS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_STREAM_DEPENDS_E.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_STREAM_WEIGHT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_TCP_KEEPALIVE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_TCP_KEEPIDLE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_TCP_KEEPINTVL.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_TCP_NODELAY.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_TELNETOPTIONS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_TFTP_BLKSIZE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_TFTP_NO_OPTIONS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_TIMECONDITION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_TIMEOUT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_TIMEOUT_MS.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_TIMEVALUE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_TLSAUTH_PASSWORD.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_TLSAUTH_TYPE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_TLSAUTH_USERNAME.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_TRANSFERTEXT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_TRANSFER_ENCODING.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_UNIX_SOCKET_PATH.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_UNRESTRICTED_AUTH.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_UPLOAD.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_URL.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_USERAGENT.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_USERNAME.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_USERPWD.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_USE_SSL.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_VERBOSE.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_WILDCARDMATCH.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_WRITEDATA.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_WRITEFUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_XFERINFODATA.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_XFERINFOFUNCTION.3.gz",
+    "Library/mingw-w64/share/man/man3/CURLOPT_XOAUTH2_BEARER.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_easy_cleanup.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_easy_duphandle.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_easy_escape.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_easy_getinfo.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_easy_init.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_easy_pause.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_easy_perform.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_easy_recv.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_easy_reset.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_easy_send.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_easy_setopt.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_easy_strerror.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_easy_unescape.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_escape.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_formadd.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_formfree.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_formget.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_free.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_getdate.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_getenv.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_global_cleanup.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_global_init.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_global_init_mem.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_mprintf.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_multi_add_handle.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_multi_assign.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_multi_cleanup.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_multi_fdset.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_multi_info_read.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_multi_init.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_multi_perform.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_multi_remove_handle.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_multi_setopt.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_multi_socket.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_multi_socket_action.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_multi_strerror.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_multi_timeout.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_multi_wait.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_share_cleanup.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_share_init.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_share_setopt.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_share_strerror.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_slist_append.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_slist_free_all.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_strequal.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_unescape.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_version.3.gz",
+    "Library/mingw-w64/share/man/man3/curl_version_info.3.gz",
+    "Library/mingw-w64/share/man/man3/libcurl-easy.3.gz",
+    "Library/mingw-w64/share/man/man3/libcurl-errors.3.gz",
+    "Library/mingw-w64/share/man/man3/libcurl-multi.3.gz",
+    "Library/mingw-w64/share/man/man3/libcurl-share.3.gz",
+    "Library/mingw-w64/share/man/man3/libcurl-symbols.3.gz",
+    "Library/mingw-w64/share/man/man3/libcurl-thread.3.gz",
+    "Library/mingw-w64/share/man/man3/libcurl-tutorial.3.gz",
+    "Library/mingw-w64/share/man/man3/libcurl.3.gz",
+    "Library/mingw-w64/share/zsh/site-functions/_curl"
+  ],
+  "fn": "m2w64-curl-7.48.0-2.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-curl-7.48.0-2",
+    "type": 1
+  },
+  "md5": "c977933ef3d683222aa634e10eedc44e",
+  "name": "m2w64-curl",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-curl-7.48.0-2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/mingw-w64/bin/curl-config",
+        "path_type": "hardlink",
+        "sha256": "2d86253d052919512b974a9f7c342fffafad5ca4a355689372d8508264a2cc0f",
+        "sha256_in_prefix": "2d86253d052919512b974a9f7c342fffafad5ca4a355689372d8508264a2cc0f",
+        "size_in_bytes": 5736
+      },
+      {
+        "_path": "Library/mingw-w64/bin/curl.exe",
+        "path_type": "hardlink",
+        "sha256": "68e92d37b4ac5c21dc7fccabda3244787e23db73f8b1cfe9025f68e3cf33a54a",
+        "sha256_in_prefix": "68e92d37b4ac5c21dc7fccabda3244787e23db73f8b1cfe9025f68e3cf33a54a",
+        "size_in_bytes": 250957
+      },
+      {
+        "_path": "Library/mingw-w64/bin/libcurl-4.dll",
+        "path_type": "hardlink",
+        "sha256": "99e79565c9ba5b6d17f7c6e57e7b2f46e9730e83a88b6a290c8bb0ac94a2721b",
+        "sha256_in_prefix": "99e79565c9ba5b6d17f7c6e57e7b2f46e9730e83a88b6a290c8bb0ac94a2721b",
+        "size_in_bytes": 498379
+      },
+      {
+        "_path": "Library/mingw-w64/include/curl/curl.h",
+        "path_type": "hardlink",
+        "sha256": "508c2de0cb7bf4e7a0c19ac625444f8c205b73cfd76a2993b042e8445a7016cd",
+        "sha256_in_prefix": "508c2de0cb7bf4e7a0c19ac625444f8c205b73cfd76a2993b042e8445a7016cd",
+        "size_in_bytes": 91449
+      },
+      {
+        "_path": "Library/mingw-w64/include/curl/curlbuild.h",
+        "path_type": "hardlink",
+        "sha256": "47cfffd80077e4db4e07de7bdca782af8c80008f6de64f6f54e261bbaceb1992",
+        "sha256_in_prefix": "47cfffd80077e4db4e07de7bdca782af8c80008f6de64f6f54e261bbaceb1992",
+        "size_in_bytes": 7312
+      },
+      {
+        "_path": "Library/mingw-w64/include/curl/curlrules.h",
+        "path_type": "hardlink",
+        "sha256": "481568aae1eb7cdf8f440d8fa88035d3c46560ccd1f348fa758c1c23b7674908",
+        "sha256_in_prefix": "481568aae1eb7cdf8f440d8fa88035d3c46560ccd1f348fa758c1c23b7674908",
+        "size_in_bytes": 8936
+      },
+      {
+        "_path": "Library/mingw-w64/include/curl/curlver.h",
+        "path_type": "hardlink",
+        "sha256": "0507b0b53aa42f527887f75e547d00aef4528af987cea16e90ec46f5a8bfce94",
+        "sha256_in_prefix": "0507b0b53aa42f527887f75e547d00aef4528af987cea16e90ec46f5a8bfce94",
+        "size_in_bytes": 3076
+      },
+      {
+        "_path": "Library/mingw-w64/include/curl/easy.h",
+        "path_type": "hardlink",
+        "sha256": "653115d1fddb796bf60c6da952039a6d121995936919d3929b3e8c73bd8249a7",
+        "sha256_in_prefix": "653115d1fddb796bf60c6da952039a6d121995936919d3929b3e8c73bd8249a7",
+        "size_in_bytes": 3473
+      },
+      {
+        "_path": "Library/mingw-w64/include/curl/mprintf.h",
+        "path_type": "hardlink",
+        "sha256": "b221c336ace14f9d00e20cad9e2fe1c1473ae99f7bbb6f7938f4bafed49689fa",
+        "sha256_in_prefix": "b221c336ace14f9d00e20cad9e2fe1c1473ae99f7bbb6f7938f4bafed49689fa",
+        "size_in_bytes": 2566
+      },
+      {
+        "_path": "Library/mingw-w64/include/curl/multi.h",
+        "path_type": "hardlink",
+        "sha256": "810647595e64db7ae31cad99d47758366f77465ef2fbc70c476608659e8c9345",
+        "sha256_in_prefix": "810647595e64db7ae31cad99d47758366f77465ef2fbc70c476608659e8c9345",
+        "size_in_bytes": 15993
+      },
+      {
+        "_path": "Library/mingw-w64/include/curl/stdcheaders.h",
+        "path_type": "hardlink",
+        "sha256": "ae8f06f7a9a3ff167b035d8d817212e9aac56a1030e9f65b3717b9183da34e5f",
+        "sha256_in_prefix": "ae8f06f7a9a3ff167b035d8d817212e9aac56a1030e9f65b3717b9183da34e5f",
+        "size_in_bytes": 1331
+      },
+      {
+        "_path": "Library/mingw-w64/include/curl/typecheck-gcc.h",
+        "path_type": "hardlink",
+        "sha256": "d03ffc3a868fb991427f5cbaa0c26d4bc2cbd4d3a3af26cc60d50bdd2e94fc1f",
+        "sha256_in_prefix": "d03ffc3a868fb991427f5cbaa0c26d4bc2cbd4d3a3af26cc60d50bdd2e94fc1f",
+        "size_in_bytes": 38359
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libcurl.a",
+        "path_type": "hardlink",
+        "sha256": "bdb0a909b19d40c7c7c972d62114df92fc4c8885fd96864a0617a7ae50fa7d10",
+        "sha256_in_prefix": "bdb0a909b19d40c7c7c972d62114df92fc4c8885fd96864a0617a7ae50fa7d10",
+        "size_in_bytes": 716338
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libcurl.dll.a",
+        "path_type": "hardlink",
+        "sha256": "491fe2f86784386e0c1fdda366f2617e942589f793a4e1728cd615e6d8f7bf73",
+        "sha256_in_prefix": "491fe2f86784386e0c1fdda366f2617e942589f793a4e1728cd615e6d8f7bf73",
+        "size_in_bytes": 38924
+      },
+      {
+        "_path": "Library/mingw-w64/lib/pkgconfig/libcurl.pc",
+        "path_type": "hardlink",
+        "sha256": "c8ff0d26452abe68e5b0335d280bed99a6d15e39e600e004dc5dfb415b5ee7a9",
+        "sha256_in_prefix": "c8ff0d26452abe68e5b0335d280bed99a6d15e39e600e004dc5dfb415b5ee7a9",
+        "size_in_bytes": 1699
+      },
+      {
+        "_path": "Library/mingw-w64/share/aclocal/libcurl.m4",
+        "path_type": "hardlink",
+        "sha256": "0542736758886204f214478ff5d8ed7a8262d0fd1777513173cd08d63048e862",
+        "sha256_in_prefix": "0542736758886204f214478ff5d8ed7a8262d0fd1777513173cd08d63048e862",
+        "size_in_bytes": 11167
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man1/curl-config.1.gz",
+        "path_type": "hardlink",
+        "sha256": "429f6935d9c92f333e568c83427f4cf4b13c3583c987df3b3494c2ad92301f30",
+        "sha256_in_prefix": "429f6935d9c92f333e568c83427f4cf4b13c3583c987df3b3494c2ad92301f30",
+        "size_in_bytes": 1687
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man1/curl.1.gz",
+        "path_type": "hardlink",
+        "sha256": "05931b60a91991e48b6a71c3f4fb7584a104671385cef553124bf47c40bf93d3",
+        "sha256_in_prefix": "05931b60a91991e48b6a71c3f4fb7584a104671385cef553124bf47c40bf93d3",
+        "size_in_bytes": 33963
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_ACTIVESOCKET.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c9f679aec8e839ae9c50699b1cba979be52048008eff8e23db707b2b12b65fee",
+        "sha256_in_prefix": "c9f679aec8e839ae9c50699b1cba979be52048008eff8e23db707b2b12b65fee",
+        "size_in_bytes": 1050
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_APPCONNECT_TIME.3.gz",
+        "path_type": "hardlink",
+        "sha256": "7fa9b682d78df14ce1612086b3c847a97cf995f078d3fa3afe1b7a6e9962dcae",
+        "sha256_in_prefix": "7fa9b682d78df14ce1612086b3c847a97cf995f078d3fa3afe1b7a6e9962dcae",
+        "size_in_bytes": 1011
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_CERTINFO.3.gz",
+        "path_type": "hardlink",
+        "sha256": "29dc87953b42b469170b5ede82048b9363780daab46dc3630dc221c047e9b6c7",
+        "sha256_in_prefix": "29dc87953b42b469170b5ede82048b9363780daab46dc3630dc221c047e9b6c7",
+        "size_in_bytes": 1096
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_CONDITION_UNMET.3.gz",
+        "path_type": "hardlink",
+        "sha256": "71914addcc5e44b4154490d267b7709c50811c5d57261c48cad9b4632fe8e58e",
+        "sha256_in_prefix": "71914addcc5e44b4154490d267b7709c50811c5d57261c48cad9b4632fe8e58e",
+        "size_in_bytes": 966
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_CONNECT_TIME.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6047bed3255c27e38b8a9d1c1d6e4406df0b41e42b148284fe6e0c34d62c9136",
+        "sha256_in_prefix": "6047bed3255c27e38b8a9d1c1d6e4406df0b41e42b148284fe6e0c34d62c9136",
+        "size_in_bytes": 882
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_CONTENT_LENGTH_DOWNLOAD.3.gz",
+        "path_type": "hardlink",
+        "sha256": "d3f075aad596f60428ebfa3573a23a5bd3e8546631ebc4e2a181537982989ff6",
+        "sha256_in_prefix": "d3f075aad596f60428ebfa3573a23a5bd3e8546631ebc4e2a181537982989ff6",
+        "size_in_bytes": 892
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_CONTENT_LENGTH_UPLOAD.3.gz",
+        "path_type": "hardlink",
+        "sha256": "45f0f2c79ca32c59b6c42ee6a9e64ff8d0e067e5fce858afb9001bc88f41a5c1",
+        "sha256_in_prefix": "45f0f2c79ca32c59b6c42ee6a9e64ff8d0e067e5fce858afb9001bc88f41a5c1",
+        "size_in_bytes": 850
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_CONTENT_TYPE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "852075be8cae52d5fddec97c94efb43fd503c88b3c01b8500475f868f0ad0f17",
+        "sha256_in_prefix": "852075be8cae52d5fddec97c94efb43fd503c88b3c01b8500475f868f0ad0f17",
+        "size_in_bytes": 999
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_COOKIELIST.3.gz",
+        "path_type": "hardlink",
+        "sha256": "bebfc9e2ea072ce6ef88541be2ad828880684ed9594dbd44c47faaab36e30dae",
+        "sha256_in_prefix": "bebfc9e2ea072ce6ef88541be2ad828880684ed9594dbd44c47faaab36e30dae",
+        "size_in_bytes": 1023
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_EFFECTIVE_URL.3.gz",
+        "path_type": "hardlink",
+        "sha256": "12bd5f3a6469a78314e327fe731295f9833171a433845ccca1799696385316c9",
+        "sha256_in_prefix": "12bd5f3a6469a78314e327fe731295f9833171a433845ccca1799696385316c9",
+        "size_in_bytes": 976
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_FILETIME.3.gz",
+        "path_type": "hardlink",
+        "sha256": "de42f8008da67249a84068f345c6bc8552d864549b4bde927a5e2049bb66fa98",
+        "sha256_in_prefix": "de42f8008da67249a84068f345c6bc8552d864549b4bde927a5e2049bb66fa98",
+        "size_in_bytes": 1055
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_FTP_ENTRY_PATH.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4e40238a2d7515498d25680ec12951e520e98062a808f5ca15630d0b5935e99c",
+        "sha256_in_prefix": "4e40238a2d7515498d25680ec12951e520e98062a808f5ca15630d0b5935e99c",
+        "size_in_bytes": 1010
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_HEADER_SIZE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "963ec00e14db2de101286661bd8316c57d98d1f44154236bcab7071b6113affc",
+        "sha256_in_prefix": "963ec00e14db2de101286661bd8316c57d98d1f44154236bcab7071b6113affc",
+        "size_in_bytes": 848
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_HTTPAUTH_AVAIL.3.gz",
+        "path_type": "hardlink",
+        "sha256": "0a759f47e5b7dfa613e38f4ff5a0051dc37e1e91c57b931c969544f016b5ca56",
+        "sha256_in_prefix": "0a759f47e5b7dfa613e38f4ff5a0051dc37e1e91c57b931c969544f016b5ca56",
+        "size_in_bytes": 891
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_HTTP_CONNECTCODE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6bab3aa2666955d5657aa62a1b448407799a40667171ef35d85cfca9530c6849",
+        "sha256_in_prefix": "6bab3aa2666955d5657aa62a1b448407799a40667171ef35d85cfca9530c6849",
+        "size_in_bytes": 863
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_LASTSOCKET.3.gz",
+        "path_type": "hardlink",
+        "sha256": "b97bba7be4bcfab52ba38510e6ebdb095d5f6583dca93fcf78c0796f915f7331",
+        "sha256_in_prefix": "b97bba7be4bcfab52ba38510e6ebdb095d5f6583dca93fcf78c0796f915f7331",
+        "size_in_bytes": 1077
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_LOCAL_IP.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9bff10283ad8d2f54cb5e00f9f1861dfac18bf14495a7c8d112b3eafd62a468b",
+        "sha256_in_prefix": "9bff10283ad8d2f54cb5e00f9f1861dfac18bf14495a7c8d112b3eafd62a468b",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_LOCAL_PORT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "65b4a287ad71f200c09d1c2acc094bc3d82eeced9709333b9ce33f6e6e2d4d9a",
+        "sha256_in_prefix": "65b4a287ad71f200c09d1c2acc094bc3d82eeced9709333b9ce33f6e6e2d4d9a",
+        "size_in_bytes": 851
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_NAMELOOKUP_TIME.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6333525798c8aa1369828bbf14b0ec1802282fe336660e6232bdb96d10a533ab",
+        "sha256_in_prefix": "6333525798c8aa1369828bbf14b0ec1802282fe336660e6232bdb96d10a533ab",
+        "size_in_bytes": 871
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_NUM_CONNECTS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "dd0d997cfb24f6b3b20f097c3a136ad8b4b9c615f06f2dc13ae10e47432d67bb",
+        "sha256_in_prefix": "dd0d997cfb24f6b3b20f097c3a136ad8b4b9c615f06f2dc13ae10e47432d67bb",
+        "size_in_bytes": 983
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_OS_ERRNO.3.gz",
+        "path_type": "hardlink",
+        "sha256": "648de9fd2256906b1ddedd34bf2bc8a3177c31bf11d736fed941ab6c5006cf20",
+        "sha256_in_prefix": "648de9fd2256906b1ddedd34bf2bc8a3177c31bf11d736fed941ab6c5006cf20",
+        "size_in_bytes": 882
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_PRETRANSFER_TIME.3.gz",
+        "path_type": "hardlink",
+        "sha256": "aa58063d36f49a39f69fbd1ac125cdfd74285dd86a9bfaa390991bb7be3cc7d5",
+        "sha256_in_prefix": "aa58063d36f49a39f69fbd1ac125cdfd74285dd86a9bfaa390991bb7be3cc7d5",
+        "size_in_bytes": 984
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_PRIMARY_IP.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4f8b1a36ee65d3314482bd8f47c76097a97cca8703a7363d87370ebbea89f8bd",
+        "sha256_in_prefix": "4f8b1a36ee65d3314482bd8f47c76097a97cca8703a7363d87370ebbea89f8bd",
+        "size_in_bytes": 1053
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_PRIMARY_PORT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "aabcbce279a3d3db9a125fff5ae0118c68d40574e2c7e12292530d645e2984c2",
+        "sha256_in_prefix": "aabcbce279a3d3db9a125fff5ae0118c68d40574e2c7e12292530d645e2984c2",
+        "size_in_bytes": 836
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_PRIVATE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "af88b77bded7284f625c87a95797866abcf9f5e749fac39eb69a713afc15063c",
+        "sha256_in_prefix": "af88b77bded7284f625c87a95797866abcf9f5e749fac39eb69a713afc15063c",
+        "size_in_bytes": 901
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_PROXYAUTH_AVAIL.3.gz",
+        "path_type": "hardlink",
+        "sha256": "00d60c27f75912608c20925d318bca352325ddc1f89de01dec321087559f469f",
+        "sha256_in_prefix": "00d60c27f75912608c20925d318bca352325ddc1f89de01dec321087559f469f",
+        "size_in_bytes": 898
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_REDIRECT_COUNT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5aaa774bd38fee5d6c756142e50945bb73613eb0330505ac440adcbd748c5b08",
+        "sha256_in_prefix": "5aaa774bd38fee5d6c756142e50945bb73613eb0330505ac440adcbd748c5b08",
+        "size_in_bytes": 824
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_REDIRECT_TIME.3.gz",
+        "path_type": "hardlink",
+        "sha256": "e752a62611ffc3235202142afefa2cce08b0c07c89682475010af222ffc8d6e0",
+        "sha256_in_prefix": "e752a62611ffc3235202142afefa2cce08b0c07c89682475010af222ffc8d6e0",
+        "size_in_bytes": 940
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_REDIRECT_URL.3.gz",
+        "path_type": "hardlink",
+        "sha256": "89366bccdd0f906fcda58768c6ff65e5e2a4cf7b59e5cc74e7e2d50718a54534",
+        "sha256_in_prefix": "89366bccdd0f906fcda58768c6ff65e5e2a4cf7b59e5cc74e7e2d50718a54534",
+        "size_in_bytes": 954
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_REQUEST_SIZE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f8ebc8d76cd6b9f2c427ddccddf1c58f39ba92a81021ba12307d6c12e8b17a3d",
+        "sha256_in_prefix": "f8ebc8d76cd6b9f2c427ddccddf1c58f39ba92a81021ba12307d6c12e8b17a3d",
+        "size_in_bytes": 902
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_RESPONSE_CODE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f4274ab155f2bd9e56393cecbbef8dc38d01a1fa364b477e0a6c69947842b8f6",
+        "sha256_in_prefix": "f4274ab155f2bd9e56393cecbbef8dc38d01a1fa364b477e0a6c69947842b8f6",
+        "size_in_bytes": 1102
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_RTSP_CLIENT_CSEQ.3.gz",
+        "path_type": "hardlink",
+        "sha256": "af13ef25f5ab851d81c26248e2ded58363909924787b0ba42337cee5a4bfc889",
+        "sha256_in_prefix": "af13ef25f5ab851d81c26248e2ded58363909924787b0ba42337cee5a4bfc889",
+        "size_in_bytes": 823
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_RTSP_CSEQ_RECV.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5a929f7932944c727ef868a8004acf89c820b7c5315c28178152b9ecc64a8b15",
+        "sha256_in_prefix": "5a929f7932944c727ef868a8004acf89c820b7c5315c28178152b9ecc64a8b15",
+        "size_in_bytes": 895
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_RTSP_SERVER_CSEQ.3.gz",
+        "path_type": "hardlink",
+        "sha256": "dd54b01ff4b038cb4fa8d94a62a38d99fb5bafc0fe421e8bc3ad960c259dfb93",
+        "sha256_in_prefix": "dd54b01ff4b038cb4fa8d94a62a38d99fb5bafc0fe421e8bc3ad960c259dfb93",
+        "size_in_bytes": 930
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_RTSP_SESSION_ID.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a9226f36bc76d55c097617ed5db654149debafd7b791bbc8035d22214017266b",
+        "sha256_in_prefix": "a9226f36bc76d55c097617ed5db654149debafd7b791bbc8035d22214017266b",
+        "size_in_bytes": 971
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_SIZE_DOWNLOAD.3.gz",
+        "path_type": "hardlink",
+        "sha256": "ea8a1a4b74fa7a6f870e18e5b17ed50ebf2665ce5840c875b0ef70f86ff0b993",
+        "sha256_in_prefix": "ea8a1a4b74fa7a6f870e18e5b17ed50ebf2665ce5840c875b0ef70f86ff0b993",
+        "size_in_bytes": 943
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_SIZE_UPLOAD.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5679e5921bc0a69102624a6ce138c4564aa0a7ba00ca5aef01922ccf01f13d34",
+        "sha256_in_prefix": "5679e5921bc0a69102624a6ce138c4564aa0a7ba00ca5aef01922ccf01f13d34",
+        "size_in_bytes": 816
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_SPEED_DOWNLOAD.3.gz",
+        "path_type": "hardlink",
+        "sha256": "20f5284fbbf05970d1e84cebcef24846b9ea3863104ce562846d75ba260af5b4",
+        "sha256_in_prefix": "20f5284fbbf05970d1e84cebcef24846b9ea3863104ce562846d75ba260af5b4",
+        "size_in_bytes": 840
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_SPEED_UPLOAD.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c36653f8025fe5801af19addaef3cf12f211787b96340af62e7c610a25dc1822",
+        "sha256_in_prefix": "c36653f8025fe5801af19addaef3cf12f211787b96340af62e7c610a25dc1822",
+        "size_in_bytes": 833
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_SSL_ENGINES.3.gz",
+        "path_type": "hardlink",
+        "sha256": "aba96362b60a2b179cbc2ca072485eb8bad35b27bdeedeacf81fea6b32e7554b",
+        "sha256_in_prefix": "aba96362b60a2b179cbc2ca072485eb8bad35b27bdeedeacf81fea6b32e7554b",
+        "size_in_bytes": 1016
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_SSL_VERIFYRESULT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "e8dbe9d566082cb2a53798c3c7e66582e3bd20e38dd1639740ea67f8cf8fb750",
+        "sha256_in_prefix": "e8dbe9d566082cb2a53798c3c7e66582e3bd20e38dd1639740ea67f8cf8fb750",
+        "size_in_bytes": 848
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_STARTTRANSFER_TIME.3.gz",
+        "path_type": "hardlink",
+        "sha256": "61d58767fd6b011777bc4ea27ebbe5e901d622bf6a6edb9e73ae6540dcb24d59",
+        "sha256_in_prefix": "61d58767fd6b011777bc4ea27ebbe5e901d622bf6a6edb9e73ae6540dcb24d59",
+        "size_in_bytes": 915
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_TLS_SESSION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "579fd666efbb83c14e424ceb80039dfd5e08d49995418fe815315795df277e0a",
+        "sha256_in_prefix": "579fd666efbb83c14e424ceb80039dfd5e08d49995418fe815315795df277e0a",
+        "size_in_bytes": 1140
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_TLS_SSL_PTR.3.gz",
+        "path_type": "hardlink",
+        "sha256": "52f341cbf1187306f7c03b778025e198aee512b05c3421bc3febe09b2e8353b6",
+        "sha256_in_prefix": "52f341cbf1187306f7c03b778025e198aee512b05c3421bc3febe09b2e8353b6",
+        "size_in_bytes": 2412
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLINFO_TOTAL_TIME.3.gz",
+        "path_type": "hardlink",
+        "sha256": "009152065bc14ed872e8e26d162eede6c6631d40eb895c46681b21fe78b6146c",
+        "sha256_in_prefix": "009152065bc14ed872e8e26d162eede6c6631d40eb895c46681b21fe78b6146c",
+        "size_in_bytes": 898
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLMOPT_CHUNK_LENGTH_PENALTY_SIZE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "3a4539a1102952407ded7dd9b6cfed005f2227a21a097a008186effcc7b4cfa2",
+        "sha256_in_prefix": "3a4539a1102952407ded7dd9b6cfed005f2227a21a097a008186effcc7b4cfa2",
+        "size_in_bytes": 1020
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLMOPT_CONTENT_LENGTH_PENALTY_SIZE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "bf1fa5aa716d1bbe65daa4492ecf5f50c5b0c8b86aca8aa3d8962b100f633551",
+        "sha256_in_prefix": "bf1fa5aa716d1bbe65daa4492ecf5f50c5b0c8b86aca8aa3d8962b100f633551",
+        "size_in_bytes": 1000
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLMOPT_MAXCONNECTS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "34bfe58b2d09ec066c7c2a1659c2e123d18bd7b7da9f66b24e1aba8deceb93bb",
+        "sha256_in_prefix": "34bfe58b2d09ec066c7c2a1659c2e123d18bd7b7da9f66b24e1aba8deceb93bb",
+        "size_in_bytes": 1140
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLMOPT_MAX_HOST_CONNECTIONS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "44f10e840bc12f5be13d225d8ae39e74e9f193fc4db63e0736bfdcaa54da42d6",
+        "sha256_in_prefix": "44f10e840bc12f5be13d225d8ae39e74e9f193fc4db63e0736bfdcaa54da42d6",
+        "size_in_bytes": 1197
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLMOPT_MAX_PIPELINE_LENGTH.3.gz",
+        "path_type": "hardlink",
+        "sha256": "ff1d5900731032bf0c07970b2854f61839f55dd93f86e6a48b373c21652c3843",
+        "sha256_in_prefix": "ff1d5900731032bf0c07970b2854f61839f55dd93f86e6a48b373c21652c3843",
+        "size_in_bytes": 1007
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLMOPT_MAX_TOTAL_CONNECTIONS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "efe064b2276a59185bbd0889e517c14d11fd52d5836cca1b2932fae464f3a700",
+        "sha256_in_prefix": "efe064b2276a59185bbd0889e517c14d11fd52d5836cca1b2932fae464f3a700",
+        "size_in_bytes": 1057
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLMOPT_PIPELINING.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8f939bcbd6da93608a1aa86d71d650a37b2bac040591a53b56794f2eafe7a5dc",
+        "sha256_in_prefix": "8f939bcbd6da93608a1aa86d71d650a37b2bac040591a53b56794f2eafe7a5dc",
+        "size_in_bytes": 1341
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLMOPT_PIPELINING_SERVER_BL.3.gz",
+        "path_type": "hardlink",
+        "sha256": "3a194678254a434b896551a82f6b4f4da6e1bd8a1c4849a7b6daf7cebcdaf41e",
+        "sha256_in_prefix": "3a194678254a434b896551a82f6b4f4da6e1bd8a1c4849a7b6daf7cebcdaf41e",
+        "size_in_bytes": 1115
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLMOPT_PIPELINING_SITE_BL.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6aaff9d0b3a61784c293ecd3efaabaf3b70dae5082aafa8e447814e7883d3338",
+        "sha256_in_prefix": "6aaff9d0b3a61784c293ecd3efaabaf3b70dae5082aafa8e447814e7883d3338",
+        "size_in_bytes": 998
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLMOPT_PUSHDATA.3.gz",
+        "path_type": "hardlink",
+        "sha256": "905c0f16d3adc5b8e99047b2ccf25af1b543e489c1476f9ac1906a345a1923c5",
+        "sha256_in_prefix": "905c0f16d3adc5b8e99047b2ccf25af1b543e489c1476f9ac1906a345a1923c5",
+        "size_in_bytes": 902
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLMOPT_PUSHFUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "d685f07d1a4080bf121abe6310965f1b95f4acb8352b3e542d6a75c02f609f60",
+        "sha256_in_prefix": "d685f07d1a4080bf121abe6310965f1b95f4acb8352b3e542d6a75c02f609f60",
+        "size_in_bytes": 2166
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLMOPT_SOCKETDATA.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8230d4d92ced2ea33a17075cd12cbc16fb1330385ad2862127bfd03c36400659",
+        "sha256_in_prefix": "8230d4d92ced2ea33a17075cd12cbc16fb1330385ad2862127bfd03c36400659",
+        "size_in_bytes": 875
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLMOPT_SOCKETFUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "55ccb8f9d3d3397ab81079f81b3861d55aeed91bb3d8438c972ac9475f3c195d",
+        "sha256_in_prefix": "55ccb8f9d3d3397ab81079f81b3861d55aeed91bb3d8438c972ac9475f3c195d",
+        "size_in_bytes": 1147
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLMOPT_TIMERDATA.3.gz",
+        "path_type": "hardlink",
+        "sha256": "54fd1fa3adee783b26fdfd2dd38ac62d41e5a86dd94bfeb6d2a8bd8379dcba8b",
+        "sha256_in_prefix": "54fd1fa3adee783b26fdfd2dd38ac62d41e5a86dd94bfeb6d2a8bd8379dcba8b",
+        "size_in_bytes": 894
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLMOPT_TIMERFUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "3e407e9d63d71686e641424b7937176c58762ed0d166d1523876f746fb97c53d",
+        "sha256_in_prefix": "3e407e9d63d71686e641424b7937176c58762ed0d166d1523876f746fb97c53d",
+        "size_in_bytes": 1529
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_ACCEPTTIMEOUT_MS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9293a8d5aaa29f50d7b410d143ad6dd1a8bfa6aec179f542aed0e3f2ec7f3589",
+        "sha256_in_prefix": "9293a8d5aaa29f50d7b410d143ad6dd1a8bfa6aec179f542aed0e3f2ec7f3589",
+        "size_in_bytes": 987
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_ACCEPT_ENCODING.3.gz",
+        "path_type": "hardlink",
+        "sha256": "d22fd975dcf79a3586e2761df776e6c0310e0fcd748f7884d1024cd0cc3f2380",
+        "sha256_in_prefix": "d22fd975dcf79a3586e2761df776e6c0310e0fcd748f7884d1024cd0cc3f2380",
+        "size_in_bytes": 1411
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_ADDRESS_SCOPE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "bc183b12a9b67bf1edfb8e23c46c0cae782665b5315ff8fba53deed8d9509bd3",
+        "sha256_in_prefix": "bc183b12a9b67bf1edfb8e23c46c0cae782665b5315ff8fba53deed8d9509bd3",
+        "size_in_bytes": 852
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_APPEND.3.gz",
+        "path_type": "hardlink",
+        "sha256": "07f46068f0eb77456a96e6c71de53f832699c18dbe0deb152a54ad1c402c6f4c",
+        "sha256_in_prefix": "07f46068f0eb77456a96e6c71de53f832699c18dbe0deb152a54ad1c402c6f4c",
+        "size_in_bytes": 982
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_AUTOREFERER.3.gz",
+        "path_type": "hardlink",
+        "sha256": "41d847f60eb40c104024173149d4200bca6f15bc6da676f920ae44394efd3739",
+        "sha256_in_prefix": "41d847f60eb40c104024173149d4200bca6f15bc6da676f920ae44394efd3739",
+        "size_in_bytes": 878
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_BUFFERSIZE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "64df58dc0935f040e78593c2169c54e42032b2483b7752509b091b2633e6ce15",
+        "sha256_in_prefix": "64df58dc0935f040e78593c2169c54e42032b2483b7752509b091b2633e6ce15",
+        "size_in_bytes": 1040
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_CAINFO.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6734c703ce83a521ed2dd65bd3bf976e081bf4d8345417313f0462854a757346",
+        "sha256_in_prefix": "6734c703ce83a521ed2dd65bd3bf976e081bf4d8345417313f0462854a757346",
+        "size_in_bytes": 1214
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_CAPATH.3.gz",
+        "path_type": "hardlink",
+        "sha256": "b716008b312626cc8da4e2459343dca0cf3d771a46f7866a30a365266f1bffb6",
+        "sha256_in_prefix": "b716008b312626cc8da4e2459343dca0cf3d771a46f7866a30a365266f1bffb6",
+        "size_in_bytes": 1160
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_CERTINFO.3.gz",
+        "path_type": "hardlink",
+        "sha256": "294a500989008a9f4dce41a19da82d86be380c2403f8a02ba7a2f4bf0fa6521a",
+        "sha256_in_prefix": "294a500989008a9f4dce41a19da82d86be380c2403f8a02ba7a2f4bf0fa6521a",
+        "size_in_bytes": 980
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_CHUNK_BGN_FUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "791cf6fe79e5180116932b926c87e88b27b047f5b93179d1730c7da668c8c437",
+        "sha256_in_prefix": "791cf6fe79e5180116932b926c87e88b27b047f5b93179d1730c7da668c8c437",
+        "size_in_bytes": 1306
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_CHUNK_DATA.3.gz",
+        "path_type": "hardlink",
+        "sha256": "7dcbff4935c88f5929c93469ba1bd4729efa36ab29912925c4471ecbc7054297",
+        "sha256_in_prefix": "7dcbff4935c88f5929c93469ba1bd4729efa36ab29912925c4471ecbc7054297",
+        "size_in_bytes": 876
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_CHUNK_END_FUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "3959ffba9eaa3f81920c8b7ef9b113d6c2ac69fa7c8a171b8b5f290fd3e359fa",
+        "sha256_in_prefix": "3959ffba9eaa3f81920c8b7ef9b113d6c2ac69fa7c8a171b8b5f290fd3e359fa",
+        "size_in_bytes": 1005
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_CLOSESOCKETDATA.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a6ebb7935165c1d5c08fd03f38f5f06e083d3dab45d68445c6597bc0dd4c0f1a",
+        "sha256_in_prefix": "a6ebb7935165c1d5c08fd03f38f5f06e083d3dab45d68445c6597bc0dd4c0f1a",
+        "size_in_bytes": 901
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_CLOSESOCKETFUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a2160fcd6f05061ef7066452efe1c8c484af841304881c780f099123cac9bc30",
+        "sha256_in_prefix": "a2160fcd6f05061ef7066452efe1c8c484af841304881c780f099123cac9bc30",
+        "size_in_bytes": 1079
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_CONNECTTIMEOUT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "0b6fb6f0c76aadab7e4ecee1be8b0bbf45b3e4f41fe3038d8681c97f75f95faa",
+        "sha256_in_prefix": "0b6fb6f0c76aadab7e4ecee1be8b0bbf45b3e4f41fe3038d8681c97f75f95faa",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_CONNECTTIMEOUT_MS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4fd5c7a20f03c08a82fe88a9eef676b82bc55c8aa17c838bd0d72d4883a9f31f",
+        "sha256_in_prefix": "4fd5c7a20f03c08a82fe88a9eef676b82bc55c8aa17c838bd0d72d4883a9f31f",
+        "size_in_bytes": 1063
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_CONNECT_ONLY.3.gz",
+        "path_type": "hardlink",
+        "sha256": "bd2be44078b45f39810aadc193a3f67d4f330a2d63a24b75850722ae90c72b9f",
+        "sha256_in_prefix": "bd2be44078b45f39810aadc193a3f67d4f330a2d63a24b75850722ae90c72b9f",
+        "size_in_bytes": 1050
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_CONV_FROM_NETWORK_FUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "2c07bc3ef7bebc8e537112e16c6d1231837d331305a0223a6e8e918beea4bad5",
+        "sha256_in_prefix": "2c07bc3ef7bebc8e537112e16c6d1231837d331305a0223a6e8e918beea4bad5",
+        "size_in_bytes": 1519
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_CONV_FROM_UTF8_FUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "94481c2830f0df38083022e2062f2be73395a5abb8478e7d0d5c9bbbdcd717de",
+        "sha256_in_prefix": "94481c2830f0df38083022e2062f2be73395a5abb8478e7d0d5c9bbbdcd717de",
+        "size_in_bytes": 1505
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_CONV_TO_NETWORK_FUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "e540614656622f0a55422480fd197a72a6e2f7a17f7aef9f5e931e88920b67e0",
+        "sha256_in_prefix": "e540614656622f0a55422480fd197a72a6e2f7a17f7aef9f5e931e88920b67e0",
+        "size_in_bytes": 1517
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_COOKIE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "35fd229e1a357cd90e327c33759ed90632aa842d1e45fa96697e5cd54d03570c",
+        "sha256_in_prefix": "35fd229e1a357cd90e327c33759ed90632aa842d1e45fa96697e5cd54d03570c",
+        "size_in_bytes": 1507
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_COOKIEFILE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c99056a5dd2e940306841597c6224f2d7da5d481c90c392a6dcb16e133a83f76",
+        "sha256_in_prefix": "c99056a5dd2e940306841597c6224f2d7da5d481c90c392a6dcb16e133a83f76",
+        "size_in_bytes": 1376
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_COOKIEJAR.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a0aac38503055174c6aca1263a63deab247a414e6d8cc60baac0d3471e1a31c2",
+        "sha256_in_prefix": "a0aac38503055174c6aca1263a63deab247a414e6d8cc60baac0d3471e1a31c2",
+        "size_in_bytes": 1298
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_COOKIELIST.3.gz",
+        "path_type": "hardlink",
+        "sha256": "75ded8d15f445b965e5462276caef303284db49de8844a9fac16c1c1a816d97c",
+        "sha256_in_prefix": "75ded8d15f445b965e5462276caef303284db49de8844a9fac16c1c1a816d97c",
+        "size_in_bytes": 2020
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_COOKIESESSION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "86a4e16f04f0638eef389dc5f4427f91d4d054727a25a0a76d3a8d98baf59d0c",
+        "sha256_in_prefix": "86a4e16f04f0638eef389dc5f4427f91d4d054727a25a0a76d3a8d98baf59d0c",
+        "size_in_bytes": 976
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_COPYPOSTFIELDS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f23baaf254611f69f197a07f4f61d43d3b82b2b131acf12c1e4685508091dc10",
+        "sha256_in_prefix": "f23baaf254611f69f197a07f4f61d43d3b82b2b131acf12c1e4685508091dc10",
+        "size_in_bytes": 1309
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_CRLF.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4f253060d58144a5edbced087ca3320cb43b8f5c86f138571d2a31d5f4fb7b2d",
+        "sha256_in_prefix": "4f253060d58144a5edbced087ca3320cb43b8f5c86f138571d2a31d5f4fb7b2d",
+        "size_in_bytes": 891
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_CRLFILE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "da04ad2877b8d54d875cc0d6213a4fa6ab46988d3d3929025198c6ea205025dd",
+        "sha256_in_prefix": "da04ad2877b8d54d875cc0d6213a4fa6ab46988d3d3929025198c6ea205025dd",
+        "size_in_bytes": 1277
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_CUSTOMREQUEST.3.gz",
+        "path_type": "hardlink",
+        "sha256": "90bd30a7dc537fefc33f20d388f8828b1e90c28df90a625217159d4948c5de62",
+        "sha256_in_prefix": "90bd30a7dc537fefc33f20d388f8828b1e90c28df90a625217159d4948c5de62",
+        "size_in_bytes": 1738
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_DEBUGDATA.3.gz",
+        "path_type": "hardlink",
+        "sha256": "cf53df5ea5b51a6cb6c9b028b2307ddd3ea9af7fa46739ba5b9f17a176fa92bc",
+        "sha256_in_prefix": "cf53df5ea5b51a6cb6c9b028b2307ddd3ea9af7fa46739ba5b9f17a176fa92bc",
+        "size_in_bytes": 847
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_DEBUGFUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "95d8b1e677fa1c7f3fda962dcde68d0896b86f36913ac69c36967754b4211288",
+        "sha256_in_prefix": "95d8b1e677fa1c7f3fda962dcde68d0896b86f36913ac69c36967754b4211288",
+        "size_in_bytes": 2063
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_DEFAULT_PROTOCOL.3.gz",
+        "path_type": "hardlink",
+        "sha256": "75e99e8a43b621b5c1b055169da015d7d718682f07cdbfea9c8a377aa1b7c5dd",
+        "sha256_in_prefix": "75e99e8a43b621b5c1b055169da015d7d718682f07cdbfea9c8a377aa1b7c5dd",
+        "size_in_bytes": 1313
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_DIRLISTONLY.3.gz",
+        "path_type": "hardlink",
+        "sha256": "0c3b5a2a71708c6ed644d394ee08e9e9be6bbc30938e712c14017ee1faf8b16c",
+        "sha256_in_prefix": "0c3b5a2a71708c6ed644d394ee08e9e9be6bbc30938e712c14017ee1faf8b16c",
+        "size_in_bytes": 1292
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_DNS_CACHE_TIMEOUT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9501ef8ac20855aa4f72b7b3083bb78f306e6a09947f1ac481d7d623a2d6f7fc",
+        "sha256_in_prefix": "9501ef8ac20855aa4f72b7b3083bb78f306e6a09947f1ac481d7d623a2d6f7fc",
+        "size_in_bytes": 1190
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_DNS_INTERFACE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "49ef3d67eee65effbe9c086eb63add5b7e06f005a31a5f0a24105d3c767f01f2",
+        "sha256_in_prefix": "49ef3d67eee65effbe9c086eb63add5b7e06f005a31a5f0a24105d3c767f01f2",
+        "size_in_bytes": 1005
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_DNS_LOCAL_IP4.3.gz",
+        "path_type": "hardlink",
+        "sha256": "74dec10243684433af629de15e915f5514cc7e0e429d4a079c8d44703f5d5beb",
+        "sha256_in_prefix": "74dec10243684433af629de15e915f5514cc7e0e429d4a079c8d44703f5d5beb",
+        "size_in_bytes": 1047
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_DNS_LOCAL_IP6.3.gz",
+        "path_type": "hardlink",
+        "sha256": "17e39280d5b53e44fe68edbb8385d33418f293a8adfff373c82dc9e22110d59b",
+        "sha256_in_prefix": "17e39280d5b53e44fe68edbb8385d33418f293a8adfff373c82dc9e22110d59b",
+        "size_in_bytes": 1041
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_DNS_SERVERS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "307f077e2faa6e8a910edee7c0f5b22ffdc8454143cabf3508b90fa566fdd3ea",
+        "sha256_in_prefix": "307f077e2faa6e8a910edee7c0f5b22ffdc8454143cabf3508b90fa566fdd3ea",
+        "size_in_bytes": 1091
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_DNS_USE_GLOBAL_CACHE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "b03771ce557f59959afe757aa70bca8aade6eb577eb71e20b7925968614f0dd4",
+        "sha256_in_prefix": "b03771ce557f59959afe757aa70bca8aade6eb577eb71e20b7925968614f0dd4",
+        "size_in_bytes": 1010
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_EGDSOCKET.3.gz",
+        "path_type": "hardlink",
+        "sha256": "7999ee2bbacbeff7ab743b0c5580eda7fddd799f283c3a579863332f0630154a",
+        "sha256_in_prefix": "7999ee2bbacbeff7ab743b0c5580eda7fddd799f283c3a579863332f0630154a",
+        "size_in_bytes": 952
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_ERRORBUFFER.3.gz",
+        "path_type": "hardlink",
+        "sha256": "00b8a1bba6174e26d197c9ee5a54d4fe0d4d6764cf9c35747ae97639623f4bda",
+        "sha256_in_prefix": "00b8a1bba6174e26d197c9ee5a54d4fe0d4d6764cf9c35747ae97639623f4bda",
+        "size_in_bytes": 1531
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_EXPECT_100_TIMEOUT_MS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "50f911fe6337e7f83c66acc7edb8ad4b088bfc37f521e0423b76f81766d6c9c3",
+        "sha256_in_prefix": "50f911fe6337e7f83c66acc7edb8ad4b088bfc37f521e0423b76f81766d6c9c3",
+        "size_in_bytes": 972
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_FAILONERROR.3.gz",
+        "path_type": "hardlink",
+        "sha256": "3472a8965786d6420167cab0a3d4261895623facef9892c3594e3f02289a79ad",
+        "sha256_in_prefix": "3472a8965786d6420167cab0a3d4261895623facef9892c3594e3f02289a79ad",
+        "size_in_bytes": 1150
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_FILETIME.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8c28e6a89b4b18972832520940a99671ce0c0b6c9ede84ddea14536f4ed138d6",
+        "sha256_in_prefix": "8c28e6a89b4b18972832520940a99671ce0c0b6c9ede84ddea14536f4ed138d6",
+        "size_in_bytes": 921
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_FNMATCH_DATA.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6faa154dab79557b7a488fccc4f6c5ec6106240434484ef49e33f93348d3de87",
+        "sha256_in_prefix": "6faa154dab79557b7a488fccc4f6c5ec6106240434484ef49e33f93348d3de87",
+        "size_in_bytes": 865
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_FNMATCH_FUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5c1608db0712f75f0c3f547ebaf88b78a4ce7198f38524e79c8c33c294d10897",
+        "sha256_in_prefix": "5c1608db0712f75f0c3f547ebaf88b78a4ce7198f38524e79c8c33c294d10897",
+        "size_in_bytes": 973
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_FOLLOWLOCATION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8f57c3c1cb02562532e82a4651cdb49eba3d5f769812c7eeb538bf437593ad45",
+        "sha256_in_prefix": "8f57c3c1cb02562532e82a4651cdb49eba3d5f769812c7eeb538bf437593ad45",
+        "size_in_bytes": 1554
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_FORBID_REUSE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "0b2b9e9bbca97f72fc3e8f5a02bfab421e147931f9e4e93a9d3b780a9452112b",
+        "sha256_in_prefix": "0b2b9e9bbca97f72fc3e8f5a02bfab421e147931f9e4e93a9d3b780a9452112b",
+        "size_in_bytes": 990
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_FRESH_CONNECT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "139beaf05650abc4220076e90163881bbb5bb8eb8310b363c77d54062d7d36e1",
+        "sha256_in_prefix": "139beaf05650abc4220076e90163881bbb5bb8eb8310b363c77d54062d7d36e1",
+        "size_in_bytes": 987
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_FTPPORT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9993f1983924853132ead81d41eed360f1062fb65f20ecb9e5d797c134017315",
+        "sha256_in_prefix": "9993f1983924853132ead81d41eed360f1062fb65f20ecb9e5d797c134017315",
+        "size_in_bytes": 1416
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_FTPSSLAUTH.3.gz",
+        "path_type": "hardlink",
+        "sha256": "0f71454477530635b83c327132edacaa463625b96793a3897ec37160fd0bc4a1",
+        "sha256_in_prefix": "0f71454477530635b83c327132edacaa463625b96793a3897ec37160fd0bc4a1",
+        "size_in_bytes": 984
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_FTP_ACCOUNT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "59490c40eee001dd57aa7efe156c6cf7673731b971cf494dbb5cadcf259b5846",
+        "sha256_in_prefix": "59490c40eee001dd57aa7efe156c6cf7673731b971cf494dbb5cadcf259b5846",
+        "size_in_bytes": 934
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_FTP_ALTERNATIVE_TO_USER.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4a3b9468a842629bc4ad96a3190b4a1fef9ff127fad418e1a520b8c4d5f69100",
+        "sha256_in_prefix": "4a3b9468a842629bc4ad96a3190b4a1fef9ff127fad418e1a520b8c4d5f69100",
+        "size_in_bytes": 1023
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_FTP_CREATE_MISSING_DIRS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "1b2e467d4f2ac90d35b5aae0269c51b808cbbced3f4b7926a3670b647119ea24",
+        "sha256_in_prefix": "1b2e467d4f2ac90d35b5aae0269c51b808cbbced3f4b7926a3670b647119ea24",
+        "size_in_bytes": 1320
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_FTP_FILEMETHOD.3.gz",
+        "path_type": "hardlink",
+        "sha256": "3c97f67c307ea32a34a5cec2c199a6f87e4f4d8084bef222d3785f7748651399",
+        "sha256_in_prefix": "3c97f67c307ea32a34a5cec2c199a6f87e4f4d8084bef222d3785f7748651399",
+        "size_in_bytes": 1249
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_FTP_RESPONSE_TIMEOUT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "e12096cd2b90831f5af77a49cc2f8a2ab2b59afefda018d844eca4f1c5d9bcb7",
+        "sha256_in_prefix": "e12096cd2b90831f5af77a49cc2f8a2ab2b59afefda018d844eca4f1c5d9bcb7",
+        "size_in_bytes": 1023
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_FTP_SKIP_PASV_IP.3.gz",
+        "path_type": "hardlink",
+        "sha256": "b555d23d986fd531752e4b9e3ec8f9ad17b8a48f234e89eed966e151af4b6680",
+        "sha256_in_prefix": "b555d23d986fd531752e4b9e3ec8f9ad17b8a48f234e89eed966e151af4b6680",
+        "size_in_bytes": 1070
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_FTP_SSL_CCC.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9d9bd27c4a9b972871f1b85f40a78eb5fc4bef1145d7a2d65dcc09203751be60",
+        "sha256_in_prefix": "9d9bd27c4a9b972871f1b85f40a78eb5fc4bef1145d7a2d65dcc09203751be60",
+        "size_in_bytes": 1054
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_FTP_USE_EPRT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c6b681c4bcce15715482d43ac487c8065aad3c5d206ce0efaede7ebeacd172c9",
+        "sha256_in_prefix": "c6b681c4bcce15715482d43ac487c8065aad3c5d206ce0efaede7ebeacd172c9",
+        "size_in_bytes": 949
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_FTP_USE_EPSV.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f09bf3fc49886c6d5e13287ec939b40f294320390b71cd9e848deae9ba66d585",
+        "sha256_in_prefix": "f09bf3fc49886c6d5e13287ec939b40f294320390b71cd9e848deae9ba66d585",
+        "size_in_bytes": 975
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_FTP_USE_PRET.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5fa0da50200decf0ea0841be74bad29f74843ec556bda8ee3f3c3f1a12438299",
+        "sha256_in_prefix": "5fa0da50200decf0ea0841be74bad29f74843ec556bda8ee3f3c3f1a12438299",
+        "size_in_bytes": 933
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_GSSAPI_DELEGATION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c2643e603b709b3d929357fa17f87cdc087b99663cc9536499d1f767d81da337",
+        "sha256_in_prefix": "c2643e603b709b3d929357fa17f87cdc087b99663cc9536499d1f767d81da337",
+        "size_in_bytes": 992
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_HEADER.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f0d4b6f9614f2146c068bbeba91fa189140eb763977111bf256d127b782f716b",
+        "sha256_in_prefix": "f0d4b6f9614f2146c068bbeba91fa189140eb763977111bf256d127b782f716b",
+        "size_in_bytes": 1101
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_HEADERDATA.3.gz",
+        "path_type": "hardlink",
+        "sha256": "3987064c69d80210db92bf54a0841807d0745ae11bf25d8f70e26805cf4494f3",
+        "sha256_in_prefix": "3987064c69d80210db92bf54a0841807d0745ae11bf25d8f70e26805cf4494f3",
+        "size_in_bytes": 896
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_HEADERFUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "533afa602684728f24dbf9e2230522741a381dd2513b66d505828ea6789162b9",
+        "sha256_in_prefix": "533afa602684728f24dbf9e2230522741a381dd2513b66d505828ea6789162b9",
+        "size_in_bytes": 2033
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_HEADEROPT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "ca60f22cadfacb50e5e55d9457922b9f27568a0887996818e1380248490f1334",
+        "sha256_in_prefix": "ca60f22cadfacb50e5e55d9457922b9f27568a0887996818e1380248490f1334",
+        "size_in_bytes": 1116
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_HTTP200ALIASES.3.gz",
+        "path_type": "hardlink",
+        "sha256": "fcfb1d2340785eafec855ac1daf90731c376ef965c653c5a0bfb4be445ba9aa0",
+        "sha256_in_prefix": "fcfb1d2340785eafec855ac1daf90731c376ef965c653c5a0bfb4be445ba9aa0",
+        "size_in_bytes": 1179
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_HTTPAUTH.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f2e4f51e864eb42d1fbef8d1300ecd9c300f8a7ab7b02f89c44376769e075103",
+        "sha256_in_prefix": "f2e4f51e864eb42d1fbef8d1300ecd9c300f8a7ab7b02f89c44376769e075103",
+        "size_in_bytes": 2281
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_HTTPGET.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c1a481faf0917d09ac4c58c6d36ffa005b7922598bd47ede2c65bbcd78590679",
+        "sha256_in_prefix": "c1a481faf0917d09ac4c58c6d36ffa005b7922598bd47ede2c65bbcd78590679",
+        "size_in_bytes": 1025
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_HTTPHEADER.3.gz",
+        "path_type": "hardlink",
+        "sha256": "2dd4bb7f2fb2bcf48b16e42ba6df937e9bd4fe1d16a23be230a650d9b8b1ded5",
+        "sha256_in_prefix": "2dd4bb7f2fb2bcf48b16e42ba6df937e9bd4fe1d16a23be230a650d9b8b1ded5",
+        "size_in_bytes": 2066
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_HTTPPOST.3.gz",
+        "path_type": "hardlink",
+        "sha256": "e05295a2668a85339f991460c806fe1097effd2a4d5fbe96516b83e24ec882ef",
+        "sha256_in_prefix": "e05295a2668a85339f991460c806fe1097effd2a4d5fbe96516b83e24ec882ef",
+        "size_in_bytes": 1307
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_HTTPPROXYTUNNEL.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a91007b774fbdfc0f1af2a2562052d43c52e7f629e16306734bccdaa9709a4cb",
+        "sha256_in_prefix": "a91007b774fbdfc0f1af2a2562052d43c52e7f629e16306734bccdaa9709a4cb",
+        "size_in_bytes": 1070
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_HTTP_CONTENT_DECODING.3.gz",
+        "path_type": "hardlink",
+        "sha256": "defd383745eeedbab9ba6915a4e0f0257c0d072054597c622ed9713d9a3c57c5",
+        "sha256_in_prefix": "defd383745eeedbab9ba6915a4e0f0257c0d072054597c622ed9713d9a3c57c5",
+        "size_in_bytes": 924
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_HTTP_TRANSFER_DECODING.3.gz",
+        "path_type": "hardlink",
+        "sha256": "36a675069bc86709723ff5751081e7b8715d2477bd7c342d4da4d7e678da3be2",
+        "sha256_in_prefix": "36a675069bc86709723ff5751081e7b8715d2477bd7c342d4da4d7e678da3be2",
+        "size_in_bytes": 907
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_HTTP_VERSION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4c8fb28892a9e5e109874f691253d059bde03f70e9cc11f92dcd0cc8f033780b",
+        "sha256_in_prefix": "4c8fb28892a9e5e109874f691253d059bde03f70e9cc11f92dcd0cc8f033780b",
+        "size_in_bytes": 1248
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_IGNORE_CONTENT_LENGTH.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a72dcef33c96dc093f756284b602aea797cec84b7dff721f307156905f4b2b59",
+        "sha256_in_prefix": "a72dcef33c96dc093f756284b602aea797cec84b7dff721f307156905f4b2b59",
+        "size_in_bytes": 1234
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_INFILESIZE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a1d3d4491976d9746e422b535b128caed19732639ba75d04a07f9e6d58315f66",
+        "sha256_in_prefix": "a1d3d4491976d9746e422b535b128caed19732639ba75d04a07f9e6d58315f66",
+        "size_in_bytes": 1236
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_INFILESIZE_LARGE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "1f252d0b55c11c831cbbb4404b3104c39548faeaca514d47a38d19c1edd9183f",
+        "sha256_in_prefix": "1f252d0b55c11c831cbbb4404b3104c39548faeaca514d47a38d19c1edd9183f",
+        "size_in_bytes": 1224
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_INTERFACE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "44a51fd6524d77eee4956ee311ccda861910a38e9ae358ce94c58d3e41ffa7af",
+        "sha256_in_prefix": "44a51fd6524d77eee4956ee311ccda861910a38e9ae358ce94c58d3e41ffa7af",
+        "size_in_bytes": 1200
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_INTERLEAVEDATA.3.gz",
+        "path_type": "hardlink",
+        "sha256": "49285ea3f956b16bd82eca0a8294d3ceb0f21b75557b03311167fb91969309d3",
+        "sha256_in_prefix": "49285ea3f956b16bd82eca0a8294d3ceb0f21b75557b03311167fb91969309d3",
+        "size_in_bytes": 860
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_INTERLEAVEFUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "fa612a6ea6905984aaca9f63c5c336ab4de7d544a758717004f5be26ad72619c",
+        "sha256_in_prefix": "fa612a6ea6905984aaca9f63c5c336ab4de7d544a758717004f5be26ad72619c",
+        "size_in_bytes": 1476
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_IOCTLDATA.3.gz",
+        "path_type": "hardlink",
+        "sha256": "56c1fcf90286d41fa0398c76dd47092a61b6e3b606daa4455ad81939abebeb35",
+        "sha256_in_prefix": "56c1fcf90286d41fa0398c76dd47092a61b6e3b606daa4455ad81939abebeb35",
+        "size_in_bytes": 888
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_IOCTLFUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "ed8f9e9f8115ad267a2c402d5c3181b206cb724a518448f0702d1866a17c95da",
+        "sha256_in_prefix": "ed8f9e9f8115ad267a2c402d5c3181b206cb724a518448f0702d1866a17c95da",
+        "size_in_bytes": 1377
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_IPRESOLVE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "2bd661cbbb04527a7861ee7ecee572cd129eaa295e3595ee3ec5e9d3c7b63c95",
+        "sha256_in_prefix": "2bd661cbbb04527a7861ee7ecee572cd129eaa295e3595ee3ec5e9d3c7b63c95",
+        "size_in_bytes": 930
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_ISSUERCERT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "2b81f493dd89ead3fc49d6a19fb1d081d23a506db3ec6a1029670309000fb332",
+        "sha256_in_prefix": "2b81f493dd89ead3fc49d6a19fb1d081d23a506db3ec6a1029670309000fb332",
+        "size_in_bytes": 1243
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_KEYPASSWD.3.gz",
+        "path_type": "hardlink",
+        "sha256": "d61385b1f54a63a24231456be8a7bd49f28d5e4b0afc526bff3c9722eb8b0ce7",
+        "sha256_in_prefix": "d61385b1f54a63a24231456be8a7bd49f28d5e4b0afc526bff3c9722eb8b0ce7",
+        "size_in_bytes": 1017
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_KRBLEVEL.3.gz",
+        "path_type": "hardlink",
+        "sha256": "af41ea3456cd98933d450a0fa705a5548759bc2052adfebcbd2f6fa105e55446",
+        "sha256_in_prefix": "af41ea3456cd98933d450a0fa705a5548759bc2052adfebcbd2f6fa105e55446",
+        "size_in_bytes": 996
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_LOCALPORT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5b99c8535af402788fae2eec9c744f4949f0792d84dd7abd4d6391d94a7cdc99",
+        "sha256_in_prefix": "5b99c8535af402788fae2eec9c744f4949f0792d84dd7abd4d6391d94a7cdc99",
+        "size_in_bytes": 910
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_LOCALPORTRANGE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "33f804b8b5af153f96f6c2e01e9f1470cfd38aa22f307bbafe16e2324f610047",
+        "sha256_in_prefix": "33f804b8b5af153f96f6c2e01e9f1470cfd38aa22f307bbafe16e2324f610047",
+        "size_in_bytes": 1037
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_LOGIN_OPTIONS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "936eeb35cfd857ffa150f2947d70b2d7429a2a61f5cba071c4afb4e57a5e1d20",
+        "sha256_in_prefix": "936eeb35cfd857ffa150f2947d70b2d7429a2a61f5cba071c4afb4e57a5e1d20",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_LOW_SPEED_LIMIT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9af3d0e5692c544b1f27ab1df6989c5351172baa0875212a7e45d919e819168c",
+        "sha256_in_prefix": "9af3d0e5692c544b1f27ab1df6989c5351172baa0875212a7e45d919e819168c",
+        "size_in_bytes": 863
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_LOW_SPEED_TIME.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a81a3c0702f357332559bcb89c1ce8eb76f7d22a02ee4aec3473c14a7ee93b56",
+        "sha256_in_prefix": "a81a3c0702f357332559bcb89c1ce8eb76f7d22a02ee4aec3473c14a7ee93b56",
+        "size_in_bytes": 853
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_MAIL_AUTH.3.gz",
+        "path_type": "hardlink",
+        "sha256": "3a84fa3639cc2ead92421aa6e30cc43fc38082981ff9a2905b6cd06199ee5eb0",
+        "sha256_in_prefix": "3a84fa3639cc2ead92421aa6e30cc43fc38082981ff9a2905b6cd06199ee5eb0",
+        "size_in_bytes": 1207
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_MAIL_FROM.3.gz",
+        "path_type": "hardlink",
+        "sha256": "3d66133a933983688c3916db2eb3384577a51351b6b72ae3440fe2b9c94e374e",
+        "sha256_in_prefix": "3d66133a933983688c3916db2eb3384577a51351b6b72ae3440fe2b9c94e374e",
+        "size_in_bytes": 1012
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_MAIL_RCPT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "e5194ed496ff1ea5bdd450721d7fb994935a523fb3a1a2ae1773a610e59c171d",
+        "sha256_in_prefix": "e5194ed496ff1ea5bdd450721d7fb994935a523fb3a1a2ae1773a610e59c171d",
+        "size_in_bytes": 1233
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_MAXCONNECTS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6556f5aebb9dcb83c323f1fd235f6e653573a9a28bec097e82769bec90d04cd7",
+        "sha256_in_prefix": "6556f5aebb9dcb83c323f1fd235f6e653573a9a28bec097e82769bec90d04cd7",
+        "size_in_bytes": 1156
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_MAXFILESIZE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "10c6390caca72c68678f091575c901c409a4983206ec28ad12518844e6e613ae",
+        "sha256_in_prefix": "10c6390caca72c68678f091575c901c409a4983206ec28ad12518844e6e613ae",
+        "size_in_bytes": 1015
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_MAXFILESIZE_LARGE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "21a21b62d7aaab10be0a16fe5e0014e8e46b49b0ee2c5896bd9607126651ded9",
+        "sha256_in_prefix": "21a21b62d7aaab10be0a16fe5e0014e8e46b49b0ee2c5896bd9607126651ded9",
+        "size_in_bytes": 1030
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_MAXREDIRS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6a9b8d4656de1f7c2b410059eb117882ac59b2c58545bfe2bf9478e9cf98321b",
+        "sha256_in_prefix": "6a9b8d4656de1f7c2b410059eb117882ac59b2c58545bfe2bf9478e9cf98321b",
+        "size_in_bytes": 1088
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_MAX_RECV_SPEED_LARGE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "e50b7dd3073122fcc87bcb96ed037c7b3a49564a591ccbf099b4d31bde3284f9",
+        "sha256_in_prefix": "e50b7dd3073122fcc87bcb96ed037c7b3a49564a591ccbf099b4d31bde3284f9",
+        "size_in_bytes": 991
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_MAX_SEND_SPEED_LARGE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9bf5b00383c3fbd864e1864e6e32b34ccee55afd264ec0f8f040b02e7a2e9b50",
+        "sha256_in_prefix": "9bf5b00383c3fbd864e1864e6e32b34ccee55afd264ec0f8f040b02e7a2e9b50",
+        "size_in_bytes": 1006
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_NETRC.3.gz",
+        "path_type": "hardlink",
+        "sha256": "2afc1a22c445e957f0e2c49c934a31e6b49f9af5f5b6f6669fab1cc52f8dbfa8",
+        "sha256_in_prefix": "2afc1a22c445e957f0e2c49c934a31e6b49f9af5f5b6f6669fab1cc52f8dbfa8",
+        "size_in_bytes": 1340
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_NETRC_FILE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9319678cc4c63e151678854d1423a0e4a9217eb705f22c886831c3643450d51e",
+        "sha256_in_prefix": "9319678cc4c63e151678854d1423a0e4a9217eb705f22c886831c3643450d51e",
+        "size_in_bytes": 961
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_NEW_DIRECTORY_PERMS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "0d7c8636f29fc8e3839946f17aeb06772a147f00f995c46460362167c0369ccc",
+        "sha256_in_prefix": "0d7c8636f29fc8e3839946f17aeb06772a147f00f995c46460362167c0369ccc",
+        "size_in_bytes": 959
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_NEW_FILE_PERMS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "b430a8a8ae55353a97d7f57d91f8eff47c031c18e6583e9c2e508e8d0d23ee10",
+        "sha256_in_prefix": "b430a8a8ae55353a97d7f57d91f8eff47c031c18e6583e9c2e508e8d0d23ee10",
+        "size_in_bytes": 952
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_NOBODY.3.gz",
+        "path_type": "hardlink",
+        "sha256": "2fbc4abce5a7b15cede9c8b2a93b250c4c35c81e220ec8607d3615ab444c791a",
+        "sha256_in_prefix": "2fbc4abce5a7b15cede9c8b2a93b250c4c35c81e220ec8607d3615ab444c791a",
+        "size_in_bytes": 1020
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_NOPROGRESS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "ed74c12b813169f954421fa9cd5a8325dd2f7a5eeb3268544a8a5880ce633eac",
+        "sha256_in_prefix": "ed74c12b813169f954421fa9cd5a8325dd2f7a5eeb3268544a8a5880ce633eac",
+        "size_in_bytes": 999
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_NOPROXY.3.gz",
+        "path_type": "hardlink",
+        "sha256": "7016665fee2bfdfd7654bf48dc3997cd73a663366fa7acf1dfa9eac2ac73bb86",
+        "sha256_in_prefix": "7016665fee2bfdfd7654bf48dc3997cd73a663366fa7acf1dfa9eac2ac73bb86",
+        "size_in_bytes": 1075
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_NOSIGNAL.3.gz",
+        "path_type": "hardlink",
+        "sha256": "06e6a1f2ab6da0878fbb22358b0716c0a6e48baeb3d0ec5a42f75004392e93b5",
+        "sha256_in_prefix": "06e6a1f2ab6da0878fbb22358b0716c0a6e48baeb3d0ec5a42f75004392e93b5",
+        "size_in_bytes": 1272
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_OPENSOCKETDATA.3.gz",
+        "path_type": "hardlink",
+        "sha256": "af83c13ef5d0055ea459e78a1b11ad86f75d72de288c08aa2150dd215a3aca86",
+        "sha256_in_prefix": "af83c13ef5d0055ea459e78a1b11ad86f75d72de288c08aa2150dd215a3aca86",
+        "size_in_bytes": 892
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_OPENSOCKETFUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "b0c176cb71506e28d39a8c087e8687abe39762b84644f58edbb88860607175a7",
+        "sha256_in_prefix": "b0c176cb71506e28d39a8c087e8687abe39762b84644f58edbb88860607175a7",
+        "size_in_bytes": 1687
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PASSWORD.3.gz",
+        "path_type": "hardlink",
+        "sha256": "e0be4e9777784be3dfd24565e7a9b244574ac3d318e6703d3c820296d003782e",
+        "sha256_in_prefix": "e0be4e9777784be3dfd24565e7a9b244574ac3d318e6703d3c820296d003782e",
+        "size_in_bytes": 927
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PATH_AS_IS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "31273041b4728c7e5a81d89e225dab6b946c0abce66bc6e76902cc8ed04f94e6",
+        "sha256_in_prefix": "31273041b4728c7e5a81d89e225dab6b946c0abce66bc6e76902cc8ed04f94e6",
+        "size_in_bytes": 1157
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PINNEDPUBLICKEY.3.gz",
+        "path_type": "hardlink",
+        "sha256": "fc40f2ae22d6b230c7177c38444418010d4e343e171b3e73132281a06cb3cda6",
+        "sha256_in_prefix": "fc40f2ae22d6b230c7177c38444418010d4e343e171b3e73132281a06cb3cda6",
+        "size_in_bytes": 1973
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PIPEWAIT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "10a2d8428cdea94f3bf92a7284c723ea7592b695998c08f285e5d80d8a40a49f",
+        "sha256_in_prefix": "10a2d8428cdea94f3bf92a7284c723ea7592b695998c08f285e5d80d8a40a49f",
+        "size_in_bytes": 1324
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PORT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "14339d39168361c75c778089e9fa1c99d4b004c89052dd5987f53ff9547e2873",
+        "sha256_in_prefix": "14339d39168361c75c778089e9fa1c99d4b004c89052dd5987f53ff9547e2873",
+        "size_in_bytes": 992
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_POST.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6373dc8f4ffee1d64ad1a243bc429ebb81c151f2297d72a68a488ca9931b0b94",
+        "sha256_in_prefix": "6373dc8f4ffee1d64ad1a243bc429ebb81c151f2297d72a68a488ca9931b0b94",
+        "size_in_bytes": 1528
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_POSTFIELDS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "be7bb6562f2653b1ff0a48a75771367817f3097a04766dec20c29e52e9938556",
+        "sha256_in_prefix": "be7bb6562f2653b1ff0a48a75771367817f3097a04766dec20c29e52e9938556",
+        "size_in_bytes": 1612
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_POSTFIELDSIZE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "d8812af2e934b165d217472c64ae9796f0b25c40afcdc84c8c082dc3024971a8",
+        "sha256_in_prefix": "d8812af2e934b165d217472c64ae9796f0b25c40afcdc84c8c082dc3024971a8",
+        "size_in_bytes": 1069
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_POSTFIELDSIZE_LARGE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "3b0b4e16fee8e52510b0cb50a85ed05ca1c58c831c4438f5a19a663a46a0138e",
+        "sha256_in_prefix": "3b0b4e16fee8e52510b0cb50a85ed05ca1c58c831c4438f5a19a663a46a0138e",
+        "size_in_bytes": 1082
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_POSTQUOTE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "e9127b94d0a7194f1b4cb43cac7f5af85f919bf5d9f76e3863fbbc97bc060287",
+        "sha256_in_prefix": "e9127b94d0a7194f1b4cb43cac7f5af85f919bf5d9f76e3863fbbc97bc060287",
+        "size_in_bytes": 974
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_POSTREDIR.3.gz",
+        "path_type": "hardlink",
+        "sha256": "64e7aab243c67286112022da19a7aa3a991f0b98f24dba9456fd5c194c618cfb",
+        "sha256_in_prefix": "64e7aab243c67286112022da19a7aa3a991f0b98f24dba9456fd5c194c618cfb",
+        "size_in_bytes": 1420
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PREQUOTE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "23912cd5ed48863e464abcc9c008b38b90b260c164e1fbbceb3bdb498de76d80",
+        "sha256_in_prefix": "23912cd5ed48863e464abcc9c008b38b90b260c164e1fbbceb3bdb498de76d80",
+        "size_in_bytes": 942
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PRIVATE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "844bdadac0eed97aa0b216b17edf5cbb5a7d6f154df4f37045545dd107d422a7",
+        "sha256_in_prefix": "844bdadac0eed97aa0b216b17edf5cbb5a7d6f154df4f37045545dd107d422a7",
+        "size_in_bytes": 1059
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PROGRESSDATA.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a90badf2e502a867057357d321b0f90737c4cf9b50cb9fe6669087213e473985",
+        "sha256_in_prefix": "a90badf2e502a867057357d321b0f90737c4cf9b50cb9fe6669087213e473985",
+        "size_in_bytes": 864
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PROGRESSFUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "77c07398a5eca59925e7a136bbff8ef7ac577d97133399170c0a1f921e0e04a2",
+        "sha256_in_prefix": "77c07398a5eca59925e7a136bbff8ef7ac577d97133399170c0a1f921e0e04a2",
+        "size_in_bytes": 1555
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PROTOCOLS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8d8729ce3d8b198bacbea4235410c6cacf2766172cc701db6a6bdd2b31f9d101",
+        "sha256_in_prefix": "8d8729ce3d8b198bacbea4235410c6cacf2766172cc701db6a6bdd2b31f9d101",
+        "size_in_bytes": 1228
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PROXY.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4c52af9a78340d7f81bab3b0b3192378dba74030e6113349f53d220e4c90e599",
+        "sha256_in_prefix": "4c52af9a78340d7f81bab3b0b3192378dba74030e6113349f53d220e4c90e599",
+        "size_in_bytes": 1821
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PROXYAUTH.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a1a2c1508a27c5c2eb6d87ad5c3c9342ac3a8970b81306d22f932dc45e30fe61",
+        "sha256_in_prefix": "a1a2c1508a27c5c2eb6d87ad5c3c9342ac3a8970b81306d22f932dc45e30fe61",
+        "size_in_bytes": 1112
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PROXYHEADER.3.gz",
+        "path_type": "hardlink",
+        "sha256": "bb44813308e10da83f65a19b0dfc2dfca3ffeedaea56c4092f9ff843e4b1f829",
+        "sha256_in_prefix": "bb44813308e10da83f65a19b0dfc2dfca3ffeedaea56c4092f9ff843e4b1f829",
+        "size_in_bytes": 1093
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PROXYPASSWORD.3.gz",
+        "path_type": "hardlink",
+        "sha256": "525d481bc5ba933f21015f98393a2a0879bd182534b9eb239acaff770a843747",
+        "sha256_in_prefix": "525d481bc5ba933f21015f98393a2a0879bd182534b9eb239acaff770a843747",
+        "size_in_bytes": 931
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PROXYPORT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a4774e26fca6e99a1076111458b525f7addf73b0b55da29340c0e3aecdba0771",
+        "sha256_in_prefix": "a4774e26fca6e99a1076111458b525f7addf73b0b55da29340c0e3aecdba0771",
+        "size_in_bytes": 887
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PROXYTYPE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "7e01267a307283de3195c6c923540e8f89fc9fb923049b4cad962e9b92084a19",
+        "sha256_in_prefix": "7e01267a307283de3195c6c923540e8f89fc9fb923049b4cad962e9b92084a19",
+        "size_in_bytes": 1010
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PROXYUSERNAME.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8af995dc0a0c9c58bf3137d7a2ace8bf67546c8cad1fdad20a197ee08687fa8e",
+        "sha256_in_prefix": "8af995dc0a0c9c58bf3137d7a2ace8bf67546c8cad1fdad20a197ee08687fa8e",
+        "size_in_bytes": 966
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PROXYUSERPWD.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c319d5a460cc22b678a5f6eb6b40e8a508a16a61bbe80304bccb44f1b8cb659f",
+        "sha256_in_prefix": "c319d5a460cc22b678a5f6eb6b40e8a508a16a61bbe80304bccb44f1b8cb659f",
+        "size_in_bytes": 1046
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PROXY_SERVICE_NAME.3.gz",
+        "path_type": "hardlink",
+        "sha256": "0cc62c8698a83baf2e69003cca3c2b3be0e687c55246a192348469f7259b35c5",
+        "sha256_in_prefix": "0cc62c8698a83baf2e69003cca3c2b3be0e687c55246a192348469f7259b35c5",
+        "size_in_bytes": 888
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PROXY_TRANSFER_MODE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "008d395d890b46c455d271a4281bd591d6c66f8025f698295aaa4472dfb76fc3",
+        "sha256_in_prefix": "008d395d890b46c455d271a4281bd591d6c66f8025f698295aaa4472dfb76fc3",
+        "size_in_bytes": 1014
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_PUT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "23e357bdc544a700895b3ba3f005498288085204f618ce415dab6a916622872b",
+        "sha256_in_prefix": "23e357bdc544a700895b3ba3f005498288085204f618ce415dab6a916622872b",
+        "size_in_bytes": 902
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_QUOTE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "b95672aed2ee5059b3c416a58b81ebcb785e21e5411e243e3b30bc6e2e5c7da1",
+        "sha256_in_prefix": "b95672aed2ee5059b3c416a58b81ebcb785e21e5411e243e3b30bc6e2e5c7da1",
+        "size_in_bytes": 1592
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_RANDOM_FILE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "85ff00138d731c1e985b1bdba0eafd4e27a20bfdf2df8279d70675352cbf7df0",
+        "sha256_in_prefix": "85ff00138d731c1e985b1bdba0eafd4e27a20bfdf2df8279d70675352cbf7df0",
+        "size_in_bytes": 860
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_RANGE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "81041fbbd4d19281ee6c1076f0cc4270ccbc23ceda216ff5e7906f08965eadcd",
+        "sha256_in_prefix": "81041fbbd4d19281ee6c1076f0cc4270ccbc23ceda216ff5e7906f08965eadcd",
+        "size_in_bytes": 1358
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_READDATA.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c9e16b01f9ecb65221005e78fd074b0a37fc320f408d08b99514b5204153141f",
+        "sha256_in_prefix": "c9e16b01f9ecb65221005e78fd074b0a37fc320f408d08b99514b5204153141f",
+        "size_in_bytes": 1169
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_READFUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6780ddef5210c845fb4f3f7ac67771cf4cc77c347719acc947ea1a915a34230b",
+        "sha256_in_prefix": "6780ddef5210c845fb4f3f7ac67771cf4cc77c347719acc947ea1a915a34230b",
+        "size_in_bytes": 1638
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_REDIR_PROTOCOLS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f24e29640e081f5c1c11348a565078eb4a41616c92891af521c0372473ce903b",
+        "sha256_in_prefix": "f24e29640e081f5c1c11348a565078eb4a41616c92891af521c0372473ce903b",
+        "size_in_bytes": 1342
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_REFERER.3.gz",
+        "path_type": "hardlink",
+        "sha256": "78605b678f2ee06c3ada9fa2222710deb0407042fc5b96d532e2783bf6a39658",
+        "sha256_in_prefix": "78605b678f2ee06c3ada9fa2222710deb0407042fc5b96d532e2783bf6a39658",
+        "size_in_bytes": 1067
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_RESOLVE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "387961439ff3a61428fc10f7a391cc49ff6edeeade1dde1e3533ea9735194b61",
+        "sha256_in_prefix": "387961439ff3a61428fc10f7a391cc49ff6edeeade1dde1e3533ea9735194b61",
+        "size_in_bytes": 1575
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_RESUME_FROM.3.gz",
+        "path_type": "hardlink",
+        "sha256": "22b96f283721669c9ee40c30700fab5ed749905c63bdebbecc6c7a4744b18db0",
+        "sha256_in_prefix": "22b96f283721669c9ee40c30700fab5ed749905c63bdebbecc6c7a4744b18db0",
+        "size_in_bytes": 1227
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_RESUME_FROM_LARGE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "52cc8d24459f3f073c7cf3ee28e4cfa9a59442cb7dcc458a42d79c80aafdd8c3",
+        "sha256_in_prefix": "52cc8d24459f3f073c7cf3ee28e4cfa9a59442cb7dcc458a42d79c80aafdd8c3",
+        "size_in_bytes": 1281
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_RTSP_CLIENT_CSEQ.3.gz",
+        "path_type": "hardlink",
+        "sha256": "bbd128c9df33a63a81dde592e2a23d3e0f3b42b1c85c4de829f11ed2b38950d7",
+        "sha256_in_prefix": "bbd128c9df33a63a81dde592e2a23d3e0f3b42b1c85c4de829f11ed2b38950d7",
+        "size_in_bytes": 896
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_RTSP_REQUEST.3.gz",
+        "path_type": "hardlink",
+        "sha256": "df5de2027847d5047059339e535de23731bafe12e9737ba4a16e6fd0410492dc",
+        "sha256_in_prefix": "df5de2027847d5047059339e535de23731bafe12e9737ba4a16e6fd0410492dc",
+        "size_in_bytes": 2188
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_RTSP_SERVER_CSEQ.3.gz",
+        "path_type": "hardlink",
+        "sha256": "17cdbd2e165f2a1e28c4f67ce86cd02e42816bb32cf411e01af5f6e0f0f72804",
+        "sha256_in_prefix": "17cdbd2e165f2a1e28c4f67ce86cd02e42816bb32cf411e01af5f6e0f0f72804",
+        "size_in_bytes": 878
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_RTSP_SESSION_ID.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c4caca45bf2ad5edf489d4b002385758930ad5610d1c92278cd6b4b10b3ecdf6",
+        "sha256_in_prefix": "c4caca45bf2ad5edf489d4b002385758930ad5610d1c92278cd6b4b10b3ecdf6",
+        "size_in_bytes": 1012
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_RTSP_STREAM_URI.3.gz",
+        "path_type": "hardlink",
+        "sha256": "57cacf48a80ceb9b845ab235092272f6a2926d10c1136d2728fc770d1eb8472a",
+        "sha256_in_prefix": "57cacf48a80ceb9b845ab235092272f6a2926d10c1136d2728fc770d1eb8472a",
+        "size_in_bytes": 1146
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_RTSP_TRANSPORT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "0ca543d7f27a6cbffc15e16263c4474285c94bca096239b25983e823abccac52",
+        "sha256_in_prefix": "0ca543d7f27a6cbffc15e16263c4474285c94bca096239b25983e823abccac52",
+        "size_in_bytes": 953
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SASL_IR.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6e497fa431a138d09eea02a9bcd27bb56b0c9f2eda5a4d1c490ee898e79f82ea",
+        "sha256_in_prefix": "6e497fa431a138d09eea02a9bcd27bb56b0c9f2eda5a4d1c490ee898e79f82ea",
+        "size_in_bytes": 1034
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SEEKDATA.3.gz",
+        "path_type": "hardlink",
+        "sha256": "1766ea64eb814a3a6874a7b3e7c6327714c81624a3c458ceae21600c39deed02",
+        "sha256_in_prefix": "1766ea64eb814a3a6874a7b3e7c6327714c81624a3c458ceae21600c39deed02",
+        "size_in_bytes": 837
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SEEKFUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "43166c7d9c94dd24c5c871f420e3258b34a68bb6f86ef106b671213e540330ea",
+        "sha256_in_prefix": "43166c7d9c94dd24c5c871f420e3258b34a68bb6f86ef106b671213e540330ea",
+        "size_in_bytes": 1598
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SERVICE_NAME.3.gz",
+        "path_type": "hardlink",
+        "sha256": "98f73ae9d37f5390817ec16d79ab9b5874478d1d8420b868e1cd841e13ccad18",
+        "sha256_in_prefix": "98f73ae9d37f5390817ec16d79ab9b5874478d1d8420b868e1cd841e13ccad18",
+        "size_in_bytes": 888
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SHARE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "bfac1347a91ae03368acd240beff4016cef4385ac560a0b853eaee3067d612ed",
+        "sha256_in_prefix": "bfac1347a91ae03368acd240beff4016cef4385ac560a0b853eaee3067d612ed",
+        "size_in_bytes": 1149
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SOCKOPTDATA.3.gz",
+        "path_type": "hardlink",
+        "sha256": "78205e025525eea046a9550f78c886dd3bf6dabe9a7ef0d15b7fe6017c624d76",
+        "sha256_in_prefix": "78205e025525eea046a9550f78c886dd3bf6dabe9a7ef0d15b7fe6017c624d76",
+        "size_in_bytes": 887
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SOCKOPTFUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "db639f3fa72bdf116af2ed6e74d9b4331f017d6daff5e053ae2549bfdd93951b",
+        "sha256_in_prefix": "db639f3fa72bdf116af2ed6e74d9b4331f017d6daff5e053ae2549bfdd93951b",
+        "size_in_bytes": 1692
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SOCKS5_GSSAPI_NEC.3.gz",
+        "path_type": "hardlink",
+        "sha256": "de3b5fa49f45192736392a845c3f18b39aa10d27b01a3544c8e56c9f4f2dddb0",
+        "sha256_in_prefix": "de3b5fa49f45192736392a845c3f18b39aa10d27b01a3544c8e56c9f4f2dddb0",
+        "size_in_bytes": 941
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SOCKS5_GSSAPI_SERVICE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "887730a99da0b4da69550c39c988546bdf4f9df8f634f6d6da15257769bc5ab5",
+        "sha256_in_prefix": "887730a99da0b4da69550c39c988546bdf4f9df8f634f6d6da15257769bc5ab5",
+        "size_in_bytes": 927
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSH_AUTH_TYPES.3.gz",
+        "path_type": "hardlink",
+        "sha256": "e4202d322209c8aa2aadfde3485f3294d36af00a5364ed5ec88c22d54aebde64",
+        "sha256_in_prefix": "e4202d322209c8aa2aadfde3485f3294d36af00a5364ed5ec88c22d54aebde64",
+        "size_in_bytes": 1004
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSH_HOST_PUBLIC_KEY_MD5.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a4e47f0a7379157ce1584f6ded9d8efa0856071552b298045fa56d0acab277c2",
+        "sha256_in_prefix": "a4e47f0a7379157ce1584f6ded9d8efa0856071552b298045fa56d0acab277c2",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSH_KEYDATA.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c09b7a472184163a14ad0c764e68ee4df664a99fdc5ffa299f72ec8dca83f42f",
+        "sha256_in_prefix": "c09b7a472184163a14ad0c764e68ee4df664a99fdc5ffa299f72ec8dca83f42f",
+        "size_in_bytes": 858
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSH_KEYFUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "dcfd465a89ad89bb83aa4df202ccc6301955c90bd85a75b3aab2c5b715649b9c",
+        "sha256_in_prefix": "dcfd465a89ad89bb83aa4df202ccc6301955c90bd85a75b3aab2c5b715649b9c",
+        "size_in_bytes": 1801
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSH_KNOWNHOSTS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8680e8b59f5cffd2d4193b2b33c8d6f946d48464fa4e3ed2ca4a32554560d617",
+        "sha256_in_prefix": "8680e8b59f5cffd2d4193b2b33c8d6f946d48464fa4e3ed2ca4a32554560d617",
+        "size_in_bytes": 1049
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSH_PRIVATE_KEYFILE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5c4374e7ac78cfe68fbada7f7cbd3ff8801e3aa50a5dfca0554c4e65dd11e3fd",
+        "sha256_in_prefix": "5c4374e7ac78cfe68fbada7f7cbd3ff8801e3aa50a5dfca0554c4e65dd11e3fd",
+        "size_in_bytes": 1024
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSH_PUBLIC_KEYFILE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "01e815b423302da1cc13e80f92742eeee0ee1feeb69d9f3cfd654c1da53e7155",
+        "sha256_in_prefix": "01e815b423302da1cc13e80f92742eeee0ee1feeb69d9f3cfd654c1da53e7155",
+        "size_in_bytes": 1093
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSLCERT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "d7df74409e31b3660d7f181889c62e20ab9082ddd170dd433eb7b193c3fa914f",
+        "sha256_in_prefix": "d7df74409e31b3660d7f181889c62e20ab9082ddd170dd433eb7b193c3fa914f",
+        "size_in_bytes": 1151
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSLCERTTYPE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c726d858168e8a400488bf16bef5290ba474d48f709f015e64faa42c3a55a780",
+        "sha256_in_prefix": "c726d858168e8a400488bf16bef5290ba474d48f709f015e64faa42c3a55a780",
+        "size_in_bytes": 1033
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSLENGINE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6828ab48de60d64940fbc33a865b6785b604220acdfefe8225d1ca7ff76a58aa",
+        "sha256_in_prefix": "6828ab48de60d64940fbc33a865b6785b604220acdfefe8225d1ca7ff76a58aa",
+        "size_in_bytes": 1031
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSLENGINE_DEFAULT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "2f69ee367a44d423f5482149fe25879dd01e7e5490d425f08f318638b1781689",
+        "sha256_in_prefix": "2f69ee367a44d423f5482149fe25879dd01e7e5490d425f08f318638b1781689",
+        "size_in_bytes": 1011
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSLKEY.3.gz",
+        "path_type": "hardlink",
+        "sha256": "95ff46ce39b3630f436849bf3cc09bbcd838d8fcf216159323af3c135d851af4",
+        "sha256_in_prefix": "95ff46ce39b3630f436849bf3cc09bbcd838d8fcf216159323af3c135d851af4",
+        "size_in_bytes": 1068
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSLKEYTYPE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "87d185b037b980afc809fab6b511136f3ad7c988cb6cc94b7a95001b403121f9",
+        "sha256_in_prefix": "87d185b037b980afc809fab6b511136f3ad7c988cb6cc94b7a95001b403121f9",
+        "size_in_bytes": 1071
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSLVERSION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4f7438fef80d4ddfc4513b8983a0d2ce25200c34398f21c35dbde38532872f55",
+        "sha256_in_prefix": "4f7438fef80d4ddfc4513b8983a0d2ce25200c34398f21c35dbde38532872f55",
+        "size_in_bytes": 1200
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSL_CIPHER_LIST.3.gz",
+        "path_type": "hardlink",
+        "sha256": "244a61389088f3f0050ef8f1c8023221bb5e73fc989b0c96ad9967463175e5f7",
+        "sha256_in_prefix": "244a61389088f3f0050ef8f1c8023221bb5e73fc989b0c96ad9967463175e5f7",
+        "size_in_bytes": 1352
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSL_CTX_DATA.3.gz",
+        "path_type": "hardlink",
+        "sha256": "7ad87d9329976807338ab3204ba820239d210da1d2a8301f33925ecb0a1e4198",
+        "sha256_in_prefix": "7ad87d9329976807338ab3204ba820239d210da1d2a8301f33925ecb0a1e4198",
+        "size_in_bytes": 945
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSL_CTX_FUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5046d54d36c5fd7c257c40f40d5aec785127b75c6121fda1e088f363b9c95c88",
+        "sha256_in_prefix": "5046d54d36c5fd7c257c40f40d5aec785127b75c6121fda1e088f363b9c95c88",
+        "size_in_bytes": 2559
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSL_ENABLE_ALPN.3.gz",
+        "path_type": "hardlink",
+        "sha256": "bace3b80785060ca8741713589cb9ba5126651b86fbcc2da396f6a991096cb0b",
+        "sha256_in_prefix": "bace3b80785060ca8741713589cb9ba5126651b86fbcc2da396f6a991096cb0b",
+        "size_in_bytes": 882
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSL_ENABLE_NPN.3.gz",
+        "path_type": "hardlink",
+        "sha256": "58dddeaa9425b075c884c77d5002b7947ef524797561e6d8d12112db94de39dd",
+        "sha256_in_prefix": "58dddeaa9425b075c884c77d5002b7947ef524797561e6d8d12112db94de39dd",
+        "size_in_bytes": 882
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSL_FALSESTART.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9f13c85238ecaba802d2ca1c8f5c5b913aadebf58bb7e0d51f04fbace208d287",
+        "sha256_in_prefix": "9f13c85238ecaba802d2ca1c8f5c5b913aadebf58bb7e0d51f04fbace208d287",
+        "size_in_bytes": 1020
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSL_OPTIONS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8e23dbb189e12608a59f0db054fc7a2fc47476761643f448b56e0844f6f46c42",
+        "sha256_in_prefix": "8e23dbb189e12608a59f0db054fc7a2fc47476761643f448b56e0844f6f46c42",
+        "size_in_bytes": 1310
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSL_SESSIONID_CACHE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "aacb177b00eb3ad1c46cc5f26c95f36c9eb64a7e36dd1760b2a61b4d8c9428da",
+        "sha256_in_prefix": "aacb177b00eb3ad1c46cc5f26c95f36c9eb64a7e36dd1760b2a61b4d8c9428da",
+        "size_in_bytes": 1005
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSL_VERIFYHOST.3.gz",
+        "path_type": "hardlink",
+        "sha256": "43e3ff462bccbc8e7e4fe58dd6ef33057136107daf82af712726c937a6033516",
+        "sha256_in_prefix": "43e3ff462bccbc8e7e4fe58dd6ef33057136107daf82af712726c937a6033516",
+        "size_in_bytes": 1637
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSL_VERIFYPEER.3.gz",
+        "path_type": "hardlink",
+        "sha256": "63bc34ce2e312bc250d0bfafdf34c5deb3818810e60470df14cba1e7082ec02c",
+        "sha256_in_prefix": "63bc34ce2e312bc250d0bfafdf34c5deb3818810e60470df14cba1e7082ec02c",
+        "size_in_bytes": 1622
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_SSL_VERIFYSTATUS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "66b60b95dd37e322165139e2cc299a926d74b7cb8faa34a26d21b16b2f7ae5ab",
+        "sha256_in_prefix": "66b60b95dd37e322165139e2cc299a926d74b7cb8faa34a26d21b16b2f7ae5ab",
+        "size_in_bytes": 1035
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_STDERR.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4c240da2111dac3a45ce09e48a83570397aa22fa9b6ee6044c4e53c3a1836dc9",
+        "sha256_in_prefix": "4c240da2111dac3a45ce09e48a83570397aa22fa9b6ee6044c4e53c3a1836dc9",
+        "size_in_bytes": 917
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_STREAM_DEPENDS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "85bdab374ed45f42b643485111246ca29e7dfcef101b926f452a0541de60321f",
+        "sha256_in_prefix": "85bdab374ed45f42b643485111246ca29e7dfcef101b926f452a0541de60321f",
+        "size_in_bytes": 1100
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_STREAM_DEPENDS_E.3.gz",
+        "path_type": "hardlink",
+        "sha256": "fa8ffac454f34d921141f1a4c1ba0b0478f968cb6bccfbb5d6ed6bd7053f01e7",
+        "sha256_in_prefix": "fa8ffac454f34d921141f1a4c1ba0b0478f968cb6bccfbb5d6ed6bd7053f01e7",
+        "size_in_bytes": 1160
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_STREAM_WEIGHT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "cdec53c50f9720d116534875d97f8c44c5baa6322fd7ca683fbd21ac4b3c449b",
+        "sha256_in_prefix": "cdec53c50f9720d116534875d97f8c44c5baa6322fd7ca683fbd21ac4b3c449b",
+        "size_in_bytes": 1306
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_TCP_KEEPALIVE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "adc4bac115a0eee0e3c557037196e399f61b8928b1da1b3eba13926309070c3c",
+        "sha256_in_prefix": "adc4bac115a0eee0e3c557037196e399f61b8928b1da1b3eba13926309070c3c",
+        "size_in_bytes": 1068
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_TCP_KEEPIDLE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "0dbe1b19583019e131e05ee4f43700d5684554013a7b9da1b9f63e9f8d15f791",
+        "sha256_in_prefix": "0dbe1b19583019e131e05ee4f43700d5684554013a7b9da1b9f63e9f8d15f791",
+        "size_in_bytes": 1032
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_TCP_KEEPINTVL.3.gz",
+        "path_type": "hardlink",
+        "sha256": "731ad45ded4408ed5265c8065124b26da62d31378237d3fc3af83969958c8ce7",
+        "sha256_in_prefix": "731ad45ded4408ed5265c8065124b26da62d31378237d3fc3af83969958c8ce7",
+        "size_in_bytes": 1008
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_TCP_NODELAY.3.gz",
+        "path_type": "hardlink",
+        "sha256": "1c88074313cfb8cfd39fc7c87a86832b7ece17ea334847b30ac86aeedfb452fe",
+        "sha256_in_prefix": "1c88074313cfb8cfd39fc7c87a86832b7ece17ea334847b30ac86aeedfb452fe",
+        "size_in_bytes": 1126
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_TELNETOPTIONS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a84dae6bf4f18b8f0042a2fb2888c8660ccdf123dbb438f34deba45de116a5bf",
+        "sha256_in_prefix": "a84dae6bf4f18b8f0042a2fb2888c8660ccdf123dbb438f34deba45de116a5bf",
+        "size_in_bytes": 908
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_TFTP_BLKSIZE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "ce8443172e0be02844c25a70b7d3b3e0d47d5ae044a7cdff54869e7601bbd0e8",
+        "sha256_in_prefix": "ce8443172e0be02844c25a70b7d3b3e0d47d5ae044a7cdff54869e7601bbd0e8",
+        "size_in_bytes": 960
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_TFTP_NO_OPTIONS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "fbb06f4445c61eaf89ef72172e1c5175bb560aaad69ce033e6ce75ca76720b47",
+        "sha256_in_prefix": "fbb06f4445c61eaf89ef72172e1c5175bb560aaad69ce033e6ce75ca76720b47",
+        "size_in_bytes": 1144
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_TIMECONDITION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "98cf0834b57a495057466de1e44986a23d3013d68b7b08170c1cb914b4a3463f",
+        "sha256_in_prefix": "98cf0834b57a495057466de1e44986a23d3013d68b7b08170c1cb914b4a3463f",
+        "size_in_bytes": 1178
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_TIMEOUT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8da91e56766984841f5d81de9d9781bb3d144960b97bde1f36c2fdf1f64d7480",
+        "sha256_in_prefix": "8da91e56766984841f5d81de9d9781bb3d144960b97bde1f36c2fdf1f64d7480",
+        "size_in_bytes": 1307
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_TIMEOUT_MS.3.gz",
+        "path_type": "hardlink",
+        "sha256": "37425694b6e8679fd85099d956cb31401a861a44119918271847b4c0d319d490",
+        "sha256_in_prefix": "37425694b6e8679fd85099d956cb31401a861a44119918271847b4c0d319d490",
+        "size_in_bytes": 1393
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_TIMEVALUE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "ce088daf73200d2e5de5caaf45a81b1fae1524cf6e985a61e41a9612013b1e6f",
+        "sha256_in_prefix": "ce088daf73200d2e5de5caaf45a81b1fae1524cf6e985a61e41a9612013b1e6f",
+        "size_in_bytes": 990
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_TLSAUTH_PASSWORD.3.gz",
+        "path_type": "hardlink",
+        "sha256": "ccc778a30b35c2b3ef38ec16d49b4aaf6ab8455db36b0d64e61f18c8dd1a035d",
+        "sha256_in_prefix": "ccc778a30b35c2b3ef38ec16d49b4aaf6ab8455db36b0d64e61f18c8dd1a035d",
+        "size_in_bytes": 937
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_TLSAUTH_TYPE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "0095217b9fcada30cea783d69329f83d633bb828d6dac993c959e2fbd11d97e6",
+        "sha256_in_prefix": "0095217b9fcada30cea783d69329f83d633bb828d6dac993c959e2fbd11d97e6",
+        "size_in_bytes": 1031
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_TLSAUTH_USERNAME.3.gz",
+        "path_type": "hardlink",
+        "sha256": "488559974907bfa3cacd0294c47992900bc99ca08aa71f42ea6e4a2884853949",
+        "sha256_in_prefix": "488559974907bfa3cacd0294c47992900bc99ca08aa71f42ea6e4a2884853949",
+        "size_in_bytes": 938
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_TRANSFERTEXT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6ee2004832f87e4b9f912ecfab93822f813c14f815e84d61e941fe9e1f11e6a9",
+        "sha256_in_prefix": "6ee2004832f87e4b9f912ecfab93822f813c14f815e84d61e941fe9e1f11e6a9",
+        "size_in_bytes": 1051
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_TRANSFER_ENCODING.3.gz",
+        "path_type": "hardlink",
+        "sha256": "abef166f5a92a32425dcf60f58d34b0798db48d8ea3696a90d542a2eb9524fd5",
+        "sha256_in_prefix": "abef166f5a92a32425dcf60f58d34b0798db48d8ea3696a90d542a2eb9524fd5",
+        "size_in_bytes": 1099
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_UNIX_SOCKET_PATH.3.gz",
+        "path_type": "hardlink",
+        "sha256": "0bfe987a5ce93fd079d8904faab439844ceb5cfdbe026240dde68d86d259aed0",
+        "sha256_in_prefix": "0bfe987a5ce93fd079d8904faab439844ceb5cfdbe026240dde68d86d259aed0",
+        "size_in_bytes": 1595
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_UNRESTRICTED_AUTH.3.gz",
+        "path_type": "hardlink",
+        "sha256": "0475d56f300a35a29834c806e17989e5b6ff98f3f55f8e2a7cb1b4cbb8d88cfe",
+        "sha256_in_prefix": "0475d56f300a35a29834c806e17989e5b6ff98f3f55f8e2a7cb1b4cbb8d88cfe",
+        "size_in_bytes": 923
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_UPLOAD.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f7a9cb68a7c34627810a83fcb60f08c987d5a6616722c8a038d8f180697eb217",
+        "sha256_in_prefix": "f7a9cb68a7c34627810a83fcb60f08c987d5a6616722c8a038d8f180697eb217",
+        "size_in_bytes": 1361
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_URL.3.gz",
+        "path_type": "hardlink",
+        "sha256": "e10cd3f6ac1c87b40b1a1c716b473c6ad6c8a659d6a54c118171762160d0e6f1",
+        "sha256_in_prefix": "e10cd3f6ac1c87b40b1a1c716b473c6ad6c8a659d6a54c118171762160d0e6f1",
+        "size_in_bytes": 5014
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_USERAGENT.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6316cf410a53e4bdf2f9adab56ed26c23f0d3fdf1d18d48671463c8c2916a513",
+        "sha256_in_prefix": "6316cf410a53e4bdf2f9adab56ed26c23f0d3fdf1d18d48671463c8c2916a513",
+        "size_in_bytes": 1055
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_USERNAME.3.gz",
+        "path_type": "hardlink",
+        "sha256": "adcafac514b674e8900294befa06ebcb9456b641f4d40d067c9073bb22c8ece0",
+        "sha256_in_prefix": "adcafac514b674e8900294befa06ebcb9456b641f4d40d067c9073bb22c8ece0",
+        "size_in_bytes": 1315
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_USERPWD.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4c58b387a89a33020c970789473936cc0bab1458d25d855bffca3d65f632bd86",
+        "sha256_in_prefix": "4c58b387a89a33020c970789473936cc0bab1458d25d855bffca3d65f632bd86",
+        "size_in_bytes": 1533
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_USE_SSL.3.gz",
+        "path_type": "hardlink",
+        "sha256": "af77d347f106327db6c0c3121d81277640f4c0cf03323445568553ee0b9c2f83",
+        "sha256_in_prefix": "af77d347f106327db6c0c3121d81277640f4c0cf03323445568553ee0b9c2f83",
+        "size_in_bytes": 1220
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_VERBOSE.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6b3571c2296ed78ac75a79bc55dac29b021f619208d61f788abea01ebb1752c8",
+        "sha256_in_prefix": "6b3571c2296ed78ac75a79bc55dac29b021f619208d61f788abea01ebb1752c8",
+        "size_in_bytes": 1115
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_WILDCARDMATCH.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6f2f28c8a4a9a6b58c17a1e61895f8a628a0c683623be5753b62c879b497a2d6",
+        "sha256_in_prefix": "6f2f28c8a4a9a6b58c17a1e61895f8a628a0c683623be5753b62c879b497a2d6",
+        "size_in_bytes": 1573
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_WRITEDATA.3.gz",
+        "path_type": "hardlink",
+        "sha256": "ac4acdd353e2104466bee86dc51c04ca9bec316733d489820032c73a7a440ab8",
+        "sha256_in_prefix": "ac4acdd353e2104466bee86dc51c04ca9bec316733d489820032c73a7a440ab8",
+        "size_in_bytes": 1232
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_WRITEFUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "22071498c230b1631658b517b83b6e8b8e5ad79fecb9a2abe46b11f092e50488",
+        "sha256_in_prefix": "22071498c230b1631658b517b83b6e8b8e5ad79fecb9a2abe46b11f092e50488",
+        "size_in_bytes": 1660
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_XFERINFODATA.3.gz",
+        "path_type": "hardlink",
+        "sha256": "999da0a2d658ccfa0d418468f407cd891dcfa4636d010b4079f73c92baef25d8",
+        "sha256_in_prefix": "999da0a2d658ccfa0d418468f407cd891dcfa4636d010b4079f73c92baef25d8",
+        "size_in_bytes": 889
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_XFERINFOFUNCTION.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4c1802c4564be59498937d8e99a92cc536acb3985ab4f89a26c349b776e0c2d7",
+        "sha256_in_prefix": "4c1802c4564be59498937d8e99a92cc536acb3985ab4f89a26c349b776e0c2d7",
+        "size_in_bytes": 1538
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/CURLOPT_XOAUTH2_BEARER.3.gz",
+        "path_type": "hardlink",
+        "sha256": "3e536e79f34c45a2d56d70095e2eaac54e00c911d181bb0ba00353eba0fb478c",
+        "sha256_in_prefix": "3e536e79f34c45a2d56d70095e2eaac54e00c911d181bb0ba00353eba0fb478c",
+        "size_in_bytes": 981
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_easy_cleanup.3.gz",
+        "path_type": "hardlink",
+        "sha256": "851124eca27e28534c05c2296a02ab63528b5b3f1df2e84c9a3edfdeb25ad224",
+        "sha256_in_prefix": "851124eca27e28534c05c2296a02ab63528b5b3f1df2e84c9a3edfdeb25ad224",
+        "size_in_bytes": 1356
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_easy_duphandle.3.gz",
+        "path_type": "hardlink",
+        "sha256": "fbe704e3a2b54ffdf8f77ef95f73a4fbf5f13a006a0ba3be2722ca8609b906b4",
+        "sha256_in_prefix": "fbe704e3a2b54ffdf8f77ef95f73a4fbf5f13a006a0ba3be2722ca8609b906b4",
+        "size_in_bytes": 1106
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_easy_escape.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9dda3afe6053a8222e03f74a6d351bcfd13cb330be4cbd84c5d796c934062419",
+        "sha256_in_prefix": "9dda3afe6053a8222e03f74a6d351bcfd13cb330be4cbd84c5d796c934062419",
+        "size_in_bytes": 1108
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_easy_getinfo.3.gz",
+        "path_type": "hardlink",
+        "sha256": "ac819f2ccf030ee209f84b46b0591f85bc75d1b1ba510f7cbf59a2978a82d6ae",
+        "sha256_in_prefix": "ac819f2ccf030ee209f84b46b0591f85bc75d1b1ba510f7cbf59a2978a82d6ae",
+        "size_in_bytes": 2635
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_easy_init.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c82eb3a8c99475852556cfa013b1c21818e04449ca618bf9391e6398abdc1cf2",
+        "sha256_in_prefix": "c82eb3a8c99475852556cfa013b1c21818e04449ca618bf9391e6398abdc1cf2",
+        "size_in_bytes": 1156
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_easy_pause.3.gz",
+        "path_type": "hardlink",
+        "sha256": "95a59a4bf1e86d74e1af324997d91f92278b7aa0f0fd34679f2f61b6deb1a2b9",
+        "sha256_in_prefix": "95a59a4bf1e86d74e1af324997d91f92278b7aa0f0fd34679f2f61b6deb1a2b9",
+        "size_in_bytes": 2297
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_easy_perform.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8cbaadf0df1a283442d763b8f5d22019eb5d96e222d25290eaf430e4ae940b8f",
+        "sha256_in_prefix": "8cbaadf0df1a283442d763b8f5d22019eb5d96e222d25290eaf430e4ae940b8f",
+        "size_in_bytes": 1432
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_easy_recv.3.gz",
+        "path_type": "hardlink",
+        "sha256": "3e72474afaa237cd03c05a45cee089f67b21e304872c539d97bfe1a0a0a3c02a",
+        "sha256_in_prefix": "3e72474afaa237cd03c05a45cee089f67b21e304872c539d97bfe1a0a0a3c02a",
+        "size_in_bytes": 1541
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_easy_reset.3.gz",
+        "path_type": "hardlink",
+        "sha256": "ae9b66cd15c1fd60f6107bed34f8a286fdbfff16d20689c2a5e74f901d627b81",
+        "sha256_in_prefix": "ae9b66cd15c1fd60f6107bed34f8a286fdbfff16d20689c2a5e74f901d627b81",
+        "size_in_bytes": 901
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_easy_send.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6bd611d5c91727f6958b0aaad697b41fb9ed6254b5ef09d09525611535d41398",
+        "sha256_in_prefix": "6bd611d5c91727f6958b0aaad697b41fb9ed6254b5ef09d09525611535d41398",
+        "size_in_bytes": 1476
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_easy_setopt.3.gz",
+        "path_type": "hardlink",
+        "sha256": "3e3fc9f174bbeda2b92ec2218ac1c9bd4dd6f32cf8ded893803ceb11b6e0cc0e",
+        "sha256_in_prefix": "3e3fc9f174bbeda2b92ec2218ac1c9bd4dd6f32cf8ded893803ceb11b6e0cc0e",
+        "size_in_bytes": 6625
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_easy_strerror.3.gz",
+        "path_type": "hardlink",
+        "sha256": "af873283a9d58b280bb34ca6a457d17a860ac52c43b70f4ae447408462cba87b",
+        "sha256_in_prefix": "af873283a9d58b280bb34ca6a457d17a860ac52c43b70f4ae447408462cba87b",
+        "size_in_bytes": 841
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_easy_unescape.3.gz",
+        "path_type": "hardlink",
+        "sha256": "66eb24ea0b608900cfe8a8f3159884427586d6e7ea6c2a222d17d0beccf65518",
+        "sha256_in_prefix": "66eb24ea0b608900cfe8a8f3159884427586d6e7ea6c2a222d17d0beccf65518",
+        "size_in_bytes": 1114
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_escape.3.gz",
+        "path_type": "hardlink",
+        "sha256": "1c00350505eb327b00668b4fb8471d6f13025e436bd566b8aea0af95f4f8578c",
+        "sha256_in_prefix": "1c00350505eb327b00668b4fb8471d6f13025e436bd566b8aea0af95f4f8578c",
+        "size_in_bytes": 1033
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_formadd.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5cbe13ac10e487a884ed4c662263f1c5d088d52a32fe01001cf2e38b2a2ec569",
+        "sha256_in_prefix": "5cbe13ac10e487a884ed4c662263f1c5d088d52a32fe01001cf2e38b2a2ec569",
+        "size_in_bytes": 3853
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_formfree.3.gz",
+        "path_type": "hardlink",
+        "sha256": "468d0a0b425baac748759cf74d3e483afb180d74026830c5e5659a45dd2471eb",
+        "sha256_in_prefix": "468d0a0b425baac748759cf74d3e483afb180d74026830c5e5659a45dd2471eb",
+        "size_in_bytes": 899
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_formget.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8240f59c9cab25f7cb1b30b39964c368ebbfef2d6b62b35eb3d3366a88c6dd8b",
+        "sha256_in_prefix": "8240f59c9cab25f7cb1b30b39964c368ebbfef2d6b62b35eb3d3366a88c6dd8b",
+        "size_in_bytes": 1263
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_free.3.gz",
+        "path_type": "hardlink",
+        "sha256": "b43199c4ee286051995c6b888f55196133e826e3d05d0ba27cb4ac9dfeca25ae",
+        "sha256_in_prefix": "b43199c4ee286051995c6b888f55196133e826e3d05d0ba27cb4ac9dfeca25ae",
+        "size_in_bytes": 762
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_getdate.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6fc76c914aa62e9c4a15c8e693329876ca6455cbba66eb3bfecd950de72902bd",
+        "sha256_in_prefix": "6fc76c914aa62e9c4a15c8e693329876ca6455cbba66eb3bfecd950de72902bd",
+        "size_in_bytes": 2006
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_getenv.3.gz",
+        "path_type": "hardlink",
+        "sha256": "1dc0f2391e70207b37f6484afe914de23f7f712b574d68f19c3ef5b208f42c7c",
+        "sha256_in_prefix": "1dc0f2391e70207b37f6484afe914de23f7f712b574d68f19c3ef5b208f42c7c",
+        "size_in_bytes": 1114
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_global_cleanup.3.gz",
+        "path_type": "hardlink",
+        "sha256": "37d9877feec5f30b7179cebb68a5bb3c51a4c655b7df49704ac539030a25fda1",
+        "sha256_in_prefix": "37d9877feec5f30b7179cebb68a5bb3c51a4c655b7df49704ac539030a25fda1",
+        "size_in_bytes": 953
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_global_init.3.gz",
+        "path_type": "hardlink",
+        "sha256": "686d3d8eb3fe99c5463e04ee166b69f03eb533b322e28d2448de13cccb0da25b",
+        "sha256_in_prefix": "686d3d8eb3fe99c5463e04ee166b69f03eb533b322e28d2448de13cccb0da25b",
+        "size_in_bytes": 1693
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_global_init_mem.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f868c7b743e77db1d1671d4708dfa8265dd08c573b0d264df3e9f9893bf271ae",
+        "sha256_in_prefix": "f868c7b743e77db1d1671d4708dfa8265dd08c573b0d264df3e9f9893bf271ae",
+        "size_in_bytes": 1191
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_mprintf.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4a4b242e06901fe98125a17e3ec094e7a5552fbc810fe2950412641d45e8b6c7",
+        "sha256_in_prefix": "4a4b242e06901fe98125a17e3ec094e7a5552fbc810fe2950412641d45e8b6c7",
+        "size_in_bytes": 1532
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_multi_add_handle.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4cf750af18913dad5ecb334534f1b60992aa1932bbb970d754f561c9b8c07e2c",
+        "sha256_in_prefix": "4cf750af18913dad5ecb334534f1b60992aa1932bbb970d754f561c9b8c07e2c",
+        "size_in_bytes": 1387
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_multi_assign.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9fe4be45f21ebc6061620bd20a3e99398c6f5acad97add481d1d9307bfca0397",
+        "sha256_in_prefix": "9fe4be45f21ebc6061620bd20a3e99398c6f5acad97add481d1d9307bfca0397",
+        "size_in_bytes": 1346
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_multi_cleanup.3.gz",
+        "path_type": "hardlink",
+        "sha256": "3ef657b4ff6f3be49d5604006a0905a126bc2f814d1602f6207fd5367b88cbfe",
+        "sha256_in_prefix": "3ef657b4ff6f3be49d5604006a0905a126bc2f814d1602f6207fd5367b88cbfe",
+        "size_in_bytes": 956
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_multi_fdset.3.gz",
+        "path_type": "hardlink",
+        "sha256": "7fb6c02666bff5e2594319efee00093208157ff27a7626f10bdc701e50e5bc65",
+        "sha256_in_prefix": "7fb6c02666bff5e2594319efee00093208157ff27a7626f10bdc701e50e5bc65",
+        "size_in_bytes": 1727
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_multi_info_read.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a53bd092adff720ffdc0d43fe46b8d1b45eaa3f820235e3f4d38cfec43a66e07",
+        "sha256_in_prefix": "a53bd092adff720ffdc0d43fe46b8d1b45eaa3f820235e3f4d38cfec43a66e07",
+        "size_in_bytes": 1706
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_multi_init.3.gz",
+        "path_type": "hardlink",
+        "sha256": "716a5eacafc8188b1005a7dbfa9c516e7535dec32e5b56424ce94a723910d82e",
+        "sha256_in_prefix": "716a5eacafc8188b1005a7dbfa9c516e7535dec32e5b56424ce94a723910d82e",
+        "size_in_bytes": 843
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_multi_perform.3.gz",
+        "path_type": "hardlink",
+        "sha256": "0b655a5d2a255a5fa59a7bbf3f3ebb4aded08e33517e53b55ca4abf3c9c8a498",
+        "sha256_in_prefix": "0b655a5d2a255a5fa59a7bbf3f3ebb4aded08e33517e53b55ca4abf3c9c8a498",
+        "size_in_bytes": 2122
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_multi_remove_handle.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c5f3fc58cbfba9ec2fe47d9f8bbf73e6fab1476ce6627a8aeae45d604df14a8a",
+        "sha256_in_prefix": "c5f3fc58cbfba9ec2fe47d9f8bbf73e6fab1476ce6627a8aeae45d604df14a8a",
+        "size_in_bytes": 936
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_multi_setopt.3.gz",
+        "path_type": "hardlink",
+        "sha256": "432dbbc11f3c19cc3014b29a64ebc822bd83449f7cf70c749a34ecf0c6457577",
+        "sha256_in_prefix": "432dbbc11f3c19cc3014b29a64ebc822bd83449f7cf70c749a34ecf0c6457577",
+        "size_in_bytes": 1292
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_multi_socket.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8cf1e3f419ec55c10be0d8ef395ec2cb97c7c29532177b4dd42ef2b1af0d86db",
+        "sha256_in_prefix": "8cf1e3f419ec55c10be0d8ef395ec2cb97c7c29532177b4dd42ef2b1af0d86db",
+        "size_in_bytes": 2717
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_multi_socket_action.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9406da6ebef72b98fd88849bc6fdd66fb118b8ca3e95d77e253bc41a93773e45",
+        "sha256_in_prefix": "9406da6ebef72b98fd88849bc6fdd66fb118b8ca3e95d77e253bc41a93773e45",
+        "size_in_bytes": 2807
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_multi_strerror.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c6526b5f6d05515d9f8e64f45941530b51e47a2c1e54eb882f43e0524a3797da",
+        "sha256_in_prefix": "c6526b5f6d05515d9f8e64f45941530b51e47a2c1e54eb882f43e0524a3797da",
+        "size_in_bytes": 777
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_multi_timeout.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8227fd5589aad0bac02f2f5ba09c27e951c684067e2bbe151dbd8c3ec696f1c5",
+        "sha256_in_prefix": "8227fd5589aad0bac02f2f5ba09c27e951c684067e2bbe151dbd8c3ec696f1c5",
+        "size_in_bytes": 1494
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_multi_wait.3.gz",
+        "path_type": "hardlink",
+        "sha256": "58f539be07c683c88bd2d4ddefa5e8cf8e2760c3e52d8f35b85cc820fc459914",
+        "sha256_in_prefix": "58f539be07c683c88bd2d4ddefa5e8cf8e2760c3e52d8f35b85cc820fc459914",
+        "size_in_bytes": 1873
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_share_cleanup.3.gz",
+        "path_type": "hardlink",
+        "sha256": "b341cc750f99a1b1199a211fcde889e75e1f5ca16e42d74dda0051c769b2bf0a",
+        "sha256_in_prefix": "b341cc750f99a1b1199a211fcde889e75e1f5ca16e42d74dda0051c769b2bf0a",
+        "size_in_bytes": 861
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_share_init.3.gz",
+        "path_type": "hardlink",
+        "sha256": "7aacae0f507fbcd3c47f381f2c18d53b5d428d1418624e702e7e259d889d5b3c",
+        "sha256_in_prefix": "7aacae0f507fbcd3c47f381f2c18d53b5d428d1418624e702e7e259d889d5b3c",
+        "size_in_bytes": 949
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_share_setopt.3.gz",
+        "path_type": "hardlink",
+        "sha256": "775673efacfbf67f00de025d0fc2651232589bfb718e1cc725db35a448f41796",
+        "sha256_in_prefix": "775673efacfbf67f00de025d0fc2651232589bfb718e1cc725db35a448f41796",
+        "size_in_bytes": 1484
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_share_strerror.3.gz",
+        "path_type": "hardlink",
+        "sha256": "0eae7a0f445d956973933a6c1645e0198380996e4ffca69efee671be92ce662b",
+        "sha256_in_prefix": "0eae7a0f445d956973933a6c1645e0198380996e4ffca69efee671be92ce662b",
+        "size_in_bytes": 777
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_slist_append.3.gz",
+        "path_type": "hardlink",
+        "sha256": "64c0e980900a5081820a7ef2444c4af7d93a2f7a6841041b1bc3772ef2860e2e",
+        "sha256_in_prefix": "64c0e980900a5081820a7ef2444c4af7d93a2f7a6841041b1bc3772ef2860e2e",
+        "size_in_bytes": 1005
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_slist_free_all.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5aa28315ac34db820e6953d115814e7679e4d25da87f98004f91867a30f4452b",
+        "sha256_in_prefix": "5aa28315ac34db820e6953d115814e7679e4d25da87f98004f91867a30f4452b",
+        "size_in_bytes": 701
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_strequal.3.gz",
+        "path_type": "hardlink",
+        "sha256": "feae55cf73bf2b17bad44b8fb8f01d1e8c4e5ef2d40137557685f8cdc52600f1",
+        "sha256_in_prefix": "feae55cf73bf2b17bad44b8fb8f01d1e8c4e5ef2d40137557685f8cdc52600f1",
+        "size_in_bytes": 1051
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_unescape.3.gz",
+        "path_type": "hardlink",
+        "sha256": "1bc5700365ec7ebb9574d1c51de691da11f9bed420adb9ffb923871028949f56",
+        "sha256_in_prefix": "1bc5700365ec7ebb9574d1c51de691da11f9bed420adb9ffb923871028949f56",
+        "size_in_bytes": 1037
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_version.3.gz",
+        "path_type": "hardlink",
+        "sha256": "05df992d92fe6ee0065d5a57d0b01c0144b3e227f8a0a326dd7a842bfe35b8fe",
+        "sha256_in_prefix": "05df992d92fe6ee0065d5a57d0b01c0144b3e227f8a0a326dd7a842bfe35b8fe",
+        "size_in_bytes": 810
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/curl_version_info.3.gz",
+        "path_type": "hardlink",
+        "sha256": "431e4a63d430cffa1e33fe2508b3d290d2893bbf26274ff63cac32585e4da1f7",
+        "sha256_in_prefix": "431e4a63d430cffa1e33fe2508b3d290d2893bbf26274ff63cac32585e4da1f7",
+        "size_in_bytes": 2733
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libcurl-easy.3.gz",
+        "path_type": "hardlink",
+        "sha256": "12dd0765fcdd96696994fd54f4497882f340676b0a7b409e8f0fec9041adde93",
+        "sha256_in_prefix": "12dd0765fcdd96696994fd54f4497882f340676b0a7b409e8f0fec9041adde93",
+        "size_in_bytes": 1370
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libcurl-errors.3.gz",
+        "path_type": "hardlink",
+        "sha256": "eb07f656dc27e88ad2ab055aa027c333b29de1fefa5f9e50a144ad66b6af5da1",
+        "sha256_in_prefix": "eb07f656dc27e88ad2ab055aa027c333b29de1fefa5f9e50a144ad66b6af5da1",
+        "size_in_bytes": 5634
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libcurl-multi.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9c314ed24aa2bc853de083d09c1b9d7da905a3861d216538fe25362266f437de",
+        "sha256_in_prefix": "9c314ed24aa2bc853de083d09c1b9d7da905a3861d216538fe25362266f437de",
+        "size_in_bytes": 3652
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libcurl-share.3.gz",
+        "path_type": "hardlink",
+        "sha256": "bdc93f92715d377746cdae10420a0e30138539bdc5a1072bcd15f560ce74a845",
+        "sha256_in_prefix": "bdc93f92715d377746cdae10420a0e30138539bdc5a1072bcd15f560ce74a845",
+        "size_in_bytes": 1371
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libcurl-symbols.3.gz",
+        "path_type": "hardlink",
+        "sha256": "cb0b89716de1972aa48878390d65a7d8f48f511183386abb07143071f5db0f1c",
+        "sha256_in_prefix": "cb0b89716de1972aa48878390d65a7d8f48f511183386abb07143071f5db0f1c",
+        "size_in_bytes": 6698
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libcurl-thread.3.gz",
+        "path_type": "hardlink",
+        "sha256": "0cf2998aab984422383df44d5a854742bad8dc503855b480042d28529a096c58",
+        "sha256_in_prefix": "0cf2998aab984422383df44d5a854742bad8dc503855b480042d28529a096c58",
+        "size_in_bytes": 1995
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libcurl-tutorial.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9fd2de7a0c0c1defc8b435ed28dd1c84aecaac6a74ea12fed010fc86a2a557c2",
+        "sha256_in_prefix": "9fd2de7a0c0c1defc8b435ed28dd1c84aecaac6a74ea12fed010fc86a2a557c2",
+        "size_in_bytes": 22803
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/libcurl.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c572c33b346d4caa6e8f8a3007389887818e15a833099a0e184cbb1ea705b783",
+        "sha256_in_prefix": "c572c33b346d4caa6e8f8a3007389887818e15a833099a0e184cbb1ea705b783",
+        "size_in_bytes": 4479
+      },
+      {
+        "_path": "Library/mingw-w64/share/zsh/site-functions/_curl",
+        "path_type": "hardlink",
+        "sha256": "e3b2b95144d59ade6a264fe3401559d79481363738acc8412a8730f64e8725e3",
+        "sha256_in_prefix": "e3b2b95144d59ade6a264fe3401559d79481363738acc8412a8730f64e8725e3",
+        "size_in_bytes": 11149
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 1129189,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2w64-curl-7.48.0-2.tar.bz2",
+  "version": "7.48.0"
+}

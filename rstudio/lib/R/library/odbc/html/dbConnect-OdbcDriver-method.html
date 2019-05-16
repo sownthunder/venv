@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Connect to a ODBC compatible database</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for dbConnect,OdbcDriver-method {odbc}"><tr><td>dbConnect,OdbcDriver-method {odbc}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Connect to a ODBC compatible database</h2>
+
+<h3>Description</h3>
+
+<p>Connect to a ODBC compatible database
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+## S4 method for signature 'OdbcDriver'
+dbConnect(drv, dsn = NULL, ..., timezone = "UTC",
+  encoding = "", bigint = c("integer64", "integer", "numeric", "character"),
+  timeout = 10, driver = NULL, server = NULL, database = NULL,
+  uid = NULL, pwd = NULL, dbms.name = NULL, .connection_string = NULL)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>drv</code></td>
+<td>
+<p>an object that inherits from <a href="../../DBI/html/DBIDriver-class.html">DBIDriver</a>,
+or an existing <a href="../../DBI/html/DBIConnection-class.html">DBIConnection</a>
+object (in order to clone an existing connection).</p>
+</td></tr>
+<tr valign="top"><td><code>dsn</code></td>
+<td>
+<p>The Data Source Name.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Additional ODBC keywords, these will be joined with the other
+arguments to form the final connection string.</p>
+</td></tr>
+<tr valign="top"><td><code>timezone</code></td>
+<td>
+<p>The Server time zone. Useful if the database has an internal
+timezone that is <em>not</em> 'UTC'. If the database is in your local timezone set
+to <code>Sys.timezone()</code>. See <code><a href="../../base/html/timezones.html">OlsonNames()</a></code> for a complete list of available
+timezones on your system.</p>
+</td></tr>
+<tr valign="top"><td><code>encoding</code></td>
+<td>
+<p>The text encoding used on the Database. If the database is
+not using UTF-8 you will need to set the encoding to get accurate re-encoding.
+See <code><a href="../../base/html/iconv.html">iconvlist()</a></code> for a complete list of available encodings on your system.
+Note strings are always returned <code>UTF-8</code> encoded.</p>
+</td></tr>
+<tr valign="top"><td><code>bigint</code></td>
+<td>
+<p>The R type that <code>SQL_BIGINT</code> types should be mapped to,
+default is <a href="../../bit64/html/integer64.html">bit64::integer64</a>, which allows the full range of 64 bit
+integers.</p>
+</td></tr>
+<tr valign="top"><td><code>timeout</code></td>
+<td>
+<p>Time in seconds to timeout the connection attempt. Setting a
+timeout of <code>Inf</code> indicates no timeout. (defaults to 10 seconds).</p>
+</td></tr>
+<tr valign="top"><td><code>driver</code></td>
+<td>
+<p>The ODBC driver name.</p>
+</td></tr>
+<tr valign="top"><td><code>server</code></td>
+<td>
+<p>The server hostname.</p>
+</td></tr>
+<tr valign="top"><td><code>database</code></td>
+<td>
+<p>The database on the server.</p>
+</td></tr>
+<tr valign="top"><td><code>uid</code></td>
+<td>
+<p>The user identifier.</p>
+</td></tr>
+<tr valign="top"><td><code>pwd</code></td>
+<td>
+<p>The password to use.</p>
+</td></tr>
+<tr valign="top"><td><code>dbms.name</code></td>
+<td>
+<p>The database management system name. This should normally
+be queried automatically by the ODBC driver. This name is used as the class
+name for the OdbcConnect object returned from <code>dbConnect()</code>. However if the
+driver does not return a valid value it can be set manually with this
+parameter.</p>
+</td></tr>
+<tr valign="top"><td><code>.connection_string</code></td>
+<td>
+<p>A complete connection string, useful if you are
+copy pasting it from another source. If this argument is used any additional
+arguments will be appended to this string.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The connection string keywords are driver dependent. The parameters
+documented here are common, but some drivers may not accept them. Please see
+the specific driver documentation for allowed parameters,
+<a href="https://www.connectionstrings.com">https://www.connectionstrings.com</a> is also a useful resource of example
+connection strings for a variety of databases.
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>odbc</em> version 1.1.5 <a href="00Index.html">Index</a>]</div>
+</body></html>

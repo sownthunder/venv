@@ -1,0 +1,426 @@
+{
+  "build": "r351h6f4ce42_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "r-forcats >=0.2.0",
+    "r-hms",
+    "r-rcpp >=0.11.4",
+    "r-readr >=0.1.0",
+    "r-tibble",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-haven-1.1.2-r351h6f4ce42_0",
+  "features": "",
+  "files": [
+    "lib/R/library/haven/DESCRIPTION",
+    "lib/R/library/haven/INDEX",
+    "lib/R/library/haven/LICENSE",
+    "lib/R/library/haven/MD5",
+    "lib/R/library/haven/Meta/Rd.rds",
+    "lib/R/library/haven/Meta/features.rds",
+    "lib/R/library/haven/Meta/hsearch.rds",
+    "lib/R/library/haven/Meta/links.rds",
+    "lib/R/library/haven/Meta/nsInfo.rds",
+    "lib/R/library/haven/Meta/package.rds",
+    "lib/R/library/haven/Meta/vignette.rds",
+    "lib/R/library/haven/NAMESPACE",
+    "lib/R/library/haven/NEWS.md",
+    "lib/R/library/haven/R/haven",
+    "lib/R/library/haven/R/haven.rdb",
+    "lib/R/library/haven/R/haven.rdx",
+    "lib/R/library/haven/doc/datetimes.Rmd",
+    "lib/R/library/haven/doc/datetimes.html",
+    "lib/R/library/haven/doc/index.html",
+    "lib/R/library/haven/doc/semantics.R",
+    "lib/R/library/haven/doc/semantics.Rmd",
+    "lib/R/library/haven/doc/semantics.html",
+    "lib/R/library/haven/examples/iris.dta",
+    "lib/R/library/haven/examples/iris.sas7bdat",
+    "lib/R/library/haven/examples/iris.sav",
+    "lib/R/library/haven/help/AnIndex",
+    "lib/R/library/haven/help/aliases.rds",
+    "lib/R/library/haven/help/figures/logo.png",
+    "lib/R/library/haven/help/haven.rdb",
+    "lib/R/library/haven/help/haven.rdx",
+    "lib/R/library/haven/help/paths.rds",
+    "lib/R/library/haven/html/00Index.html",
+    "lib/R/library/haven/html/R.css",
+    "lib/R/library/haven/html/as_factor.html",
+    "lib/R/library/haven/html/labelled.html",
+    "lib/R/library/haven/html/labelled_spss.html",
+    "lib/R/library/haven/html/print_labels.html",
+    "lib/R/library/haven/html/read_dta.html",
+    "lib/R/library/haven/html/read_sas.html",
+    "lib/R/library/haven/html/read_spss.html",
+    "lib/R/library/haven/html/read_xpt.html",
+    "lib/R/library/haven/html/tagged_na.html",
+    "lib/R/library/haven/html/zap_empty.html",
+    "lib/R/library/haven/html/zap_formats.html",
+    "lib/R/library/haven/html/zap_labels.html",
+    "lib/R/library/haven/html/zap_missing.html",
+    "lib/R/library/haven/html/zap_widths.html",
+    "lib/R/library/haven/libs/x64/haven.dll"
+  ],
+  "fn": "r-haven-1.1.2-r351h6f4ce42_0.tar.bz2",
+  "license": "MIT + file LICENSE",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-haven-1.1.2-r351h6f4ce42_0",
+    "type": 1
+  },
+  "md5": "e90f57f9bf05070134c026b13c567569",
+  "name": "r-haven",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-haven-1.1.2-r351h6f4ce42_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/haven/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "f7660a0af881e3b735973a52d0b7d5786a3b0c70b60bf52c5d7159abb14dab32",
+        "sha256_in_prefix": "f7660a0af881e3b735973a52d0b7d5786a3b0c70b60bf52c5d7159abb14dab32",
+        "size_in_bytes": 1361
+      },
+      {
+        "_path": "lib/R/library/haven/INDEX",
+        "path_type": "hardlink",
+        "sha256": "989c8db4495bf5939a8015ae95d58b25e027d28417ebd2166cf9b5946169b872",
+        "sha256_in_prefix": "989c8db4495bf5939a8015ae95d58b25e027d28417ebd2166cf9b5946169b872",
+        "size_in_bytes": 838
+      },
+      {
+        "_path": "lib/R/library/haven/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "ee9d0638b8c58c77c682e7dccb0296f1d3b5dcccaa0eaaa5b037cbe21700d3ef",
+        "sha256_in_prefix": "ee9d0638b8c58c77c682e7dccb0296f1d3b5dcccaa0eaaa5b037cbe21700d3ef",
+        "size_in_bytes": 75
+      },
+      {
+        "_path": "lib/R/library/haven/MD5",
+        "path_type": "hardlink",
+        "sha256": "c4f5d0f842f1a3d7549b2f64f5ec2e84996156b4847fc4f6b0e8a766ec5cd2e3",
+        "sha256_in_prefix": "c4f5d0f842f1a3d7549b2f64f5ec2e84996156b4847fc4f6b0e8a766ec5cd2e3",
+        "size_in_bytes": 2432
+      },
+      {
+        "_path": "lib/R/library/haven/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "3c79ef2c77500f849760c2048f92cbe7d3a485e80b5d90ec58b100197ef6b840",
+        "sha256_in_prefix": "3c79ef2c77500f849760c2048f92cbe7d3a485e80b5d90ec58b100197ef6b840",
+        "size_in_bytes": 720
+      },
+      {
+        "_path": "lib/R/library/haven/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/haven/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "fde32b0baa8f6277169d4c9728fcde5c00e450eb4c25b7448ebbe17c8830c730",
+        "sha256_in_prefix": "fde32b0baa8f6277169d4c9728fcde5c00e450eb4c25b7448ebbe17c8830c730",
+        "size_in_bytes": 737
+      },
+      {
+        "_path": "lib/R/library/haven/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "430a3278f13e284eb84b611821ebb168c311bd9757a0efbf5150a0093ff6283d",
+        "sha256_in_prefix": "430a3278f13e284eb84b611821ebb168c311bd9757a0efbf5150a0093ff6283d",
+        "size_in_bytes": 350
+      },
+      {
+        "_path": "lib/R/library/haven/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "f0a81b9ff02cc62da58ca6f0b5d9d54c5424e36e96514b335e06778fe924f5b3",
+        "sha256_in_prefix": "f0a81b9ff02cc62da58ca6f0b5d9d54c5424e36e96514b335e06778fe924f5b3",
+        "size_in_bytes": 574
+      },
+      {
+        "_path": "lib/R/library/haven/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "5a79a5ebbfe879462b458eadd17dacfa72d97ba64d149d0da1add7b3ce13ef5e",
+        "sha256_in_prefix": "5a79a5ebbfe879462b458eadd17dacfa72d97ba64d149d0da1add7b3ce13ef5e",
+        "size_in_bytes": 1241
+      },
+      {
+        "_path": "lib/R/library/haven/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "3659a97a15809d42e1b08133ca59183ab9b42bde0abdf8a09618904ef89d963f",
+        "sha256_in_prefix": "3659a97a15809d42e1b08133ca59183ab9b42bde0abdf8a09618904ef89d963f",
+        "size_in_bytes": 227
+      },
+      {
+        "_path": "lib/R/library/haven/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "cf6efdcd187d89484a6a94cf980f009237278c345f18a95a022064483bf5a3c2",
+        "sha256_in_prefix": "cf6efdcd187d89484a6a94cf980f009237278c345f18a95a022064483bf5a3c2",
+        "size_in_bytes": 1344
+      },
+      {
+        "_path": "lib/R/library/haven/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "d2858183e3812872c727c0b60e44d41128bdee4e919c2f05291408fd1f776ccd",
+        "sha256_in_prefix": "d2858183e3812872c727c0b60e44d41128bdee4e919c2f05291408fd1f776ccd",
+        "size_in_bytes": 10298
+      },
+      {
+        "_path": "lib/R/library/haven/R/haven",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/haven/R/haven.rdb",
+        "path_type": "hardlink",
+        "sha256": "43bf3a9f6c7b3208f404375eda8ef78ae194ef11c048188e483bd62e6d65530c",
+        "sha256_in_prefix": "43bf3a9f6c7b3208f404375eda8ef78ae194ef11c048188e483bd62e6d65530c",
+        "size_in_bytes": 35495
+      },
+      {
+        "_path": "lib/R/library/haven/R/haven.rdx",
+        "path_type": "hardlink",
+        "sha256": "be356e896314a99ca24e900500e930530b782a656093e8e2b2d3689072c598d5",
+        "sha256_in_prefix": "be356e896314a99ca24e900500e930530b782a656093e8e2b2d3689072c598d5",
+        "size_in_bytes": 1125
+      },
+      {
+        "_path": "lib/R/library/haven/doc/datetimes.Rmd",
+        "path_type": "hardlink",
+        "sha256": "35ca4f7701a53f05646926f29c188140d6eac2b7576b196fd66b54f5236d87e3",
+        "sha256_in_prefix": "35ca4f7701a53f05646926f29c188140d6eac2b7576b196fd66b54f5236d87e3",
+        "size_in_bytes": 1298
+      },
+      {
+        "_path": "lib/R/library/haven/doc/datetimes.html",
+        "path_type": "hardlink",
+        "sha256": "bfa4d165d0e1b1046d77d366f3229654935df4624f9f3d5ee7e07db520ffefa7",
+        "sha256_in_prefix": "bfa4d165d0e1b1046d77d366f3229654935df4624f9f3d5ee7e07db520ffefa7",
+        "size_in_bytes": 5802
+      },
+      {
+        "_path": "lib/R/library/haven/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "2a1562f24ea61c1159cfa6b302c9b25489eec39126707987a9c10407809a8c0c",
+        "sha256_in_prefix": "2a1562f24ea61c1159cfa6b302c9b25489eec39126707987a9c10407809a8c0c",
+        "size_in_bytes": 1763
+      },
+      {
+        "_path": "lib/R/library/haven/doc/semantics.R",
+        "path_type": "hardlink",
+        "sha256": "d39d1f9b5dc28d870759dc298241daa370923a7ce9a39f499de54e76b72d598c",
+        "sha256_in_prefix": "d39d1f9b5dc28d870759dc298241daa370923a7ce9a39f499de54e76b72d598c",
+        "size_in_bytes": 1786
+      },
+      {
+        "_path": "lib/R/library/haven/doc/semantics.Rmd",
+        "path_type": "hardlink",
+        "sha256": "4d6e60765cfdad46ca24f8ded2611af0d62ccbb9502a82d0671f856f1099c943",
+        "sha256_in_prefix": "4d6e60765cfdad46ca24f8ded2611af0d62ccbb9502a82d0671f856f1099c943",
+        "size_in_bytes": 6443
+      },
+      {
+        "_path": "lib/R/library/haven/doc/semantics.html",
+        "path_type": "hardlink",
+        "sha256": "19ebfa0e46e232167abc3fd059a8f4da9b3fe8fce5cfc753b08374a91153df44",
+        "sha256_in_prefix": "19ebfa0e46e232167abc3fd059a8f4da9b3fe8fce5cfc753b08374a91153df44",
+        "size_in_bytes": 29798
+      },
+      {
+        "_path": "lib/R/library/haven/examples/iris.dta",
+        "path_type": "hardlink",
+        "sha256": "4db83d6731edaa238587f22740e089cc3335975c49773ca7a310dd4ddb3901d9",
+        "sha256_in_prefix": "4db83d6731edaa238587f22740e089cc3335975c49773ca7a310dd4ddb3901d9",
+        "size_in_bytes": 8213
+      },
+      {
+        "_path": "lib/R/library/haven/examples/iris.sas7bdat",
+        "path_type": "hardlink",
+        "sha256": "b25ae02490f8f8e384e4dab3011e26fc8d26b7f28da113d269153faa16e65dcf",
+        "sha256_in_prefix": "b25ae02490f8f8e384e4dab3011e26fc8d26b7f28da113d269153faa16e65dcf",
+        "size_in_bytes": 131072
+      },
+      {
+        "_path": "lib/R/library/haven/examples/iris.sav",
+        "path_type": "hardlink",
+        "sha256": "38dc8f29dc62c0f562b568d83f5d713ec98ef80cb4092425563ea91350e5bf92",
+        "sha256_in_prefix": "38dc8f29dc62c0f562b568d83f5d713ec98ef80cb4092425563ea91350e5bf92",
+        "size_in_bytes": 6690
+      },
+      {
+        "_path": "lib/R/library/haven/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "6200fb4fde0c920e386f4aa5c26045a0d3116d2f39ea2de5828378b95298d44c",
+        "sha256_in_prefix": "6200fb4fde0c920e386f4aa5c26045a0d3116d2f39ea2de5828378b95298d44c",
+        "size_in_bytes": 635
+      },
+      {
+        "_path": "lib/R/library/haven/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "d182695ab6e111ba73895efec3a46cbbb6121a89a30888802ddda1dd615762da",
+        "sha256_in_prefix": "d182695ab6e111ba73895efec3a46cbbb6121a89a30888802ddda1dd615762da",
+        "size_in_bytes": 276
+      },
+      {
+        "_path": "lib/R/library/haven/help/figures/logo.png",
+        "path_type": "hardlink",
+        "sha256": "510b9a2c165c7bf1bf7eb96d06ad91c41546b7f0777d05678285d806eeaafa64",
+        "sha256_in_prefix": "510b9a2c165c7bf1bf7eb96d06ad91c41546b7f0777d05678285d806eeaafa64",
+        "size_in_bytes": 15303
+      },
+      {
+        "_path": "lib/R/library/haven/help/haven.rdb",
+        "path_type": "hardlink",
+        "sha256": "d591c1c84bb5155d272cd50bcadbe76a6d37e13ef1f0f560d0ea955b95d133dd",
+        "sha256_in_prefix": "d591c1c84bb5155d272cd50bcadbe76a6d37e13ef1f0f560d0ea955b95d133dd",
+        "size_in_bytes": 29642
+      },
+      {
+        "_path": "lib/R/library/haven/help/haven.rdx",
+        "path_type": "hardlink",
+        "sha256": "1eb5feea9d877ce5fd4a4da589cce2ef390d40eeb33383ba81f3054e460ef404",
+        "sha256_in_prefix": "1eb5feea9d877ce5fd4a4da589cce2ef390d40eeb33383ba81f3054e460ef404",
+        "size_in_bytes": 444
+      },
+      {
+        "_path": "lib/R/library/haven/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "b2899ec0ee1aa757187d0d8bf7b916242737c8d6603d14527f0e1df39408b14c",
+        "sha256_in_prefix": "b2899ec0ee1aa757187d0d8bf7b916242737c8d6603d14527f0e1df39408b14c",
+        "size_in_bytes": 261
+      },
+      {
+        "_path": "lib/R/library/haven/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "7475d806a91f668e90c211f5482cfc47682c580708b364ca2c7a9c23203f0305",
+        "sha256_in_prefix": "7475d806a91f668e90c211f5482cfc47682c580708b364ca2c7a9c23203f0305",
+        "size_in_bytes": 4593
+      },
+      {
+        "_path": "lib/R/library/haven/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/haven/html/as_factor.html",
+        "path_type": "hardlink",
+        "sha256": "2d2cbf1727c0014867c753096251ea3f016d8c565c724192b6b5f85df3f69ea8",
+        "sha256_in_prefix": "2d2cbf1727c0014867c753096251ea3f016d8c565c724192b6b5f85df3f69ea8",
+        "size_in_bytes": 2665
+      },
+      {
+        "_path": "lib/R/library/haven/html/labelled.html",
+        "path_type": "hardlink",
+        "sha256": "89e6e22903f50917e4f5835061f3eda471e0631e838bd341de2ac4f3562975a3",
+        "sha256_in_prefix": "89e6e22903f50917e4f5835061f3eda471e0631e838bd341de2ac4f3562975a3",
+        "size_in_bytes": 2581
+      },
+      {
+        "_path": "lib/R/library/haven/html/labelled_spss.html",
+        "path_type": "hardlink",
+        "sha256": "e3a0fa3035fdebe78282feda5e01be75e7ef9972370dbd37def1189de3624283",
+        "sha256_in_prefix": "e3a0fa3035fdebe78282feda5e01be75e7ef9972370dbd37def1189de3624283",
+        "size_in_bytes": 2178
+      },
+      {
+        "_path": "lib/R/library/haven/html/print_labels.html",
+        "path_type": "hardlink",
+        "sha256": "3a5cb37cd24cba8d45eab0aeb8c276bcc186384a84cf5173e2b7fdbe842a1ba2",
+        "sha256_in_prefix": "3a5cb37cd24cba8d45eab0aeb8c276bcc186384a84cf5173e2b7fdbe842a1ba2",
+        "size_in_bytes": 1447
+      },
+      {
+        "_path": "lib/R/library/haven/html/read_dta.html",
+        "path_type": "hardlink",
+        "sha256": "d4bbae96d5abd454930143d42f8cccd43622c908b9890432d7d98aa0ce93ccc8",
+        "sha256_in_prefix": "d4bbae96d5abd454930143d42f8cccd43622c908b9890432d7d98aa0ce93ccc8",
+        "size_in_bytes": 3556
+      },
+      {
+        "_path": "lib/R/library/haven/html/read_sas.html",
+        "path_type": "hardlink",
+        "sha256": "16fc598dbffa5838b18dd965b9ed89a0cac578e7a010f84f94456d7ddb310af1",
+        "sha256_in_prefix": "16fc598dbffa5838b18dd965b9ed89a0cac578e7a010f84f94456d7ddb310af1",
+        "size_in_bytes": 2485
+      },
+      {
+        "_path": "lib/R/library/haven/html/read_spss.html",
+        "path_type": "hardlink",
+        "sha256": "f231f30d0334cd1b59c949f86fa9fb4945482c9f0cdb14d7c3a8eb0b9c6149ac",
+        "sha256_in_prefix": "f231f30d0334cd1b59c949f86fa9fb4945482c9f0cdb14d7c3a8eb0b9c6149ac",
+        "size_in_bytes": 3872
+      },
+      {
+        "_path": "lib/R/library/haven/html/read_xpt.html",
+        "path_type": "hardlink",
+        "sha256": "2de2c6ed028c5e176513f67dd96d1f0ac5f6c23112daf40cc50f0e7482815f58",
+        "sha256_in_prefix": "2de2c6ed028c5e176513f67dd96d1f0ac5f6c23112daf40cc50f0e7482815f58",
+        "size_in_bytes": 2679
+      },
+      {
+        "_path": "lib/R/library/haven/html/tagged_na.html",
+        "path_type": "hardlink",
+        "sha256": "72d52716586c7ce5288070dddec113c0c11cbd96f06d70271109293ae16437bd",
+        "sha256_in_prefix": "72d52716586c7ce5288070dddec113c0c11cbd96f06d70271109293ae16437bd",
+        "size_in_bytes": 2529
+      },
+      {
+        "_path": "lib/R/library/haven/html/zap_empty.html",
+        "path_type": "hardlink",
+        "sha256": "0fc3a2bbd33e904099f65d21b910bc6f5ba92beca4ea93419918d1192960faf9",
+        "sha256_in_prefix": "0fc3a2bbd33e904099f65d21b910bc6f5ba92beca4ea93419918d1192960faf9",
+        "size_in_bytes": 1385
+      },
+      {
+        "_path": "lib/R/library/haven/html/zap_formats.html",
+        "path_type": "hardlink",
+        "sha256": "4b7d64e0f67df835e8754bc00cf22313c7139a4fe79ee366d2737e58ab26d2fe",
+        "sha256_in_prefix": "4b7d64e0f67df835e8754bc00cf22313c7139a4fe79ee366d2737e58ab26d2fe",
+        "size_in_bytes": 1445
+      },
+      {
+        "_path": "lib/R/library/haven/html/zap_labels.html",
+        "path_type": "hardlink",
+        "sha256": "1e22183bd949bc2a59d59af4e34b7a05ee8cdf85655e078e8bc889f5db041aae",
+        "sha256_in_prefix": "1e22183bd949bc2a59d59af4e34b7a05ee8cdf85655e078e8bc889f5db041aae",
+        "size_in_bytes": 1690
+      },
+      {
+        "_path": "lib/R/library/haven/html/zap_missing.html",
+        "path_type": "hardlink",
+        "sha256": "4b11b2897fd1b1b9b492daf062a304cc0abcedc6751cac1801f0bddff8555612",
+        "sha256_in_prefix": "4b11b2897fd1b1b9b492daf062a304cc0abcedc6751cac1801f0bddff8555612",
+        "size_in_bytes": 1491
+      },
+      {
+        "_path": "lib/R/library/haven/html/zap_widths.html",
+        "path_type": "hardlink",
+        "sha256": "32c443c2905c5befb45f4cffbddd6764db6820885914a95a33675d60c712a6d0",
+        "sha256_in_prefix": "32c443c2905c5befb45f4cffbddd6764db6820885914a95a33675d60c712a6d0",
+        "size_in_bytes": 1395
+      },
+      {
+        "_path": "lib/R/library/haven/libs/x64/haven.dll",
+        "path_type": "hardlink",
+        "sha256": "75fc720ce475a5a529290f58da66c5c802b040530499f382a18e8f8191000aeb",
+        "sha256_in_prefix": "75fc720ce475a5a529290f58da66c5c802b040530499f382a18e8f8191000aeb",
+        "size_in_bytes": 360960
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 296602,
+  "subdir": "win-64",
+  "timestamp": 1538162515628,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-haven-1.1.2-r351h6f4ce42_0.tar.bz2",
+  "version": "1.1.2"
+}

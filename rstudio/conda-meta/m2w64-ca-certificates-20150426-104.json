@@ -1,0 +1,157 @@
+{
+  "build": "104",
+  "build_number": 104,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2-coreutils",
+    "m2-findutils",
+    "m2w64-p11-kit",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-ca-certificates-20150426-104",
+  "features": "",
+  "files": [
+    "Library/mingw-w64/bin/update-ca-trust",
+    "Library/mingw-w64/etc/pki/ca-trust/extracted/java/cacerts",
+    "Library/mingw-w64/etc/pki/ca-trust/extracted/openssl/ca-bundle.trust.crt",
+    "Library/mingw-w64/etc/pki/ca-trust/extracted/pem/email-ca-bundle.pem",
+    "Library/mingw-w64/etc/pki/ca-trust/extracted/pem/objsign-ca-bundle.pem",
+    "Library/mingw-w64/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem",
+    "Library/mingw-w64/lib/p11-kit/p11-kit-extract-trust",
+    "Library/mingw-w64/share/man/man8/update-ca-trust.8.gz",
+    "Library/mingw-w64/share/pki/ca-trust-source/ca-bundle.neutral-trust.crt",
+    "Library/mingw-w64/share/pki/ca-trust-source/ca-bundle.supplement.p11-kit",
+    "Library/mingw-w64/share/pki/ca-trust-source/ca-bundle.trust.crt",
+    "Library/mingw-w64/ssl/cert.pem",
+    "Library/mingw-w64/ssl/certs/ca-bundle.crt",
+    "Library/mingw-w64/ssl/certs/ca-bundle.trust.crt",
+    "Scripts/.m2w64-ca-certificates-post-link.bat"
+  ],
+  "fn": "m2w64-ca-certificates-20150426-104.tar.bz2",
+  "license": "MPL, GPL",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-ca-certificates-20150426-104",
+    "type": 1
+  },
+  "md5": "8d9d83dbeb7e9aef8ff1a44ef2bba0d0",
+  "name": "m2w64-ca-certificates",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-ca-certificates-20150426-104.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/mingw-w64/bin/update-ca-trust",
+        "path_type": "hardlink",
+        "sha256": "915bf7228f7ceef7c3f7684f558ef42fbb9c9dcc736d7dc92e6cc3a2bd1fcf92",
+        "sha256_in_prefix": "915bf7228f7ceef7c3f7684f558ef42fbb9c9dcc736d7dc92e6cc3a2bd1fcf92",
+        "size_in_bytes": 1042
+      },
+      {
+        "_path": "Library/mingw-w64/etc/pki/ca-trust/extracted/java/cacerts",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Library/mingw-w64/etc/pki/ca-trust/extracted/openssl/ca-bundle.trust.crt",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Library/mingw-w64/etc/pki/ca-trust/extracted/pem/email-ca-bundle.pem",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Library/mingw-w64/etc/pki/ca-trust/extracted/pem/objsign-ca-bundle.pem",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Library/mingw-w64/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Library/mingw-w64/lib/p11-kit/p11-kit-extract-trust",
+        "path_type": "hardlink",
+        "sha256": "915bf7228f7ceef7c3f7684f558ef42fbb9c9dcc736d7dc92e6cc3a2bd1fcf92",
+        "sha256_in_prefix": "915bf7228f7ceef7c3f7684f558ef42fbb9c9dcc736d7dc92e6cc3a2bd1fcf92",
+        "size_in_bytes": 1042
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man8/update-ca-trust.8.gz",
+        "path_type": "hardlink",
+        "sha256": "a873ff9a8c2d19f604ac34cd28c5738d5295559c8d6b70d648f2760756d41e82",
+        "sha256_in_prefix": "a873ff9a8c2d19f604ac34cd28c5738d5295559c8d6b70d648f2760756d41e82",
+        "size_in_bytes": 3821
+      },
+      {
+        "_path": "Library/mingw-w64/share/pki/ca-trust-source/ca-bundle.neutral-trust.crt",
+        "path_type": "hardlink",
+        "sha256": "1980bf83777b993b5fb4ebf86ba100a81d1769f4948ea65688feadd6732b754a",
+        "sha256_in_prefix": "1980bf83777b993b5fb4ebf86ba100a81d1769f4948ea65688feadd6732b754a",
+        "size_in_bytes": 44431
+      },
+      {
+        "_path": "Library/mingw-w64/share/pki/ca-trust-source/ca-bundle.supplement.p11-kit",
+        "path_type": "hardlink",
+        "sha256": "3c26e9464750b0fa44205eab5ca046c21494461aea007517a8a1663a0932d34f",
+        "sha256_in_prefix": "3c26e9464750b0fa44205eab5ca046c21494461aea007517a8a1663a0932d34f",
+        "size_in_bytes": 5438
+      },
+      {
+        "_path": "Library/mingw-w64/share/pki/ca-trust-source/ca-bundle.trust.crt",
+        "path_type": "hardlink",
+        "sha256": "f5532fc0028e6ff94db48abdb8709a7916e8b16093c8aea70e2e9a98584bc0b5",
+        "sha256_in_prefix": "f5532fc0028e6ff94db48abdb8709a7916e8b16093c8aea70e2e9a98584bc0b5",
+        "size_in_bytes": 1102161
+      },
+      {
+        "_path": "Library/mingw-w64/ssl/cert.pem",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Library/mingw-w64/ssl/certs/ca-bundle.crt",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Library/mingw-w64/ssl/certs/ca-bundle.trust.crt",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Scripts/.m2w64-ca-certificates-post-link.bat",
+        "path_type": "hardlink",
+        "sha256": "d8b5caa15d6c475b860c4e2de503f47e9fd2ce2c05c2150acfae85c3a3ae3135",
+        "sha256_in_prefix": "d8b5caa15d6c475b860c4e2de503f47e9fd2ce2c05c2150acfae85c3a3ae3135",
+        "size_in_bytes": 1387
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 379764,
+  "subdir": "win-64",
+  "timestamp": 1551457468043,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2w64-ca-certificates-20150426-104.tar.bz2",
+  "version": "20150426"
+}

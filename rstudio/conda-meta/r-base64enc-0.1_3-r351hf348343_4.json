@@ -1,0 +1,237 @@
+{
+  "build": "r351hf348343_4",
+  "build_number": 4,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-base64enc-0.1_3-r351hf348343_4",
+  "features": "",
+  "files": [
+    "lib/R/library/base64enc/DESCRIPTION",
+    "lib/R/library/base64enc/INDEX",
+    "lib/R/library/base64enc/MD5",
+    "lib/R/library/base64enc/Meta/Rd.rds",
+    "lib/R/library/base64enc/Meta/features.rds",
+    "lib/R/library/base64enc/Meta/hsearch.rds",
+    "lib/R/library/base64enc/Meta/links.rds",
+    "lib/R/library/base64enc/Meta/nsInfo.rds",
+    "lib/R/library/base64enc/Meta/package.rds",
+    "lib/R/library/base64enc/NAMESPACE",
+    "lib/R/library/base64enc/NEWS",
+    "lib/R/library/base64enc/R/base64enc",
+    "lib/R/library/base64enc/R/base64enc.rdb",
+    "lib/R/library/base64enc/R/base64enc.rdx",
+    "lib/R/library/base64enc/help/AnIndex",
+    "lib/R/library/base64enc/help/aliases.rds",
+    "lib/R/library/base64enc/help/base64enc.rdb",
+    "lib/R/library/base64enc/help/base64enc.rdx",
+    "lib/R/library/base64enc/help/paths.rds",
+    "lib/R/library/base64enc/html/00Index.html",
+    "lib/R/library/base64enc/html/R.css",
+    "lib/R/library/base64enc/html/base64.html",
+    "lib/R/library/base64enc/html/checkUTF8.html",
+    "lib/R/library/base64enc/html/dataURI.html",
+    "lib/R/library/base64enc/libs/x64/base64enc.dll"
+  ],
+  "fn": "r-base64enc-0.1_3-r351hf348343_4.tar.bz2",
+  "license": "GPL-2 | GPL-3",
+  "license_family": "GPL3",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-base64enc-0.1_3-r351hf348343_4",
+    "type": 1
+  },
+  "md5": "b20242868dfc36c585bcda6c3a7908d1",
+  "name": "r-base64enc",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-base64enc-0.1_3-r351hf348343_4.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/base64enc/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "02ef45dd6db53f6edc44fc0f36f1d855d981c9321a315ee3479371be31efa71a",
+        "sha256_in_prefix": "02ef45dd6db53f6edc44fc0f36f1d855d981c9321a315ee3479371be31efa71a",
+        "size_in_bytes": 612
+      },
+      {
+        "_path": "lib/R/library/base64enc/INDEX",
+        "path_type": "hardlink",
+        "sha256": "d6eebe8968b0b00af0ae4080b3786739032ae50a5456da8effdfd6adfcea67c8",
+        "sha256_in_prefix": "d6eebe8968b0b00af0ae4080b3786739032ae50a5456da8effdfd6adfcea67c8",
+        "size_in_bytes": 233
+      },
+      {
+        "_path": "lib/R/library/base64enc/MD5",
+        "path_type": "hardlink",
+        "sha256": "f6653f4a729c9f588a2d9fba6aeb498f8349945c282446a4c167c2d60062fb54",
+        "sha256_in_prefix": "f6653f4a729c9f588a2d9fba6aeb498f8349945c282446a4c167c2d60062fb54",
+        "size_in_bytes": 1202
+      },
+      {
+        "_path": "lib/R/library/base64enc/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "d8546b7fd95b83a64e326b15b5e970a1aba58344a15502c1f04efa77087e9b5b",
+        "sha256_in_prefix": "d8546b7fd95b83a64e326b15b5e970a1aba58344a15502c1f04efa77087e9b5b",
+        "size_in_bytes": 348
+      },
+      {
+        "_path": "lib/R/library/base64enc/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/base64enc/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "f3636df481b799d1e6d186b308c9c67604aa25d850a3de29604235cd9cbc356b",
+        "sha256_in_prefix": "f3636df481b799d1e6d186b308c9c67604aa25d850a3de29604235cd9cbc356b",
+        "size_in_bytes": 389
+      },
+      {
+        "_path": "lib/R/library/base64enc/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "cb188a786a0f12c94673aa5970e5c69e55ae1149ee3a045ae98ab0893ddb6b1c",
+        "sha256_in_prefix": "cb188a786a0f12c94673aa5970e5c69e55ae1149ee3a045ae98ab0893ddb6b1c",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "lib/R/library/base64enc/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "6b05bdadb555097868e245ce640bf33d2cb53a2d9f871cb490004fb997238ba8",
+        "sha256_in_prefix": "6b05bdadb555097868e245ce640bf33d2cb53a2d9f871cb490004fb997238ba8",
+        "size_in_bytes": 326
+      },
+      {
+        "_path": "lib/R/library/base64enc/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "a2f483f8080eb059562314e430865d5e3f83ed595d44c25c2c742bfa5b6ef01a",
+        "sha256_in_prefix": "a2f483f8080eb059562314e430865d5e3f83ed595d44c25c2c742bfa5b6ef01a",
+        "size_in_bytes": 709
+      },
+      {
+        "_path": "lib/R/library/base64enc/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "9639822048b1066b83fd9578450068b275c6c66fa5d6460b47ef89498b998cf8",
+        "sha256_in_prefix": "9639822048b1066b83fd9578450068b275c6c66fa5d6460b47ef89498b998cf8",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "lib/R/library/base64enc/NEWS",
+        "path_type": "hardlink",
+        "sha256": "76f7268a7bd49136414929a95553331ffdac087c34164490ff250c611d8ac97a",
+        "sha256_in_prefix": "76f7268a7bd49136414929a95553331ffdac087c34164490ff250c611d8ac97a",
+        "size_in_bytes": 514
+      },
+      {
+        "_path": "lib/R/library/base64enc/R/base64enc",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/base64enc/R/base64enc.rdb",
+        "path_type": "hardlink",
+        "sha256": "d82c2b062ca6810a1de53e572e2eeaa8f69cf2e083685d35465964ff6485fb2f",
+        "sha256_in_prefix": "d82c2b062ca6810a1de53e572e2eeaa8f69cf2e083685d35465964ff6485fb2f",
+        "size_in_bytes": 6719
+      },
+      {
+        "_path": "lib/R/library/base64enc/R/base64enc.rdx",
+        "path_type": "hardlink",
+        "sha256": "9a997e044c6eb578cde433ca179b95249ea4fdeab95cab738e8f628f37144aec",
+        "sha256_in_prefix": "9a997e044c6eb578cde433ca179b95249ea4fdeab95cab738e8f628f37144aec",
+        "size_in_bytes": 311
+      },
+      {
+        "_path": "lib/R/library/base64enc/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "b7d78347916b1a2385635f7065a71d4205ffbe7d0c1c42e77d67340ae1c3d81b",
+        "sha256_in_prefix": "b7d78347916b1a2385635f7065a71d4205ffbe7d0c1c42e77d67340ae1c3d81b",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "lib/R/library/base64enc/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "3b2e82bf1c16c5461e99f782a095b752f4a43cf21250f40ff8df402179f39654",
+        "sha256_in_prefix": "3b2e82bf1c16c5461e99f782a095b752f4a43cf21250f40ff8df402179f39654",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "lib/R/library/base64enc/help/base64enc.rdb",
+        "path_type": "hardlink",
+        "sha256": "bb30d90f1e99fcfd86e76ed8d580c40bb6beaca0d5344ad3d1ac054235ba5e8b",
+        "sha256_in_prefix": "bb30d90f1e99fcfd86e76ed8d580c40bb6beaca0d5344ad3d1ac054235ba5e8b",
+        "size_in_bytes": 7625
+      },
+      {
+        "_path": "lib/R/library/base64enc/help/base64enc.rdx",
+        "path_type": "hardlink",
+        "sha256": "5979c146f72ccfe009f3bc0882cfe9208198ce3155b515f58a8e94b5763f7736",
+        "sha256_in_prefix": "5979c146f72ccfe009f3bc0882cfe9208198ce3155b515f58a8e94b5763f7736",
+        "size_in_bytes": 204
+      },
+      {
+        "_path": "lib/R/library/base64enc/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "e788e171353efed846bf88fcd7bccd4e485489e0a32365dc5aa01e7a0022c5ec",
+        "sha256_in_prefix": "e788e171353efed846bf88fcd7bccd4e485489e0a32365dc5aa01e7a0022c5ec",
+        "size_in_bytes": 170
+      },
+      {
+        "_path": "lib/R/library/base64enc/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "26a7f691c14f8f76d5c1f6518b1a60fe57e65a807ef941ccb821ab0231bc24b1",
+        "sha256_in_prefix": "26a7f691c14f8f76d5c1f6518b1a60fe57e65a807ef941ccb821ab0231bc24b1",
+        "size_in_bytes": 1650
+      },
+      {
+        "_path": "lib/R/library/base64enc/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/base64enc/html/base64.html",
+        "path_type": "hardlink",
+        "sha256": "ab2f170f32b2a27c2040dd39acd67b1c0df668ee26755e52c6c443775d69ee84",
+        "sha256_in_prefix": "ab2f170f32b2a27c2040dd39acd67b1c0df668ee26755e52c6c443775d69ee84",
+        "size_in_bytes": 3337
+      },
+      {
+        "_path": "lib/R/library/base64enc/html/checkUTF8.html",
+        "path_type": "hardlink",
+        "sha256": "98c3871fae8f3d9a813d05e7ff92451e35348386f3c233ecc70ead631cf3ab4e",
+        "sha256_in_prefix": "98c3871fae8f3d9a813d05e7ff92451e35348386f3c233ecc70ead631cf3ab4e",
+        "size_in_bytes": 2194
+      },
+      {
+        "_path": "lib/R/library/base64enc/html/dataURI.html",
+        "path_type": "hardlink",
+        "sha256": "7be8deb2ae3f67f36d355e72c1791d0af4139eb056375777984fc9a71c1f36e6",
+        "sha256_in_prefix": "7be8deb2ae3f67f36d355e72c1791d0af4139eb056375777984fc9a71c1f36e6",
+        "size_in_bytes": 2496
+      },
+      {
+        "_path": "lib/R/library/base64enc/libs/x64/base64enc.dll",
+        "path_type": "hardlink",
+        "sha256": "e3810ebfb13a14a9421d6cbfac9cee96d223aecbaab4ac8154bfb5cc1b17378d",
+        "sha256_in_prefix": "e3810ebfb13a14a9421d6cbfac9cee96d223aecbaab4ac8154bfb5cc1b17378d",
+        "size_in_bytes": 22016
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 39657,
+  "subdir": "win-64",
+  "timestamp": 1538125897258,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-base64enc-0.1_3-r351hf348343_4.tar.bz2",
+  "version": "0.1_3"
+}

@@ -1,0 +1,11 @@
+prefix=C:/Users/dbates/Anaconda3/envs/no_pd/Library
+exec_prefix=C:/Users/dbates/Anaconda3/envs/no_pd/Library
+libdir=C:/Users/dbates/Anaconda3/envs/no_pd/Library/lib
+includedir=C:/Users/dbates/Anaconda3/envs/no_pd/Library/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.0.10
+Libs: -LC:/Users/dbates/Anaconda3/envs/no_pd/Library/lib -ltiff
+Libs.private: 
+Cflags: -IC:/Users/dbates/Anaconda3/envs/no_pd/Library/include

@@ -1,0 +1,317 @@
+{
+  "build": "r351hf348343_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-yaml-2.2.0-r351hf348343_0",
+  "features": "",
+  "files": [
+    "lib/R/library/yaml/CHANGELOG",
+    "lib/R/library/yaml/DESCRIPTION",
+    "lib/R/library/yaml/INDEX",
+    "lib/R/library/yaml/LICENSE",
+    "lib/R/library/yaml/MD5",
+    "lib/R/library/yaml/Meta/Rd.rds",
+    "lib/R/library/yaml/Meta/features.rds",
+    "lib/R/library/yaml/Meta/hsearch.rds",
+    "lib/R/library/yaml/Meta/links.rds",
+    "lib/R/library/yaml/Meta/nsInfo.rds",
+    "lib/R/library/yaml/Meta/package.rds",
+    "lib/R/library/yaml/NAMESPACE",
+    "lib/R/library/yaml/R/yaml",
+    "lib/R/library/yaml/R/yaml.rdb",
+    "lib/R/library/yaml/R/yaml.rdx",
+    "lib/R/library/yaml/THANKS",
+    "lib/R/library/yaml/help/AnIndex",
+    "lib/R/library/yaml/help/aliases.rds",
+    "lib/R/library/yaml/help/paths.rds",
+    "lib/R/library/yaml/help/yaml.rdb",
+    "lib/R/library/yaml/help/yaml.rdx",
+    "lib/R/library/yaml/html/00Index.html",
+    "lib/R/library/yaml/html/R.css",
+    "lib/R/library/yaml/html/as.yaml.html",
+    "lib/R/library/yaml/html/read_yaml.html",
+    "lib/R/library/yaml/html/write_yaml.html",
+    "lib/R/library/yaml/html/yaml.load.html",
+    "lib/R/library/yaml/implicit.re",
+    "lib/R/library/yaml/libs/x64/yaml.dll",
+    "lib/R/library/yaml/tests/files/test.yml",
+    "lib/R/library/yaml/tests/test_as_yaml.R",
+    "lib/R/library/yaml/tests/test_read_yaml.R",
+    "lib/R/library/yaml/tests/test_write_yaml.R",
+    "lib/R/library/yaml/tests/test_yaml_load.R",
+    "lib/R/library/yaml/tests/test_yaml_load_file.R"
+  ],
+  "fn": "r-yaml-2.2.0-r351hf348343_0.tar.bz2",
+  "license": "BSD_3_clause + file LICENSE",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-yaml-2.2.0-r351hf348343_0",
+    "type": 1
+  },
+  "md5": "4b98cda28c49d0390c962f16d8b82b97",
+  "name": "r-yaml",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-yaml-2.2.0-r351hf348343_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/yaml/CHANGELOG",
+        "path_type": "hardlink",
+        "sha256": "1d23ef60c71fc03a899fecdb0942d0e9778a0824a12bb09bd4585a8f004afbba",
+        "sha256_in_prefix": "1d23ef60c71fc03a899fecdb0942d0e9778a0824a12bb09bd4585a8f004afbba",
+        "size_in_bytes": 4831
+      },
+      {
+        "_path": "lib/R/library/yaml/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "002f5846f98bb76320d7f58e08d2b1a0eb96bbf4094447a7ee6f6df7bceeef72",
+        "sha256_in_prefix": "002f5846f98bb76320d7f58e08d2b1a0eb96bbf4094447a7ee6f6df7bceeef72",
+        "size_in_bytes": 874
+      },
+      {
+        "_path": "lib/R/library/yaml/INDEX",
+        "path_type": "hardlink",
+        "sha256": "2e25e4d3f704760daf9638bbbbb8b8f577abc35e4f47a8c075691621c8a30ea6",
+        "sha256_in_prefix": "2e25e4d3f704760daf9638bbbbb8b8f577abc35e4f47a8c075691621c8a30ea6",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "lib/R/library/yaml/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0eed2bf184c7b644e7c21dd2b4f1ef63e4ae036f69a0a27df947e36041af9b8f",
+        "sha256_in_prefix": "0eed2bf184c7b644e7c21dd2b4f1ef63e4ae036f69a0a27df947e36041af9b8f",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/yaml/MD5",
+        "path_type": "hardlink",
+        "sha256": "903cf22047de337fb23363ac36cbcffda594251bd4528ee5b401e40dcbab94bc",
+        "sha256_in_prefix": "903cf22047de337fb23363ac36cbcffda594251bd4528ee5b401e40dcbab94bc",
+        "size_in_bytes": 1718
+      },
+      {
+        "_path": "lib/R/library/yaml/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "6331645aa08c56a2bd0a6140b86b41a8922e591f977513499c280535c5b5ef9c",
+        "sha256_in_prefix": "6331645aa08c56a2bd0a6140b86b41a8922e591f977513499c280535c5b5ef9c",
+        "size_in_bytes": 353
+      },
+      {
+        "_path": "lib/R/library/yaml/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/yaml/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "49ab8df9bcc616937973de8046eedf551e51838fd0e508d302c4fb4f64705dd3",
+        "sha256_in_prefix": "49ab8df9bcc616937973de8046eedf551e51838fd0e508d302c4fb4f64705dd3",
+        "size_in_bytes": 386
+      },
+      {
+        "_path": "lib/R/library/yaml/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "bb6a8fd7fd95f3ddb109ad15bc6aae6ddf84dce692c13f857ec68c9a64c5427f",
+        "sha256_in_prefix": "bb6a8fd7fd95f3ddb109ad15bc6aae6ddf84dce692c13f857ec68c9a64c5427f",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/R/library/yaml/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "18f82b2a9494f5d620808b9da2c1d8426d8b5a9b16b82fd94fe4edaf9af8a04e",
+        "sha256_in_prefix": "18f82b2a9494f5d620808b9da2c1d8426d8b5a9b16b82fd94fe4edaf9af8a04e",
+        "size_in_bytes": 311
+      },
+      {
+        "_path": "lib/R/library/yaml/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "dee6644297e40b95cfe04eefb12d3e69d7712bd36b9d6186ac5b75de508f463b",
+        "sha256_in_prefix": "dee6644297e40b95cfe04eefb12d3e69d7712bd36b9d6186ac5b75de508f463b",
+        "size_in_bytes": 866
+      },
+      {
+        "_path": "lib/R/library/yaml/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "e3783aa2365bddca68908263a1d66e94b898f833d9d2be7eedd3d724ec46addc",
+        "sha256_in_prefix": "e3783aa2365bddca68908263a1d66e94b898f833d9d2be7eedd3d724ec46addc",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/R/library/yaml/R/yaml",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/yaml/R/yaml.rdb",
+        "path_type": "hardlink",
+        "sha256": "756813cec1887505b2114c48025795c43605f3c464adfe9277402ab636d34f15",
+        "sha256_in_prefix": "756813cec1887505b2114c48025795c43605f3c464adfe9277402ab636d34f15",
+        "size_in_bytes": 6121
+      },
+      {
+        "_path": "lib/R/library/yaml/R/yaml.rdx",
+        "path_type": "hardlink",
+        "sha256": "c5f0536ca0b26eabe34dc7aeff9d29001dbf84716931c3db823a0d46ef06ffcd",
+        "sha256_in_prefix": "c5f0536ca0b26eabe34dc7aeff9d29001dbf84716931c3db823a0d46ef06ffcd",
+        "size_in_bytes": 319
+      },
+      {
+        "_path": "lib/R/library/yaml/THANKS",
+        "path_type": "hardlink",
+        "sha256": "a247d6bc51af815a8d2cf114e142ba0eb18821275aff9afd4fbc9aab58360018",
+        "sha256_in_prefix": "a247d6bc51af815a8d2cf114e142ba0eb18821275aff9afd4fbc9aab58360018",
+        "size_in_bytes": 379
+      },
+      {
+        "_path": "lib/R/library/yaml/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "491d8f20d56bea28f4ea582b0a30e667cc14ef52c111c8cd5bb366a9e8cd0e1c",
+        "sha256_in_prefix": "491d8f20d56bea28f4ea582b0a30e667cc14ef52c111c8cd5bb366a9e8cd0e1c",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "lib/R/library/yaml/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "294a19d685afa76a0c9e0925e691d4509926622f564fb1fe4796655f25251d21",
+        "sha256_in_prefix": "294a19d685afa76a0c9e0925e691d4509926622f564fb1fe4796655f25251d21",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "lib/R/library/yaml/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "4f46371e43964f2516659e7a4f48f9f669c2e86be6285a0eab643e8b9fbe48d7",
+        "sha256_in_prefix": "4f46371e43964f2516659e7a4f48f9f669c2e86be6285a0eab643e8b9fbe48d7",
+        "size_in_bytes": 170
+      },
+      {
+        "_path": "lib/R/library/yaml/help/yaml.rdb",
+        "path_type": "hardlink",
+        "sha256": "5a4b7556b537c3c3d8d9144570ed59b50f9ec316fd9d08e5314de374aedbf781",
+        "sha256_in_prefix": "5a4b7556b537c3c3d8d9144570ed59b50f9ec316fd9d08e5314de374aedbf781",
+        "size_in_bytes": 15955
+      },
+      {
+        "_path": "lib/R/library/yaml/help/yaml.rdx",
+        "path_type": "hardlink",
+        "sha256": "95e8623fe5bcad98a29e8f7a6cffb7a84ace4b6134ba3d47c55f543ee59a5575",
+        "sha256_in_prefix": "95e8623fe5bcad98a29e8f7a6cffb7a84ace4b6134ba3d47c55f543ee59a5575",
+        "size_in_bytes": 228
+      },
+      {
+        "_path": "lib/R/library/yaml/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "b4c9bfaedf88f9645e309ff2e160c611694ed627782e6fe9668f31b9f79b4248",
+        "sha256_in_prefix": "b4c9bfaedf88f9645e309ff2e160c611694ed627782e6fe9668f31b9f79b4248",
+        "size_in_bytes": 1571
+      },
+      {
+        "_path": "lib/R/library/yaml/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/yaml/html/as.yaml.html",
+        "path_type": "hardlink",
+        "sha256": "4fface7cedf51b52b80167dd136a6d5d5a31dd0dcb9c0c24d56cda8e5d5c527d",
+        "sha256_in_prefix": "4fface7cedf51b52b80167dd136a6d5d5a31dd0dcb9c0c24d56cda8e5d5c527d",
+        "size_in_bytes": 6559
+      },
+      {
+        "_path": "lib/R/library/yaml/html/read_yaml.html",
+        "path_type": "hardlink",
+        "sha256": "c453e309729e25fa6c30f7bf3cc8c1f2e7e6ca3b6afb3a06be83d324f2c40521",
+        "sha256_in_prefix": "c453e309729e25fa6c30f7bf3cc8c1f2e7e6ca3b6afb3a06be83d324f2c40521",
+        "size_in_bytes": 3808
+      },
+      {
+        "_path": "lib/R/library/yaml/html/write_yaml.html",
+        "path_type": "hardlink",
+        "sha256": "8fa732e2866f46fe9c114acf9b1ff01a5e09ce2d502a1b0c26dc26f2cad00572",
+        "sha256_in_prefix": "8fa732e2866f46fe9c114acf9b1ff01a5e09ce2d502a1b0c26dc26f2cad00572",
+        "size_in_bytes": 2514
+      },
+      {
+        "_path": "lib/R/library/yaml/html/yaml.load.html",
+        "path_type": "hardlink",
+        "sha256": "82bce5c0e67725acab996e9505728ecf837b90d663548ad06b0e2278e67f9ddb",
+        "sha256_in_prefix": "82bce5c0e67725acab996e9505728ecf837b90d663548ad06b0e2278e67f9ddb",
+        "size_in_bytes": 6742
+      },
+      {
+        "_path": "lib/R/library/yaml/implicit.re",
+        "path_type": "hardlink",
+        "sha256": "d8f72427eb3a824c106cd4f9cf3db60ebd0613d58edb642a6e7bf8ae5feec1b3",
+        "sha256_in_prefix": "d8f72427eb3a824c106cd4f9cf3db60ebd0613d58edb642a6e7bf8ae5feec1b3",
+        "size_in_bytes": 2967
+      },
+      {
+        "_path": "lib/R/library/yaml/libs/x64/yaml.dll",
+        "path_type": "hardlink",
+        "sha256": "7b70081c93abcb972313bf2b15656de90c395e6ca44e040fc0e9494c92b83ae5",
+        "sha256_in_prefix": "7b70081c93abcb972313bf2b15656de90c395e6ca44e040fc0e9494c92b83ae5",
+        "size_in_bytes": 173056
+      },
+      {
+        "_path": "lib/R/library/yaml/tests/files/test.yml",
+        "path_type": "hardlink",
+        "sha256": "a202b16208649bc7c78e58a70b9b4af9237cc5cd2d784406bb35be5f0044e2b3",
+        "sha256_in_prefix": "a202b16208649bc7c78e58a70b9b4af9237cc5cd2d784406bb35be5f0044e2b3",
+        "size_in_bytes": 179
+      },
+      {
+        "_path": "lib/R/library/yaml/tests/test_as_yaml.R",
+        "path_type": "hardlink",
+        "sha256": "0c09720fe727ffde0a7c861c68f658003cbab2f1a69f6566e343b7592ec41486",
+        "sha256_in_prefix": "0c09720fe727ffde0a7c861c68f658003cbab2f1a69f6566e343b7592ec41486",
+        "size_in_bytes": 12435
+      },
+      {
+        "_path": "lib/R/library/yaml/tests/test_read_yaml.R",
+        "path_type": "hardlink",
+        "sha256": "f190c242dde94d9e70e7e9086edd94a2ec8336643be42019b7d9d271a5552da3",
+        "sha256_in_prefix": "f190c242dde94d9e70e7e9086edd94a2ec8336643be42019b7d9d271a5552da3",
+        "size_in_bytes": 1112
+      },
+      {
+        "_path": "lib/R/library/yaml/tests/test_write_yaml.R",
+        "path_type": "hardlink",
+        "sha256": "1ac4a0a963029a6993cbc73a9f6ecf85822cfdab3cd454b420f5ea0ac4ecfec0",
+        "sha256_in_prefix": "1ac4a0a963029a6993cbc73a9f6ecf85822cfdab3cd454b420f5ea0ac4ecfec0",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "lib/R/library/yaml/tests/test_yaml_load.R",
+        "path_type": "hardlink",
+        "sha256": "212311355c9de3de25b4ecf45155afdfd87850c6cf5338ad5e3ee2143f0eed2a",
+        "sha256_in_prefix": "212311355c9de3de25b4ecf45155afdfd87850c6cf5338ad5e3ee2143f0eed2a",
+        "size_in_bytes": 17167
+      },
+      {
+        "_path": "lib/R/library/yaml/tests/test_yaml_load_file.R",
+        "path_type": "hardlink",
+        "sha256": "494e8a85228a51c76eb6adb194e695377398e18b66c7507dd060dc9557ff9215",
+        "sha256_in_prefix": "494e8a85228a51c76eb6adb194e695377398e18b66c7507dd060dc9557ff9215",
+        "size_in_bytes": 2236
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 128492,
+  "subdir": "win-64",
+  "timestamp": 1538126441194,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-yaml-2.2.0-r351hf348343_0.tar.bz2",
+  "version": "2.2.0"
+}

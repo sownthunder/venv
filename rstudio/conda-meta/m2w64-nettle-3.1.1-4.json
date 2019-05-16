@@ -1,0 +1,603 @@
+{
+  "build": "4",
+  "build_number": 4,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "m2w64-gmp",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-nettle-3.1.1-4",
+  "features": "",
+  "files": [
+    "Library/mingw-w64/bin/libhogweed-4-1.dll",
+    "Library/mingw-w64/bin/libnettle-6-1.dll",
+    "Library/mingw-w64/bin/nettle-hash.exe",
+    "Library/mingw-w64/bin/nettle-lfib-stream.exe",
+    "Library/mingw-w64/bin/nettle-pbkdf2.exe",
+    "Library/mingw-w64/bin/pkcs1-conv.exe",
+    "Library/mingw-w64/bin/sexp-conv.exe",
+    "Library/mingw-w64/include/nettle/aes.h",
+    "Library/mingw-w64/include/nettle/arcfour.h",
+    "Library/mingw-w64/include/nettle/arctwo.h",
+    "Library/mingw-w64/include/nettle/asn1.h",
+    "Library/mingw-w64/include/nettle/base16.h",
+    "Library/mingw-w64/include/nettle/base64.h",
+    "Library/mingw-w64/include/nettle/bignum.h",
+    "Library/mingw-w64/include/nettle/blowfish.h",
+    "Library/mingw-w64/include/nettle/buffer.h",
+    "Library/mingw-w64/include/nettle/camellia.h",
+    "Library/mingw-w64/include/nettle/cast128.h",
+    "Library/mingw-w64/include/nettle/cbc.h",
+    "Library/mingw-w64/include/nettle/ccm.h",
+    "Library/mingw-w64/include/nettle/chacha-poly1305.h",
+    "Library/mingw-w64/include/nettle/chacha.h",
+    "Library/mingw-w64/include/nettle/ctr.h",
+    "Library/mingw-w64/include/nettle/curve25519.h",
+    "Library/mingw-w64/include/nettle/des-compat.h",
+    "Library/mingw-w64/include/nettle/des.h",
+    "Library/mingw-w64/include/nettle/dsa-compat.h",
+    "Library/mingw-w64/include/nettle/dsa.h",
+    "Library/mingw-w64/include/nettle/eax.h",
+    "Library/mingw-w64/include/nettle/ecc-curve.h",
+    "Library/mingw-w64/include/nettle/ecc.h",
+    "Library/mingw-w64/include/nettle/ecdsa.h",
+    "Library/mingw-w64/include/nettle/eddsa.h",
+    "Library/mingw-w64/include/nettle/gcm.h",
+    "Library/mingw-w64/include/nettle/gosthash94.h",
+    "Library/mingw-w64/include/nettle/hmac.h",
+    "Library/mingw-w64/include/nettle/knuth-lfib.h",
+    "Library/mingw-w64/include/nettle/macros.h",
+    "Library/mingw-w64/include/nettle/md2.h",
+    "Library/mingw-w64/include/nettle/md4.h",
+    "Library/mingw-w64/include/nettle/md5-compat.h",
+    "Library/mingw-w64/include/nettle/md5.h",
+    "Library/mingw-w64/include/nettle/memxor.h",
+    "Library/mingw-w64/include/nettle/nettle-meta.h",
+    "Library/mingw-w64/include/nettle/nettle-stdint.h",
+    "Library/mingw-w64/include/nettle/nettle-types.h",
+    "Library/mingw-w64/include/nettle/pbkdf2.h",
+    "Library/mingw-w64/include/nettle/pgp.h",
+    "Library/mingw-w64/include/nettle/pkcs1.h",
+    "Library/mingw-w64/include/nettle/poly1305.h",
+    "Library/mingw-w64/include/nettle/realloc.h",
+    "Library/mingw-w64/include/nettle/ripemd160.h",
+    "Library/mingw-w64/include/nettle/rsa.h",
+    "Library/mingw-w64/include/nettle/salsa20.h",
+    "Library/mingw-w64/include/nettle/serpent.h",
+    "Library/mingw-w64/include/nettle/sexp.h",
+    "Library/mingw-w64/include/nettle/sha.h",
+    "Library/mingw-w64/include/nettle/sha1.h",
+    "Library/mingw-w64/include/nettle/sha2.h",
+    "Library/mingw-w64/include/nettle/sha3.h",
+    "Library/mingw-w64/include/nettle/twofish.h",
+    "Library/mingw-w64/include/nettle/umac.h",
+    "Library/mingw-w64/include/nettle/version.h",
+    "Library/mingw-w64/include/nettle/yarrow.h",
+    "Library/mingw-w64/lib/libhogweed.a",
+    "Library/mingw-w64/lib/libhogweed.dll.a",
+    "Library/mingw-w64/lib/libnettle.a",
+    "Library/mingw-w64/lib/libnettle.dll.a",
+    "Library/mingw-w64/lib/pkgconfig/hogweed.pc",
+    "Library/mingw-w64/lib/pkgconfig/nettle.pc",
+    "Library/mingw-w64/share/info/nettle.info.gz"
+  ],
+  "fn": "m2w64-nettle-3.1.1-4.tar.bz2",
+  "license": "LGPL",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-nettle-3.1.1-4",
+    "type": 1
+  },
+  "md5": "7faf456ab70cca6570a076cf80910320",
+  "name": "m2w64-nettle",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-nettle-3.1.1-4.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/mingw-w64/bin/libhogweed-4-1.dll",
+        "path_type": "hardlink",
+        "sha256": "ef998ea2d4bd82a75a038695430ddff03648910671b8e8bcc748dc756639fb97",
+        "sha256_in_prefix": "ef998ea2d4bd82a75a038695430ddff03648910671b8e8bcc748dc756639fb97",
+        "size_in_bytes": 203909
+      },
+      {
+        "_path": "Library/mingw-w64/bin/libnettle-6-1.dll",
+        "path_type": "hardlink",
+        "sha256": "1b0bac7f35b60d7b89d145cb331607fd1ba12cc60e98bac4c41389ff56ee85a7",
+        "sha256_in_prefix": "1b0bac7f35b60d7b89d145cb331607fd1ba12cc60e98bac4c41389ff56ee85a7",
+        "size_in_bytes": 236622
+      },
+      {
+        "_path": "Library/mingw-w64/bin/nettle-hash.exe",
+        "path_type": "hardlink",
+        "sha256": "aeb2af240a25238e156f1103c886b9ff0ec6e477e24e779deffd04505106c8fa",
+        "sha256_in_prefix": "aeb2af240a25238e156f1103c886b9ff0ec6e477e24e779deffd04505106c8fa",
+        "size_in_bytes": 53378
+      },
+      {
+        "_path": "Library/mingw-w64/bin/nettle-lfib-stream.exe",
+        "path_type": "hardlink",
+        "sha256": "c9e25158191fa46edee3d9e50225e5abf0bf3e2994cddd514d3cbde711b34b1c",
+        "sha256_in_prefix": "c9e25158191fa46edee3d9e50225e5abf0bf3e2994cddd514d3cbde711b34b1c",
+        "size_in_bytes": 45448
+      },
+      {
+        "_path": "Library/mingw-w64/bin/nettle-pbkdf2.exe",
+        "path_type": "hardlink",
+        "sha256": "fc5b810deb8a8c49da28362c3b68f5998d6796d9f445fbe6d8dab186bb29eace",
+        "sha256_in_prefix": "fc5b810deb8a8c49da28362c3b68f5998d6796d9f445fbe6d8dab186bb29eace",
+        "size_in_bytes": 52866
+      },
+      {
+        "_path": "Library/mingw-w64/bin/pkcs1-conv.exe",
+        "path_type": "hardlink",
+        "sha256": "9fb21b2da6bc234596b04a5e9cbfce2fcdfc58218580987b3b411a07393035bb",
+        "sha256_in_prefix": "9fb21b2da6bc234596b04a5e9cbfce2fcdfc58218580987b3b411a07393035bb",
+        "size_in_bytes": 57804
+      },
+      {
+        "_path": "Library/mingw-w64/bin/sexp-conv.exe",
+        "path_type": "hardlink",
+        "sha256": "636401e2f335a7c0f3a617e3c265eba3bb6d446f72a36f34240ab26543366ccc",
+        "sha256_in_prefix": "636401e2f335a7c0f3a617e3c265eba3bb6d446f72a36f34240ab26543366ccc",
+        "size_in_bytes": 64441
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/aes.h",
+        "path_type": "hardlink",
+        "sha256": "94334dcab8e05bf735d022f5626f287fd92d0a8efc34ed0ca1f230cae217108d",
+        "sha256_in_prefix": "94334dcab8e05bf735d022f5626f287fd92d0a8efc34ed0ca1f230cae217108d",
+        "size_in_bytes": 4962
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/arcfour.h",
+        "path_type": "hardlink",
+        "sha256": "5c770d26d23f2925086c809ab384e1a7e0bf3e57f4967d55bfcf081fab0368b0",
+        "sha256_in_prefix": "5c770d26d23f2925086c809ab384e1a7e0bf3e57f4967d55bfcf081fab0368b0",
+        "size_in_bytes": 1960
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/arctwo.h",
+        "path_type": "hardlink",
+        "sha256": "4f266529b2ac20c843d4c463aec035efb0269b22f0e3fc291a812160b045ff4f",
+        "sha256_in_prefix": "4f266529b2ac20c843d4c463aec035efb0269b22f0e3fc291a812160b045ff4f",
+        "size_in_bytes": 3013
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/asn1.h",
+        "path_type": "hardlink",
+        "sha256": "c18dc28e2c89f79c07c706d3b1b5e8a27f0d4c5ec0efac53835526ee5d73abe2",
+        "sha256_in_prefix": "c18dc28e2c89f79c07c706d3b1b5e8a27f0d4c5ec0efac53835526ee5d73abe2",
+        "size_in_bytes": 4217
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/base16.h",
+        "path_type": "hardlink",
+        "sha256": "b34c21405c0c27ebe947abae53adee4e966d4c1a17f11a2a0d855e2d24e09cf4",
+        "sha256_in_prefix": "b34c21405c0c27ebe947abae53adee4e966d4c1a17f11a2a0d855e2d24e09cf4",
+        "size_in_bytes": 3109
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/base64.h",
+        "path_type": "hardlink",
+        "sha256": "805cec5bcd2d348d95f0e1c1f5a220b38ebe1a5aa9918ed84ae2fa3f370b1b4f",
+        "sha256_in_prefix": "805cec5bcd2d348d95f0e1c1f5a220b38ebe1a5aa9918ed84ae2fa3f370b1b4f",
+        "size_in_bytes": 5256
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/bignum.h",
+        "path_type": "hardlink",
+        "sha256": "21d5ce9164e2af5f067eb3b4bc68302a24a5da239c51a0413e77e5335a517316",
+        "sha256_in_prefix": "21d5ce9164e2af5f067eb3b4bc68302a24a5da239c51a0413e77e5335a517316",
+        "size_in_bytes": 3750
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/blowfish.h",
+        "path_type": "hardlink",
+        "sha256": "4795482a80fe5760509094fde9d18ed72f5e38e30a31c435b2747368cbb213ca",
+        "sha256_in_prefix": "4795482a80fe5760509094fde9d18ed72f5e38e30a31c435b2747368cbb213ca",
+        "size_in_bytes": 2373
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/buffer.h",
+        "path_type": "hardlink",
+        "sha256": "a9a82aa50b0bedb47686d72f639a8d5e5e056f3659785a63433d884c79620a61",
+        "sha256_in_prefix": "a9a82aa50b0bedb47686d72f639a8d5e5e056f3659785a63433d884c79620a61",
+        "size_in_bytes": 2760
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/camellia.h",
+        "path_type": "hardlink",
+        "sha256": "93e64783568a8c66d807785ed4d93d8d9637b28168afabbc2b3eb40b288480e8",
+        "sha256_in_prefix": "93e64783568a8c66d807785ed4d93d8d9637b28168afabbc2b3eb40b288480e8",
+        "size_in_bytes": 4252
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/cast128.h",
+        "path_type": "hardlink",
+        "sha256": "0c9844236752c644fe3f870a5d9b18397c8cb03cb54ec9714be918c16ac89278",
+        "sha256_in_prefix": "0c9844236752c644fe3f870a5d9b18397c8cb03cb54ec9714be918c16ac89278",
+        "size_in_bytes": 2218
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/cbc.h",
+        "path_type": "hardlink",
+        "sha256": "27d59eb95045b14cba52a5514bfad5b078718c2c5529b1b5b5dcd1a218a229d4",
+        "sha256_in_prefix": "27d59eb95045b14cba52a5514bfad5b078718c2c5529b1b5b5dcd1a218a229d4",
+        "size_in_bytes": 2420
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/ccm.h",
+        "path_type": "hardlink",
+        "sha256": "20a5588bc7a6fd299de28f4698fffd51fb4ae94ff519429ca0962e49128ed7e4",
+        "sha256_in_prefix": "20a5588bc7a6fd299de28f4698fffd51fb4ae94ff519429ca0962e49128ed7e4",
+        "size_in_bytes": 9625
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/chacha-poly1305.h",
+        "path_type": "hardlink",
+        "sha256": "be105a7c9294ec61afdebba0732a686bc1c7c2dff50309cf002b6e4fc9b4d5d5",
+        "sha256_in_prefix": "be105a7c9294ec61afdebba0732a686bc1c7c2dff50309cf002b6e4fc9b4d5d5",
+        "size_in_bytes": 2841
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/chacha.h",
+        "path_type": "hardlink",
+        "sha256": "5d73f8d64b98186a74af71b5444061623621e394a7513cb8a93cfd1d20d7a30f",
+        "sha256_in_prefix": "5d73f8d64b98186a74af71b5444061623621e394a7513cb8a93cfd1d20d7a30f",
+        "size_in_bytes": 2483
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/ctr.h",
+        "path_type": "hardlink",
+        "sha256": "fbc508d64a6d86fc804e12870d586641b5734834a94b0bc05f598d45480756c8",
+        "sha256_in_prefix": "fbc508d64a6d86fc804e12870d586641b5734834a94b0bc05f598d45480756c8",
+        "size_in_bytes": 1960
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/curve25519.h",
+        "path_type": "hardlink",
+        "sha256": "bbb48d3f36fac8351d78a0cbdf8a009fa398dd3a4630f50530dc14b858916682",
+        "sha256_in_prefix": "bbb48d3f36fac8351d78a0cbdf8a009fa398dd3a4630f50530dc14b858916682",
+        "size_in_bytes": 1474
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/des-compat.h",
+        "path_type": "hardlink",
+        "sha256": "fcba328e53d7338788a4b43a0439008b156b55d012c4b853f01a60ff9d15b68f",
+        "sha256_in_prefix": "fcba328e53d7338788a4b43a0439008b156b55d012c4b853f01a60ff9d15b68f",
+        "size_in_bytes": 5007
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/des.h",
+        "path_type": "hardlink",
+        "sha256": "879e6452a7ec997ad01688c122e6ec0fae489df64cea1a4a518d67d307e1b880",
+        "sha256_in_prefix": "879e6452a7ec997ad01688c122e6ec0fae489df64cea1a4a518d67d307e1b880",
+        "size_in_bytes": 2922
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/dsa-compat.h",
+        "path_type": "hardlink",
+        "sha256": "6712bf45cff07d12ff9e797b284c898d67e4ccaa674026610bacb5bce0c834c2",
+        "sha256_in_prefix": "6712bf45cff07d12ff9e797b284c898d67e4ccaa674026610bacb5bce0c834c2",
+        "size_in_bytes": 5263
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/dsa.h",
+        "path_type": "hardlink",
+        "sha256": "b8e6178f029b99944cf69322dae97774a77bf53b6ea08e7dcc223c83fe1574ad",
+        "sha256_in_prefix": "b8e6178f029b99944cf69322dae97774a77bf53b6ea08e7dcc223c83fe1574ad",
+        "size_in_bytes": 5788
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/eax.h",
+        "path_type": "hardlink",
+        "sha256": "9bc741f045a07a6d6a2e7b5bca36128cead2ae03585afec5fdcae5b6a1034daf",
+        "sha256_in_prefix": "9bc741f045a07a6d6a2e7b5bca36128cead2ae03585afec5fdcae5b6a1034daf",
+        "size_in_bytes": 5752
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/ecc-curve.h",
+        "path_type": "hardlink",
+        "sha256": "8b70c476196e5cce57c54fa2bc13cafee30118f4428035608a6fbce7a277efe4",
+        "sha256_in_prefix": "8b70c476196e5cce57c54fa2bc13cafee30118f4428035608a6fbce7a277efe4",
+        "size_in_bytes": 1593
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/ecc.h",
+        "path_type": "hardlink",
+        "sha256": "4cba549b924aec3dbd1c69226d6a1a67ee1b46357f00edd051e3a79bb604a5b7",
+        "sha256_in_prefix": "4cba549b924aec3dbd1c69226d6a1a67ee1b46357f00edd051e3a79bb604a5b7",
+        "size_in_bytes": 4793
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/ecdsa.h",
+        "path_type": "hardlink",
+        "sha256": "3632e4b461527d4abf7db75abf35954b4ddc2eb39b54239b1b4091311f9e08e3",
+        "sha256_in_prefix": "3632e4b461527d4abf7db75abf35954b4ddc2eb39b54239b1b4091311f9e08e3",
+        "size_in_bytes": 2924
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/eddsa.h",
+        "path_type": "hardlink",
+        "sha256": "0260e9dccddf2bd75c32df9a51a7a75dbed6d80c7988dd1f7c3d03e909676f69",
+        "sha256_in_prefix": "0260e9dccddf2bd75c32df9a51a7a75dbed6d80c7988dd1f7c3d03e909676f69",
+        "size_in_bytes": 4017
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/gcm.h",
+        "path_type": "hardlink",
+        "sha256": "cd14867574933020ef2a09cab721336ad2cef1d2dbe0ac942f2549a0886785a2",
+        "sha256_in_prefix": "cd14867574933020ef2a09cab721336ad2cef1d2dbe0ac942f2549a0886785a2",
+        "size_in_bytes": 10569
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/gosthash94.h",
+        "path_type": "hardlink",
+        "sha256": "3e6d6af92ea38b52350370deb0249df3747f5eefd238ee20eca095e8177bf9b1",
+        "sha256_in_prefix": "3e6d6af92ea38b52350370deb0249df3747f5eefd238ee20eca095e8177bf9b1",
+        "size_in_bytes": 3363
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/hmac.h",
+        "path_type": "hardlink",
+        "sha256": "8a5ab1a316303f9e9f702387f057ebef8acd0d7c3edffa738752e823f95690f9",
+        "sha256_in_prefix": "8a5ab1a316303f9e9f702387f057ebef8acd0d7c3edffa738752e823f95690f9",
+        "size_in_bytes": 5794
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/knuth-lfib.h",
+        "path_type": "hardlink",
+        "sha256": "34fb346030c568a182d4593bce236b47523d0141a4c25123f68ee5b1b106e191",
+        "sha256_in_prefix": "34fb346030c568a182d4593bce236b47523d0141a4c25123f68ee5b1b106e191",
+        "size_in_bytes": 2214
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/macros.h",
+        "path_type": "hardlink",
+        "sha256": "faa0a6c8ad612581fdc6fcd86157c70a1d022b27fb360ac6b7bdf225a6f2e835",
+        "sha256_in_prefix": "faa0a6c8ad612581fdc6fcd86157c70a1d022b27fb360ac6b7bdf225a6f2e835",
+        "size_in_bytes": 7309
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/md2.h",
+        "path_type": "hardlink",
+        "sha256": "e241789f7f9aef95f397614b24cef2b10280a775297133965e3e0a2d340e2392",
+        "sha256_in_prefix": "e241789f7f9aef95f397614b24cef2b10280a775297133965e3e0a2d340e2392",
+        "size_in_bytes": 1893
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/md4.h",
+        "path_type": "hardlink",
+        "sha256": "7dcdf239ffdd3fe739c9b32fcd53f2338367433299dcc276d60c67e22d5fa08b",
+        "sha256_in_prefix": "7dcdf239ffdd3fe739c9b32fcd53f2338367433299dcc276d60c67e22d5fa08b",
+        "size_in_bytes": 2009
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/md5-compat.h",
+        "path_type": "hardlink",
+        "sha256": "9671142df4f658aafeb665dba598ab2c28daeafa4b404efd16f9a270253bc50d",
+        "sha256_in_prefix": "9671142df4f658aafeb665dba598ab2c28daeafa4b404efd16f9a270253bc50d",
+        "size_in_bytes": 1585
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/md5.h",
+        "path_type": "hardlink",
+        "sha256": "47a7e34ca7a0cd8999bc76042774fdd90ebd879e0f0043e176b437eedb1f00f0",
+        "sha256_in_prefix": "47a7e34ca7a0cd8999bc76042774fdd90ebd879e0f0043e176b437eedb1f00f0",
+        "size_in_bytes": 2202
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/memxor.h",
+        "path_type": "hardlink",
+        "sha256": "e5f50e687f42d1176aa685818981d632780098df79e3a26f927b3f72efdc22f0",
+        "sha256_in_prefix": "e5f50e687f42d1176aa685818981d632780098df79e3a26f927b3f72efdc22f0",
+        "size_in_bytes": 415
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/nettle-meta.h",
+        "path_type": "hardlink",
+        "sha256": "b513dd99c58b77498fc65652ca291732ea63b8bcfd37b1fb71f48ea6acf0cc15",
+        "sha256_in_prefix": "b513dd99c58b77498fc65652ca291732ea63b8bcfd37b1fb71f48ea6acf0cc15",
+        "size_in_bytes": 7196
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/nettle-stdint.h",
+        "path_type": "hardlink",
+        "sha256": "2ec7ad3bc21d61247e6553174ff58093769e9463c424228ca361d064c944070a",
+        "sha256_in_prefix": "2ec7ad3bc21d61247e6553174ff58093769e9463c424228ca361d064c944070a",
+        "size_in_bytes": 8147
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/nettle-types.h",
+        "path_type": "hardlink",
+        "sha256": "079cfba03da21157268c78f6b61dbe2c7cb3d52a87454ef8740d1034c31522d7",
+        "sha256_in_prefix": "079cfba03da21157268c78f6b61dbe2c7cb3d52a87454ef8740d1034c31522d7",
+        "size_in_bytes": 3192
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/pbkdf2.h",
+        "path_type": "hardlink",
+        "sha256": "2d63a6a81d9a4ae09bca7a706494a974924943b0f490194aa48d205b3444a03b",
+        "sha256_in_prefix": "2d63a6a81d9a4ae09bca7a706494a974924943b0f490194aa48d205b3444a03b",
+        "size_in_bytes": 2442
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/pgp.h",
+        "path_type": "hardlink",
+        "sha256": "187afbaaf88b81016e1365adb5685c236b19e3af5d3c35e32da580fdd463331b",
+        "sha256_in_prefix": "187afbaaf88b81016e1365adb5685c236b19e3af5d3c35e32da580fdd463331b",
+        "size_in_bytes": 6337
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/pkcs1.h",
+        "path_type": "hardlink",
+        "sha256": "0b47e28714af9dedda957fd2b514b96f1bcbe250b94c48616d5c41b6d83e3db7",
+        "sha256_in_prefix": "0b47e28714af9dedda957fd2b514b96f1bcbe250b94c48616d5c41b6d83e3db7",
+        "size_in_bytes": 3268
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/poly1305.h",
+        "path_type": "hardlink",
+        "sha256": "d1eae857d2d2c31bde6bd0320f53d6b9f6f7755a0443cef3ad702af1228c5e1f",
+        "sha256_in_prefix": "d1eae857d2d2c31bde6bd0320f53d6b9f6f7755a0443cef3ad702af1228c5e1f",
+        "size_in_bytes": 3704
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/realloc.h",
+        "path_type": "hardlink",
+        "sha256": "4c2a7c5247fcfddedea5bad32bce9adb4b3f317d842c3057481ac5fc645d52bb",
+        "sha256_in_prefix": "4c2a7c5247fcfddedea5bad32bce9adb4b3f317d842c3057481ac5fc645d52bb",
+        "size_in_bytes": 1295
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/ripemd160.h",
+        "path_type": "hardlink",
+        "sha256": "0c8969efcc4048250ea7ab721fefc7f075675b7fc5fda1db667e2a2b708e54a5",
+        "sha256_in_prefix": "0c8969efcc4048250ea7ab721fefc7f075675b7fc5fda1db667e2a2b708e54a5",
+        "size_in_bytes": 2297
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/rsa.h",
+        "path_type": "hardlink",
+        "sha256": "275409ad6e8407c3caff9c58eea08d5930dd4ff7c2fee4f497964dae25c4801b",
+        "sha256_in_prefix": "275409ad6e8407c3caff9c58eea08d5930dd4ff7c2fee4f497964dae25c4801b",
+        "size_in_bytes": 12385
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/salsa20.h",
+        "path_type": "hardlink",
+        "sha256": "2540d25a0f8656dab0ea0f4de62d7a1e3cc88c161a2f10e5b6fce875efa1e040",
+        "sha256_in_prefix": "2540d25a0f8656dab0ea0f4de62d7a1e3cc88c161a2f10e5b6fce875efa1e040",
+        "size_in_bytes": 2980
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/serpent.h",
+        "path_type": "hardlink",
+        "sha256": "25cc956eb037d6ad22ba2e3dfa19febc0a1606e4086adac2d6d1e01e4f93c723",
+        "sha256_in_prefix": "25cc956eb037d6ad22ba2e3dfa19febc0a1606e4086adac2d6d1e01e4f93c723",
+        "size_in_bytes": 3015
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/sexp.h",
+        "path_type": "hardlink",
+        "sha256": "9be14c5bac58f3fa7d8745afe295b22b534aa00b3d1b5124e5080a6cf47876a5",
+        "sha256_in_prefix": "9be14c5bac58f3fa7d8745afe295b22b534aa00b3d1b5124e5080a6cf47876a5",
+        "size_in_bytes": 6132
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/sha.h",
+        "path_type": "hardlink",
+        "sha256": "1b22ed7bade0f944edfb8ba227e8b674d2a0175a45ddb2db177677c50ff1d2d8",
+        "sha256_in_prefix": "1b22ed7bade0f944edfb8ba227e8b674d2a0175a45ddb2db177677c50ff1d2d8",
+        "size_in_bytes": 1300
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/sha1.h",
+        "path_type": "hardlink",
+        "sha256": "5bfbd72c1ee12d165ea624b1158fcf66a7b80162b0157bb99a4c8811b50be99d",
+        "sha256_in_prefix": "5bfbd72c1ee12d165ea624b1158fcf66a7b80162b0157bb99a4c8811b50be99d",
+        "size_in_bytes": 2297
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/sha2.h",
+        "path_type": "hardlink",
+        "sha256": "836925e65cfa9bfbfb2e3cf6beab06a74d66e31b798ee43ffae732746de366d2",
+        "sha256_in_prefix": "836925e65cfa9bfbfb2e3cf6beab06a74d66e31b798ee43ffae732746de366d2",
+        "size_in_bytes": 5471
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/sha3.h",
+        "path_type": "hardlink",
+        "sha256": "604205189d106f2348d9dfa2d4d5e8bed5c9ba70988116b1be93fc569b961ecd",
+        "sha256_in_prefix": "604205189d106f2348d9dfa2d4d5e8bed5c9ba70988116b1be93fc569b961ecd",
+        "size_in_bytes": 4543
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/twofish.h",
+        "path_type": "hardlink",
+        "sha256": "4e1d9f28d1cfe916fc5ff3d40148d689495405af78885586b6fefe20498885c4",
+        "sha256_in_prefix": "4e1d9f28d1cfe916fc5ff3d40148d689495405af78885586b6fefe20498885c4",
+        "size_in_bytes": 2717
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/umac.h",
+        "path_type": "hardlink",
+        "sha256": "226dca03789ced79de139166bde40d6eff3a1feb43cebe40db77df52f58042dc",
+        "sha256_in_prefix": "226dca03789ced79de139166bde40d6eff3a1feb43cebe40db77df52f58042dc",
+        "size_in_bytes": 7151
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/version.h",
+        "path_type": "hardlink",
+        "sha256": "43f89a83ce0256313c4bf8ece924b07467cccd1f35f2350f81fb7530a6f82126",
+        "sha256_in_prefix": "43f89a83ce0256313c4bf8ece924b07467cccd1f35f2350f81fb7530a6f82126",
+        "size_in_bytes": 1550
+      },
+      {
+        "_path": "Library/mingw-w64/include/nettle/yarrow.h",
+        "path_type": "hardlink",
+        "sha256": "326d2f27f0997b621b25e775ed93403da8703d46d5dfc9a3bf0a71bc84c6f611",
+        "sha256_in_prefix": "326d2f27f0997b621b25e775ed93403da8703d46d5dfc9a3bf0a71bc84c6f611",
+        "size_in_bytes": 3684
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libhogweed.a",
+        "path_type": "hardlink",
+        "sha256": "756159fb7531162c177994668ea502fcf6260306cce42b222888960a89008f64",
+        "sha256_in_prefix": "756159fb7531162c177994668ea502fcf6260306cce42b222888960a89008f64",
+        "size_in_bytes": 308914
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libhogweed.dll.a",
+        "path_type": "hardlink",
+        "sha256": "179ce4dfbb87f291abec060bcfa59e100ca1872c0e01ad2d01dfff5e294ea805",
+        "sha256_in_prefix": "179ce4dfbb87f291abec060bcfa59e100ca1872c0e01ad2d01dfff5e294ea805",
+        "size_in_bytes": 153206
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libnettle.a",
+        "path_type": "hardlink",
+        "sha256": "9da4e60a869101c28e57c9d155d0f6cc9565b9563d237f31ce6c72634e6e1bca",
+        "sha256_in_prefix": "9da4e60a869101c28e57c9d155d0f6cc9565b9563d237f31ce6c72634e6e1bca",
+        "size_in_bytes": 362922
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libnettle.dll.a",
+        "path_type": "hardlink",
+        "sha256": "330152c8cb4e24f9ed4b22fc944eb5f9f1b436bf9df8a212861123225e5cb230",
+        "sha256_in_prefix": "330152c8cb4e24f9ed4b22fc944eb5f9f1b436bf9df8a212861123225e5cb230",
+        "size_in_bytes": 267102
+      },
+      {
+        "_path": "Library/mingw-w64/lib/pkgconfig/hogweed.pc",
+        "path_type": "hardlink",
+        "sha256": "de07c4dd9fd39203328acdcc87fa326b07b312667c49d39d8cda431f4a615975",
+        "sha256_in_prefix": "de07c4dd9fd39203328acdcc87fa326b07b312667c49d39d8cda431f4a615975",
+        "size_in_bytes": 539
+      },
+      {
+        "_path": "Library/mingw-w64/lib/pkgconfig/nettle.pc",
+        "path_type": "hardlink",
+        "sha256": "617bb41386bfad1bddb46bfedba2a30b7ff9c6c2485393b9f9721459ce50a897",
+        "sha256_in_prefix": "617bb41386bfad1bddb46bfedba2a30b7ff9c6c2485393b9f9721459ce50a897",
+        "size_in_bytes": 293
+      },
+      {
+        "_path": "Library/mingw-w64/share/info/nettle.info.gz",
+        "path_type": "hardlink",
+        "sha256": "a9ff607fb51b7df12d4a656f6a53f36a7f15b4e8f64471a27d38cf5b4e326d65",
+        "sha256_in_prefix": "a9ff607fb51b7df12d4a656f6a53f36a7f15b4e8f64471a27d38cf5b4e326d65",
+        "size_in_bytes": 56226
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 682459,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2w64-nettle-3.1.1-4.tar.bz2",
+  "version": "3.1.1"
+}

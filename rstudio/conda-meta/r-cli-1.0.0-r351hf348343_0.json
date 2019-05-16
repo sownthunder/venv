@@ -1,0 +1,566 @@
+{
+  "build": "r351hf348343_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "r-assertthat",
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "r-crayon",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-cli-1.0.0-r351hf348343_0",
+  "features": "",
+  "files": [
+    "lib/R/library/cli/DESCRIPTION",
+    "lib/R/library/cli/INDEX",
+    "lib/R/library/cli/LICENSE",
+    "lib/R/library/cli/MD5",
+    "lib/R/library/cli/Meta/Rd.rds",
+    "lib/R/library/cli/Meta/features.rds",
+    "lib/R/library/cli/Meta/hsearch.rds",
+    "lib/R/library/cli/Meta/links.rds",
+    "lib/R/library/cli/Meta/nsInfo.rds",
+    "lib/R/library/cli/Meta/package.rds",
+    "lib/R/library/cli/NAMESPACE",
+    "lib/R/library/cli/NEWS.md",
+    "lib/R/library/cli/R/cli",
+    "lib/R/library/cli/R/cli.rdb",
+    "lib/R/library/cli/R/cli.rdx",
+    "lib/R/library/cli/R/sysdata.rdb",
+    "lib/R/library/cli/R/sysdata.rdx",
+    "lib/R/library/cli/help/AnIndex",
+    "lib/R/library/cli/help/aliases.rds",
+    "lib/R/library/cli/help/cli.rdb",
+    "lib/R/library/cli/help/cli.rdx",
+    "lib/R/library/cli/help/figures/box-1.png",
+    "lib/R/library/cli/help/figures/box-bgcolor-1.png",
+    "lib/R/library/cli/help/figures/box-bgcolor-2.png",
+    "lib/R/library/cli/help/figures/box-border-color-1.png",
+    "lib/R/library/cli/help/figures/box-border-color-2.png",
+    "lib/R/library/cli/help/figures/box-border-style-1.png",
+    "lib/R/library/cli/help/figures/box-color-1.png",
+    "lib/R/library/cli/help/figures/box-customized-1.png",
+    "lib/R/library/cli/help/figures/box-floating-1.png",
+    "lib/R/library/cli/help/figures/box-floating-2.png",
+    "lib/R/library/cli/help/figures/box-label-align-1.png",
+    "lib/R/library/cli/help/figures/box-label-align-2.png",
+    "lib/R/library/cli/help/figures/box-label-align-3.png",
+    "lib/R/library/cli/help/figures/box-lines-1.png",
+    "lib/R/library/cli/help/figures/box-margin-1.png",
+    "lib/R/library/cli/help/figures/box-margin-2.png",
+    "lib/R/library/cli/help/figures/box-margin-3.png",
+    "lib/R/library/cli/help/figures/box-padding-1.png",
+    "lib/R/library/cli/help/figures/box-padding-2.png",
+    "lib/R/library/cli/help/figures/rule-1.png",
+    "lib/R/library/cli/help/figures/rule-bars-1.png",
+    "lib/R/library/cli/help/figures/rule-bars-2.png",
+    "lib/R/library/cli/help/figures/rule-center-1.png",
+    "lib/R/library/cli/help/figures/rule-color-1.png",
+    "lib/R/library/cli/help/figures/rule-color-label-1.png",
+    "lib/R/library/cli/help/figures/rule-color-line-1.png",
+    "lib/R/library/cli/help/figures/rule-double-1.png",
+    "lib/R/library/cli/help/figures/rule-left-1.png",
+    "lib/R/library/cli/help/figures/rule-line-custom-1.png",
+    "lib/R/library/cli/help/figures/rule-line-custom-2-1.png",
+    "lib/R/library/cli/help/figures/rule-line-custom-3-1.png",
+    "lib/R/library/cli/help/figures/tree-1.png",
+    "lib/R/library/cli/help/figures/tree-color-1.png",
+    "lib/R/library/cli/help/paths.rds",
+    "lib/R/library/cli/html/00Index.html",
+    "lib/R/library/cli/html/R.css",
+    "lib/R/library/cli/html/boxx.html",
+    "lib/R/library/cli/html/cat_line.html",
+    "lib/R/library/cli/html/console_width.html",
+    "lib/R/library/cli/html/demo_spinners.html",
+    "lib/R/library/cli/html/get_spinner.html",
+    "lib/R/library/cli/html/list_spinners.html",
+    "lib/R/library/cli/html/rule.html",
+    "lib/R/library/cli/html/symbol.html",
+    "lib/R/library/cli/html/tree.html"
+  ],
+  "fn": "r-cli-1.0.0-r351hf348343_0.tar.bz2",
+  "license": "MIT + file LICENSE",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-cli-1.0.0-r351hf348343_0",
+    "type": 1
+  },
+  "md5": "37515acf15e9b73af12eaf5ec0d06960",
+  "name": "r-cli",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-cli-1.0.0-r351hf348343_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/cli/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "dade49d83454a5dd52dc3c05076bbd182b517b675064a328639b182b9904d77f",
+        "sha256_in_prefix": "dade49d83454a5dd52dc3c05076bbd182b517b675064a328639b182b9904d77f",
+        "size_in_bytes": 1089
+      },
+      {
+        "_path": "lib/R/library/cli/INDEX",
+        "path_type": "hardlink",
+        "sha256": "740e181d25756c378e563208acf9d51a3c563c6c3ecd2759ea7e3820a3323f35",
+        "sha256_in_prefix": "740e181d25756c378e563208acf9d51a3c563c6c3ecd2759ea7e3820a3323f35",
+        "size_in_bytes": 563
+      },
+      {
+        "_path": "lib/R/library/cli/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "4ab29344600c28c508090c2ac54b66e69294684950ddb505cec3d72b108a84e6",
+        "sha256_in_prefix": "4ab29344600c28c508090c2ac54b66e69294684950ddb505cec3d72b108a84e6",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "lib/R/library/cli/MD5",
+        "path_type": "hardlink",
+        "sha256": "e0aaad95b39389d0c8465539ff9c0662242c25a5d3f5b0443e2ae68965360696",
+        "sha256_in_prefix": "e0aaad95b39389d0c8465539ff9c0662242c25a5d3f5b0443e2ae68965360696",
+        "size_in_bytes": 3789
+      },
+      {
+        "_path": "lib/R/library/cli/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "eaf3d76b9fb956b8cf41aaa274e5e4f537282186a16cf7338307445da5e34e25",
+        "sha256_in_prefix": "eaf3d76b9fb956b8cf41aaa274e5e4f537282186a16cf7338307445da5e34e25",
+        "size_in_bytes": 595
+      },
+      {
+        "_path": "lib/R/library/cli/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/cli/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "bd3e62a07b77dca1ec7ccfa10bfb55bb3ba6301aa4c711928e4cd2ad279bb054",
+        "sha256_in_prefix": "bd3e62a07b77dca1ec7ccfa10bfb55bb3ba6301aa4c711928e4cd2ad279bb054",
+        "size_in_bytes": 599
+      },
+      {
+        "_path": "lib/R/library/cli/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "bb8abe2af52186734797b63f1062023c055be515026a3c10158f68a226835acb",
+        "sha256_in_prefix": "bb8abe2af52186734797b63f1062023c055be515026a3c10158f68a226835acb",
+        "size_in_bytes": 245
+      },
+      {
+        "_path": "lib/R/library/cli/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "ad9c001a542172de50435b8af00397254ba0c3ecbc29268089e9a236378b1b1a",
+        "sha256_in_prefix": "ad9c001a542172de50435b8af00397254ba0c3ecbc29268089e9a236378b1b1a",
+        "size_in_bytes": 383
+      },
+      {
+        "_path": "lib/R/library/cli/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "469d2f87b68052af96e0c46a5a7c1853ebeccd7f273c11852c39e7e0ef0c3508",
+        "sha256_in_prefix": "469d2f87b68052af96e0c46a5a7c1853ebeccd7f273c11852c39e7e0ef0c3508",
+        "size_in_bytes": 1100
+      },
+      {
+        "_path": "lib/R/library/cli/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "50cdb8f7e92b66b37289a9a06fced77226c2fbaa461f5cb20b3a031791c6d32d",
+        "sha256_in_prefix": "50cdb8f7e92b66b37289a9a06fced77226c2fbaa461f5cb20b3a031791c6d32d",
+        "size_in_bytes": 590
+      },
+      {
+        "_path": "lib/R/library/cli/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "cfcf849e58576e47bba74406c4800ea80fe19f72c55572933d439b4d94aa5acd",
+        "sha256_in_prefix": "cfcf849e58576e47bba74406c4800ea80fe19f72c55572933d439b4d94aa5acd",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "lib/R/library/cli/R/cli",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/cli/R/cli.rdb",
+        "path_type": "hardlink",
+        "sha256": "713030c57d6074f72f8af06e573c33eb25d1cf6b721958fbab96f96f871329bf",
+        "sha256_in_prefix": "713030c57d6074f72f8af06e573c33eb25d1cf6b721958fbab96f96f871329bf",
+        "size_in_bytes": 42380
+      },
+      {
+        "_path": "lib/R/library/cli/R/cli.rdx",
+        "path_type": "hardlink",
+        "sha256": "67d2197fa58253c9c870e9200df8357f61a82e24d16c8d1377d97ca387003d9d",
+        "sha256_in_prefix": "67d2197fa58253c9c870e9200df8357f61a82e24d16c8d1377d97ca387003d9d",
+        "size_in_bytes": 950
+      },
+      {
+        "_path": "lib/R/library/cli/R/sysdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "96c918ce21989f3b96d807fd59eb7cbb406c8851a6e8251dbef8329dde296b0b",
+        "sha256_in_prefix": "96c918ce21989f3b96d807fd59eb7cbb406c8851a6e8251dbef8329dde296b0b",
+        "size_in_bytes": 2035
+      },
+      {
+        "_path": "lib/R/library/cli/R/sysdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "0dff4e2ac1f47bdd3da6f33a1ef47783874205abeb3704a4ed812ed6c9e46a85",
+        "sha256_in_prefix": "0dff4e2ac1f47bdd3da6f33a1ef47783874205abeb3704a4ed812ed6c9e46a85",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "lib/R/library/cli/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "63387972b9ea499f82b8c03c3dfc8b3012c207f3f90eb3214315ef906b0341d5",
+        "sha256_in_prefix": "63387972b9ea499f82b8c03c3dfc8b3012c207f3f90eb3214315ef906b0341d5",
+        "size_in_bytes": 283
+      },
+      {
+        "_path": "lib/R/library/cli/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "1a33e48b0f94514e756c2790582806a994bc2f1ef8c5f21d45d280134e89baaa",
+        "sha256_in_prefix": "1a33e48b0f94514e756c2790582806a994bc2f1ef8c5f21d45d280134e89baaa",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "lib/R/library/cli/help/cli.rdb",
+        "path_type": "hardlink",
+        "sha256": "64a1cb75cf61ef3c0e50e18a057b0135414d4655e660b8f3125cd52629651e07",
+        "sha256_in_prefix": "64a1cb75cf61ef3c0e50e18a057b0135414d4655e660b8f3125cd52629651e07",
+        "size_in_bytes": 19595
+      },
+      {
+        "_path": "lib/R/library/cli/help/cli.rdx",
+        "path_type": "hardlink",
+        "sha256": "1c00f70911d62627a8d774d130c93fba08a6c51e2941447a68e596fe14b0ed60",
+        "sha256_in_prefix": "1c00f70911d62627a8d774d130c93fba08a6c51e2941447a68e596fe14b0ed60",
+        "size_in_bytes": 344
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-1.png",
+        "path_type": "hardlink",
+        "sha256": "052eb6a4d2f4dd92176abe5f6f378770c845d861ee8d07fcc570bab9e9ad15cc",
+        "sha256_in_prefix": "052eb6a4d2f4dd92176abe5f6f378770c845d861ee8d07fcc570bab9e9ad15cc",
+        "size_in_bytes": 5249
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-bgcolor-1.png",
+        "path_type": "hardlink",
+        "sha256": "db124ba5f187cfbe4fecbf4c83fce78634aa8394a8d6d37b14f68ccb0cbb0ad8",
+        "sha256_in_prefix": "db124ba5f187cfbe4fecbf4c83fce78634aa8394a8d6d37b14f68ccb0cbb0ad8",
+        "size_in_bytes": 6278
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-bgcolor-2.png",
+        "path_type": "hardlink",
+        "sha256": "13f01e4c36d97703465f880973593f1e2686e94a475195130f5803bcb5e5f2b0",
+        "sha256_in_prefix": "13f01e4c36d97703465f880973593f1e2686e94a475195130f5803bcb5e5f2b0",
+        "size_in_bytes": 4854
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-border-color-1.png",
+        "path_type": "hardlink",
+        "sha256": "097ecd17d7c56c2eeb2a39a75abab9fbddc7cf31a32b0aade82cc51278811321",
+        "sha256_in_prefix": "097ecd17d7c56c2eeb2a39a75abab9fbddc7cf31a32b0aade82cc51278811321",
+        "size_in_bytes": 5610
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-border-color-2.png",
+        "path_type": "hardlink",
+        "sha256": "2f0f4cbd1737281bff01f7cc28e8644b818b64b31f314c504d916f7d08815487",
+        "sha256_in_prefix": "2f0f4cbd1737281bff01f7cc28e8644b818b64b31f314c504d916f7d08815487",
+        "size_in_bytes": 5532
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-border-style-1.png",
+        "path_type": "hardlink",
+        "sha256": "d1eafb15ee4ee4a1a609b797d69a506ee3b7c416371b6538b61b9d66a7ccd9e6",
+        "sha256_in_prefix": "d1eafb15ee4ee4a1a609b797d69a506ee3b7c416371b6538b61b9d66a7ccd9e6",
+        "size_in_bytes": 5684
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-color-1.png",
+        "path_type": "hardlink",
+        "sha256": "a2ae3658c80d784f6862fbd7f3e4ec2285c291b3e6246b24b4336be7b44d80c7",
+        "sha256_in_prefix": "a2ae3658c80d784f6862fbd7f3e4ec2285c291b3e6246b24b4336be7b44d80c7",
+        "size_in_bytes": 6883
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-customized-1.png",
+        "path_type": "hardlink",
+        "sha256": "8fa921aac5aa217bd30749eb6acd0413237d858ae8fd61ffe0cfa0b15e112a75",
+        "sha256_in_prefix": "8fa921aac5aa217bd30749eb6acd0413237d858ae8fd61ffe0cfa0b15e112a75",
+        "size_in_bytes": 8783
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-floating-1.png",
+        "path_type": "hardlink",
+        "sha256": "2eed63f9bc9491be2b55ffc488c3ff7b90090d372aca00cbf03c92e05b701e31",
+        "sha256_in_prefix": "2eed63f9bc9491be2b55ffc488c3ff7b90090d372aca00cbf03c92e05b701e31",
+        "size_in_bytes": 5242
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-floating-2.png",
+        "path_type": "hardlink",
+        "sha256": "d465b3ddce7bd3c4bd06327e8477ef7318dbd87f9587ed8957bf39f76f253457",
+        "sha256_in_prefix": "d465b3ddce7bd3c4bd06327e8477ef7318dbd87f9587ed8957bf39f76f253457",
+        "size_in_bytes": 5183
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-label-align-1.png",
+        "path_type": "hardlink",
+        "sha256": "5e34396c0c7193c405eadb33ad017d2744e6e4790c765260a1181930df9131b9",
+        "sha256_in_prefix": "5e34396c0c7193c405eadb33ad017d2744e6e4790c765260a1181930df9131b9",
+        "size_in_bytes": 6712
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-label-align-2.png",
+        "path_type": "hardlink",
+        "sha256": "0ab68f37de02cea12c0807d4dadb24b403adbec983b49657d2c07853fa076f8e",
+        "sha256_in_prefix": "0ab68f37de02cea12c0807d4dadb24b403adbec983b49657d2c07853fa076f8e",
+        "size_in_bytes": 6769
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-label-align-3.png",
+        "path_type": "hardlink",
+        "sha256": "0ec1114d69e18c446205ed51873e9c580076fe9d7895420dd4dd7aa3f31d3b39",
+        "sha256_in_prefix": "0ec1114d69e18c446205ed51873e9c580076fe9d7895420dd4dd7aa3f31d3b39",
+        "size_in_bytes": 6742
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-lines-1.png",
+        "path_type": "hardlink",
+        "sha256": "4e7058bc2c1ab8b6d2177881296ed781787a8def20e67d686de6a3ec8c9a124e",
+        "sha256_in_prefix": "4e7058bc2c1ab8b6d2177881296ed781787a8def20e67d686de6a3ec8c9a124e",
+        "size_in_bytes": 6052
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-margin-1.png",
+        "path_type": "hardlink",
+        "sha256": "ca5f759e55b3d4267709c946481601e501b7f9caf1d315533f1e9f28aecc19d7",
+        "sha256_in_prefix": "ca5f759e55b3d4267709c946481601e501b7f9caf1d315533f1e9f28aecc19d7",
+        "size_in_bytes": 5793
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-margin-2.png",
+        "path_type": "hardlink",
+        "sha256": "f50d4652ee5b31d20bdb938bcea0a2d22fd9609cb810552a993b93b59d5e6a3e",
+        "sha256_in_prefix": "f50d4652ee5b31d20bdb938bcea0a2d22fd9609cb810552a993b93b59d5e6a3e",
+        "size_in_bytes": 5896
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-margin-3.png",
+        "path_type": "hardlink",
+        "sha256": "f50d4652ee5b31d20bdb938bcea0a2d22fd9609cb810552a993b93b59d5e6a3e",
+        "sha256_in_prefix": "f50d4652ee5b31d20bdb938bcea0a2d22fd9609cb810552a993b93b59d5e6a3e",
+        "size_in_bytes": 5896
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-padding-1.png",
+        "path_type": "hardlink",
+        "sha256": "052eb6a4d2f4dd92176abe5f6f378770c845d861ee8d07fcc570bab9e9ad15cc",
+        "sha256_in_prefix": "052eb6a4d2f4dd92176abe5f6f378770c845d861ee8d07fcc570bab9e9ad15cc",
+        "size_in_bytes": 5249
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/box-padding-2.png",
+        "path_type": "hardlink",
+        "sha256": "0be2871a220667df61d3a4846550ea39f173b83ebe2b8169b32e146ac25d508f",
+        "sha256_in_prefix": "0be2871a220667df61d3a4846550ea39f173b83ebe2b8169b32e146ac25d508f",
+        "size_in_bytes": 5254
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-1.png",
+        "path_type": "hardlink",
+        "sha256": "22652ec6e883d4251c0e102ded251c363286f7cf7dd673b417237ff54b25da96",
+        "sha256_in_prefix": "22652ec6e883d4251c0e102ded251c363286f7cf7dd673b417237ff54b25da96",
+        "size_in_bytes": 910
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-bars-1.png",
+        "path_type": "hardlink",
+        "sha256": "33542910bd3c522ce0744a76ff9cda75cda0fd22f7595cc3a7fe6fd6f484d8f5",
+        "sha256_in_prefix": "33542910bd3c522ce0744a76ff9cda75cda0fd22f7595cc3a7fe6fd6f484d8f5",
+        "size_in_bytes": 874
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-bars-2.png",
+        "path_type": "hardlink",
+        "sha256": "d84c860eb74c54d51e9cd3500ef8e89d65a9f65839e94ae49483db8a1fad2780",
+        "sha256_in_prefix": "d84c860eb74c54d51e9cd3500ef8e89d65a9f65839e94ae49483db8a1fad2780",
+        "size_in_bytes": 891
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-center-1.png",
+        "path_type": "hardlink",
+        "sha256": "468fd5585e2ca6912f97e57a58265f51d8f835492d4971349aad3a3992137234",
+        "sha256_in_prefix": "468fd5585e2ca6912f97e57a58265f51d8f835492d4971349aad3a3992137234",
+        "size_in_bytes": 3280
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-color-1.png",
+        "path_type": "hardlink",
+        "sha256": "51b70158d6a315a9e41ed5c3e518f1f88c2bb0a1627e84e697b488ac6f1d634a",
+        "sha256_in_prefix": "51b70158d6a315a9e41ed5c3e518f1f88c2bb0a1627e84e697b488ac6f1d634a",
+        "size_in_bytes": 4484
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-color-label-1.png",
+        "path_type": "hardlink",
+        "sha256": "3c70ce51c91b980963ae54ab12268802376c5144514170ef93325c4df0b0324d",
+        "sha256_in_prefix": "3c70ce51c91b980963ae54ab12268802376c5144514170ef93325c4df0b0324d",
+        "size_in_bytes": 4464
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-color-line-1.png",
+        "path_type": "hardlink",
+        "sha256": "2b8900e4d138eb69e71d39f6c3bb7991ced84015cb336f9764cc61974b193b5d",
+        "sha256_in_prefix": "2b8900e4d138eb69e71d39f6c3bb7991ced84015cb336f9764cc61974b193b5d",
+        "size_in_bytes": 3370
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-double-1.png",
+        "path_type": "hardlink",
+        "sha256": "f5001b3682feba02c9b3a366ff7deec390dab4747eb20e37fe0291c26e634b98",
+        "sha256_in_prefix": "f5001b3682feba02c9b3a366ff7deec390dab4747eb20e37fe0291c26e634b98",
+        "size_in_bytes": 1256
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-left-1.png",
+        "path_type": "hardlink",
+        "sha256": "08b71ba89f011f1af549cea5078b72c564ba7ce4b3508411a14fb65b6409865c",
+        "sha256_in_prefix": "08b71ba89f011f1af549cea5078b72c564ba7ce4b3508411a14fb65b6409865c",
+        "size_in_bytes": 2710
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-line-custom-1.png",
+        "path_type": "hardlink",
+        "sha256": "35b52cfdc4080171cf4800eaa19d534dd28faa7df4d72abc93e14b0233e6aea8",
+        "sha256_in_prefix": "35b52cfdc4080171cf4800eaa19d534dd28faa7df4d72abc93e14b0233e6aea8",
+        "size_in_bytes": 2508
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-line-custom-2-1.png",
+        "path_type": "hardlink",
+        "sha256": "94f87b9fcb78263a6fa0fa00edd8fb78194c7e51417590efe2a3b5134d2daaf7",
+        "sha256_in_prefix": "94f87b9fcb78263a6fa0fa00edd8fb78194c7e51417590efe2a3b5134d2daaf7",
+        "size_in_bytes": 3346
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/rule-line-custom-3-1.png",
+        "path_type": "hardlink",
+        "sha256": "c0dbaed977ab2f3c7a1cdbe9eb031be61f7a25031277c5af9b742d1202aaee70",
+        "sha256_in_prefix": "c0dbaed977ab2f3c7a1cdbe9eb031be61f7a25031277c5af9b742d1202aaee70",
+        "size_in_bytes": 1982
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/tree-1.png",
+        "path_type": "hardlink",
+        "sha256": "db363d5dee358a1f7e8d4e92951972afc416df0120fef27977410a26ed258102",
+        "sha256_in_prefix": "db363d5dee358a1f7e8d4e92951972afc416df0120fef27977410a26ed258102",
+        "size_in_bytes": 61252
+      },
+      {
+        "_path": "lib/R/library/cli/help/figures/tree-color-1.png",
+        "path_type": "hardlink",
+        "sha256": "832416d6ed5afd66a69c2883026d616bc280ac98e3325a988771f37b6b2152b8",
+        "sha256_in_prefix": "832416d6ed5afd66a69c2883026d616bc280ac98e3325a988771f37b6b2152b8",
+        "size_in_bytes": 104287
+      },
+      {
+        "_path": "lib/R/library/cli/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "fa42b804521fcae1d595567650d2c37de26bb906998ee32ed0c0629f823579ca",
+        "sha256_in_prefix": "fa42b804521fcae1d595567650d2c37de26bb906998ee32ed0c0629f823579ca",
+        "size_in_bytes": 218
+      },
+      {
+        "_path": "lib/R/library/cli/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "fa054c98b39ceff6410e043f8a6dc35935b8bec57cc28322e4de1550803269e7",
+        "sha256_in_prefix": "fa054c98b39ceff6410e043f8a6dc35935b8bec57cc28322e4de1550803269e7",
+        "size_in_bytes": 2623
+      },
+      {
+        "_path": "lib/R/library/cli/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/cli/html/boxx.html",
+        "path_type": "hardlink",
+        "sha256": "e3ad7ad4d3279db009a7b59891b2b9afbf96169a42df4f11a932922792da9a01",
+        "sha256_in_prefix": "e3ad7ad4d3279db009a7b59891b2b9afbf96169a42df4f11a932922792da9a01",
+        "size_in_bytes": 5315
+      },
+      {
+        "_path": "lib/R/library/cli/html/cat_line.html",
+        "path_type": "hardlink",
+        "sha256": "f4e325804ab9b4afa331059d86a0bee54c558c20d2b38cacdb79f758ebc2e766",
+        "sha256_in_prefix": "f4e325804ab9b4afa331059d86a0bee54c558c20d2b38cacdb79f758ebc2e766",
+        "size_in_bytes": 2375
+      },
+      {
+        "_path": "lib/R/library/cli/html/console_width.html",
+        "path_type": "hardlink",
+        "sha256": "051b0e8bbc44881f85c946beebea631db7cdd499a128c0c12b3064e4d0417e84",
+        "sha256_in_prefix": "051b0e8bbc44881f85c946beebea631db7cdd499a128c0c12b3064e4d0417e84",
+        "size_in_bytes": 1047
+      },
+      {
+        "_path": "lib/R/library/cli/html/demo_spinners.html",
+        "path_type": "hardlink",
+        "sha256": "4ae2338124426524322f63d8e54e3c66946efdc874468487729380224ccefc93",
+        "sha256_in_prefix": "4ae2338124426524322f63d8e54e3c66946efdc874468487729380224ccefc93",
+        "size_in_bytes": 1331
+      },
+      {
+        "_path": "lib/R/library/cli/html/get_spinner.html",
+        "path_type": "hardlink",
+        "sha256": "b2772c026f7152a08eb8a1b92536c555e7cb6fa1eae5fcdab8f26e2f57e8a9a5",
+        "sha256_in_prefix": "b2772c026f7152a08eb8a1b92536c555e7cb6fa1eae5fcdab8f26e2f57e8a9a5",
+        "size_in_bytes": 1605
+      },
+      {
+        "_path": "lib/R/library/cli/html/list_spinners.html",
+        "path_type": "hardlink",
+        "sha256": "136c355159dbe7d8637e5a8b4fe55ff9e01b03a37f83d15abdd35ee9c168d62e",
+        "sha256_in_prefix": "136c355159dbe7d8637e5a8b4fe55ff9e01b03a37f83d15abdd35ee9c168d62e",
+        "size_in_bytes": 1138
+      },
+      {
+        "_path": "lib/R/library/cli/html/rule.html",
+        "path_type": "hardlink",
+        "sha256": "89f0e035a249989c79aa63e5a9508b301f5632d0308915cb180fd73b5782a2c9",
+        "sha256_in_prefix": "89f0e035a249989c79aa63e5a9508b301f5632d0308915cb180fd73b5782a2c9",
+        "size_in_bytes": 4107
+      },
+      {
+        "_path": "lib/R/library/cli/html/symbol.html",
+        "path_type": "hardlink",
+        "sha256": "2a758156ab0f9c56f7fa188fd6c1cb2b5621bf1741175b39ba396b67eb72ca07",
+        "sha256_in_prefix": "2a758156ab0f9c56f7fa188fd6c1cb2b5621bf1741175b39ba396b67eb72ca07",
+        "size_in_bytes": 1229
+      },
+      {
+        "_path": "lib/R/library/cli/html/tree.html",
+        "path_type": "hardlink",
+        "sha256": "84ea1553067fcf537fe7132d81294c867c4f786482955e5bccddd818ab3c475c",
+        "sha256_in_prefix": "84ea1553067fcf537fe7132d81294c867c4f786482955e5bccddd818ab3c475c",
+        "size_in_bytes": 3341
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 337832,
+  "subdir": "win-64",
+  "timestamp": 1538117996321,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-cli-1.0.0-r351hf348343_0.tar.bz2",
+  "version": "1.0.0"
+}

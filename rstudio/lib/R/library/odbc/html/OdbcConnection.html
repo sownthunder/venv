@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Odbc Connection Methods</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for OdbcConnection {odbc}"><tr><td>OdbcConnection {odbc}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Odbc Connection Methods</h2>
+
+<h3>Description</h3>
+
+<p>Implementations of pure virtual functions defined in the <code>DBI</code> package
+for OdbcConnection objects.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+## S4 method for signature 'OdbcConnection'
+show(object)
+
+## S4 method for signature 'OdbcConnection'
+dbIsValid(dbObj, ...)
+
+## S4 method for signature 'OdbcConnection'
+dbDisconnect(conn, ...)
+
+## S4 method for signature 'OdbcConnection,character'
+dbSendQuery(conn, statement, ...)
+
+## S4 method for signature 'OdbcConnection,character'
+dbSendStatement(conn, statement, ...)
+
+## S4 method for signature 'OdbcConnection,ANY'
+dbDataType(dbObj, obj, ...)
+
+## S4 method for signature 'OdbcConnection,data.frame'
+dbDataType(dbObj, obj, ...)
+
+## S4 method for signature 'OdbcConnection,character'
+dbQuoteIdentifier(conn, x, ...)
+
+## S4 method for signature 'OdbcConnection,SQL'
+dbQuoteIdentifier(conn, x, ...)
+
+## S4 method for signature 'OdbcConnection,character'
+dbExistsTable(conn, name, ...)
+
+## S4 method for signature 'OdbcConnection,character'
+dbRemoveTable(conn, name, ...)
+
+## S4 method for signature 'OdbcConnection'
+dbGetInfo(dbObj, ...)
+
+## S4 method for signature 'OdbcConnection,character'
+dbGetQuery(conn, statement, n = -1, ...)
+
+## S4 method for signature 'OdbcConnection'
+dbBegin(conn, ...)
+
+## S4 method for signature 'OdbcConnection'
+dbCommit(conn, ...)
+
+## S4 method for signature 'OdbcConnection'
+dbRollback(conn, ...)
+
+## S4 method for signature 'OdbcConnection,Id'
+dbExistsTable(conn, name, ...)
+
+## S4 method for signature 'OdbcConnection,SQL'
+dbExistsTable(conn, name, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>object</code></td>
+<td>
+<p>Any R object</p>
+</td></tr>
+<tr valign="top"><td><code>dbObj</code></td>
+<td>
+<p>An object inheriting from <a href="../../DBI/html/DBIObject-class.html">DBIObject</a>,
+i.e. <a href="../../DBI/html/DBIDriver-class.html">DBIDriver</a>, <a href="../../DBI/html/DBIConnection-class.html">DBIConnection</a>,
+or a <a href="../../DBI/html/DBIResult-class.html">DBIResult</a></p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Other arguments to methods.</p>
+</td></tr>
+<tr valign="top"><td><code>conn</code></td>
+<td>
+<p>A <a href="../../DBI/html/DBIConnection-class.html">DBIConnection</a> object, as returned by
+<code><a href="dbConnect-OdbcDriver-method.html">dbConnect()</a></code>.</p>
+</td></tr>
+<tr valign="top"><td><code>statement</code></td>
+<td>
+<p>a character string containing SQL.</p>
+</td></tr>
+<tr valign="top"><td><code>obj</code></td>
+<td>
+<p>An R object whose SQL type we want to determine.</p>
+</td></tr>
+<tr valign="top"><td><code>x</code></td>
+<td>
+<p>A character vector, <a href="../../DBI/html/SQL.html">SQL</a> or <a href="../../DBI/html/Id.html">Id</a> object to quote as identifier.</p>
+</td></tr>
+<tr valign="top"><td><code>name</code></td>
+<td>
+<p>A character string specifying a DBMS table name.</p>
+</td></tr>
+<tr valign="top"><td><code>n</code></td>
+<td>
+<p>maximum number of records to retrieve per fetch. Use <code>n = -1</code>
+or <code>n = Inf</code>
+to retrieve all pending records.  Some implementations may recognize other
+special values.</p>
+</td></tr>
+</table>
+
+<hr /><div style="text-align: center;">[Package <em>odbc</em> version 1.1.5 <a href="00Index.html">Index</a>]</div>
+</body></html>

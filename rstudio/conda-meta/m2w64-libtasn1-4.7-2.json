@@ -1,0 +1,466 @@
+{
+  "build": "2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-libtasn1-4.7-2",
+  "features": "",
+  "files": [
+    "Library/mingw-w64/bin/asn1Coding.exe",
+    "Library/mingw-w64/bin/asn1Decoding.exe",
+    "Library/mingw-w64/bin/asn1Parser.exe",
+    "Library/mingw-w64/bin/libtasn1-6.dll",
+    "Library/mingw-w64/include/libtasn1.h",
+    "Library/mingw-w64/lib/libtasn1.a",
+    "Library/mingw-w64/lib/libtasn1.dll.a",
+    "Library/mingw-w64/lib/pkgconfig/libtasn1.pc",
+    "Library/mingw-w64/share/info/libtasn1.info.gz",
+    "Library/mingw-w64/share/licenses/libtasn1/LICENSE",
+    "Library/mingw-w64/share/licenses/libtasn1/LICENSE.LIB",
+    "Library/mingw-w64/share/man/man1/asn1Coding.1.gz",
+    "Library/mingw-w64/share/man/man1/asn1Decoding.1.gz",
+    "Library/mingw-w64/share/man/man1/asn1Parser.1.gz",
+    "Library/mingw-w64/share/man/man3/asn1_array2tree.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_bit_der.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_check_version.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_copy_node.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_create_element.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_decode_simple_ber.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_decode_simple_der.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_delete_element.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_delete_structure.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_delete_structure2.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_der_coding.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_der_decoding.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_der_decoding2.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_der_decoding_element.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_der_decoding_startEnd.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_dup_node.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_encode_simple_der.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_expand_any_defined_by.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_expand_octet_string.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_find_node.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_find_structure_from_oid.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_get_bit_der.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_get_length_ber.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_get_length_der.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_get_object_id_der.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_get_octet_der.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_get_tag_der.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_length_der.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_number_of_elements.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_octet_der.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_parser2array.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_parser2tree.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_perror.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_print_structure.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_read_node_value.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_read_tag.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_read_value.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_read_value_type.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_strerror.3.gz",
+    "Library/mingw-w64/share/man/man3/asn1_write_value.3.gz"
+  ],
+  "fn": "m2w64-libtasn1-4.7-2.tar.bz2",
+  "license": "GPL3, LGPL",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-libtasn1-4.7-2",
+    "type": 1
+  },
+  "md5": "82bb550f3a8b3ced0bfcc5af1263bea2",
+  "name": "m2w64-libtasn1",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-libtasn1-4.7-2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/mingw-w64/bin/asn1Coding.exe",
+        "path_type": "hardlink",
+        "sha256": "e4c26e2dcafd04fd7ed6b41c46a6aba0328422ec52de5fd890c6e5572f7a0706",
+        "sha256_in_prefix": "e4c26e2dcafd04fd7ed6b41c46a6aba0328422ec52de5fd890c6e5572f7a0706",
+        "size_in_bytes": 86559
+      },
+      {
+        "_path": "Library/mingw-w64/bin/asn1Decoding.exe",
+        "path_type": "hardlink",
+        "sha256": "49cbf30d0eb53ed66ca0f72affa8d1c7bde5d63a61235543d5d35874b7540518",
+        "sha256_in_prefix": "49cbf30d0eb53ed66ca0f72affa8d1c7bde5d63a61235543d5d35874b7540518",
+        "size_in_bytes": 60640
+      },
+      {
+        "_path": "Library/mingw-w64/bin/asn1Parser.exe",
+        "path_type": "hardlink",
+        "sha256": "f0b85066acecc9168be658596052850fd1f87c0d7ce9bea6e940dfe500ca52cd",
+        "sha256_in_prefix": "f0b85066acecc9168be658596052850fd1f87c0d7ce9bea6e940dfe500ca52cd",
+        "size_in_bytes": 54279
+      },
+      {
+        "_path": "Library/mingw-w64/bin/libtasn1-6.dll",
+        "path_type": "hardlink",
+        "sha256": "0f3cb8166cf176729f961fd269075e5e97515e3f22d28d9cb166583f3cd9f8ea",
+        "sha256_in_prefix": "0f3cb8166cf176729f961fd269075e5e97515e3f22d28d9cb166583f3cd9f8ea",
+        "size_in_bytes": 101503
+      },
+      {
+        "_path": "Library/mingw-w64/include/libtasn1.h",
+        "path_type": "hardlink",
+        "sha256": "6801b464b5f3fc5c09eb4d1898db817e3ed66e79d007265a91d070338f134267",
+        "sha256_in_prefix": "6801b464b5f3fc5c09eb4d1898db817e3ed66e79d007265a91d070338f134267",
+        "size_in_bytes": 12738
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libtasn1.a",
+        "path_type": "hardlink",
+        "sha256": "271999e6584ac9d3d8f8aac9ee07a2afa58a1a246b8c7adf2bdb096467c7f950",
+        "sha256_in_prefix": "271999e6584ac9d3d8f8aac9ee07a2afa58a1a246b8c7adf2bdb096467c7f950",
+        "size_in_bytes": 94978
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libtasn1.dll.a",
+        "path_type": "hardlink",
+        "sha256": "22d9ba1530fa2e57fa0a901243563166845b99510f7a29337dd5113557aa382e",
+        "sha256_in_prefix": "22d9ba1530fa2e57fa0a901243563166845b99510f7a29337dd5113557aa382e",
+        "size_in_bytes": 26382
+      },
+      {
+        "_path": "Library/mingw-w64/lib/pkgconfig/libtasn1.pc",
+        "path_type": "hardlink",
+        "sha256": "a4b453d6750f2d2cb6ab304045450dd3f4f0f12784a3be4c2ff610b1a1c26cca",
+        "sha256_in_prefix": "a4b453d6750f2d2cb6ab304045450dd3f4f0f12784a3be4c2ff610b1a1c26cca",
+        "size_in_bytes": 1099
+      },
+      {
+        "_path": "Library/mingw-w64/share/info/libtasn1.info.gz",
+        "path_type": "hardlink",
+        "sha256": "0617d87fd962a3fc77c2e63a4db422c2dbac57fe44cfc7485fbb9659c7b3d9a7",
+        "sha256_in_prefix": "0617d87fd962a3fc77c2e63a4db422c2dbac57fe44cfc7485fbb9659c7b3d9a7",
+        "size_in_bytes": 20674
+      },
+      {
+        "_path": "Library/mingw-w64/share/licenses/libtasn1/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "sha256_in_prefix": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "size_in_bytes": 35147
+      },
+      {
+        "_path": "Library/mingw-w64/share/licenses/libtasn1/LICENSE.LIB",
+        "path_type": "hardlink",
+        "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551",
+        "sha256_in_prefix": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551",
+        "size_in_bytes": 26530
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man1/asn1Coding.1.gz",
+        "path_type": "hardlink",
+        "sha256": "833be1110835140fb4d4a662501d9319f79abca12375876da0feacf8a1b5576a",
+        "sha256_in_prefix": "833be1110835140fb4d4a662501d9319f79abca12375876da0feacf8a1b5576a",
+        "size_in_bytes": 824
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man1/asn1Decoding.1.gz",
+        "path_type": "hardlink",
+        "sha256": "30479213732c5db3060e60e636fa428bba782c84bdf3c99374dad2278391b564",
+        "sha256_in_prefix": "30479213732c5db3060e60e636fa428bba782c84bdf3c99374dad2278391b564",
+        "size_in_bytes": 815
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man1/asn1Parser.1.gz",
+        "path_type": "hardlink",
+        "sha256": "f83ec65d5b32cc3dc40f818249d3802671536b3cabc930e792329dcd1781aa72",
+        "sha256_in_prefix": "f83ec65d5b32cc3dc40f818249d3802671536b3cabc930e792329dcd1781aa72",
+        "size_in_bytes": 835
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_array2tree.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f9f9e5cf3775464d024d933c5d85fc9abae601d9494947ec91acd1a6a00718de",
+        "sha256_in_prefix": "f9f9e5cf3775464d024d933c5d85fc9abae601d9494947ec91acd1a6a00718de",
+        "size_in_bytes": 885
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_bit_der.3.gz",
+        "path_type": "hardlink",
+        "sha256": "0d7330d3e3e2e5080485a6d7a2c47daccbb4a9c3dcc3007d395125a5a11b98d3",
+        "sha256_in_prefix": "0d7330d3e3e2e5080485a6d7a2c47daccbb4a9c3dcc3007d395125a5a11b98d3",
+        "size_in_bytes": 880
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_check_version.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a01e6a9f1107b8fb9ad59e6a28b83fd037f6f41198af82e29dd329fe95937354",
+        "sha256_in_prefix": "a01e6a9f1107b8fb9ad59e6a28b83fd037f6f41198af82e29dd329fe95937354",
+        "size_in_bytes": 779
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_copy_node.3.gz",
+        "path_type": "hardlink",
+        "sha256": "aff6fc586c494e414d5459f2a5842b6db968b73badb54cfee9de57e442682e6e",
+        "sha256_in_prefix": "aff6fc586c494e414d5459f2a5842b6db968b73badb54cfee9de57e442682e6e",
+        "size_in_bytes": 743
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_create_element.3.gz",
+        "path_type": "hardlink",
+        "sha256": "3d2b8f3567e3f2befcbea9e0f375c6beec2374ee5ec97ffb22e0d8eb89e92af4",
+        "sha256_in_prefix": "3d2b8f3567e3f2befcbea9e0f375c6beec2374ee5ec97ffb22e0d8eb89e92af4",
+        "size_in_bytes": 809
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_decode_simple_ber.3.gz",
+        "path_type": "hardlink",
+        "sha256": "d1ea01f1c63b4953e24db2ce960c571826791b011413ff283e694b0484a67e32",
+        "sha256_in_prefix": "d1ea01f1c63b4953e24db2ce960c571826791b011413ff283e694b0484a67e32",
+        "size_in_bytes": 838
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_decode_simple_der.3.gz",
+        "path_type": "hardlink",
+        "sha256": "b90069804f2a614b9f3a7f05dd09c67a3d2acf47770e767bac16c2b1f65aa60d",
+        "sha256_in_prefix": "b90069804f2a614b9f3a7f05dd09c67a3d2acf47770e767bac16c2b1f65aa60d",
+        "size_in_bytes": 795
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_delete_element.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4362d2d46e8e2a62e61bf933c69e57df915f53c7f737187fd39d4159a5e2a251",
+        "sha256_in_prefix": "4362d2d46e8e2a62e61bf933c69e57df915f53c7f737187fd39d4159a5e2a251",
+        "size_in_bytes": 716
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_delete_structure.3.gz",
+        "path_type": "hardlink",
+        "sha256": "17480b2497aadf9537203571f90d96248fae40d812c9a1fef1f6527aafd1b8c0",
+        "sha256_in_prefix": "17480b2497aadf9537203571f90d96248fae40d812c9a1fef1f6527aafd1b8c0",
+        "size_in_bytes": 674
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_delete_structure2.3.gz",
+        "path_type": "hardlink",
+        "sha256": "569ab5e0c542fc28de731bc2b3bee6be570733d85c1dc5bb484891787fb4f5f0",
+        "sha256_in_prefix": "569ab5e0c542fc28de731bc2b3bee6be570733d85c1dc5bb484891787fb4f5f0",
+        "size_in_bytes": 723
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_der_coding.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f33f904a4d917baeb3cb6573994c814351e334dfb1791b0cc1cfafcd2c38792e",
+        "sha256_in_prefix": "f33f904a4d917baeb3cb6573994c814351e334dfb1791b0cc1cfafcd2c38792e",
+        "size_in_bytes": 995
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_der_decoding.3.gz",
+        "path_type": "hardlink",
+        "sha256": "98ba086139c4abf302c053843053432815cd4204aa01378c9b81bd64cca87033",
+        "sha256_in_prefix": "98ba086139c4abf302c053843053432815cd4204aa01378c9b81bd64cca87033",
+        "size_in_bytes": 942
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_der_decoding2.3.gz",
+        "path_type": "hardlink",
+        "sha256": "e5841040bcd005a2841ec1f1e5829a0a9c5cf97f492377ef51d2d392ec776fd8",
+        "sha256_in_prefix": "e5841040bcd005a2841ec1f1e5829a0a9c5cf97f492377ef51d2d392ec776fd8",
+        "size_in_bytes": 1136
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_der_decoding_element.3.gz",
+        "path_type": "hardlink",
+        "sha256": "304a55ddbbbf71fa0cd4b980c206b33464d23d8a2032488c6287647ce76b940f",
+        "sha256_in_prefix": "304a55ddbbbf71fa0cd4b980c206b33464d23d8a2032488c6287647ce76b940f",
+        "size_in_bytes": 1070
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_der_decoding_startEnd.3.gz",
+        "path_type": "hardlink",
+        "sha256": "2c1b0950e418426a6a79bc4c15e63bdd371ffea44d55c73b13166567cb5107cb",
+        "sha256_in_prefix": "2c1b0950e418426a6a79bc4c15e63bdd371ffea44d55c73b13166567cb5107cb",
+        "size_in_bytes": 1116
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_dup_node.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a10ecc00be6f48d9d3e44627389c5f1e10dfd70e282982f101a1d189cce8b485",
+        "sha256_in_prefix": "a10ecc00be6f48d9d3e44627389c5f1e10dfd70e282982f101a1d189cce8b485",
+        "size_in_bytes": 673
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_encode_simple_der.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f3f14e284333f89fc799d029f0056715b96f42f57b02a0f9b4457e04afcef61b",
+        "sha256_in_prefix": "f3f14e284333f89fc799d029f0056715b96f42f57b02a0f9b4457e04afcef61b",
+        "size_in_bytes": 887
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_expand_any_defined_by.3.gz",
+        "path_type": "hardlink",
+        "sha256": "948fdaba3d11936e99315da8489833786c0fc6a17229a75c0607c1f13c954669",
+        "sha256_in_prefix": "948fdaba3d11936e99315da8489833786c0fc6a17229a75c0607c1f13c954669",
+        "size_in_bytes": 872
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_expand_octet_string.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f2657cfc8a5d807ba4c22f0e72a6d4b02ee1171a05e8a2f85757aa7b2e748e9a",
+        "sha256_in_prefix": "f2657cfc8a5d807ba4c22f0e72a6d4b02ee1171a05e8a2f85757aa7b2e748e9a",
+        "size_in_bytes": 948
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_find_node.3.gz",
+        "path_type": "hardlink",
+        "sha256": "14904970aef69b97c9bdf62a69de011b2e3ffb18784e6c65e6e0e16392511ed1",
+        "sha256_in_prefix": "14904970aef69b97c9bdf62a69de011b2e3ffb18784e6c65e6e0e16392511ed1",
+        "size_in_bytes": 776
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_find_structure_from_oid.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a9ffd3fa383fa0239241af887c82cf870be1df6fed1a4a1e41250ab65d252a21",
+        "sha256_in_prefix": "a9ffd3fa383fa0239241af887c82cf870be1df6fed1a4a1e41250ab65d252a21",
+        "size_in_bytes": 738
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_get_bit_der.3.gz",
+        "path_type": "hardlink",
+        "sha256": "44372e9e82bce11e3cb05b7803675d46682ddfaa416285c6c2ba66aebe9dce77",
+        "sha256_in_prefix": "44372e9e82bce11e3cb05b7803675d46682ddfaa416285c6c2ba66aebe9dce77",
+        "size_in_bytes": 782
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_get_length_ber.3.gz",
+        "path_type": "hardlink",
+        "sha256": "2ce20c6575c54261ff40fd801e3e8ae8c22156ef2f1642a83b62cf7233195c6c",
+        "sha256_in_prefix": "2ce20c6575c54261ff40fd801e3e8ae8c22156ef2f1642a83b62cf7233195c6c",
+        "size_in_bytes": 777
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_get_length_der.3.gz",
+        "path_type": "hardlink",
+        "sha256": "e34d03febce0baa4e96dde2412967be97bd6ced5e34918eece2bb0c225e8fd53",
+        "sha256_in_prefix": "e34d03febce0baa4e96dde2412967be97bd6ced5e34918eece2bb0c225e8fd53",
+        "size_in_bytes": 751
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_get_object_id_der.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6035c542b4209bbb4cdb3821337b33b02f68f52c42cba89ab5b5c45310d845c2",
+        "sha256_in_prefix": "6035c542b4209bbb4cdb3821337b33b02f68f52c42cba89ab5b5c45310d845c2",
+        "size_in_bytes": 791
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_get_octet_der.3.gz",
+        "path_type": "hardlink",
+        "sha256": "ab17c69b5f95ab7d5e436ca1f67d393d618eed52b5be72609defb483a050afec",
+        "sha256_in_prefix": "ab17c69b5f95ab7d5e436ca1f67d393d618eed52b5be72609defb483a050afec",
+        "size_in_bytes": 786
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_get_tag_der.3.gz",
+        "path_type": "hardlink",
+        "sha256": "1bd2be366703b513e01ab5a663fb59650ec53849620b8615ae03531f6cb7d75c",
+        "sha256_in_prefix": "1bd2be366703b513e01ab5a663fb59650ec53849620b8615ae03531f6cb7d75c",
+        "size_in_bytes": 745
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_length_der.3.gz",
+        "path_type": "hardlink",
+        "sha256": "80f11a83e1d11b49aff50f9d4a4455b7d32704b65b07efdb2b5eddb67b661d59",
+        "sha256_in_prefix": "80f11a83e1d11b49aff50f9d4a4455b7d32704b65b07efdb2b5eddb67b661d59",
+        "size_in_bytes": 815
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_number_of_elements.3.gz",
+        "path_type": "hardlink",
+        "sha256": "2920d3cf4e76a545622247aac31639f31e32cfceca06838ffa06c32f5f4c283d",
+        "sha256_in_prefix": "2920d3cf4e76a545622247aac31639f31e32cfceca06838ffa06c32f5f4c283d",
+        "size_in_bytes": 806
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_octet_der.3.gz",
+        "path_type": "hardlink",
+        "sha256": "08b6454e54cc35cb5eccf24f76c10826e62935602ecd7e5b3dbbe82de735af09",
+        "sha256_in_prefix": "08b6454e54cc35cb5eccf24f76c10826e62935602ecd7e5b3dbbe82de735af09",
+        "size_in_bytes": 874
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_parser2array.3.gz",
+        "path_type": "hardlink",
+        "sha256": "03d51cd54d85a6df499d104d2b916c65641bdfa3c30a91f9a1594411590a2912",
+        "sha256_in_prefix": "03d51cd54d85a6df499d104d2b916c65641bdfa3c30a91f9a1594411590a2912",
+        "size_in_bytes": 1048
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_parser2tree.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4603315093b03e0efc887084ca1e3298c299fe978f8fe088c9f1d8dc393ee23e",
+        "sha256_in_prefix": "4603315093b03e0efc887084ca1e3298c299fe978f8fe088c9f1d8dc393ee23e",
+        "size_in_bytes": 982
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_perror.3.gz",
+        "path_type": "hardlink",
+        "sha256": "475846cc684b4bd6e8690ad3903cc55dde08830cd427686c82d866d6b8db91e1",
+        "sha256_in_prefix": "475846cc684b4bd6e8690ad3903cc55dde08830cd427686c82d866d6b8db91e1",
+        "size_in_bytes": 648
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_print_structure.3.gz",
+        "path_type": "hardlink",
+        "sha256": "2c39352d04c4ffe0715c27ee1fe95eee00f55fbae7ed0bd77e2a55d2d26d4412",
+        "sha256_in_prefix": "2c39352d04c4ffe0715c27ee1fe95eee00f55fbae7ed0bd77e2a55d2d26d4412",
+        "size_in_bytes": 784
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_read_node_value.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4d4279b4622d3100e52432f5f5e0e37830512dde3262b042c02dbbb0ccf893c8",
+        "sha256_in_prefix": "4d4279b4622d3100e52432f5f5e0e37830512dde3262b042c02dbbb0ccf893c8",
+        "size_in_bytes": 686
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_read_tag.3.gz",
+        "path_type": "hardlink",
+        "sha256": "0f7d34040e74a01ef2d71c98333233600fd53ccdd8742d7ab0bae25c3bf3adf1",
+        "sha256_in_prefix": "0f7d34040e74a01ef2d71c98333233600fd53ccdd8742d7ab0bae25c3bf3adf1",
+        "size_in_bytes": 839
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_read_value.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8ed5655d29ef1448993d2625dd98e21f1dceb735ec2787ec790c9021017e3e85",
+        "sha256_in_prefix": "8ed5655d29ef1448993d2625dd98e21f1dceb735ec2787ec790c9021017e3e85",
+        "size_in_bytes": 1667
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_read_value_type.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4a5b2a774422a22ce9344806acddebc8423aade44ba09acc5c4b93508752a88b",
+        "sha256_in_prefix": "4a5b2a774422a22ce9344806acddebc8423aade44ba09acc5c4b93508752a88b",
+        "size_in_bytes": 1708
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_strerror.3.gz",
+        "path_type": "hardlink",
+        "sha256": "53b2864ee0ee8bcd9ff5dc71434f43a6a15686f3ea87dd5c9f0138fbb0ecd4ab",
+        "sha256_in_prefix": "53b2864ee0ee8bcd9ff5dc71434f43a6a15686f3ea87dd5c9f0138fbb0ecd4ab",
+        "size_in_bytes": 694
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/asn1_write_value.3.gz",
+        "path_type": "hardlink",
+        "sha256": "308507c64c5e95e1034a79917993f76b34ac53aef0b4297302ec256db1fb58ab",
+        "sha256_in_prefix": "308507c64c5e95e1034a79917993f76b34ac53aef0b4297302ec256db1fb58ab",
+        "size_in_bytes": 1955
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 223937,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2w64-libtasn1-4.7-2.tar.bz2",
+  "version": "4.7"
+}

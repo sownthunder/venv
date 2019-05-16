@@ -1,0 +1,359 @@
+{
+  "build": "r351h6f4ce42_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "r-htmlwidgets >=0.3.2",
+    "r-stringr",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-profvis-0.3.5-r351h6f4ce42_0",
+  "features": "",
+  "files": [
+    "lib/R/library/profvis/DESCRIPTION",
+    "lib/R/library/profvis/INDEX",
+    "lib/R/library/profvis/LICENSE",
+    "lib/R/library/profvis/MD5",
+    "lib/R/library/profvis/Meta/Rd.rds",
+    "lib/R/library/profvis/Meta/features.rds",
+    "lib/R/library/profvis/Meta/hsearch.rds",
+    "lib/R/library/profvis/Meta/links.rds",
+    "lib/R/library/profvis/Meta/nsInfo.rds",
+    "lib/R/library/profvis/Meta/package.rds",
+    "lib/R/library/profvis/NAMESPACE",
+    "lib/R/library/profvis/NEWS.md",
+    "lib/R/library/profvis/R/profvis",
+    "lib/R/library/profvis/R/profvis.rdb",
+    "lib/R/library/profvis/R/profvis.rdx",
+    "lib/R/library/profvis/help/AnIndex",
+    "lib/R/library/profvis/help/aliases.rds",
+    "lib/R/library/profvis/help/paths.rds",
+    "lib/R/library/profvis/help/profvis.rdb",
+    "lib/R/library/profvis/help/profvis.rdx",
+    "lib/R/library/profvis/html/00Index.html",
+    "lib/R/library/profvis/html/R.css",
+    "lib/R/library/profvis/html/parse_rprof.html",
+    "lib/R/library/profvis/html/pause.html",
+    "lib/R/library/profvis/html/print.profvis.html",
+    "lib/R/library/profvis/html/profvis.html",
+    "lib/R/library/profvis/html/profvisOutput.html",
+    "lib/R/library/profvis/html/renderProfvis.html",
+    "lib/R/library/profvis/htmlwidgets/lib/d3/LICENSE",
+    "lib/R/library/profvis/htmlwidgets/lib/d3/d3.min.js",
+    "lib/R/library/profvis/htmlwidgets/lib/highlight/LICENSE",
+    "lib/R/library/profvis/htmlwidgets/lib/highlight/default.css",
+    "lib/R/library/profvis/htmlwidgets/lib/highlight/highlight.js",
+    "lib/R/library/profvis/htmlwidgets/lib/highlight/textmate.css",
+    "lib/R/library/profvis/htmlwidgets/lib/jquery/jquery.min.js",
+    "lib/R/library/profvis/htmlwidgets/lib/profvis/profvis.css",
+    "lib/R/library/profvis/htmlwidgets/lib/profvis/profvis.js",
+    "lib/R/library/profvis/htmlwidgets/profvis.js",
+    "lib/R/library/profvis/htmlwidgets/profvis.yaml",
+    "lib/R/library/profvis/libs/x64/profvis.dll"
+  ],
+  "fn": "r-profvis-0.3.5-r351h6f4ce42_0.tar.bz2",
+  "license": "GPL-3 | file LICENSE",
+  "license_family": "GPL3",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-profvis-0.3.5-r351h6f4ce42_0",
+    "type": 1
+  },
+  "md5": "300ceaefb8e5ee6fa5cb21aa06328d5d",
+  "name": "r-profvis",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-profvis-0.3.5-r351h6f4ce42_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/profvis/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "5f022e423cf21632edda95d65ab7a1aa1464cba34a42650e5225c124cfec1416",
+        "sha256_in_prefix": "5f022e423cf21632edda95d65ab7a1aa1464cba34a42650e5225c124cfec1416",
+        "size_in_bytes": 1716
+      },
+      {
+        "_path": "lib/R/library/profvis/INDEX",
+        "path_type": "hardlink",
+        "sha256": "00babdfb888dbac5d46684c8938b5a8de646a18c041b90ddd70f98fa772e1222",
+        "sha256_in_prefix": "00babdfb888dbac5d46684c8938b5a8de646a18c041b90ddd70f98fa772e1222",
+        "size_in_bytes": 395
+      },
+      {
+        "_path": "lib/R/library/profvis/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "61671d183742efadb7422486b8b1385f81da3e3f4906ca27c204ce78699c50a2",
+        "sha256_in_prefix": "61671d183742efadb7422486b8b1385f81da3e3f4906ca27c204ce78699c50a2",
+        "size_in_bytes": 4696
+      },
+      {
+        "_path": "lib/R/library/profvis/MD5",
+        "path_type": "hardlink",
+        "sha256": "5aefe0a42873578cded65fa6486e0c7f6204efe200dcfed54becd9580020ce23",
+        "sha256_in_prefix": "5aefe0a42873578cded65fa6486e0c7f6204efe200dcfed54becd9580020ce23",
+        "size_in_bytes": 2161
+      },
+      {
+        "_path": "lib/R/library/profvis/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "4e90911f7980a4fc955d9584a8bdda20c1c3b464c175d11a3c2d2f1272cfcbec",
+        "sha256_in_prefix": "4e90911f7980a4fc955d9584a8bdda20c1c3b464c175d11a3c2d2f1272cfcbec",
+        "size_in_bytes": 407
+      },
+      {
+        "_path": "lib/R/library/profvis/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/profvis/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "2fb49132d0868ac638d78548a4bcd208b37ea5d42d1fdfcb980d8f7114b701dc",
+        "sha256_in_prefix": "2fb49132d0868ac638d78548a4bcd208b37ea5d42d1fdfcb980d8f7114b701dc",
+        "size_in_bytes": 409
+      },
+      {
+        "_path": "lib/R/library/profvis/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "0c407a309ab8098cfd6362d46c03c0035a493708b829e023ccfb6eca79da353e",
+        "sha256_in_prefix": "0c407a309ab8098cfd6362d46c03c0035a493708b829e023ccfb6eca79da353e",
+        "size_in_bytes": 170
+      },
+      {
+        "_path": "lib/R/library/profvis/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "8c4a3e3e44f7433e1d1a9ffb4a70d884bc52e89dab4b2445571d23cdd5e204be",
+        "sha256_in_prefix": "8c4a3e3e44f7433e1d1a9ffb4a70d884bc52e89dab4b2445571d23cdd5e204be",
+        "size_in_bytes": 339
+      },
+      {
+        "_path": "lib/R/library/profvis/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "035343c10ab234518f46cb4304a0004f67593e4111c0081b80d8c0a998a34c66",
+        "sha256_in_prefix": "035343c10ab234518f46cb4304a0004f67593e4111c0081b80d8c0a998a34c66",
+        "size_in_bytes": 1188
+      },
+      {
+        "_path": "lib/R/library/profvis/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "0defeb9d48c070c7dd560a0c158dc286d515a7929e069a320d1ac853bee2eb8c",
+        "sha256_in_prefix": "0defeb9d48c070c7dd560a0c158dc286d515a7929e069a320d1ac853bee2eb8c",
+        "size_in_bytes": 260
+      },
+      {
+        "_path": "lib/R/library/profvis/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "dba277213e5effe08a773b68fb793d6c04fb725e20f067542f352fcedb31d20b",
+        "sha256_in_prefix": "dba277213e5effe08a773b68fb793d6c04fb725e20f067542f352fcedb31d20b",
+        "size_in_bytes": 1663
+      },
+      {
+        "_path": "lib/R/library/profvis/R/profvis",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/profvis/R/profvis.rdb",
+        "path_type": "hardlink",
+        "sha256": "515ac7f8f7865a7bef82ed6a7597a805f46cfd6b6139afb8f84c4463286228d7",
+        "sha256_in_prefix": "515ac7f8f7865a7bef82ed6a7597a805f46cfd6b6139afb8f84c4463286228d7",
+        "size_in_bytes": 22365
+      },
+      {
+        "_path": "lib/R/library/profvis/R/profvis.rdx",
+        "path_type": "hardlink",
+        "sha256": "59616d7c0c6fc7c0a3fcd202b58edbdcd4e6500b48f1c7026da2352e0cf38db8",
+        "sha256_in_prefix": "59616d7c0c6fc7c0a3fcd202b58edbdcd4e6500b48f1c7026da2352e0cf38db8",
+        "size_in_bytes": 515
+      },
+      {
+        "_path": "lib/R/library/profvis/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "ff0992ee53a44d537c1c499f7e9cc39244b074c0db4dbe75e6621b594f2d890c",
+        "sha256_in_prefix": "ff0992ee53a44d537c1c499f7e9cc39244b074c0db4dbe75e6621b594f2d890c",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "lib/R/library/profvis/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "77c4d1f5a1e97fcee3725343f3477b92017a31b09934fdf7b0f5c9fa76a640ec",
+        "sha256_in_prefix": "77c4d1f5a1e97fcee3725343f3477b92017a31b09934fdf7b0f5c9fa76a640ec",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "lib/R/library/profvis/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "b8f2d1136f87c4898a93ef95cabb1b3f932311b8e5e79447e2d5cfdd2c156604",
+        "sha256_in_prefix": "b8f2d1136f87c4898a93ef95cabb1b3f932311b8e5e79447e2d5cfdd2c156604",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "lib/R/library/profvis/help/profvis.rdb",
+        "path_type": "hardlink",
+        "sha256": "817112c0faad42b2c5f8fa7f1d3d5604d452917b4af04e01337d67f886ccbfec",
+        "sha256_in_prefix": "817112c0faad42b2c5f8fa7f1d3d5604d452917b4af04e01337d67f886ccbfec",
+        "size_in_bytes": 10133
+      },
+      {
+        "_path": "lib/R/library/profvis/help/profvis.rdx",
+        "path_type": "hardlink",
+        "sha256": "d4c230553355b644ea099af68a32b333f236dabe1471f3d9aae7e7c9204462a4",
+        "sha256_in_prefix": "d4c230553355b644ea099af68a32b333f236dabe1471f3d9aae7e7c9204462a4",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/profvis/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "ed56f908be449482d2fe51f6e8907e6ce0e8053e94db1c39e724b2437ac6feb2",
+        "sha256_in_prefix": "ed56f908be449482d2fe51f6e8907e6ce0e8053e94db1c39e724b2437ac6feb2",
+        "size_in_bytes": 1757
+      },
+      {
+        "_path": "lib/R/library/profvis/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/profvis/html/parse_rprof.html",
+        "path_type": "hardlink",
+        "sha256": "cf43df8b13fd2169009a19c0a4e94a069bb4c8b5145521c2cdb0796284359497",
+        "sha256_in_prefix": "cf43df8b13fd2169009a19c0a4e94a069bb4c8b5145521c2cdb0796284359497",
+        "size_in_bytes": 1414
+      },
+      {
+        "_path": "lib/R/library/profvis/html/pause.html",
+        "path_type": "hardlink",
+        "sha256": "13a0bef9ce5258e7459f71db75f2430c6e242925cb676113acafc2cfd8995118",
+        "sha256_in_prefix": "13a0bef9ce5258e7459f71db75f2430c6e242925cb676113acafc2cfd8995118",
+        "size_in_bytes": 1310
+      },
+      {
+        "_path": "lib/R/library/profvis/html/print.profvis.html",
+        "path_type": "hardlink",
+        "sha256": "9dab06d06b9d0fd70eba097160cab0e4d08cbb7e95366112e47fb0b4c597123b",
+        "sha256_in_prefix": "9dab06d06b9d0fd70eba097160cab0e4d08cbb7e95366112e47fb0b4c597123b",
+        "size_in_bytes": 1569
+      },
+      {
+        "_path": "lib/R/library/profvis/html/profvis.html",
+        "path_type": "hardlink",
+        "sha256": "b1965bbdafa174b20626d35bc12bc22c9f5e0c28bc61fc5f7032d6b80ad110dd",
+        "sha256_in_prefix": "b1965bbdafa174b20626d35bc12bc22c9f5e0c28bc61fc5f7032d6b80ad110dd",
+        "size_in_bytes": 4206
+      },
+      {
+        "_path": "lib/R/library/profvis/html/profvisOutput.html",
+        "path_type": "hardlink",
+        "sha256": "7492d16d2de9676077415ee503a14088f900dd892ae5044fda49b26c57ac7e9c",
+        "sha256_in_prefix": "7492d16d2de9676077415ee503a14088f900dd892ae5044fda49b26c57ac7e9c",
+        "size_in_bytes": 1267
+      },
+      {
+        "_path": "lib/R/library/profvis/html/renderProfvis.html",
+        "path_type": "hardlink",
+        "sha256": "d19d475bef6c40fa7e7703bb9237ed8e390a72da4e9658f943307d05f04dd491",
+        "sha256_in_prefix": "d19d475bef6c40fa7e7703bb9237ed8e390a72da4e9658f943307d05f04dd491",
+        "size_in_bytes": 1385
+      },
+      {
+        "_path": "lib/R/library/profvis/htmlwidgets/lib/d3/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cfbbc38bc63359f41eef41f92314754d6652fd1a17d016de344926d5de34b7d5",
+        "sha256_in_prefix": "cfbbc38bc63359f41eef41f92314754d6652fd1a17d016de344926d5de34b7d5",
+        "size_in_bytes": 1429
+      },
+      {
+        "_path": "lib/R/library/profvis/htmlwidgets/lib/d3/d3.min.js",
+        "path_type": "hardlink",
+        "sha256": "a643b74067e8e03f8fc5eec9494c79b87aa6e33ccd953902b31d23e0463c69f6",
+        "sha256_in_prefix": "a643b74067e8e03f8fc5eec9494c79b87aa6e33ccd953902b31d23e0463c69f6",
+        "size_in_bytes": 151143
+      },
+      {
+        "_path": "lib/R/library/profvis/htmlwidgets/lib/highlight/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "bdb8f9bba7125549cb01d68d90050ac9604f5aa43f6fd63e070f6d7d095f8d74",
+        "sha256_in_prefix": "bdb8f9bba7125549cb01d68d90050ac9604f5aa43f6fd63e070f6d7d095f8d74",
+        "size_in_bytes": 1498
+      },
+      {
+        "_path": "lib/R/library/profvis/htmlwidgets/lib/highlight/default.css",
+        "path_type": "hardlink",
+        "sha256": "4485bea37bfe6bf26fdb2116f0b70888491e4a9916a9aa6762d99f623d30ae31",
+        "sha256_in_prefix": "4485bea37bfe6bf26fdb2116f0b70888491e4a9916a9aa6762d99f623d30ae31",
+        "size_in_bytes": 299
+      },
+      {
+        "_path": "lib/R/library/profvis/htmlwidgets/lib/highlight/highlight.js",
+        "path_type": "hardlink",
+        "sha256": "66c7af988ea9d6a448cecac16b206d04ca852d68fedaf53f662456f5eb00bf54",
+        "sha256_in_prefix": "66c7af988ea9d6a448cecac16b206d04ca852d68fedaf53f662456f5eb00bf54",
+        "size_in_bytes": 10427
+      },
+      {
+        "_path": "lib/R/library/profvis/htmlwidgets/lib/highlight/textmate.css",
+        "path_type": "hardlink",
+        "sha256": "5ec4a11489e1c0f322774a38c5e7e1186b1cf3a40f3fc07fe8d7ee0a228ee0f6",
+        "sha256_in_prefix": "5ec4a11489e1c0f322774a38c5e7e1186b1cf3a40f3fc07fe8d7ee0a228ee0f6",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "lib/R/library/profvis/htmlwidgets/lib/jquery/jquery.min.js",
+        "path_type": "hardlink",
+        "sha256": "668b046d12db350ccba6728890476b3efee53b2f42dbb84743e5e9f1ae0cc404",
+        "sha256_in_prefix": "668b046d12db350ccba6728890476b3efee53b2f42dbb84743e5e9f1ae0cc404",
+        "size_in_bytes": 97163
+      },
+      {
+        "_path": "lib/R/library/profvis/htmlwidgets/lib/profvis/profvis.css",
+        "path_type": "hardlink",
+        "sha256": "f6bddeb0d144103210507bdd34ed415edb3e99aad46a0e8e23d975d34f2a339b",
+        "sha256_in_prefix": "f6bddeb0d144103210507bdd34ed415edb3e99aad46a0e8e23d975d34f2a339b",
+        "size_in_bytes": 20273
+      },
+      {
+        "_path": "lib/R/library/profvis/htmlwidgets/lib/profvis/profvis.js",
+        "path_type": "hardlink",
+        "sha256": "50a9c6b6cc2e544676fea2564ff4d07fba1fc84b82d48bf8361e136c26519262",
+        "sha256_in_prefix": "50a9c6b6cc2e544676fea2564ff4d07fba1fc84b82d48bf8361e136c26519262",
+        "size_in_bytes": 89377
+      },
+      {
+        "_path": "lib/R/library/profvis/htmlwidgets/profvis.js",
+        "path_type": "hardlink",
+        "sha256": "0a862461fc55fae644b2549f853d6959e9dc60d918569c2e8e99c2bf14bdf07d",
+        "sha256_in_prefix": "0a862461fc55fae644b2549f853d6959e9dc60d918569c2e8e99c2bf14bdf07d",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "lib/R/library/profvis/htmlwidgets/profvis.yaml",
+        "path_type": "hardlink",
+        "sha256": "0ccebb95b84eda7795a25d7759f802909ba69c9ea9a0d2a791724dbcc3b8e6da",
+        "sha256_in_prefix": "0ccebb95b84eda7795a25d7759f802909ba69c9ea9a0d2a791724dbcc3b8e6da",
+        "size_in_bytes": 464
+      },
+      {
+        "_path": "lib/R/library/profvis/libs/x64/profvis.dll",
+        "path_type": "hardlink",
+        "sha256": "5a10f55e5d87b414a5fd9561f7baf988c642f882282b712c28f023eae7ca80cc",
+        "sha256_in_prefix": "5a10f55e5d87b414a5fd9561f7baf988c642f882282b712c28f023eae7ca80cc",
+        "size_in_bytes": 16384
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 177456,
+  "subdir": "win-64",
+  "timestamp": 1538177875606,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-profvis-0.3.5-r351h6f4ce42_0.tar.bz2",
+  "version": "0.3.5"
+}

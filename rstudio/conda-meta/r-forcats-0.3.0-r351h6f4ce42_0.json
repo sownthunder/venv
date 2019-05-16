@@ -1,0 +1,447 @@
+{
+  "build": "r351h6f4ce42_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "r-magrittr",
+    "r-rlang",
+    "r-tibble",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-forcats-0.3.0-r351h6f4ce42_0",
+  "features": "",
+  "files": [
+    "lib/R/library/forcats/DESCRIPTION",
+    "lib/R/library/forcats/INDEX",
+    "lib/R/library/forcats/MD5",
+    "lib/R/library/forcats/Meta/Rd.rds",
+    "lib/R/library/forcats/Meta/data.rds",
+    "lib/R/library/forcats/Meta/features.rds",
+    "lib/R/library/forcats/Meta/hsearch.rds",
+    "lib/R/library/forcats/Meta/links.rds",
+    "lib/R/library/forcats/Meta/nsInfo.rds",
+    "lib/R/library/forcats/Meta/package.rds",
+    "lib/R/library/forcats/NAMESPACE",
+    "lib/R/library/forcats/NEWS.md",
+    "lib/R/library/forcats/R/forcats",
+    "lib/R/library/forcats/R/forcats.rdb",
+    "lib/R/library/forcats/R/forcats.rdx",
+    "lib/R/library/forcats/data/Rdata.rdb",
+    "lib/R/library/forcats/data/Rdata.rds",
+    "lib/R/library/forcats/data/Rdata.rdx",
+    "lib/R/library/forcats/help/AnIndex",
+    "lib/R/library/forcats/help/aliases.rds",
+    "lib/R/library/forcats/help/figures/logo.png",
+    "lib/R/library/forcats/help/forcats.rdb",
+    "lib/R/library/forcats/help/forcats.rdx",
+    "lib/R/library/forcats/help/paths.rds",
+    "lib/R/library/forcats/html/00Index.html",
+    "lib/R/library/forcats/html/R.css",
+    "lib/R/library/forcats/html/as_factor.html",
+    "lib/R/library/forcats/html/fct_anon.html",
+    "lib/R/library/forcats/html/fct_c.html",
+    "lib/R/library/forcats/html/fct_collapse.html",
+    "lib/R/library/forcats/html/fct_count.html",
+    "lib/R/library/forcats/html/fct_drop.html",
+    "lib/R/library/forcats/html/fct_expand.html",
+    "lib/R/library/forcats/html/fct_explicit_na.html",
+    "lib/R/library/forcats/html/fct_inorder.html",
+    "lib/R/library/forcats/html/fct_lump.html",
+    "lib/R/library/forcats/html/fct_other.html",
+    "lib/R/library/forcats/html/fct_recode.html",
+    "lib/R/library/forcats/html/fct_relabel.html",
+    "lib/R/library/forcats/html/fct_relevel.html",
+    "lib/R/library/forcats/html/fct_reorder.html",
+    "lib/R/library/forcats/html/fct_rev.html",
+    "lib/R/library/forcats/html/fct_shift.html",
+    "lib/R/library/forcats/html/fct_shuffle.html",
+    "lib/R/library/forcats/html/fct_unify.html",
+    "lib/R/library/forcats/html/fct_unique.html",
+    "lib/R/library/forcats/html/forcats-package.html",
+    "lib/R/library/forcats/html/gss_cat.html",
+    "lib/R/library/forcats/html/lvls.html",
+    "lib/R/library/forcats/html/lvls_union.html",
+    "lib/R/library/forcats/html/pipe.html"
+  ],
+  "fn": "r-forcats-0.3.0-r351h6f4ce42_0.tar.bz2",
+  "license": "GPL-3",
+  "license_family": "GPL3",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-forcats-0.3.0-r351h6f4ce42_0",
+    "type": 1
+  },
+  "md5": "fe89662049f615fa275c9655bb6b30f4",
+  "name": "r-forcats",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-forcats-0.3.0-r351h6f4ce42_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/forcats/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "60a1721754ea0f1623fdb20a07e6d9168b2ee37d7c7b3a1eb98ffe378bb938b7",
+        "sha256_in_prefix": "60a1721754ea0f1623fdb20a07e6d9168b2ee37d7c7b3a1eb98ffe378bb938b7",
+        "size_in_bytes": 1122
+      },
+      {
+        "_path": "lib/R/library/forcats/INDEX",
+        "path_type": "hardlink",
+        "sha256": "7203ab4c4e0a617df91cafe8451a50878eb4c577249387bafc65aed558fc50ef",
+        "sha256_in_prefix": "7203ab4c4e0a617df91cafe8451a50878eb4c577249387bafc65aed558fc50ef",
+        "size_in_bytes": 1649
+      },
+      {
+        "_path": "lib/R/library/forcats/MD5",
+        "path_type": "hardlink",
+        "sha256": "4a465cbd6e14cb113c40bc4f23b17d96a3ffeb663f2b92f8f05a670ef9c4d280",
+        "sha256_in_prefix": "4a465cbd6e14cb113c40bc4f23b17d96a3ffeb663f2b92f8f05a670ef9c4d280",
+        "size_in_bytes": 2616
+      },
+      {
+        "_path": "lib/R/library/forcats/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "0e7a2fac81eec18ec6004948eacedd911e0ff9a46481f2ef52cc67c2e5d2bd19",
+        "sha256_in_prefix": "0e7a2fac81eec18ec6004948eacedd911e0ff9a46481f2ef52cc67c2e5d2bd19",
+        "size_in_bytes": 1159
+      },
+      {
+        "_path": "lib/R/library/forcats/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "8114dc8433b519ffe929ccde785884ac1d6497be7374c41d1e132f324711c40c",
+        "sha256_in_prefix": "8114dc8433b519ffe929ccde785884ac1d6497be7374c41d1e132f324711c40c",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "lib/R/library/forcats/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/forcats/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "a404572787922c73cb8d8b53b278cef7baa3e98bce9910b310165bd158f9d05d",
+        "sha256_in_prefix": "a404572787922c73cb8d8b53b278cef7baa3e98bce9910b310165bd158f9d05d",
+        "size_in_bytes": 1104
+      },
+      {
+        "_path": "lib/R/library/forcats/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "95a12bd0c2becdf74ee19205ef46d3074625173e0d3851110305a98f8d2280c3",
+        "sha256_in_prefix": "95a12bd0c2becdf74ee19205ef46d3074625173e0d3851110305a98f8d2280c3",
+        "size_in_bytes": 453
+      },
+      {
+        "_path": "lib/R/library/forcats/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "8ac1d014e66d2f51a5c6d9b12b4f06c9a73f34fe0bce081da71c5bb59b755527",
+        "sha256_in_prefix": "8ac1d014e66d2f51a5c6d9b12b4f06c9a73f34fe0bce081da71c5bb59b755527",
+        "size_in_bytes": 400
+      },
+      {
+        "_path": "lib/R/library/forcats/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "5bba668ccd922ddcd7ec358a4999c095bec559cd32576c9f24f851721b4e2a3b",
+        "sha256_in_prefix": "5bba668ccd922ddcd7ec358a4999c095bec559cd32576c9f24f851721b4e2a3b",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/forcats/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "97b923b17562e3f96c6fc8939203e1d899238a7af2d94a6444f6375fa5dd8aba",
+        "sha256_in_prefix": "97b923b17562e3f96c6fc8939203e1d899238a7af2d94a6444f6375fa5dd8aba",
+        "size_in_bytes": 677
+      },
+      {
+        "_path": "lib/R/library/forcats/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "26551067c868ad948d04df14acce80715faf727f1000f62a920f78c8162f97ae",
+        "sha256_in_prefix": "26551067c868ad948d04df14acce80715faf727f1000f62a920f78c8162f97ae",
+        "size_in_bytes": 2336
+      },
+      {
+        "_path": "lib/R/library/forcats/R/forcats",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/forcats/R/forcats.rdb",
+        "path_type": "hardlink",
+        "sha256": "f31a54590ff0c7155d5bb8b5815c82c8717b6c4e5475bdbdbc929ffeba815a6a",
+        "sha256_in_prefix": "f31a54590ff0c7155d5bb8b5815c82c8717b6c4e5475bdbdbc929ffeba815a6a",
+        "size_in_bytes": 26312
+      },
+      {
+        "_path": "lib/R/library/forcats/R/forcats.rdx",
+        "path_type": "hardlink",
+        "sha256": "b4bd1e389e435e5aca4bb173afe46537b1a1416ad6fd198f1a738af98540847e",
+        "sha256_in_prefix": "b4bd1e389e435e5aca4bb173afe46537b1a1416ad6fd198f1a738af98540847e",
+        "size_in_bytes": 759
+      },
+      {
+        "_path": "lib/R/library/forcats/data/Rdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "3229cdb28eacf49c5717cf0c704fb0b50ed273184803c14df8406649fe034d64",
+        "sha256_in_prefix": "3229cdb28eacf49c5717cf0c704fb0b50ed273184803c14df8406649fe034d64",
+        "size_in_bytes": 106127
+      },
+      {
+        "_path": "lib/R/library/forcats/data/Rdata.rds",
+        "path_type": "hardlink",
+        "sha256": "3eae2e8aa8d4a0b8d1750e8963e8530ab939a631c7cc558cb0fb5b4f8c56164b",
+        "sha256_in_prefix": "3eae2e8aa8d4a0b8d1750e8963e8530ab939a631c7cc558cb0fb5b4f8c56164b",
+        "size_in_bytes": 71
+      },
+      {
+        "_path": "lib/R/library/forcats/data/Rdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "b1dc810accc6191c8835c1ad1d4ca1e0b7b2e9cb8cdbabe05fb8d9c4e13376b4",
+        "sha256_in_prefix": "b1dc810accc6191c8835c1ad1d4ca1e0b7b2e9cb8cdbabe05fb8d9c4e13376b4",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "lib/R/library/forcats/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "042261149b27a89a49309dc7ca46a090edf720ca248fc428b4a79ba35f5e64d2",
+        "sha256_in_prefix": "042261149b27a89a49309dc7ca46a090edf720ca248fc428b4a79ba35f5e64d2",
+        "size_in_bytes": 749
+      },
+      {
+        "_path": "lib/R/library/forcats/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "90c3d8d71f5d5613cb99974969965a40ad1121432b74fc07fd16491963746b27",
+        "sha256_in_prefix": "90c3d8d71f5d5613cb99974969965a40ad1121432b74fc07fd16491963746b27",
+        "size_in_bytes": 325
+      },
+      {
+        "_path": "lib/R/library/forcats/help/figures/logo.png",
+        "path_type": "hardlink",
+        "sha256": "54fc766a541664e93100a7510697c7b4f10fc1949e8dc9b86dc7022a3c2f329e",
+        "sha256_in_prefix": "54fc766a541664e93100a7510697c7b4f10fc1949e8dc9b86dc7022a3c2f329e",
+        "size_in_bytes": 26169
+      },
+      {
+        "_path": "lib/R/library/forcats/help/forcats.rdb",
+        "path_type": "hardlink",
+        "sha256": "0414ab709f2d9bc7392e78e3a93fbc54011173b89247c3c7daa66566ae286828",
+        "sha256_in_prefix": "0414ab709f2d9bc7392e78e3a93fbc54011173b89247c3c7daa66566ae286828",
+        "size_in_bytes": 37488
+      },
+      {
+        "_path": "lib/R/library/forcats/help/forcats.rdx",
+        "path_type": "hardlink",
+        "sha256": "913fe19179c56560327283eb41e92bfb5dceb4623e406728d24cdc1b40a15286",
+        "sha256_in_prefix": "913fe19179c56560327283eb41e92bfb5dceb4623e406728d24cdc1b40a15286",
+        "size_in_bytes": 657
+      },
+      {
+        "_path": "lib/R/library/forcats/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "c1c7d3854f745e803e8e3d5d2ccd7e35f5c8a7a3d4c9e838a67dd6e4e327f0b7",
+        "sha256_in_prefix": "c1c7d3854f745e803e8e3d5d2ccd7e35f5c8a7a3d4c9e838a67dd6e4e327f0b7",
+        "size_in_bytes": 329
+      },
+      {
+        "_path": "lib/R/library/forcats/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "41a6c5cb02aa104e552cd85b8f1746cebc95c7ce26fd5f94df45fca60d9e3c9c",
+        "sha256_in_prefix": "41a6c5cb02aa104e552cd85b8f1746cebc95c7ce26fd5f94df45fca60d9e3c9c",
+        "size_in_bytes": 5018
+      },
+      {
+        "_path": "lib/R/library/forcats/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/forcats/html/as_factor.html",
+        "path_type": "hardlink",
+        "sha256": "5b9d51d443af56cb8182c1ae379e1e4467a590e1e40d7ab5a6b1105b43f87051",
+        "sha256_in_prefix": "5b9d51d443af56cb8182c1ae379e1e4467a590e1e40d7ab5a6b1105b43f87051",
+        "size_in_bytes": 1515
+      },
+      {
+        "_path": "lib/R/library/forcats/html/fct_anon.html",
+        "path_type": "hardlink",
+        "sha256": "e39d7fd3770c99dab45bae40a8a08b6f5623b427374c6a17193080138af12040",
+        "sha256_in_prefix": "e39d7fd3770c99dab45bae40a8a08b6f5623b427374c6a17193080138af12040",
+        "size_in_bytes": 1404
+      },
+      {
+        "_path": "lib/R/library/forcats/html/fct_c.html",
+        "path_type": "hardlink",
+        "sha256": "f41dc09cc682dc70d920736dbb909827c13de9e2a4bc2817e4fc89acf777729f",
+        "sha256_in_prefix": "f41dc09cc682dc70d920736dbb909827c13de9e2a4bc2817e4fc89acf777729f",
+        "size_in_bytes": 1385
+      },
+      {
+        "_path": "lib/R/library/forcats/html/fct_collapse.html",
+        "path_type": "hardlink",
+        "sha256": "52ec2f3088055d52a26f66ecf97e44942b49343f0be054e2dccdb916bf75ad58",
+        "sha256_in_prefix": "52ec2f3088055d52a26f66ecf97e44942b49343f0be054e2dccdb916bf75ad58",
+        "size_in_bytes": 1592
+      },
+      {
+        "_path": "lib/R/library/forcats/html/fct_count.html",
+        "path_type": "hardlink",
+        "sha256": "f10ba31a132fa53a9a5170b5114a6419698ca7fcb121ad8e93d81efa45d01bbc",
+        "sha256_in_prefix": "f10ba31a132fa53a9a5170b5114a6419698ca7fcb121ad8e93d81efa45d01bbc",
+        "size_in_bytes": 1362
+      },
+      {
+        "_path": "lib/R/library/forcats/html/fct_drop.html",
+        "path_type": "hardlink",
+        "sha256": "b06595313c6ab568473fa7ec4effe38f06b971b387d6a6dd730c08140322b0fd",
+        "sha256_in_prefix": "b06595313c6ab568473fa7ec4effe38f06b971b387d6a6dd730c08140322b0fd",
+        "size_in_bytes": 1457
+      },
+      {
+        "_path": "lib/R/library/forcats/html/fct_expand.html",
+        "path_type": "hardlink",
+        "sha256": "c6f71c7c357493b7ff75b33652413c03f5233d269061ff2ecd0f8d2f529195ef",
+        "sha256_in_prefix": "c6f71c7c357493b7ff75b33652413c03f5233d269061ff2ecd0f8d2f529195ef",
+        "size_in_bytes": 1315
+      },
+      {
+        "_path": "lib/R/library/forcats/html/fct_explicit_na.html",
+        "path_type": "hardlink",
+        "sha256": "5ef4d00e0847cf30499e4807be0f8fe882e381292898344dcbde3023e800bab7",
+        "sha256_in_prefix": "5ef4d00e0847cf30499e4807be0f8fe882e381292898344dcbde3023e800bab7",
+        "size_in_bytes": 1360
+      },
+      {
+        "_path": "lib/R/library/forcats/html/fct_inorder.html",
+        "path_type": "hardlink",
+        "sha256": "7139ea9064e432a3b770f7958445d987435662d88cd549f13cfcd467402e52f2",
+        "sha256_in_prefix": "7139ea9064e432a3b770f7958445d987435662d88cd549f13cfcd467402e52f2",
+        "size_in_bytes": 1450
+      },
+      {
+        "_path": "lib/R/library/forcats/html/fct_lump.html",
+        "path_type": "hardlink",
+        "sha256": "93425ba961f3780812470cb48da8ebebe711afbddaca22de2d542b341994cf9b",
+        "sha256_in_prefix": "93425ba961f3780812470cb48da8ebebe711afbddaca22de2d542b341994cf9b",
+        "size_in_bytes": 3391
+      },
+      {
+        "_path": "lib/R/library/forcats/html/fct_other.html",
+        "path_type": "hardlink",
+        "sha256": "960948c94aaae3c1f2c8d9583b20d05e226e91f3c4f5a5bbe2caac6a4b49b11b",
+        "sha256_in_prefix": "960948c94aaae3c1f2c8d9583b20d05e226e91f3c4f5a5bbe2caac6a4b49b11b",
+        "size_in_bytes": 1833
+      },
+      {
+        "_path": "lib/R/library/forcats/html/fct_recode.html",
+        "path_type": "hardlink",
+        "sha256": "d42e9d2b5418431d5b1ad0d0577e166720e524eaa830b0c85a8a046c6024b28c",
+        "sha256_in_prefix": "d42e9d2b5418431d5b1ad0d0577e166720e524eaa830b0c85a8a046c6024b28c",
+        "size_in_bytes": 1627
+      },
+      {
+        "_path": "lib/R/library/forcats/html/fct_relabel.html",
+        "path_type": "hardlink",
+        "sha256": "274e9ead7e4f7d577ccf2b94aa43e7f035f71453bb3341d1f1f07a3f7e2e91d6",
+        "sha256_in_prefix": "274e9ead7e4f7d577ccf2b94aa43e7f035f71453bb3341d1f1f07a3f7e2e91d6",
+        "size_in_bytes": 2144
+      },
+      {
+        "_path": "lib/R/library/forcats/html/fct_relevel.html",
+        "path_type": "hardlink",
+        "sha256": "759ec8f7439cc971e6256d76beff3e3deb7a663e1ff4a6d239f6f5b9fe85a355",
+        "sha256_in_prefix": "759ec8f7439cc971e6256d76beff3e3deb7a663e1ff4a6d239f6f5b9fe85a355",
+        "size_in_bytes": 2115
+      },
+      {
+        "_path": "lib/R/library/forcats/html/fct_reorder.html",
+        "path_type": "hardlink",
+        "sha256": "3e7a8709f2d4ad6df2f40f6ab62ccbbc880988baa7862a1bea0831e351a7ee04",
+        "sha256_in_prefix": "3e7a8709f2d4ad6df2f40f6ab62ccbbc880988baa7862a1bea0831e351a7ee04",
+        "size_in_bytes": 3014
+      },
+      {
+        "_path": "lib/R/library/forcats/html/fct_rev.html",
+        "path_type": "hardlink",
+        "sha256": "880ef82986be9660e010521c2f1cca972ad12e55d3e6a6d620cc4001a4492a35",
+        "sha256_in_prefix": "880ef82986be9660e010521c2f1cca972ad12e55d3e6a6d620cc4001a4492a35",
+        "size_in_bytes": 1072
+      },
+      {
+        "_path": "lib/R/library/forcats/html/fct_shift.html",
+        "path_type": "hardlink",
+        "sha256": "b7369b9e449af3bddf93b7428c2414aa61b31c6a9912bbeb7ca03e36b09bac37",
+        "sha256_in_prefix": "b7369b9e449af3bddf93b7428c2414aa61b31c6a9912bbeb7ca03e36b09bac37",
+        "size_in_bytes": 1476
+      },
+      {
+        "_path": "lib/R/library/forcats/html/fct_shuffle.html",
+        "path_type": "hardlink",
+        "sha256": "32d3ea09df0245b26c03fb2d7567db6ef34feaf908d580a419e591a2372bfe49",
+        "sha256_in_prefix": "32d3ea09df0245b26c03fb2d7567db6ef34feaf908d580a419e591a2372bfe49",
+        "size_in_bytes": 1086
+      },
+      {
+        "_path": "lib/R/library/forcats/html/fct_unify.html",
+        "path_type": "hardlink",
+        "sha256": "80dba4a308bd6a9d4a6c83f5e8385f81ed66e64af9e2f6948010611a35da5fd1",
+        "sha256_in_prefix": "80dba4a308bd6a9d4a6c83f5e8385f81ed66e64af9e2f6948010611a35da5fd1",
+        "size_in_bytes": 1277
+      },
+      {
+        "_path": "lib/R/library/forcats/html/fct_unique.html",
+        "path_type": "hardlink",
+        "sha256": "a11ab689777be505172cdbfaa9a983e31014d79566991a15c9b95331dbd93064",
+        "sha256_in_prefix": "a11ab689777be505172cdbfaa9a983e31014d79566991a15c9b95331dbd93064",
+        "size_in_bytes": 1099
+      },
+      {
+        "_path": "lib/R/library/forcats/html/forcats-package.html",
+        "path_type": "hardlink",
+        "sha256": "825073b900be7dd8fc98b7f8af70ffeab11ad880011bb28955135a3bf0a457d8",
+        "sha256_in_prefix": "825073b900be7dd8fc98b7f8af70ffeab11ad880011bb28955135a3bf0a457d8",
+        "size_in_bytes": 1721
+      },
+      {
+        "_path": "lib/R/library/forcats/html/gss_cat.html",
+        "path_type": "hardlink",
+        "sha256": "d97581ec09ddaa300cfd92a84444ed994a8c147fbb7b5fecd3ed494a8d9237b8",
+        "sha256_in_prefix": "d97581ec09ddaa300cfd92a84444ed994a8c147fbb7b5fecd3ed494a8d9237b8",
+        "size_in_bytes": 1649
+      },
+      {
+        "_path": "lib/R/library/forcats/html/lvls.html",
+        "path_type": "hardlink",
+        "sha256": "c9011f3baf08f20a8d7667ab616bfefa795b062fb3b59c0cdddd5ba7f4ba8e09",
+        "sha256_in_prefix": "c9011f3baf08f20a8d7667ab616bfefa795b062fb3b59c0cdddd5ba7f4ba8e09",
+        "size_in_bytes": 2247
+      },
+      {
+        "_path": "lib/R/library/forcats/html/lvls_union.html",
+        "path_type": "hardlink",
+        "sha256": "5bc343a9a76a812b8a545da4f431e58c150dc838974b025a4d0f3a4ecff47407",
+        "sha256_in_prefix": "5bc343a9a76a812b8a545da4f431e58c150dc838974b025a4d0f3a4ecff47407",
+        "size_in_bytes": 1102
+      },
+      {
+        "_path": "lib/R/library/forcats/html/pipe.html",
+        "path_type": "hardlink",
+        "sha256": "6d745b0827725bb7a001ea40b66be83bf48319ad58c143c5d667fd03ddd04f0b",
+        "sha256_in_prefix": "6d745b0827725bb7a001ea40b66be83bf48319ad58c143c5d667fd03ddd04f0b",
+        "size_in_bytes": 834
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 226231,
+  "subdir": "win-64",
+  "timestamp": 1538162275088,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-forcats-0.3.0-r351h6f4ce42_0.tar.bz2",
+  "version": "0.3.0"
+}

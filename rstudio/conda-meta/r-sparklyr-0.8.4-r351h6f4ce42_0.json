@@ -1,0 +1,2073 @@
+{
+  "build": "r351h6f4ce42_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "r-assertthat",
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "r-base64enc",
+    "r-broom",
+    "r-config >=0.2",
+    "r-dbi >=0.6_1",
+    "r-dbplyr >=1.1.0",
+    "r-digest",
+    "r-dplyr >=0.7.2",
+    "r-httr >=1.2.1",
+    "r-jsonlite >=1.4",
+    "r-lazyeval >=0.2.0",
+    "r-openssl >=0.8",
+    "r-rappdirs",
+    "r-readr >=1.1.0",
+    "r-rlang >=0.1.4",
+    "r-rprojroot",
+    "r-rstudioapi",
+    "r-shiny >=1.0.1",
+    "r-tidyr",
+    "r-withr",
+    "r-xml2",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-sparklyr-0.8.4-r351h6f4ce42_0",
+  "features": "",
+  "files": [
+    "lib/R/library/sparklyr/DESCRIPTION",
+    "lib/R/library/sparklyr/INDEX",
+    "lib/R/library/sparklyr/LICENSE",
+    "lib/R/library/sparklyr/MD5",
+    "lib/R/library/sparklyr/Meta/Rd.rds",
+    "lib/R/library/sparklyr/Meta/features.rds",
+    "lib/R/library/sparklyr/Meta/hsearch.rds",
+    "lib/R/library/sparklyr/Meta/links.rds",
+    "lib/R/library/sparklyr/Meta/nsInfo.rds",
+    "lib/R/library/sparklyr/Meta/package.rds",
+    "lib/R/library/sparklyr/NAMESPACE",
+    "lib/R/library/sparklyr/NEWS.md",
+    "lib/R/library/sparklyr/R/sparklyr",
+    "lib/R/library/sparklyr/R/sparklyr.rdb",
+    "lib/R/library/sparklyr/R/sparklyr.rdx",
+    "lib/R/library/sparklyr/R/sysdata.rdb",
+    "lib/R/library/sparklyr/R/sysdata.rdx",
+    "lib/R/library/sparklyr/conf/config-template.yml",
+    "lib/R/library/sparklyr/extdata/config.json",
+    "lib/R/library/sparklyr/extdata/versions.json",
+    "lib/R/library/sparklyr/help/AnIndex",
+    "lib/R/library/sparklyr/help/aliases.rds",
+    "lib/R/library/sparklyr/help/paths.rds",
+    "lib/R/library/sparklyr/help/sparklyr.rdb",
+    "lib/R/library/sparklyr/help/sparklyr.rdx",
+    "lib/R/library/sparklyr/html/00Index.html",
+    "lib/R/library/sparklyr/html/DBISparkResult-class.html",
+    "lib/R/library/sparklyr/html/R.css",
+    "lib/R/library/sparklyr/html/checkpoint_directory.html",
+    "lib/R/library/sparklyr/html/compile_package_jars.html",
+    "lib/R/library/sparklyr/html/connection_config.html",
+    "lib/R/library/sparklyr/html/connection_is_open.html",
+    "lib/R/library/sparklyr/html/connection_spark_shinyapp.html",
+    "lib/R/library/sparklyr/html/copy_to.spark_connection.html",
+    "lib/R/library/sparklyr/html/download_scalac.html",
+    "lib/R/library/sparklyr/html/ensure.html",
+    "lib/R/library/sparklyr/html/find_scalac.html",
+    "lib/R/library/sparklyr/html/ft_binarizer.html",
+    "lib/R/library/sparklyr/html/ft_bucketizer.html",
+    "lib/R/library/sparklyr/html/ft_chisq_selector.html",
+    "lib/R/library/sparklyr/html/ft_count_vectorizer.html",
+    "lib/R/library/sparklyr/html/ft_dct.html",
+    "lib/R/library/sparklyr/html/ft_elementwise_product.html",
+    "lib/R/library/sparklyr/html/ft_feature_hasher.html",
+    "lib/R/library/sparklyr/html/ft_hashing_tf.html",
+    "lib/R/library/sparklyr/html/ft_idf.html",
+    "lib/R/library/sparklyr/html/ft_imputer.html",
+    "lib/R/library/sparklyr/html/ft_index_to_string.html",
+    "lib/R/library/sparklyr/html/ft_interaction.html",
+    "lib/R/library/sparklyr/html/ft_lsh.html",
+    "lib/R/library/sparklyr/html/ft_lsh_utils.html",
+    "lib/R/library/sparklyr/html/ft_max_abs_scaler.html",
+    "lib/R/library/sparklyr/html/ft_min_max_scaler.html",
+    "lib/R/library/sparklyr/html/ft_ngram.html",
+    "lib/R/library/sparklyr/html/ft_normalizer.html",
+    "lib/R/library/sparklyr/html/ft_one_hot_encoder.html",
+    "lib/R/library/sparklyr/html/ft_pca.html",
+    "lib/R/library/sparklyr/html/ft_polynomial_expansion.html",
+    "lib/R/library/sparklyr/html/ft_quantile_discretizer.html",
+    "lib/R/library/sparklyr/html/ft_r_formula.html",
+    "lib/R/library/sparklyr/html/ft_regex_tokenizer.html",
+    "lib/R/library/sparklyr/html/ft_standard_scaler.html",
+    "lib/R/library/sparklyr/html/ft_stop_words_remover.html",
+    "lib/R/library/sparklyr/html/ft_string_indexer.html",
+    "lib/R/library/sparklyr/html/ft_tokenizer.html",
+    "lib/R/library/sparklyr/html/ft_vector_assembler.html",
+    "lib/R/library/sparklyr/html/ft_vector_indexer.html",
+    "lib/R/library/sparklyr/html/ft_vector_slicer.html",
+    "lib/R/library/sparklyr/html/ft_word2vec.html",
+    "lib/R/library/sparklyr/html/hive_context_config.html",
+    "lib/R/library/sparklyr/html/invoke.html",
+    "lib/R/library/sparklyr/html/invoke_method.html",
+    "lib/R/library/sparklyr/html/jobj_class.html",
+    "lib/R/library/sparklyr/html/livy_config.html",
+    "lib/R/library/sparklyr/html/livy_install.html",
+    "lib/R/library/sparklyr/html/livy_service.html",
+    "lib/R/library/sparklyr/html/ml-params.html",
+    "lib/R/library/sparklyr/html/ml-persistence.html",
+    "lib/R/library/sparklyr/html/ml-transform-methods.html",
+    "lib/R/library/sparklyr/html/ml-tuning.html",
+    "lib/R/library/sparklyr/html/ml_aft_survival_regression.html",
+    "lib/R/library/sparklyr/html/ml_als.html",
+    "lib/R/library/sparklyr/html/ml_bisecting_kmeans.html",
+    "lib/R/library/sparklyr/html/ml_chisquare_test.html",
+    "lib/R/library/sparklyr/html/ml_clustering_evaluator.html",
+    "lib/R/library/sparklyr/html/ml_corr.html",
+    "lib/R/library/sparklyr/html/ml_decision_tree.html",
+    "lib/R/library/sparklyr/html/ml_default_stop_words.html",
+    "lib/R/library/sparklyr/html/ml_evaluate.html",
+    "lib/R/library/sparklyr/html/ml_evaluator.html",
+    "lib/R/library/sparklyr/html/ml_feature_importances.html",
+    "lib/R/library/sparklyr/html/ml_fpgrowth.html",
+    "lib/R/library/sparklyr/html/ml_gaussian_mixture.html",
+    "lib/R/library/sparklyr/html/ml_generalized_linear_regression.html",
+    "lib/R/library/sparklyr/html/ml_glm_tidiers.html",
+    "lib/R/library/sparklyr/html/ml_gradient_boosted_trees.html",
+    "lib/R/library/sparklyr/html/ml_isotonic_regression.html",
+    "lib/R/library/sparklyr/html/ml_kmeans.html",
+    "lib/R/library/sparklyr/html/ml_lda.html",
+    "lib/R/library/sparklyr/html/ml_linear_regression.html",
+    "lib/R/library/sparklyr/html/ml_linear_svc.html",
+    "lib/R/library/sparklyr/html/ml_logistic_regression.html",
+    "lib/R/library/sparklyr/html/ml_model_data.html",
+    "lib/R/library/sparklyr/html/ml_multilayer_perceptron_classifier.html",
+    "lib/R/library/sparklyr/html/ml_naive_bayes.html",
+    "lib/R/library/sparklyr/html/ml_one_vs_rest.html",
+    "lib/R/library/sparklyr/html/ml_pipeline.html",
+    "lib/R/library/sparklyr/html/ml_random_forest.html",
+    "lib/R/library/sparklyr/html/ml_stage.html",
+    "lib/R/library/sparklyr/html/ml_summary.html",
+    "lib/R/library/sparklyr/html/ml_uid.html",
+    "lib/R/library/sparklyr/html/na.replace.html",
+    "lib/R/library/sparklyr/html/pipe.html",
+    "lib/R/library/sparklyr/html/print_jobj.html",
+    "lib/R/library/sparklyr/html/random_string.html",
+    "lib/R/library/sparklyr/html/reexports.html",
+    "lib/R/library/sparklyr/html/register_extension.html",
+    "lib/R/library/sparklyr/html/sdf-saveload.html",
+    "lib/R/library/sparklyr/html/sdf-transform-methods.html",
+    "lib/R/library/sparklyr/html/sdf_along.html",
+    "lib/R/library/sparklyr/html/sdf_bind.html",
+    "lib/R/library/sparklyr/html/sdf_broadcast.html",
+    "lib/R/library/sparklyr/html/sdf_checkpoint.html",
+    "lib/R/library/sparklyr/html/sdf_coalesce.html",
+    "lib/R/library/sparklyr/html/sdf_copy_to.html",
+    "lib/R/library/sparklyr/html/sdf_debug_string.html",
+    "lib/R/library/sparklyr/html/sdf_describe.html",
+    "lib/R/library/sparklyr/html/sdf_dim.html",
+    "lib/R/library/sparklyr/html/sdf_fast_bind_cols.html",
+    "lib/R/library/sparklyr/html/sdf_last_index.html",
+    "lib/R/library/sparklyr/html/sdf_len.html",
+    "lib/R/library/sparklyr/html/sdf_mutate.html",
+    "lib/R/library/sparklyr/html/sdf_num_partitions.html",
+    "lib/R/library/sparklyr/html/sdf_partition.html",
+    "lib/R/library/sparklyr/html/sdf_persist.html",
+    "lib/R/library/sparklyr/html/sdf_pivot.html",
+    "lib/R/library/sparklyr/html/sdf_project.html",
+    "lib/R/library/sparklyr/html/sdf_quantile.html",
+    "lib/R/library/sparklyr/html/sdf_read_column.html",
+    "lib/R/library/sparklyr/html/sdf_register.html",
+    "lib/R/library/sparklyr/html/sdf_repartition.html",
+    "lib/R/library/sparklyr/html/sdf_residuals.html",
+    "lib/R/library/sparklyr/html/sdf_sample.html",
+    "lib/R/library/sparklyr/html/sdf_schema.html",
+    "lib/R/library/sparklyr/html/sdf_separate_column.html",
+    "lib/R/library/sparklyr/html/sdf_seq.html",
+    "lib/R/library/sparklyr/html/sdf_sort.html",
+    "lib/R/library/sparklyr/html/sdf_with_sequential_id.html",
+    "lib/R/library/sparklyr/html/sdf_with_unique_id.html",
+    "lib/R/library/sparklyr/html/spark-api.html",
+    "lib/R/library/sparklyr/html/spark-connections.html",
+    "lib/R/library/sparklyr/html/spark_apply.html",
+    "lib/R/library/sparklyr/html/spark_apply_bundle.html",
+    "lib/R/library/sparklyr/html/spark_apply_log.html",
+    "lib/R/library/sparklyr/html/spark_compilation_spec.html",
+    "lib/R/library/sparklyr/html/spark_compile.html",
+    "lib/R/library/sparklyr/html/spark_config.html",
+    "lib/R/library/sparklyr/html/spark_config_exists.html",
+    "lib/R/library/sparklyr/html/spark_config_value.html",
+    "lib/R/library/sparklyr/html/spark_configuration.html",
+    "lib/R/library/sparklyr/html/spark_connection-class.html",
+    "lib/R/library/sparklyr/html/spark_connection.html",
+    "lib/R/library/sparklyr/html/spark_context_config.html",
+    "lib/R/library/sparklyr/html/spark_dataframe.html",
+    "lib/R/library/sparklyr/html/spark_default_compilation_spec.html",
+    "lib/R/library/sparklyr/html/spark_default_version.html",
+    "lib/R/library/sparklyr/html/spark_dependency.html",
+    "lib/R/library/sparklyr/html/spark_home_dir.html",
+    "lib/R/library/sparklyr/html/spark_home_set.html",
+    "lib/R/library/sparklyr/html/spark_install.html",
+    "lib/R/library/sparklyr/html/spark_install_sync.html",
+    "lib/R/library/sparklyr/html/spark_jobj-class.html",
+    "lib/R/library/sparklyr/html/spark_jobj.html",
+    "lib/R/library/sparklyr/html/spark_load_table.html",
+    "lib/R/library/sparklyr/html/spark_log.html",
+    "lib/R/library/sparklyr/html/spark_read_csv.html",
+    "lib/R/library/sparklyr/html/spark_read_jdbc.html",
+    "lib/R/library/sparklyr/html/spark_read_json.html",
+    "lib/R/library/sparklyr/html/spark_read_libsvm.html",
+    "lib/R/library/sparklyr/html/spark_read_parquet.html",
+    "lib/R/library/sparklyr/html/spark_read_source.html",
+    "lib/R/library/sparklyr/html/spark_read_table.html",
+    "lib/R/library/sparklyr/html/spark_read_text.html",
+    "lib/R/library/sparklyr/html/spark_save_table.html",
+    "lib/R/library/sparklyr/html/spark_table_name.html",
+    "lib/R/library/sparklyr/html/spark_version.html",
+    "lib/R/library/sparklyr/html/spark_version_from_home.html",
+    "lib/R/library/sparklyr/html/spark_versions.html",
+    "lib/R/library/sparklyr/html/spark_web.html",
+    "lib/R/library/sparklyr/html/spark_write_csv.html",
+    "lib/R/library/sparklyr/html/spark_write_jdbc.html",
+    "lib/R/library/sparklyr/html/spark_write_json.html",
+    "lib/R/library/sparklyr/html/spark_write_parquet.html",
+    "lib/R/library/sparklyr/html/spark_write_source.html",
+    "lib/R/library/sparklyr/html/spark_write_table.html",
+    "lib/R/library/sparklyr/html/spark_write_text.html",
+    "lib/R/library/sparklyr/html/sql-transformer.html",
+    "lib/R/library/sparklyr/html/src_databases.html",
+    "lib/R/library/sparklyr/html/tbl_cache.html",
+    "lib/R/library/sparklyr/html/tbl_change_db.html",
+    "lib/R/library/sparklyr/html/tbl_uncache.html",
+    "lib/R/library/sparklyr/html/worker_spark_apply_unbundle.html",
+    "lib/R/library/sparklyr/icons/edit-sql.png",
+    "lib/R/library/sparklyr/icons/help.png",
+    "lib/R/library/sparklyr/icons/livy.png",
+    "lib/R/library/sparklyr/icons/spark-log.png",
+    "lib/R/library/sparklyr/icons/spark-ui.png",
+    "lib/R/library/sparklyr/icons/spark.png",
+    "lib/R/library/sparklyr/java/commons-csv-1.5.jar",
+    "lib/R/library/sparklyr/java/spark-csv_2.11-1.5.0.jar",
+    "lib/R/library/sparklyr/java/sparklyr-1.5-2.10.jar",
+    "lib/R/library/sparklyr/java/sparklyr-1.6-2.10.jar",
+    "lib/R/library/sparklyr/java/sparklyr-2.0-2.11.jar",
+    "lib/R/library/sparklyr/java/sparklyr-2.1-2.11.jar",
+    "lib/R/library/sparklyr/java/sparklyr-2.2-2.11.jar",
+    "lib/R/library/sparklyr/java/sparklyr-2.3-2.11.jar",
+    "lib/R/library/sparklyr/java/sparkworker-1.5-2.10.jar",
+    "lib/R/library/sparklyr/java/sparkworker-1.6-2.10.jar",
+    "lib/R/library/sparklyr/java/sparkworker-2.0-2.11.jar",
+    "lib/R/library/sparklyr/java/sparkworker-2.1-2.11.jar",
+    "lib/R/library/sparklyr/java/univocity-parsers-1.5.1.jar",
+    "lib/R/library/sparklyr/livy/spark-1.5.2/backend.scala",
+    "lib/R/library/sparklyr/livy/spark-1.5.2/channel.scala",
+    "lib/R/library/sparklyr/livy/spark-1.5.2/handler.scala",
+    "lib/R/library/sparklyr/livy/spark-1.5.2/invoke.scala",
+    "lib/R/library/sparklyr/livy/spark-1.5.2/logger.scala",
+    "lib/R/library/sparklyr/livy/spark-1.5.2/mlutils.scala",
+    "lib/R/library/sparklyr/livy/spark-1.5.2/serializer.scala",
+    "lib/R/library/sparklyr/livy/spark-1.5.2/shell.scala",
+    "lib/R/library/sparklyr/livy/spark-1.5.2/sqlutils.scala",
+    "lib/R/library/sparklyr/livy/spark-1.5.2/stream.scala",
+    "lib/R/library/sparklyr/livy/spark-1.5.2/tracker.scala",
+    "lib/R/library/sparklyr/livy/spark-1.5.2/utils.scala",
+    "lib/R/library/sparklyr/livy/spark-1.6.0/applyutils.scala",
+    "lib/R/library/sparklyr/livy/spark-1.6.0/classutils.scala",
+    "lib/R/library/sparklyr/livy/spark-1.6.0/fileutils.scala",
+    "lib/R/library/sparklyr/livy/spark-1.6.0/livyutils.scala",
+    "lib/R/library/sparklyr/livy/spark-1.6.0/rscript.scala",
+    "lib/R/library/sparklyr/livy/spark-1.6.0/sources.scala",
+    "lib/R/library/sparklyr/livy/spark-1.6.0/workercontext.scala",
+    "lib/R/library/sparklyr/livy/spark-1.6.0/workerhelper.scala",
+    "lib/R/library/sparklyr/livy/spark-1.6.0/workerrdd.scala",
+    "lib/R/library/sparklyr/livy/spark-1.6.0/workerutils.scala",
+    "lib/R/library/sparklyr/livy/spark-2.0.0/livyutils.scala",
+    "lib/R/library/sparklyr/livy/spark-2.0.0/mlutils2.scala",
+    "lib/R/library/sparklyr/livy/spark-2.0.0/repartition.scala",
+    "lib/R/library/sparklyr/livy/spark-2.3.0/bucketizerutils.scala",
+    "lib/R/library/sparklyr/livy/spark-2.3.0/livyutils.scala",
+    "lib/R/library/sparklyr/rstudio/connections.dcf",
+    "lib/R/library/sparklyr/rstudio/connections/Livy.R",
+    "lib/R/library/sparklyr/rstudio/templates/project/skeleton.dcf",
+    "lib/R/library/sparklyr/rstudio/templates/project/spark.png"
+  ],
+  "fn": "r-sparklyr-0.8.4-r351h6f4ce42_0.tar.bz2",
+  "license": "Apache License 2.0 | file LICENSE",
+  "license_family": "APACHE",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-sparklyr-0.8.4-r351h6f4ce42_0",
+    "type": 1
+  },
+  "md5": "dc476c18462df796d9d7cca6d465d5d5",
+  "name": "r-sparklyr",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-sparklyr-0.8.4-r351h6f4ce42_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/sparklyr/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "d8903c273956a82b1fe52dd8340f593f0837a3aa0f41a0bfcfeca776a7a01d81",
+        "sha256_in_prefix": "d8903c273956a82b1fe52dd8340f593f0837a3aa0f41a0bfcfeca776a7a01d81",
+        "size_in_bytes": 2075
+      },
+      {
+        "_path": "lib/R/library/sparklyr/INDEX",
+        "path_type": "hardlink",
+        "sha256": "e5953858234cf9c0e84dc84ece91d171055329ab8cf3ba877d0cb0ad0edee52e",
+        "sha256_in_prefix": "e5953858234cf9c0e84dc84ece91d171055329ab8cf3ba877d0cb0ad0edee52e",
+        "size_in_bytes": 11435
+      },
+      {
+        "_path": "lib/R/library/sparklyr/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "75a66a85cf34322156cd30886905346e05331de1730a5e0c31ddd75459fa7786",
+        "sha256_in_prefix": "75a66a85cf34322156cd30886905346e05331de1730a5e0c31ddd75459fa7786",
+        "size_in_bytes": 11353
+      },
+      {
+        "_path": "lib/R/library/sparklyr/MD5",
+        "path_type": "hardlink",
+        "sha256": "cadd65e2ea8f47d409d11f57d148c5fb73ba6694ffcaa03b8ae84e088c962f08",
+        "sha256_in_prefix": "cadd65e2ea8f47d409d11f57d148c5fb73ba6694ffcaa03b8ae84e088c962f08",
+        "size_in_bytes": 15172
+      },
+      {
+        "_path": "lib/R/library/sparklyr/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "073738c17c6ad358923faf6b19c712936a13a131ac46e5078cde715c4408ba07",
+        "sha256_in_prefix": "073738c17c6ad358923faf6b19c712936a13a131ac46e5078cde715c4408ba07",
+        "size_in_bytes": 6553
+      },
+      {
+        "_path": "lib/R/library/sparklyr/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/sparklyr/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "de74c92d74643a6dc24fc65a3bd63acc64dbda10595e10c70f01557bf6246911",
+        "sha256_in_prefix": "de74c92d74643a6dc24fc65a3bd63acc64dbda10595e10c70f01557bf6246911",
+        "size_in_bytes": 5823
+      },
+      {
+        "_path": "lib/R/library/sparklyr/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "66c61b43a30beb39dedecb725eb52213b33bb24b9e282c322c2ef6ece2c80d32",
+        "sha256_in_prefix": "66c61b43a30beb39dedecb725eb52213b33bb24b9e282c322c2ef6ece2c80d32",
+        "size_in_bytes": 3449
+      },
+      {
+        "_path": "lib/R/library/sparklyr/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "1d73a70f006a40375c897468874a584cc33e7541c1af9892b12fcad0df90d062",
+        "sha256_in_prefix": "1d73a70f006a40375c897468874a584cc33e7541c1af9892b12fcad0df90d062",
+        "size_in_bytes": 4028
+      },
+      {
+        "_path": "lib/R/library/sparklyr/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "33dec2cc9c521868139f41f44ec87236188058275b6d12287adc7e9a546456df",
+        "sha256_in_prefix": "33dec2cc9c521868139f41f44ec87236188058275b6d12287adc7e9a546456df",
+        "size_in_bytes": 1776
+      },
+      {
+        "_path": "lib/R/library/sparklyr/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "c819f9a9672e78bb2dbb31bce527bf23a4672e06e81d6f64b6dc3ffa43bdef94",
+        "sha256_in_prefix": "c819f9a9672e78bb2dbb31bce527bf23a4672e06e81d6f64b6dc3ffa43bdef94",
+        "size_in_bytes": 22772
+      },
+      {
+        "_path": "lib/R/library/sparklyr/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "20f354ffecf6a9cea406ac88331366e51091a8c835075e2b38a9b81af8ebc1a6",
+        "sha256_in_prefix": "20f354ffecf6a9cea406ac88331366e51091a8c835075e2b38a9b81af8ebc1a6",
+        "size_in_bytes": 30883
+      },
+      {
+        "_path": "lib/R/library/sparklyr/R/sparklyr",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/sparklyr/R/sparklyr.rdb",
+        "path_type": "hardlink",
+        "sha256": "f0a299e13d882f41b146fb2e704e88ff07861ec92079b7d8834bcd0d9b9e075c",
+        "sha256_in_prefix": "f0a299e13d882f41b146fb2e704e88ff07861ec92079b7d8834bcd0d9b9e075c",
+        "size_in_bytes": 978849
+      },
+      {
+        "_path": "lib/R/library/sparklyr/R/sparklyr.rdx",
+        "path_type": "hardlink",
+        "sha256": "5f8ad5c0c7694154d02bfd4f3637a357e4a48113ea2f6598c2eed00df5de8fb5",
+        "sha256_in_prefix": "5f8ad5c0c7694154d02bfd4f3637a357e4a48113ea2f6598c2eed00df5de8fb5",
+        "size_in_bytes": 16933
+      },
+      {
+        "_path": "lib/R/library/sparklyr/R/sysdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "b8c5292093f581f64b61bc0aa5c85eaf2a748be9b965fd0f56b144245d2bf1b7",
+        "sha256_in_prefix": "b8c5292093f581f64b61bc0aa5c85eaf2a748be9b965fd0f56b144245d2bf1b7",
+        "size_in_bytes": 4933
+      },
+      {
+        "_path": "lib/R/library/sparklyr/R/sysdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "b982b060e6c6e5a06aa874fb7a9ee54621fb27ef22627a7e20a62a5132fb7494",
+        "sha256_in_prefix": "b982b060e6c6e5a06aa874fb7a9ee54621fb27ef22627a7e20a62a5132fb7494",
+        "size_in_bytes": 205
+      },
+      {
+        "_path": "lib/R/library/sparklyr/conf/config-template.yml",
+        "path_type": "hardlink",
+        "sha256": "1c5ae582bec3d73251d5139a4e8d10affd7b25bcef02884b7d98878b6955360d",
+        "sha256_in_prefix": "1c5ae582bec3d73251d5139a4e8d10affd7b25bcef02884b7d98878b6955360d",
+        "size_in_bytes": 296
+      },
+      {
+        "_path": "lib/R/library/sparklyr/extdata/config.json",
+        "path_type": "hardlink",
+        "sha256": "ebb69f3a35c889f27cc56e091a47169febe550fc5011298759e17afedc909917",
+        "sha256_in_prefix": "ebb69f3a35c889f27cc56e091a47169febe550fc5011298759e17afedc909917",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "lib/R/library/sparklyr/extdata/versions.json",
+        "path_type": "hardlink",
+        "sha256": "9e19857fbe1696be8bd8845516a4a7f421db70a602f83f911b31fe027fb8f9e4",
+        "sha256_in_prefix": "9e19857fbe1696be8bd8845516a4a7f421db70a602f83f911b31fe027fb8f9e4",
+        "size_in_bytes": 6878
+      },
+      {
+        "_path": "lib/R/library/sparklyr/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "413184c562feda84181e521574ac14dd464d3ecada795c594b6e8fcb17c0de47",
+        "sha256_in_prefix": "413184c562feda84181e521574ac14dd464d3ecada795c594b6e8fcb17c0de47",
+        "size_in_bytes": 9432
+      },
+      {
+        "_path": "lib/R/library/sparklyr/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "2c989ed3d974ce5561179c8849265f912f14c46b3f6c32e1c6a2f8e154b1c4df",
+        "sha256_in_prefix": "2c989ed3d974ce5561179c8849265f912f14c46b3f6c32e1c6a2f8e154b1c4df",
+        "size_in_bytes": 2649
+      },
+      {
+        "_path": "lib/R/library/sparklyr/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "2b60df42e896c3db6d83a39925d9215ce25658821292c9a312333fb068909138",
+        "sha256_in_prefix": "2b60df42e896c3db6d83a39925d9215ce25658821292c9a312333fb068909138",
+        "size_in_bytes": 1758
+      },
+      {
+        "_path": "lib/R/library/sparklyr/help/sparklyr.rdb",
+        "path_type": "hardlink",
+        "sha256": "0138dbc7231a66230c038932ba1df7aa0faf9d9688a403d581259f40f5cb174a",
+        "sha256_in_prefix": "0138dbc7231a66230c038932ba1df7aa0faf9d9688a403d581259f40f5cb174a",
+        "size_in_bytes": 522629
+      },
+      {
+        "_path": "lib/R/library/sparklyr/help/sparklyr.rdx",
+        "path_type": "hardlink",
+        "sha256": "0b7c144b10c5a7032734be309e3ad2739c43911359fce1c5ad1b3200e744dfd8",
+        "sha256_in_prefix": "0b7c144b10c5a7032734be309e3ad2739c43911359fce1c5ad1b3200e744dfd8",
+        "size_in_bytes": 4088
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "db7031517b89784d82e556ccfa2cd6b6aeaca0555870c6f7fe5731bbb8cf4656",
+        "sha256_in_prefix": "db7031517b89784d82e556ccfa2cd6b6aeaca0555870c6f7fe5731bbb8cf4656",
+        "size_in_bytes": 36672
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/DBISparkResult-class.html",
+        "path_type": "hardlink",
+        "sha256": "9cb03e50ce0601c73f395599dabc1e1b73e809f098e783f4bbca473b412f5d88",
+        "sha256_in_prefix": "9cb03e50ce0601c73f395599dabc1e1b73e809f098e783f4bbca473b412f5d88",
+        "size_in_bytes": 1013
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/checkpoint_directory.html",
+        "path_type": "hardlink",
+        "sha256": "d28269be9bc4d3393f3da580464c6d0e2ba2aac226286153474f30666c6a29ed",
+        "sha256_in_prefix": "d28269be9bc4d3393f3da580464c6d0e2ba2aac226286153474f30666c6a29ed",
+        "size_in_bytes": 1198
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/compile_package_jars.html",
+        "path_type": "hardlink",
+        "sha256": "10520c4cc4019e671f429f9a7b61bae4dec0cf2e875db417a03788389bd4089c",
+        "sha256_in_prefix": "10520c4cc4019e671f429f9a7b61bae4dec0cf2e875db417a03788389bd4089c",
+        "size_in_bytes": 1639
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/connection_config.html",
+        "path_type": "hardlink",
+        "sha256": "c4022893dfc969bec0e321b1998e8dbf3adfea251048ed3ed44b241a95b74e7e",
+        "sha256_in_prefix": "c4022893dfc969bec0e321b1998e8dbf3adfea251048ed3ed44b241a95b74e7e",
+        "size_in_bytes": 1482
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/connection_is_open.html",
+        "path_type": "hardlink",
+        "sha256": "8ba42c11e0cd3e4412182d62440955c89d8fc13ee92458b624272b5948d06b55",
+        "sha256_in_prefix": "8ba42c11e0cd3e4412182d62440955c89d8fc13ee92458b624272b5948d06b55",
+        "size_in_bytes": 1022
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/connection_spark_shinyapp.html",
+        "path_type": "hardlink",
+        "sha256": "abf4bee9b194d4dfc9a582e96dacef9bae6b78d84187bb58a3f8298077af74ae",
+        "sha256_in_prefix": "abf4bee9b194d4dfc9a582e96dacef9bae6b78d84187bb58a3f8298077af74ae",
+        "size_in_bytes": 990
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/copy_to.spark_connection.html",
+        "path_type": "hardlink",
+        "sha256": "f1daa061b539177b35044662e5cb5321d4ac69390b052ae2335f2c54082e9e03",
+        "sha256_in_prefix": "f1daa061b539177b35044662e5cb5321d4ac69390b052ae2335f2c54082e9e03",
+        "size_in_bytes": 2419
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/download_scalac.html",
+        "path_type": "hardlink",
+        "sha256": "187f07241e61450e77f7dc0361e80135811a3844bb33192ceb01789a58941dc4",
+        "sha256_in_prefix": "187f07241e61450e77f7dc0361e80135811a3844bb33192ceb01789a58941dc4",
+        "size_in_bytes": 1420
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ensure.html",
+        "path_type": "hardlink",
+        "sha256": "1445d916b4e486a01b43b23ca4c0d055f27ba772d263776b539510d8fc8c7cc8",
+        "sha256_in_prefix": "1445d916b4e486a01b43b23ca4c0d055f27ba772d263776b539510d8fc8c7cc8",
+        "size_in_bytes": 2089
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/find_scalac.html",
+        "path_type": "hardlink",
+        "sha256": "60cfa0f85bcae6902df7fe7be175401cf0a4423562891e832ee22a6e8f93a556",
+        "sha256_in_prefix": "60cfa0f85bcae6902df7fe7be175401cf0a4423562891e832ee22a6e8f93a556",
+        "size_in_bytes": 1597
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_binarizer.html",
+        "path_type": "hardlink",
+        "sha256": "191b92b203f8ebe5bee910ab373ce2047aa25226ba23c1a238c36f62d3066eab",
+        "sha256_in_prefix": "191b92b203f8ebe5bee910ab373ce2047aa25226ba23c1a238c36f62d3066eab",
+        "size_in_bytes": 5231
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_bucketizer.html",
+        "path_type": "hardlink",
+        "sha256": "850e9f5816c43935bdc3ae4071eb653d14bd98caffd3d3d3cb267364034319a8",
+        "sha256_in_prefix": "850e9f5816c43935bdc3ae4071eb653d14bd98caffd3d3d3cb267364034319a8",
+        "size_in_bytes": 6101
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_chisq_selector.html",
+        "path_type": "hardlink",
+        "sha256": "184b3a6204d0ccf1dc25d57c3963322d3310fa0b8ade0e3d9b6d54885fb58f35",
+        "sha256_in_prefix": "184b3a6204d0ccf1dc25d57c3963322d3310fa0b8ade0e3d9b6d54885fb58f35",
+        "size_in_bytes": 8143
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_count_vectorizer.html",
+        "path_type": "hardlink",
+        "sha256": "6fb36f405f3caa4376cd341ed3be2a0d2fed54e795fd0a1e4f96f6f5da28d6d9",
+        "sha256_in_prefix": "6fb36f405f3caa4376cd341ed3be2a0d2fed54e795fd0a1e4f96f6f5da28d6d9",
+        "size_in_bytes": 7700
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_dct.html",
+        "path_type": "hardlink",
+        "sha256": "0ec2273b229330c847af9086d220bb5c4fb5a0c3168139c213c1e2dc8fa955bb",
+        "sha256_in_prefix": "0ec2273b229330c847af9086d220bb5c4fb5a0c3168139c213c1e2dc8fa955bb",
+        "size_in_bytes": 5561
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_elementwise_product.html",
+        "path_type": "hardlink",
+        "sha256": "610899854d15ec39df383cd23af4ad9d58a14141a0b89da12a25f718c07b6a1e",
+        "sha256_in_prefix": "610899854d15ec39df383cd23af4ad9d58a14141a0b89da12a25f718c07b6a1e",
+        "size_in_bytes": 5199
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_feature_hasher.html",
+        "path_type": "hardlink",
+        "sha256": "e916f5ee1a03e3589c41810c6e536bfeb2d6ef89dc2b83d22642031c8f6da455",
+        "sha256_in_prefix": "e916f5ee1a03e3589c41810c6e536bfeb2d6ef89dc2b83d22642031c8f6da455",
+        "size_in_bytes": 7217
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_hashing_tf.html",
+        "path_type": "hardlink",
+        "sha256": "93b5025970a49129127b830b8fdcbc26000f4e22a9e3431493dd7dee30481d6e",
+        "sha256_in_prefix": "93b5025970a49129127b830b8fdcbc26000f4e22a9e3431493dd7dee30481d6e",
+        "size_in_bytes": 5405
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_idf.html",
+        "path_type": "hardlink",
+        "sha256": "b8a93fd25610bf0859c33a717d5e2660e3fa81626f1a83d28e846d931bd5c9da",
+        "sha256_in_prefix": "b8a93fd25610bf0859c33a717d5e2660e3fa81626f1a83d28e846d931bd5c9da",
+        "size_in_bytes": 6143
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_imputer.html",
+        "path_type": "hardlink",
+        "sha256": "049559babfcdbd7e17530302f7c295be8e8b530887f77ba151090276b9bbb0ff",
+        "sha256_in_prefix": "049559babfcdbd7e17530302f7c295be8e8b530887f77ba151090276b9bbb0ff",
+        "size_in_bytes": 6800
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_index_to_string.html",
+        "path_type": "hardlink",
+        "sha256": "35127af2fc445fa1ada9f12a0a1f5104de92d95db1b68d5cb5eb7db791f7e229",
+        "sha256_in_prefix": "35127af2fc445fa1ada9f12a0a1f5104de92d95db1b68d5cb5eb7db791f7e229",
+        "size_in_bytes": 5430
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_interaction.html",
+        "path_type": "hardlink",
+        "sha256": "61fc6a16e7511ecdbc4d70e6b523e459b66fe8d4683f98fa7335cc9df27071d6",
+        "sha256_in_prefix": "61fc6a16e7511ecdbc4d70e6b523e459b66fe8d4683f98fa7335cc9df27071d6",
+        "size_in_bytes": 5129
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_lsh.html",
+        "path_type": "hardlink",
+        "sha256": "2354e4e9591311b7b9e2ada3793521f44aca68f5902bc486979312b4c242fc41",
+        "sha256_in_prefix": "2354e4e9591311b7b9e2ada3793521f44aca68f5902bc486979312b4c242fc41",
+        "size_in_bytes": 7017
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_lsh_utils.html",
+        "path_type": "hardlink",
+        "sha256": "7d7dedf1ec83c117a559ebb4aa2e96ccc090174115a9458f955c8c180baf4c87",
+        "sha256_in_prefix": "7d7dedf1ec83c117a559ebb4aa2e96ccc090174115a9458f955c8c180baf4c87",
+        "size_in_bytes": 2121
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_max_abs_scaler.html",
+        "path_type": "hardlink",
+        "sha256": "d9e9b5f29c6a9032bd3694e3700e30b612cc2d3369cfbced8b183209fe65e403",
+        "sha256_in_prefix": "d9e9b5f29c6a9032bd3694e3700e30b612cc2d3369cfbced8b183209fe65e403",
+        "size_in_bytes": 6133
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_min_max_scaler.html",
+        "path_type": "hardlink",
+        "sha256": "e3a0c1121d6db275948f2eb868d1e3b4284f0f48224fbdc36ec8ead769a21ea6",
+        "sha256_in_prefix": "e3a0c1121d6db275948f2eb868d1e3b4284f0f48224fbdc36ec8ead769a21ea6",
+        "size_in_bytes": 6396
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_ngram.html",
+        "path_type": "hardlink",
+        "sha256": "8d9f9881c19e4b7292748d8c2eb3480906dbc75fbd5ebbc643ec89a108b1459f",
+        "sha256_in_prefix": "8d9f9881c19e4b7292748d8c2eb3480906dbc75fbd5ebbc643ec89a108b1459f",
+        "size_in_bytes": 5384
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_normalizer.html",
+        "path_type": "hardlink",
+        "sha256": "8d0f33aad1cbc755d81a12fadcbff939e114a693e0a2caf30a8f4c5f1352861a",
+        "sha256_in_prefix": "8d0f33aad1cbc755d81a12fadcbff939e114a693e0a2caf30a8f4c5f1352861a",
+        "size_in_bytes": 5023
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_one_hot_encoder.html",
+        "path_type": "hardlink",
+        "sha256": "26862793b50a55bc824fd3b210c9799efa1201ca0b4428a207e076435f8385b4",
+        "sha256_in_prefix": "26862793b50a55bc824fd3b210c9799efa1201ca0b4428a207e076435f8385b4",
+        "size_in_bytes": 5323
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_pca.html",
+        "path_type": "hardlink",
+        "sha256": "d5b599dfef1bbb196f5c1dbb8d9d4f1043543043abe589fe6c316f66524fb910",
+        "sha256_in_prefix": "d5b599dfef1bbb196f5c1dbb8d9d4f1043543043abe589fe6c316f66524fb910",
+        "size_in_bytes": 6890
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_polynomial_expansion.html",
+        "path_type": "hardlink",
+        "sha256": "6f678a87d52b82c83ca05ec852dc1912c661f53ee48d1f3091ac45f44918158d",
+        "sha256_in_prefix": "6f678a87d52b82c83ca05ec852dc1912c661f53ee48d1f3091ac45f44918158d",
+        "size_in_bytes": 5262
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_quantile_discretizer.html",
+        "path_type": "hardlink",
+        "sha256": "79e6cf0cc83a26a3e009fd79583054353ab641c82d2e2d824d83c6a29aaefab9",
+        "sha256_in_prefix": "79e6cf0cc83a26a3e009fd79583054353ab641c82d2e2d824d83c6a29aaefab9",
+        "size_in_bytes": 9215
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_r_formula.html",
+        "path_type": "hardlink",
+        "sha256": "35e0d626fd76f74d5d97de8847e99daff208b21c147a5a49f9d5e5083680a7ba",
+        "sha256_in_prefix": "35e0d626fd76f74d5d97de8847e99daff208b21c147a5a49f9d5e5083680a7ba",
+        "size_in_bytes": 8707
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_regex_tokenizer.html",
+        "path_type": "hardlink",
+        "sha256": "c66b3120f802b569278a04a67e06713c7a602220f3acdc391735667039cc24f1",
+        "sha256_in_prefix": "c66b3120f802b569278a04a67e06713c7a602220f3acdc391735667039cc24f1",
+        "size_in_bytes": 5779
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_standard_scaler.html",
+        "path_type": "hardlink",
+        "sha256": "2c989d68039c44e1eeb6e06dde2e34123fd666ed4263d45267b774e716d60698",
+        "sha256_in_prefix": "2c989d68039c44e1eeb6e06dde2e34123fd666ed4263d45267b774e716d60698",
+        "size_in_bytes": 6637
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_stop_words_remover.html",
+        "path_type": "hardlink",
+        "sha256": "9c0c3e5bab25946808598d4760e6020f48cce1a43e48930638b7d05456d11873",
+        "sha256_in_prefix": "9c0c3e5bab25946808598d4760e6020f48cce1a43e48930638b7d05456d11873",
+        "size_in_bytes": 5347
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_string_indexer.html",
+        "path_type": "hardlink",
+        "sha256": "ae51f1ebaebd3931513686d47c298d9d848fb7bcfaeaec285696a89b3cbed2b5",
+        "sha256_in_prefix": "ae51f1ebaebd3931513686d47c298d9d848fb7bcfaeaec285696a89b3cbed2b5",
+        "size_in_bytes": 7704
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_tokenizer.html",
+        "path_type": "hardlink",
+        "sha256": "27ddc758d02042657dc312a3ed0104f2575f8e06edd90d083a975222b47c4d5e",
+        "sha256_in_prefix": "27ddc758d02042657dc312a3ed0104f2575f8e06edd90d083a975222b47c4d5e",
+        "size_in_bytes": 4911
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_vector_assembler.html",
+        "path_type": "hardlink",
+        "sha256": "7d9a485acb2d61080a10b84a8fd83728679829e4b05c4406d930c35c5fc3302c",
+        "sha256_in_prefix": "7d9a485acb2d61080a10b84a8fd83728679829e4b05c4406d930c35c5fc3302c",
+        "size_in_bytes": 5055
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_vector_indexer.html",
+        "path_type": "hardlink",
+        "sha256": "d04198207be27bac9c875804b9bd4f1a20eae983dfa0c357b3964e65d00d1cd8",
+        "sha256_in_prefix": "d04198207be27bac9c875804b9bd4f1a20eae983dfa0c357b3964e65d00d1cd8",
+        "size_in_bytes": 6321
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_vector_slicer.html",
+        "path_type": "hardlink",
+        "sha256": "0df06833a31c5382062f46590a358e7ea3ae8cd42affc5b022af6c4fa4f3fae0",
+        "sha256_in_prefix": "0df06833a31c5382062f46590a358e7ea3ae8cd42affc5b022af6c4fa4f3fae0",
+        "size_in_bytes": 5117
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ft_word2vec.html",
+        "path_type": "hardlink",
+        "sha256": "de097f71f783f579df1fc2a7adc9b7080d1f2ab77fa4beb9aa8ea7d674d0875b",
+        "sha256_in_prefix": "de097f71f783f579df1fc2a7adc9b7080d1f2ab77fa4beb9aa8ea7d674d0875b",
+        "size_in_bytes": 7916
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/hive_context_config.html",
+        "path_type": "hardlink",
+        "sha256": "7c493d9a28336853887d149b0c18f5797b0833869e6f5d76c93ad3a6dfe2c9ff",
+        "sha256_in_prefix": "7c493d9a28336853887d149b0c18f5797b0833869e6f5d76c93ad3a6dfe2c9ff",
+        "size_in_bytes": 1055
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/invoke.html",
+        "path_type": "hardlink",
+        "sha256": "6c33c0d1e74fb82fb6554e51b3051e356546cc70160ffe50a67b3b984cdfafdb",
+        "sha256_in_prefix": "6c33c0d1e74fb82fb6554e51b3051e356546cc70160ffe50a67b3b984cdfafdb",
+        "size_in_bytes": 2735
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/invoke_method.html",
+        "path_type": "hardlink",
+        "sha256": "03179f42dd4c7e8692bc56cffb3c4dd03496ad24a3916c3844f6abb2206c1efc",
+        "sha256_in_prefix": "03179f42dd4c7e8692bc56cffb3c4dd03496ad24a3916c3844f6abb2206c1efc",
+        "size_in_bytes": 1602
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/jobj_class.html",
+        "path_type": "hardlink",
+        "sha256": "ad3c93ac91adc2902722236cb151767e4562cab8d42c535e9091afa2dfef0c7c",
+        "sha256_in_prefix": "ad3c93ac91adc2902722236cb151767e4562cab8d42c535e9091afa2dfef0c7c",
+        "size_in_bytes": 1187
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/livy_config.html",
+        "path_type": "hardlink",
+        "sha256": "b5bec87124503eddf3248a85ae9cf48cf06b94bdd8638df9ce8050a461be10d1",
+        "sha256_in_prefix": "b5bec87124503eddf3248a85ae9cf48cf06b94bdd8638df9ce8050a461be10d1",
+        "size_in_bytes": 3587
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/livy_install.html",
+        "path_type": "hardlink",
+        "sha256": "e159aed4fc243bffd18ef74440bd1322e907ddd3f436f1f3eb5a262c25020486",
+        "sha256_in_prefix": "e159aed4fc243bffd18ef74440bd1322e907ddd3f436f1f3eb5a262c25020486",
+        "size_in_bytes": 2408
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/livy_service.html",
+        "path_type": "hardlink",
+        "sha256": "1e5205d1ee16ebe8ce6ccab44d8276e1f48263263feba655258db35d2a125ca4",
+        "sha256_in_prefix": "1e5205d1ee16ebe8ce6ccab44d8276e1f48263263feba655258db35d2a125ca4",
+        "size_in_bytes": 1560
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml-params.html",
+        "path_type": "hardlink",
+        "sha256": "1276ffd68b42581e9eaefc0df9e0178c809d59c64eaf8ea7679d0a53f7f5ea6e",
+        "sha256_in_prefix": "1276ffd68b42581e9eaefc0df9e0178c809d59c64eaf8ea7679d0a53f7f5ea6e",
+        "size_in_bytes": 1747
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml-persistence.html",
+        "path_type": "hardlink",
+        "sha256": "a3ac059f253396d748f174d54590541657c78d17e9ad50cb73c272870ff2ddc4",
+        "sha256_in_prefix": "a3ac059f253396d748f174d54590541657c78d17e9ad50cb73c272870ff2ddc4",
+        "size_in_bytes": 2692
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml-transform-methods.html",
+        "path_type": "hardlink",
+        "sha256": "645208ca1a22f1afbbad201c51f8c731286d361b00626840735761a5940d9a46",
+        "sha256_in_prefix": "645208ca1a22f1afbbad201c51f8c731286d361b00626840735761a5940d9a46",
+        "size_in_bytes": 2480
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml-tuning.html",
+        "path_type": "hardlink",
+        "sha256": "2fc0520f10d449fa6bdc6b3dd43f0878546030626c93df94572c10a4dddfbddd",
+        "sha256_in_prefix": "2fc0520f10d449fa6bdc6b3dd43f0878546030626c93df94572c10a4dddfbddd",
+        "size_in_bytes": 4861
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_aft_survival_regression.html",
+        "path_type": "hardlink",
+        "sha256": "6bb52bbbc9bdeeececfc2807638543f6680bde7e0a046e11eab7d5b3c6f25e97",
+        "sha256_in_prefix": "6bb52bbbc9bdeeececfc2807638543f6680bde7e0a046e11eab7d5b3c6f25e97",
+        "size_in_bytes": 8237
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_als.html",
+        "path_type": "hardlink",
+        "sha256": "b19cd56162cd95e27302b7906b4a01a89e2c3a4567d10cafb2fca14a8f9afc25",
+        "sha256_in_prefix": "b19cd56162cd95e27302b7906b4a01a89e2c3a4567d10cafb2fca14a8f9afc25",
+        "size_in_bytes": 8675
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_bisecting_kmeans.html",
+        "path_type": "hardlink",
+        "sha256": "368b3d4071767a13ad2d01d8ead8fc35446a2d679eab2b47f4d0d19f3ac53de5",
+        "sha256_in_prefix": "368b3d4071767a13ad2d01d8ead8fc35446a2d679eab2b47f4d0d19f3ac53de5",
+        "size_in_bytes": 5510
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_chisquare_test.html",
+        "path_type": "hardlink",
+        "sha256": "2bec4cf897bc8429aea74390d44c08e18ce962dc222db88f88b1462f3366904a",
+        "sha256_in_prefix": "2bec4cf897bc8429aea74390d44c08e18ce962dc222db88f88b1462f3366904a",
+        "size_in_bytes": 1745
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_clustering_evaluator.html",
+        "path_type": "hardlink",
+        "sha256": "f7e1976aa32f14a318e3c4791a44748423594d70e07bcf1a8df37c3a41ad2694",
+        "sha256_in_prefix": "f7e1976aa32f14a318e3c4791a44748423594d70e07bcf1a8df37c3a41ad2694",
+        "size_in_bytes": 2366
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_corr.html",
+        "path_type": "hardlink",
+        "sha256": "73cd6ee2323502372e1dcd76b9d908a617739e3a667317531150ee3b1cf80b12",
+        "sha256_in_prefix": "73cd6ee2323502372e1dcd76b9d908a617739e3a667317531150ee3b1cf80b12",
+        "size_in_bytes": 1491
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_decision_tree.html",
+        "path_type": "hardlink",
+        "sha256": "5d771bb5743387b924d34dbee4854a20dceb0ad3177bc891a60890b17b45ae33",
+        "sha256_in_prefix": "5d771bb5743387b924d34dbee4854a20dceb0ad3177bc891a60890b17b45ae33",
+        "size_in_bytes": 11499
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_default_stop_words.html",
+        "path_type": "hardlink",
+        "sha256": "ca3b37ea6fb24fc8c16d7c79c30fa38d24b9a3702a6c569bb9bb8b43957b2aaf",
+        "sha256_in_prefix": "ca3b37ea6fb24fc8c16d7c79c30fa38d24b9a3702a6c569bb9bb8b43957b2aaf",
+        "size_in_bytes": 1962
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_evaluate.html",
+        "path_type": "hardlink",
+        "sha256": "cccbef78bdc832f9b5191a55d8d659b2ad06a0d1f14aaf1a772e79ed56b07ce0",
+        "sha256_in_prefix": "cccbef78bdc832f9b5191a55d8d659b2ad06a0d1f14aaf1a772e79ed56b07ce0",
+        "size_in_bytes": 1223
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_evaluator.html",
+        "path_type": "hardlink",
+        "sha256": "b4599afd8545362528f85eeb07162418baa6b5ee540e65b9df99be9df1f5befc",
+        "sha256_in_prefix": "b4599afd8545362528f85eeb07162418baa6b5ee540e65b9df99be9df1f5befc",
+        "size_in_bytes": 5199
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_feature_importances.html",
+        "path_type": "hardlink",
+        "sha256": "d2073565e20e47c04bb3ee1e4166e411997a32d3b3a4f043af3972f8479efa5d",
+        "sha256_in_prefix": "d2073565e20e47c04bb3ee1e4166e411997a32d3b3a4f043af3972f8479efa5d",
+        "size_in_bytes": 1424
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_fpgrowth.html",
+        "path_type": "hardlink",
+        "sha256": "e3097498cdabe98d6cd0db91de4c0faf68cdd33a865be17e134f630a94863355",
+        "sha256_in_prefix": "e3097498cdabe98d6cd0db91de4c0faf68cdd33a865be17e134f630a94863355",
+        "size_in_bytes": 2425
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_gaussian_mixture.html",
+        "path_type": "hardlink",
+        "sha256": "4f33798ce3b472d3c55175fde7830d25c4d947bf2c37df31ad04f256a39ac8b4",
+        "sha256_in_prefix": "4f33798ce3b472d3c55175fde7830d25c4d947bf2c37df31ad04f256a39ac8b4",
+        "size_in_bytes": 5338
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_generalized_linear_regression.html",
+        "path_type": "hardlink",
+        "sha256": "c6f86acdb8175c501ea3cd4e0b1350affb96b251af05e3bf27706ba44d1adc4b",
+        "sha256_in_prefix": "c6f86acdb8175c501ea3cd4e0b1350affb96b251af05e3bf27706ba44d1adc4b",
+        "size_in_bytes": 9296
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_glm_tidiers.html",
+        "path_type": "hardlink",
+        "sha256": "ca70a7bd3e42110c6401d605588bc88aa8441830a682fa660d9c952888ebc1c4",
+        "sha256_in_prefix": "ca70a7bd3e42110c6401d605588bc88aa8441830a682fa660d9c952888ebc1c4",
+        "size_in_bytes": 2531
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_gradient_boosted_trees.html",
+        "path_type": "hardlink",
+        "sha256": "d9579e6c0b8b005ad0302f52fe7249d3d3633e92afb224cb24d88f374393a42a",
+        "sha256_in_prefix": "d9579e6c0b8b005ad0302f52fe7249d3d3633e92afb224cb24d88f374393a42a",
+        "size_in_bytes": 12646
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_isotonic_regression.html",
+        "path_type": "hardlink",
+        "sha256": "3caa7eabc4f0f740b9b5f605055fb37a3d5b9d917219b84f805b2085ebb62e91",
+        "sha256_in_prefix": "3caa7eabc4f0f740b9b5f605055fb37a3d5b9d917219b84f805b2085ebb62e91",
+        "size_in_bytes": 6408
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_kmeans.html",
+        "path_type": "hardlink",
+        "sha256": "2af1d2abbcf006b455f7055d15b4f81ca8c96e79bb05d20efe431d037b1f8335",
+        "sha256_in_prefix": "2af1d2abbcf006b455f7055d15b4f81ca8c96e79bb05d20efe431d037b1f8335",
+        "size_in_bytes": 5809
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_lda.html",
+        "path_type": "hardlink",
+        "sha256": "1056525440a4a23542f92d44b82b93b64d6d39c8040337d1fbd4dbbdb1967a8c",
+        "sha256_in_prefix": "1056525440a4a23542f92d44b82b93b64d6d39c8040337d1fbd4dbbdb1967a8c",
+        "size_in_bytes": 11627
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_linear_regression.html",
+        "path_type": "hardlink",
+        "sha256": "5e97973585739ebce356d7b9276a84236cce8b6bcf8c17d0783db3612be1a6d1",
+        "sha256_in_prefix": "5e97973585739ebce356d7b9276a84236cce8b6bcf8c17d0783db3612be1a6d1",
+        "size_in_bytes": 7245
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_linear_svc.html",
+        "path_type": "hardlink",
+        "sha256": "4eb7cf309530ac5e604abbd0a3805db3da88f6b66378de89a091b45b5c272c9a",
+        "sha256_in_prefix": "4eb7cf309530ac5e604abbd0a3805db3da88f6b66378de89a091b45b5c272c9a",
+        "size_in_bytes": 7250
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_logistic_regression.html",
+        "path_type": "hardlink",
+        "sha256": "deb4e47b94bf184b783dc1703638c418f9859834ddd9e3ebdc7faecb1d85856c",
+        "sha256_in_prefix": "deb4e47b94bf184b783dc1703638c418f9859834ddd9e3ebdc7faecb1d85856c",
+        "size_in_bytes": 9643
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_model_data.html",
+        "path_type": "hardlink",
+        "sha256": "4066b19a8374de101c40c7d3912463bfd6751418f42d50ed166dd8a6fcfec890",
+        "sha256_in_prefix": "4066b19a8374de101c40c7d3912463bfd6751418f42d50ed166dd8a6fcfec890",
+        "size_in_bytes": 1076
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_multilayer_perceptron_classifier.html",
+        "path_type": "hardlink",
+        "sha256": "47a7c76c611bb020af9683ade8d0bb0a810a1d1c5e8348f61f2dadfffde50ccc",
+        "sha256_in_prefix": "47a7c76c611bb020af9683ade8d0bb0a810a1d1c5e8348f61f2dadfffde50ccc",
+        "size_in_bytes": 8975
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_naive_bayes.html",
+        "path_type": "hardlink",
+        "sha256": "3c437d056041233604499ae4d42f2fc52a753a9bb416bfa41b4e135370d937dd",
+        "sha256_in_prefix": "3c437d056041233604499ae4d42f2fc52a753a9bb416bfa41b4e135370d937dd",
+        "size_in_bytes": 8154
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_one_vs_rest.html",
+        "path_type": "hardlink",
+        "sha256": "bdcac0acf2dbc02ab21877ff8ce3369c0e7ac73149dcbec4b7490ab96df07dc0",
+        "sha256_in_prefix": "bdcac0acf2dbc02ab21877ff8ce3369c0e7ac73149dcbec4b7490ab96df07dc0",
+        "size_in_bytes": 6182
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_pipeline.html",
+        "path_type": "hardlink",
+        "sha256": "e6ec74f6816128e4411a4aee2b3cdc85119759700ba5198ccfe6ec5103140e72",
+        "sha256_in_prefix": "e6ec74f6816128e4411a4aee2b3cdc85119759700ba5198ccfe6ec5103140e72",
+        "size_in_bytes": 1664
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_random_forest.html",
+        "path_type": "hardlink",
+        "sha256": "c9c6671195f738169522f1d6b8a96d902be49380234bf93c6ed41a98183061bd",
+        "sha256_in_prefix": "c9c6671195f738169522f1d6b8a96d902be49380234bf93c6ed41a98183061bd",
+        "size_in_bytes": 12985
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_stage.html",
+        "path_type": "hardlink",
+        "sha256": "fe33f42f489523fe9a6513e89f77559196371411d01f633602c59a9d76c4a84c",
+        "sha256_in_prefix": "fe33f42f489523fe9a6513e89f77559196371411d01f633602c59a9d76c4a84c",
+        "size_in_bytes": 1572
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_summary.html",
+        "path_type": "hardlink",
+        "sha256": "00f718cec856301be5f3977e1bc529b56d7c766b124a5481e42bdff95a7d2f74",
+        "sha256_in_prefix": "00f718cec856301be5f3977e1bc529b56d7c766b124a5481e42bdff95a7d2f74",
+        "size_in_bytes": 1381
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/ml_uid.html",
+        "path_type": "hardlink",
+        "sha256": "982853c8159f0cbd6b482913890141bf67a5982fc351e3957aa1c447a6d148f6",
+        "sha256_in_prefix": "982853c8159f0cbd6b482913890141bf67a5982fc351e3957aa1c447a6d148f6",
+        "size_in_bytes": 931
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/na.replace.html",
+        "path_type": "hardlink",
+        "sha256": "9642571f8ee73ba7ff7a7c1989b834c658131feb41d6a5a85e854419ca09e31f",
+        "sha256_in_prefix": "9642571f8ee73ba7ff7a7c1989b834c658131feb41d6a5a85e854419ca09e31f",
+        "size_in_bytes": 1280
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/pipe.html",
+        "path_type": "hardlink",
+        "sha256": "461353e69c9dee74fc1b7ea1590eb7c98b8d696a5359329a923ee8dee2063235",
+        "sha256_in_prefix": "461353e69c9dee74fc1b7ea1590eb7c98b8d696a5359329a923ee8dee2063235",
+        "size_in_bytes": 834
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/print_jobj.html",
+        "path_type": "hardlink",
+        "sha256": "e27cace4082cd3b7b47b90cb1059ea822905482c66f69c0ae183100084660337",
+        "sha256_in_prefix": "e27cace4082cd3b7b47b90cb1059ea822905482c66f69c0ae183100084660337",
+        "size_in_bytes": 1166
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/random_string.html",
+        "path_type": "hardlink",
+        "sha256": "caef29e28cb14be5ff6cdf1020468f9ec803f2559df43c31249109039a4628aa",
+        "sha256_in_prefix": "caef29e28cb14be5ff6cdf1020468f9ec803f2559df43c31249109039a4628aa",
+        "size_in_bytes": 1011
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/reexports.html",
+        "path_type": "hardlink",
+        "sha256": "7c5c2f6f119fd9f8c05a092bd06c47a6202c73cfd18cbc84e226ecdc46d56ade",
+        "sha256_in_prefix": "7c5c2f6f119fd9f8c05a092bd06c47a6202c73cfd18cbc84e226ecdc46d56ade",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/register_extension.html",
+        "path_type": "hardlink",
+        "sha256": "996bcf3d55139b1644afa10fcd42ab3a21f61ab596b4cc0d5396f1b0826372bf",
+        "sha256_in_prefix": "996bcf3d55139b1644afa10fcd42ab3a21f61ab596b4cc0d5396f1b0826372bf",
+        "size_in_bytes": 1416
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf-saveload.html",
+        "path_type": "hardlink",
+        "sha256": "88e5c7fe5da46425595adb6037e5c6faf82d588601085d42666cb7a1ddb83889",
+        "sha256_in_prefix": "88e5c7fe5da46425595adb6037e5c6faf82d588601085d42666cb7a1ddb83889",
+        "size_in_bytes": 1847
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf-transform-methods.html",
+        "path_type": "hardlink",
+        "sha256": "ffe73bf7b70e17cfacad762746fd7532ba77778d62287f2e736f9c6e5a72f73f",
+        "sha256_in_prefix": "ffe73bf7b70e17cfacad762746fd7532ba77778d62287f2e736f9c6e5a72f73f",
+        "size_in_bytes": 2044
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_along.html",
+        "path_type": "hardlink",
+        "sha256": "98b11b51d8d19a201f8390be4ee225291fab8cb78ebe4b53b0b34dd1b6727de0",
+        "sha256_in_prefix": "98b11b51d8d19a201f8390be4ee225291fab8cb78ebe4b53b0b34dd1b6727de0",
+        "size_in_bytes": 1313
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_bind.html",
+        "path_type": "hardlink",
+        "sha256": "f76925d903f072ee7f5883f7ce9b763ae71ffcca83ce541964306ebad85450b9",
+        "sha256_in_prefix": "f76925d903f072ee7f5883f7ce9b763ae71ffcca83ce541964306ebad85450b9",
+        "size_in_bytes": 2274
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_broadcast.html",
+        "path_type": "hardlink",
+        "sha256": "080709f247e4d9cc48cc66ee270f277c38359769bf7462835b65d4ea82850702",
+        "sha256_in_prefix": "080709f247e4d9cc48cc66ee270f277c38359769bf7462835b65d4ea82850702",
+        "size_in_bytes": 1018
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_checkpoint.html",
+        "path_type": "hardlink",
+        "sha256": "9583ab2e2144f1355d154188f64b72ab0f646f0b1a84f148b5e6763f15a82602",
+        "sha256_in_prefix": "9583ab2e2144f1355d154188f64b72ab0f646f0b1a84f148b5e6763f15a82602",
+        "size_in_bytes": 1130
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_coalesce.html",
+        "path_type": "hardlink",
+        "sha256": "e85c19f4c54bef0a78da1ef5bcf8d27e4e7014e00c3d5f0d2b9f27c9087d3f36",
+        "sha256_in_prefix": "e85c19f4c54bef0a78da1ef5bcf8d27e4e7014e00c3d5f0d2b9f27c9087d3f36",
+        "size_in_bytes": 1143
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_copy_to.html",
+        "path_type": "hardlink",
+        "sha256": "aba1853c659bd6fc76be13f8f060b3467be9ca6528ea71fd1f4252bda1587d3d",
+        "sha256_in_prefix": "aba1853c659bd6fc76be13f8f060b3467be9ca6528ea71fd1f4252bda1587d3d",
+        "size_in_bytes": 2935
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_debug_string.html",
+        "path_type": "hardlink",
+        "sha256": "69aad715a3596d2093045a3589cc8a3691c0ca42e61a9c2f4e4b7c0818bd4f04",
+        "sha256_in_prefix": "69aad715a3596d2093045a3589cc8a3691c0ca42e61a9c2f4e4b7c0818bd4f04",
+        "size_in_bytes": 1371
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_describe.html",
+        "path_type": "hardlink",
+        "sha256": "8600dd6eda2463890702affb8a0d00e9a788d3945a256cdd00a11ab767e39e04",
+        "sha256_in_prefix": "8600dd6eda2463890702affb8a0d00e9a788d3945a256cdd00a11ab767e39e04",
+        "size_in_bytes": 1221
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_dim.html",
+        "path_type": "hardlink",
+        "sha256": "cc6027b11875a991509824e7048977d6f4618761006f88d65d22a7bc9250b965",
+        "sha256_in_prefix": "cc6027b11875a991509824e7048977d6f4618761006f88d65d22a7bc9250b965",
+        "size_in_bytes": 1164
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_fast_bind_cols.html",
+        "path_type": "hardlink",
+        "sha256": "a094ab02c30857328f122093ae1f107e5a88e534ddf5c9bcf19ff5dc75a101b8",
+        "sha256_in_prefix": "a094ab02c30857328f122093ae1f107e5a88e534ddf5c9bcf19ff5dc75a101b8",
+        "size_in_bytes": 1236
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_last_index.html",
+        "path_type": "hardlink",
+        "sha256": "0643c1da54fcbadecc6582de6767e6d03433fa2695701d7871b32bd5597436a4",
+        "sha256_in_prefix": "0643c1da54fcbadecc6582de6767e6d03433fa2695701d7871b32bd5597436a4",
+        "size_in_bytes": 1346
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_len.html",
+        "path_type": "hardlink",
+        "sha256": "fa2b98b09fac749e28965ccf38e3df10c3c1265e2bb154beda9b3f3637d233cb",
+        "sha256_in_prefix": "fa2b98b09fac749e28965ccf38e3df10c3c1265e2bb154beda9b3f3637d233cb",
+        "size_in_bytes": 1280
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_mutate.html",
+        "path_type": "hardlink",
+        "sha256": "76ee2d3d4991c5e2ad457416447befed0717e314119556cf13f81c1288d8e4da",
+        "sha256_in_prefix": "76ee2d3d4991c5e2ad457416447befed0717e314119556cf13f81c1288d8e4da",
+        "size_in_bytes": 2666
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_num_partitions.html",
+        "path_type": "hardlink",
+        "sha256": "13d5631e13bc9a435b43a6eeffda1ebd8d97925f094876f670f33e1301d30ee9",
+        "sha256_in_prefix": "13d5631e13bc9a435b43a6eeffda1ebd8d97925f094876f670f33e1301d30ee9",
+        "size_in_bytes": 1108
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_partition.html",
+        "path_type": "hardlink",
+        "sha256": "d495c7efe651627ea33d4db0090c5304f186fc385d05597052b22c8f484690dc",
+        "sha256_in_prefix": "d495c7efe651627ea33d4db0090c5304f186fc385d05597052b22c8f484690dc",
+        "size_in_bytes": 4016
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_persist.html",
+        "path_type": "hardlink",
+        "sha256": "fd595428d214bf442c0c175996d063951a3431cc525f399765bc8f6cc11d3a48",
+        "sha256_in_prefix": "fd595428d214bf442c0c175996d063951a3431cc525f399765bc8f6cc11d3a48",
+        "size_in_bytes": 2023
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_pivot.html",
+        "path_type": "hardlink",
+        "sha256": "0199212928dc415d46b12dfde0cefed7b3e85dbbee70a680eb964be9f4888f55",
+        "sha256_in_prefix": "0199212928dc415d46b12dfde0cefed7b3e85dbbee70a680eb964be9f4888f55",
+        "size_in_bytes": 2075
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_project.html",
+        "path_type": "hardlink",
+        "sha256": "edc7796713b820cda8551c5a850154e3566ebdfdf593eb463ca22676fd5da91a",
+        "sha256_in_prefix": "edc7796713b820cda8551c5a850154e3566ebdfdf593eb463ca22676fd5da91a",
+        "size_in_bytes": 2365
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_quantile.html",
+        "path_type": "hardlink",
+        "sha256": "5e1b9e5af7708b5d017cac0d4e720cc0529427acc8a60055b22ba3a996d173ea",
+        "sha256_in_prefix": "5e1b9e5af7708b5d017cac0d4e720cc0529427acc8a60055b22ba3a996d173ea",
+        "size_in_bytes": 1692
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_read_column.html",
+        "path_type": "hardlink",
+        "sha256": "5a81c877b67d87c7f562a8fa9d15ecbe1d670009ea28d36090851b117266afc4",
+        "sha256_in_prefix": "5a81c877b67d87c7f562a8fa9d15ecbe1d670009ea28d36090851b117266afc4",
+        "size_in_bytes": 1423
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_register.html",
+        "path_type": "hardlink",
+        "sha256": "784fef1f4964e8fd6bedd43d6463b44d4ea7182398a84ef38304f52a8bc99eec",
+        "sha256_in_prefix": "784fef1f4964e8fd6bedd43d6463b44d4ea7182398a84ef38304f52a8bc99eec",
+        "size_in_bytes": 2247
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_repartition.html",
+        "path_type": "hardlink",
+        "sha256": "19865d6bd329dbadd0de65aa7a9d8c64e4f13ebd6ab77d5fcbae3dbe62325b86",
+        "sha256_in_prefix": "19865d6bd329dbadd0de65aa7a9d8c64e4f13ebd6ab77d5fcbae3dbe62325b86",
+        "size_in_bytes": 1341
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_residuals.html",
+        "path_type": "hardlink",
+        "sha256": "a3090b89fb5b0d4e6449ac4732c329adb321175cb9f5103849b1ebe30e8f02dd",
+        "sha256_in_prefix": "a3090b89fb5b0d4e6449ac4732c329adb321175cb9f5103849b1ebe30e8f02dd",
+        "size_in_bytes": 1569
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_sample.html",
+        "path_type": "hardlink",
+        "sha256": "bf6f65929aae99d5ed924e991c25a250be284b6394cd7b8b44ac8735e825cc2d",
+        "sha256_in_prefix": "bf6f65929aae99d5ed924e991c25a250be284b6394cd7b8b44ac8735e825cc2d",
+        "size_in_bytes": 2511
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_schema.html",
+        "path_type": "hardlink",
+        "sha256": "88125a65acbbc4c85e6143ed50d7605f4beb996758192d8981179c57abc60843",
+        "sha256_in_prefix": "88125a65acbbc4c85e6143ed50d7605f4beb996758192d8981179c57abc60843",
+        "size_in_bytes": 1766
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_separate_column.html",
+        "path_type": "hardlink",
+        "sha256": "3bb7ccff45f9802d36ef69a7a0395174d2ef4aaea31d5dce72885825b96307a3",
+        "sha256_in_prefix": "3bb7ccff45f9802d36ef69a7a0395174d2ef4aaea31d5dce72885825b96307a3",
+        "size_in_bytes": 1763
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_seq.html",
+        "path_type": "hardlink",
+        "sha256": "ca7155e012b5bf7a64a28090500f33864701de99d9ec9a9be25dd0ec1a9d8948",
+        "sha256_in_prefix": "ca7155e012b5bf7a64a28090500f33864701de99d9ec9a9be25dd0ec1a9d8948",
+        "size_in_bytes": 1399
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_sort.html",
+        "path_type": "hardlink",
+        "sha256": "40944ebdbbeb33704de1d2ff29651ac43e0ef0e8aa59b2b9bfea59cbc4a9f9ca",
+        "sha256_in_prefix": "40944ebdbbeb33704de1d2ff29651ac43e0ef0e8aa59b2b9bfea59cbc4a9f9ca",
+        "size_in_bytes": 2227
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_with_sequential_id.html",
+        "path_type": "hardlink",
+        "sha256": "c1c5977aeb72afefb5d238fc8a39a16521aedfa0ad728998b1289e767284ae38",
+        "sha256_in_prefix": "c1c5977aeb72afefb5d238fc8a39a16521aedfa0ad728998b1289e767284ae38",
+        "size_in_bytes": 1555
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sdf_with_unique_id.html",
+        "path_type": "hardlink",
+        "sha256": "7b593c1f09ccf0deced5bc9425cc28db2905029b2453cd466d1b1dd045f31480",
+        "sha256_in_prefix": "7b593c1f09ccf0deced5bc9425cc28db2905029b2453cd466d1b1dd045f31480",
+        "size_in_bytes": 1611
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark-api.html",
+        "path_type": "hardlink",
+        "sha256": "d99274f3947e8dd4e7490c2a8d9c0b35f65de6256a3d0f0b437fb78b056940d0",
+        "sha256_in_prefix": "d99274f3947e8dd4e7490c2a8d9c0b35f65de6256a3d0f0b437fb78b056940d0",
+        "size_in_bytes": 2705
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark-connections.html",
+        "path_type": "hardlink",
+        "sha256": "d4461b5e3babf3ed21c08d7bce431a93c7e6bc173072a210c161045ef70fc8f4",
+        "sha256_in_prefix": "d4461b5e3babf3ed21c08d7bce431a93c7e6bc173072a210c161045ef70fc8f4",
+        "size_in_bytes": 3346
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_apply.html",
+        "path_type": "hardlink",
+        "sha256": "7a27d21d2a1041f8fc1eb521e703983d64de8a795b0db02638561337c40139ed",
+        "sha256_in_prefix": "7a27d21d2a1041f8fc1eb521e703983d64de8a795b0db02638561337c40139ed",
+        "size_in_bytes": 4182
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_apply_bundle.html",
+        "path_type": "hardlink",
+        "sha256": "12730be8b253ee11f5acf40c40122a381c5191c7f72b1b02d90432371bf45aed",
+        "sha256_in_prefix": "12730be8b253ee11f5acf40c40122a381c5191c7f72b1b02d90432371bf45aed",
+        "size_in_bytes": 1223
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_apply_log.html",
+        "path_type": "hardlink",
+        "sha256": "758f736ed62420d1e8fecab94e1eb2ac070d6f576e2320525ebc8df117cb0792",
+        "sha256_in_prefix": "758f736ed62420d1e8fecab94e1eb2ac070d6f576e2320525ebc8df117cb0792",
+        "size_in_bytes": 1208
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_compilation_spec.html",
+        "path_type": "hardlink",
+        "sha256": "57b2f63e25ca0f0ee5b715e981fdf191ee98a27fa1c4afea56c87a16b859f6e4",
+        "sha256_in_prefix": "57b2f63e25ca0f0ee5b715e981fdf191ee98a27fa1c4afea56c87a16b859f6e4",
+        "size_in_bytes": 3237
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_compile.html",
+        "path_type": "hardlink",
+        "sha256": "91fc5c3dac46c984f4844f1398a45c2d694c990fb41d8260b4c711c1e55caa2e",
+        "sha256_in_prefix": "91fc5c3dac46c984f4844f1398a45c2d694c990fb41d8260b4c711c1e55caa2e",
+        "size_in_bytes": 2102
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_config.html",
+        "path_type": "hardlink",
+        "sha256": "0636aec05f4d99a8ca8a06233064a617f5f8212c87ae4653806a6ba7fb664e56",
+        "sha256_in_prefix": "0636aec05f4d99a8ca8a06233064a617f5f8212c87ae4653806a6ba7fb664e56",
+        "size_in_bytes": 1366
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_config_exists.html",
+        "path_type": "hardlink",
+        "sha256": "9bc941935a2777581b53adadee43316023f5f5afb93202feb4c69dc776bdff75",
+        "sha256_in_prefix": "9bc941935a2777581b53adadee43316023f5f5afb93202feb4c69dc776bdff75",
+        "size_in_bytes": 1410
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_config_value.html",
+        "path_type": "hardlink",
+        "sha256": "153747d983a16bee7b0278f2e31d83e79e5d35351f609afd905a8cf9c65def01",
+        "sha256_in_prefix": "153747d983a16bee7b0278f2e31d83e79e5d35351f609afd905a8cf9c65def01",
+        "size_in_bytes": 1398
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_configuration.html",
+        "path_type": "hardlink",
+        "sha256": "3cbd9c86442622dd45aae62b1ff604a319ffb248e62266e11f1c002bacdf0bf2",
+        "sha256_in_prefix": "3cbd9c86442622dd45aae62b1ff604a319ffb248e62266e11f1c002bacdf0bf2",
+        "size_in_bytes": 1528
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_connection-class.html",
+        "path_type": "hardlink",
+        "sha256": "b88cbed38acdd354288cc41e45a4d7ba5e088e96d9a1e8a72be88e7491768494",
+        "sha256_in_prefix": "b88cbed38acdd354288cc41e45a4d7ba5e088e96d9a1e8a72be88e7491768494",
+        "size_in_bytes": 762
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_connection.html",
+        "path_type": "hardlink",
+        "sha256": "0f92d36ad88d9b634f7fef2c8c8e8a095a6de2bf82b505cd2e0d6fd794890ef3",
+        "sha256_in_prefix": "0f92d36ad88d9b634f7fef2c8c8e8a095a6de2bf82b505cd2e0d6fd794890ef3",
+        "size_in_bytes": 1404
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_context_config.html",
+        "path_type": "hardlink",
+        "sha256": "bd3a18e0fb0705f5166f0000a9b56f955ef3f8c7d4730fbdf0ecec04224f3e3c",
+        "sha256_in_prefix": "bd3a18e0fb0705f5166f0000a9b56f955ef3f8c7d4730fbdf0ecec04224f3e3c",
+        "size_in_bytes": 1099
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_dataframe.html",
+        "path_type": "hardlink",
+        "sha256": "ec9d566ebed6a951992c600f10c499a4b8e9e6c1761ebe9651f5b23a6ba4a8fb",
+        "sha256_in_prefix": "ec9d566ebed6a951992c600f10c499a4b8e9e6c1761ebe9651f5b23a6ba4a8fb",
+        "size_in_bytes": 1506
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_default_compilation_spec.html",
+        "path_type": "hardlink",
+        "sha256": "ca0c4857f47721d69a14bb70d7a606a391ac1c467dcbb62f747ca3aaa68933e0",
+        "sha256_in_prefix": "ca0c4857f47721d69a14bb70d7a606a391ac1c467dcbb62f747ca3aaa68933e0",
+        "size_in_bytes": 1511
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_default_version.html",
+        "path_type": "hardlink",
+        "sha256": "4430aeffff26213f924283f8c674625f7ab092ff5a78aa0066178eb51b29fb88",
+        "sha256_in_prefix": "4430aeffff26213f924283f8c674625f7ab092ff5a78aa0066178eb51b29fb88",
+        "size_in_bytes": 958
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_dependency.html",
+        "path_type": "hardlink",
+        "sha256": "4cdcaa18c7a0f8d998a6e88d244296ef0ac9076a25f5ab7511b4fdaf7174ec83",
+        "sha256_in_prefix": "4cdcaa18c7a0f8d998a6e88d244296ef0ac9076a25f5ab7511b4fdaf7174ec83",
+        "size_in_bytes": 1265
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_home_dir.html",
+        "path_type": "hardlink",
+        "sha256": "bf10f726a8ded7787522632b8843a45f6eb069e350ac26598c2db41d134a64ab",
+        "sha256_in_prefix": "bf10f726a8ded7787522632b8843a45f6eb069e350ac26598c2db41d134a64ab",
+        "size_in_bytes": 1403
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_home_set.html",
+        "path_type": "hardlink",
+        "sha256": "03535ddba64cb69b3cdd427c8d3692a96108c11e6ca8a69f06879f5974fd8968",
+        "sha256_in_prefix": "03535ddba64cb69b3cdd427c8d3692a96108c11e6ca8a69f06879f5974fd8968",
+        "size_in_bytes": 1803
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_install.html",
+        "path_type": "hardlink",
+        "sha256": "98b8b10c5e30c74702fcf892ea4bb116d3bd213e7d1699284a7b0de96e43c05e",
+        "sha256_in_prefix": "98b8b10c5e30c74702fcf892ea4bb116d3bd213e7d1699284a7b0de96e43c05e",
+        "size_in_bytes": 2961
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_install_sync.html",
+        "path_type": "hardlink",
+        "sha256": "9ef4619bebfff8e7e6b8e96a615ea95e737da3ff8368e28b4c758d3a2fdb5fef",
+        "sha256_in_prefix": "9ef4619bebfff8e7e6b8e96a615ea95e737da3ff8368e28b4c758d3a2fdb5fef",
+        "size_in_bytes": 1098
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_jobj-class.html",
+        "path_type": "hardlink",
+        "sha256": "adf726f10c2a05096eae53fc45ff6d1fd49a57e6a9f6198d02be6816793c9437",
+        "sha256_in_prefix": "adf726f10c2a05096eae53fc45ff6d1fd49a57e6a9f6198d02be6816793c9437",
+        "size_in_bytes": 732
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_jobj.html",
+        "path_type": "hardlink",
+        "sha256": "8ca1621edad3587b683a0f2c72b349dee1590096847cd581338928a4f40833a4",
+        "sha256_in_prefix": "8ca1621edad3587b683a0f2c72b349dee1590096847cd581338928a4f40833a4",
+        "size_in_bytes": 1702
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_load_table.html",
+        "path_type": "hardlink",
+        "sha256": "08dd94b52b94381ff0661762f041dfb2b0de738b73fa0998103cb1aaf66178aa",
+        "sha256_in_prefix": "08dd94b52b94381ff0661762f041dfb2b0de738b73fa0998103cb1aaf66178aa",
+        "size_in_bytes": 3488
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_log.html",
+        "path_type": "hardlink",
+        "sha256": "cc9816eda8dd1e7fad266308ac973428e5447d5348e38016fb30f2290f24a717",
+        "sha256_in_prefix": "cc9816eda8dd1e7fad266308ac973428e5447d5348e38016fb30f2290f24a717",
+        "size_in_bytes": 1532
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_read_csv.html",
+        "path_type": "hardlink",
+        "sha256": "7e3d9399fccb1e40ccdedf63185e4331b264009de89701f4eaeffb98b0ca8313",
+        "sha256_in_prefix": "7e3d9399fccb1e40ccdedf63185e4331b264009de89701f4eaeffb98b0ca8313",
+        "size_in_bytes": 6124
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_read_jdbc.html",
+        "path_type": "hardlink",
+        "sha256": "c78a712c9facc0f1577a4aad0a2d6e5efafd3b9a0968931e09fe579e2b39b885",
+        "sha256_in_prefix": "c78a712c9facc0f1577a4aad0a2d6e5efafd3b9a0968931e09fe579e2b39b885",
+        "size_in_bytes": 3476
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_read_json.html",
+        "path_type": "hardlink",
+        "sha256": "cdf21ca0f25057e0703f4355dc1ace7cff9bbf37824e3ef0e8f6adc082ebd220",
+        "sha256_in_prefix": "cdf21ca0f25057e0703f4355dc1ace7cff9bbf37824e3ef0e8f6adc082ebd220",
+        "size_in_bytes": 4786
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_read_libsvm.html",
+        "path_type": "hardlink",
+        "sha256": "6d76476877f44c19a5f282c1842b8479df0c0eb4dd07c0e0ba15add18daceb29",
+        "sha256_in_prefix": "6d76476877f44c19a5f282c1842b8479df0c0eb4dd07c0e0ba15add18daceb29",
+        "size_in_bytes": 3270
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_read_parquet.html",
+        "path_type": "hardlink",
+        "sha256": "e15fb0d1df19389e7a619b34eefbf7f4f0d227c219c57fd3311766bfb2d0a74d",
+        "sha256_in_prefix": "e15fb0d1df19389e7a619b34eefbf7f4f0d227c219c57fd3311766bfb2d0a74d",
+        "size_in_bytes": 5093
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_read_source.html",
+        "path_type": "hardlink",
+        "sha256": "33ae248cdb90486d240b2b60b6d5bc4f063335ce11434f4716fbba75f5192b1e",
+        "sha256_in_prefix": "33ae248cdb90486d240b2b60b6d5bc4f063335ce11434f4716fbba75f5192b1e",
+        "size_in_bytes": 3601
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_read_table.html",
+        "path_type": "hardlink",
+        "sha256": "4592d6c669812fd047fe64fc182efb417f6bf5914451a3901b7779c75bcb190e",
+        "sha256_in_prefix": "4592d6c669812fd047fe64fc182efb417f6bf5914451a3901b7779c75bcb190e",
+        "size_in_bytes": 3474
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_read_text.html",
+        "path_type": "hardlink",
+        "sha256": "786a347d239ea0a0b421c8fbcf72ad0d35daa63b1ceb809ca4f5c5d790b5ff0b",
+        "sha256_in_prefix": "786a347d239ea0a0b421c8fbcf72ad0d35daa63b1ceb809ca4f5c5d790b5ff0b",
+        "size_in_bytes": 4417
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_save_table.html",
+        "path_type": "hardlink",
+        "sha256": "e9ae309e8d56b27c05e6c913257b1056178318060e1195ebb8a31f311aa749ba",
+        "sha256_in_prefix": "e9ae309e8d56b27c05e6c913257b1056178318060e1195ebb8a31f311aa749ba",
+        "size_in_bytes": 3151
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_table_name.html",
+        "path_type": "hardlink",
+        "sha256": "6ede95503335811ae0053093d358f93f9051fa18b4519d0aee1ee0ced1142d4d",
+        "sha256_in_prefix": "6ede95503335811ae0053093d358f93f9051fa18b4519d0aee1ee0ced1142d4d",
+        "size_in_bytes": 1136
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_version.html",
+        "path_type": "hardlink",
+        "sha256": "18717455b8cd42c15271886ec154c0d321f5bc10eeeacd7cca12ea1016485320",
+        "sha256_in_prefix": "18717455b8cd42c15271886ec154c0d321f5bc10eeeacd7cca12ea1016485320",
+        "size_in_bytes": 1447
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_version_from_home.html",
+        "path_type": "hardlink",
+        "sha256": "a1abe71eb3e3bec8b4321a8ebe25450a3fc062fed51d3e033a4aaf6c00824644",
+        "sha256_in_prefix": "a1abe71eb3e3bec8b4321a8ebe25450a3fc062fed51d3e033a4aaf6c00824644",
+        "size_in_bytes": 1356
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_versions.html",
+        "path_type": "hardlink",
+        "sha256": "f2f9f9e9597b2aac8aac222997a3f0b088b122e11cf65e18f9ce47067b85c144",
+        "sha256_in_prefix": "f2f9f9e9597b2aac8aac222997a3f0b088b122e11cf65e18f9ce47067b85c144",
+        "size_in_bytes": 1112
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_web.html",
+        "path_type": "hardlink",
+        "sha256": "793b5d80c53a5e7aba158b9c233f259376d57083226e331555b64a07746874ee",
+        "sha256_in_prefix": "793b5d80c53a5e7aba158b9c233f259376d57083226e331555b64a07746874ee",
+        "size_in_bytes": 1087
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_write_csv.html",
+        "path_type": "hardlink",
+        "sha256": "7b84ce6a57f0e3c88a297224c82143cc0ec7dc1560c2730ac56367d7b892487c",
+        "sha256_in_prefix": "7b84ce6a57f0e3c88a297224c82143cc0ec7dc1560c2730ac56367d7b892487c",
+        "size_in_bytes": 4445
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_write_jdbc.html",
+        "path_type": "hardlink",
+        "sha256": "5a94ee08d46e83b839b19c49a15d6ea89e214d2c8c625482cd3696a7de861182",
+        "sha256_in_prefix": "5a94ee08d46e83b839b19c49a15d6ea89e214d2c8c625482cd3696a7de861182",
+        "size_in_bytes": 3314
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_write_json.html",
+        "path_type": "hardlink",
+        "sha256": "6372fdcdf5a349b4973cde438f3dd2422f6b8f36ebbdc6c61f28006569b31414",
+        "sha256_in_prefix": "6372fdcdf5a349b4973cde438f3dd2422f6b8f36ebbdc6c61f28006569b31414",
+        "size_in_bytes": 3519
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_write_parquet.html",
+        "path_type": "hardlink",
+        "sha256": "adeb0334dd171af541124ad34fc352aff185fda23d85a2a27418df244cec1336",
+        "sha256_in_prefix": "adeb0334dd171af541124ad34fc352aff185fda23d85a2a27418df244cec1336",
+        "size_in_bytes": 3689
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_write_source.html",
+        "path_type": "hardlink",
+        "sha256": "94b01145bdd2c968b6d2e4ecbff5ea6af932f11a844547d323ba18ed3cda23aa",
+        "sha256_in_prefix": "94b01145bdd2c968b6d2e4ecbff5ea6af932f11a844547d323ba18ed3cda23aa",
+        "size_in_bytes": 3322
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_write_table.html",
+        "path_type": "hardlink",
+        "sha256": "6afd21194a148bf21904fc3b491d6d835fe7fdaecaa0be7c939107827abef8a7",
+        "sha256_in_prefix": "6afd21194a148bf21904fc3b491d6d835fe7fdaecaa0be7c939107827abef8a7",
+        "size_in_bytes": 3318
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/spark_write_text.html",
+        "path_type": "hardlink",
+        "sha256": "c65ccad77d3facbb2de3444bce094f9af7ae3bb3f46501154d411cd7bc10a3e7",
+        "sha256_in_prefix": "c65ccad77d3facbb2de3444bce094f9af7ae3bb3f46501154d411cd7bc10a3e7",
+        "size_in_bytes": 3467
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/sql-transformer.html",
+        "path_type": "hardlink",
+        "sha256": "0af9a7169ed144b0db8ae4fb7d35cfb9c4fbdcda393bf73acd865fdadf6113e2",
+        "sha256_in_prefix": "0af9a7169ed144b0db8ae4fb7d35cfb9c4fbdcda393bf73acd865fdadf6113e2",
+        "size_in_bytes": 5895
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/src_databases.html",
+        "path_type": "hardlink",
+        "sha256": "e058216d9c8815c1dbed4498711cd0fbf6119256e19ece9388fde2a0cf147ea6",
+        "sha256_in_prefix": "e058216d9c8815c1dbed4498711cd0fbf6119256e19ece9388fde2a0cf147ea6",
+        "size_in_bytes": 1069
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/tbl_cache.html",
+        "path_type": "hardlink",
+        "sha256": "de7c3838090cd863c8e5b8511fae9f0a9abada5bb980bd09df1d9d72f76bb897",
+        "sha256_in_prefix": "de7c3838090cd863c8e5b8511fae9f0a9abada5bb980bd09df1d9d72f76bb897",
+        "size_in_bytes": 1460
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/tbl_change_db.html",
+        "path_type": "hardlink",
+        "sha256": "b76294b6e1cb8d7db48944c338eaebf916f3a37f9ecca32ad2c588823b7d7803",
+        "sha256_in_prefix": "b76294b6e1cb8d7db48944c338eaebf916f3a37f9ecca32ad2c588823b7d7803",
+        "size_in_bytes": 1061
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/tbl_uncache.html",
+        "path_type": "hardlink",
+        "sha256": "3744f695889d3d1881c678de678481724c3693955b4c73231608587b20a7a1a2",
+        "sha256_in_prefix": "3744f695889d3d1881c678de678481724c3693955b4c73231608587b20a7a1a2",
+        "size_in_bytes": 1106
+      },
+      {
+        "_path": "lib/R/library/sparklyr/html/worker_spark_apply_unbundle.html",
+        "path_type": "hardlink",
+        "sha256": "3b682c04cbde4118c89f679c276c7a005b27e2c6ff276dba8bf6031c26cc9661",
+        "sha256_in_prefix": "3b682c04cbde4118c89f679c276c7a005b27e2c6ff276dba8bf6031c26cc9661",
+        "size_in_bytes": 1343
+      },
+      {
+        "_path": "lib/R/library/sparklyr/icons/edit-sql.png",
+        "path_type": "hardlink",
+        "sha256": "84062a4f0a4830395ba0375ab0445da657796e5480fa2ed8a91d55c0c0bb738a",
+        "sha256_in_prefix": "84062a4f0a4830395ba0375ab0445da657796e5480fa2ed8a91d55c0c0bb738a",
+        "size_in_bytes": 813
+      },
+      {
+        "_path": "lib/R/library/sparklyr/icons/help.png",
+        "path_type": "hardlink",
+        "sha256": "d8d60c91bd649a9241659a6c78f9ad86b2536a8d3d7d83d2fb3aaeddbd586ada",
+        "sha256_in_prefix": "d8d60c91bd649a9241659a6c78f9ad86b2536a8d3d7d83d2fb3aaeddbd586ada",
+        "size_in_bytes": 1277
+      },
+      {
+        "_path": "lib/R/library/sparklyr/icons/livy.png",
+        "path_type": "hardlink",
+        "sha256": "0d0f3f02a25b7fcef62e65ccc9f4b22300096eaa551db6b1930201e0170a4902",
+        "sha256_in_prefix": "0d0f3f02a25b7fcef62e65ccc9f4b22300096eaa551db6b1930201e0170a4902",
+        "size_in_bytes": 1242
+      },
+      {
+        "_path": "lib/R/library/sparklyr/icons/spark-log.png",
+        "path_type": "hardlink",
+        "sha256": "37741c19249796234c5e90998901bafa89645054ef0177bb7bbd608878d2f33d",
+        "sha256_in_prefix": "37741c19249796234c5e90998901bafa89645054ef0177bb7bbd608878d2f33d",
+        "size_in_bytes": 1176
+      },
+      {
+        "_path": "lib/R/library/sparklyr/icons/spark-ui.png",
+        "path_type": "hardlink",
+        "sha256": "036d30fc6144a83938f6af9dac363905d4a6cd6c76f3255b50abc6dbe24d800f",
+        "sha256_in_prefix": "036d30fc6144a83938f6af9dac363905d4a6cd6c76f3255b50abc6dbe24d800f",
+        "size_in_bytes": 1283
+      },
+      {
+        "_path": "lib/R/library/sparklyr/icons/spark.png",
+        "path_type": "hardlink",
+        "sha256": "ad61944dc52942486b47469299f44ad535aeef3468e7fc6aab8a0e8b7c5e9e13",
+        "sha256_in_prefix": "ad61944dc52942486b47469299f44ad535aeef3468e7fc6aab8a0e8b7c5e9e13",
+        "size_in_bytes": 1781
+      },
+      {
+        "_path": "lib/R/library/sparklyr/java/commons-csv-1.5.jar",
+        "path_type": "hardlink",
+        "sha256": "f0acb4058efe4616ea631b5119f59ef21fe43843f4e399455521e984e8df99e5",
+        "sha256_in_prefix": "f0acb4058efe4616ea631b5119f59ef21fe43843f4e399455521e984e8df99e5",
+        "size_in_bytes": 41586
+      },
+      {
+        "_path": "lib/R/library/sparklyr/java/spark-csv_2.11-1.5.0.jar",
+        "path_type": "hardlink",
+        "sha256": "4a7d3f0f0291b88df6af7b14bbc274359a4d6c37e4e580111fe6ba3a259d9f9d",
+        "sha256_in_prefix": "4a7d3f0f0291b88df6af7b14bbc274359a4d6c37e4e580111fe6ba3a259d9f9d",
+        "size_in_bytes": 167269
+      },
+      {
+        "_path": "lib/R/library/sparklyr/java/sparklyr-1.5-2.10.jar",
+        "path_type": "hardlink",
+        "sha256": "3f3f485777b3684b859c5e513869ca9b9cb23d349446715c00a9d90cc505666d",
+        "sha256_in_prefix": "3f3f485777b3684b859c5e513869ca9b9cb23d349446715c00a9d90cc505666d",
+        "size_in_bytes": 178157
+      },
+      {
+        "_path": "lib/R/library/sparklyr/java/sparklyr-1.6-2.10.jar",
+        "path_type": "hardlink",
+        "sha256": "1ecbe687be5875c11594cf5f2dd90ad0a7b82dee48aea8c5f516171b2b350de0",
+        "sha256_in_prefix": "1ecbe687be5875c11594cf5f2dd90ad0a7b82dee48aea8c5f516171b2b350de0",
+        "size_in_bytes": 228069
+      },
+      {
+        "_path": "lib/R/library/sparklyr/java/sparklyr-2.0-2.11.jar",
+        "path_type": "hardlink",
+        "sha256": "6022ed0544d6f5104514eb6162f95d2c0c245936603f01a3df8b60e9c45065cc",
+        "sha256_in_prefix": "6022ed0544d6f5104514eb6162f95d2c0c245936603f01a3df8b60e9c45065cc",
+        "size_in_bytes": 237435
+      },
+      {
+        "_path": "lib/R/library/sparklyr/java/sparklyr-2.1-2.11.jar",
+        "path_type": "hardlink",
+        "sha256": "c4cc0b568dd1ed7df6c2040f893c7b13f8811b4784f7b15a320b785100fc3be5",
+        "sha256_in_prefix": "c4cc0b568dd1ed7df6c2040f893c7b13f8811b4784f7b15a320b785100fc3be5",
+        "size_in_bytes": 237435
+      },
+      {
+        "_path": "lib/R/library/sparklyr/java/sparklyr-2.2-2.11.jar",
+        "path_type": "hardlink",
+        "sha256": "6ee58ec969606afbb18363d156b57a76127a6730b91edd8a729ebe583864986d",
+        "sha256_in_prefix": "6ee58ec969606afbb18363d156b57a76127a6730b91edd8a729ebe583864986d",
+        "size_in_bytes": 237435
+      },
+      {
+        "_path": "lib/R/library/sparklyr/java/sparklyr-2.3-2.11.jar",
+        "path_type": "hardlink",
+        "sha256": "563c4b16ca71f22df3261dac6c2f2405d25b98c9c3cb9185302493a82f226e0c",
+        "sha256_in_prefix": "563c4b16ca71f22df3261dac6c2f2405d25b98c9c3cb9185302493a82f226e0c",
+        "size_in_bytes": 239077
+      },
+      {
+        "_path": "lib/R/library/sparklyr/java/sparkworker-1.5-2.10.jar",
+        "path_type": "hardlink",
+        "sha256": "513f199721994d61cb91cc6f779043e960c50c7bd56eae2aaeda3c7d5957a1b7",
+        "sha256_in_prefix": "513f199721994d61cb91cc6f779043e960c50c7bd56eae2aaeda3c7d5957a1b7",
+        "size_in_bytes": 8503
+      },
+      {
+        "_path": "lib/R/library/sparklyr/java/sparkworker-1.6-2.10.jar",
+        "path_type": "hardlink",
+        "sha256": "a755d00350e4b4f08d865b00853b5cda6f118af542c043f443688235b1f81f72",
+        "sha256_in_prefix": "a755d00350e4b4f08d865b00853b5cda6f118af542c043f443688235b1f81f72",
+        "size_in_bytes": 8503
+      },
+      {
+        "_path": "lib/R/library/sparklyr/java/sparkworker-2.0-2.11.jar",
+        "path_type": "hardlink",
+        "sha256": "472dd0846e8b76ffa1ddcd22cfa3780622c34e64138d82463970b3b7aa081de2",
+        "sha256_in_prefix": "472dd0846e8b76ffa1ddcd22cfa3780622c34e64138d82463970b3b7aa081de2",
+        "size_in_bytes": 8796
+      },
+      {
+        "_path": "lib/R/library/sparklyr/java/sparkworker-2.1-2.11.jar",
+        "path_type": "hardlink",
+        "sha256": "9396aebe2dd2e5f8e8b56e7d49a6eb076a982693d704225cf71082951cde8721",
+        "sha256_in_prefix": "9396aebe2dd2e5f8e8b56e7d49a6eb076a982693d704225cf71082951cde8721",
+        "size_in_bytes": 30604
+      },
+      {
+        "_path": "lib/R/library/sparklyr/java/univocity-parsers-1.5.1.jar",
+        "path_type": "hardlink",
+        "sha256": "0a2e21d354ac9337c6cb72fe6eefa38b6abcc53ebab085ecae5a34addb532343",
+        "sha256_in_prefix": "0a2e21d354ac9337c6cb72fe6eefa38b6abcc53ebab085ecae5a34addb532343",
+        "size_in_bytes": 148962
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.5.2/backend.scala",
+        "path_type": "hardlink",
+        "sha256": "9dd7648eb9a9897715ad1bcba07f737a04f51fc93ad5fb310d23f276f393e451",
+        "sha256_in_prefix": "9dd7648eb9a9897715ad1bcba07f737a04f51fc93ad5fb310d23f276f393e451",
+        "size_in_bytes": 15315
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.5.2/channel.scala",
+        "path_type": "hardlink",
+        "sha256": "9fe5c94ddc4e531752a35cc74f60229b35bd2aa0822abaa1b9d3e8bfb1c6f41f",
+        "sha256_in_prefix": "9fe5c94ddc4e531752a35cc74f60229b35bd2aa0822abaa1b9d3e8bfb1c6f41f",
+        "size_in_bytes": 3355
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.5.2/handler.scala",
+        "path_type": "hardlink",
+        "sha256": "5dbc99138f3eb7ef47099a0d592df39e38a10e65742cf33c72b97a5945838855",
+        "sha256_in_prefix": "5dbc99138f3eb7ef47099a0d592df39e38a10e65742cf33c72b97a5945838855",
+        "size_in_bytes": 1923
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.5.2/invoke.scala",
+        "path_type": "hardlink",
+        "sha256": "afdcedfa3aaf87bad3d28cee0f2d04ba38b0ff0eaf51142464e45b1189fae8bb",
+        "sha256_in_prefix": "afdcedfa3aaf87bad3d28cee0f2d04ba38b0ff0eaf51142464e45b1189fae8bb",
+        "size_in_bytes": 7229
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.5.2/logger.scala",
+        "path_type": "hardlink",
+        "sha256": "8618b359d8cbbbb8cd354c120959e8dbd22f4ae0d4a525dc1fd0c3144f91cc7e",
+        "sha256_in_prefix": "8618b359d8cbbbb8cd354c120959e8dbd22f4ae0d4a525dc1fd0c3144f91cc7e",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.5.2/mlutils.scala",
+        "path_type": "hardlink",
+        "sha256": "c31b81c264ed68e3f5504d8180be371894549bfa0dbecd3885cf73ca46d944c9",
+        "sha256_in_prefix": "c31b81c264ed68e3f5504d8180be371894549bfa0dbecd3885cf73ca46d944c9",
+        "size_in_bytes": 2649
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.5.2/serializer.scala",
+        "path_type": "hardlink",
+        "sha256": "4bfa7897bb1f513144fb2a0b0e066903e3de96b085409056edc31933059fc540",
+        "sha256_in_prefix": "4bfa7897bb1f513144fb2a0b0e066903e3de96b085409056edc31933059fc540",
+        "size_in_bytes": 13430
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.5.2/shell.scala",
+        "path_type": "hardlink",
+        "sha256": "9d3397e7ba430f704d9b8997d8877dee9dda134cf491814639b037858b96e065",
+        "sha256_in_prefix": "9d3397e7ba430f704d9b8997d8877dee9dda134cf491814639b037858b96e065",
+        "size_in_bytes": 86
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.5.2/sqlutils.scala",
+        "path_type": "hardlink",
+        "sha256": "7c53dc7b615110e490e9230eddfd4a68d44af7f84d1685af6aa4a7bbaa05461a",
+        "sha256_in_prefix": "7c53dc7b615110e490e9230eddfd4a68d44af7f84d1685af6aa4a7bbaa05461a",
+        "size_in_bytes": 3074
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.5.2/stream.scala",
+        "path_type": "hardlink",
+        "sha256": "f2e5fefec2b7a6cdb45c752a44c6c4ce5eb4b43e70a7f449617322ec1937de8b",
+        "sha256_in_prefix": "f2e5fefec2b7a6cdb45c752a44c6c4ce5eb4b43e70a7f449617322ec1937de8b",
+        "size_in_bytes": 4967
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.5.2/tracker.scala",
+        "path_type": "hardlink",
+        "sha256": "ddfaf5a8877e68f3fa6887970095de50cf0b8391155e136e74ce987e10d9ef38",
+        "sha256_in_prefix": "ddfaf5a8877e68f3fa6887970095de50cf0b8391155e136e74ce987e10d9ef38",
+        "size_in_bytes": 802
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.5.2/utils.scala",
+        "path_type": "hardlink",
+        "sha256": "1f62f1ea13318880756afe85e4b591a95a558edbc44d15f6ff293f0b947cf9e2",
+        "sha256_in_prefix": "1f62f1ea13318880756afe85e4b591a95a558edbc44d15f6ff293f0b947cf9e2",
+        "size_in_bytes": 13942
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.6.0/applyutils.scala",
+        "path_type": "hardlink",
+        "sha256": "14cdbd9ade0bad0a24ff362feb84b2049b384e4710fb97e8c4dc90bdfa763708",
+        "sha256_in_prefix": "14cdbd9ade0bad0a24ff362feb84b2049b384e4710fb97e8c4dc90bdfa763708",
+        "size_in_bytes": 651
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.6.0/classutils.scala",
+        "path_type": "hardlink",
+        "sha256": "d92205f227c515d17b221503d2f0920f941998952ffd0dc897d8a23c469faea6",
+        "sha256_in_prefix": "d92205f227c515d17b221503d2f0920f941998952ffd0dc897d8a23c469faea6",
+        "size_in_bytes": 554
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.6.0/fileutils.scala",
+        "path_type": "hardlink",
+        "sha256": "e0e2e3540de55469b0c147c41375195320936b01ea7d656c3d0cb2778a4ebb77",
+        "sha256_in_prefix": "e0e2e3540de55469b0c147c41375195320936b01ea7d656c3d0cb2778a4ebb77",
+        "size_in_bytes": 609
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.6.0/livyutils.scala",
+        "path_type": "hardlink",
+        "sha256": "845049a1adffe773c4f9bf41284c51f4464ffcb67fd14b90574509cbb4e7c697",
+        "sha256_in_prefix": "845049a1adffe773c4f9bf41284c51f4464ffcb67fd14b90574509cbb4e7c697",
+        "size_in_bytes": 931
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.6.0/rscript.scala",
+        "path_type": "hardlink",
+        "sha256": "56765735fd7e90435f9fe791690abfabc0a236b98540bd41e89a0185d252564e",
+        "sha256_in_prefix": "56765735fd7e90435f9fe791690abfabc0a236b98540bd41e89a0185d252564e",
+        "size_in_bytes": 4045
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.6.0/sources.scala",
+        "path_type": "hardlink",
+        "sha256": "490046f0476fe49d5d7bde858a7f0e3506e335cb2c1197553126a8204cf5d86f",
+        "sha256_in_prefix": "490046f0476fe49d5d7bde858a7f0e3506e335cb2c1197553126a8204cf5d86f",
+        "size_in_bytes": 33445
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.6.0/workercontext.scala",
+        "path_type": "hardlink",
+        "sha256": "babba413ee15d03de14a34dd902b2b47db22d32712f0ce9790609ea729a79d6f",
+        "sha256_in_prefix": "babba413ee15d03de14a34dd902b2b47db22d32712f0ce9790609ea729a79d6f",
+        "size_in_bytes": 1524
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.6.0/workerhelper.scala",
+        "path_type": "hardlink",
+        "sha256": "7d7473c16f1944a230d432aab668347bc672f9d288a9005cb0ef3e2764f371e1",
+        "sha256_in_prefix": "7d7473c16f1944a230d432aab668347bc672f9d288a9005cb0ef3e2764f371e1",
+        "size_in_bytes": 1462
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.6.0/workerrdd.scala",
+        "path_type": "hardlink",
+        "sha256": "cb9ee43a26c3eb12d72f888dc76c1f7afcb9458063a2e4382a7f29b7141245a1",
+        "sha256_in_prefix": "cb9ee43a26c3eb12d72f888dc76c1f7afcb9458063a2e4382a7f29b7141245a1",
+        "size_in_bytes": 3342
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-1.6.0/workerutils.scala",
+        "path_type": "hardlink",
+        "sha256": "9f8f48f9bdb87fb70247b5dc102e06bf9ebd3865ead1b87a632939e55886feda",
+        "sha256_in_prefix": "9f8f48f9bdb87fb70247b5dc102e06bf9ebd3865ead1b87a632939e55886feda",
+        "size_in_bytes": 629
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-2.0.0/livyutils.scala",
+        "path_type": "hardlink",
+        "sha256": "4abfccd5266fb9b2534799a13e90717f50f46d549bd5cdd4ec482f819acea5a5",
+        "sha256_in_prefix": "4abfccd5266fb9b2534799a13e90717f50f46d549bd5cdd4ec482f819acea5a5",
+        "size_in_bytes": 971
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-2.0.0/mlutils2.scala",
+        "path_type": "hardlink",
+        "sha256": "fbbe009ccfebd514a5c77da91878aad668aea94f4734d621c266d60ba5314f20",
+        "sha256_in_prefix": "fbbe009ccfebd514a5c77da91878aad668aea94f4734d621c266d60ba5314f20",
+        "size_in_bytes": 1041
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-2.0.0/repartition.scala",
+        "path_type": "hardlink",
+        "sha256": "e0525d5b87db182f68e49a5a13bfcbfb16107127292ff596d151c4d265184d14",
+        "sha256_in_prefix": "e0525d5b87db182f68e49a5a13bfcbfb16107127292ff596d151c4d265184d14",
+        "size_in_bytes": 647
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-2.3.0/bucketizerutils.scala",
+        "path_type": "hardlink",
+        "sha256": "5d689330421f6b1de9d8dfcbac43e73fa439a564b293a33ff28549017b8545f3",
+        "sha256_in_prefix": "5d689330421f6b1de9d8dfcbac43e73fa439a564b293a33ff28549017b8545f3",
+        "size_in_bytes": 361
+      },
+      {
+        "_path": "lib/R/library/sparklyr/livy/spark-2.3.0/livyutils.scala",
+        "path_type": "hardlink",
+        "sha256": "b74a01425b1b5c9aa8447c2895ad52cd085703e7cb009f8d544967a291967f6e",
+        "sha256_in_prefix": "b74a01425b1b5c9aa8447c2895ad52cd085703e7cb009f8d544967a291967f6e",
+        "size_in_bytes": 1013
+      },
+      {
+        "_path": "lib/R/library/sparklyr/rstudio/connections.dcf",
+        "path_type": "hardlink",
+        "sha256": "d434936352ad0ff7c589799301353da9ccaa2abc739b37d180fb01a10b5c862a",
+        "sha256_in_prefix": "d434936352ad0ff7c589799301353da9ccaa2abc739b37d180fb01a10b5c862a",
+        "size_in_bytes": 204
+      },
+      {
+        "_path": "lib/R/library/sparklyr/rstudio/connections/Livy.R",
+        "path_type": "hardlink",
+        "sha256": "4259db85f6c087375e159c38eff3182566b683907f95ac782d3ac3c58bc07314",
+        "sha256_in_prefix": "4259db85f6c087375e159c38eff3182566b683907f95ac782d3ac3c58bc07314",
+        "size_in_bytes": 275
+      },
+      {
+        "_path": "lib/R/library/sparklyr/rstudio/templates/project/skeleton.dcf",
+        "path_type": "hardlink",
+        "sha256": "7505cd7a55da9535872c13de30f75f6bc4394f04ea4f010ef8ec6345e37f9700",
+        "sha256_in_prefix": "7505cd7a55da9535872c13de30f75f6bc4394f04ea4f010ef8ec6345e37f9700",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "lib/R/library/sparklyr/rstudio/templates/project/spark.png",
+        "path_type": "hardlink",
+        "sha256": "ad61944dc52942486b47469299f44ad535aeef3468e7fc6aab8a0e8b7c5e9e13",
+        "sha256_in_prefix": "ad61944dc52942486b47469299f44ad535aeef3468e7fc6aab8a0e8b7c5e9e13",
+        "size_in_bytes": 1781
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 2721399,
+  "subdir": "win-64",
+  "timestamp": 1538180498494,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-sparklyr-0.8.4-r351h6f4ce42_0.tar.bz2",
+  "version": "0.8.4"
+}

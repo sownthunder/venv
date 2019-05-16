@@ -1,0 +1,227 @@
+{
+  "build": "2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-expat",
+    "m2w64-gcc-libs",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-libmetalink-0.1.3-2",
+  "features": "",
+  "files": [
+    "Library/mingw-w64/bin/libmetalink-3.dll",
+    "Library/mingw-w64/include/metalink/metalink.h",
+    "Library/mingw-w64/include/metalink/metalink_error.h",
+    "Library/mingw-w64/include/metalink/metalink_parser.h",
+    "Library/mingw-w64/include/metalink/metalink_types.h",
+    "Library/mingw-w64/include/metalink/metalinkver.h",
+    "Library/mingw-w64/lib/libmetalink.a",
+    "Library/mingw-w64/lib/libmetalink.dll.a",
+    "Library/mingw-w64/lib/pkgconfig/libmetalink.pc",
+    "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_checksum_t.3.gz",
+    "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_chunk_checksum_t.3.gz",
+    "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_delete.3.gz",
+    "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_file_t.3.gz",
+    "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_parse_fd.3.gz",
+    "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_parse_file.3.gz",
+    "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_parse_final.3.gz",
+    "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_parse_fp.3.gz",
+    "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_parse_memory.3.gz",
+    "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_parse_update.3.gz",
+    "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_parser_context_delete.3.gz",
+    "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_parser_context_new.3.gz",
+    "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_piece_hash_t.3.gz",
+    "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_resource_t.3.gz",
+    "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_t.3.gz"
+  ],
+  "fn": "m2w64-libmetalink-0.1.3-2.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-libmetalink-0.1.3-2",
+    "type": 1
+  },
+  "md5": "0e53358695ab287eb2ed3b47274c1add",
+  "name": "m2w64-libmetalink",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-libmetalink-0.1.3-2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/mingw-w64/bin/libmetalink-3.dll",
+        "path_type": "hardlink",
+        "sha256": "8c689454855ae9af3f3295e50c8f0f87b7fb797609fe07a964dc8d07daaa574e",
+        "sha256_in_prefix": "8c689454855ae9af3f3295e50c8f0f87b7fb797609fe07a964dc8d07daaa574e",
+        "size_in_bytes": 59550
+      },
+      {
+        "_path": "Library/mingw-w64/include/metalink/metalink.h",
+        "path_type": "hardlink",
+        "sha256": "4dc48219fef7a2ad6432268046e562c57afe85035c0c44f09e9b1e030bc907bb",
+        "sha256_in_prefix": "4dc48219fef7a2ad6432268046e562c57afe85035c0c44f09e9b1e030bc907bb",
+        "size_in_bytes": 1950
+      },
+      {
+        "_path": "Library/mingw-w64/include/metalink/metalink_error.h",
+        "path_type": "hardlink",
+        "sha256": "a0c0924647bc21142fb2e938cd8f68451c53504e7acb755702c42e09cffcf5a0",
+        "sha256_in_prefix": "a0c0924647bc21142fb2e938cd8f68451c53504e7acb755702c42e09cffcf5a0",
+        "size_in_bytes": 1981
+      },
+      {
+        "_path": "Library/mingw-w64/include/metalink/metalink_parser.h",
+        "path_type": "hardlink",
+        "sha256": "4d362007815b19fc374951b5c8e514aec43e745a8585292c09ea8aca155ac765",
+        "sha256_in_prefix": "4d362007815b19fc374951b5c8e514aec43e745a8585292c09ea8aca155ac765",
+        "size_in_bytes": 4545
+      },
+      {
+        "_path": "Library/mingw-w64/include/metalink/metalink_types.h",
+        "path_type": "hardlink",
+        "sha256": "8e5b7c61c9580aa549ae2c089952eb5ec8b2fe186aca3567556009eba3ce98cc",
+        "sha256_in_prefix": "8e5b7c61c9580aa549ae2c089952eb5ec8b2fe186aca3567556009eba3ce98cc",
+        "size_in_bytes": 10658
+      },
+      {
+        "_path": "Library/mingw-w64/include/metalink/metalinkver.h",
+        "path_type": "hardlink",
+        "sha256": "0c15d7e37d49fc3659da4b61e050b3aeb0775ac696d2f98e0cfc47c42394d471",
+        "sha256_in_prefix": "0c15d7e37d49fc3659da4b61e050b3aeb0775ac696d2f98e0cfc47c42394d471",
+        "size_in_bytes": 1799
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libmetalink.a",
+        "path_type": "hardlink",
+        "sha256": "b6323827e869bda8f2d9a429a6e012f4cfa7cdc92e662c9473830b4bee00d04b",
+        "sha256_in_prefix": "b6323827e869bda8f2d9a429a6e012f4cfa7cdc92e662c9473830b4bee00d04b",
+        "size_in_bytes": 108588
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libmetalink.dll.a",
+        "path_type": "hardlink",
+        "sha256": "90c5f0f9e50cdb90c05d7123cb210b0b3705bf59bbe6dfc32181a302d609e6e9",
+        "sha256_in_prefix": "90c5f0f9e50cdb90c05d7123cb210b0b3705bf59bbe6dfc32181a302d609e6e9",
+        "size_in_bytes": 176872
+      },
+      {
+        "_path": "Library/mingw-w64/lib/pkgconfig/libmetalink.pc",
+        "path_type": "hardlink",
+        "sha256": "bf95668928d308e499620a905b15f7e99b2e9d4e906d26b6299efc40dd6a9491",
+        "sha256_in_prefix": "bf95668928d308e499620a905b15f7e99b2e9d4e906d26b6299efc40dd6a9491",
+        "size_in_bytes": 1419
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_checksum_t.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c6304d1e68bce05032f32f34b6fc16a1e0d9d663329d4371ef7ba1e9618c58b3",
+        "sha256_in_prefix": "c6304d1e68bce05032f32f34b6fc16a1e0d9d663329d4371ef7ba1e9618c58b3",
+        "size_in_bytes": 396
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_chunk_checksum_t.3.gz",
+        "path_type": "hardlink",
+        "sha256": "b8a5e32c7bc5c085bd777e792b3a5ccc6bef3d07efd8b6e88800e8e2fd16ea5d",
+        "sha256_in_prefix": "b8a5e32c7bc5c085bd777e792b3a5ccc6bef3d07efd8b6e88800e8e2fd16ea5d",
+        "size_in_bytes": 513
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_delete.3.gz",
+        "path_type": "hardlink",
+        "sha256": "98b0ac41eaf45a58aec10b6be6893a7717502eb12f5d0131e2960af45bb0a920",
+        "sha256_in_prefix": "98b0ac41eaf45a58aec10b6be6893a7717502eb12f5d0131e2960af45bb0a920",
+        "size_in_bytes": 316
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_file_t.3.gz",
+        "path_type": "hardlink",
+        "sha256": "bf3c0c3ea3495097672010bc1441199a5cac6c32dfb999224cbe4aa84f141d6a",
+        "sha256_in_prefix": "bf3c0c3ea3495097672010bc1441199a5cac6c32dfb999224cbe4aa84f141d6a",
+        "size_in_bytes": 744
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_parse_fd.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f667d9a007d06dde2a808a8eea28d14543028b69d34c11bbbcc576250e474885",
+        "sha256_in_prefix": "f667d9a007d06dde2a808a8eea28d14543028b69d34c11bbbcc576250e474885",
+        "size_in_bytes": 51
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_parse_file.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5db8777daa33563186837a10a3cb5a5ac57626d9b1bd66a1ba32b45c7f8e84f4",
+        "sha256_in_prefix": "5db8777daa33563186837a10a3cb5a5ac57626d9b1bd66a1ba32b45c7f8e84f4",
+        "size_in_bytes": 1199
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_parse_final.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5d9f8f7998c9bbabd3c5cc01ac124c38210c1f36ac5fd8eb7a0684d69889ff6d",
+        "sha256_in_prefix": "5d9f8f7998c9bbabd3c5cc01ac124c38210c1f36ac5fd8eb7a0684d69889ff6d",
+        "size_in_bytes": 53
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_parse_fp.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f667d9a007d06dde2a808a8eea28d14543028b69d34c11bbbcc576250e474885",
+        "sha256_in_prefix": "f667d9a007d06dde2a808a8eea28d14543028b69d34c11bbbcc576250e474885",
+        "size_in_bytes": 51
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_parse_memory.3.gz",
+        "path_type": "hardlink",
+        "sha256": "f667d9a007d06dde2a808a8eea28d14543028b69d34c11bbbcc576250e474885",
+        "sha256_in_prefix": "f667d9a007d06dde2a808a8eea28d14543028b69d34c11bbbcc576250e474885",
+        "size_in_bytes": 51
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_parse_update.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8fdc916865e081b9c44993d0dca7a70308a7080dd93d46249f1c1d225e7d382f",
+        "sha256_in_prefix": "8fdc916865e081b9c44993d0dca7a70308a7080dd93d46249f1c1d225e7d382f",
+        "size_in_bytes": 1700
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_parser_context_delete.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5d9f8f7998c9bbabd3c5cc01ac124c38210c1f36ac5fd8eb7a0684d69889ff6d",
+        "sha256_in_prefix": "5d9f8f7998c9bbabd3c5cc01ac124c38210c1f36ac5fd8eb7a0684d69889ff6d",
+        "size_in_bytes": 53
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_parser_context_new.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5d9f8f7998c9bbabd3c5cc01ac124c38210c1f36ac5fd8eb7a0684d69889ff6d",
+        "sha256_in_prefix": "5d9f8f7998c9bbabd3c5cc01ac124c38210c1f36ac5fd8eb7a0684d69889ff6d",
+        "size_in_bytes": 53
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_piece_hash_t.3.gz",
+        "path_type": "hardlink",
+        "sha256": "45625687bb63755251d4e0171f3d76f02b2286437df26cd41be6d9bdc71b40b8",
+        "sha256_in_prefix": "45625687bb63755251d4e0171f3d76f02b2286437df26cd41be6d9bdc71b40b8",
+        "size_in_bytes": 339
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_resource_t.3.gz",
+        "path_type": "hardlink",
+        "sha256": "97615d7f9c9c18e9b12fd585d6946faa1ce7048632d418991dcc3d520d41888f",
+        "sha256_in_prefix": "97615d7f9c9c18e9b12fd585d6946faa1ce7048632d418991dcc3d520d41888f",
+        "size_in_bytes": 480
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/x86_64-w64-mingw32-metalink_t.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4cedb411fc83150b657a30c86f2327d6593fb797d61e01d741fabbffc9584c10",
+        "sha256_in_prefix": "4cedb411fc83150b657a30c86f2327d6593fb797d61e01d741fabbffc9584c10",
+        "size_in_bytes": 459
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 66872,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2w64-libmetalink-0.1.3-2.tar.bz2",
+  "version": "0.1.3"
+}

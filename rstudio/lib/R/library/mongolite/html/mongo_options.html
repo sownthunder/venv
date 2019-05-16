@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Mongo Options</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mongo_options {mongolite}"><tr><td>mongo_options {mongolite}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Mongo Options</h2>
+
+<h3>Description</h3>
+
+<p>Get and set global client options. Calling with <code>NULL</code> parameters returns current
+values without modifying.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mongo_options(log_level = NULL, bigint_as_char = NULL,
+  date_as_char = NULL)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>log_level</code></td>
+<td>
+<p>integer between 0 and 6 or <code>NULL</code> to leave unchanged.</p>
+</td></tr>
+<tr valign="top"><td><code>bigint_as_char</code></td>
+<td>
+<p>logical: parse int64 as strings instead of double.</p>
+</td></tr>
+<tr valign="top"><td><code>date_as_char</code></td>
+<td>
+<p>logical: parse UTC datetime as strings instead of POSIXct.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>Setting <a href="http://mongoc.org/libmongoc/current/logging.html">log_level</a> to 0 suppresses
+critical warnings and messages, while 6 is  most verbose and displays all debugging
+information. Possible values for level are:
+</p>
+
+<ul>
+<li> <p><code>0</code>: <em>error</em>
+</p>
+</li>
+<li> <p><code>1</code>: <em>critical</em>
+</p>
+</li>
+<li> <p><code>2</code>: <em>warning</em>
+</p>
+</li>
+<li> <p><code>3</code>: <em>message</em>
+</p>
+</li>
+<li> <p><code>4</code>: <em>info</em> (<strong>default</strong>)
+</p>
+</li>
+<li> <p><code>5</code>: <em>debug</em>
+</p>
+</li>
+<li> <p><code>6</code>: <em>trace</em>
+</p>
+</li></ul>
+
+<p>Note that setting it below 2 will suppress important warnings and setting
+below 1 will suppress critical errors (not recommended). The default is 4.
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>mongolite</em> version 1.6 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,122 @@
+{
+  "build": "2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-libwinpthread-git",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-diffutils-3.3.2-2",
+  "features": "",
+  "files": [
+    "Library/mingw-w64/bin/cmp.exe",
+    "Library/mingw-w64/bin/diff.exe",
+    "Library/mingw-w64/bin/diff3.exe",
+    "Library/mingw-w64/bin/sdiff.exe",
+    "Library/mingw-w64/share/info/diffutils.info.gz",
+    "Library/mingw-w64/share/licenses/diffutils/COPYING",
+    "Library/mingw-w64/share/licenses/diffutils/README",
+    "Library/mingw-w64/share/man/man1/cmp.1.gz",
+    "Library/mingw-w64/share/man/man1/diff.1.gz",
+    "Library/mingw-w64/share/man/man1/diff3.1.gz",
+    "Library/mingw-w64/share/man/man1/sdiff.1.gz"
+  ],
+  "fn": "m2w64-diffutils-3.3.2-2.tar.bz2",
+  "license": "GPL3",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-diffutils-3.3.2-2",
+    "type": 1
+  },
+  "md5": "a727c30ff421e25d91debfde535e2e90",
+  "name": "m2w64-diffutils",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-diffutils-3.3.2-2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/mingw-w64/bin/cmp.exe",
+        "path_type": "hardlink",
+        "sha256": "1036617f57787a87db53354eabedba563831c03462ba788870ea27529f12f21c",
+        "sha256_in_prefix": "1036617f57787a87db53354eabedba563831c03462ba788870ea27529f12f21c",
+        "size_in_bytes": 93185
+      },
+      {
+        "_path": "Library/mingw-w64/bin/diff.exe",
+        "path_type": "hardlink",
+        "sha256": "dd03722807b11125ccb3d7113ff05a07dd02ad8ddb064edf09a873362d07b473",
+        "sha256_in_prefix": "dd03722807b11125ccb3d7113ff05a07dd02ad8ddb064edf09a873362d07b473",
+        "size_in_bytes": 252198
+      },
+      {
+        "_path": "Library/mingw-w64/bin/diff3.exe",
+        "path_type": "hardlink",
+        "sha256": "716e20a2e36406091ab7a04122f22f26ce15b9ed56a8cd94d52186a07bf7fd4d",
+        "sha256_in_prefix": "716e20a2e36406091ab7a04122f22f26ce15b9ed56a8cd94d52186a07bf7fd4d",
+        "size_in_bytes": 106578
+      },
+      {
+        "_path": "Library/mingw-w64/bin/sdiff.exe",
+        "path_type": "hardlink",
+        "sha256": "8e403d20e1b20c01f28b204bc41f283fdb4e3e256905079b9c50bd0e6524c0f4",
+        "sha256_in_prefix": "8e403d20e1b20c01f28b204bc41f283fdb4e3e256905079b9c50bd0e6524c0f4",
+        "size_in_bytes": 108320
+      },
+      {
+        "_path": "Library/mingw-w64/share/info/diffutils.info.gz",
+        "path_type": "hardlink",
+        "sha256": "b32099973bc77420cd2be4519974fb541fbe35b6dd0202c0d09b34bde5ddf51b",
+        "sha256_in_prefix": "b32099973bc77420cd2be4519974fb541fbe35b6dd0202c0d09b34bde5ddf51b",
+        "size_in_bytes": 60787
+      },
+      {
+        "_path": "Library/mingw-w64/share/licenses/diffutils/COPYING",
+        "path_type": "hardlink",
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "sha256_in_prefix": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "size_in_bytes": 35147
+      },
+      {
+        "_path": "Library/mingw-w64/share/licenses/diffutils/README",
+        "path_type": "hardlink",
+        "sha256": "55090196e2cd0db679d9b42174428e6edd8d53bb1d4a473bd972eb7b50037f08",
+        "sha256_in_prefix": "55090196e2cd0db679d9b42174428e6edd8d53bb1d4a473bd972eb7b50037f08",
+        "size_in_bytes": 2854
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man1/cmp.1.gz",
+        "path_type": "hardlink",
+        "sha256": "813d1c221f4f0c7495e80b725f6ee45d636194c5e3fc58f2b65dfff31d51c987",
+        "sha256_in_prefix": "813d1c221f4f0c7495e80b725f6ee45d636194c5e3fc58f2b65dfff31d51c987",
+        "size_in_bytes": 1179
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man1/diff.1.gz",
+        "path_type": "hardlink",
+        "sha256": "ae924578cd0b8201760333a02557c45d523192af76c78d5b654d92beb091c25c",
+        "sha256_in_prefix": "ae924578cd0b8201760333a02557c45d523192af76c78d5b654d92beb091c25c",
+        "size_in_bytes": 2496
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man1/diff3.1.gz",
+        "path_type": "hardlink",
+        "sha256": "80308a5afff5c57f6ff8b1ae8ed0feda57500955bc2fb00232eadf3e9011981f",
+        "sha256_in_prefix": "80308a5afff5c57f6ff8b1ae8ed0feda57500955bc2fb00232eadf3e9011981f",
+        "size_in_bytes": 1355
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man1/sdiff.1.gz",
+        "path_type": "hardlink",
+        "sha256": "abd9441a0e068197ca9294a2ad308905be5b51629fe65f3813685ac5b3cd672c",
+        "sha256_in_prefix": "abd9441a0e068197ca9294a2ad308905be5b51629fe65f3813685ac5b3cd672c",
+        "size_in_bytes": 1404
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 288730,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2w64-diffutils-3.3.2-2.tar.bz2",
+  "version": "3.3.2"
+}

@@ -1,0 +1,51 @@
+{
+  "build": "3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2-gcc-libs",
+    "m2-msys2-runtime",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2-libdb-5.3.28-3",
+  "features": "",
+  "files": [
+    "Library/usr/bin/msys-db-5.3.dll",
+    "Library/usr/bin/msys-db_cxx-5.3.dll"
+  ],
+  "fn": "m2-libdb-5.3.28-3.tar.bz2",
+  "license": "GPL, custom",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2-libdb-5.3.28-3",
+    "type": 1
+  },
+  "md5": "f72cd86f614201ac35eae074c5714464",
+  "name": "m2-libdb",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2-libdb-5.3.28-3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/usr/bin/msys-db-5.3.dll",
+        "path_type": "hardlink",
+        "sha256": "f57f4103c9b975b009f8c44c922b75ee463e4b4751730b0d1c8bd0c98f8ca8ad",
+        "sha256_in_prefix": "f57f4103c9b975b009f8c44c922b75ee463e4b4751730b0d1c8bd0c98f8ca8ad",
+        "size_in_bytes": 1589383
+      },
+      {
+        "_path": "Library/usr/bin/msys-db_cxx-5.3.dll",
+        "path_type": "hardlink",
+        "sha256": "536449b50455458e80d7990d1ba567d6b810682fd5d3c19b291db8e73271d065",
+        "sha256_in_prefix": "536449b50455458e80d7990d1ba567d6b810682fd5d3c19b291db8e73271d065",
+        "size_in_bytes": 1710595
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 1367795,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2-libdb-5.3.28-3.tar.bz2",
+  "version": "5.3.28"
+}

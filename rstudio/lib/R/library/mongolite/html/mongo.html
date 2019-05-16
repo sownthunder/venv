@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: MongoDB client</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for mongo {mongolite}"><tr><td>mongo {mongolite}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>MongoDB client</h2>
+
+<h3>Description</h3>
+
+<p>Connect to a MongoDB collection. Returns a <a href="mongo.html">mongo</a> connection object with
+methods listed below. The <a href="https://jeroen.github.io/mongolite/">mongolite user manual</a>
+is the best place to get started.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+mongo(collection = "test", db = "test", url = "mongodb://localhost",
+  verbose = FALSE, options = ssl_options())
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>collection</code></td>
+<td>
+<p>name of collection</p>
+</td></tr>
+<tr valign="top"><td><code>db</code></td>
+<td>
+<p>name of database</p>
+</td></tr>
+<tr valign="top"><td><code>url</code></td>
+<td>
+<p>address of the mongodb server in mongo connection string
+<a href="http://docs.mongodb.org/manual/reference/connection-string">URI format</a></p>
+</td></tr>
+<tr valign="top"><td><code>verbose</code></td>
+<td>
+<p>emit some more output</p>
+</td></tr>
+<tr valign="top"><td><code>options</code></td>
+<td>
+<p>additional connection options such as SSL keys/certs.</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>Upon success returns a pointer to a collection on the server.
+The collection can be interfaced using the methods described below.
+</p>
+
+
+<h3>Methods</h3>
+
+
+<dl>
+<dt><code>aggregate(pipeline = '{}', handler = NULL, pagesize = 1000)</code></dt><dd><p>Execute a pipeline using the Mongo aggregation framework.</p>
+</dd>
+<dt><code>count(query = '{}')</code></dt><dd><p>Count the number of records matching a given <code>query</code>. Default counts all records in collection.</p>
+</dd>
+<dt><code>distinct(key, query = '{}')</code></dt><dd><p>List unique values of a field given a particular query.</p>
+</dd>
+<dt><code>drop()</code></dt><dd><p>Delete entire collection with all data and metadata.</p>
+</dd>
+<dt><code>export(con = stdout(), bson = FALSE)</code></dt><dd><p>Streams all data from collection to a <code><a href="../../base/html/connections.html">connection</a></code> in <a href="http://ndjson.org">jsonlines</a> format (similar to <a href="http://docs.mongodb.org/v2.6/reference/mongoexport/">mongoexport</a>). Alternatively when <code>bson = TRUE</code> it outputs the binary <a href="http://bsonspec.org/faq.html">bson</a> format (similar to <a href="http://docs.mongodb.org/manual/reference/program/mongodump/">mongodump</a>).</p>
+</dd>
+<dt><code>find(query = '{}', fields = '{"_id" : 0}', sort = '{}', skip = 0, limit = 0, handler = NULL, pagesize = 1000)</code></dt><dd><p>Retrieve <code>fields</code> from records matching <code>query</code>. Default <code>handler</code> will return all data as a single dataframe.</p>
+</dd>
+<dt><code>import(con, bson = FALSE)</code></dt><dd><p>Stream import data in <a href="http://ndjson.org">jsonlines</a> format from a <code><a href="../../base/html/connections.html">connection</a></code>, similar to the <a href="http://docs.mongodb.org/v2.6/reference/mongoimport/">mongoimport</a> utility. Alternatively when <code>bson = TRUE</code> it assumes the binary <a href="http://bsonspec.org/faq.html">bson</a> format (similar to <a href="http://docs.mongodb.org/manual/reference/program/mongorestore/">mongorestore</a>).</p>
+</dd>
+<dt><code>index(add = NULL, remove = NULL)</code></dt><dd><p>List, add, or remove indexes from the collection. The <code>add</code> and <code>remove</code> arguments can either be a field name or json object. Returns a dataframe with current indexes.</p>
+</dd>
+<dt><code>info()</code></dt><dd><p>Returns collection statistics and server info (if available).</p>
+</dd>
+<dt><code>insert(data, pagesize = 1000, stop_on_error = TRUE, ...)</code></dt><dd><p>Insert rows into the collection. Argument 'data' must be a data-frame, named list (for single record) or character vector with json strings (one string for each row). For lists and data frames, arguments in <code>...</code> get passed to <code><a href="../../jsonlite/html/toJSON.html">jsonlite::toJSON</a></code></p>
+</dd>
+<dt><code>iterate(query = '{}', fields = '{"_id":0}', sort = '{}', skip = 0, limit = 0)</code></dt><dd><p>Runs query and returns iterator to read single records one-by-one.</p>
+</dd>
+<dt><code>mapreduce(map, reduce, query = '{}', sort = '{}', limit = 0, out = NULL, scope = NULL)</code></dt><dd><p>Performs a map reduce query. The <code>map</code> and <code>reduce</code> arguments are strings containing a JavaScript function. Set <code>out</code> to a string to store results in a collection instead of returning.</p>
+</dd>
+<dt><code>remove(query = "{}", multiple = FALSE)</code></dt><dd><p>Remove record(s) matching <code>query</code> from the collection.</p>
+</dd>
+<dt><code>rename(name, db = NULL)</code></dt><dd><p>Change the name or database of a collection. Changing name is cheap, changing database is expensive.</p>
+</dd>
+<dt><code>run(comand = '{"ping: 1}')</code></dt><dd><p>Change the name or database of a collection. Changing name is cheap, changing database is expensive.</p>
+</dd>
+<dt><code>replace(query, update = '{}', upsert = FALSE)</code></dt><dd><p>Replace matching record(s) with value of the <code>update</code> argument.</p>
+</dd>
+<dt><code>update(query, update = '{"$set":{}}', upsert = FALSE, multiple = FALSE)</code></dt><dd><p>Modify fields of matching record(s) with value of the <code>update</code> argument.</p>
+</dd>
+</dl>
+
+
+
+<h3>References</h3>
+
+<p><a href="https://jeroen.github.io/mongolite/">Mongolite User Manual</a>
+</p>
+<p>Jeroen Ooms (2014). The <code>jsonlite</code> Package: A Practical and Consistent Mapping Between JSON Data and <span style="font-family: Courier New, Courier; color: #666666;"><b>R</b></span> Objects. <em>arXiv:1403.2805</em>. <a href="http://arxiv.org/abs/1403.2805">http://arxiv.org/abs/1403.2805</a>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# Connect to mongolabs
+con &lt;- mongo("mtcars", url = "mongodb://readwrite:test@ds043942.mongolab.com:43942/jeroen_test")
+if(con$count() &gt; 0) con$drop()
+con$insert(mtcars)
+stopifnot(con$count() == nrow(mtcars))
+
+# Query data
+mydata &lt;- con$find()
+stopifnot(all.equal(mydata, mtcars))
+con$drop()
+
+# Automatically disconnect when connection is removed
+rm(con)
+gc()
+
+## Not run: 
+# dplyr example
+library(nycflights13)
+
+# Insert some data
+m &lt;- mongo(collection = "nycflights")
+m$drop()
+m$insert(flights)
+
+# Basic queries
+m$count('{"month":1, "day":1}')
+jan1 &lt;- m$find('{"month":1, "day":1}')
+
+# Sorting
+jan1 &lt;- m$find('{"month":1,"day":1}', sort='{"distance":-1}')
+head(jan1)
+
+# Sorting on large data requires index
+m$index(add = "distance")
+allflights &lt;- m$find(sort='{"distance":-1}')
+
+# Select columns
+jan1 &lt;- m$find('{"month":1,"day":1}', fields = '{"_id":0, "distance":1, "carrier":1}')
+
+# List unique values
+m$distinct("carrier")
+m$distinct("carrier", '{"distance":{"$gt":3000}}')
+
+# Tabulate
+m$aggregate('[{"$group":{"_id":"$carrier", "count": {"$sum":1}, "average":{"$avg":"$distance"}}}]')
+
+# Map-reduce (binning)
+hist &lt;- m$mapreduce(
+  map = "function(){emit(Math.floor(this.distance/100)*100, 1)}",
+  reduce = "function(id, counts){return Array.sum(counts)}"
+)
+
+# Stream jsonlines into a connection
+tmp &lt;- tempfile()
+m$export(file(tmp))
+
+# Remove the collection
+m$drop()
+
+# Import from jsonlines stream from connection
+dmd &lt;- mongo("diamonds")
+dmd$import(url("http://jeroen.github.io/data/diamonds.json"))
+dmd$count()
+
+# Export
+dmd$drop()
+
+## End(Not run)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>mongolite</em> version 1.6 <a href="00Index.html">Index</a>]</div>
+</body></html>

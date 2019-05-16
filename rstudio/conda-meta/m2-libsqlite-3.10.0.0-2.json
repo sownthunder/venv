@@ -1,0 +1,212 @@
+{
+  "build": "2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2-icu",
+    "m2-libreadline",
+    "m2-zlib",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2-libsqlite-3.10.0.0-2",
+  "features": "",
+  "files": [
+    "Library/usr/bin/msys-sqlite3-0.dll",
+    "Library/usr/bin/msys-sqlite3amatch-0.dll",
+    "Library/usr/bin/msys-sqlite3closure-0.dll",
+    "Library/usr/bin/msys-sqlite3compress-0.dll",
+    "Library/usr/bin/msys-sqlite3eval-0.dll",
+    "Library/usr/bin/msys-sqlite3fileio-0.dll",
+    "Library/usr/bin/msys-sqlite3fuzzer-0.dll",
+    "Library/usr/bin/msys-sqlite3icu-0.dll",
+    "Library/usr/bin/msys-sqlite3ieee754-0.dll",
+    "Library/usr/bin/msys-sqlite3nextchar-0.dll",
+    "Library/usr/bin/msys-sqlite3percentile-0.dll",
+    "Library/usr/bin/msys-sqlite3rbu-0.dll",
+    "Library/usr/bin/msys-sqlite3regexp-0.dll",
+    "Library/usr/bin/msys-sqlite3rot13-0.dll",
+    "Library/usr/bin/msys-sqlite3series-0.dll",
+    "Library/usr/bin/msys-sqlite3showauth-0.dll",
+    "Library/usr/bin/msys-sqlite3spellfix-0.dll",
+    "Library/usr/bin/msys-sqlite3totype-0.dll",
+    "Library/usr/bin/msys-sqlite3vfslog-0.dll",
+    "Library/usr/bin/msys-sqlite3vtshim-0.dll",
+    "Library/usr/bin/msys-sqlite3wholenumber-0.dll",
+    "Library/usr/share/licenses/libsqlite/LICENSE"
+  ],
+  "fn": "m2-libsqlite-3.10.0.0-2.tar.bz2",
+  "license": "GPL, PublicDomain",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2-libsqlite-3.10.0.0-2",
+    "type": 1
+  },
+  "md5": "e4500469d5e3d81bc4ee4fcee2f3e2d7",
+  "name": "m2-libsqlite",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2-libsqlite-3.10.0.0-2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/usr/bin/msys-sqlite3-0.dll",
+        "path_type": "hardlink",
+        "sha256": "70d97a5d8150aea411dc151cb8f629ef0dfec032297a04dd917522ccb504fd5d",
+        "sha256_in_prefix": "70d97a5d8150aea411dc151cb8f629ef0dfec032297a04dd917522ccb504fd5d",
+        "size_in_bytes": 796648
+      },
+      {
+        "_path": "Library/usr/bin/msys-sqlite3amatch-0.dll",
+        "path_type": "hardlink",
+        "sha256": "c3c780a90d3abe817fa828d1754289494620c8e4ea91dbd8e686951cc589e9f4",
+        "sha256_in_prefix": "c3c780a90d3abe817fa828d1754289494620c8e4ea91dbd8e686951cc589e9f4",
+        "size_in_bytes": 18435
+      },
+      {
+        "_path": "Library/usr/bin/msys-sqlite3closure-0.dll",
+        "path_type": "hardlink",
+        "sha256": "bdce1730fa3b8ba68b4bcc4e331586b9ff8de3e4e4512e2479b58dc3fa29052f",
+        "sha256_in_prefix": "bdce1730fa3b8ba68b4bcc4e331586b9ff8de3e4e4512e2479b58dc3fa29052f",
+        "size_in_bytes": 14214
+      },
+      {
+        "_path": "Library/usr/bin/msys-sqlite3compress-0.dll",
+        "path_type": "hardlink",
+        "sha256": "b0df02ee88eae02663fe0b657ab86ecc9cf29e1e2bb80ac9eb0a323ca0975d92",
+        "sha256_in_prefix": "b0df02ee88eae02663fe0b657ab86ecc9cf29e1e2bb80ac9eb0a323ca0975d92",
+        "size_in_bytes": 10050
+      },
+      {
+        "_path": "Library/usr/bin/msys-sqlite3eval-0.dll",
+        "path_type": "hardlink",
+        "sha256": "b78f910aecc4c3e78515c81ed6ba89dbfcb54ea20095d2b4cea6ae234e96da51",
+        "sha256_in_prefix": "b78f910aecc4c3e78515c81ed6ba89dbfcb54ea20095d2b4cea6ae234e96da51",
+        "size_in_bytes": 8950
+      },
+      {
+        "_path": "Library/usr/bin/msys-sqlite3fileio-0.dll",
+        "path_type": "hardlink",
+        "sha256": "080601c591b8caab4d652118fd0507fcb13eb9ca480e81d3a65b6ed0495d9983",
+        "sha256_in_prefix": "080601c591b8caab4d652118fd0507fcb13eb9ca480e81d3a65b6ed0495d9983",
+        "size_in_bytes": 9101
+      },
+      {
+        "_path": "Library/usr/bin/msys-sqlite3fuzzer-0.dll",
+        "path_type": "hardlink",
+        "sha256": "861aeba47c1ef8a87e69e4cf35fb0b1661ef3bdf241f6b91e721241fc21df578",
+        "sha256_in_prefix": "861aeba47c1ef8a87e69e4cf35fb0b1661ef3bdf241f6b91e721241fc21df578",
+        "size_in_bytes": 15187
+      },
+      {
+        "_path": "Library/usr/bin/msys-sqlite3icu-0.dll",
+        "path_type": "hardlink",
+        "sha256": "c1b4096d141fd0e8760b9f3397fbe5077e76f2421a50490ebd27632be9fc9132",
+        "sha256_in_prefix": "c1b4096d141fd0e8760b9f3397fbe5077e76f2421a50490ebd27632be9fc9132",
+        "size_in_bytes": 13162
+      },
+      {
+        "_path": "Library/usr/bin/msys-sqlite3ieee754-0.dll",
+        "path_type": "hardlink",
+        "sha256": "de1604a288faba687c61dfa8988412cf000153d89143f92afd3c707dec3a4e7e",
+        "sha256_in_prefix": "de1604a288faba687c61dfa8988412cf000153d89143f92afd3c707dec3a4e7e",
+        "size_in_bytes": 8888
+      },
+      {
+        "_path": "Library/usr/bin/msys-sqlite3nextchar-0.dll",
+        "path_type": "hardlink",
+        "sha256": "1efae7744f32b27a921f80151140fb62bb18b9ce98fe15308f405c0f44ff63c5",
+        "sha256_in_prefix": "1efae7744f32b27a921f80151140fb62bb18b9ce98fe15308f405c0f44ff63c5",
+        "size_in_bytes": 10424
+      },
+      {
+        "_path": "Library/usr/bin/msys-sqlite3percentile-0.dll",
+        "path_type": "hardlink",
+        "sha256": "649cb64873f2978a3614a964a60436e0f21f23371d2610ccd0cf19c2c8f29096",
+        "sha256_in_prefix": "649cb64873f2978a3614a964a60436e0f21f23371d2610ccd0cf19c2c8f29096",
+        "size_in_bytes": 9468
+      },
+      {
+        "_path": "Library/usr/bin/msys-sqlite3rbu-0.dll",
+        "path_type": "hardlink",
+        "sha256": "f40c138be84893b067ee467de3f540823fbf810cb6fef952e0d6c009d76312c4",
+        "sha256_in_prefix": "f40c138be84893b067ee467de3f540823fbf810cb6fef952e0d6c009d76312c4",
+        "size_in_bytes": 42062
+      },
+      {
+        "_path": "Library/usr/bin/msys-sqlite3regexp-0.dll",
+        "path_type": "hardlink",
+        "sha256": "f68fa15f9ad02fb40ab5a526f93b0d84bb83bc419a2546c47cbd3b80fe327362",
+        "sha256_in_prefix": "f68fa15f9ad02fb40ab5a526f93b0d84bb83bc419a2546c47cbd3b80fe327362",
+        "size_in_bytes": 16150
+      },
+      {
+        "_path": "Library/usr/bin/msys-sqlite3rot13-0.dll",
+        "path_type": "hardlink",
+        "sha256": "739655fa566ae9e860a822c1bacebe89b9ed09cc80fdc266e9a60e8ab805b277",
+        "sha256_in_prefix": "739655fa566ae9e860a822c1bacebe89b9ed09cc80fdc266e9a60e8ab805b277",
+        "size_in_bytes": 8926
+      },
+      {
+        "_path": "Library/usr/bin/msys-sqlite3series-0.dll",
+        "path_type": "hardlink",
+        "sha256": "c0e06cd474a7af36c944e236f3efe389edc74498b80288be838d19f9f3ea56f2",
+        "sha256_in_prefix": "c0e06cd474a7af36c944e236f3efe389edc74498b80288be838d19f9f3ea56f2",
+        "size_in_bytes": 9912
+      },
+      {
+        "_path": "Library/usr/bin/msys-sqlite3showauth-0.dll",
+        "path_type": "hardlink",
+        "sha256": "d32f177dc13d6951ac6fe328103a5d3f864d5c964c591ea22401a56e17554a2d",
+        "sha256_in_prefix": "d32f177dc13d6951ac6fe328103a5d3f864d5c964c591ea22401a56e17554a2d",
+        "size_in_bytes": 8919
+      },
+      {
+        "_path": "Library/usr/bin/msys-sqlite3spellfix-0.dll",
+        "path_type": "hardlink",
+        "sha256": "cc6c80627e8aed84a4db3d403efd401a7b56e92fd6bea1842f003e8668b798e2",
+        "sha256_in_prefix": "cc6c80627e8aed84a4db3d403efd401a7b56e92fd6bea1842f003e8668b798e2",
+        "size_in_bytes": 30179
+      },
+      {
+        "_path": "Library/usr/bin/msys-sqlite3totype-0.dll",
+        "path_type": "hardlink",
+        "sha256": "fd007f4901761ed98dd41feccb101cf702afe6a2f20237fa64177538713a7915",
+        "sha256_in_prefix": "fd007f4901761ed98dd41feccb101cf702afe6a2f20237fa64177538713a7915",
+        "size_in_bytes": 11998
+      },
+      {
+        "_path": "Library/usr/bin/msys-sqlite3vfslog-0.dll",
+        "path_type": "hardlink",
+        "sha256": "ded22b716b1f6016780d2e8da8a3b1286237dcf5984b25fad86fe48921a8e8b9",
+        "sha256_in_prefix": "ded22b716b1f6016780d2e8da8a3b1286237dcf5984b25fad86fe48921a8e8b9",
+        "size_in_bytes": 17330
+      },
+      {
+        "_path": "Library/usr/bin/msys-sqlite3vtshim-0.dll",
+        "path_type": "hardlink",
+        "sha256": "e4cc069aaaaffedb91f8cc9f2be98fb5b866daa030eb8c41afabac5b04a76f9e",
+        "sha256_in_prefix": "e4cc069aaaaffedb91f8cc9f2be98fb5b866daa030eb8c41afabac5b04a76f9e",
+        "size_in_bytes": 13022
+      },
+      {
+        "_path": "Library/usr/bin/msys-sqlite3wholenumber-0.dll",
+        "path_type": "hardlink",
+        "sha256": "fcf711e84852383e561535471a5cc0de357fbadbb56e5bcc5583a78d6a6b26d3",
+        "sha256_in_prefix": "fcf711e84852383e561535471a5cc0de357fbadbb56e5bcc5583a78d6a6b26d3",
+        "size_in_bytes": 9400
+      },
+      {
+        "_path": "Library/usr/share/licenses/libsqlite/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "1e188e0cf2088da923bff80c76a9f13b7028d4688d2d49cdb10562718068ee98",
+        "sha256_in_prefix": "1e188e0cf2088da923bff80c76a9f13b7028d4688d2d49cdb10562718068ee98",
+        "size_in_bytes": 1527
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 473293,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2-libsqlite-3.10.0.0-2.tar.bz2",
+  "version": "3.10.0.0"
+}

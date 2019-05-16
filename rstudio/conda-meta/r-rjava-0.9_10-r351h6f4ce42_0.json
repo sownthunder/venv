@@ -1,0 +1,1359 @@
+{
+  "build": "r351h6f4ce42_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-rjava-0.9_10-r351h6f4ce42_0",
+  "features": "",
+  "files": [
+    "lib/R/library/rJava/DESCRIPTION",
+    "lib/R/library/rJava/INDEX",
+    "lib/R/library/rJava/MD5",
+    "lib/R/library/rJava/Meta/Rd.rds",
+    "lib/R/library/rJava/Meta/features.rds",
+    "lib/R/library/rJava/Meta/hsearch.rds",
+    "lib/R/library/rJava/Meta/links.rds",
+    "lib/R/library/rJava/Meta/nsInfo.rds",
+    "lib/R/library/rJava/Meta/package.rds",
+    "lib/R/library/rJava/NAMESPACE",
+    "lib/R/library/rJava/NEWS",
+    "lib/R/library/rJava/R/rJava",
+    "lib/R/library/rJava/R/rJava.rdb",
+    "lib/R/library/rJava/R/rJava.rdx",
+    "lib/R/library/rJava/help/AnIndex",
+    "lib/R/library/rJava/help/aliases.rds",
+    "lib/R/library/rJava/help/paths.rds",
+    "lib/R/library/rJava/help/rJava.rdb",
+    "lib/R/library/rJava/help/rJava.rdx",
+    "lib/R/library/rJava/html/00Index.html",
+    "lib/R/library/rJava/html/Exceptions.html",
+    "lib/R/library/rJava/html/J.html",
+    "lib/R/library/rJava/html/R.css",
+    "lib/R/library/rJava/html/accessOp.html",
+    "lib/R/library/rJava/html/aslist.html",
+    "lib/R/library/rJava/html/clone.html",
+    "lib/R/library/rJava/html/instanceof.html",
+    "lib/R/library/rJava/html/jarray.html",
+    "lib/R/library/rJava/html/jarrayRef-class.html",
+    "lib/R/library/rJava/html/java-tools.html",
+    "lib/R/library/rJava/html/javaImport.html",
+    "lib/R/library/rJava/html/jcall.html",
+    "lib/R/library/rJava/html/jcast.html",
+    "lib/R/library/rJava/html/jcastToArray.html",
+    "lib/R/library/rJava/html/jcheck.html",
+    "lib/R/library/rJava/html/jclassName.html",
+    "lib/R/library/rJava/html/jengine.html",
+    "lib/R/library/rJava/html/jequals.html",
+    "lib/R/library/rJava/html/jfield.html",
+    "lib/R/library/rJava/html/jfloat-class.html",
+    "lib/R/library/rJava/html/jfloat.html",
+    "lib/R/library/rJava/html/jinit.html",
+    "lib/R/library/rJava/html/jmemprof.html",
+    "lib/R/library/rJava/html/jnew.html",
+    "lib/R/library/rJava/html/jnull.html",
+    "lib/R/library/rJava/html/jobjRef-class.html",
+    "lib/R/library/rJava/html/jpackage.html",
+    "lib/R/library/rJava/html/jrectRef-class.html",
+    "lib/R/library/rJava/html/jreflection.html",
+    "lib/R/library/rJava/html/jserialize.html",
+    "lib/R/library/rJava/html/jsimplify.html",
+    "lib/R/library/rJava/html/loader.html",
+    "lib/R/library/rJava/html/new.html",
+    "lib/R/library/rJava/html/rep.html",
+    "lib/R/library/rJava/html/show.html",
+    "lib/R/library/rJava/html/toJava.html",
+    "lib/R/library/rJava/html/with.html",
+    "lib/R/library/rJava/java/ArrayDimensionException.class",
+    "lib/R/library/rJava/java/ArrayDimensionException.java",
+    "lib/R/library/rJava/java/ArrayWrapper.class",
+    "lib/R/library/rJava/java/ArrayWrapper.java",
+    "lib/R/library/rJava/java/ArrayWrapper_Test.class",
+    "lib/R/library/rJava/java/ArrayWrapper_Test.java",
+    "lib/R/library/rJava/java/DummyPoint.class",
+    "lib/R/library/rJava/java/DummyPoint.java",
+    "lib/R/library/rJava/java/FlatException.class",
+    "lib/R/library/rJava/java/FlatException.java",
+    "lib/R/library/rJava/java/NotAnArrayException.class",
+    "lib/R/library/rJava/java/NotAnArrayException.java",
+    "lib/R/library/rJava/java/NotComparableException.class",
+    "lib/R/library/rJava/java/NotComparableException.java",
+    "lib/R/library/rJava/java/ObjectArrayException.class",
+    "lib/R/library/rJava/java/ObjectArrayException.java",
+    "lib/R/library/rJava/java/PrimitiveArrayException.class",
+    "lib/R/library/rJava/java/PrimitiveArrayException.java",
+    "lib/R/library/rJava/java/RJavaArrayIterator.class",
+    "lib/R/library/rJava/java/RJavaArrayIterator.java",
+    "lib/R/library/rJava/java/RJavaArrayTools$ArrayDimensionMismatchException.class",
+    "lib/R/library/rJava/java/RJavaArrayTools.class",
+    "lib/R/library/rJava/java/RJavaArrayTools.java",
+    "lib/R/library/rJava/java/RJavaArrayTools_Test.class",
+    "lib/R/library/rJava/java/RJavaArrayTools_Test.java",
+    "lib/R/library/rJava/java/RJavaComparator.class",
+    "lib/R/library/rJava/java/RJavaComparator.java",
+    "lib/R/library/rJava/java/RJavaImport.class",
+    "lib/R/library/rJava/java/RJavaImport.java",
+    "lib/R/library/rJava/java/RJavaTools.class",
+    "lib/R/library/rJava/java/RJavaTools.java",
+    "lib/R/library/rJava/java/RJavaTools_Test$DummyNonStaticClass.class",
+    "lib/R/library/rJava/java/RJavaTools_Test$ExampleClass.class",
+    "lib/R/library/rJava/java/RJavaTools_Test$TestException.class",
+    "lib/R/library/rJava/java/RJavaTools_Test.class",
+    "lib/R/library/rJava/java/RJavaTools_Test.java",
+    "lib/R/library/rJava/java/RectangularArrayBuilder.class",
+    "lib/R/library/rJava/java/RectangularArrayBuilder.java",
+    "lib/R/library/rJava/java/RectangularArrayBuilder_Test.class",
+    "lib/R/library/rJava/java/RectangularArrayBuilder_Test.java",
+    "lib/R/library/rJava/java/RectangularArrayExamples.class",
+    "lib/R/library/rJava/java/RectangularArrayExamples.java",
+    "lib/R/library/rJava/java/RectangularArraySummary.class",
+    "lib/R/library/rJava/java/RectangularArraySummary.java",
+    "lib/R/library/rJava/java/TestException.class",
+    "lib/R/library/rJava/java/TestException.java",
+    "lib/R/library/rJava/java/boot/RJavaClassLoader$RJavaObjectInputStream.class",
+    "lib/R/library/rJava/java/boot/RJavaClassLoader$UnixDirectory.class",
+    "lib/R/library/rJava/java/boot/RJavaClassLoader$UnixFile.class",
+    "lib/R/library/rJava/java/boot/RJavaClassLoader$UnixJarFile.class",
+    "lib/R/library/rJava/java/boot/RJavaClassLoader.class",
+    "lib/R/library/rJava/java/boot/RJavaClassLoader.java",
+    "lib/R/library/rJava/javadoc/ArrayDimensionException.html",
+    "lib/R/library/rJava/javadoc/ArrayWrapper.html",
+    "lib/R/library/rJava/javadoc/ArrayWrapper_Test.html",
+    "lib/R/library/rJava/javadoc/DummyPoint.html",
+    "lib/R/library/rJava/javadoc/FlatException.html",
+    "lib/R/library/rJava/javadoc/NotAnArrayException.html",
+    "lib/R/library/rJava/javadoc/NotComparableException.html",
+    "lib/R/library/rJava/javadoc/ObjectArrayException.html",
+    "lib/R/library/rJava/javadoc/PrimitiveArrayException.html",
+    "lib/R/library/rJava/javadoc/RJavaArrayIterator.html",
+    "lib/R/library/rJava/javadoc/RJavaArrayTools.ArrayDimensionMismatchException.html",
+    "lib/R/library/rJava/javadoc/RJavaArrayTools.html",
+    "lib/R/library/rJava/javadoc/RJavaArrayTools_Test.html",
+    "lib/R/library/rJava/javadoc/RJavaClassLoader.html",
+    "lib/R/library/rJava/javadoc/RJavaComparator.html",
+    "lib/R/library/rJava/javadoc/RJavaImport.html",
+    "lib/R/library/rJava/javadoc/RJavaTools.html",
+    "lib/R/library/rJava/javadoc/RJavaTools_Test.DummyNonStaticClass.html",
+    "lib/R/library/rJava/javadoc/RJavaTools_Test.TestException.html",
+    "lib/R/library/rJava/javadoc/RJavaTools_Test.html",
+    "lib/R/library/rJava/javadoc/RectangularArrayBuilder.html",
+    "lib/R/library/rJava/javadoc/RectangularArrayBuilder_Test.html",
+    "lib/R/library/rJava/javadoc/RectangularArrayExamples.html",
+    "lib/R/library/rJava/javadoc/RectangularArraySummary.html",
+    "lib/R/library/rJava/javadoc/TestException.html",
+    "lib/R/library/rJava/javadoc/allclasses-frame.html",
+    "lib/R/library/rJava/javadoc/allclasses-noframe.html",
+    "lib/R/library/rJava/javadoc/constant-values.html",
+    "lib/R/library/rJava/javadoc/deprecated-list.html",
+    "lib/R/library/rJava/javadoc/help-doc.html",
+    "lib/R/library/rJava/javadoc/index-all.html",
+    "lib/R/library/rJava/javadoc/index.html",
+    "lib/R/library/rJava/javadoc/overview-tree.html",
+    "lib/R/library/rJava/javadoc/package-frame.html",
+    "lib/R/library/rJava/javadoc/package-list",
+    "lib/R/library/rJava/javadoc/package-summary.html",
+    "lib/R/library/rJava/javadoc/package-tree.html",
+    "lib/R/library/rJava/javadoc/resources/background.gif",
+    "lib/R/library/rJava/javadoc/resources/tab.gif",
+    "lib/R/library/rJava/javadoc/resources/titlebar.gif",
+    "lib/R/library/rJava/javadoc/resources/titlebar_end.gif",
+    "lib/R/library/rJava/javadoc/serialized-form.html",
+    "lib/R/library/rJava/javadoc/stylesheet.css",
+    "lib/R/library/rJava/jri/JRI.jar",
+    "lib/R/library/rJava/jri/JRIEngine.jar",
+    "lib/R/library/rJava/jri/REngine.jar",
+    "lib/R/library/rJava/jri/examples/TextConsole.class",
+    "lib/R/library/rJava/jri/examples/TextConsole2.class",
+    "lib/R/library/rJava/jri/examples/rtest.class",
+    "lib/R/library/rJava/jri/examples/rtest.java",
+    "lib/R/library/rJava/jri/examples/rtest2.class",
+    "lib/R/library/rJava/jri/examples/rtest2.java",
+    "lib/R/library/rJava/jri/jri.dll",
+    "lib/R/library/rJava/jri/run.bat",
+    "lib/R/library/rJava/jri/x64/jri.dll",
+    "lib/R/library/rJava/libs/x64/rJava.dll"
+  ],
+  "fn": "r-rjava-0.9_10-r351h6f4ce42_0.tar.bz2",
+  "license": "GPL-2",
+  "license_family": "GPL2",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-rjava-0.9_10-r351h6f4ce42_0",
+    "type": 1
+  },
+  "md5": "aae9c669796acf62f3e85c29a6b9c7ef",
+  "name": "r-rjava",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-rjava-0.9_10-r351h6f4ce42_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/rJava/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "cd0c3be0d0f8efcee4df15643dccec8e434f376d31e8ac39f4f21dfb73add0fb",
+        "sha256_in_prefix": "cd0c3be0d0f8efcee4df15643dccec8e434f376d31e8ac39f4f21dfb73add0fb",
+        "size_in_bytes": 770
+      },
+      {
+        "_path": "lib/R/library/rJava/INDEX",
+        "path_type": "hardlink",
+        "sha256": "fab4139fc87c2808c37632c862610a5f5edb05d9e137872060795a74be847742",
+        "sha256_in_prefix": "fab4139fc87c2808c37632c862610a5f5edb05d9e137872060795a74be847742",
+        "size_in_bytes": 2448
+      },
+      {
+        "_path": "lib/R/library/rJava/MD5",
+        "path_type": "hardlink",
+        "sha256": "e3c143079c3be7d90200503a219df0327e7fea516a2749506e8f858434ec7eae",
+        "sha256_in_prefix": "e3c143079c3be7d90200503a219df0327e7fea516a2749506e8f858434ec7eae",
+        "size_in_bytes": 9953
+      },
+      {
+        "_path": "lib/R/library/rJava/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "42c4354b0106d23fbcabb9a553793b34c6dbffac1192e652eeb8a0ab5659f854",
+        "sha256_in_prefix": "42c4354b0106d23fbcabb9a553793b34c6dbffac1192e652eeb8a0ab5659f854",
+        "size_in_bytes": 2042
+      },
+      {
+        "_path": "lib/R/library/rJava/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/rJava/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "bcd64f478c7bbbf8431bffb4ee813910a5848ea1698089455df9aefadc7ca721",
+        "sha256_in_prefix": "bcd64f478c7bbbf8431bffb4ee813910a5848ea1698089455df9aefadc7ca721",
+        "size_in_bytes": 2085
+      },
+      {
+        "_path": "lib/R/library/rJava/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "2e0768af4a3843a2922c255011d4d0f89b64eb5a95b54d4e60da65bf5c459431",
+        "sha256_in_prefix": "2e0768af4a3843a2922c255011d4d0f89b64eb5a95b54d4e60da65bf5c459431",
+        "size_in_bytes": 1151
+      },
+      {
+        "_path": "lib/R/library/rJava/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "856eca6b2b1b94b7dea0236f0c351c796f519d97615e5cb7c076d95ca0ebcc77",
+        "sha256_in_prefix": "856eca6b2b1b94b7dea0236f0c351c796f519d97615e5cb7c076d95ca0ebcc77",
+        "size_in_bytes": 580
+      },
+      {
+        "_path": "lib/R/library/rJava/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "0d6896efabe9e8c59ab7445d78e08c95b185441a68b20f3a4852793fa5088716",
+        "sha256_in_prefix": "0d6896efabe9e8c59ab7445d78e08c95b185441a68b20f3a4852793fa5088716",
+        "size_in_bytes": 837
+      },
+      {
+        "_path": "lib/R/library/rJava/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "4005849cd02512075f0e3c8565cd0d44565511f9b23a6a06e81b8713265663e4",
+        "sha256_in_prefix": "4005849cd02512075f0e3c8565cd0d44565511f9b23a6a06e81b8713265663e4",
+        "size_in_bytes": 1235
+      },
+      {
+        "_path": "lib/R/library/rJava/NEWS",
+        "path_type": "hardlink",
+        "sha256": "54ab384df8da2ee10623c5541b5d183a0e20ef11779743bfe533ed2f073d0efb",
+        "sha256_in_prefix": "54ab384df8da2ee10623c5541b5d183a0e20ef11779743bfe533ed2f073d0efb",
+        "size_in_bytes": 22229
+      },
+      {
+        "_path": "lib/R/library/rJava/R/rJava",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/rJava/R/rJava.rdb",
+        "path_type": "hardlink",
+        "sha256": "eb6432dfb84b3782e6cf342c9233acd1cfb22aabfcf5579ef722ad535b6d066f",
+        "sha256_in_prefix": "eb6432dfb84b3782e6cf342c9233acd1cfb22aabfcf5579ef722ad535b6d066f",
+        "size_in_bytes": 284214
+      },
+      {
+        "_path": "lib/R/library/rJava/R/rJava.rdx",
+        "path_type": "hardlink",
+        "sha256": "5f26f0ebccc0ec216182d4d66c77ef51651de769e0e71971267d4a9af5e19d42",
+        "sha256_in_prefix": "5f26f0ebccc0ec216182d4d66c77ef51651de769e0e71971267d4a9af5e19d42",
+        "size_in_bytes": 4081
+      },
+      {
+        "_path": "lib/R/library/rJava/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "90f5f7ce265e048431b6f7ded623328b9aa1d3e9f52b8b690eed29539865fa3b",
+        "sha256_in_prefix": "90f5f7ce265e048431b6f7ded623328b9aa1d3e9f52b8b690eed29539865fa3b",
+        "size_in_bytes": 3716
+      },
+      {
+        "_path": "lib/R/library/rJava/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "80d152706fce7023c445868dd124351fc01e71a9367c776c2deed281b755f65c",
+        "sha256_in_prefix": "80d152706fce7023c445868dd124351fc01e71a9367c776c2deed281b755f65c",
+        "size_in_bytes": 1082
+      },
+      {
+        "_path": "lib/R/library/rJava/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "be6b09f63732844219ac9337ae2fc0092c12f9520ed3cb6b94999aec24b9e499",
+        "sha256_in_prefix": "be6b09f63732844219ac9337ae2fc0092c12f9520ed3cb6b94999aec24b9e499",
+        "size_in_bytes": 416
+      },
+      {
+        "_path": "lib/R/library/rJava/help/rJava.rdb",
+        "path_type": "hardlink",
+        "sha256": "0fe91aec57dcb7ed14e8e72f12c2b51e7922af13324323b0610010ee855d3ed9",
+        "sha256_in_prefix": "0fe91aec57dcb7ed14e8e72f12c2b51e7922af13324323b0610010ee855d3ed9",
+        "size_in_bytes": 114830
+      },
+      {
+        "_path": "lib/R/library/rJava/help/rJava.rdx",
+        "path_type": "hardlink",
+        "sha256": "e292354c89efe61397cc7630865cb101c68641e6d06216fd0af10d91dde7340e",
+        "sha256_in_prefix": "e292354c89efe61397cc7630865cb101c68641e6d06216fd0af10d91dde7340e",
+        "size_in_bytes": 900
+      },
+      {
+        "_path": "lib/R/library/rJava/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "f8ce577d241d784f1aa0655143e85ab6e1dbdb4359ee5f7a1da8f3f95deb4ab4",
+        "sha256_in_prefix": "f8ce577d241d784f1aa0655143e85ab6e1dbdb4359ee5f7a1da8f3f95deb4ab4",
+        "size_in_bytes": 17030
+      },
+      {
+        "_path": "lib/R/library/rJava/html/Exceptions.html",
+        "path_type": "hardlink",
+        "sha256": "5df93cd5236d2199795f8a5861f2fc4f9998c4264f9dce2c8cd54b04fba54197",
+        "sha256_in_prefix": "5df93cd5236d2199795f8a5861f2fc4f9998c4264f9dce2c8cd54b04fba54197",
+        "size_in_bytes": 2204
+      },
+      {
+        "_path": "lib/R/library/rJava/html/J.html",
+        "path_type": "hardlink",
+        "sha256": "caafb0b75cb2a0ffe562d93e3b5b352806d38a15b86b5bb52980b4a7539cd5c3",
+        "sha256_in_prefix": "caafb0b75cb2a0ffe562d93e3b5b352806d38a15b86b5bb52980b4a7539cd5c3",
+        "size_in_bytes": 3394
+      },
+      {
+        "_path": "lib/R/library/rJava/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/rJava/html/accessOp.html",
+        "path_type": "hardlink",
+        "sha256": "73aa29c7c69b1ea4789ead49826a93431f66e4d94179ef70e2684c132bf5e1df",
+        "sha256_in_prefix": "73aa29c7c69b1ea4789ead49826a93431f66e4d94179ef70e2684c132bf5e1df",
+        "size_in_bytes": 4145
+      },
+      {
+        "_path": "lib/R/library/rJava/html/aslist.html",
+        "path_type": "hardlink",
+        "sha256": "ea17a255f051c0322b81e1f157581ce0d483095e978d4272b181fb3762cff8ff",
+        "sha256_in_prefix": "ea17a255f051c0322b81e1f157581ce0d483095e978d4272b181fb3762cff8ff",
+        "size_in_bytes": 2505
+      },
+      {
+        "_path": "lib/R/library/rJava/html/clone.html",
+        "path_type": "hardlink",
+        "sha256": "69141c38ac1b4caabb23c0ea4140c511723f2c06316433ab781e06567995bddf",
+        "sha256_in_prefix": "69141c38ac1b4caabb23c0ea4140c511723f2c06316433ab781e06567995bddf",
+        "size_in_bytes": 1994
+      },
+      {
+        "_path": "lib/R/library/rJava/html/instanceof.html",
+        "path_type": "hardlink",
+        "sha256": "0010b348e02b18c68cc84cf089fcdb07057f270f792abea4659a653ff8914af3",
+        "sha256_in_prefix": "0010b348e02b18c68cc84cf089fcdb07057f270f792abea4659a653ff8914af3",
+        "size_in_bytes": 1876
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jarray.html",
+        "path_type": "hardlink",
+        "sha256": "d0b0fdeb4fc91fe3079c640d9b5f53efe2bac86b9e6c41759bc76ec76dfdad19",
+        "sha256_in_prefix": "d0b0fdeb4fc91fe3079c640d9b5f53efe2bac86b9e6c41759bc76ec76dfdad19",
+        "size_in_bytes": 5430
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jarrayRef-class.html",
+        "path_type": "hardlink",
+        "sha256": "d65c0d5a017bf14f9689e35396fa94c825846ab9f15d347e4bd8276da52ef3ce",
+        "sha256_in_prefix": "d65c0d5a017bf14f9689e35396fa94c825846ab9f15d347e4bd8276da52ef3ce",
+        "size_in_bytes": 3368
+      },
+      {
+        "_path": "lib/R/library/rJava/html/java-tools.html",
+        "path_type": "hardlink",
+        "sha256": "78e828a007049e251caeddba4dfe50a7a354dd96ca504d4ce1021966f86eb58e",
+        "sha256_in_prefix": "78e828a007049e251caeddba4dfe50a7a354dd96ca504d4ce1021966f86eb58e",
+        "size_in_bytes": 809
+      },
+      {
+        "_path": "lib/R/library/rJava/html/javaImport.html",
+        "path_type": "hardlink",
+        "sha256": "d0653eabb17e341ac00439c743de0440f1b22e231d23e93d78f7bf575954a947",
+        "sha256_in_prefix": "d0653eabb17e341ac00439c743de0440f1b22e231d23e93d78f7bf575954a947",
+        "size_in_bytes": 2323
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jcall.html",
+        "path_type": "hardlink",
+        "sha256": "07e2cd8685d34b775a60a5177a23f6667920ce4fcbfe6e4a77acb84e36c5cbf7",
+        "sha256_in_prefix": "07e2cd8685d34b775a60a5177a23f6667920ce4fcbfe6e4a77acb84e36c5cbf7",
+        "size_in_bytes": 6815
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jcast.html",
+        "path_type": "hardlink",
+        "sha256": "7f850d40e48bb99d56e29b1f59bb3a4a65070d7a742740dd6e97b5d02cee5eb7",
+        "sha256_in_prefix": "7f850d40e48bb99d56e29b1f59bb3a4a65070d7a742740dd6e97b5d02cee5eb7",
+        "size_in_bytes": 2804
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jcastToArray.html",
+        "path_type": "hardlink",
+        "sha256": "6d1cff02f7ce067425e02a406c1482437458a97b863c33d834e1e42a4934a15c",
+        "sha256_in_prefix": "6d1cff02f7ce067425e02a406c1482437458a97b863c33d834e1e42a4934a15c",
+        "size_in_bytes": 3832
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jcheck.html",
+        "path_type": "hardlink",
+        "sha256": "900116aea2d8961c06243080bca4e7c4d42ca79b45f6c0394aae691627f688d5",
+        "sha256_in_prefix": "900116aea2d8961c06243080bca4e7c4d42ca79b45f6c0394aae691627f688d5",
+        "size_in_bytes": 4712
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jclassName.html",
+        "path_type": "hardlink",
+        "sha256": "e1c6ca69b50d783658bdcdaa235a95f86454eca240a56a726b646fe5901a5e41",
+        "sha256_in_prefix": "e1c6ca69b50d783658bdcdaa235a95f86454eca240a56a726b646fe5901a5e41",
+        "size_in_bytes": 1988
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jengine.html",
+        "path_type": "hardlink",
+        "sha256": "3cb387d7d6041b5b09fe7e49b726791e86a1fb4da9f14eb6c9d1d08cd7fdc1f2",
+        "sha256_in_prefix": "3cb387d7d6041b5b09fe7e49b726791e86a1fb4da9f14eb6c9d1d08cd7fdc1f2",
+        "size_in_bytes": 2227
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jequals.html",
+        "path_type": "hardlink",
+        "sha256": "2d5d878753a28508d70d21376827561f4ad905da70c11c593ec953ce05ef4c16",
+        "sha256_in_prefix": "2d5d878753a28508d70d21376827561f4ad905da70c11c593ec953ce05ef4c16",
+        "size_in_bytes": 6141
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jfield.html",
+        "path_type": "hardlink",
+        "sha256": "6dd24fb5e8c6ed7cff5d2d46f8ed22f94b864e7a69583d91b8a7fbf28bedc5df",
+        "sha256_in_prefix": "6dd24fb5e8c6ed7cff5d2d46f8ed22f94b864e7a69583d91b8a7fbf28bedc5df",
+        "size_in_bytes": 3376
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jfloat-class.html",
+        "path_type": "hardlink",
+        "sha256": "5f71695970574c05623a7072628d3fa71b2401a52e197153b3cc58e3d29773e8",
+        "sha256_in_prefix": "5f71695970574c05623a7072628d3fa71b2401a52e197153b3cc58e3d29773e8",
+        "size_in_bytes": 2880
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jfloat.html",
+        "path_type": "hardlink",
+        "sha256": "e2f64a0df2796eb26dda31939c7f7e2bdebdb130d043701ae7751552273032d6",
+        "sha256_in_prefix": "e2f64a0df2796eb26dda31939c7f7e2bdebdb130d043701ae7751552273032d6",
+        "size_in_bytes": 2802
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jinit.html",
+        "path_type": "hardlink",
+        "sha256": "36c8d4429ed0b397bec7d68ed9f55b2840e6fd7a72c5acdd01398d27e3f56afd",
+        "sha256_in_prefix": "36c8d4429ed0b397bec7d68ed9f55b2840e6fd7a72c5acdd01398d27e3f56afd",
+        "size_in_bytes": 4494
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jmemprof.html",
+        "path_type": "hardlink",
+        "sha256": "4604e544882ca4059a0ee678ef481b3cb2aa84ebd10575fb02227f3448998107",
+        "sha256_in_prefix": "4604e544882ca4059a0ee678ef481b3cb2aa84ebd10575fb02227f3448998107",
+        "size_in_bytes": 2326
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jnew.html",
+        "path_type": "hardlink",
+        "sha256": "b8773e42a9723f9bd5d87d5ad107f7902b18d696ffb187d29179fe62ff9b6a39",
+        "sha256_in_prefix": "b8773e42a9723f9bd5d87d5ad107f7902b18d696ffb187d29179fe62ff9b6a39",
+        "size_in_bytes": 3035
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jnull.html",
+        "path_type": "hardlink",
+        "sha256": "774a98107e341a5c241011301e215e778bd6c5dfb5db6d6e1e9d079cdf4c09e5",
+        "sha256_in_prefix": "774a98107e341a5c241011301e215e778bd6c5dfb5db6d6e1e9d079cdf4c09e5",
+        "size_in_bytes": 3000
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jobjRef-class.html",
+        "path_type": "hardlink",
+        "sha256": "be8bd666e62a0211c6272f000dbc49026c6c48281c7d172b7690c258b093cfab",
+        "sha256_in_prefix": "be8bd666e62a0211c6272f000dbc49026c6c48281c7d172b7690c258b093cfab",
+        "size_in_bytes": 2026
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jpackage.html",
+        "path_type": "hardlink",
+        "sha256": "ff8ef6c1c917f212a27bdf3ad7ff0fccffee3bb08a968f70c895079fef3013a2",
+        "sha256_in_prefix": "ff8ef6c1c917f212a27bdf3ad7ff0fccffee3bb08a968f70c895079fef3013a2",
+        "size_in_bytes": 3925
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jrectRef-class.html",
+        "path_type": "hardlink",
+        "sha256": "4343095bc991e373bc02a0c5ac065da4b76c13b623fa76ec5bde58593c8d492c",
+        "sha256_in_prefix": "4343095bc991e373bc02a0c5ac065da4b76c13b623fa76ec5bde58593c8d492c",
+        "size_in_bytes": 3848
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jreflection.html",
+        "path_type": "hardlink",
+        "sha256": "565ab93f77aba18b8e5985e2ee9b5d55de559a9874995a2db14384a3ca9c0732",
+        "sha256_in_prefix": "565ab93f77aba18b8e5985e2ee9b5d55de559a9874995a2db14384a3ca9c0732",
+        "size_in_bytes": 2804
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jserialize.html",
+        "path_type": "hardlink",
+        "sha256": "144277bff40845bb59c35764ffb10c03cfc4f2149b21e11f95746d971bc84320",
+        "sha256_in_prefix": "144277bff40845bb59c35764ffb10c03cfc4f2149b21e11f95746d971bc84320",
+        "size_in_bytes": 5528
+      },
+      {
+        "_path": "lib/R/library/rJava/html/jsimplify.html",
+        "path_type": "hardlink",
+        "sha256": "03c6a118184c5a382232ecac68314307ae836dfa8959fd1e09fcfe6ef5f08f37",
+        "sha256_in_prefix": "03c6a118184c5a382232ecac68314307ae836dfa8959fd1e09fcfe6ef5f08f37",
+        "size_in_bytes": 2602
+      },
+      {
+        "_path": "lib/R/library/rJava/html/loader.html",
+        "path_type": "hardlink",
+        "sha256": "bb2d3721569cb78caa24aaf5eb145cf5281785f8e3eb573323008f359c1ee2a2",
+        "sha256_in_prefix": "bb2d3721569cb78caa24aaf5eb145cf5281785f8e3eb573323008f359c1ee2a2",
+        "size_in_bytes": 1413
+      },
+      {
+        "_path": "lib/R/library/rJava/html/new.html",
+        "path_type": "hardlink",
+        "sha256": "ba0f39af2ae3e1f495a0114387a1bd23549ffd2b4c99fac2e5da2826e6db19a1",
+        "sha256_in_prefix": "ba0f39af2ae3e1f495a0114387a1bd23549ffd2b4c99fac2e5da2826e6db19a1",
+        "size_in_bytes": 1577
+      },
+      {
+        "_path": "lib/R/library/rJava/html/rep.html",
+        "path_type": "hardlink",
+        "sha256": "d8e1ba7bb70bda66d12ca3a912666fb0bb084c69bbcc3ab1816344786d4320ca",
+        "sha256_in_prefix": "d8e1ba7bb70bda66d12ca3a912666fb0bb084c69bbcc3ab1816344786d4320ca",
+        "size_in_bytes": 1438
+      },
+      {
+        "_path": "lib/R/library/rJava/html/show.html",
+        "path_type": "hardlink",
+        "sha256": "53fde6018b822c711e7bde7203c83043f46395919527bef774546ac8ec66da6f",
+        "sha256_in_prefix": "53fde6018b822c711e7bde7203c83043f46395919527bef774546ac8ec66da6f",
+        "size_in_bytes": 1361
+      },
+      {
+        "_path": "lib/R/library/rJava/html/toJava.html",
+        "path_type": "hardlink",
+        "sha256": "e0cf0b34b708b103d3d6c12bb1a04b1fe33c90386867a4695d845ac39a7c6ce4",
+        "sha256_in_prefix": "e0cf0b34b708b103d3d6c12bb1a04b1fe33c90386867a4695d845ac39a7c6ce4",
+        "size_in_bytes": 2323
+      },
+      {
+        "_path": "lib/R/library/rJava/html/with.html",
+        "path_type": "hardlink",
+        "sha256": "da4f1cef485b7a954238780f4914f6800bd984334471006a2b29a01a4e4f5304",
+        "sha256_in_prefix": "da4f1cef485b7a954238780f4914f6800bd984334471006a2b29a01a4e4f5304",
+        "size_in_bytes": 3777
+      },
+      {
+        "_path": "lib/R/library/rJava/java/ArrayDimensionException.class",
+        "path_type": "hardlink",
+        "sha256": "25c387c187de8cd06699443e241c5cefbb0c63e07b36385c9d75858830429eba",
+        "sha256_in_prefix": "25c387c187de8cd06699443e241c5cefbb0c63e07b36385c9d75858830429eba",
+        "size_in_bytes": 246
+      },
+      {
+        "_path": "lib/R/library/rJava/java/ArrayDimensionException.java",
+        "path_type": "hardlink",
+        "sha256": "2fd9de0d31d64dd650b2274f00adaf16215b181f965d6dc859896408f8e7d915",
+        "sha256_in_prefix": "2fd9de0d31d64dd650b2274f00adaf16215b181f965d6dc859896408f8e7d915",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/R/library/rJava/java/ArrayWrapper.class",
+        "path_type": "hardlink",
+        "sha256": "4c538fe47f89cda6bfd6839953c52692496f861f21f3ff6d93dd80664b527abe",
+        "sha256_in_prefix": "4c538fe47f89cda6bfd6839953c52692496f861f21f3ff6d93dd80664b527abe",
+        "size_in_bytes": 5838
+      },
+      {
+        "_path": "lib/R/library/rJava/java/ArrayWrapper.java",
+        "path_type": "hardlink",
+        "sha256": "e67d01cabb7dfb53b9c84816043c0fc37639a6eeadf2290aae96fbcad3e966c4",
+        "sha256_in_prefix": "e67d01cabb7dfb53b9c84816043c0fc37639a6eeadf2290aae96fbcad3e966c4",
+        "size_in_bytes": 9592
+      },
+      {
+        "_path": "lib/R/library/rJava/java/ArrayWrapper_Test.class",
+        "path_type": "hardlink",
+        "sha256": "c4f28ac1db641bc8ca226e33389050de3510b2fd1b8628cfa85b991325f13f46",
+        "sha256_in_prefix": "c4f28ac1db641bc8ca226e33389050de3510b2fd1b8628cfa85b991325f13f46",
+        "size_in_bytes": 28554
+      },
+      {
+        "_path": "lib/R/library/rJava/java/ArrayWrapper_Test.java",
+        "path_type": "hardlink",
+        "sha256": "51e828669b24438080ff4367d99a5e9483d05334da460d6e4286ab8f59d67110",
+        "sha256_in_prefix": "51e828669b24438080ff4367d99a5e9483d05334da460d6e4286ab8f59d67110",
+        "size_in_bytes": 46252
+      },
+      {
+        "_path": "lib/R/library/rJava/java/DummyPoint.class",
+        "path_type": "hardlink",
+        "sha256": "27944752d98b9a1422fe169831b03f775f4cd32b18d00d95bfdbdd722fcf599f",
+        "sha256_in_prefix": "27944752d98b9a1422fe169831b03f775f4cd32b18d00d95bfdbdd722fcf599f",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "lib/R/library/rJava/java/DummyPoint.java",
+        "path_type": "hardlink",
+        "sha256": "c028d3328fccfd4f645c4a272e5fc6edd72054721328198ded2c44dc2209014d",
+        "sha256_in_prefix": "c028d3328fccfd4f645c4a272e5fc6edd72054721328198ded2c44dc2209014d",
+        "size_in_bytes": 309
+      },
+      {
+        "_path": "lib/R/library/rJava/java/FlatException.class",
+        "path_type": "hardlink",
+        "sha256": "a6bc93773674a37bbb7eb53908976360298ddfef76cbc3acdb51b714bd340f6e",
+        "sha256_in_prefix": "a6bc93773674a37bbb7eb53908976360298ddfef76cbc3acdb51b714bd340f6e",
+        "size_in_bytes": 274
+      },
+      {
+        "_path": "lib/R/library/rJava/java/FlatException.java",
+        "path_type": "hardlink",
+        "sha256": "f6e4cb01b2fefee54a4e857a89714adcddb75869415c22859a5fc8d232fbdd7e",
+        "sha256_in_prefix": "f6e4cb01b2fefee54a4e857a89714adcddb75869415c22859a5fc8d232fbdd7e",
+        "size_in_bytes": 210
+      },
+      {
+        "_path": "lib/R/library/rJava/java/NotAnArrayException.class",
+        "path_type": "hardlink",
+        "sha256": "ff4466093f1e3bddbc9824969333ac259c9ad72ad49362a742809777d1a8675b",
+        "sha256_in_prefix": "ff4466093f1e3bddbc9824969333ac259c9ad72ad49362a742809777d1a8675b",
+        "size_in_bytes": 548
+      },
+      {
+        "_path": "lib/R/library/rJava/java/NotAnArrayException.java",
+        "path_type": "hardlink",
+        "sha256": "8dc8ab2dd8806370ff183c5917505480668138ca6595b5d327cff1ebc25af4ac",
+        "sha256_in_prefix": "8dc8ab2dd8806370ff183c5917505480668138ca6595b5d327cff1ebc25af4ac",
+        "size_in_bytes": 286
+      },
+      {
+        "_path": "lib/R/library/rJava/java/NotComparableException.class",
+        "path_type": "hardlink",
+        "sha256": "30d439e270888e1d8004248043fbe331ccd1510ebce96e326e221fcee98745b3",
+        "sha256_in_prefix": "30d439e270888e1d8004248043fbe331ccd1510ebce96e326e221fcee98745b3",
+        "size_in_bytes": 942
+      },
+      {
+        "_path": "lib/R/library/rJava/java/NotComparableException.java",
+        "path_type": "hardlink",
+        "sha256": "6a3dbf32bf6a4f32fc0942876e003041603560dbcbb755d1704f9d47d336a7d8",
+        "sha256_in_prefix": "6a3dbf32bf6a4f32fc0942876e003041603560dbcbb755d1704f9d47d336a7d8",
+        "size_in_bytes": 725
+      },
+      {
+        "_path": "lib/R/library/rJava/java/ObjectArrayException.class",
+        "path_type": "hardlink",
+        "sha256": "0d7d476efb4700c858598eb7fc1a4b228e2ca587f12eec03f4f695be44830c8d",
+        "sha256_in_prefix": "0d7d476efb4700c858598eb7fc1a4b228e2ca587f12eec03f4f695be44830c8d",
+        "size_in_bytes": 449
+      },
+      {
+        "_path": "lib/R/library/rJava/java/ObjectArrayException.java",
+        "path_type": "hardlink",
+        "sha256": "2efa11e77ca73e9bb9c3775bb5a6e6765176d7670f814f58ceb0feeffcd25256",
+        "sha256_in_prefix": "2efa11e77ca73e9bb9c3775bb5a6e6765176d7670f814f58ceb0feeffcd25256",
+        "size_in_bytes": 257
+      },
+      {
+        "_path": "lib/R/library/rJava/java/PrimitiveArrayException.class",
+        "path_type": "hardlink",
+        "sha256": "5f1b703f5d174c4a6cb7fd41eb6612c949bb8317daa918d3f798c11613855756",
+        "sha256_in_prefix": "5f1b703f5d174c4a6cb7fd41eb6612c949bb8317daa918d3f798c11613855756",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "lib/R/library/rJava/java/PrimitiveArrayException.java",
+        "path_type": "hardlink",
+        "sha256": "125bf3c9778c896331e5a11e194bf529b198ff96ca87e6f103d466a8ed1fb659",
+        "sha256_in_prefix": "125bf3c9778c896331e5a11e194bf529b198ff96ca87e6f103d466a8ed1fb659",
+        "size_in_bytes": 293
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RJavaArrayIterator.class",
+        "path_type": "hardlink",
+        "sha256": "291d123e432aad7e537b98aeb855692a45409bd8e71fcc7b4291873b03c89260",
+        "sha256_in_prefix": "291d123e432aad7e537b98aeb855692a45409bd8e71fcc7b4291873b03c89260",
+        "size_in_bytes": 1635
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RJavaArrayIterator.java",
+        "path_type": "hardlink",
+        "sha256": "248edd017c4418523b98814de88316fb443c848ce37b6e2c36c645b87bc2b9c8",
+        "sha256_in_prefix": "248edd017c4418523b98814de88316fb443c848ce37b6e2c36c645b87bc2b9c8",
+        "size_in_bytes": 1679
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RJavaArrayTools$ArrayDimensionMismatchException.class",
+        "path_type": "hardlink",
+        "sha256": "e0eb96aa1a3732ea11912d72956ec25b37239028c1baaea3c29c8b7873965a70",
+        "sha256_in_prefix": "e0eb96aa1a3732ea11912d72956ec25b37239028c1baaea3c29c8b7873965a70",
+        "size_in_bytes": 656
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RJavaArrayTools.class",
+        "path_type": "hardlink",
+        "sha256": "3cc6096ad1c2e54ef4747549954435bf01e0972ed2e93eaeba8c9afe33340d42",
+        "sha256_in_prefix": "3cc6096ad1c2e54ef4747549954435bf01e0972ed2e93eaeba8c9afe33340d42",
+        "size_in_bytes": 16686
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RJavaArrayTools.java",
+        "path_type": "hardlink",
+        "sha256": "2dcad6e5ab3fc28e39a6a72d9ad5764140032893f6d0e1a95ececeecc1ef3586",
+        "sha256_in_prefix": "2dcad6e5ab3fc28e39a6a72d9ad5764140032893f6d0e1a95ececeecc1ef3586",
+        "size_in_bytes": 29035
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RJavaArrayTools_Test.class",
+        "path_type": "hardlink",
+        "sha256": "825af37127b8e92a709afd49a7df64bde7890693836b8db86a7fc252877cc5b7",
+        "sha256_in_prefix": "825af37127b8e92a709afd49a7df64bde7890693836b8db86a7fc252877cc5b7",
+        "size_in_bytes": 23645
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RJavaArrayTools_Test.java",
+        "path_type": "hardlink",
+        "sha256": "7fea1c58fc6c4eec1e25846facdae6a61a48c852378a0b0f8b9270eb0c9dce43",
+        "sha256_in_prefix": "7fea1c58fc6c4eec1e25846facdae6a61a48c852378a0b0f8b9270eb0c9dce43",
+        "size_in_bytes": 43019
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RJavaComparator.class",
+        "path_type": "hardlink",
+        "sha256": "bece940ff0a1de1e04b6e685b632c390af27a8366a1d97aab066b8f02cdf05c8",
+        "sha256_in_prefix": "bece940ff0a1de1e04b6e685b632c390af27a8366a1d97aab066b8f02cdf05c8",
+        "size_in_bytes": 1041
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RJavaComparator.java",
+        "path_type": "hardlink",
+        "sha256": "98b8dac7a1ec89d653f048b5e4b944f061bdd471f4f725b2f9e1259840409fae",
+        "sha256_in_prefix": "98b8dac7a1ec89d653f048b5e4b944f061bdd471f4f725b2f9e1259840409fae",
+        "size_in_bytes": 1624
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RJavaImport.class",
+        "path_type": "hardlink",
+        "sha256": "7054a6c99680884e97026b2f6d86a5f97e1c905d9307bf9c2d5b70408b793e43",
+        "sha256_in_prefix": "7054a6c99680884e97026b2f6d86a5f97e1c905d9307bf9c2d5b70408b793e43",
+        "size_in_bytes": 3468
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RJavaImport.java",
+        "path_type": "hardlink",
+        "sha256": "bee8d944b4db93133bce87789cf08dbd9e95a82ae618b1ae3b7fff3aacd06efc",
+        "sha256_in_prefix": "bee8d944b4db93133bce87789cf08dbd9e95a82ae618b1ae3b7fff3aacd06efc",
+        "size_in_bytes": 4312
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RJavaTools.class",
+        "path_type": "hardlink",
+        "sha256": "dd0d1c55a5724ac7742a99fe6b77460cd6e822c79092c0ca2fa79ce1f1035442",
+        "sha256_in_prefix": "dd0d1c55a5724ac7742a99fe6b77460cd6e822c79092c0ca2fa79ce1f1035442",
+        "size_in_bytes": 9829
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RJavaTools.java",
+        "path_type": "hardlink",
+        "sha256": "227f875075c9c70f4fb568d363804544316474c371379acf44696f57fae9ec37",
+        "sha256_in_prefix": "227f875075c9c70f4fb568d363804544316474c371379acf44696f57fae9ec37",
+        "size_in_bytes": 21457
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RJavaTools_Test$DummyNonStaticClass.class",
+        "path_type": "hardlink",
+        "sha256": "29648912ab19ece68b2ad8df7bf9b3c268b509a67f4802730ecfd893313f7447",
+        "sha256_in_prefix": "29648912ab19ece68b2ad8df7bf9b3c268b509a67f4802730ecfd893313f7447",
+        "size_in_bytes": 373
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RJavaTools_Test$ExampleClass.class",
+        "path_type": "hardlink",
+        "sha256": "67fafa053f2d81136583730c6790dc69de739e78fedd8e6c95ffca4f2d18b523",
+        "sha256_in_prefix": "67fafa053f2d81136583730c6790dc69de739e78fedd8e6c95ffca4f2d18b523",
+        "size_in_bytes": 457
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RJavaTools_Test$TestException.class",
+        "path_type": "hardlink",
+        "sha256": "f57535949bbd081cc23a4eaa88da0abe76f9d3dc147785bb91c14067983e92b8",
+        "sha256_in_prefix": "f57535949bbd081cc23a4eaa88da0abe76f9d3dc147785bb91c14067983e92b8",
+        "size_in_bytes": 312
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RJavaTools_Test.class",
+        "path_type": "hardlink",
+        "sha256": "b50b3dbc83af79b1a69b8ad3a010720f4b19891ca96eadff75a226a36ad55187",
+        "sha256_in_prefix": "b50b3dbc83af79b1a69b8ad3a010720f4b19891ca96eadff75a226a36ad55187",
+        "size_in_bytes": 17513
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RJavaTools_Test.java",
+        "path_type": "hardlink",
+        "sha256": "36569bbfaa5757d19c5041b81c58945f044b0f7864b7dfa19741a7f5ec4c3079",
+        "sha256_in_prefix": "36569bbfaa5757d19c5041b81c58945f044b0f7864b7dfa19741a7f5ec4c3079",
+        "size_in_bytes": 26776
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RectangularArrayBuilder.class",
+        "path_type": "hardlink",
+        "sha256": "c9f6bfd43faf9ccd6fc0ce3d990466bede43a3b70ae3d21ce342191d14db3c25",
+        "sha256_in_prefix": "c9f6bfd43faf9ccd6fc0ce3d990466bede43a3b70ae3d21ce342191d14db3c25",
+        "size_in_bytes": 5128
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RectangularArrayBuilder.java",
+        "path_type": "hardlink",
+        "sha256": "d4336f24389f6c296b90ff0cb108e717a41162eff098e331bcb88e44baca092c",
+        "sha256_in_prefix": "d4336f24389f6c296b90ff0cb108e717a41162eff098e331bcb88e44baca092c",
+        "size_in_bytes": 6549
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RectangularArrayBuilder_Test.class",
+        "path_type": "hardlink",
+        "sha256": "ef47a025662a36aec68a764f147617ca3328b0a644e6f0af768b8afc8039e7c3",
+        "sha256_in_prefix": "ef47a025662a36aec68a764f147617ca3328b0a644e6f0af768b8afc8039e7c3",
+        "size_in_bytes": 15764
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RectangularArrayBuilder_Test.java",
+        "path_type": "hardlink",
+        "sha256": "61dabd9be4b6694b188e6c8cd959ab420240fc6de0eb6cdce512edaa16683353",
+        "sha256_in_prefix": "61dabd9be4b6694b188e6c8cd959ab420240fc6de0eb6cdce512edaa16683353",
+        "size_in_bytes": 24497
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RectangularArrayExamples.class",
+        "path_type": "hardlink",
+        "sha256": "428c8b4bf2b60190bca14b4ca63ff3ee481e043d830c14162c0234c0c3004e24",
+        "sha256_in_prefix": "428c8b4bf2b60190bca14b4ca63ff3ee481e043d830c14162c0234c0c3004e24",
+        "size_in_bytes": 4936
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RectangularArrayExamples.java",
+        "path_type": "hardlink",
+        "sha256": "7faad0f1b709ab54227df59a2ff7a98f66c920ae631e0685dbd024778b4d86ec",
+        "sha256_in_prefix": "7faad0f1b709ab54227df59a2ff7a98f66c920ae631e0685dbd024778b4d86ec",
+        "size_in_bytes": 5608
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RectangularArraySummary.class",
+        "path_type": "hardlink",
+        "sha256": "f01ba6d524e0c73cdfb775ff521d62d82c83cf48a40497b3624b75aee2ccd19e",
+        "sha256_in_prefix": "f01ba6d524e0c73cdfb775ff521d62d82c83cf48a40497b3624b75aee2ccd19e",
+        "size_in_bytes": 3733
+      },
+      {
+        "_path": "lib/R/library/rJava/java/RectangularArraySummary.java",
+        "path_type": "hardlink",
+        "sha256": "39d958ca79a24c02aa21a8dc062eb8c69756e8ac275ba41917370bc87b686027",
+        "sha256_in_prefix": "39d958ca79a24c02aa21a8dc062eb8c69756e8ac275ba41917370bc87b686027",
+        "size_in_bytes": 6064
+      },
+      {
+        "_path": "lib/R/library/rJava/java/TestException.class",
+        "path_type": "hardlink",
+        "sha256": "ec84e6dc67ccd76931176f72145ea49f7b562c67cb40850bc250a50222c5d290",
+        "sha256_in_prefix": "ec84e6dc67ccd76931176f72145ea49f7b562c67cb40850bc250a50222c5d290",
+        "size_in_bytes": 222
+      },
+      {
+        "_path": "lib/R/library/rJava/java/TestException.java",
+        "path_type": "hardlink",
+        "sha256": "fb097e2682392f143f4e3de271c22d4bf02573ebaa635f6c083fed3d68c5a38d",
+        "sha256_in_prefix": "fb097e2682392f143f4e3de271c22d4bf02573ebaa635f6c083fed3d68c5a38d",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "lib/R/library/rJava/java/boot/RJavaClassLoader$RJavaObjectInputStream.class",
+        "path_type": "hardlink",
+        "sha256": "8aa5f99c962daeebdd9acb73d38615693b5f9d6713c8c0e94bd83a437712f49a",
+        "sha256_in_prefix": "8aa5f99c962daeebdd9acb73d38615693b5f9d6713c8c0e94bd83a437712f49a",
+        "size_in_bytes": 885
+      },
+      {
+        "_path": "lib/R/library/rJava/java/boot/RJavaClassLoader$UnixDirectory.class",
+        "path_type": "hardlink",
+        "sha256": "fa18ce523cecc1bc2cfbd9a2a7d5eae8c64c4ec36ddf7bec16de72a8879b3d01",
+        "sha256_in_prefix": "fa18ce523cecc1bc2cfbd9a2a7d5eae8c64c4ec36ddf7bec16de72a8879b3d01",
+        "size_in_bytes": 416
+      },
+      {
+        "_path": "lib/R/library/rJava/java/boot/RJavaClassLoader$UnixFile.class",
+        "path_type": "hardlink",
+        "sha256": "ee613f6c6ee3ed681be9780b7ceaf3dc989b28cad59e9006695305193a5dca5d",
+        "sha256_in_prefix": "ee613f6c6ee3ed681be9780b7ceaf3dc989b28cad59e9006695305193a5dca5d",
+        "size_in_bytes": 711
+      },
+      {
+        "_path": "lib/R/library/rJava/java/boot/RJavaClassLoader$UnixJarFile.class",
+        "path_type": "hardlink",
+        "sha256": "e5ac6cc100348959fc435194c15252c9e1f360b958ca0f12c61e54b92353181f",
+        "sha256_in_prefix": "e5ac6cc100348959fc435194c15252c9e1f360b958ca0f12c61e54b92353181f",
+        "size_in_bytes": 2078
+      },
+      {
+        "_path": "lib/R/library/rJava/java/boot/RJavaClassLoader.class",
+        "path_type": "hardlink",
+        "sha256": "91933d942e31e92637664360bf76c42b1f41520282decdb48e9a3d7cb8007fe0",
+        "sha256_in_prefix": "91933d942e31e92637664360bf76c42b1f41520282decdb48e9a3d7cb8007fe0",
+        "size_in_bytes": 11890
+      },
+      {
+        "_path": "lib/R/library/rJava/java/boot/RJavaClassLoader.java",
+        "path_type": "hardlink",
+        "sha256": "18e1c543bbc22eae880b2b030350147969f2f4c4d26619f3ee2e6e4067481cde",
+        "sha256_in_prefix": "18e1c543bbc22eae880b2b030350147969f2f4c4d26619f3ee2e6e4067481cde",
+        "size_in_bytes": 18837
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/ArrayDimensionException.html",
+        "path_type": "hardlink",
+        "sha256": "61dcbbed9cb08bd66177c503af2619dae88192906586b8dcc86ad91854f2d434",
+        "sha256_in_prefix": "61dcbbed9cb08bd66177c503af2619dae88192906586b8dcc86ad91854f2d434",
+        "size_in_bytes": 7412
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/ArrayWrapper.html",
+        "path_type": "hardlink",
+        "sha256": "9fb9e2a4e609c878b6ec6928232a4f580e69e0cf8b2df1acfbebafa85532dfb1",
+        "sha256_in_prefix": "9fb9e2a4e609c878b6ec6928232a4f580e69e0cf8b2df1acfbebafa85532dfb1",
+        "size_in_bytes": 26250
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/ArrayWrapper_Test.html",
+        "path_type": "hardlink",
+        "sha256": "4d93b8a91a89fcc00f14b10cc75ef846f457fd9fd62c7323333538dc7fd25b2f",
+        "sha256_in_prefix": "4d93b8a91a89fcc00f14b10cc75ef846f457fd9fd62c7323333538dc7fd25b2f",
+        "size_in_bytes": 8288
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/DummyPoint.html",
+        "path_type": "hardlink",
+        "sha256": "b65775fbc081677fa08470d0af8f1208c70bfdaf943590bf121a75eed20751b0",
+        "sha256_in_prefix": "b65775fbc081677fa08470d0af8f1208c70bfdaf943590bf121a75eed20751b0",
+        "size_in_bytes": 9670
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/FlatException.html",
+        "path_type": "hardlink",
+        "sha256": "8b7242382b8203cc961204f5bc5316cad87c8e3d626dc7180f3d76c86f77accc",
+        "sha256_in_prefix": "8b7242382b8203cc961204f5bc5316cad87c8e3d626dc7180f3d76c86f77accc",
+        "size_in_bytes": 7444
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/NotAnArrayException.html",
+        "path_type": "hardlink",
+        "sha256": "8816303561ea64ac3d9aa0bbd17e9dc056cbaba99a3e8b5e81674dee0c074b0f",
+        "sha256_in_prefix": "8816303561ea64ac3d9aa0bbd17e9dc056cbaba99a3e8b5e81674dee0c074b0f",
+        "size_in_bytes": 8067
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/NotComparableException.html",
+        "path_type": "hardlink",
+        "sha256": "b3631ef2f9188e94edeb8fd98bb02bf285a300233fdadd44c891ac4666a7aa42",
+        "sha256_in_prefix": "b3631ef2f9188e94edeb8fd98bb02bf285a300233fdadd44c891ac4666a7aa42",
+        "size_in_bytes": 9293
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/ObjectArrayException.html",
+        "path_type": "hardlink",
+        "sha256": "afccf57b4d094f6529b53892148886f02db68b97a50689433355efd78c84545a",
+        "sha256_in_prefix": "afccf57b4d094f6529b53892148886f02db68b97a50689433355efd78c84545a",
+        "size_in_bytes": 7696
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/PrimitiveArrayException.html",
+        "path_type": "hardlink",
+        "sha256": "36735dfd85eeede58bedf9234fe9530583cc49f0d99aadd3446e38cec74a337c",
+        "sha256_in_prefix": "36735dfd85eeede58bedf9234fe9530583cc49f0d99aadd3446e38cec74a337c",
+        "size_in_bytes": 7744
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/RJavaArrayIterator.html",
+        "path_type": "hardlink",
+        "sha256": "c3b12c79a969c91f9d0022e83524ab58d5bd31455581b30b931aec34ca13c382",
+        "sha256_in_prefix": "c3b12c79a969c91f9d0022e83524ab58d5bd31455581b30b931aec34ca13c382",
+        "size_in_bytes": 13897
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/RJavaArrayTools.ArrayDimensionMismatchException.html",
+        "path_type": "hardlink",
+        "sha256": "9c3404b9ab3ecf0e0cecd29592c02a028c2c467367e1837854cb1eafdc76202d",
+        "sha256_in_prefix": "9c3404b9ab3ecf0e0cecd29592c02a028c2c467367e1837854cb1eafdc76202d",
+        "size_in_bytes": 8265
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/RJavaArrayTools.html",
+        "path_type": "hardlink",
+        "sha256": "57ee6cb9c41c2c1b80ad4f5eed6a5d1e5af22e1a0cb4b1bdb22e9f3a5226d9a4",
+        "sha256_in_prefix": "57ee6cb9c41c2c1b80ad4f5eed6a5d1e5af22e1a0cb4b1bdb22e9f3a5226d9a4",
+        "size_in_bytes": 100931
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/RJavaArrayTools_Test.html",
+        "path_type": "hardlink",
+        "sha256": "86732b48c396166078b57b7de7d3bf67d31e2f708831dd2f8fa8b708e721b038",
+        "sha256_in_prefix": "86732b48c396166078b57b7de7d3bf67d31e2f708831dd2f8fa8b708e721b038",
+        "size_in_bytes": 8369
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/RJavaClassLoader.html",
+        "path_type": "hardlink",
+        "sha256": "e4a422c6275e7ad43080af48d3be75a21f0a992640117d401308680ea5d3cf54",
+        "sha256_in_prefix": "e4a422c6275e7ad43080af48d3be75a21f0a992640117d401308680ea5d3cf54",
+        "size_in_bytes": 24229
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/RJavaComparator.html",
+        "path_type": "hardlink",
+        "sha256": "d5b0684c7c1f494310e69df365574b82f5fb85a69f5fa78c9cb5a6821582e715",
+        "sha256_in_prefix": "d5b0684c7c1f494310e69df365574b82f5fb85a69f5fa78c9cb5a6821582e715",
+        "size_in_bytes": 9197
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/RJavaImport.html",
+        "path_type": "hardlink",
+        "sha256": "2bbc9494632d2021af228cb17e2a78fcbe24acb1da54997288fddd49d253792b",
+        "sha256_in_prefix": "2bbc9494632d2021af228cb17e2a78fcbe24acb1da54997288fddd49d253792b",
+        "size_in_bytes": 13762
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/RJavaTools.html",
+        "path_type": "hardlink",
+        "sha256": "61f20f98f600223a8c1cf890dfb34d87725160ae48a0759deea5a96aa0644447",
+        "sha256_in_prefix": "61f20f98f600223a8c1cf890dfb34d87725160ae48a0759deea5a96aa0644447",
+        "size_in_bytes": 32533
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/RJavaTools_Test.DummyNonStaticClass.html",
+        "path_type": "hardlink",
+        "sha256": "d64cf5d2a5332ed82aab769e1f8f2b1961f700f1c43bb99a1fe593903b2c9e5e",
+        "sha256_in_prefix": "d64cf5d2a5332ed82aab769e1f8f2b1961f700f1c43bb99a1fe593903b2c9e5e",
+        "size_in_bytes": 7112
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/RJavaTools_Test.TestException.html",
+        "path_type": "hardlink",
+        "sha256": "ea7f929cebedd7724b719d663a9446db815acfbe80816e5682cbd01ec01f0408",
+        "sha256_in_prefix": "ea7f929cebedd7724b719d663a9446db815acfbe80816e5682cbd01ec01f0408",
+        "size_in_bytes": 7885
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/RJavaTools_Test.html",
+        "path_type": "hardlink",
+        "sha256": "8e609edc1033b4e5bb846e9897eac174bcf5b6867dbbb2a3f1c7b90267e127a0",
+        "sha256_in_prefix": "8e609edc1033b4e5bb846e9897eac174bcf5b6867dbbb2a3f1c7b90267e127a0",
+        "size_in_bytes": 12011
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/RectangularArrayBuilder.html",
+        "path_type": "hardlink",
+        "sha256": "f25432a2703b243eb074ba91c5e8c9fffe369c0e3e0a795cc0d651a4f099d853",
+        "sha256_in_prefix": "f25432a2703b243eb074ba91c5e8c9fffe369c0e3e0a795cc0d651a4f099d853",
+        "size_in_bytes": 23413
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/RectangularArrayBuilder_Test.html",
+        "path_type": "hardlink",
+        "sha256": "1bd9fc901bf3a7eb21efa21039775e5acf808a7d9569a2e9075f01e0b1d6805b",
+        "sha256_in_prefix": "1bd9fc901bf3a7eb21efa21039775e5acf808a7d9569a2e9075f01e0b1d6805b",
+        "size_in_bytes": 8547
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/RectangularArrayExamples.html",
+        "path_type": "hardlink",
+        "sha256": "efa91566718b487be9b409c403c3d23295c671a21d94c73d9b841f57b6b856ec",
+        "sha256_in_prefix": "efa91566718b487be9b409c403c3d23295c671a21d94c73d9b841f57b6b856ec",
+        "size_in_bytes": 18445
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/RectangularArraySummary.html",
+        "path_type": "hardlink",
+        "sha256": "14add5abf3c6ec7721fdceeefd52fbe387fe1852869cf2edae405b0cd00088ae",
+        "sha256_in_prefix": "14add5abf3c6ec7721fdceeefd52fbe387fe1852869cf2edae405b0cd00088ae",
+        "size_in_bytes": 14332
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/TestException.html",
+        "path_type": "hardlink",
+        "sha256": "f8eb0a670a5765d2bcb409a97cfcf9fc2738befea3532987b0d91db7d8793223",
+        "sha256_in_prefix": "f8eb0a670a5765d2bcb409a97cfcf9fc2738befea3532987b0d91db7d8793223",
+        "size_in_bytes": 7356
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/allclasses-frame.html",
+        "path_type": "hardlink",
+        "sha256": "6a1f40adea3204d858a5d1af07ecf7c8443e4797f83c843b75c98e3f1be07de1",
+        "sha256_in_prefix": "6a1f40adea3204d858a5d1af07ecf7c8443e4797f83c843b75c98e3f1be07de1",
+        "size_in_bytes": 3403
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/allclasses-noframe.html",
+        "path_type": "hardlink",
+        "sha256": "0be43faf7d8e925bdaccabdbec121c6998f41616c421b4a282577d92a00a2012",
+        "sha256_in_prefix": "0be43faf7d8e925bdaccabdbec121c6998f41616c421b4a282577d92a00a2012",
+        "size_in_bytes": 2923
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/constant-values.html",
+        "path_type": "hardlink",
+        "sha256": "4ae475737c7820ce94592f562e36bd9160bdcf05701c9b2b8a3126b9ddcdfa5d",
+        "sha256_in_prefix": "4ae475737c7820ce94592f562e36bd9160bdcf05701c9b2b8a3126b9ddcdfa5d",
+        "size_in_bytes": 4285
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/deprecated-list.html",
+        "path_type": "hardlink",
+        "sha256": "b8b291756945e8f0ae7f93264b0607fd31d8c6fed94caf43cd9346efebab4e03",
+        "sha256_in_prefix": "b8b291756945e8f0ae7f93264b0607fd31d8c6fed94caf43cd9346efebab4e03",
+        "size_in_bytes": 4195
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/help-doc.html",
+        "path_type": "hardlink",
+        "sha256": "80cec324d45863a41c361255d0f1801602f9a9925b0f971c0cb2eeb4bda40e4b",
+        "sha256_in_prefix": "80cec324d45863a41c361255d0f1801602f9a9925b0f971c0cb2eeb4bda40e4b",
+        "size_in_bytes": 7642
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/index-all.html",
+        "path_type": "hardlink",
+        "sha256": "e9c3280fc0c9ee28341ad3ed480aabf71b871e3b30733410e4caad55131e3856",
+        "sha256_in_prefix": "e9c3280fc0c9ee28341ad3ed480aabf71b871e3b30733410e4caad55131e3856",
+        "size_in_bytes": 92420
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/index.html",
+        "path_type": "hardlink",
+        "sha256": "eac6fcba00f52e5cb3af9ab3197c33bba456be7fbc0aea9ea3d3b18bfefc5ef2",
+        "sha256_in_prefix": "eac6fcba00f52e5cb3af9ab3197c33bba456be7fbc0aea9ea3d3b18bfefc5ef2",
+        "size_in_bytes": 2530
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/overview-tree.html",
+        "path_type": "hardlink",
+        "sha256": "86b9559f0b5d2590598c813db07390ad457269f00ffb6f6661c7d80a2d17e6de",
+        "sha256_in_prefix": "86b9559f0b5d2590598c813db07390ad457269f00ffb6f6661c7d80a2d17e6de",
+        "size_in_bytes": 7400
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/package-frame.html",
+        "path_type": "hardlink",
+        "sha256": "66ae45704a11049c5a13f4a0952f003372c67934cbf497fd7be12e734a8b3afc",
+        "sha256_in_prefix": "66ae45704a11049c5a13f4a0952f003372c67934cbf497fd7be12e734a8b3afc",
+        "size_in_bytes": 3592
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/package-list",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/package-summary.html",
+        "path_type": "hardlink",
+        "sha256": "0c7e9570ecda464a2b1953c778c6cb0028e8dc80e16c206156fd8fab6ff3521f",
+        "sha256_in_prefix": "0c7e9570ecda464a2b1953c778c6cb0028e8dc80e16c206156fd8fab6ff3521f",
+        "size_in_bytes": 9743
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/package-tree.html",
+        "path_type": "hardlink",
+        "sha256": "b07d2b84dd878b79de00cda54075096937000d0f936921e1502f9fb6f6dad920",
+        "sha256_in_prefix": "b07d2b84dd878b79de00cda54075096937000d0f936921e1502f9fb6f6dad920",
+        "size_in_bytes": 7409
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/resources/background.gif",
+        "path_type": "hardlink",
+        "sha256": "205f906db59d3845a10272e0e24a51d177f922bb6e7bb000f498e5870c956c32",
+        "sha256_in_prefix": "205f906db59d3845a10272e0e24a51d177f922bb6e7bb000f498e5870c956c32",
+        "size_in_bytes": 2313
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/resources/tab.gif",
+        "path_type": "hardlink",
+        "sha256": "13ce18297fbec4fb4702084aed73f1280c3286c38f02cdbd6a78f5e358cbcdc5",
+        "sha256_in_prefix": "13ce18297fbec4fb4702084aed73f1280c3286c38f02cdbd6a78f5e358cbcdc5",
+        "size_in_bytes": 291
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/resources/titlebar.gif",
+        "path_type": "hardlink",
+        "sha256": "be29a5a88700fd44568d99e458d27f6eec8e6848871656aa5b4e304e3f40edb9",
+        "sha256_in_prefix": "be29a5a88700fd44568d99e458d27f6eec8e6848871656aa5b4e304e3f40edb9",
+        "size_in_bytes": 10701
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/resources/titlebar_end.gif",
+        "path_type": "hardlink",
+        "sha256": "91dc3a4c8ae181b839affde933331c1abe0e69b448b3727d8507dd9166cba675",
+        "sha256_in_prefix": "91dc3a4c8ae181b839affde933331c1abe0e69b448b3727d8507dd9166cba675",
+        "size_in_bytes": 849
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/serialized-form.html",
+        "path_type": "hardlink",
+        "sha256": "6f940b15d79c512ee6fcfeda5973d3a4537779e798af2371a296770f1ea5ea05",
+        "sha256_in_prefix": "6f940b15d79c512ee6fcfeda5973d3a4537779e798af2371a296770f1ea5ea05",
+        "size_in_bytes": 6457
+      },
+      {
+        "_path": "lib/R/library/rJava/javadoc/stylesheet.css",
+        "path_type": "hardlink",
+        "sha256": "936ddab419a6595eef66c4e171460ea7d43d89f3a0c0bd70889677dded50fc57",
+        "sha256_in_prefix": "936ddab419a6595eef66c4e171460ea7d43d89f3a0c0bd70889677dded50fc57",
+        "size_in_bytes": 11139
+      },
+      {
+        "_path": "lib/R/library/rJava/jri/JRI.jar",
+        "path_type": "hardlink",
+        "sha256": "005b0c09950f92f07f852b58d79bafd3d238c545156114635d3bf1f493bc789c",
+        "sha256_in_prefix": "005b0c09950f92f07f852b58d79bafd3d238c545156114635d3bf1f493bc789c",
+        "size_in_bytes": 67431
+      },
+      {
+        "_path": "lib/R/library/rJava/jri/JRIEngine.jar",
+        "path_type": "hardlink",
+        "sha256": "acfd7fa255d59e96daaf02693ad0e7c27bcf12b8a15c49afb38e43c30132304d",
+        "sha256_in_prefix": "acfd7fa255d59e96daaf02693ad0e7c27bcf12b8a15c49afb38e43c30132304d",
+        "size_in_bytes": 11246
+      },
+      {
+        "_path": "lib/R/library/rJava/jri/REngine.jar",
+        "path_type": "hardlink",
+        "sha256": "2c56ec9f9a42af28cb4ce1f4c2f94cd618ce0bec0235c6c3593dea8b6ede2854",
+        "sha256_in_prefix": "2c56ec9f9a42af28cb4ce1f4c2f94cd618ce0bec0235c6c3593dea8b6ede2854",
+        "size_in_bytes": 34556
+      },
+      {
+        "_path": "lib/R/library/rJava/jri/examples/TextConsole.class",
+        "path_type": "hardlink",
+        "sha256": "5f8272e0fee3fed3d7901a1ee1e67c60800ea21e70b1644828b0c78ca9f1e841",
+        "sha256_in_prefix": "5f8272e0fee3fed3d7901a1ee1e67c60800ea21e70b1644828b0c78ca9f1e841",
+        "size_in_bytes": 2401
+      },
+      {
+        "_path": "lib/R/library/rJava/jri/examples/TextConsole2.class",
+        "path_type": "hardlink",
+        "sha256": "8f0ee5200dd55bd3f9aa32ea666e413e52252342c7d79af5705856a783da603a",
+        "sha256_in_prefix": "8f0ee5200dd55bd3f9aa32ea666e413e52252342c7d79af5705856a783da603a",
+        "size_in_bytes": 2937
+      },
+      {
+        "_path": "lib/R/library/rJava/jri/examples/rtest.class",
+        "path_type": "hardlink",
+        "sha256": "53feb0431ccbcb1c7a823fb6000febf8a9325df99e31b0328bcd9e8de436e794",
+        "sha256_in_prefix": "53feb0431ccbcb1c7a823fb6000febf8a9325df99e31b0328bcd9e8de436e794",
+        "size_in_bytes": 5658
+      },
+      {
+        "_path": "lib/R/library/rJava/jri/examples/rtest.java",
+        "path_type": "hardlink",
+        "sha256": "3142b493de6b73a93f5de96074af336283cc144f4289e3b88101c555d4651fee",
+        "sha256_in_prefix": "3142b493de6b73a93f5de96074af336283cc144f4289e3b88101c555d4651fee",
+        "size_in_bytes": 8410
+      },
+      {
+        "_path": "lib/R/library/rJava/jri/examples/rtest2.class",
+        "path_type": "hardlink",
+        "sha256": "bb803ebdeb6dc3f7c8573ddaa510c4db063c0e4aaebc6ba4782e0f95548f2a92",
+        "sha256_in_prefix": "bb803ebdeb6dc3f7c8573ddaa510c4db063c0e4aaebc6ba4782e0f95548f2a92",
+        "size_in_bytes": 1306
+      },
+      {
+        "_path": "lib/R/library/rJava/jri/examples/rtest2.java",
+        "path_type": "hardlink",
+        "sha256": "97e205bf7cbdec174290e416a3a87b2a69ca07445e9104d0465683d9dd238957",
+        "sha256_in_prefix": "97e205bf7cbdec174290e416a3a87b2a69ca07445e9104d0465683d9dd238957",
+        "size_in_bytes": 2669
+      },
+      {
+        "_path": "lib/R/library/rJava/jri/jri.dll",
+        "path_type": "hardlink",
+        "sha256": "68df39606df4aed125426232f691cfe49540303eda8025d42afc4d760cc54fb8",
+        "sha256_in_prefix": "68df39606df4aed125426232f691cfe49540303eda8025d42afc4d760cc54fb8",
+        "size_in_bytes": 153771
+      },
+      {
+        "_path": "lib/R/library/rJava/jri/run.bat",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/Users/builder/mc3/conda-bld/r-rjava_1538176425632/_h_env",
+        "sha256": "14538e5e09229f6cd64c3bcc4578249d7b2d352cc4f6b34a767595403b445e6b",
+        "sha256_in_prefix": "d3d0b1d58c13d009172ca71d62771cf3ab19437211f0d240e96d491d6e2653b9",
+        "size_in_bytes": 263
+      },
+      {
+        "_path": "lib/R/library/rJava/jri/x64/jri.dll",
+        "path_type": "hardlink",
+        "sha256": "68df39606df4aed125426232f691cfe49540303eda8025d42afc4d760cc54fb8",
+        "sha256_in_prefix": "68df39606df4aed125426232f691cfe49540303eda8025d42afc4d760cc54fb8",
+        "size_in_bytes": 153771
+      },
+      {
+        "_path": "lib/R/library/rJava/libs/x64/rJava.dll",
+        "path_type": "hardlink",
+        "sha256": "4163ebf80ad6ffb1fa8558f2f648a0c4dc117c9209da91d9918d090f122a82dd",
+        "sha256_in_prefix": "4163ebf80ad6ffb1fa8558f2f648a0c4dc117c9209da91d9918d090f122a82dd",
+        "size_in_bytes": 61952
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 797086,
+  "subdir": "win-64",
+  "timestamp": 1538176610451,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-rjava-0.9_10-r351h6f4ce42_0.tar.bz2",
+  "version": "0.9_10"
+}

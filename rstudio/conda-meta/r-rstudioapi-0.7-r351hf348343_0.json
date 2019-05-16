@@ -1,0 +1,716 @@
+{
+  "build": "r351hf348343_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-rstudioapi-0.7-r351hf348343_0",
+  "features": "",
+  "files": [
+    "lib/R/library/rstudioapi/DESCRIPTION",
+    "lib/R/library/rstudioapi/INDEX",
+    "lib/R/library/rstudioapi/LICENSE",
+    "lib/R/library/rstudioapi/MD5",
+    "lib/R/library/rstudioapi/Meta/Rd.rds",
+    "lib/R/library/rstudioapi/Meta/features.rds",
+    "lib/R/library/rstudioapi/Meta/hsearch.rds",
+    "lib/R/library/rstudioapi/Meta/links.rds",
+    "lib/R/library/rstudioapi/Meta/nsInfo.rds",
+    "lib/R/library/rstudioapi/Meta/package.rds",
+    "lib/R/library/rstudioapi/Meta/vignette.rds",
+    "lib/R/library/rstudioapi/NAMESPACE",
+    "lib/R/library/rstudioapi/NEWS.md",
+    "lib/R/library/rstudioapi/R/rstudioapi",
+    "lib/R/library/rstudioapi/R/rstudioapi.rdb",
+    "lib/R/library/rstudioapi/R/rstudioapi.rdx",
+    "lib/R/library/rstudioapi/doc/dialogs.R",
+    "lib/R/library/rstudioapi/doc/dialogs.Rmd",
+    "lib/R/library/rstudioapi/doc/dialogs.html",
+    "lib/R/library/rstudioapi/doc/document-manipulation.R",
+    "lib/R/library/rstudioapi/doc/document-manipulation.Rmd",
+    "lib/R/library/rstudioapi/doc/document-manipulation.html",
+    "lib/R/library/rstudioapi/doc/index.html",
+    "lib/R/library/rstudioapi/doc/introduction.Rmd",
+    "lib/R/library/rstudioapi/doc/introduction.html",
+    "lib/R/library/rstudioapi/doc/projects.R",
+    "lib/R/library/rstudioapi/doc/projects.Rmd",
+    "lib/R/library/rstudioapi/doc/projects.html",
+    "lib/R/library/rstudioapi/doc/r-session.R",
+    "lib/R/library/rstudioapi/doc/r-session.Rmd",
+    "lib/R/library/rstudioapi/doc/r-session.html",
+    "lib/R/library/rstudioapi/doc/terminal.R",
+    "lib/R/library/rstudioapi/doc/terminal.Rmd",
+    "lib/R/library/rstudioapi/doc/terminal.html",
+    "lib/R/library/rstudioapi/help/AnIndex",
+    "lib/R/library/rstudioapi/help/aliases.rds",
+    "lib/R/library/rstudioapi/help/paths.rds",
+    "lib/R/library/rstudioapi/help/rstudioapi.rdb",
+    "lib/R/library/rstudioapi/help/rstudioapi.rdx",
+    "lib/R/library/rstudioapi/html/00Index.html",
+    "lib/R/library/rstudioapi/html/R.css",
+    "lib/R/library/rstudioapi/html/askForPassword.html",
+    "lib/R/library/rstudioapi/html/callFun.html",
+    "lib/R/library/rstudioapi/html/createProjectTemplate.html",
+    "lib/R/library/rstudioapi/html/document_position.html",
+    "lib/R/library/rstudioapi/html/document_range.html",
+    "lib/R/library/rstudioapi/html/file-dialogs.html",
+    "lib/R/library/rstudioapi/html/getActiveProject.html",
+    "lib/R/library/rstudioapi/html/getThemeInfo.html",
+    "lib/R/library/rstudioapi/html/getVersion.html",
+    "lib/R/library/rstudioapi/html/hasColorConsole.html",
+    "lib/R/library/rstudioapi/html/hasFun.html",
+    "lib/R/library/rstudioapi/html/isAvailable.html",
+    "lib/R/library/rstudioapi/html/navigateToFile.html",
+    "lib/R/library/rstudioapi/html/persistent-values.html",
+    "lib/R/library/rstudioapi/html/previewRd.html",
+    "lib/R/library/rstudioapi/html/primary_selection.html",
+    "lib/R/library/rstudioapi/html/projects.html",
+    "lib/R/library/rstudioapi/html/readPreference.html",
+    "lib/R/library/rstudioapi/html/restartSession.html",
+    "lib/R/library/rstudioapi/html/rstudio-documents.html",
+    "lib/R/library/rstudioapi/html/rstudio-editors.html",
+    "lib/R/library/rstudioapi/html/savePlotAsImage.html",
+    "lib/R/library/rstudioapi/html/sendToConsole.html",
+    "lib/R/library/rstudioapi/html/showDialog.html",
+    "lib/R/library/rstudioapi/html/showPrompt.html",
+    "lib/R/library/rstudioapi/html/showQuestion.html",
+    "lib/R/library/rstudioapi/html/sourceMarkers.html",
+    "lib/R/library/rstudioapi/html/terminalActivate.html",
+    "lib/R/library/rstudioapi/html/terminalBuffer.html",
+    "lib/R/library/rstudioapi/html/terminalBusy.html",
+    "lib/R/library/rstudioapi/html/terminalClear.html",
+    "lib/R/library/rstudioapi/html/terminalContext.html",
+    "lib/R/library/rstudioapi/html/terminalCreate.html",
+    "lib/R/library/rstudioapi/html/terminalExecute.html",
+    "lib/R/library/rstudioapi/html/terminalExitCode.html",
+    "lib/R/library/rstudioapi/html/terminalKill.html",
+    "lib/R/library/rstudioapi/html/terminalList.html",
+    "lib/R/library/rstudioapi/html/terminalRunning.html",
+    "lib/R/library/rstudioapi/html/terminalSend.html",
+    "lib/R/library/rstudioapi/html/terminalVisible.html",
+    "lib/R/library/rstudioapi/html/updateDialog.html",
+    "lib/R/library/rstudioapi/html/versionInfo.html",
+    "lib/R/library/rstudioapi/html/viewer.html",
+    "lib/R/library/rstudioapi/html/writePreference.html"
+  ],
+  "fn": "r-rstudioapi-0.7-r351hf348343_0.tar.bz2",
+  "license": "MIT + file LICENSE",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-rstudioapi-0.7-r351hf348343_0",
+    "type": 1
+  },
+  "md5": "a81f5d77f7baded6d9c327245d1a0f09",
+  "name": "r-rstudioapi",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-rstudioapi-0.7-r351hf348343_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/rstudioapi/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "3dc84bddbbac54fe691d9acb3b264b16929b1df30da70c951dfd1b45ee3abeaa",
+        "sha256_in_prefix": "3dc84bddbbac54fe691d9acb3b264b16929b1df30da70c951dfd1b45ee3abeaa",
+        "size_in_bytes": 1117
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/INDEX",
+        "path_type": "hardlink",
+        "sha256": "486a185af422e6b563d9317a551133490c4cc69b7e00af757c466f1ba9572908",
+        "sha256_in_prefix": "486a185af422e6b563d9317a551133490c4cc69b7e00af757c466f1ba9572908",
+        "size_in_bytes": 2252
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "70d024f12e68c5a569e845d9191ee8d0c74917632bec068173bb6dc54012980c",
+        "sha256_in_prefix": "70d024f12e68c5a569e845d9191ee8d0c74917632bec068173bb6dc54012980c",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/MD5",
+        "path_type": "hardlink",
+        "sha256": "b75144bc475d3cbe5209761b43205927f4c70c29b85376cbc3ae105af47216dd",
+        "sha256_in_prefix": "b75144bc475d3cbe5209761b43205927f4c70c29b85376cbc3ae105af47216dd",
+        "size_in_bytes": 4667
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "744d01e7dc782473921b00876b9f013b2a69ab32a2d9d7547651baf0d40f2fb7",
+        "sha256_in_prefix": "744d01e7dc782473921b00876b9f013b2a69ab32a2d9d7547651baf0d40f2fb7",
+        "size_in_bytes": 1685
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "23794ae3d4b344c1b6bca35d039161df59aa7220e34c14e566be72649914b119",
+        "sha256_in_prefix": "23794ae3d4b344c1b6bca35d039161df59aa7220e34c14e566be72649914b119",
+        "size_in_bytes": 1540
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "84ab25f20aaccc88301babf405dc9f18224e328bd6ba0329e3b0feebd44a4f9f",
+        "sha256_in_prefix": "84ab25f20aaccc88301babf405dc9f18224e328bd6ba0329e3b0feebd44a4f9f",
+        "size_in_bytes": 931
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "b4f403b7614996a703edb3b55968a38fddd79bbc6a25c48f0e68e59030ed4e0e",
+        "sha256_in_prefix": "b4f403b7614996a703edb3b55968a38fddd79bbc6a25c48f0e68e59030ed4e0e",
+        "size_in_bytes": 786
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "531e04524db705b1ac92c34937d215daf0f8b00d10bb70d30de2ce01769decf4",
+        "sha256_in_prefix": "531e04524db705b1ac92c34937d215daf0f8b00d10bb70d30de2ce01769decf4",
+        "size_in_bytes": 913
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "7315a316b0e0f1d8eef0f10541a8145b6f2a593d1e958ecb41b0136bcc2c00cc",
+        "sha256_in_prefix": "7315a316b0e0f1d8eef0f10541a8145b6f2a593d1e958ecb41b0136bcc2c00cc",
+        "size_in_bytes": 364
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "4a5aedccd528d631b0e652a2118868162afc9a33c80ad57ed38b69637e6a0a96",
+        "sha256_in_prefix": "4a5aedccd528d631b0e652a2118868162afc9a33c80ad57ed38b69637e6a0a96",
+        "size_in_bytes": 1952
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "c268ce261def04e89b0e4f6273f6334f0022b9b230d74f70d3b538b1c671b8b7",
+        "sha256_in_prefix": "c268ce261def04e89b0e4f6273f6334f0022b9b230d74f70d3b538b1c671b8b7",
+        "size_in_bytes": 1054
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/R/rstudioapi",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/R/rstudioapi.rdb",
+        "path_type": "hardlink",
+        "sha256": "cac242988d3dfbc20137f9f2e2fd984316829850cd5404328c455817800bf50e",
+        "sha256_in_prefix": "cac242988d3dfbc20137f9f2e2fd984316829850cd5404328c455817800bf50e",
+        "size_in_bytes": 28844
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/R/rstudioapi.rdx",
+        "path_type": "hardlink",
+        "sha256": "1f406f2ffa36b14af6715b8d1fa37eeaa5257279748730389796314a9caa997a",
+        "sha256_in_prefix": "1f406f2ffa36b14af6715b8d1fa37eeaa5257279748730389796314a9caa997a",
+        "size_in_bytes": 1349
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/doc/dialogs.R",
+        "path_type": "hardlink",
+        "sha256": "d2fe0c95dd30dfb22cfdc3af15b485a0a5c9dd88c8690763629a80665290fa88",
+        "sha256_in_prefix": "d2fe0c95dd30dfb22cfdc3af15b485a0a5c9dd88c8690763629a80665290fa88",
+        "size_in_bytes": 1277
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/doc/dialogs.Rmd",
+        "path_type": "hardlink",
+        "sha256": "08731fba12d74db4aa77325e86d2b6e6e9b3b15c4927d588d5ed6210211f6b30",
+        "sha256_in_prefix": "08731fba12d74db4aa77325e86d2b6e6e9b3b15c4927d588d5ed6210211f6b30",
+        "size_in_bytes": 1654
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/doc/dialogs.html",
+        "path_type": "hardlink",
+        "sha256": "5c1ac3a268a1d9024e45429bcd887713cad6f50b16b05bdd42deee56e28ee618",
+        "sha256_in_prefix": "5c1ac3a268a1d9024e45429bcd887713cad6f50b16b05bdd42deee56e28ee618",
+        "size_in_bytes": 10940
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/doc/document-manipulation.R",
+        "path_type": "hardlink",
+        "sha256": "57416fcf1c7a9f831aa5567ed494987f85ed2d702145fc29b10a87ad459b962c",
+        "sha256_in_prefix": "57416fcf1c7a9f831aa5567ed494987f85ed2d702145fc29b10a87ad459b962c",
+        "size_in_bytes": 1471
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/doc/document-manipulation.Rmd",
+        "path_type": "hardlink",
+        "sha256": "70b3e98c0fb9d86fc3087c51c3b6a9824ac40be664f1462a9f4f01cd788025f3",
+        "sha256_in_prefix": "70b3e98c0fb9d86fc3087c51c3b6a9824ac40be664f1462a9f4f01cd788025f3",
+        "size_in_bytes": 2108
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/doc/document-manipulation.html",
+        "path_type": "hardlink",
+        "sha256": "8921dc05b79c58340fd652e9dead66c94fa38ebc8aadbf027c69d9e8aa1d725c",
+        "sha256_in_prefix": "8921dc05b79c58340fd652e9dead66c94fa38ebc8aadbf027c69d9e8aa1d725c",
+        "size_in_bytes": 12052
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "b8fbcba324ca31bf6065959f0db8a1eb450a559710269f00a273411388346903",
+        "sha256_in_prefix": "b8fbcba324ca31bf6065959f0db8a1eb450a559710269f00a273411388346903",
+        "size_in_bytes": 3892
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/doc/introduction.Rmd",
+        "path_type": "hardlink",
+        "sha256": "5e68dd5034b66f1a552f6a759f9ebebd5590c18118133814cc27c4f16461b20c",
+        "sha256_in_prefix": "5e68dd5034b66f1a552f6a759f9ebebd5590c18118133814cc27c4f16461b20c",
+        "size_in_bytes": 769
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/doc/introduction.html",
+        "path_type": "hardlink",
+        "sha256": "1482cebe3a1e1634a0d672f25f37a7779521e2320782f95d0123c7ceb1721028",
+        "sha256_in_prefix": "1482cebe3a1e1634a0d672f25f37a7779521e2320782f95d0123c7ceb1721028",
+        "size_in_bytes": 6687
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/doc/projects.R",
+        "path_type": "hardlink",
+        "sha256": "123bb2e71a0428ddc50986362269903f6fb38611452c6138a40472c46fb20018",
+        "sha256_in_prefix": "123bb2e71a0428ddc50986362269903f6fb38611452c6138a40472c46fb20018",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/doc/projects.Rmd",
+        "path_type": "hardlink",
+        "sha256": "f2721257d68a7b6060df02b181b5c812877b08423c1f55b35491a2977617fefe",
+        "sha256_in_prefix": "f2721257d68a7b6060df02b181b5c812877b08423c1f55b35491a2977617fefe",
+        "size_in_bytes": 642
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/doc/projects.html",
+        "path_type": "hardlink",
+        "sha256": "e78f7486a16f6c21fbdaee2d722ff3728899e1976b928d22045a684253b5ec0d",
+        "sha256_in_prefix": "e78f7486a16f6c21fbdaee2d722ff3728899e1976b928d22045a684253b5ec0d",
+        "size_in_bytes": 8917
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/doc/r-session.R",
+        "path_type": "hardlink",
+        "sha256": "ce73f4b19ab4cabb7c4a8f844b725dee2ef3ebe49797d1a974a74f3a6d86103f",
+        "sha256_in_prefix": "ce73f4b19ab4cabb7c4a8f844b725dee2ef3ebe49797d1a974a74f3a6d86103f",
+        "size_in_bytes": 417
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/doc/r-session.Rmd",
+        "path_type": "hardlink",
+        "sha256": "f986ca0fa71ebd6ff16106eb1d4884872925f266d3195283e52048a20849b5e7",
+        "sha256_in_prefix": "f986ca0fa71ebd6ff16106eb1d4884872925f266d3195283e52048a20849b5e7",
+        "size_in_bytes": 667
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/doc/r-session.html",
+        "path_type": "hardlink",
+        "sha256": "9cd87e6fe72ae2ebe8b048200bdce0786690aeea48e16b727e171d5e15e6b234",
+        "sha256_in_prefix": "9cd87e6fe72ae2ebe8b048200bdce0786690aeea48e16b727e171d5e15e6b234",
+        "size_in_bytes": 8945
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/doc/terminal.R",
+        "path_type": "hardlink",
+        "sha256": "77fd5ac6b485a27f51ac2063f161c94cc1120d20c5cdb997d07487ab8cae1585",
+        "sha256_in_prefix": "77fd5ac6b485a27f51ac2063f161c94cc1120d20c5cdb997d07487ab8cae1585",
+        "size_in_bytes": 1451
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/doc/terminal.Rmd",
+        "path_type": "hardlink",
+        "sha256": "d6aeffd2e36dc3708318896e8a8981a3f23b15ed6c3b098e6fd3ec72a09ccca8",
+        "sha256_in_prefix": "d6aeffd2e36dc3708318896e8a8981a3f23b15ed6c3b098e6fd3ec72a09ccca8",
+        "size_in_bytes": 4725
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/doc/terminal.html",
+        "path_type": "hardlink",
+        "sha256": "60afe194385ef928505d36fcd7a77570e310f31632ff855c23024a0628125987",
+        "sha256_in_prefix": "60afe194385ef928505d36fcd7a77570e310f31632ff855c23024a0628125987",
+        "size_in_bytes": 14920
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "83c27c3d4ddcd98beb556f3df809fdb0037547115856e731460db2653a45cb16",
+        "sha256_in_prefix": "83c27c3d4ddcd98beb556f3df809fdb0037547115856e731460db2653a45cb16",
+        "size_in_bytes": 2027
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "3322e26cb2420effa89dc3285ba0b0859acf69d0ab833f6b0c850269d0878c0b",
+        "sha256_in_prefix": "3322e26cb2420effa89dc3285ba0b0859acf69d0ab833f6b0c850269d0878c0b",
+        "size_in_bytes": 688
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "6248ff8cf5df989ab7585a6557f3bac9fdb1e3ec5caf42d4e49eea612def4c9d",
+        "sha256_in_prefix": "6248ff8cf5df989ab7585a6557f3bac9fdb1e3ec5caf42d4e49eea612def4c9d",
+        "size_in_bytes": 591
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/help/rstudioapi.rdb",
+        "path_type": "hardlink",
+        "sha256": "f2a9beac5f2ef6b61eed02c748ae4f4312081347a8e09963c3c971c95ffbda3c",
+        "sha256_in_prefix": "f2a9beac5f2ef6b61eed02c748ae4f4312081347a8e09963c3c971c95ffbda3c",
+        "size_in_bytes": 74650
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/help/rstudioapi.rdx",
+        "path_type": "hardlink",
+        "sha256": "f808cee36169d5968ac939c10f4ac35ce58e628294dc7c8049f7372c8bd71d2c",
+        "sha256_in_prefix": "f808cee36169d5968ac939c10f4ac35ce58e628294dc7c8049f7372c8bd71d2c",
+        "size_in_bytes": 1170
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "df7a485c08ad238104e885c5498961669b99f82745c9ac86c0885fe40e0df831",
+        "sha256_in_prefix": "df7a485c08ad238104e885c5498961669b99f82745c9ac86c0885fe40e0df831",
+        "size_in_bytes": 9370
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/askForPassword.html",
+        "path_type": "hardlink",
+        "sha256": "592b05cf1e51a8830ba54d7e87d688ef7ce80d49954b7498522055bac1e1c7ea",
+        "sha256_in_prefix": "592b05cf1e51a8830ba54d7e87d688ef7ce80d49954b7498522055bac1e1c7ea",
+        "size_in_bytes": 1535
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/callFun.html",
+        "path_type": "hardlink",
+        "sha256": "c8f23047b821f6f07bf79c29bc1e358342a1a9b0d4782068decdd43b02c10513",
+        "sha256_in_prefix": "c8f23047b821f6f07bf79c29bc1e358342a1a9b0d4782068decdd43b02c10513",
+        "size_in_bytes": 1385
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/createProjectTemplate.html",
+        "path_type": "hardlink",
+        "sha256": "c43c29e806eb2fb7e6dd45e1143dcdee7a93c7149e8749ce4f9144799dc9e42c",
+        "sha256_in_prefix": "c43c29e806eb2fb7e6dd45e1143dcdee7a93c7149e8749ce4f9144799dc9e42c",
+        "size_in_bytes": 3065
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/document_position.html",
+        "path_type": "hardlink",
+        "sha256": "53b82160294814cbca28ac73224a574b0fcc268a4e93789b635f4e2be7b438cb",
+        "sha256_in_prefix": "53b82160294814cbca28ac73224a574b0fcc268a4e93789b635f4e2be7b438cb",
+        "size_in_bytes": 1400
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/document_range.html",
+        "path_type": "hardlink",
+        "sha256": "55ea6ec648af5ac6d5317c721a2b76ef9fa4083cb7c244492c3eea3dc2e4e770",
+        "sha256_in_prefix": "55ea6ec648af5ac6d5317c721a2b76ef9fa4083cb7c244492c3eea3dc2e4e770",
+        "size_in_bytes": 2124
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/file-dialogs.html",
+        "path_type": "hardlink",
+        "sha256": "43416dd2ee1508b50d978064d20a8a2a745ffe325d6a75960456059f7bf5608c",
+        "sha256_in_prefix": "43416dd2ee1508b50d978064d20a8a2a745ffe325d6a75960456059f7bf5608c",
+        "size_in_bytes": 2481
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/getActiveProject.html",
+        "path_type": "hardlink",
+        "sha256": "f7988cf1b962535194f442833b4d467ef1ddecbf66016a81bd5972a0ac0b56e6",
+        "sha256_in_prefix": "f7988cf1b962535194f442833b4d467ef1ddecbf66016a81bd5972a0ac0b56e6",
+        "size_in_bytes": 1267
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/getThemeInfo.html",
+        "path_type": "hardlink",
+        "sha256": "dfd933bb09e14318fec3b766b3613c2afc5a3e770e0f769658dfacc76ba23ef9",
+        "sha256_in_prefix": "dfd933bb09e14318fec3b766b3613c2afc5a3e770e0f769658dfacc76ba23ef9",
+        "size_in_bytes": 1041
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/getVersion.html",
+        "path_type": "hardlink",
+        "sha256": "a1715f2f0b22af004fb928cd9ec8b50edf7b407167d208cff4ec174b20548a6a",
+        "sha256_in_prefix": "a1715f2f0b22af004fb928cd9ec8b50edf7b407167d208cff4ec174b20548a6a",
+        "size_in_bytes": 1212
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/hasColorConsole.html",
+        "path_type": "hardlink",
+        "sha256": "329a92cec03ff0f4b6097b31e9d3432f9d97231a30613eaf0963da4c26ca84f8",
+        "sha256_in_prefix": "329a92cec03ff0f4b6097b31e9d3432f9d97231a30613eaf0963da4c26ca84f8",
+        "size_in_bytes": 1208
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/hasFun.html",
+        "path_type": "hardlink",
+        "sha256": "60c2d544a1ee84e94abf8928397097d7963e55b68bb028853017f9e32e6ccba3",
+        "sha256_in_prefix": "60c2d544a1ee84e94abf8928397097d7963e55b68bb028853017f9e32e6ccba3",
+        "size_in_bytes": 1835
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/isAvailable.html",
+        "path_type": "hardlink",
+        "sha256": "d3b59250f6fca64757635c3c692ea76f4eee7d9b98b8853ca78733184313a702",
+        "sha256_in_prefix": "d3b59250f6fca64757635c3c692ea76f4eee7d9b98b8853ca78733184313a702",
+        "size_in_bytes": 1372
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/navigateToFile.html",
+        "path_type": "hardlink",
+        "sha256": "4d54c990e0b1986f77861215dc7940bfd95709fc2ac2ca0d03aec400e78d434d",
+        "sha256_in_prefix": "4d54c990e0b1986f77861215dc7940bfd95709fc2ac2ca0d03aec400e78d434d",
+        "size_in_bytes": 2160
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/persistent-values.html",
+        "path_type": "hardlink",
+        "sha256": "1119bab74acc6f01aea79a866031776221e8aa54e3c380b6aea9f8d123ba3c05",
+        "sha256_in_prefix": "1119bab74acc6f01aea79a866031776221e8aa54e3c380b6aea9f8d123ba3c05",
+        "size_in_bytes": 1490
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/previewRd.html",
+        "path_type": "hardlink",
+        "sha256": "25d48135a842bd2df811de2df8f30d4c9cde5dc4bdfb6e6c1a4fbc722ec27637",
+        "sha256_in_prefix": "25d48135a842bd2df811de2df8f30d4c9cde5dc4bdfb6e6c1a4fbc722ec27637",
+        "size_in_bytes": 1295
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/primary_selection.html",
+        "path_type": "hardlink",
+        "sha256": "761c2d670ff4f5ab8fb1acf843f8a27695b2579e357e29d2295290c26a67bf1c",
+        "sha256_in_prefix": "761c2d670ff4f5ab8fb1acf843f8a27695b2579e357e29d2295290c26a67bf1c",
+        "size_in_bytes": 1394
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/projects.html",
+        "path_type": "hardlink",
+        "sha256": "12643b8ebfdeb67cd3882fc525116042431c064ec04b6659337c7eeef3eba53a",
+        "sha256_in_prefix": "12643b8ebfdeb67cd3882fc525116042431c064ec04b6659337c7eeef3eba53a",
+        "size_in_bytes": 1959
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/readPreference.html",
+        "path_type": "hardlink",
+        "sha256": "780e76f850e6a0977d9fd19bcea19d0aef75e23ddee3a670ae7851fc66b13086",
+        "sha256_in_prefix": "780e76f850e6a0977d9fd19bcea19d0aef75e23ddee3a670ae7851fc66b13086",
+        "size_in_bytes": 1309
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/restartSession.html",
+        "path_type": "hardlink",
+        "sha256": "e7b0aa8ca7caf51f617df1b8ebec5097d9f3a1d2c65174430dfac80ec48920d2",
+        "sha256_in_prefix": "e7b0aa8ca7caf51f617df1b8ebec5097d9f3a1d2c65174430dfac80ec48920d2",
+        "size_in_bytes": 1372
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/rstudio-documents.html",
+        "path_type": "hardlink",
+        "sha256": "334ac1572dc506fae5039e5592509d40c8988f8e3ad9517211636a69a8a92737",
+        "sha256_in_prefix": "334ac1572dc506fae5039e5592509d40c8988f8e3ad9517211636a69a8a92737",
+        "size_in_bytes": 4400
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/rstudio-editors.html",
+        "path_type": "hardlink",
+        "sha256": "004fd24d5dd7d9ce847f33147bc874742b21a0a8464c2786a3a7ad1170e252d3",
+        "sha256_in_prefix": "004fd24d5dd7d9ce847f33147bc874742b21a0a8464c2786a3a7ad1170e252d3",
+        "size_in_bytes": 2193
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/savePlotAsImage.html",
+        "path_type": "hardlink",
+        "sha256": "9b5553842d9f60f413a19c42118a6e59c06014a11c35796b0fd09c352828644e",
+        "sha256_in_prefix": "9b5553842d9f60f413a19c42118a6e59c06014a11c35796b0fd09c352828644e",
+        "size_in_bytes": 1611
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/sendToConsole.html",
+        "path_type": "hardlink",
+        "sha256": "b4658b61dc522297251d67b43bb5c9dd417a2726995b1abed45f572e177e3b32",
+        "sha256_in_prefix": "b4658b61dc522297251d67b43bb5c9dd417a2726995b1abed45f572e177e3b32",
+        "size_in_bytes": 1416
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/showDialog.html",
+        "path_type": "hardlink",
+        "sha256": "c985792550273098773c1ae3b96240add76e7c9605f14b92e711a1b2b17d8515",
+        "sha256_in_prefix": "c985792550273098773c1ae3b96240add76e7c9605f14b92e711a1b2b17d8515",
+        "size_in_bytes": 1652
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/showPrompt.html",
+        "path_type": "hardlink",
+        "sha256": "4a2a76ae2a21a70e3c02d63694e49022212efd4e7717e2ce56fef9a7efc47676",
+        "sha256_in_prefix": "4a2a76ae2a21a70e3c02d63694e49022212efd4e7717e2ce56fef9a7efc47676",
+        "size_in_bytes": 1428
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/showQuestion.html",
+        "path_type": "hardlink",
+        "sha256": "561bf19d146ed8e2e9f1b44ad3c24751c36b9fb25c51ebb76021409e03227006",
+        "sha256_in_prefix": "561bf19d146ed8e2e9f1b44ad3c24751c36b9fb25c51ebb76021409e03227006",
+        "size_in_bytes": 1593
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/sourceMarkers.html",
+        "path_type": "hardlink",
+        "sha256": "2ad59bb43554e8d773efa4007645d070fad0213d6f5104846ac941abd466ffbf",
+        "sha256_in_prefix": "2ad59bb43554e8d773efa4007645d070fad0213d6f5104846ac941abd466ffbf",
+        "size_in_bytes": 3143
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/terminalActivate.html",
+        "path_type": "hardlink",
+        "sha256": "fbf51411daff3030d53ad2afd30c5492819cdcb20307429e30e99b59b439b260",
+        "sha256_in_prefix": "fbf51411daff3030d53ad2afd30c5492819cdcb20307429e30e99b59b439b260",
+        "size_in_bytes": 2051
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/terminalBuffer.html",
+        "path_type": "hardlink",
+        "sha256": "d715eec40f111c484a08a20dda00da3f1f2cbb3d0718d0c2402b79739e729530",
+        "sha256_in_prefix": "d715eec40f111c484a08a20dda00da3f1f2cbb3d0718d0c2402b79739e729530",
+        "size_in_bytes": 1634
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/terminalBusy.html",
+        "path_type": "hardlink",
+        "sha256": "38be5a9683e5348c3567c0d3c87ec1b89ee868212e552d21ae41ee81f8029e39",
+        "sha256_in_prefix": "38be5a9683e5348c3567c0d3c87ec1b89ee868212e552d21ae41ee81f8029e39",
+        "size_in_bytes": 1784
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/terminalClear.html",
+        "path_type": "hardlink",
+        "sha256": "de2b14640dac1f4ca04a6e11464e32ebdfb2a387601b322597a00218ef320c96",
+        "sha256_in_prefix": "de2b14640dac1f4ca04a6e11464e32ebdfb2a387601b322597a00218ef320c96",
+        "size_in_bytes": 1599
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/terminalContext.html",
+        "path_type": "hardlink",
+        "sha256": "a2f50fa1125d046b3b7513444fc6c17031e53be08fee01b72c2fc454c7c9aa6f",
+        "sha256_in_prefix": "a2f50fa1125d046b3b7513444fc6c17031e53be08fee01b72c2fc454c7c9aa6f",
+        "size_in_bytes": 3761
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/terminalCreate.html",
+        "path_type": "hardlink",
+        "sha256": "207700a909081347d1cab066ea4950a6e229a2100d2974345ed1e114e4ae7724",
+        "sha256_in_prefix": "207700a909081347d1cab066ea4950a6e229a2100d2974345ed1e114e4ae7724",
+        "size_in_bytes": 1633
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/terminalExecute.html",
+        "path_type": "hardlink",
+        "sha256": "2887c81ca476c721362cb9254ad329502152e646398b75d0d7a81962ba6667b6",
+        "sha256_in_prefix": "2887c81ca476c721362cb9254ad329502152e646398b75d0d7a81962ba6667b6",
+        "size_in_bytes": 2094
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/terminalExitCode.html",
+        "path_type": "hardlink",
+        "sha256": "b65f175304c874cab3020a7a2af816838528cd2b2d12ed10a6b386bc2b232742",
+        "sha256_in_prefix": "b65f175304c874cab3020a7a2af816838528cd2b2d12ed10a6b386bc2b232742",
+        "size_in_bytes": 1515
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/terminalKill.html",
+        "path_type": "hardlink",
+        "sha256": "ab75ee102894f382b88fb8e655c0cc3287477560f9182eb35c785f8a857346b8",
+        "sha256_in_prefix": "ab75ee102894f382b88fb8e655c0cc3287477560f9182eb35c785f8a857346b8",
+        "size_in_bytes": 1362
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/terminalList.html",
+        "path_type": "hardlink",
+        "sha256": "dd07499c1969952861313ae9155eccf6beb3cc432e32015b88dc3c17c7efa2eb",
+        "sha256_in_prefix": "dd07499c1969952861313ae9155eccf6beb3cc432e32015b88dc3c17c7efa2eb",
+        "size_in_bytes": 1038
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/terminalRunning.html",
+        "path_type": "hardlink",
+        "sha256": "39d29ec8ae32d4a57bb9a66c1180f9d20f85e984899fa865547253632d329682",
+        "sha256_in_prefix": "39d29ec8ae32d4a57bb9a66c1180f9d20f85e984899fa865547253632d329682",
+        "size_in_bytes": 2110
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/terminalSend.html",
+        "path_type": "hardlink",
+        "sha256": "bdaeca8a6f70639d0e6aac3ac85ea46db5ed0052f33feba28d966485f27e7d02",
+        "sha256_in_prefix": "bdaeca8a6f70639d0e6aac3ac85ea46db5ed0052f33feba28d966485f27e7d02",
+        "size_in_bytes": 1669
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/terminalVisible.html",
+        "path_type": "hardlink",
+        "sha256": "d6906c21f8113cdb5ed8c6281600db51643642883b04650992e6208ab3892ef1",
+        "sha256_in_prefix": "d6906c21f8113cdb5ed8c6281600db51643642883b04650992e6208ab3892ef1",
+        "size_in_bytes": 1000
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/updateDialog.html",
+        "path_type": "hardlink",
+        "sha256": "7e5a9e50cf47dc3fc69edf534fc3702832876bf07eabfc2ee2a20b370c33b1d3",
+        "sha256_in_prefix": "7e5a9e50cf47dc3fc69edf534fc3702832876bf07eabfc2ee2a20b370c33b1d3",
+        "size_in_bytes": 1368
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/versionInfo.html",
+        "path_type": "hardlink",
+        "sha256": "cf2140ec1abd41472e0384dc992ac9bff4fae0f37288b6a3088b5ee01f4c2a54",
+        "sha256_in_prefix": "cf2140ec1abd41472e0384dc992ac9bff4fae0f37288b6a3088b5ee01f4c2a54",
+        "size_in_bytes": 2194
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/viewer.html",
+        "path_type": "hardlink",
+        "sha256": "5992b33046ab23090a041dc326c8d8888746ee9c4633501979cecf9e5b15e0fb",
+        "sha256_in_prefix": "5992b33046ab23090a041dc326c8d8888746ee9c4633501979cecf9e5b15e0fb",
+        "size_in_bytes": 5040
+      },
+      {
+        "_path": "lib/R/library/rstudioapi/html/writePreference.html",
+        "path_type": "hardlink",
+        "sha256": "d5c7ebab5dccaa771edbe125092bc2ac94126b055b45a724aa619004f200d2a0",
+        "sha256_in_prefix": "d5c7ebab5dccaa771edbe125092bc2ac94126b055b45a724aa619004f200d2a0",
+        "size_in_bytes": 1278
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 151354,
+  "subdir": "win-64",
+  "timestamp": 1538123460453,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-rstudioapi-0.7-r351hf348343_0.tar.bz2",
+  "version": "0.7"
+}

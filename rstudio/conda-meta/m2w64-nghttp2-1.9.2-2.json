@@ -1,0 +1,131 @@
+{
+  "build": "2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-jansson",
+    "m2w64-openssl",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-nghttp2-1.9.2-2",
+  "features": "",
+  "files": [
+    "Library/mingw-w64/bin/libnghttp2-14.dll",
+    "Library/mingw-w64/include/nghttp2/nghttp2.h",
+    "Library/mingw-w64/include/nghttp2/nghttp2ver.h",
+    "Library/mingw-w64/lib/libnghttp2.a",
+    "Library/mingw-w64/lib/libnghttp2.dll.a",
+    "Library/mingw-w64/lib/pkgconfig/libnghttp2.pc",
+    "Library/mingw-w64/share/doc/nghttp2/README.rst",
+    "Library/mingw-w64/share/man/man1/x86_64-w64-mingw32-h2load.1.gz",
+    "Library/mingw-w64/share/man/man1/x86_64-w64-mingw32-nghttp.1.gz",
+    "Library/mingw-w64/share/man/man1/x86_64-w64-mingw32-nghttpd.1.gz",
+    "Library/mingw-w64/share/man/man1/x86_64-w64-mingw32-nghttpx.1.gz",
+    "Library/mingw-w64/share/nghttp2/x86_64-w64-mingw32-fetch-ocsp-response"
+  ],
+  "fn": "m2w64-nghttp2-1.9.2-2.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-nghttp2-1.9.2-2",
+    "type": 1
+  },
+  "md5": "1240ca9a39370026483a7b547e08a667",
+  "name": "m2w64-nghttp2",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-nghttp2-1.9.2-2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/mingw-w64/bin/libnghttp2-14.dll",
+        "path_type": "hardlink",
+        "sha256": "7d13c6944247fd0175ebae7943be33601d7691cb01b3930e1aeae9a1743d97a8",
+        "sha256_in_prefix": "7d13c6944247fd0175ebae7943be33601d7691cb01b3930e1aeae9a1743d97a8",
+        "size_in_bytes": 158891
+      },
+      {
+        "_path": "Library/mingw-w64/include/nghttp2/nghttp2.h",
+        "path_type": "hardlink",
+        "sha256": "87a7f757ff023a8f71b39d089d5890f6eaa43b5a3965efca9183b7cd57b76d58",
+        "sha256_in_prefix": "87a7f757ff023a8f71b39d089d5890f6eaa43b5a3965efca9183b7cd57b76d58",
+        "size_in_bytes": 163844
+      },
+      {
+        "_path": "Library/mingw-w64/include/nghttp2/nghttp2ver.h",
+        "path_type": "hardlink",
+        "sha256": "a66fe381ea1e6a5d535341a3fce84ceeec3cb230102c2fc47707329b7ff2c6f3",
+        "sha256_in_prefix": "a66fe381ea1e6a5d535341a3fce84ceeec3cb230102c2fc47707329b7ff2c6f3",
+        "size_in_bytes": 1604
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libnghttp2.a",
+        "path_type": "hardlink",
+        "sha256": "1d02eb3eb2ec3fa0755f1f083dbe9679633a220d7b4d2b08b0f3f6efc954bf4a",
+        "sha256_in_prefix": "1d02eb3eb2ec3fa0755f1f083dbe9679633a220d7b4d2b08b0f3f6efc954bf4a",
+        "size_in_bytes": 202296
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libnghttp2.dll.a",
+        "path_type": "hardlink",
+        "sha256": "064a53c57fe4d145d998bf542cc5a016ca43fa36f15ca25c9f6b1324e43d44d4",
+        "sha256_in_prefix": "064a53c57fe4d145d998bf542cc5a016ca43fa36f15ca25c9f6b1324e43d44d4",
+        "size_in_bytes": 93880
+      },
+      {
+        "_path": "Library/mingw-w64/lib/pkgconfig/libnghttp2.pc",
+        "path_type": "hardlink",
+        "sha256": "a43bb93644856f4f11cff2ea1cb5579496121033b2b06919e844027c095e6ad0",
+        "sha256_in_prefix": "a43bb93644856f4f11cff2ea1cb5579496121033b2b06919e844027c095e6ad0",
+        "size_in_bytes": 1385
+      },
+      {
+        "_path": "Library/mingw-w64/share/doc/nghttp2/README.rst",
+        "path_type": "hardlink",
+        "sha256": "513902ab8257282c2c3a495a58ff5f03d434ea138611c44070936c1d00ae1888",
+        "sha256_in_prefix": "513902ab8257282c2c3a495a58ff5f03d434ea138611c44070936c1d00ae1888",
+        "size_in_bytes": 49393
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man1/x86_64-w64-mingw32-h2load.1.gz",
+        "path_type": "hardlink",
+        "sha256": "e1b667390305ed18354e306b5c8da6f96c4a49047f3f5e48cf9672b66500a35d",
+        "sha256_in_prefix": "e1b667390305ed18354e306b5c8da6f96c4a49047f3f5e48cf9672b66500a35d",
+        "size_in_bytes": 4048
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man1/x86_64-w64-mingw32-nghttp.1.gz",
+        "path_type": "hardlink",
+        "sha256": "a0b9f9cb0a71eef447194de2a12685318a6d60489ca320c5d752ae7afe206d5e",
+        "sha256_in_prefix": "a0b9f9cb0a71eef447194de2a12685318a6d60489ca320c5d752ae7afe206d5e",
+        "size_in_bytes": 3089
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man1/x86_64-w64-mingw32-nghttpd.1.gz",
+        "path_type": "hardlink",
+        "sha256": "53200779b18606b31048839d6d05de80efab4bff46e0340f1c4e59d98741a57c",
+        "sha256_in_prefix": "53200779b18606b31048839d6d05de80efab4bff46e0340f1c4e59d98741a57c",
+        "size_in_bytes": 2026
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man1/x86_64-w64-mingw32-nghttpx.1.gz",
+        "path_type": "hardlink",
+        "sha256": "f8c5ba5d1bada45f857749cce68d19381fc33f51bdde06cc8de92e8632ed409a",
+        "sha256_in_prefix": "f8c5ba5d1bada45f857749cce68d19381fc33f51bdde06cc8de92e8632ed409a",
+        "size_in_bytes": 14370
+      },
+      {
+        "_path": "Library/mingw-w64/share/nghttp2/x86_64-w64-mingw32-fetch-ocsp-response",
+        "path_type": "hardlink",
+        "sha256": "66752d44de0cc761736e6b7d4f55109f4bdacc7e8fe6a142c322481d33467acb",
+        "sha256_in_prefix": "66752d44de0cc761736e6b7d4f55109f4bdacc7e8fe6a142c322481d33467acb",
+        "size_in_bytes": 8985
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 196441,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2w64-nghttp2-1.9.2-2.tar.bz2",
+  "version": "1.9.2"
+}

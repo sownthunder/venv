@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Connection SSL options</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for ssl_options {mongolite}"><tr><td>ssl_options {mongolite}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Connection SSL options</h2>
+
+<h3>Description</h3>
+
+<p>Set SSL options to connect to the MongoDB server.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+ssl_options(cert = NULL, key = cert, ca = NULL, ca_dir = NULL,
+  crl_file = NULL, allow_invalid_hostname = NULL,
+  weak_cert_validation = NULL)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>cert</code></td>
+<td>
+<p>path to PEM file with client certificate, or a certificate as
+returned by <code><a href="../../openssl/html/read_cert.html">openssl::read_cert()</a></code></p>
+</td></tr>
+<tr valign="top"><td><code>key</code></td>
+<td>
+<p>path to PEM file with private key from the above certificate, or
+a key as returned by <code><a href="../../openssl/html/read_key.html">openssl::read_key()</a></code>. This can
+be the same PEM file as cert.</p>
+</td></tr>
+<tr valign="top"><td><code>ca</code></td>
+<td>
+<p>a certificate authority PEM file</p>
+</td></tr>
+<tr valign="top"><td><code>ca_dir</code></td>
+<td>
+<p>directory with CA files</p>
+</td></tr>
+<tr valign="top"><td><code>crl_file</code></td>
+<td>
+<p>file with revocations</p>
+</td></tr>
+<tr valign="top"><td><code>allow_invalid_hostname</code></td>
+<td>
+<p>do not verify hostname on server certificate</p>
+</td></tr>
+<tr valign="top"><td><code>weak_cert_validation</code></td>
+<td>
+<p>disable certificate verification</p>
+</td></tr>
+</table>
+
+<hr /><div style="text-align: center;">[Package <em>mongolite</em> version 1.6 <a href="00Index.html">Index</a>]</div>
+</body></html>

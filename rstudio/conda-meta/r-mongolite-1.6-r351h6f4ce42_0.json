@@ -1,0 +1,274 @@
+{
+  "build": "r351h6f4ce42_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "m2w64-openssl",
+    "m2w64-zlib 1.2.8.*",
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "r-jsonlite >=1.4",
+    "r-mime",
+    "r-openssl >=0.9.4",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-mongolite-1.6-r351h6f4ce42_0",
+  "features": "",
+  "files": [
+    "lib/R/library/mongolite/AUTHORS",
+    "lib/R/library/mongolite/CITATION",
+    "lib/R/library/mongolite/DESCRIPTION",
+    "lib/R/library/mongolite/INDEX",
+    "lib/R/library/mongolite/MD5",
+    "lib/R/library/mongolite/Meta/Rd.rds",
+    "lib/R/library/mongolite/Meta/features.rds",
+    "lib/R/library/mongolite/Meta/hsearch.rds",
+    "lib/R/library/mongolite/Meta/links.rds",
+    "lib/R/library/mongolite/Meta/nsInfo.rds",
+    "lib/R/library/mongolite/Meta/package.rds",
+    "lib/R/library/mongolite/NAMESPACE",
+    "lib/R/library/mongolite/NEWS",
+    "lib/R/library/mongolite/R/mongolite",
+    "lib/R/library/mongolite/R/mongolite.rdb",
+    "lib/R/library/mongolite/R/mongolite.rdx",
+    "lib/R/library/mongolite/WORDLIST",
+    "lib/R/library/mongolite/help/AnIndex",
+    "lib/R/library/mongolite/help/aliases.rds",
+    "lib/R/library/mongolite/help/mongolite.rdb",
+    "lib/R/library/mongolite/help/mongolite.rdx",
+    "lib/R/library/mongolite/help/paths.rds",
+    "lib/R/library/mongolite/html/00Index.html",
+    "lib/R/library/mongolite/html/R.css",
+    "lib/R/library/mongolite/html/gridfs.html",
+    "lib/R/library/mongolite/html/mongo.html",
+    "lib/R/library/mongolite/html/mongo_options.html",
+    "lib/R/library/mongolite/html/ssl_options.html",
+    "lib/R/library/mongolite/libs/x64/mongolite.dll"
+  ],
+  "fn": "r-mongolite-1.6-r351h6f4ce42_0.tar.bz2",
+  "license": "Apache License 2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-mongolite-1.6-r351h6f4ce42_0",
+    "type": 1
+  },
+  "md5": "f376c0b253a05ab3423be59abc961a08",
+  "name": "r-mongolite",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-mongolite-1.6-r351h6f4ce42_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/mongolite/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "ed99d50e90e8f89a12bd7088820c96dd553944e06e425e938a20891d2008c083",
+        "sha256_in_prefix": "ed99d50e90e8f89a12bd7088820c96dd553944e06e425e938a20891d2008c083",
+        "size_in_bytes": 516
+      },
+      {
+        "_path": "lib/R/library/mongolite/CITATION",
+        "path_type": "hardlink",
+        "sha256": "6433ffb47e936a7305cdb901febe40b9cc64ea20bc6e688fd744b812de55d6c9",
+        "sha256_in_prefix": "6433ffb47e936a7305cdb901febe40b9cc64ea20bc6e688fd744b812de55d6c9",
+        "size_in_bytes": 598
+      },
+      {
+        "_path": "lib/R/library/mongolite/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "b75aeed5ced66420d07b16a4d9ab1a6a38341bcd613219fd650728abe85686fe",
+        "sha256_in_prefix": "b75aeed5ced66420d07b16a4d9ab1a6a38341bcd613219fd650728abe85686fe",
+        "size_in_bytes": 1422
+      },
+      {
+        "_path": "lib/R/library/mongolite/INDEX",
+        "path_type": "hardlink",
+        "sha256": "45979ecbfae5a2382d56728660625958ff273396feec5fd2f83ff130470f6713",
+        "sha256_in_prefix": "45979ecbfae5a2382d56728660625958ff273396feec5fd2f83ff130470f6713",
+        "size_in_bytes": 163
+      },
+      {
+        "_path": "lib/R/library/mongolite/MD5",
+        "path_type": "hardlink",
+        "sha256": "90d5d5c226dd8fcd333222d7c2bedfbf2de77845e90868e8a3a5b458b0af0bb2",
+        "sha256_in_prefix": "90d5d5c226dd8fcd333222d7c2bedfbf2de77845e90868e8a3a5b458b0af0bb2",
+        "size_in_bytes": 1392
+      },
+      {
+        "_path": "lib/R/library/mongolite/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "33bc56f46019f264e4c030a3389b50247107685fec4e6017a79219382c530395",
+        "sha256_in_prefix": "33bc56f46019f264e4c030a3389b50247107685fec4e6017a79219382c530395",
+        "size_in_bytes": 305
+      },
+      {
+        "_path": "lib/R/library/mongolite/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/mongolite/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "3dfc7472d408192017c816cb75518b468eafb6905bfddc45122e2138b695ee49",
+        "sha256_in_prefix": "3dfc7472d408192017c816cb75518b468eafb6905bfddc45122e2138b695ee49",
+        "size_in_bytes": 338
+      },
+      {
+        "_path": "lib/R/library/mongolite/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "5bfefb6da08670e1f69a1a4238a8fefde11f5c4c6ad2064cdf12aa331b3bc5e5",
+        "sha256_in_prefix": "5bfefb6da08670e1f69a1a4238a8fefde11f5c4c6ad2064cdf12aa331b3bc5e5",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/R/library/mongolite/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "c5c5781334dc609246ef70e4992d40b6a66ce296c47852d8275f7db8244d8def",
+        "sha256_in_prefix": "c5c5781334dc609246ef70e4992d40b6a66ce296c47852d8275f7db8244d8def",
+        "size_in_bytes": 777
+      },
+      {
+        "_path": "lib/R/library/mongolite/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "dadc9d27752aabd33ffb9eef1b4b95411411c7406f46701e4aea913d19d80fe9",
+        "sha256_in_prefix": "dadc9d27752aabd33ffb9eef1b4b95411411c7406f46701e4aea913d19d80fe9",
+        "size_in_bytes": 1217
+      },
+      {
+        "_path": "lib/R/library/mongolite/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "6823bff601843d498e68b100fb7e93973f0aade2837cf943c448659b4ad36ab8",
+        "sha256_in_prefix": "6823bff601843d498e68b100fb7e93973f0aade2837cf943c448659b4ad36ab8",
+        "size_in_bytes": 2446
+      },
+      {
+        "_path": "lib/R/library/mongolite/NEWS",
+        "path_type": "hardlink",
+        "sha256": "16b466b4b31ac69ea3abd4fd205a7b4dbb8ad9aca0934812ca6b2f2fbf5dec32",
+        "sha256_in_prefix": "16b466b4b31ac69ea3abd4fd205a7b4dbb8ad9aca0934812ca6b2f2fbf5dec32",
+        "size_in_bytes": 3727
+      },
+      {
+        "_path": "lib/R/library/mongolite/R/mongolite",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/mongolite/R/mongolite.rdb",
+        "path_type": "hardlink",
+        "sha256": "d38fe56cd653e3dd0e531165a628e8b05f15f5c2ab3083475b2b92a25d173011",
+        "sha256_in_prefix": "d38fe56cd653e3dd0e531165a628e8b05f15f5c2ab3083475b2b92a25d173011",
+        "size_in_bytes": 50270
+      },
+      {
+        "_path": "lib/R/library/mongolite/R/mongolite.rdx",
+        "path_type": "hardlink",
+        "sha256": "e925b57dc9860fcc42b5a5132b60baa1bd2e9362427ec90f5b94c2bcec888f6f",
+        "sha256_in_prefix": "e925b57dc9860fcc42b5a5132b60baa1bd2e9362427ec90f5b94c2bcec888f6f",
+        "size_in_bytes": 1252
+      },
+      {
+        "_path": "lib/R/library/mongolite/WORDLIST",
+        "path_type": "hardlink",
+        "sha256": "caa285efa284828f6f10fc30a45d2432a34ec5176a3bcdf968d803c48f8bba98",
+        "sha256_in_prefix": "caa285efa284828f6f10fc30a45d2432a34ec5176a3bcdf968d803c48f8bba98",
+        "size_in_bytes": 169
+      },
+      {
+        "_path": "lib/R/library/mongolite/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "558d00df9135ce092ed2a235641a862186aae81155fbd62affe5785a169fbe97",
+        "sha256_in_prefix": "558d00df9135ce092ed2a235641a862186aae81155fbd62affe5785a169fbe97",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "lib/R/library/mongolite/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "21d2f0be9d0b40d917f1572279f10ae168bab083ab46b21370fe7fb81b255d3b",
+        "sha256_in_prefix": "21d2f0be9d0b40d917f1572279f10ae168bab083ab46b21370fe7fb81b255d3b",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "lib/R/library/mongolite/help/mongolite.rdb",
+        "path_type": "hardlink",
+        "sha256": "b414a4ee5d0c28db9527a6a1bfaee39ddad81f5fcf2142222f0ea353677d6d08",
+        "sha256_in_prefix": "b414a4ee5d0c28db9527a6a1bfaee39ddad81f5fcf2142222f0ea353677d6d08",
+        "size_in_bytes": 13024
+      },
+      {
+        "_path": "lib/R/library/mongolite/help/mongolite.rdx",
+        "path_type": "hardlink",
+        "sha256": "58c3d0953939cbd75b82736acbbceccc5c533088f43bf5017de4f547e026608f",
+        "sha256_in_prefix": "58c3d0953939cbd75b82736acbbceccc5c533088f43bf5017de4f547e026608f",
+        "size_in_bytes": 223
+      },
+      {
+        "_path": "lib/R/library/mongolite/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "2a0375e1236b736b250e702ec8216a35207e3b3e188f402c390e49a65d74b2be",
+        "sha256_in_prefix": "2a0375e1236b736b250e702ec8216a35207e3b3e188f402c390e49a65d74b2be",
+        "size_in_bytes": 174
+      },
+      {
+        "_path": "lib/R/library/mongolite/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "e8c179413dc203c300091367c5d91cd2a25ded104ddeaed4f9b920e44a25663a",
+        "sha256_in_prefix": "e8c179413dc203c300091367c5d91cd2a25ded104ddeaed4f9b920e44a25663a",
+        "size_in_bytes": 1533
+      },
+      {
+        "_path": "lib/R/library/mongolite/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/mongolite/html/gridfs.html",
+        "path_type": "hardlink",
+        "sha256": "66cc346e9037a80d4bd0b1ce75bc47f291779c01f4acd8b880a7df74877576d4",
+        "sha256_in_prefix": "66cc346e9037a80d4bd0b1ce75bc47f291779c01f4acd8b880a7df74877576d4",
+        "size_in_bytes": 2028
+      },
+      {
+        "_path": "lib/R/library/mongolite/html/mongo.html",
+        "path_type": "hardlink",
+        "sha256": "8f1365d5396baea95a570c95add46078e949e81c39454cb1bba5887ccd682ddc",
+        "sha256_in_prefix": "8f1365d5396baea95a570c95add46078e949e81c39454cb1bba5887ccd682ddc",
+        "size_in_bytes": 8168
+      },
+      {
+        "_path": "lib/R/library/mongolite/html/mongo_options.html",
+        "path_type": "hardlink",
+        "sha256": "012cc41dcc39aca80796d9f6f55561019bf956b9574bd67c5d772d0cbbbf837a",
+        "sha256_in_prefix": "012cc41dcc39aca80796d9f6f55561019bf956b9574bd67c5d772d0cbbbf837a",
+        "size_in_bytes": 2258
+      },
+      {
+        "_path": "lib/R/library/mongolite/html/ssl_options.html",
+        "path_type": "hardlink",
+        "sha256": "6f65aa925c77e479e9887c1627574f7cf7c85675532c8e52be36376ef8734890",
+        "sha256_in_prefix": "6f65aa925c77e479e9887c1627574f7cf7c85675532c8e52be36376ef8734890",
+        "size_in_bytes": 2074
+      },
+      {
+        "_path": "lib/R/library/mongolite/libs/x64/mongolite.dll",
+        "path_type": "hardlink",
+        "sha256": "837b2c6a6280ed35b495cef2364d1ebfd9b50cda718a5488c3f95c2b0c553f3e",
+        "sha256_in_prefix": "837b2c6a6280ed35b495cef2364d1ebfd9b50cda718a5488c3f95c2b0c553f3e",
+        "size_in_bytes": 3185664
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 1572773,
+  "subdir": "win-64",
+  "timestamp": 1538178236215,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-mongolite-1.6-r351h6f4ce42_0.tar.bz2",
+  "version": "1.6"
+}

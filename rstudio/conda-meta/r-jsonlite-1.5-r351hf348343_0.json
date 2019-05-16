@@ -1,0 +1,421 @@
+{
+  "build": "r351hf348343_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-jsonlite-1.5-r351hf348343_0",
+  "features": "",
+  "files": [
+    "lib/R/library/jsonlite/CITATION",
+    "lib/R/library/jsonlite/DESCRIPTION",
+    "lib/R/library/jsonlite/INDEX",
+    "lib/R/library/jsonlite/LICENSE",
+    "lib/R/library/jsonlite/MD5",
+    "lib/R/library/jsonlite/Meta/Rd.rds",
+    "lib/R/library/jsonlite/Meta/features.rds",
+    "lib/R/library/jsonlite/Meta/hsearch.rds",
+    "lib/R/library/jsonlite/Meta/links.rds",
+    "lib/R/library/jsonlite/Meta/nsInfo.rds",
+    "lib/R/library/jsonlite/Meta/package.rds",
+    "lib/R/library/jsonlite/Meta/vignette.rds",
+    "lib/R/library/jsonlite/NAMESPACE",
+    "lib/R/library/jsonlite/NEWS",
+    "lib/R/library/jsonlite/R/jsonlite",
+    "lib/R/library/jsonlite/R/jsonlite.rdb",
+    "lib/R/library/jsonlite/R/jsonlite.rdx",
+    "lib/R/library/jsonlite/doc/index.html",
+    "lib/R/library/jsonlite/doc/json-aaquickstart.R",
+    "lib/R/library/jsonlite/doc/json-aaquickstart.Rmd",
+    "lib/R/library/jsonlite/doc/json-aaquickstart.html",
+    "lib/R/library/jsonlite/doc/json-apis.Rmd",
+    "lib/R/library/jsonlite/doc/json-apis.html",
+    "lib/R/library/jsonlite/doc/json-mapping.pdf",
+    "lib/R/library/jsonlite/doc/json-mapping.pdf.asis",
+    "lib/R/library/jsonlite/doc/json-opencpu.R",
+    "lib/R/library/jsonlite/doc/json-opencpu.Rnw",
+    "lib/R/library/jsonlite/doc/json-opencpu.pdf",
+    "lib/R/library/jsonlite/doc/json-paging.Rmd",
+    "lib/R/library/jsonlite/doc/json-paging.html",
+    "lib/R/library/jsonlite/help/AnIndex",
+    "lib/R/library/jsonlite/help/aliases.rds",
+    "lib/R/library/jsonlite/help/jsonlite.rdb",
+    "lib/R/library/jsonlite/help/jsonlite.rdx",
+    "lib/R/library/jsonlite/help/paths.rds",
+    "lib/R/library/jsonlite/html/00Index.html",
+    "lib/R/library/jsonlite/html/R.css",
+    "lib/R/library/jsonlite/html/base64.html",
+    "lib/R/library/jsonlite/html/flatten.html",
+    "lib/R/library/jsonlite/html/fromJSON.html",
+    "lib/R/library/jsonlite/html/prettify.html",
+    "lib/R/library/jsonlite/html/rbind_pages.html",
+    "lib/R/library/jsonlite/html/read_json.html",
+    "lib/R/library/jsonlite/html/serializeJSON.html",
+    "lib/R/library/jsonlite/html/stream_in.html",
+    "lib/R/library/jsonlite/html/unbox.html",
+    "lib/R/library/jsonlite/html/validate.html",
+    "lib/R/library/jsonlite/libs/x64/jsonlite.dll"
+  ],
+  "fn": "r-jsonlite-1.5-r351hf348343_0.tar.bz2",
+  "license": "MIT + file LICENSE",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-jsonlite-1.5-r351hf348343_0",
+    "type": 1
+  },
+  "md5": "052296942cde9a261e05a03397e873e8",
+  "name": "r-jsonlite",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-jsonlite-1.5-r351hf348343_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/jsonlite/CITATION",
+        "path_type": "hardlink",
+        "sha256": "345fa2c40f0b1b4c333b6106dedf259365e326621a4746461c962f6b8f050691",
+        "sha256_in_prefix": "345fa2c40f0b1b4c333b6106dedf259365e326621a4746461c962f6b8f050691",
+        "size_in_bytes": 604
+      },
+      {
+        "_path": "lib/R/library/jsonlite/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "827b2428852a245306e3f8aab34a6e0b2808de75a4e464241fd78502ff765b80",
+        "sha256_in_prefix": "827b2428852a245306e3f8aab34a6e0b2808de75a4e464241fd78502ff765b80",
+        "size_in_bytes": 1516
+      },
+      {
+        "_path": "lib/R/library/jsonlite/INDEX",
+        "path_type": "hardlink",
+        "sha256": "6a87a37d458830a7ced23e580b7899bcafd56e067864bb3d868befcd6635a139",
+        "sha256_in_prefix": "6a87a37d458830a7ced23e580b7899bcafd56e067864bb3d868befcd6635a139",
+        "size_in_bytes": 516
+      },
+      {
+        "_path": "lib/R/library/jsonlite/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "8adbbc7db7aff98eb71f055edaf4ce8713021e98d6487771c02440ae7ed38267",
+        "sha256_in_prefix": "8adbbc7db7aff98eb71f055edaf4ce8713021e98d6487771c02440ae7ed38267",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "lib/R/library/jsonlite/MD5",
+        "path_type": "hardlink",
+        "sha256": "91bce2db9c3c2263c6cd7acc6c80bea7698caa0864a1034f21ed64501af6c528",
+        "sha256_in_prefix": "91bce2db9c3c2263c6cd7acc6c80bea7698caa0864a1034f21ed64501af6c528",
+        "size_in_bytes": 2453
+      },
+      {
+        "_path": "lib/R/library/jsonlite/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "fd6b3ca61119e0488bffff66d1c687a40d647761ca4d6cabab36d3ed33be12e8",
+        "sha256_in_prefix": "fd6b3ca61119e0488bffff66d1c687a40d647761ca4d6cabab36d3ed33be12e8",
+        "size_in_bytes": 588
+      },
+      {
+        "_path": "lib/R/library/jsonlite/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/jsonlite/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "3587350091999632e02ef63bc4d0a5b7fd203a5b9d583ca3b5b4e620529a6ebe",
+        "sha256_in_prefix": "3587350091999632e02ef63bc4d0a5b7fd203a5b9d583ca3b5b4e620529a6ebe",
+        "size_in_bytes": 603
+      },
+      {
+        "_path": "lib/R/library/jsonlite/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "6618ca6a75e22bc0f271044e72d672c232fd8c91fc883876a0655dd8ee5e1fde",
+        "sha256_in_prefix": "6618ca6a75e22bc0f271044e72d672c232fd8c91fc883876a0655dd8ee5e1fde",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "lib/R/library/jsonlite/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "e3a3711efa652f99f539e96c2170c3a2f02d0d92c4f71bf1f85720e34e29c601",
+        "sha256_in_prefix": "e3a3711efa652f99f539e96c2170c3a2f02d0d92c4f71bf1f85720e34e29c601",
+        "size_in_bytes": 608
+      },
+      {
+        "_path": "lib/R/library/jsonlite/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "fe613e64222d2c903ec0db10a898bd38974957bc1e15f1b21202cf3766670b04",
+        "sha256_in_prefix": "fe613e64222d2c903ec0db10a898bd38974957bc1e15f1b21202cf3766670b04",
+        "size_in_bytes": 1293
+      },
+      {
+        "_path": "lib/R/library/jsonlite/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "bb33e0ced440aa318f28a303976d9c3c960d3ee8fa3b9a87815dd887d67d360b",
+        "sha256_in_prefix": "bb33e0ced440aa318f28a303976d9c3c960d3ee8fa3b9a87815dd887d67d360b",
+        "size_in_bytes": 417
+      },
+      {
+        "_path": "lib/R/library/jsonlite/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "264d2387696f0c72a2e79e557d31b4590dbcae96c7c32ae40c1a1bb045681443",
+        "sha256_in_prefix": "264d2387696f0c72a2e79e557d31b4590dbcae96c7c32ae40c1a1bb045681443",
+        "size_in_bytes": 1226
+      },
+      {
+        "_path": "lib/R/library/jsonlite/NEWS",
+        "path_type": "hardlink",
+        "sha256": "84b33022f91b4767c400658c9d3a5e9c089c927f1f87aac6f65226cc7c31dfef",
+        "sha256_in_prefix": "84b33022f91b4767c400658c9d3a5e9c089c927f1f87aac6f65226cc7c31dfef",
+        "size_in_bytes": 7240
+      },
+      {
+        "_path": "lib/R/library/jsonlite/R/jsonlite",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/jsonlite/R/jsonlite.rdb",
+        "path_type": "hardlink",
+        "sha256": "6262e86c28118d19965a68d01b6ceabb1068a37479b3323f7aa28560cc5d4678",
+        "sha256_in_prefix": "6262e86c28118d19965a68d01b6ceabb1068a37479b3323f7aa28560cc5d4678",
+        "size_in_bytes": 88108
+      },
+      {
+        "_path": "lib/R/library/jsonlite/R/jsonlite.rdx",
+        "path_type": "hardlink",
+        "sha256": "bffcd0c3d35d3994dbb60c9b60b9467a665ed4161a783d709baace86b1c841bb",
+        "sha256_in_prefix": "bffcd0c3d35d3994dbb60c9b60b9467a665ed4161a783d709baace86b1c841bb",
+        "size_in_bytes": 1497
+      },
+      {
+        "_path": "lib/R/library/jsonlite/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "92a5b82d53776f209d9097ba8790ad9280794bc694c28f0b2ae5a6ed3ebc0b47",
+        "sha256_in_prefix": "92a5b82d53776f209d9097ba8790ad9280794bc694c28f0b2ae5a6ed3ebc0b47",
+        "size_in_bytes": 3299
+      },
+      {
+        "_path": "lib/R/library/jsonlite/doc/json-aaquickstart.R",
+        "path_type": "hardlink",
+        "sha256": "3aa7b98c412a3929c3f56eef734d29408042c73928c472b6b0ed3a326237e6f4",
+        "sha256_in_prefix": "3aa7b98c412a3929c3f56eef734d29408042c73928c472b6b0ed3a326237e6f4",
+        "size_in_bytes": 1742
+      },
+      {
+        "_path": "lib/R/library/jsonlite/doc/json-aaquickstart.Rmd",
+        "path_type": "hardlink",
+        "sha256": "7d1febb5fa61cf406c18d0eb16c1ac3732b7a51ce084024faaab2054f2b9bef1",
+        "sha256_in_prefix": "7d1febb5fa61cf406c18d0eb16c1ac3732b7a51ce084024faaab2054f2b9bef1",
+        "size_in_bytes": 4225
+      },
+      {
+        "_path": "lib/R/library/jsonlite/doc/json-aaquickstart.html",
+        "path_type": "hardlink",
+        "sha256": "fd76e18fb89ce0e83caee80ff5ca866d41bbd92b343f47760ca2547cedac2cea",
+        "sha256_in_prefix": "fd76e18fb89ce0e83caee80ff5ca866d41bbd92b343f47760ca2547cedac2cea",
+        "size_in_bytes": 716732
+      },
+      {
+        "_path": "lib/R/library/jsonlite/doc/json-apis.Rmd",
+        "path_type": "hardlink",
+        "sha256": "047e1bc3a39694a3949d245002a368d23a66d13a82ead8ebf5fbf60a8822f0da",
+        "sha256_in_prefix": "047e1bc3a39694a3949d245002a368d23a66d13a82ead8ebf5fbf60a8822f0da",
+        "size_in_bytes": 14249
+      },
+      {
+        "_path": "lib/R/library/jsonlite/doc/json-apis.html",
+        "path_type": "hardlink",
+        "sha256": "93f4d2120cb09cbeeddbe25607bcea1cd9ea9c94c39039f62fe78f9fab555c02",
+        "sha256_in_prefix": "93f4d2120cb09cbeeddbe25607bcea1cd9ea9c94c39039f62fe78f9fab555c02",
+        "size_in_bytes": 727511
+      },
+      {
+        "_path": "lib/R/library/jsonlite/doc/json-mapping.pdf",
+        "path_type": "hardlink",
+        "sha256": "2cab9a46e8b8a134600a493c6c4111e79a3b87347dcab24fdead69d0a00c327a",
+        "sha256_in_prefix": "2cab9a46e8b8a134600a493c6c4111e79a3b87347dcab24fdead69d0a00c327a",
+        "size_in_bytes": 208166
+      },
+      {
+        "_path": "lib/R/library/jsonlite/doc/json-mapping.pdf.asis",
+        "path_type": "hardlink",
+        "sha256": "a927d095122e38e48d61d895b9b59af4b2ba76dfcbae0dad377eb60d5deedb9b",
+        "sha256_in_prefix": "a927d095122e38e48d61d895b9b59af4b2ba76dfcbae0dad377eb60d5deedb9b",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "lib/R/library/jsonlite/doc/json-opencpu.R",
+        "path_type": "hardlink",
+        "sha256": "0efd2865ff9efc1c30b9b8d361a8fbc1be3050c0cabbe4ec80ff482423345ff1",
+        "sha256_in_prefix": "0efd2865ff9efc1c30b9b8d361a8fbc1be3050c0cabbe4ec80ff482423345ff1",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "lib/R/library/jsonlite/doc/json-opencpu.Rnw",
+        "path_type": "hardlink",
+        "sha256": "8842752431c34af14a302706783956314d9881cd09f1e9dd97e660b2e0fe8291",
+        "sha256_in_prefix": "8842752431c34af14a302706783956314d9881cd09f1e9dd97e660b2e0fe8291",
+        "size_in_bytes": 4020
+      },
+      {
+        "_path": "lib/R/library/jsonlite/doc/json-opencpu.pdf",
+        "path_type": "hardlink",
+        "sha256": "24ed35c3875464462e03def5d42c296e9ead4cb2b1b9b3d2ad52d15f2314807d",
+        "sha256_in_prefix": "24ed35c3875464462e03def5d42c296e9ead4cb2b1b9b3d2ad52d15f2314807d",
+        "size_in_bytes": 64127
+      },
+      {
+        "_path": "lib/R/library/jsonlite/doc/json-paging.Rmd",
+        "path_type": "hardlink",
+        "sha256": "bfda8bc56ef83d881b68d3083d63ce4bc06927943e64d5a23b76f0a7e11d0af9",
+        "sha256_in_prefix": "bfda8bc56ef83d881b68d3083d63ce4bc06927943e64d5a23b76f0a7e11d0af9",
+        "size_in_bytes": 9191
+      },
+      {
+        "_path": "lib/R/library/jsonlite/doc/json-paging.html",
+        "path_type": "hardlink",
+        "sha256": "152f81a6993be6178bf60f442ca3cbf0cb2b4ad119a546ec8af58b447e874b8e",
+        "sha256_in_prefix": "152f81a6993be6178bf60f442ca3cbf0cb2b4ad119a546ec8af58b447e874b8e",
+        "size_in_bytes": 722288
+      },
+      {
+        "_path": "lib/R/library/jsonlite/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "bdf5aae3075e8208191dc12abac71c6b6d136076db6701202f891ad7d9a8c454",
+        "sha256_in_prefix": "bdf5aae3075e8208191dc12abac71c6b6d136076db6701202f891ad7d9a8c454",
+        "size_in_bytes": 476
+      },
+      {
+        "_path": "lib/R/library/jsonlite/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "ba95b1c33f51a804aed471e10ba0f73424df044506af112e9868117cb5cf94e9",
+        "sha256_in_prefix": "ba95b1c33f51a804aed471e10ba0f73424df044506af112e9868117cb5cf94e9",
+        "size_in_bytes": 246
+      },
+      {
+        "_path": "lib/R/library/jsonlite/help/jsonlite.rdb",
+        "path_type": "hardlink",
+        "sha256": "2cdebb5020283862536a13d80319ada844dcc4c76e59b890e3619d30c32eb298",
+        "sha256_in_prefix": "2cdebb5020283862536a13d80319ada844dcc4c76e59b890e3619d30c32eb298",
+        "size_in_bytes": 26793
+      },
+      {
+        "_path": "lib/R/library/jsonlite/help/jsonlite.rdx",
+        "path_type": "hardlink",
+        "sha256": "1abb93a8e630c73fa39ecfc210a54057b17d45e2c4bb5d8a5cfa06d35c31f9d2",
+        "sha256_in_prefix": "1abb93a8e630c73fa39ecfc210a54057b17d45e2c4bb5d8a5cfa06d35c31f9d2",
+        "size_in_bytes": 371
+      },
+      {
+        "_path": "lib/R/library/jsonlite/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "25cc3175132649cb8c962bf95beba06dcecc20838e32bd508d398a6ba7c730ef",
+        "sha256_in_prefix": "25cc3175132649cb8c962bf95beba06dcecc20838e32bd508d398a6ba7c730ef",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "lib/R/library/jsonlite/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "c6d7f4e33b2d80a1db6d0f3328a57069258f1dcc8323245de54c7959ba249811",
+        "sha256_in_prefix": "c6d7f4e33b2d80a1db6d0f3328a57069258f1dcc8323245de54c7959ba249811",
+        "size_in_bytes": 3714
+      },
+      {
+        "_path": "lib/R/library/jsonlite/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/jsonlite/html/base64.html",
+        "path_type": "hardlink",
+        "sha256": "9703d0176d43f218e1e3b292b553e8fb9cf0c8f332a1cd9212e44a4eb1eb5eb7",
+        "sha256_in_prefix": "9703d0176d43f218e1e3b292b553e8fb9cf0c8f332a1cd9212e44a4eb1eb5eb7",
+        "size_in_bytes": 1305
+      },
+      {
+        "_path": "lib/R/library/jsonlite/html/flatten.html",
+        "path_type": "hardlink",
+        "sha256": "298d879dacaeb11965b3c95d9150c15c4a139ef219ad249215379979abf6b267",
+        "sha256_in_prefix": "298d879dacaeb11965b3c95d9150c15c4a139ef219ad249215379979abf6b267",
+        "size_in_bytes": 1937
+      },
+      {
+        "_path": "lib/R/library/jsonlite/html/fromJSON.html",
+        "path_type": "hardlink",
+        "sha256": "df979fd4aa06c44988ae65dad1acd5eb6202ed7d995fe3897785b61cd5960f06",
+        "sha256_in_prefix": "df979fd4aa06c44988ae65dad1acd5eb6202ed7d995fe3897785b61cd5960f06",
+        "size_in_bytes": 7893
+      },
+      {
+        "_path": "lib/R/library/jsonlite/html/prettify.html",
+        "path_type": "hardlink",
+        "sha256": "0787905769b0d8714a8a0da6cf62494e8c19013e5cbda6649ccb4f072c6408b1",
+        "sha256_in_prefix": "0787905769b0d8714a8a0da6cf62494e8c19013e5cbda6649ccb4f072c6408b1",
+        "size_in_bytes": 1273
+      },
+      {
+        "_path": "lib/R/library/jsonlite/html/rbind_pages.html",
+        "path_type": "hardlink",
+        "sha256": "9274c2a806f0552390a77d7215ff5c4e0911db58ba203cabc75d3ada70fd2a0b",
+        "sha256_in_prefix": "9274c2a806f0552390a77d7215ff5c4e0911db58ba203cabc75d3ada70fd2a0b",
+        "size_in_bytes": 2591
+      },
+      {
+        "_path": "lib/R/library/jsonlite/html/read_json.html",
+        "path_type": "hardlink",
+        "sha256": "97e400578baba6eeabab776372c747dfff4d55224cefb1210754202da3962942",
+        "sha256_in_prefix": "97e400578baba6eeabab776372c747dfff4d55224cefb1210754202da3962942",
+        "size_in_bytes": 1736
+      },
+      {
+        "_path": "lib/R/library/jsonlite/html/serializeJSON.html",
+        "path_type": "hardlink",
+        "sha256": "3669c8f90f084d41ab0da68484e9cbc7d21ce9e6bf7b137a15ea33a8a341f0fe",
+        "sha256_in_prefix": "3669c8f90f084d41ab0da68484e9cbc7d21ce9e6bf7b137a15ea33a8a341f0fe",
+        "size_in_bytes": 3016
+      },
+      {
+        "_path": "lib/R/library/jsonlite/html/stream_in.html",
+        "path_type": "hardlink",
+        "sha256": "15696574905c0dd37b0c927a53452a532dae2a5096bdf1f3a9d5fcc1035f6c74",
+        "sha256_in_prefix": "15696574905c0dd37b0c927a53452a532dae2a5096bdf1f3a9d5fcc1035f6c74",
+        "size_in_bytes": 7927
+      },
+      {
+        "_path": "lib/R/library/jsonlite/html/unbox.html",
+        "path_type": "hardlink",
+        "sha256": "56bcb3532935b2316c0dda6d88185cec9983e1a221c9e3b903eed625da2ac176",
+        "sha256_in_prefix": "56bcb3532935b2316c0dda6d88185cec9983e1a221c9e3b903eed625da2ac176",
+        "size_in_bytes": 2595
+      },
+      {
+        "_path": "lib/R/library/jsonlite/html/validate.html",
+        "path_type": "hardlink",
+        "sha256": "5db82bc933ffce922aa78073cceabc9113340e272bfd17789fe34508b0d2d7c2",
+        "sha256_in_prefix": "5db82bc933ffce922aa78073cceabc9113340e272bfd17789fe34508b0d2d7c2",
+        "size_in_bytes": 1241
+      },
+      {
+        "_path": "lib/R/library/jsonlite/libs/x64/jsonlite.dll",
+        "path_type": "hardlink",
+        "sha256": "48a484c77dcb4555a1ebcdc82233d3ce8d1905841265886babd85994901febcc",
+        "sha256_in_prefix": "48a484c77dcb4555a1ebcdc82233d3ce8d1905841265886babd85994901febcc",
+        "size_in_bytes": 100352
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 1137265,
+  "subdir": "win-64",
+  "timestamp": 1538125258411,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-jsonlite-1.5-r351hf348343_0.tar.bz2",
+  "version": "1.5"
+}

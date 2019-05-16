@@ -1,0 +1,571 @@
+{
+  "build": "r351h6f4ce42_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "r-digest",
+    "r-packrat >=0.4.8_1",
+    "r-pki",
+    "r-rcurl",
+    "r-rjsonio",
+    "r-rstudioapi >=0.5",
+    "r-yaml >=2.1.5",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-rsconnect-0.8.8-r351h6f4ce42_0",
+  "features": "",
+  "files": [
+    "lib/R/library/rsconnect/DESCRIPTION",
+    "lib/R/library/rsconnect/INDEX",
+    "lib/R/library/rsconnect/MD5",
+    "lib/R/library/rsconnect/Meta/Rd.rds",
+    "lib/R/library/rsconnect/Meta/features.rds",
+    "lib/R/library/rsconnect/Meta/hsearch.rds",
+    "lib/R/library/rsconnect/Meta/links.rds",
+    "lib/R/library/rsconnect/Meta/nsInfo.rds",
+    "lib/R/library/rsconnect/Meta/package.rds",
+    "lib/R/library/rsconnect/NAMESPACE",
+    "lib/R/library/rsconnect/R/rsconnect",
+    "lib/R/library/rsconnect/R/rsconnect.rdb",
+    "lib/R/library/rsconnect/R/rsconnect.rdx",
+    "lib/R/library/rsconnect/cert/cacert.pem",
+    "lib/R/library/rsconnect/cert/shinyapps.io.pem",
+    "lib/R/library/rsconnect/examples/diamonds/server.R",
+    "lib/R/library/rsconnect/examples/diamonds/ui.R",
+    "lib/R/library/rsconnect/examples/sessioninfo/server.R",
+    "lib/R/library/rsconnect/examples/sessioninfo/ui.R",
+    "lib/R/library/rsconnect/help/AnIndex",
+    "lib/R/library/rsconnect/help/aliases.rds",
+    "lib/R/library/rsconnect/help/paths.rds",
+    "lib/R/library/rsconnect/help/rsconnect.rdb",
+    "lib/R/library/rsconnect/help/rsconnect.rdx",
+    "lib/R/library/rsconnect/html/00Index.html",
+    "lib/R/library/rsconnect/html/R.css",
+    "lib/R/library/rsconnect/html/accountUsage.html",
+    "lib/R/library/rsconnect/html/accounts.html",
+    "lib/R/library/rsconnect/html/addAuthorizedUser.html",
+    "lib/R/library/rsconnect/html/addLinter.html",
+    "lib/R/library/rsconnect/html/appDependencies.html",
+    "lib/R/library/rsconnect/html/applications.html",
+    "lib/R/library/rsconnect/html/authorizedUsers.html",
+    "lib/R/library/rsconnect/html/configureApp.html",
+    "lib/R/library/rsconnect/html/connectUser.html",
+    "lib/R/library/rsconnect/html/deployAPI.html",
+    "lib/R/library/rsconnect/html/deployApp.html",
+    "lib/R/library/rsconnect/html/deployDoc.html",
+    "lib/R/library/rsconnect/html/deploySite.html",
+    "lib/R/library/rsconnect/html/deployTFModel.html",
+    "lib/R/library/rsconnect/html/deployments.html",
+    "lib/R/library/rsconnect/html/generateAppName.html",
+    "lib/R/library/rsconnect/html/lint.html",
+    "lib/R/library/rsconnect/html/linter.html",
+    "lib/R/library/rsconnect/html/listBundleFiles.html",
+    "lib/R/library/rsconnect/html/makeLinterMessage.html",
+    "lib/R/library/rsconnect/html/options.html",
+    "lib/R/library/rsconnect/html/packages.html",
+    "lib/R/library/rsconnect/html/proxies.html",
+    "lib/R/library/rsconnect/html/removeAuthorizedUser.html",
+    "lib/R/library/rsconnect/html/restartApp.html",
+    "lib/R/library/rsconnect/html/rpubsUpload.html",
+    "lib/R/library/rsconnect/html/rsconnect-package.html",
+    "lib/R/library/rsconnect/html/servers.html",
+    "lib/R/library/rsconnect/html/setAccountInfo.html",
+    "lib/R/library/rsconnect/html/setProperty.html",
+    "lib/R/library/rsconnect/html/showInvited.html",
+    "lib/R/library/rsconnect/html/showLogs.html",
+    "lib/R/library/rsconnect/html/showMetrics.html",
+    "lib/R/library/rsconnect/html/showProperties.html",
+    "lib/R/library/rsconnect/html/showUsage.html",
+    "lib/R/library/rsconnect/html/showUsers.html",
+    "lib/R/library/rsconnect/html/taskLog.html",
+    "lib/R/library/rsconnect/html/tasks.html",
+    "lib/R/library/rsconnect/html/terminateApp.html",
+    "lib/R/library/rsconnect/html/unsetProperty.html"
+  ],
+  "fn": "r-rsconnect-0.8.8-r351h6f4ce42_0.tar.bz2",
+  "license": "GPL-2",
+  "license_family": "GPL2",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-rsconnect-0.8.8-r351h6f4ce42_0",
+    "type": 1
+  },
+  "md5": "bb3b3569f93d0afb53c70bafba15b83b",
+  "name": "r-rsconnect",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-rsconnect-0.8.8-r351h6f4ce42_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/rsconnect/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "7489c8ea6fa3a49356a90827a5889de26560bb8f9ab69769da2d5f1215cc083d",
+        "sha256_in_prefix": "7489c8ea6fa3a49356a90827a5889de26560bb8f9ab69769da2d5f1215cc083d",
+        "size_in_bytes": 916
+      },
+      {
+        "_path": "lib/R/library/rsconnect/INDEX",
+        "path_type": "hardlink",
+        "sha256": "f62f15b563cc62559ef1b6909ce11350ed75aa8c3f685300e20debc6ab763c17",
+        "sha256_in_prefix": "f62f15b563cc62559ef1b6909ce11350ed75aa8c3f685300e20debc6ab763c17",
+        "size_in_bytes": 2030
+      },
+      {
+        "_path": "lib/R/library/rsconnect/MD5",
+        "path_type": "hardlink",
+        "sha256": "644cd58b95d4e1d31848dbe3ac1e5ddd6df3cb78e22d5e1500b27d1135fbc275",
+        "sha256_in_prefix": "644cd58b95d4e1d31848dbe3ac1e5ddd6df3cb78e22d5e1500b27d1135fbc275",
+        "size_in_bytes": 3578
+      },
+      {
+        "_path": "lib/R/library/rsconnect/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "b58d5eb4ed7f401c969cc2c63b611a19ccba67a26fea327b8c9ede8ab15408e1",
+        "sha256_in_prefix": "b58d5eb4ed7f401c969cc2c63b611a19ccba67a26fea327b8c9ede8ab15408e1",
+        "size_in_bytes": 1346
+      },
+      {
+        "_path": "lib/R/library/rsconnect/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/rsconnect/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "ad9e58a94421d73ca631956b50e7f9422d94a9351e071338fa4feee8ee5914f9",
+        "sha256_in_prefix": "ad9e58a94421d73ca631956b50e7f9422d94a9351e071338fa4feee8ee5914f9",
+        "size_in_bytes": 1182
+      },
+      {
+        "_path": "lib/R/library/rsconnect/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "354a59775158f4da67a0e9eeeb5e7b78473131725cfd28be863ee6591822623f",
+        "sha256_in_prefix": "354a59775158f4da67a0e9eeeb5e7b78473131725cfd28be863ee6591822623f",
+        "size_in_bytes": 701
+      },
+      {
+        "_path": "lib/R/library/rsconnect/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "a10a8c7151fe008a50ffd69848940d06f1423280ca746c9067d1cdf86fde9c02",
+        "sha256_in_prefix": "a10a8c7151fe008a50ffd69848940d06f1423280ca746c9067d1cdf86fde9c02",
+        "size_in_bytes": 624
+      },
+      {
+        "_path": "lib/R/library/rsconnect/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "520eb751d29784a03a9b5fb967965fbaed4fe7b88382945b6638d760075a1f4e",
+        "sha256_in_prefix": "520eb751d29784a03a9b5fb967965fbaed4fe7b88382945b6638d760075a1f4e",
+        "size_in_bytes": 1087
+      },
+      {
+        "_path": "lib/R/library/rsconnect/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "30533617a128de5fc4bdc154d72a6de520777bd08ebf28bb6a91be43ea37c91c",
+        "sha256_in_prefix": "30533617a128de5fc4bdc154d72a6de520777bd08ebf28bb6a91be43ea37c91c",
+        "size_in_bytes": 1219
+      },
+      {
+        "_path": "lib/R/library/rsconnect/R/rsconnect",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/rsconnect/R/rsconnect.rdb",
+        "path_type": "hardlink",
+        "sha256": "b7fb5d08f5914d551201f550c06328b477e087e0a672fc6371d49a118426e984",
+        "sha256_in_prefix": "b7fb5d08f5914d551201f550c06328b477e087e0a672fc6371d49a118426e984",
+        "size_in_bytes": 244376
+      },
+      {
+        "_path": "lib/R/library/rsconnect/R/rsconnect.rdx",
+        "path_type": "hardlink",
+        "sha256": "f9c02367d7ab57bf73b475f604cb7de5b008df77a9aa194757ba326369331223",
+        "sha256_in_prefix": "f9c02367d7ab57bf73b475f604cb7de5b008df77a9aa194757ba326369331223",
+        "size_in_bytes": 3351
+      },
+      {
+        "_path": "lib/R/library/rsconnect/cert/cacert.pem",
+        "path_type": "hardlink",
+        "sha256": "435ac8e816f5c10eaaf228d618445811c16a5e842e461cb087642b6265a36856",
+        "sha256_in_prefix": "435ac8e816f5c10eaaf228d618445811c16a5e842e461cb087642b6265a36856",
+        "size_in_bytes": 236061
+      },
+      {
+        "_path": "lib/R/library/rsconnect/cert/shinyapps.io.pem",
+        "path_type": "hardlink",
+        "sha256": "aa41d6c3fa2e044daf7b9e8695a73ccd470991bfd2280891ede9147cc2ffa409",
+        "sha256_in_prefix": "aa41d6c3fa2e044daf7b9e8695a73ccd470991bfd2280891ede9147cc2ffa409",
+        "size_in_bytes": 12133
+      },
+      {
+        "_path": "lib/R/library/rsconnect/examples/diamonds/server.R",
+        "path_type": "hardlink",
+        "sha256": "f728a23a8174200c21a6125e58202bf92a76c1083fdfebc8aa2f402bd914841b",
+        "sha256_in_prefix": "f728a23a8174200c21a6125e58202bf92a76c1083fdfebc8aa2f402bd914841b",
+        "size_in_bytes": 626
+      },
+      {
+        "_path": "lib/R/library/rsconnect/examples/diamonds/ui.R",
+        "path_type": "hardlink",
+        "sha256": "91782b7029f29898d54b4c6cf6c04a19cb7932471ecb4176e485021232c99d79",
+        "sha256_in_prefix": "91782b7029f29898d54b4c6cf6c04a19cb7932471ecb4176e485021232c99d79",
+        "size_in_bytes": 718
+      },
+      {
+        "_path": "lib/R/library/rsconnect/examples/sessioninfo/server.R",
+        "path_type": "hardlink",
+        "sha256": "991816eac03eeec8ce584cf1c55ab3f93914c6a259579aa9d449f569d20f716b",
+        "sha256_in_prefix": "991816eac03eeec8ce584cf1c55ab3f93914c6a259579aa9d449f569d20f716b",
+        "size_in_bytes": 668
+      },
+      {
+        "_path": "lib/R/library/rsconnect/examples/sessioninfo/ui.R",
+        "path_type": "hardlink",
+        "sha256": "001858c086a5a331dc9db582fceb2197945b379a723364479d06c3f4e419a6a2",
+        "sha256_in_prefix": "001858c086a5a331dc9db582fceb2197945b379a723364479d06c3f4e419a6a2",
+        "size_in_bytes": 191
+      },
+      {
+        "_path": "lib/R/library/rsconnect/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "d63712b6c26d70dbd0f43affd81434742ccde7c36461d813e3bf2571df2e9da8",
+        "sha256_in_prefix": "d63712b6c26d70dbd0f43affd81434742ccde7c36461d813e3bf2571df2e9da8",
+        "size_in_bytes": 1244
+      },
+      {
+        "_path": "lib/R/library/rsconnect/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "6e6270a48eec080634b607f5a36ea75f18cfa2f2ad46d322a15479c5643aa07b",
+        "sha256_in_prefix": "6e6270a48eec080634b607f5a36ea75f18cfa2f2ad46d322a15479c5643aa07b",
+        "size_in_bytes": 492
+      },
+      {
+        "_path": "lib/R/library/rsconnect/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "4fa6c501e57c8ef79b314f183c5e75645a9153d69fd3f5a7ff803a1eba71ffc4",
+        "sha256_in_prefix": "4fa6c501e57c8ef79b314f183c5e75645a9153d69fd3f5a7ff803a1eba71ffc4",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "lib/R/library/rsconnect/help/rsconnect.rdb",
+        "path_type": "hardlink",
+        "sha256": "a435b496960adeba371b57225c08ac67d2defc2162da5d854c58666386d64c0c",
+        "sha256_in_prefix": "a435b496960adeba371b57225c08ac67d2defc2162da5d854c58666386d64c0c",
+        "size_in_bytes": 84153
+      },
+      {
+        "_path": "lib/R/library/rsconnect/help/rsconnect.rdx",
+        "path_type": "hardlink",
+        "sha256": "3092b1b410b504a9c4b7783ff290c80a460e209628f9ec4424fe0fb08be6afe3",
+        "sha256_in_prefix": "3092b1b410b504a9c4b7783ff290c80a460e209628f9ec4424fe0fb08be6afe3",
+        "size_in_bytes": 1040
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "81f6b9ec0733190daecbc4bf6fd80f4b466cfc447240b2db4b11be24d4f9e3a0",
+        "sha256_in_prefix": "81f6b9ec0733190daecbc4bf6fd80f4b466cfc447240b2db4b11be24d4f9e3a0",
+        "size_in_bytes": 6807
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/accountUsage.html",
+        "path_type": "hardlink",
+        "sha256": "e0ae60572744cb0301294e91bb9d20359042b6f68960b26ec724ce80fb0c4a59",
+        "sha256_in_prefix": "e0ae60572744cb0301294e91bb9d20359042b6f68960b26ec724ce80fb0c4a59",
+        "size_in_bytes": 2076
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/accounts.html",
+        "path_type": "hardlink",
+        "sha256": "4f74cf22054f1c45a3963a1fa4e4926602217ed4433417a99d802c83a89a8c38",
+        "sha256_in_prefix": "4f74cf22054f1c45a3963a1fa4e4926602217ed4433417a99d802c83a89a8c38",
+        "size_in_bytes": 2058
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/addAuthorizedUser.html",
+        "path_type": "hardlink",
+        "sha256": "7ebd232683a3bc722616255c238441196d9e53d1b20c802013bbf8961c20dbe7",
+        "sha256_in_prefix": "7ebd232683a3bc722616255c238441196d9e53d1b20c802013bbf8961c20dbe7",
+        "size_in_bytes": 2336
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/addLinter.html",
+        "path_type": "hardlink",
+        "sha256": "73be3773b955b8a9647c71596e93c51216f02c90ce099a4b9da49f49ea00235d",
+        "sha256_in_prefix": "73be3773b955b8a9647c71596e93c51216f02c90ce099a4b9da49f49ea00235d",
+        "size_in_bytes": 1783
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/appDependencies.html",
+        "path_type": "hardlink",
+        "sha256": "42b647861832d42cb40a702be81ba4fd2b2ccf886661f814b2547b502012e385",
+        "sha256_in_prefix": "42b647861832d42cb40a702be81ba4fd2b2ccf886661f814b2547b502012e385",
+        "size_in_bytes": 3641
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/applications.html",
+        "path_type": "hardlink",
+        "sha256": "3b5d3c5a33ec657d8399f17d07e8b7754a8d25f7218b634c082f4b1e18df21f3",
+        "sha256_in_prefix": "3b5d3c5a33ec657d8399f17d07e8b7754a8d25f7218b634c082f4b1e18df21f3",
+        "size_in_bytes": 2663
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/authorizedUsers.html",
+        "path_type": "hardlink",
+        "sha256": "7274313d169ad64ece772630d1297c45fed7f53451cff2697707ab5084daa553",
+        "sha256_in_prefix": "7274313d169ad64ece772630d1297c45fed7f53451cff2697707ab5084daa553",
+        "size_in_bytes": 1129
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/configureApp.html",
+        "path_type": "hardlink",
+        "sha256": "fd99e9ff9e844ccff657ba68603cbc9ea1287bfd8ec93633a4a2001e8f8f3c29",
+        "sha256_in_prefix": "fd99e9ff9e844ccff657ba68603cbc9ea1287bfd8ec93633a4a2001e8f8f3c29",
+        "size_in_bytes": 2663
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/connectUser.html",
+        "path_type": "hardlink",
+        "sha256": "39d23a23e85a28d149759c0b8dd2f8dac6a637750beaa9a163cb81d7c8c7f59e",
+        "sha256_in_prefix": "39d23a23e85a28d149759c0b8dd2f8dac6a637750beaa9a163cb81d7c8c7f59e",
+        "size_in_bytes": 1845
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/deployAPI.html",
+        "path_type": "hardlink",
+        "sha256": "f4f2365a8e52ef5a55185d828fc07f341a21e2ba2abac72c09f0a7fadf13a76f",
+        "sha256_in_prefix": "f4f2365a8e52ef5a55185d828fc07f341a21e2ba2abac72c09f0a7fadf13a76f",
+        "size_in_bytes": 1567
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/deployApp.html",
+        "path_type": "hardlink",
+        "sha256": "a3229342517b06ffb65dfe4189b71cb5b38ac32012ed1193170dbef4a46f43c2",
+        "sha256_in_prefix": "a3229342517b06ffb65dfe4189b71cb5b38ac32012ed1193170dbef4a46f43c2",
+        "size_in_bytes": 6619
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/deployDoc.html",
+        "path_type": "hardlink",
+        "sha256": "77cd9d178b7de4e0fe92f7027aef1950f14308d09ff9415e622674fbfab5c002",
+        "sha256_in_prefix": "77cd9d178b7de4e0fe92f7027aef1950f14308d09ff9415e622674fbfab5c002",
+        "size_in_bytes": 2165
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/deploySite.html",
+        "path_type": "hardlink",
+        "sha256": "77c877f768130858e1654c00b88ce391dcb981dae2fab3d030a6828f45121ba1",
+        "sha256_in_prefix": "77c877f768130858e1654c00b88ce391dcb981dae2fab3d030a6828f45121ba1",
+        "size_in_bytes": 3404
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/deployTFModel.html",
+        "path_type": "hardlink",
+        "sha256": "57245dc2ae705f15eaf07d2f9c559b7a08a3bba7a53fd79535ec2b3c42b2f487",
+        "sha256_in_prefix": "57245dc2ae705f15eaf07d2f9c559b7a08a3bba7a53fd79535ec2b3c42b2f487",
+        "size_in_bytes": 2384
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/deployments.html",
+        "path_type": "hardlink",
+        "sha256": "07df364f663aa340f7edc1a54d8dac03f24b2646cfb5d8047ac222c6c21be77b",
+        "sha256_in_prefix": "07df364f663aa340f7edc1a54d8dac03f24b2646cfb5d8047ac222c6c21be77b",
+        "size_in_bytes": 3481
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/generateAppName.html",
+        "path_type": "hardlink",
+        "sha256": "75626b38f254afd9a7918b951bc5c3e7c0afdc12c5903c9e8803f81c7e19c311",
+        "sha256_in_prefix": "75626b38f254afd9a7918b951bc5c3e7c0afdc12c5903c9e8803f81c7e19c311",
+        "size_in_bytes": 2363
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/lint.html",
+        "path_type": "hardlink",
+        "sha256": "70d361f114fceea985f253842f49fdcbce53fd70f2c572acfa3f9fdfb646dadc",
+        "sha256_in_prefix": "70d361f114fceea985f253842f49fdcbce53fd70f2c572acfa3f9fdfb646dadc",
+        "size_in_bytes": 1466
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/linter.html",
+        "path_type": "hardlink",
+        "sha256": "ca3f6fe7c55755107537a7757d643cb8fe8f18d6ad01f0a4d702f9ae4d90278b",
+        "sha256_in_prefix": "ca3f6fe7c55755107537a7757d643cb8fe8f18d6ad01f0a4d702f9ae4d90278b",
+        "size_in_bytes": 2278
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/listBundleFiles.html",
+        "path_type": "hardlink",
+        "sha256": "661789f5a15aafcfc509e1bf42adb186a48213026dc635293dfccda716564a5c",
+        "sha256_in_prefix": "661789f5a15aafcfc509e1bf42adb186a48213026dc635293dfccda716564a5c",
+        "size_in_bytes": 2380
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/makeLinterMessage.html",
+        "path_type": "hardlink",
+        "sha256": "38b3fdcfbca6fb9e7bc0a072bb57009f03ed7fb87af4f06e189f7d1c81699890",
+        "sha256_in_prefix": "38b3fdcfbca6fb9e7bc0a072bb57009f03ed7fb87af4f06e189f7d1c81699890",
+        "size_in_bytes": 1393
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/options.html",
+        "path_type": "hardlink",
+        "sha256": "f663825054d5381f59d995da81009dbd8d70dd53606e576665b2397f5087c42c",
+        "sha256_in_prefix": "f663825054d5381f59d995da81009dbd8d70dd53606e576665b2397f5087c42c",
+        "size_in_bytes": 4446
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/packages.html",
+        "path_type": "hardlink",
+        "sha256": "95ccc29136adef81f6837aeea52404eeedf1a56dee5fbeb67857ee8309ca8f8f",
+        "sha256_in_prefix": "95ccc29136adef81f6837aeea52404eeedf1a56dee5fbeb67857ee8309ca8f8f",
+        "size_in_bytes": 2902
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/proxies.html",
+        "path_type": "hardlink",
+        "sha256": "66b1d26ffc960702dfc7b1035a923f4986c4cf02abbc67bc17aca21822654912",
+        "sha256_in_prefix": "66b1d26ffc960702dfc7b1035a923f4986c4cf02abbc67bc17aca21822654912",
+        "size_in_bytes": 3295
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/removeAuthorizedUser.html",
+        "path_type": "hardlink",
+        "sha256": "b4b3fbaa3b1fd79d1d87bf127876b6ea9fce78cbbd9624e6f8bccf8a5773bd17",
+        "sha256_in_prefix": "b4b3fbaa3b1fd79d1d87bf127876b6ea9fce78cbbd9624e6f8bccf8a5773bd17",
+        "size_in_bytes": 1947
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/restartApp.html",
+        "path_type": "hardlink",
+        "sha256": "f4bc0cf9aa23c6fee6f9b4ed5f0e9472591f0b458e3552862204bd1cced60ec8",
+        "sha256_in_prefix": "f4bc0cf9aa23c6fee6f9b4ed5f0e9472591f0b458e3552862204bd1cced60ec8",
+        "size_in_bytes": 1923
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/rpubsUpload.html",
+        "path_type": "hardlink",
+        "sha256": "48776ba775b156357a72c46896a2be1aa916a32eb70a5ab746ec9dd3cadf4796",
+        "sha256_in_prefix": "48776ba775b156357a72c46896a2be1aa916a32eb70a5ab746ec9dd3cadf4796",
+        "size_in_bytes": 3099
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/rsconnect-package.html",
+        "path_type": "hardlink",
+        "sha256": "47b606eb1fc2f16afb3729d9a372181024a376e3ed2e4557d6531eb318c7a9de",
+        "sha256_in_prefix": "47b606eb1fc2f16afb3729d9a372181024a376e3ed2e4557d6531eb318c7a9de",
+        "size_in_bytes": 3566
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/servers.html",
+        "path_type": "hardlink",
+        "sha256": "f2ee93bde3c9ab9f929240fcd384d32f17c180c74f865406e7906f9c479c6d40",
+        "sha256_in_prefix": "f2ee93bde3c9ab9f929240fcd384d32f17c180c74f865406e7906f9c479c6d40",
+        "size_in_bytes": 3206
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/setAccountInfo.html",
+        "path_type": "hardlink",
+        "sha256": "f94efe5ad982cdedcb1fad6c1cd0c4359995bd82baa06a360b5a0dae765fe4b8",
+        "sha256_in_prefix": "f94efe5ad982cdedcb1fad6c1cd0c4359995bd82baa06a360b5a0dae765fe4b8",
+        "size_in_bytes": 1437
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/setProperty.html",
+        "path_type": "hardlink",
+        "sha256": "c4a01bdef6fe75644b64a3fd804dac5b5400a3d778bf83b9aa101f15e74a81f8",
+        "sha256_in_prefix": "c4a01bdef6fe75644b64a3fd804dac5b5400a3d778bf83b9aa101f15e74a81f8",
+        "size_in_bytes": 2053
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/showInvited.html",
+        "path_type": "hardlink",
+        "sha256": "ce41a3179077e612797c963ceb5c83c6254cfcee696b70dfdf1efa331af08b3f",
+        "sha256_in_prefix": "ce41a3179077e612797c963ceb5c83c6254cfcee696b70dfdf1efa331af08b3f",
+        "size_in_bytes": 1780
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/showLogs.html",
+        "path_type": "hardlink",
+        "sha256": "9f454b3c3836b1b8e5127af1fe5a5d0cadc98db924801769c839ed6862c39749",
+        "sha256_in_prefix": "9f454b3c3836b1b8e5127af1fe5a5d0cadc98db924801769c839ed6862c39749",
+        "size_in_bytes": 2171
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/showMetrics.html",
+        "path_type": "hardlink",
+        "sha256": "28522a59b5c45a11d3cb396b40e5318721e966c524aaa9380786f10a7fa7fd7c",
+        "sha256_in_prefix": "28522a59b5c45a11d3cb396b40e5318721e966c524aaa9380786f10a7fa7fd7c",
+        "size_in_bytes": 2579
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/showProperties.html",
+        "path_type": "hardlink",
+        "sha256": "c543ce35d42a3d20784447824374cd253204c365a95a9a2afb01d98a3398ac6f",
+        "sha256_in_prefix": "c543ce35d42a3d20784447824374cd253204c365a95a9a2afb01d98a3398ac6f",
+        "size_in_bytes": 1456
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/showUsage.html",
+        "path_type": "hardlink",
+        "sha256": "c8c9b36acfaa7014401b57ba8c5112ce3659ff7f357103fc4e278f5cb73f99d4",
+        "sha256_in_prefix": "c8c9b36acfaa7014401b57ba8c5112ce3659ff7f357103fc4e278f5cb73f99d4",
+        "size_in_bytes": 2393
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/showUsers.html",
+        "path_type": "hardlink",
+        "sha256": "dbdb3c5a1c793143a18283e03e46ec7626d9337d58a65b4763d002267ccc1cad",
+        "sha256_in_prefix": "dbdb3c5a1c793143a18283e03e46ec7626d9337d58a65b4763d002267ccc1cad",
+        "size_in_bytes": 1787
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/taskLog.html",
+        "path_type": "hardlink",
+        "sha256": "ae981675610c45673dada0758e4c18cb7bb460d06a2eecb2c4157e02a5b5b060",
+        "sha256_in_prefix": "ae981675610c45673dada0758e4c18cb7bb460d06a2eecb2c4157e02a5b5b060",
+        "size_in_bytes": 1778
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/tasks.html",
+        "path_type": "hardlink",
+        "sha256": "0cfbcd4c0d87ee5d604f5a28e59fac45437f8611e3c935586e5315c5cf97deb8",
+        "sha256_in_prefix": "0cfbcd4c0d87ee5d604f5a28e59fac45437f8611e3c935586e5315c5cf97deb8",
+        "size_in_bytes": 2230
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/terminateApp.html",
+        "path_type": "hardlink",
+        "sha256": "4e1f80788eb9d09680f81c2d396ab611cb5023612826a0443ad4b6ac02c3423e",
+        "sha256_in_prefix": "4e1f80788eb9d09680f81c2d396ab611cb5023612826a0443ad4b6ac02c3423e",
+        "size_in_bytes": 2021
+      },
+      {
+        "_path": "lib/R/library/rsconnect/html/unsetProperty.html",
+        "path_type": "hardlink",
+        "sha256": "070d30ed7fd125c00c261cb6f65192ae5814597499238b993861f904707292b1",
+        "sha256_in_prefix": "070d30ed7fd125c00c261cb6f65192ae5814597499238b993861f904707292b1",
+        "size_in_bytes": 1916
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 529599,
+  "subdir": "win-64",
+  "timestamp": 1538175071347,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-rsconnect-0.8.8-r351h6f4ce42_0.tar.bz2",
+  "version": "0.8.8"
+}

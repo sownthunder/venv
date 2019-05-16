@@ -1,0 +1,722 @@
+{
+  "build": "4",
+  "build_number": 4,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gettext",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-libidn-1.32-4",
+  "features": "",
+  "files": [
+    "Library/mingw-w64/bin/idn.exe",
+    "Library/mingw-w64/bin/libidn-11.def",
+    "Library/mingw-w64/bin/libidn-11.dll",
+    "Library/mingw-w64/include/idn-free.h",
+    "Library/mingw-w64/include/idn-int.h",
+    "Library/mingw-w64/include/idna.h",
+    "Library/mingw-w64/include/pr29.h",
+    "Library/mingw-w64/include/punycode.h",
+    "Library/mingw-w64/include/stringprep.h",
+    "Library/mingw-w64/include/tld.h",
+    "Library/mingw-w64/lib/libidn.a",
+    "Library/mingw-w64/lib/libidn.dll.a",
+    "Library/mingw-w64/lib/pkgconfig/libidn.pc",
+    "Library/mingw-w64/share/emacs/site-lisp/idna.el",
+    "Library/mingw-w64/share/emacs/site-lisp/punycode.el",
+    "Library/mingw-w64/share/info/libidn-components.png.gz",
+    "Library/mingw-w64/share/info/libidn.info.gz",
+    "Library/mingw-w64/share/locale/cs/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/locale/da/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/locale/de/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/locale/en@boldquot/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/locale/en@quot/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/locale/eo/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/locale/fi/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/locale/fr/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/locale/hr/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/locale/hu/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/locale/id/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/locale/it/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/locale/ja/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/locale/nl/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/locale/pl/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/locale/pt_BR/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/locale/ro/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/locale/sr/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/locale/uk/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/locale/vi/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/locale/zh_CN/LC_MESSAGES/libidn.mo",
+    "Library/mingw-w64/share/man/man1/idn.1.gz",
+    "Library/mingw-w64/share/man/man3/idn_free.3.gz",
+    "Library/mingw-w64/share/man/man3/idna_strerror.3.gz",
+    "Library/mingw-w64/share/man/man3/idna_to_ascii_4i.3.gz",
+    "Library/mingw-w64/share/man/man3/idna_to_ascii_4z.3.gz",
+    "Library/mingw-w64/share/man/man3/idna_to_ascii_8z.3.gz",
+    "Library/mingw-w64/share/man/man3/idna_to_ascii_lz.3.gz",
+    "Library/mingw-w64/share/man/man3/idna_to_unicode_44i.3.gz",
+    "Library/mingw-w64/share/man/man3/idna_to_unicode_4z4z.3.gz",
+    "Library/mingw-w64/share/man/man3/idna_to_unicode_8z4z.3.gz",
+    "Library/mingw-w64/share/man/man3/idna_to_unicode_8z8z.3.gz",
+    "Library/mingw-w64/share/man/man3/idna_to_unicode_8zlz.3.gz",
+    "Library/mingw-w64/share/man/man3/idna_to_unicode_lzlz.3.gz",
+    "Library/mingw-w64/share/man/man3/pr29_4.3.gz",
+    "Library/mingw-w64/share/man/man3/pr29_4z.3.gz",
+    "Library/mingw-w64/share/man/man3/pr29_8z.3.gz",
+    "Library/mingw-w64/share/man/man3/pr29_strerror.3.gz",
+    "Library/mingw-w64/share/man/man3/punycode_decode.3.gz",
+    "Library/mingw-w64/share/man/man3/punycode_encode.3.gz",
+    "Library/mingw-w64/share/man/man3/punycode_strerror.3.gz",
+    "Library/mingw-w64/share/man/man3/stringprep.3.gz",
+    "Library/mingw-w64/share/man/man3/stringprep_4i.3.gz",
+    "Library/mingw-w64/share/man/man3/stringprep_4zi.3.gz",
+    "Library/mingw-w64/share/man/man3/stringprep_check_version.3.gz",
+    "Library/mingw-w64/share/man/man3/stringprep_convert.3.gz",
+    "Library/mingw-w64/share/man/man3/stringprep_locale_charset.3.gz",
+    "Library/mingw-w64/share/man/man3/stringprep_locale_to_utf8.3.gz",
+    "Library/mingw-w64/share/man/man3/stringprep_profile.3.gz",
+    "Library/mingw-w64/share/man/man3/stringprep_strerror.3.gz",
+    "Library/mingw-w64/share/man/man3/stringprep_ucs4_nfkc_normalize.3.gz",
+    "Library/mingw-w64/share/man/man3/stringprep_ucs4_to_utf8.3.gz",
+    "Library/mingw-w64/share/man/man3/stringprep_unichar_to_utf8.3.gz",
+    "Library/mingw-w64/share/man/man3/stringprep_utf8_nfkc_normalize.3.gz",
+    "Library/mingw-w64/share/man/man3/stringprep_utf8_to_locale.3.gz",
+    "Library/mingw-w64/share/man/man3/stringprep_utf8_to_ucs4.3.gz",
+    "Library/mingw-w64/share/man/man3/stringprep_utf8_to_unichar.3.gz",
+    "Library/mingw-w64/share/man/man3/tld_check_4.3.gz",
+    "Library/mingw-w64/share/man/man3/tld_check_4t.3.gz",
+    "Library/mingw-w64/share/man/man3/tld_check_4tz.3.gz",
+    "Library/mingw-w64/share/man/man3/tld_check_4z.3.gz",
+    "Library/mingw-w64/share/man/man3/tld_check_8z.3.gz",
+    "Library/mingw-w64/share/man/man3/tld_check_lz.3.gz",
+    "Library/mingw-w64/share/man/man3/tld_default_table.3.gz",
+    "Library/mingw-w64/share/man/man3/tld_get_4.3.gz",
+    "Library/mingw-w64/share/man/man3/tld_get_4z.3.gz",
+    "Library/mingw-w64/share/man/man3/tld_get_table.3.gz",
+    "Library/mingw-w64/share/man/man3/tld_get_z.3.gz",
+    "Library/mingw-w64/share/man/man3/tld_strerror.3.gz"
+  ],
+  "fn": "m2w64-libidn-1.32-4.tar.bz2",
+  "license": "GPL3, LGPL",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-libidn-1.32-4",
+    "type": 1
+  },
+  "md5": "618e4bc090299b366ffd8b200304a164",
+  "name": "m2w64-libidn",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-libidn-1.32-4.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/mingw-w64/bin/idn.exe",
+        "path_type": "hardlink",
+        "sha256": "e7cc46ffd6d8233481d3e73d1f487a42a26168fdd42e148ca5c9d98686498331",
+        "sha256_in_prefix": "e7cc46ffd6d8233481d3e73d1f487a42a26168fdd42e148ca5c9d98686498331",
+        "size_in_bytes": 76560
+      },
+      {
+        "_path": "Library/mingw-w64/bin/libidn-11.def",
+        "path_type": "hardlink",
+        "sha256": "2dc93de9423bcff546f6fbcf9fc092cb9c5c600fdb437ac889da902a5835db2b",
+        "sha256_in_prefix": "2dc93de9423bcff546f6fbcf9fc092cb9c5c600fdb437ac889da902a5835db2b",
+        "size_in_bytes": 2326
+      },
+      {
+        "_path": "Library/mingw-w64/bin/libidn-11.dll",
+        "path_type": "hardlink",
+        "sha256": "8a62a93fe212161d8b14b46d0323dd3fb5f50cdd4c9f18f0455229bcc5bc3e60",
+        "sha256_in_prefix": "8a62a93fe212161d8b14b46d0323dd3fb5f50cdd4c9f18f0455229bcc5bc3e60",
+        "size_in_bytes": 211788
+      },
+      {
+        "_path": "Library/mingw-w64/include/idn-free.h",
+        "path_type": "hardlink",
+        "sha256": "ecd3c84265fdc2dda5a56a8bbdefcfd18f454086dd48221e2fccd1d78ccb0ef1",
+        "sha256_in_prefix": "ecd3c84265fdc2dda5a56a8bbdefcfd18f454086dd48221e2fccd1d78ccb0ef1",
+        "size_in_bytes": 2472
+      },
+      {
+        "_path": "Library/mingw-w64/include/idn-int.h",
+        "path_type": "hardlink",
+        "sha256": "dd1e65241020275e480c9f023566ad3d27cad42dfac5d4d1b9c176732d1eede5",
+        "sha256_in_prefix": "dd1e65241020275e480c9f023566ad3d27cad42dfac5d4d1b9c176732d1eede5",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "Library/mingw-w64/include/idna.h",
+        "path_type": "hardlink",
+        "sha256": "252610600d4b3957323183a40a23151796e3ab346d428984097dbff7033d37af",
+        "sha256_in_prefix": "252610600d4b3957323183a40a23151796e3ab346d428984097dbff7033d37af",
+        "size_in_bytes": 3564
+      },
+      {
+        "_path": "Library/mingw-w64/include/pr29.h",
+        "path_type": "hardlink",
+        "sha256": "6c41d9080fab1eda2d7a519e7325545e242cc13bb9c1e0d3d5ab665008cb8318",
+        "sha256_in_prefix": "6c41d9080fab1eda2d7a519e7325545e242cc13bb9c1e0d3d5ab665008cb8318",
+        "size_in_bytes": 2123
+      },
+      {
+        "_path": "Library/mingw-w64/include/punycode.h",
+        "path_type": "hardlink",
+        "sha256": "b4bfde955f62b16cb5a11a51e8777575f403a4cbcc68f0b8fadb7e4ff78adbf0",
+        "sha256_in_prefix": "b4bfde955f62b16cb5a11a51e8777575f403a4cbcc68f0b8fadb7e4ff78adbf0",
+        "size_in_bytes": 9384
+      },
+      {
+        "_path": "Library/mingw-w64/include/stringprep.h",
+        "path_type": "hardlink",
+        "sha256": "e5786397cbc5433ab58966bd4042caa01fb79b9d5e62dba2181c565bfbeb113e",
+        "sha256_in_prefix": "e5786397cbc5433ab58966bd4042caa01fb79b9d5e62dba2181c565bfbeb113e",
+        "size_in_bytes": 8227
+      },
+      {
+        "_path": "Library/mingw-w64/include/tld.h",
+        "path_type": "hardlink",
+        "sha256": "a552b94d0aedaf745db69b9aa5821064f40fac4587272ced1a15990b2576dc3a",
+        "sha256_in_prefix": "a552b94d0aedaf745db69b9aa5821064f40fac4587272ced1a15990b2576dc3a",
+        "size_in_bytes": 4644
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libidn.a",
+        "path_type": "hardlink",
+        "sha256": "554ed27f9357b403b669d72c84d638c14750361db6848fd66bdde08a8a5d73e0",
+        "sha256_in_prefix": "554ed27f9357b403b669d72c84d638c14750361db6848fd66bdde08a8a5d73e0",
+        "size_in_bytes": 225530
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libidn.dll.a",
+        "path_type": "hardlink",
+        "sha256": "a2541e217531c29d4e176beb54bccd7ef742a11a37cf39358ea331cf0913aaa9",
+        "sha256_in_prefix": "a2541e217531c29d4e176beb54bccd7ef742a11a37cf39358ea331cf0913aaa9",
+        "size_in_bytes": 49092
+      },
+      {
+        "_path": "Library/mingw-w64/lib/pkgconfig/libidn.pc",
+        "path_type": "hardlink",
+        "sha256": "4f3ccb2b5061e931186e3ede931179e919e9dfa9eab422b1380939742c8018d1",
+        "sha256_in_prefix": "4f3ccb2b5061e931186e3ede931179e919e9dfa9eab422b1380939742c8018d1",
+        "size_in_bytes": 843
+      },
+      {
+        "_path": "Library/mingw-w64/share/emacs/site-lisp/idna.el",
+        "path_type": "hardlink",
+        "sha256": "0c5f0dc21f318535a9818b22bee04becaf023296cf2a88db409b320f43daa659",
+        "sha256_in_prefix": "0c5f0dc21f318535a9818b22bee04becaf023296cf2a88db409b320f43daa659",
+        "size_in_bytes": 6464
+      },
+      {
+        "_path": "Library/mingw-w64/share/emacs/site-lisp/punycode.el",
+        "path_type": "hardlink",
+        "sha256": "75326c889cb1f37ebb2a49b60c956f1b7fb97b28657b3af5e25536c03bd9a1a9",
+        "sha256_in_prefix": "75326c889cb1f37ebb2a49b60c956f1b7fb97b28657b3af5e25536c03bd9a1a9",
+        "size_in_bytes": 6266
+      },
+      {
+        "_path": "Library/mingw-w64/share/info/libidn-components.png.gz",
+        "path_type": "hardlink",
+        "sha256": "d256f4f3819e21ddf43536ace7d036226484d62d1a3aa265168f5b7beb1da62b",
+        "sha256_in_prefix": "d256f4f3819e21ddf43536ace7d036226484d62d1a3aa265168f5b7beb1da62b",
+        "size_in_bytes": 5189
+      },
+      {
+        "_path": "Library/mingw-w64/share/info/libidn.info.gz",
+        "path_type": "hardlink",
+        "sha256": "bfde3b8a658bd4d63bec2f4705c9497576001e690cc1a6a7ec8fb59fc62abde6",
+        "sha256_in_prefix": "bfde3b8a658bd4d63bec2f4705c9497576001e690cc1a6a7ec8fb59fc62abde6",
+        "size_in_bytes": 44015
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/cs/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "abc17b423c3c8debad8ef6046c2bdfb35802bbb31eb8c57ac4e62a511ab0cdba",
+        "sha256_in_prefix": "abc17b423c3c8debad8ef6046c2bdfb35802bbb31eb8c57ac4e62a511ab0cdba",
+        "size_in_bytes": 8778
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/da/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "3df0c86a974d8e245b71b6540ef27ee1ba6cf1e11a9abd5c9eb8154efa781a99",
+        "sha256_in_prefix": "3df0c86a974d8e245b71b6540ef27ee1ba6cf1e11a9abd5c9eb8154efa781a99",
+        "size_in_bytes": 8460
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/de/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "149480e3dbcb4e26fabc053d92490ec37295a9e382e830c9bfba16c5a39e4197",
+        "sha256_in_prefix": "149480e3dbcb4e26fabc053d92490ec37295a9e382e830c9bfba16c5a39e4197",
+        "size_in_bytes": 8581
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/en@boldquot/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "b916ba58a185684b4b1cf034454c115505d94727c605d850136a87d0043ae2e6",
+        "sha256_in_prefix": "b916ba58a185684b4b1cf034454c115505d94727c605d850136a87d0043ae2e6",
+        "size_in_bytes": 8530
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/en@quot/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "54d08131c2b60f16d6f81b00474cf4732ecb420c69f1228ca985e9969c7f03cf",
+        "sha256_in_prefix": "54d08131c2b60f16d6f81b00474cf4732ecb420c69f1228ca985e9969c7f03cf",
+        "size_in_bytes": 8398
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/eo/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "a0c0a58a6b03d9079ad5d5cbf63702dce529b818efb17a2324f0610c65086b13",
+        "sha256_in_prefix": "a0c0a58a6b03d9079ad5d5cbf63702dce529b818efb17a2324f0610c65086b13",
+        "size_in_bytes": 8348
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/fi/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "3cc851228be034e251a3f2cf50458d2956270c7ff8a891bf29d992e7558e816c",
+        "sha256_in_prefix": "3cc851228be034e251a3f2cf50458d2956270c7ff8a891bf29d992e7558e816c",
+        "size_in_bytes": 8923
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/fr/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "6305dc280566a49f7f0189e6b2b4b477b4f286c65d33f2ff4d2f61651ec84648",
+        "sha256_in_prefix": "6305dc280566a49f7f0189e6b2b4b477b4f286c65d33f2ff4d2f61651ec84648",
+        "size_in_bytes": 9031
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/hr/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "1cb8869e33bfb397d2a07536afb0711184720baeac796d7476741e16a1221f67",
+        "sha256_in_prefix": "1cb8869e33bfb397d2a07536afb0711184720baeac796d7476741e16a1221f67",
+        "size_in_bytes": 8402
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/hu/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "00da4b2ad5ba8573a7c12afd1b65e8c23036c5d73b3793621b63c3eb4d29e3e2",
+        "sha256_in_prefix": "00da4b2ad5ba8573a7c12afd1b65e8c23036c5d73b3793621b63c3eb4d29e3e2",
+        "size_in_bytes": 8748
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/id/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "03a795c9782777df022026db9ec9e3782c921d43ea9db4b9d659018ceef34326",
+        "sha256_in_prefix": "03a795c9782777df022026db9ec9e3782c921d43ea9db4b9d659018ceef34326",
+        "size_in_bytes": 8273
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/it/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "4a342bba0a63c89d86e7dfeef55f0cd66c961976c76050da9d81eaec6f8681cb",
+        "sha256_in_prefix": "4a342bba0a63c89d86e7dfeef55f0cd66c961976c76050da9d81eaec6f8681cb",
+        "size_in_bytes": 8407
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/ja/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "4e0fd5a75727028795f9bad010f82a87755cb7ddce9ce1a201de6814aaa94f4c",
+        "sha256_in_prefix": "4e0fd5a75727028795f9bad010f82a87755cb7ddce9ce1a201de6814aaa94f4c",
+        "size_in_bytes": 3669
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/nl/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "ca4d8d92071d09a55b5d8f8cae9c5998a68fc488c22ca466bc2e6addbbaa82ba",
+        "sha256_in_prefix": "ca4d8d92071d09a55b5d8f8cae9c5998a68fc488c22ca466bc2e6addbbaa82ba",
+        "size_in_bytes": 8600
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/pl/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "cf559f47ac138beb8283a089fb5ff13ddc24679e3d4ae60475d1aae34be3620e",
+        "sha256_in_prefix": "cf559f47ac138beb8283a089fb5ff13ddc24679e3d4ae60475d1aae34be3620e",
+        "size_in_bytes": 8539
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/pt_BR/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "76f521252dea150d33e2bfead30e74917c819978e0b3c51f6a618954e1a0461b",
+        "sha256_in_prefix": "76f521252dea150d33e2bfead30e74917c819978e0b3c51f6a618954e1a0461b",
+        "size_in_bytes": 8582
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/ro/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "1c960abd6e99ea3b76461046494767fb425f982491c7b9fc889fe5fb8eeeb6b0",
+        "sha256_in_prefix": "1c960abd6e99ea3b76461046494767fb425f982491c7b9fc889fe5fb8eeeb6b0",
+        "size_in_bytes": 724
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/sr/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "7f57f53bf34db6fd697930e8ec95d9b93042b459ad25f05afb53d13a8cb7ff2e",
+        "sha256_in_prefix": "7f57f53bf34db6fd697930e8ec95d9b93042b459ad25f05afb53d13a8cb7ff2e",
+        "size_in_bytes": 10315
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/uk/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "ccfb0a79343ef9a526129e2426a3d0a94cac9da16158e42b5a7321b0d303b148",
+        "sha256_in_prefix": "ccfb0a79343ef9a526129e2426a3d0a94cac9da16158e42b5a7321b0d303b148",
+        "size_in_bytes": 11102
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/vi/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "c9a97b2b937082d5a8068a5e3736a2a6b95e3cb160f50a2aa25ec8c78edb8e6b",
+        "sha256_in_prefix": "c9a97b2b937082d5a8068a5e3736a2a6b95e3cb160f50a2aa25ec8c78edb8e6b",
+        "size_in_bytes": 9316
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/zh_CN/LC_MESSAGES/libidn.mo",
+        "path_type": "hardlink",
+        "sha256": "0499378cfad141129a02c2da49b9336f4bbe52c875f564ee22ffd68c402ce52c",
+        "sha256_in_prefix": "0499378cfad141129a02c2da49b9336f4bbe52c875f564ee22ffd68c402ce52c",
+        "size_in_bytes": 7934
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man1/idn.1.gz",
+        "path_type": "hardlink",
+        "sha256": "4924bee09fc2e72193230b007ab255abc5c54e6ecf1bc9edd9142d5f70c010f1",
+        "sha256_in_prefix": "4924bee09fc2e72193230b007ab255abc5c54e6ecf1bc9edd9142d5f70c010f1",
+        "size_in_bytes": 1338
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/idn_free.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9c772b6b625257221cff693facc87677fb05cc723b272c7216afa9da9dc4765c",
+        "sha256_in_prefix": "9c772b6b625257221cff693facc87677fb05cc723b272c7216afa9da9dc4765c",
+        "size_in_bytes": 846
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/idna_strerror.3.gz",
+        "path_type": "hardlink",
+        "sha256": "eabb114c0e74678a02be2ccbbc48bc1d15d45a6697919831487cefbb13f202fa",
+        "sha256_in_prefix": "eabb114c0e74678a02be2ccbbc48bc1d15d45a6697919831487cefbb13f202fa",
+        "size_in_bytes": 1286
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/idna_to_ascii_4i.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9898e9ebf8c71d52598b78cacd2c85978c59f5d4f7a90b7e1b1b9ad5b2ea1294",
+        "sha256_in_prefix": "9898e9ebf8c71d52598b78cacd2c85978c59f5d4f7a90b7e1b1b9ad5b2ea1294",
+        "size_in_bytes": 1306
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/idna_to_ascii_4z.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8db1466a6b7fd25fc4734d796b62dbe1edfa9263f4e83c2c9d1aa935bad2c842",
+        "sha256_in_prefix": "8db1466a6b7fd25fc4734d796b62dbe1edfa9263f4e83c2c9d1aa935bad2c842",
+        "size_in_bytes": 898
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/idna_to_ascii_8z.3.gz",
+        "path_type": "hardlink",
+        "sha256": "268215093443434612ffd9a386457f3953c17c5a8e69fd9bf601306dde62dc91",
+        "sha256_in_prefix": "268215093443434612ffd9a386457f3953c17c5a8e69fd9bf601306dde62dc91",
+        "size_in_bytes": 889
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/idna_to_ascii_lz.3.gz",
+        "path_type": "hardlink",
+        "sha256": "68b9474b9ac1f44c49e05242bf554945bdaf19d04596d2b239075c3f4c1bb6ef",
+        "sha256_in_prefix": "68b9474b9ac1f44c49e05242bf554945bdaf19d04596d2b239075c3f4c1bb6ef",
+        "size_in_bytes": 917
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/idna_to_unicode_44i.3.gz",
+        "path_type": "hardlink",
+        "sha256": "28a85955d10705b6b05dab317b240cb4da06ab18fbf02cd63956390781682a53",
+        "sha256_in_prefix": "28a85955d10705b6b05dab317b240cb4da06ab18fbf02cd63956390781682a53",
+        "size_in_bytes": 1366
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/idna_to_unicode_4z4z.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9f05aeedb5bb5e1747473093d330761ad2b21ed6266c4c67a4cd630694ccb4d6",
+        "sha256_in_prefix": "9f05aeedb5bb5e1747473093d330761ad2b21ed6266c4c67a4cd630694ccb4d6",
+        "size_in_bytes": 921
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/idna_to_unicode_8z4z.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6132ff4d7a2d573e0399725296e23bf87140ff15e49a3003437a553e7c659cbd",
+        "sha256_in_prefix": "6132ff4d7a2d573e0399725296e23bf87140ff15e49a3003437a553e7c659cbd",
+        "size_in_bytes": 930
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/idna_to_unicode_8z8z.3.gz",
+        "path_type": "hardlink",
+        "sha256": "fd1db911bb6abc3e9bafde08f0506c182b51bc8aaae747b0796bb0b67abb1496",
+        "sha256_in_prefix": "fd1db911bb6abc3e9bafde08f0506c182b51bc8aaae747b0796bb0b67abb1496",
+        "size_in_bytes": 915
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/idna_to_unicode_8zlz.3.gz",
+        "path_type": "hardlink",
+        "sha256": "69c5b76240cd147d678480bc42306fd0521abfdceca423f4c3e1e9d2c4519681",
+        "sha256_in_prefix": "69c5b76240cd147d678480bc42306fd0521abfdceca423f4c3e1e9d2c4519681",
+        "size_in_bytes": 943
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/idna_to_unicode_lzlz.3.gz",
+        "path_type": "hardlink",
+        "sha256": "8918684f3415e10c22e5a4acc4a105af7081968a9fcb286a559a855832fa7e58",
+        "sha256_in_prefix": "8918684f3415e10c22e5a4acc4a105af7081968a9fcb286a559a855832fa7e58",
+        "size_in_bytes": 938
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/pr29_4.3.gz",
+        "path_type": "hardlink",
+        "sha256": "dc85bfb778d4d109d7a61d8a721a7b59d0f7f96ee17689ae38811383cd12987b",
+        "sha256_in_prefix": "dc85bfb778d4d109d7a61d8a721a7b59d0f7f96ee17689ae38811383cd12987b",
+        "size_in_bytes": 855
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/pr29_4z.3.gz",
+        "path_type": "hardlink",
+        "sha256": "23d08a0aa62997b7dfd875409a321a29e9fa8b3c6a1935f81058b725b95ebe1e",
+        "sha256_in_prefix": "23d08a0aa62997b7dfd875409a321a29e9fa8b3c6a1935f81058b725b95ebe1e",
+        "size_in_bytes": 839
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/pr29_8z.3.gz",
+        "path_type": "hardlink",
+        "sha256": "2bfd94fa602a91b8411bcb7066c9220f2f1c87a495d2c9d86d8268fb74f5e8d5",
+        "sha256_in_prefix": "2bfd94fa602a91b8411bcb7066c9220f2f1c87a495d2c9d86d8268fb74f5e8d5",
+        "size_in_bytes": 875
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/pr29_strerror.3.gz",
+        "path_type": "hardlink",
+        "sha256": "ccfd8f32be7772e08996fa452922b2cfd5b7f8f77fc00d0a3e6c1dbb19e24c11",
+        "sha256_in_prefix": "ccfd8f32be7772e08996fa452922b2cfd5b7f8f77fc00d0a3e6c1dbb19e24c11",
+        "size_in_bytes": 956
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/punycode_decode.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a3e796b3751da0d6febb093b2749185e8a83fd6e377881796a348383a240bf69",
+        "sha256_in_prefix": "a3e796b3751da0d6febb093b2749185e8a83fd6e377881796a348383a240bf69",
+        "size_in_bytes": 1400
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/punycode_encode.3.gz",
+        "path_type": "hardlink",
+        "sha256": "568f1919f8b1029c84a1daaaffad0d505e82611a6d9cfc2fc525e0504611e019",
+        "sha256_in_prefix": "568f1919f8b1029c84a1daaaffad0d505e82611a6d9cfc2fc525e0504611e019",
+        "size_in_bytes": 1481
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/punycode_strerror.3.gz",
+        "path_type": "hardlink",
+        "sha256": "be04791dc7bfe2314e7247142aab3ee55c3bc264f79e84f37e3ad110f7d3474f",
+        "sha256_in_prefix": "be04791dc7bfe2314e7247142aab3ee55c3bc264f79e84f37e3ad110f7d3474f",
+        "size_in_bytes": 960
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/stringprep.3.gz",
+        "path_type": "hardlink",
+        "sha256": "0a0c35dd0c61ccc915bd274ddb2c10887b86f0f27cd07f7ace107873421f71db",
+        "sha256_in_prefix": "0a0c35dd0c61ccc915bd274ddb2c10887b86f0f27cd07f7ace107873421f71db",
+        "size_in_bytes": 1160
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/stringprep_4i.3.gz",
+        "path_type": "hardlink",
+        "sha256": "dd306530cb1b3d6c5ee2ac7ef3578cfbf5249478a6e51c5207223065844e1ce3",
+        "sha256_in_prefix": "dd306530cb1b3d6c5ee2ac7ef3578cfbf5249478a6e51c5207223065844e1ce3",
+        "size_in_bytes": 1233
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/stringprep_4zi.3.gz",
+        "path_type": "hardlink",
+        "sha256": "5b6a81bc0f8f5ecf5f1fbb37ac070d17e4add6333e7f2b786ee79f3c883c9458",
+        "sha256_in_prefix": "5b6a81bc0f8f5ecf5f1fbb37ac070d17e4add6333e7f2b786ee79f3c883c9458",
+        "size_in_bytes": 1110
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/stringprep_check_version.3.gz",
+        "path_type": "hardlink",
+        "sha256": "a0ef011554935870f3b217159a666493b8faae59b9ddf5438bc3b47b05ba9b90",
+        "sha256_in_prefix": "a0ef011554935870f3b217159a666493b8faae59b9ddf5438bc3b47b05ba9b90",
+        "size_in_bytes": 863
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/stringprep_convert.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6d34661b7802d81588bb08fee601fbc32d4aeb37242431cc2283c9ab96584b83",
+        "sha256_in_prefix": "6d34661b7802d81588bb08fee601fbc32d4aeb37242431cc2283c9ab96584b83",
+        "size_in_bytes": 819
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/stringprep_locale_charset.3.gz",
+        "path_type": "hardlink",
+        "sha256": "fd47b8214d75b7b8e2f4eb0aaba097ce4ef71a2012304196ccd764b32f03e6bc",
+        "sha256_in_prefix": "fd47b8214d75b7b8e2f4eb0aaba097ce4ef71a2012304196ccd764b32f03e6bc",
+        "size_in_bytes": 1035
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/stringprep_locale_to_utf8.3.gz",
+        "path_type": "hardlink",
+        "sha256": "4994f3efa83f09903f8444843b3dbcc34391894bbae5ce9390886893277df587",
+        "sha256_in_prefix": "4994f3efa83f09903f8444843b3dbcc34391894bbae5ce9390886893277df587",
+        "size_in_bytes": 770
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/stringprep_profile.3.gz",
+        "path_type": "hardlink",
+        "sha256": "39a3b980dbc07061af5e6eb413d398516ef2b5bc186d92a5065ff1b2b85827fd",
+        "sha256_in_prefix": "39a3b980dbc07061af5e6eb413d398516ef2b5bc186d92a5065ff1b2b85827fd",
+        "size_in_bytes": 1025
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/stringprep_strerror.3.gz",
+        "path_type": "hardlink",
+        "sha256": "d1c55d65f3f96ef58abe7a681f3e028480587c7137fd6050b6cda41ecd821647",
+        "sha256_in_prefix": "d1c55d65f3f96ef58abe7a681f3e028480587c7137fd6050b6cda41ecd821647",
+        "size_in_bytes": 1355
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/stringprep_ucs4_nfkc_normalize.3.gz",
+        "path_type": "hardlink",
+        "sha256": "b63168018f87d998010fe323ae389ac263879716257a1e0c51a18e428874730f",
+        "sha256_in_prefix": "b63168018f87d998010fe323ae389ac263879716257a1e0c51a18e428874730f",
+        "size_in_bytes": 816
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/stringprep_ucs4_to_utf8.3.gz",
+        "path_type": "hardlink",
+        "sha256": "c89526cc665138f3b1dcc77a968d62f5d68b2ba75587b6f6453b21359b57f00a",
+        "sha256_in_prefix": "c89526cc665138f3b1dcc77a968d62f5d68b2ba75587b6f6453b21359b57f00a",
+        "size_in_bytes": 984
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/stringprep_unichar_to_utf8.3.gz",
+        "path_type": "hardlink",
+        "sha256": "47b839ef7c9239d426f71259b2e48c8fa0d1d1cc9951719ce7ee10a33d95c2f0",
+        "sha256_in_prefix": "47b839ef7c9239d426f71259b2e48c8fa0d1d1cc9951719ce7ee10a33d95c2f0",
+        "size_in_bytes": 815
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/stringprep_utf8_nfkc_normalize.3.gz",
+        "path_type": "hardlink",
+        "sha256": "b9a409904d67f8b846ab739e8f5ffb2bdce90ca7d32542878f51459f85c259fb",
+        "sha256_in_prefix": "b9a409904d67f8b846ab739e8f5ffb2bdce90ca7d32542878f51459f85c259fb",
+        "size_in_bytes": 1099
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/stringprep_utf8_to_locale.3.gz",
+        "path_type": "hardlink",
+        "sha256": "508e55d253275a41a2c7b81181e2ad8934ce98d8aa259bfe53c2191f5241597e",
+        "sha256_in_prefix": "508e55d253275a41a2c7b81181e2ad8934ce98d8aa259bfe53c2191f5241597e",
+        "size_in_bytes": 772
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/stringprep_utf8_to_ucs4.3.gz",
+        "path_type": "hardlink",
+        "sha256": "1622889cc7684e934aa9f75ab293495edca1028bcf14de8bcb87a926ea92e29a",
+        "sha256_in_prefix": "1622889cc7684e934aa9f75ab293495edca1028bcf14de8bcb87a926ea92e29a",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/stringprep_utf8_to_unichar.3.gz",
+        "path_type": "hardlink",
+        "sha256": "7c4651acdd0035cab4774ccda9d317d65eeaedc9f0c7d0865b0a47bf445d86e4",
+        "sha256_in_prefix": "7c4651acdd0035cab4774ccda9d317d65eeaedc9f0c7d0865b0a47bf445d86e4",
+        "size_in_bytes": 766
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/tld_check_4.3.gz",
+        "path_type": "hardlink",
+        "sha256": "de945c8656edc28c63df2fd54cce0e3cf7365ef43f5f8c637c654394a8b11cfc",
+        "sha256_in_prefix": "de945c8656edc28c63df2fd54cce0e3cf7365ef43f5f8c637c654394a8b11cfc",
+        "size_in_bytes": 1149
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/tld_check_4t.3.gz",
+        "path_type": "hardlink",
+        "sha256": "86df09d5e6eeef1423b5389498a8f42cf644cf8032674ee374e3f2df6a42c98b",
+        "sha256_in_prefix": "86df09d5e6eeef1423b5389498a8f42cf644cf8032674ee374e3f2df6a42c98b",
+        "size_in_bytes": 1014
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/tld_check_4tz.3.gz",
+        "path_type": "hardlink",
+        "sha256": "2fe1c031dfdf46df6746c12e508fa3f5912564c15c1d3d0af4b62476a44873ed",
+        "sha256_in_prefix": "2fe1c031dfdf46df6746c12e508fa3f5912564c15c1d3d0af4b62476a44873ed",
+        "size_in_bytes": 981
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/tld_check_4z.3.gz",
+        "path_type": "hardlink",
+        "sha256": "70b54a0aec0c093225bdb57b8aa634c64cc074c707d1271f242f5dd935dd6776",
+        "sha256_in_prefix": "70b54a0aec0c093225bdb57b8aa634c64cc074c707d1271f242f5dd935dd6776",
+        "size_in_bytes": 1116
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/tld_check_8z.3.gz",
+        "path_type": "hardlink",
+        "sha256": "756c2a929f9363669233287aaac03f77949163a41d56cbe8a88143987fc73d21",
+        "sha256_in_prefix": "756c2a929f9363669233287aaac03f77949163a41d56cbe8a88143987fc73d21",
+        "size_in_bytes": 1156
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/tld_check_lz.3.gz",
+        "path_type": "hardlink",
+        "sha256": "7b9508b2b5fc0edce184ccd0ee05d4d28e67c31fd0eef66ad508c4c1bdb0d5d7",
+        "sha256_in_prefix": "7b9508b2b5fc0edce184ccd0ee05d4d28e67c31fd0eef66ad508c4c1bdb0d5d7",
+        "size_in_bytes": 1168
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/tld_default_table.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6abfbc35ae48e911b89a07709a30494896d68412a827beccd8f154c55cac2351",
+        "sha256_in_prefix": "6abfbc35ae48e911b89a07709a30494896d68412a827beccd8f154c55cac2351",
+        "size_in_bytes": 909
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/tld_get_4.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9c098257dbc7518229f4522a72fddb2fb57df582f1afb6c67333f5a4a445f3a8",
+        "sha256_in_prefix": "9c098257dbc7518229f4522a72fddb2fb57df582f1afb6c67333f5a4a445f3a8",
+        "size_in_bytes": 859
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/tld_get_4z.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9c05b8921de3b3372f472c05979fc6c1af263654a622e6a45a840686fc20f0e0",
+        "sha256_in_prefix": "9c05b8921de3b3372f472c05979fc6c1af263654a622e6a45a840686fc20f0e0",
+        "size_in_bytes": 815
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/tld_get_table.3.gz",
+        "path_type": "hardlink",
+        "sha256": "9d2cfc53aa7cfa5661a3676a8595334d74d104430c0150260f5d7c5aa2b099cc",
+        "sha256_in_prefix": "9d2cfc53aa7cfa5661a3676a8595334d74d104430c0150260f5d7c5aa2b099cc",
+        "size_in_bytes": 839
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/tld_get_z.3.gz",
+        "path_type": "hardlink",
+        "sha256": "6ac0e817b7f0e6ca781312993376fb3d9608668facd017745f1e84176184e818",
+        "sha256_in_prefix": "6ac0e817b7f0e6ca781312993376fb3d9608668facd017745f1e84176184e818",
+        "size_in_bytes": 859
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/tld_strerror.3.gz",
+        "path_type": "hardlink",
+        "sha256": "d1c4f1221128ab3f16c8f250fd217e0f263e9ecbfd432c88d60845722d9e234f",
+        "sha256_in_prefix": "d1c4f1221128ab3f16c8f250fd217e0f263e9ecbfd432c88d60845722d9e234f",
+        "size_in_bytes": 983
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 303879,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2w64-libidn-1.32-4.tar.bz2",
+  "version": "1.32"
+}

@@ -1,0 +1,131 @@
+{
+  "build": "5",
+  "build_number": 5,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "m2w64-gettext",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-libtre-git-122.c2f5d13-5",
+  "features": "",
+  "files": [
+    "Library/mingw-w64/bin/libtre-5.dll",
+    "Library/mingw-w64/bin/x86_64-w64-mingw32-agrep.exe",
+    "Library/mingw-w64/include/tre/regex.h",
+    "Library/mingw-w64/include/tre/tre-config.h",
+    "Library/mingw-w64/include/tre/tre.h",
+    "Library/mingw-w64/lib/libtre.a",
+    "Library/mingw-w64/lib/libtre.dll.a",
+    "Library/mingw-w64/lib/pkgconfig/tre.pc",
+    "Library/mingw-w64/share/licenses/libtre/LICENSE",
+    "Library/mingw-w64/share/locale/fi/LC_MESSAGES/tre.mo",
+    "Library/mingw-w64/share/locale/sv/LC_MESSAGES/tre.mo",
+    "Library/mingw-w64/share/man/man1/x86_64-w64-mingw32-agrep.1.gz"
+  ],
+  "fn": "m2w64-libtre-git-122.c2f5d13-5.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-libtre-git-122.c2f5d13-5",
+    "type": 1
+  },
+  "md5": "530215220215201cf1ccc10d2b05681d",
+  "name": "m2w64-libtre-git",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-libtre-git-122.c2f5d13-5.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/mingw-w64/bin/libtre-5.dll",
+        "path_type": "hardlink",
+        "sha256": "7140717be4814301d688198a10def78e8488772e1c26a9ae8174bfb84a31722d",
+        "sha256_in_prefix": "7140717be4814301d688198a10def78e8488772e1c26a9ae8174bfb84a31722d",
+        "size_in_bytes": 91386
+      },
+      {
+        "_path": "Library/mingw-w64/bin/x86_64-w64-mingw32-agrep.exe",
+        "path_type": "hardlink",
+        "sha256": "b555781a7501082a3d97baf3c1d8e0aae328a87146bc84a7653834d67908a1ff",
+        "sha256_in_prefix": "b555781a7501082a3d97baf3c1d8e0aae328a87146bc84a7653834d67908a1ff",
+        "size_in_bytes": 36706
+      },
+      {
+        "_path": "Library/mingw-w64/include/tre/regex.h",
+        "path_type": "hardlink",
+        "sha256": "8f3277de7cac440b001242a6a980ef756ee180656beb1efe4363c0fb6519adfc",
+        "sha256_in_prefix": "8f3277de7cac440b001242a6a980ef756ee180656beb1efe4363c0fb6519adfc",
+        "size_in_bytes": 1011
+      },
+      {
+        "_path": "Library/mingw-w64/include/tre/tre-config.h",
+        "path_type": "hardlink",
+        "sha256": "7c69b70e4caa86f3866eac281b642c0e7e45501e369bff592d4b2d40dce6631d",
+        "sha256_in_prefix": "7c69b70e4caa86f3866eac281b642c0e7e45501e369bff592d4b2d40dce6631d",
+        "size_in_bytes": 1346
+      },
+      {
+        "_path": "Library/mingw-w64/include/tre/tre.h",
+        "path_type": "hardlink",
+        "sha256": "f73959f3fd1908c4b99c6b37a6d6ef4f909a9a60d8877499884fd897f03a629a",
+        "sha256_in_prefix": "f73959f3fd1908c4b99c6b37a6d6ef4f909a9a60d8877499884fd897f03a629a",
+        "size_in_bytes": 8381
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libtre.a",
+        "path_type": "hardlink",
+        "sha256": "8c8a463b526ed81482f6aecef4fccff51298ff1708de10bea612399d8cb45c5d",
+        "sha256_in_prefix": "8c8a463b526ed81482f6aecef4fccff51298ff1708de10bea612399d8cb45c5d",
+        "size_in_bytes": 69562
+      },
+      {
+        "_path": "Library/mingw-w64/lib/libtre.dll.a",
+        "path_type": "hardlink",
+        "sha256": "05aa3fedbd96c10495d39ea4394ee1fac5e140949cd6aec614c253691d54795b",
+        "sha256_in_prefix": "05aa3fedbd96c10495d39ea4394ee1fac5e140949cd6aec614c253691d54795b",
+        "size_in_bytes": 29866
+      },
+      {
+        "_path": "Library/mingw-w64/lib/pkgconfig/tre.pc",
+        "path_type": "hardlink",
+        "sha256": "e9e583e0b16ececef357d77dd42f120bde2ef6fec86a56e30de124877e2a2ec6",
+        "sha256_in_prefix": "e9e583e0b16ececef357d77dd42f120bde2ef6fec86a56e30de124877e2a2ec6",
+        "size_in_bytes": 288
+      },
+      {
+        "_path": "Library/mingw-w64/share/licenses/libtre/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "6a50ab50d856b30c965cf2dd899e577ec108c938242fd3a2e7a7a25eed996200",
+        "sha256_in_prefix": "6a50ab50d856b30c965cf2dd899e577ec108c938242fd3a2e7a7a25eed996200",
+        "size_in_bytes": 1479
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/fi/LC_MESSAGES/tre.mo",
+        "path_type": "hardlink",
+        "sha256": "9692f17e47e44a799ceae7cb4dbf570d089d1728a09e1594b250780e03ab07b3",
+        "sha256_in_prefix": "9692f17e47e44a799ceae7cb4dbf570d089d1728a09e1594b250780e03ab07b3",
+        "size_in_bytes": 8048
+      },
+      {
+        "_path": "Library/mingw-w64/share/locale/sv/LC_MESSAGES/tre.mo",
+        "path_type": "hardlink",
+        "sha256": "aa7e2156f1f881bc70e1f648b49c9505320628b5f92d529e572c098ab4083561",
+        "sha256_in_prefix": "aa7e2156f1f881bc70e1f648b49c9505320628b5f92d529e572c098ab4083561",
+        "size_in_bytes": 7337
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man1/x86_64-w64-mingw32-agrep.1.gz",
+        "path_type": "hardlink",
+        "sha256": "6dc8d8c44eedfb1faaa12dbd88deb5caf84ea0ae3a166d07e6213aa1dd6f449c",
+        "sha256_in_prefix": "6dc8d8c44eedfb1faaa12dbd88deb5caf84ea0ae3a166d07e6213aa1dd6f449c",
+        "size_in_bytes": 2418
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 91483,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2w64-libtre-git-122.c2f5d13-5.tar.bz2",
+  "version": "122.c2f5d13"
+}

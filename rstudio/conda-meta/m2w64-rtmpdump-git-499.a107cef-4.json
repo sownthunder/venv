@@ -1,0 +1,158 @@
+{
+  "build": "4",
+  "build_number": 4,
+  "channel": "https://repo.anaconda.com/pkgs/msys2/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs",
+    "m2w64-gmp",
+    "m2w64-gnutls",
+    "m2w64-nettle",
+    "m2w64-zlib",
+    "msys2-conda-epoch >=20160418"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-rtmpdump-git-499.a107cef-4",
+  "features": "",
+  "files": [
+    "Library/mingw-w64/bin/librtmp-1.dll",
+    "Library/mingw-w64/bin/rtmpdump.exe",
+    "Library/mingw-w64/bin/rtmpgw.exe",
+    "Library/mingw-w64/bin/rtmpsrv.exe",
+    "Library/mingw-w64/bin/rtmpsuck.exe",
+    "Library/mingw-w64/include/librtmp/amf.h",
+    "Library/mingw-w64/include/librtmp/http.h",
+    "Library/mingw-w64/include/librtmp/log.h",
+    "Library/mingw-w64/include/librtmp/rtmp.h",
+    "Library/mingw-w64/lib/librtmp.a",
+    "Library/mingw-w64/lib/librtmp.dll.a",
+    "Library/mingw-w64/lib/pkgconfig/librtmp.pc",
+    "Library/mingw-w64/share/man/man1/rtmpdump.1.gz",
+    "Library/mingw-w64/share/man/man3/librtmp.3.gz",
+    "Library/mingw-w64/share/man/man8/rtmpgw.8.gz"
+  ],
+  "fn": "m2w64-rtmpdump-git-499.a107cef-4.tar.bz2",
+  "license": "GPL2, LGPL2.1",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-rtmpdump-git-499.a107cef-4",
+    "type": 1
+  },
+  "md5": "8f909886fcbb732c74f88bfb951d4535",
+  "name": "m2w64-rtmpdump-git",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\m2w64-rtmpdump-git-499.a107cef-4.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/mingw-w64/bin/librtmp-1.dll",
+        "path_type": "hardlink",
+        "sha256": "c5e48fbd8aa7dfdb665c8150b7a1b16ce394f9dc549a435e4d9f65e339d643b6",
+        "sha256_in_prefix": "c5e48fbd8aa7dfdb665c8150b7a1b16ce394f9dc549a435e4d9f65e339d643b6",
+        "size_in_bytes": 167977
+      },
+      {
+        "_path": "Library/mingw-w64/bin/rtmpdump.exe",
+        "path_type": "hardlink",
+        "sha256": "9ee797436ccb365a67e7842326b50c5cfddfe8e49316e17304cd754527141485",
+        "sha256_in_prefix": "9ee797436ccb365a67e7842326b50c5cfddfe8e49316e17304cd754527141485",
+        "size_in_bytes": 73887
+      },
+      {
+        "_path": "Library/mingw-w64/bin/rtmpgw.exe",
+        "path_type": "hardlink",
+        "sha256": "f80af0e4174304518958bb349a3fa0c10d13786ec30af30c6ce71c274dce3f32",
+        "sha256_in_prefix": "f80af0e4174304518958bb349a3fa0c10d13786ec30af30c6ce71c274dce3f32",
+        "size_in_bytes": 82856
+      },
+      {
+        "_path": "Library/mingw-w64/bin/rtmpsrv.exe",
+        "path_type": "hardlink",
+        "sha256": "ef1f26893aa79ca67e714099a6b9b2a2e206c0dc4853d87a04dd672f97cf4d9b",
+        "sha256_in_prefix": "ef1f26893aa79ca67e714099a6b9b2a2e206c0dc4853d87a04dd672f97cf4d9b",
+        "size_in_bytes": 61512
+      },
+      {
+        "_path": "Library/mingw-w64/bin/rtmpsuck.exe",
+        "path_type": "hardlink",
+        "sha256": "7a85feb27f87971cb176e82845602d6c3ad4a3e71585832b7dc95fe697e80e73",
+        "sha256_in_prefix": "7a85feb27f87971cb176e82845602d6c3ad4a3e71585832b7dc95fe697e80e73",
+        "size_in_bytes": 60509
+      },
+      {
+        "_path": "Library/mingw-w64/include/librtmp/amf.h",
+        "path_type": "hardlink",
+        "sha256": "a42eab041b8988e97f6f5de70bb271bb639b4a8fe1cc31d9903a1267633551ac",
+        "sha256_in_prefix": "a42eab041b8988e97f6f5de70bb271bb639b4a8fe1cc31d9903a1267633551ac",
+        "size_in_bytes": 5622
+      },
+      {
+        "_path": "Library/mingw-w64/include/librtmp/http.h",
+        "path_type": "hardlink",
+        "sha256": "5ebaaab65010e4c6cf03d851cfdc7e1be0f471534f7d54d8ae0047751e402530",
+        "sha256_in_prefix": "5ebaaab65010e4c6cf03d851cfdc7e1be0f471534f7d54d8ae0047751e402530",
+        "size_in_bytes": 1637
+      },
+      {
+        "_path": "Library/mingw-w64/include/librtmp/log.h",
+        "path_type": "hardlink",
+        "sha256": "23e24ec70d83d74b267ad846788cec0d7ac5e1ed17b8cb90e8476b1d8856e1db",
+        "sha256_in_prefix": "23e24ec70d83d74b267ad846788cec0d7ac5e1ed17b8cb90e8476b1d8856e1db",
+        "size_in_bytes": 2221
+      },
+      {
+        "_path": "Library/mingw-w64/include/librtmp/rtmp.h",
+        "path_type": "hardlink",
+        "sha256": "c8d7ad76e01ceaa65345633d7176eba6d1fff2184b3c2a3a65074f7d7cc9cd54",
+        "sha256_in_prefix": "c8d7ad76e01ceaa65345633d7176eba6d1fff2184b3c2a3a65074f7d7cc9cd54",
+        "size_in_bytes": 10962
+      },
+      {
+        "_path": "Library/mingw-w64/lib/librtmp.a",
+        "path_type": "hardlink",
+        "sha256": "23b0592db00fa4605e061708206c3bc138f5893bc9e056ef6ac6211e47546d7b",
+        "sha256_in_prefix": "23b0592db00fa4605e061708206c3bc138f5893bc9e056ef6ac6211e47546d7b",
+        "size_in_bytes": 127334
+      },
+      {
+        "_path": "Library/mingw-w64/lib/librtmp.dll.a",
+        "path_type": "hardlink",
+        "sha256": "39aa63330c7bdbecff08167893b47bfedb8500a510d13a1a56712e78b9b6ff5e",
+        "sha256_in_prefix": "39aa63330c7bdbecff08167893b47bfedb8500a510d13a1a56712e78b9b6ff5e",
+        "size_in_bytes": 72734
+      },
+      {
+        "_path": "Library/mingw-w64/lib/pkgconfig/librtmp.pc",
+        "path_type": "hardlink",
+        "sha256": "733ceb984a71cf34bf22f08b7b1b5241dd36cf35109561a4b3f2475bfab977cb",
+        "sha256_in_prefix": "733ceb984a71cf34bf22f08b7b1b5241dd36cf35109561a4b3f2475bfab977cb",
+        "size_in_bytes": 305
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man1/rtmpdump.1.gz",
+        "path_type": "hardlink",
+        "sha256": "01a4e296b02c5e7f2da62a3a88e91930589661a0c5785438c8ad806ff68e3c6c",
+        "sha256_in_prefix": "01a4e296b02c5e7f2da62a3a88e91930589661a0c5785438c8ad806ff68e3c6c",
+        "size_in_bytes": 3252
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man3/librtmp.3.gz",
+        "path_type": "hardlink",
+        "sha256": "47cdc26360a04ea939de92ba96abb7296b92e593e405b4c2418b3dc715f33bcf",
+        "sha256_in_prefix": "47cdc26360a04ea939de92ba96abb7296b92e593e405b4c2418b3dc715f33bcf",
+        "size_in_bytes": 3076
+      },
+      {
+        "_path": "Library/mingw-w64/share/man/man8/rtmpgw.8.gz",
+        "path_type": "hardlink",
+        "sha256": "04599d2f85a424258f6c72de9e92fdfde4fa07ccd0589c337f682b9efad0c0ff",
+        "sha256_in_prefix": "04599d2f85a424258f6c72de9e92fdfde4fa07ccd0589c337f682b9efad0c0ff",
+        "size_in_bytes": 3023
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 209514,
+  "subdir": "win-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/msys2/win-64/m2w64-rtmpdump-git-499.a107cef-4.tar.bz2",
+  "version": "499.a107cef"
+}

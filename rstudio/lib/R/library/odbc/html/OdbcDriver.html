@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Odbc Driver Methods</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for OdbcDriver {odbc}"><tr><td>OdbcDriver {odbc}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Odbc Driver Methods</h2>
+
+<h3>Description</h3>
+
+<p>Implementations of pure virtual functions defined in the <code>DBI</code> package
+for OdbcDriver objects.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+## S4 method for signature 'OdbcDriver'
+show(object)
+
+## S4 method for signature 'OdbcDriver,ANY'
+dbDataType(dbObj, obj, ...)
+
+## S4 method for signature 'OdbcDriver,list'
+dbDataType(dbObj, obj, ...)
+
+## S4 method for signature 'OdbcDriver,data.frame'
+dbDataType(dbObj, obj, ...)
+
+## S4 method for signature 'OdbcDriver'
+dbIsValid(dbObj, ...)
+
+## S4 method for signature 'OdbcDriver'
+dbGetInfo(dbObj, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>object</code></td>
+<td>
+<p>Any R object</p>
+</td></tr>
+<tr valign="top"><td><code>dbObj</code></td>
+<td>
+<p>A object inheriting from <a href="../../DBI/html/DBIDriver-class.html">DBIDriver</a>
+or <a href="../../DBI/html/DBIConnection-class.html">DBIConnection</a></p>
+</td></tr>
+<tr valign="top"><td><code>obj</code></td>
+<td>
+<p>An R object whose SQL type we want to determine.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Other arguments passed on to methods.</p>
+</td></tr>
+</table>
+
+<hr /><div style="text-align: center;">[Package <em>odbc</em> version 1.1.5 <a href="00Index.html">Index</a>]</div>
+</body></html>

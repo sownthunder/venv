@@ -1,0 +1,436 @@
+{
+  "build": "r351hf348343_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-xtable-1.8_2-r351hf348343_0",
+  "features": "",
+  "files": [
+    "lib/R/library/xtable/DESCRIPTION",
+    "lib/R/library/xtable/INDEX",
+    "lib/R/library/xtable/MD5",
+    "lib/R/library/xtable/Meta/Rd.rds",
+    "lib/R/library/xtable/Meta/data.rds",
+    "lib/R/library/xtable/Meta/features.rds",
+    "lib/R/library/xtable/Meta/hsearch.rds",
+    "lib/R/library/xtable/Meta/links.rds",
+    "lib/R/library/xtable/Meta/nsInfo.rds",
+    "lib/R/library/xtable/Meta/package.rds",
+    "lib/R/library/xtable/Meta/vignette.rds",
+    "lib/R/library/xtable/NAMESPACE",
+    "lib/R/library/xtable/NEWS",
+    "lib/R/library/xtable/R/xtable",
+    "lib/R/library/xtable/R/xtable.rdb",
+    "lib/R/library/xtable/R/xtable.rdx",
+    "lib/R/library/xtable/data/tli.txt.gz",
+    "lib/R/library/xtable/doc/OtherPackagesGallery.R",
+    "lib/R/library/xtable/doc/OtherPackagesGallery.Rnw",
+    "lib/R/library/xtable/doc/OtherPackagesGallery.pdf",
+    "lib/R/library/xtable/doc/index.html",
+    "lib/R/library/xtable/doc/listOfTablesGallery.R",
+    "lib/R/library/xtable/doc/listOfTablesGallery.Rnw",
+    "lib/R/library/xtable/doc/listOfTablesGallery.pdf",
+    "lib/R/library/xtable/doc/margintable.R",
+    "lib/R/library/xtable/doc/margintable.Rnw",
+    "lib/R/library/xtable/doc/margintable.pdf",
+    "lib/R/library/xtable/doc/xtableGallery.R",
+    "lib/R/library/xtable/doc/xtableGallery.Rnw",
+    "lib/R/library/xtable/doc/xtableGallery.pdf",
+    "lib/R/library/xtable/help/AnIndex",
+    "lib/R/library/xtable/help/aliases.rds",
+    "lib/R/library/xtable/help/paths.rds",
+    "lib/R/library/xtable/help/xtable.rdb",
+    "lib/R/library/xtable/help/xtable.rdx",
+    "lib/R/library/xtable/html/00Index.html",
+    "lib/R/library/xtable/html/R.css",
+    "lib/R/library/xtable/html/autoformat.html",
+    "lib/R/library/xtable/html/print.xtable.html",
+    "lib/R/library/xtable/html/print.xtableMatharray.html",
+    "lib/R/library/xtable/html/sanitize.html",
+    "lib/R/library/xtable/html/string.html",
+    "lib/R/library/xtable/html/table.attributes.html",
+    "lib/R/library/xtable/html/tli.html",
+    "lib/R/library/xtable/html/toLatex.html",
+    "lib/R/library/xtable/html/xtable-internal.html",
+    "lib/R/library/xtable/html/xtable.html",
+    "lib/R/library/xtable/html/xtableFtable.html",
+    "lib/R/library/xtable/html/xtableList.html",
+    "lib/R/library/xtable/html/xtableMatharray.html"
+  ],
+  "fn": "r-xtable-1.8_2-r351hf348343_0.tar.bz2",
+  "license": "GPL (>= 2)",
+  "license_family": "GPL3",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-xtable-1.8_2-r351hf348343_0",
+    "type": 1
+  },
+  "md5": "0307f82085357b6b1d4fa0714e9ba972",
+  "name": "r-xtable",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-xtable-1.8_2-r351hf348343_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/xtable/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "2aac1187d50b1cfa947253270954a8551ce9fae132c40b7950fda6714ca4b27e",
+        "sha256_in_prefix": "2aac1187d50b1cfa947253270954a8551ce9fae132c40b7950fda6714ca4b27e",
+        "size_in_bytes": 611
+      },
+      {
+        "_path": "lib/R/library/xtable/INDEX",
+        "path_type": "hardlink",
+        "sha256": "85642562ad08e0b374c9fe439f4aa1e35a5b0554dd2900a90661ca2c483fcb4c",
+        "sha256_in_prefix": "85642562ad08e0b374c9fe439f4aa1e35a5b0554dd2900a90661ca2c483fcb4c",
+        "size_in_bytes": 689
+      },
+      {
+        "_path": "lib/R/library/xtable/MD5",
+        "path_type": "hardlink",
+        "sha256": "0b5de1d2b62669a3e22cdc6db1a03abd63dec1930b781490fabe3e99d0a1a349",
+        "sha256_in_prefix": "0b5de1d2b62669a3e22cdc6db1a03abd63dec1930b781490fabe3e99d0a1a349",
+        "size_in_bytes": 2620
+      },
+      {
+        "_path": "lib/R/library/xtable/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "9f4b2a47495c221f5355f20fe837debb9ee929b4bb5fb799e0e0ea99d0935380",
+        "sha256_in_prefix": "9f4b2a47495c221f5355f20fe837debb9ee929b4bb5fb799e0e0ea99d0935380",
+        "size_in_bytes": 988
+      },
+      {
+        "_path": "lib/R/library/xtable/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "7ed0c19529edf8c703bac90bbe2467b7406232c22820b70e539960394411f779",
+        "sha256_in_prefix": "7ed0c19529edf8c703bac90bbe2467b7406232c22820b70e539960394411f779",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "lib/R/library/xtable/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/xtable/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "e7c7b152b3553c62375ab232a08c2bb67511ee8e5151c3adec548fc1c889462c",
+        "sha256_in_prefix": "e7c7b152b3553c62375ab232a08c2bb67511ee8e5151c3adec548fc1c889462c",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/xtable/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "d71233c3ad9e7c765cc30c085d98929a0c8a720d5793cfc442d747270c8ea1e6",
+        "sha256_in_prefix": "d71233c3ad9e7c765cc30c085d98929a0c8a720d5793cfc442d747270c8ea1e6",
+        "size_in_bytes": 653
+      },
+      {
+        "_path": "lib/R/library/xtable/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "9e7ec3efdf73d903503ac90754dc5d5ecb1d42e4377cf28fe7304e7e85835077",
+        "sha256_in_prefix": "9e7ec3efdf73d903503ac90754dc5d5ecb1d42e4377cf28fe7304e7e85835077",
+        "size_in_bytes": 652
+      },
+      {
+        "_path": "lib/R/library/xtable/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "ab8f3af9cb030ef4ae75575cc86144985844aa4c0d8ff5b1ac5cf83fc8fae6c5",
+        "sha256_in_prefix": "ab8f3af9cb030ef4ae75575cc86144985844aa4c0d8ff5b1ac5cf83fc8fae6c5",
+        "size_in_bytes": 850
+      },
+      {
+        "_path": "lib/R/library/xtable/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "3f9ccf81a380f7f597a8efa0f255ea2be99e48c20ba5a1d0f692c760ec06a8cb",
+        "sha256_in_prefix": "3f9ccf81a380f7f597a8efa0f255ea2be99e48c20ba5a1d0f692c760ec06a8cb",
+        "size_in_bytes": 344
+      },
+      {
+        "_path": "lib/R/library/xtable/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "757033c5aca17fa2b7cda18d5de919124815f59f062702d87916e17c09272faf",
+        "sha256_in_prefix": "757033c5aca17fa2b7cda18d5de919124815f59f062702d87916e17c09272faf",
+        "size_in_bytes": 2081
+      },
+      {
+        "_path": "lib/R/library/xtable/NEWS",
+        "path_type": "hardlink",
+        "sha256": "da3a52c1d361a394f5eeef9897ef4838e21bc5f4a9640eb087ce5064afec810e",
+        "sha256_in_prefix": "da3a52c1d361a394f5eeef9897ef4838e21bc5f4a9640eb087ce5064afec810e",
+        "size_in_bytes": 6117
+      },
+      {
+        "_path": "lib/R/library/xtable/R/xtable",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/xtable/R/xtable.rdb",
+        "path_type": "hardlink",
+        "sha256": "6f0837e5679a0e48a087e69f2a25bebb948ae27096f502f8b5b4e4c40c6cd229",
+        "sha256_in_prefix": "6f0837e5679a0e48a087e69f2a25bebb948ae27096f502f8b5b4e4c40c6cd229",
+        "size_in_bytes": 86557
+      },
+      {
+        "_path": "lib/R/library/xtable/R/xtable.rdx",
+        "path_type": "hardlink",
+        "sha256": "0227b1bc9a7b723eaf7bf114edd77d78e951c7f486b007c88266d4f543ce12f1",
+        "sha256_in_prefix": "0227b1bc9a7b723eaf7bf114edd77d78e951c7f486b007c88266d4f543ce12f1",
+        "size_in_bytes": 1157
+      },
+      {
+        "_path": "lib/R/library/xtable/data/tli.txt.gz",
+        "path_type": "hardlink",
+        "sha256": "381b445b5157b2a67dd0618705ce003f32d5ad3919453329c2dbc789ee2eff38",
+        "sha256_in_prefix": "381b445b5157b2a67dd0618705ce003f32d5ad3919453329c2dbc789ee2eff38",
+        "size_in_bytes": 560
+      },
+      {
+        "_path": "lib/R/library/xtable/doc/OtherPackagesGallery.R",
+        "path_type": "hardlink",
+        "sha256": "055cb41064c319d260e83db2fddb702a825800c2af97a6b74e2dead2770e4443",
+        "sha256_in_prefix": "055cb41064c319d260e83db2fddb702a825800c2af97a6b74e2dead2770e4443",
+        "size_in_bytes": 4993
+      },
+      {
+        "_path": "lib/R/library/xtable/doc/OtherPackagesGallery.Rnw",
+        "path_type": "hardlink",
+        "sha256": "33b70e945374f844f75ef9309e2f931728ad16781ee4bebb999ad1f5bd7f18e5",
+        "sha256_in_prefix": "33b70e945374f844f75ef9309e2f931728ad16781ee4bebb999ad1f5bd7f18e5",
+        "size_in_bytes": 8625
+      },
+      {
+        "_path": "lib/R/library/xtable/doc/OtherPackagesGallery.pdf",
+        "path_type": "hardlink",
+        "sha256": "6c647b007b81881fe231b49926e0c322c1043a43b9c59b35b427d1d270449329",
+        "sha256_in_prefix": "6c647b007b81881fe231b49926e0c322c1043a43b9c59b35b427d1d270449329",
+        "size_in_bytes": 145176
+      },
+      {
+        "_path": "lib/R/library/xtable/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "e3b4eaa6f8029b3c1f23c794b7136232496d9a86d0ed60ce7a88caf7c46743c8",
+        "sha256_in_prefix": "e3b4eaa6f8029b3c1f23c794b7136232496d9a86d0ed60ce7a88caf7c46743c8",
+        "size_in_bytes": 2932
+      },
+      {
+        "_path": "lib/R/library/xtable/doc/listOfTablesGallery.R",
+        "path_type": "hardlink",
+        "sha256": "3a3d2943f4aa6d830905a1cbe5a3f99df6b44115b4e74925e1e97bc88fd7b1ec",
+        "sha256_in_prefix": "3a3d2943f4aa6d830905a1cbe5a3f99df6b44115b4e74925e1e97bc88fd7b1ec",
+        "size_in_bytes": 5078
+      },
+      {
+        "_path": "lib/R/library/xtable/doc/listOfTablesGallery.Rnw",
+        "path_type": "hardlink",
+        "sha256": "746a546c3793efe59bb5d282a5e66f7d6ff71c064a18c7713facfb5b42e0d918",
+        "sha256_in_prefix": "746a546c3793efe59bb5d282a5e66f7d6ff71c064a18c7713facfb5b42e0d918",
+        "size_in_bytes": 6899
+      },
+      {
+        "_path": "lib/R/library/xtable/doc/listOfTablesGallery.pdf",
+        "path_type": "hardlink",
+        "sha256": "2a33e86941f9751b87f8200727b0cf74ae7a4ff344d60e2a1eb04cc2fc240aa5",
+        "sha256_in_prefix": "2a33e86941f9751b87f8200727b0cf74ae7a4ff344d60e2a1eb04cc2fc240aa5",
+        "size_in_bytes": 146245
+      },
+      {
+        "_path": "lib/R/library/xtable/doc/margintable.R",
+        "path_type": "hardlink",
+        "sha256": "5779531921252f56c4ab691b2a03647bce83602552ee36495ff2f218d2752338",
+        "sha256_in_prefix": "5779531921252f56c4ab691b2a03647bce83602552ee36495ff2f218d2752338",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "lib/R/library/xtable/doc/margintable.Rnw",
+        "path_type": "hardlink",
+        "sha256": "d94fee51fef48af82d3ad53e6a6d165773e8b08ea9db00d17c35a8c623bcb297",
+        "sha256_in_prefix": "d94fee51fef48af82d3ad53e6a6d165773e8b08ea9db00d17c35a8c623bcb297",
+        "size_in_bytes": 2102
+      },
+      {
+        "_path": "lib/R/library/xtable/doc/margintable.pdf",
+        "path_type": "hardlink",
+        "sha256": "6e9b3bbb2d4bd0fceab68451a2eced3f2bc092a9f044ea7fe332f52a11e275ea",
+        "sha256_in_prefix": "6e9b3bbb2d4bd0fceab68451a2eced3f2bc092a9f044ea7fe332f52a11e275ea",
+        "size_in_bytes": 51841
+      },
+      {
+        "_path": "lib/R/library/xtable/doc/xtableGallery.R",
+        "path_type": "hardlink",
+        "sha256": "e8a2c123b0cc10650dab8d9287912b992239e942ff69462257f6202e0fa5b345",
+        "sha256_in_prefix": "e8a2c123b0cc10650dab8d9287912b992239e942ff69462257f6202e0fa5b345",
+        "size_in_bytes": 14081
+      },
+      {
+        "_path": "lib/R/library/xtable/doc/xtableGallery.Rnw",
+        "path_type": "hardlink",
+        "sha256": "1d3875bbc2d0ca817d40a225882f482a2cd09c3dceaa01c9937b48e53c84a1b9",
+        "sha256_in_prefix": "1d3875bbc2d0ca817d40a225882f482a2cd09c3dceaa01c9937b48e53c84a1b9",
+        "size_in_bytes": 20611
+      },
+      {
+        "_path": "lib/R/library/xtable/doc/xtableGallery.pdf",
+        "path_type": "hardlink",
+        "sha256": "32619d23d1831c9f3a092c6bae8b9415cfa23a5ab88674fd7b4a4dc2592c96ff",
+        "sha256_in_prefix": "32619d23d1831c9f3a092c6bae8b9415cfa23a5ab88674fd7b4a4dc2592c96ff",
+        "size_in_bytes": 242003
+      },
+      {
+        "_path": "lib/R/library/xtable/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "ba78ad98ef1c090fda613ac64b9665bdb95a14b249df9f2637cb94ce9c451eed",
+        "sha256_in_prefix": "ba78ad98ef1c090fda613ac64b9665bdb95a14b249df9f2637cb94ce9c451eed",
+        "size_in_bytes": 1944
+      },
+      {
+        "_path": "lib/R/library/xtable/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "6ddc83987724d969f943ac2260ea4668202246f2efe7064f46b532d9d98bf56e",
+        "sha256_in_prefix": "6ddc83987724d969f943ac2260ea4668202246f2efe7064f46b532d9d98bf56e",
+        "size_in_bytes": 583
+      },
+      {
+        "_path": "lib/R/library/xtable/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "abf230897b107a9816712f98bd10c36227519c82459e0324f301f589a16588cf",
+        "sha256_in_prefix": "abf230897b107a9816712f98bd10c36227519c82459e0324f301f589a16588cf",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "lib/R/library/xtable/help/xtable.rdb",
+        "path_type": "hardlink",
+        "sha256": "dfe83cf342724e8cab61a7ce397814c3c140aeebf1ae20873b51c792d204b40b",
+        "sha256_in_prefix": "dfe83cf342724e8cab61a7ce397814c3c140aeebf1ae20873b51c792d204b40b",
+        "size_in_bytes": 96288
+      },
+      {
+        "_path": "lib/R/library/xtable/help/xtable.rdx",
+        "path_type": "hardlink",
+        "sha256": "4b34c871bcea4e45a696792cb80158a7335601da2813607e5f499b02f0e17160",
+        "sha256_in_prefix": "4b34c871bcea4e45a696792cb80158a7335601da2813607e5f499b02f0e17160",
+        "size_in_bytes": 456
+      },
+      {
+        "_path": "lib/R/library/xtable/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "93ae4c8d132aa75563bfdfc279b27664c0651d0f0f49ea069627dbc0a3ce0c52",
+        "sha256_in_prefix": "93ae4c8d132aa75563bfdfc279b27664c0651d0f0f49ea069627dbc0a3ce0c52",
+        "size_in_bytes": 10237
+      },
+      {
+        "_path": "lib/R/library/xtable/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/xtable/html/autoformat.html",
+        "path_type": "hardlink",
+        "sha256": "6b913f6f75e64c220891e7177db5ae9b0e98ad0546c89def9dfa05e5d2b80c5f",
+        "sha256_in_prefix": "6b913f6f75e64c220891e7177db5ae9b0e98ad0546c89def9dfa05e5d2b80c5f",
+        "size_in_bytes": 3044
+      },
+      {
+        "_path": "lib/R/library/xtable/html/print.xtable.html",
+        "path_type": "hardlink",
+        "sha256": "c67e000242b2dc110f39adb379eb5f6a84b2f86ece66b030439d039e6659cc06",
+        "sha256_in_prefix": "c67e000242b2dc110f39adb379eb5f6a84b2f86ece66b030439d039e6659cc06",
+        "size_in_bytes": 17022
+      },
+      {
+        "_path": "lib/R/library/xtable/html/print.xtableMatharray.html",
+        "path_type": "hardlink",
+        "sha256": "7b2fb316de08bf4c38930b1bba57e0880aa290178a0435a32b7aac2c940a6da8",
+        "sha256_in_prefix": "7b2fb316de08bf4c38930b1bba57e0880aa290178a0435a32b7aac2c940a6da8",
+        "size_in_bytes": 4865
+      },
+      {
+        "_path": "lib/R/library/xtable/html/sanitize.html",
+        "path_type": "hardlink",
+        "sha256": "cdbda35d3873adfd79dc6d186081dfc581dcf1761344f6dc538b277b14e2bbf9",
+        "sha256_in_prefix": "cdbda35d3873adfd79dc6d186081dfc581dcf1761344f6dc538b277b14e2bbf9",
+        "size_in_bytes": 5484
+      },
+      {
+        "_path": "lib/R/library/xtable/html/string.html",
+        "path_type": "hardlink",
+        "sha256": "f3e830610a03b8e3a964e7fe2a4afd1a8f553a735c330bcff513edecd3ac1d6c",
+        "sha256_in_prefix": "f3e830610a03b8e3a964e7fe2a4afd1a8f553a735c330bcff513edecd3ac1d6c",
+        "size_in_bytes": 2119
+      },
+      {
+        "_path": "lib/R/library/xtable/html/table.attributes.html",
+        "path_type": "hardlink",
+        "sha256": "8f678502ac149aba10f491f7bf8d965ba45adc1386485f9b5e6f9f8c2f1f13f9",
+        "sha256_in_prefix": "8f678502ac149aba10f491f7bf8d965ba45adc1386485f9b5e6f9f8c2f1f13f9",
+        "size_in_bytes": 2244
+      },
+      {
+        "_path": "lib/R/library/xtable/html/tli.html",
+        "path_type": "hardlink",
+        "sha256": "9d1d6a50d2bdac46a96ed8286650e66cd19b13206b2ed8f981436747e9d057f6",
+        "sha256_in_prefix": "9d1d6a50d2bdac46a96ed8286650e66cd19b13206b2ed8f981436747e9d057f6",
+        "size_in_bytes": 1585
+      },
+      {
+        "_path": "lib/R/library/xtable/html/toLatex.html",
+        "path_type": "hardlink",
+        "sha256": "1d103206a525b820dd5616e5bc399aea77d078d9fcb607ded0a456ef5374c220",
+        "sha256_in_prefix": "1d103206a525b820dd5616e5bc399aea77d078d9fcb607ded0a456ef5374c220",
+        "size_in_bytes": 1689
+      },
+      {
+        "_path": "lib/R/library/xtable/html/xtable-internal.html",
+        "path_type": "hardlink",
+        "sha256": "77b0a832ea879846015f2113ee261ff0369c32f93b0cbd6c48b13f0e313caa18",
+        "sha256_in_prefix": "77b0a832ea879846015f2113ee261ff0369c32f93b0cbd6c48b13f0e313caa18",
+        "size_in_bytes": 900
+      },
+      {
+        "_path": "lib/R/library/xtable/html/xtable.html",
+        "path_type": "hardlink",
+        "sha256": "c07f5da1df78e78993d5663581e7b84c15c9390b5edcc380bdea92b564fd4e1d",
+        "sha256_in_prefix": "c07f5da1df78e78993d5663581e7b84c15c9390b5edcc380bdea92b564fd4e1d",
+        "size_in_bytes": 15398
+      },
+      {
+        "_path": "lib/R/library/xtable/html/xtableFtable.html",
+        "path_type": "hardlink",
+        "sha256": "c06ef11d7d841eefb519bd905fba2205276888a2e28c063d3ee2b7f40f0f2377",
+        "sha256_in_prefix": "c06ef11d7d841eefb519bd905fba2205276888a2e28c063d3ee2b7f40f0f2377",
+        "size_in_bytes": 23143
+      },
+      {
+        "_path": "lib/R/library/xtable/html/xtableList.html",
+        "path_type": "hardlink",
+        "sha256": "50388dafba69457e0a9f3d7eadf1f289295a253977c10ad4f16a26c9dfaf25c2",
+        "sha256_in_prefix": "50388dafba69457e0a9f3d7eadf1f289295a253977c10ad4f16a26c9dfaf25c2",
+        "size_in_bytes": 21419
+      },
+      {
+        "_path": "lib/R/library/xtable/html/xtableMatharray.html",
+        "path_type": "hardlink",
+        "sha256": "6b10015b93b2309fc167188727e455df235a20d0b34cd54b32d143446c7061b9",
+        "sha256_in_prefix": "6b10015b93b2309fc167188727e455df235a20d0b34cd54b32d143446c7061b9",
+        "size_in_bytes": 6493
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 785199,
+  "subdir": "win-64",
+  "timestamp": 1538135612804,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-xtable-1.8_2-r351hf348343_0.tar.bz2",
+  "version": "1.8_2"
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Preview the data in an object.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for odbcPreviewObject {odbc}"><tr><td>odbcPreviewObject {odbc}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Preview the data in an object.</h2>
+
+<h3>Description</h3>
+
+<p>Return the data inside an object as a data frame.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+odbcPreviewObject(connection, rowLimit, ...)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>connection</code></td>
+<td>
+<p>A connection object, as returned by <code>dbConnect()</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>rowLimit</code></td>
+<td>
+<p>The maximum number of rows to display.</p>
+</td></tr>
+<tr valign="top"><td><code>...</code></td>
+<td>
+<p>Parameters specifying the object.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>The object to previewed must be specified as one of the arguments
+(e.g. <code>table = "employees"</code>); depending on the driver and underlying
+data store, additional specification arguments may be required.
+</p>
+
+
+<h3>Value</h3>
+
+<p>A data frame containing the data in the object.
+</p>
+
+<hr /><div style="text-align: center;">[Package <em>odbc</em> version 1.1.5 <a href="00Index.html">Index</a>]</div>
+</body></html>

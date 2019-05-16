@@ -1,0 +1,12 @@
+prefix=C:/Users/dbates/Anaconda3/envs/py3/Library
+exec_prefix=C:/Users/dbates/Anaconda3/envs/py3/Library
+libdir=C:/Users/dbates/Anaconda3/envs/py3/Library/lib
+includedir=C:/Users/dbates/Anaconda3/envs/py3/Library/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.37
+Requires: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz -lm
+Cflags: -I${includedir}

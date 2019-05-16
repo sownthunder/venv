@@ -1,0 +1,2166 @@
+{
+  "build": "r351hf348343_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/r/win-64",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.5.1,<3.5.2.0a0",
+    "r-base64enc",
+    "r-evaluate >=0.8",
+    "r-htmltools >=0.3.5",
+    "r-jsonlite",
+    "r-knitr >=1.18",
+    "r-mime",
+    "r-rprojroot",
+    "r-stringr >=1.2.0",
+    "r-tinytex >=0.3",
+    "r-yaml >=2.1.5",
+    "_r-mutex 1.* anacondar_1"
+  ],
+  "extracted_package_dir": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-rmarkdown-1.10-r351hf348343_0",
+  "features": "",
+  "files": [
+    "lib/R/library/rmarkdown/COPYING",
+    "lib/R/library/rmarkdown/DESCRIPTION",
+    "lib/R/library/rmarkdown/INDEX",
+    "lib/R/library/rmarkdown/MD5",
+    "lib/R/library/rmarkdown/Meta/Rd.rds",
+    "lib/R/library/rmarkdown/Meta/features.rds",
+    "lib/R/library/rmarkdown/Meta/hsearch.rds",
+    "lib/R/library/rmarkdown/Meta/links.rds",
+    "lib/R/library/rmarkdown/Meta/nsInfo.rds",
+    "lib/R/library/rmarkdown/Meta/package.rds",
+    "lib/R/library/rmarkdown/NAMESPACE",
+    "lib/R/library/rmarkdown/NEWS",
+    "lib/R/library/rmarkdown/NOTICE",
+    "lib/R/library/rmarkdown/R/rmarkdown",
+    "lib/R/library/rmarkdown/R/rmarkdown.rdb",
+    "lib/R/library/rmarkdown/R/rmarkdown.rdx",
+    "lib/R/library/rmarkdown/help/AnIndex",
+    "lib/R/library/rmarkdown/help/aliases.rds",
+    "lib/R/library/rmarkdown/help/paths.rds",
+    "lib/R/library/rmarkdown/help/rmarkdown.rdb",
+    "lib/R/library/rmarkdown/help/rmarkdown.rdx",
+    "lib/R/library/rmarkdown/html/00Index.html",
+    "lib/R/library/rmarkdown/html/R.css",
+    "lib/R/library/rmarkdown/html/all_output_formats.html",
+    "lib/R/library/rmarkdown/html/beamer_presentation.html",
+    "lib/R/library/rmarkdown/html/compile_notebook.html",
+    "lib/R/library/rmarkdown/html/default_output_format.html",
+    "lib/R/library/rmarkdown/html/draft.html",
+    "lib/R/library/rmarkdown/html/find_external_resources.html",
+    "lib/R/library/rmarkdown/html/github_document.html",
+    "lib/R/library/rmarkdown/html/html-dependencies.html",
+    "lib/R/library/rmarkdown/html/html_document.html",
+    "lib/R/library/rmarkdown/html/html_document_base.html",
+    "lib/R/library/rmarkdown/html/html_fragment.html",
+    "lib/R/library/rmarkdown/html/html_notebook.html",
+    "lib/R/library/rmarkdown/html/html_notebook_metadata.html",
+    "lib/R/library/rmarkdown/html/html_notebook_output.html",
+    "lib/R/library/rmarkdown/html/html_vignette.html",
+    "lib/R/library/rmarkdown/html/includes.html",
+    "lib/R/library/rmarkdown/html/ioslides_presentation.html",
+    "lib/R/library/rmarkdown/html/knit_params_ask.html",
+    "lib/R/library/rmarkdown/html/knitr_options.html",
+    "lib/R/library/rmarkdown/html/knitr_options_html.html",
+    "lib/R/library/rmarkdown/html/knitr_options_pdf.html",
+    "lib/R/library/rmarkdown/html/latex_dependency.html",
+    "lib/R/library/rmarkdown/html/md_document.html",
+    "lib/R/library/rmarkdown/html/metadata.html",
+    "lib/R/library/rmarkdown/html/navbar_html.html",
+    "lib/R/library/rmarkdown/html/odt_document.html",
+    "lib/R/library/rmarkdown/html/output_format.html",
+    "lib/R/library/rmarkdown/html/output_metadata.html",
+    "lib/R/library/rmarkdown/html/paged_table.html",
+    "lib/R/library/rmarkdown/html/pandoc_args.html",
+    "lib/R/library/rmarkdown/html/pandoc_available.html",
+    "lib/R/library/rmarkdown/html/pandoc_citeproc_convert.html",
+    "lib/R/library/rmarkdown/html/pandoc_convert.html",
+    "lib/R/library/rmarkdown/html/pandoc_options.html",
+    "lib/R/library/rmarkdown/html/pandoc_path_arg.html",
+    "lib/R/library/rmarkdown/html/pandoc_self_contained_html.html",
+    "lib/R/library/rmarkdown/html/pandoc_template.html",
+    "lib/R/library/rmarkdown/html/parse_html_notebook.html",
+    "lib/R/library/rmarkdown/html/pdf_document.html",
+    "lib/R/library/rmarkdown/html/powerpoint_presentation.html",
+    "lib/R/library/rmarkdown/html/relative_to.html",
+    "lib/R/library/rmarkdown/html/render.html",
+    "lib/R/library/rmarkdown/html/render_delayed.html",
+    "lib/R/library/rmarkdown/html/render_site.html",
+    "lib/R/library/rmarkdown/html/render_supporting_files.html",
+    "lib/R/library/rmarkdown/html/resolve_output_format.html",
+    "lib/R/library/rmarkdown/html/rmarkdown-package.html",
+    "lib/R/library/rmarkdown/html/rmarkdown_format.html",
+    "lib/R/library/rmarkdown/html/rmd_metadata.html",
+    "lib/R/library/rmarkdown/html/rtf_document.html",
+    "lib/R/library/rmarkdown/html/run.html",
+    "lib/R/library/rmarkdown/html/shiny_prerendered_chunk.html",
+    "lib/R/library/rmarkdown/html/shiny_prerendered_clean.html",
+    "lib/R/library/rmarkdown/html/shiny_prerendered_server_start_code.html",
+    "lib/R/library/rmarkdown/html/site_resources.html",
+    "lib/R/library/rmarkdown/html/slidy_presentation.html",
+    "lib/R/library/rmarkdown/html/tufte_handout.html",
+    "lib/R/library/rmarkdown/html/word_document.html",
+    "lib/R/library/rmarkdown/html/yaml_front_matter.html",
+    "lib/R/library/rmarkdown/rmarkdown/templates/github_document/resources/default.md",
+    "lib/R/library/rmarkdown/rmarkdown/templates/github_document/resources/github.css",
+    "lib/R/library/rmarkdown/rmarkdown/templates/github_document/resources/preview.html",
+    "lib/R/library/rmarkdown/rmarkdown/templates/github_document/skeleton/skeleton.Rmd",
+    "lib/R/library/rmarkdown/rmarkdown/templates/github_document/template.yaml",
+    "lib/R/library/rmarkdown/rmarkdown/templates/html_vignette/resources/vignette.css",
+    "lib/R/library/rmarkdown/rmarkdown/templates/html_vignette/skeleton/skeleton.Rmd",
+    "lib/R/library/rmarkdown/rmarkdown/templates/html_vignette/template.yaml",
+    "lib/R/library/rmarkdown/rmd/fragment/default.html",
+    "lib/R/library/rmarkdown/rmd/fragment/default.tex",
+    "lib/R/library/rmarkdown/rmd/h/_navbar.html",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/bootstrap-theme.css",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/bootstrap-theme.css.map",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/bootstrap-theme.min.css",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/bootstrap.css",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/bootstrap.css.map",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/bootstrap.min.css",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/cerulean.min.css",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/cosmo.min.css",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/flatly.min.css",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/Lato.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/LatoBold.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/LatoItalic.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/NewsCycle.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/NewsCycleBold.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/OpenSans.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/OpenSansBold.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/OpenSansBoldItalic.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/OpenSansItalic.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/OpenSansLight.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/OpenSansLightItalic.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/Raleway.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/RalewayBold.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/Roboto.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/RobotoBold.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/RobotoLight.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/RobotoMedium.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/SourceSansPro.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/SourceSansProBold.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/SourceSansProItalic.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/SourceSansProLight.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/Ubuntu.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/journal.min.css",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/lumen.min.css",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/paper.min.css",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/readable.min.css",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/sandstone.min.css",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/simplex.min.css",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/spacelab.min.css",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/united.min.css",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/yeti.min.css",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.eot",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.svg",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.ttf",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.woff",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.woff2",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/js/bootstrap.js",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/js/bootstrap.min.js",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/js/npm.js",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/shim/html5shiv.min.js",
+    "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/shim/respond.min.js",
+    "lib/R/library/rmarkdown/rmd/h/default.html",
+    "lib/R/library/rmarkdown/rmd/h/fontawesome/css/fa-svg-with-js.css",
+    "lib/R/library/rmarkdown/rmd/h/fontawesome/fonts/fa-brands-400.ttf",
+    "lib/R/library/rmarkdown/rmd/h/fontawesome/fonts/fa-regular-400.ttf",
+    "lib/R/library/rmarkdown/rmd/h/fontawesome/fonts/fa-solid-900.ttf",
+    "lib/R/library/rmarkdown/rmd/h/fontawesome/js/fa-v4-shims.min.js",
+    "lib/R/library/rmarkdown/rmd/h/fontawesome/js/fontawesome-all.min.js",
+    "lib/R/library/rmarkdown/rmd/h/highlightjs/default.css",
+    "lib/R/library/rmarkdown/rmd/h/highlightjs/highlight.js",
+    "lib/R/library/rmarkdown/rmd/h/highlightjs/textmate.css",
+    "lib/R/library/rmarkdown/rmd/h/ionicons-2.0.1/LICENSE",
+    "lib/R/library/rmarkdown/rmd/h/ionicons-2.0.1/css/ionicons.css",
+    "lib/R/library/rmarkdown/rmd/h/ionicons-2.0.1/css/ionicons.min.css",
+    "lib/R/library/rmarkdown/rmd/h/ionicons-2.0.1/fonts/ionicons.ttf",
+    "lib/R/library/rmarkdown/rmd/h/jquery-1.11.3/jquery.min.js",
+    "lib/R/library/rmarkdown/rmd/h/jquery-AUTHORS.txt",
+    "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/README",
+    "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/images/ui-icons_444444_256x240.png",
+    "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/images/ui-icons_555555_256x240.png",
+    "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/images/ui-icons_777620_256x240.png",
+    "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/images/ui-icons_777777_256x240.png",
+    "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/images/ui-icons_cc0000_256x240.png",
+    "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/images/ui-icons_ffffff_256x240.png",
+    "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/index.html",
+    "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/jquery-ui.css",
+    "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/jquery-ui.js",
+    "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/jquery-ui.min.css",
+    "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/jquery-ui.min.js",
+    "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/jquery-ui.structure.css",
+    "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/jquery-ui.structure.min.css",
+    "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/jquery-ui.theme.css",
+    "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/jquery-ui.theme.min.css",
+    "lib/R/library/rmarkdown/rmd/h/jqueryui-AUTHORS.txt",
+    "lib/R/library/rmarkdown/rmd/h/navigation-1.1/codefolding.js",
+    "lib/R/library/rmarkdown/rmd/h/navigation-1.1/sourceembed.js",
+    "lib/R/library/rmarkdown/rmd/h/navigation-1.1/tabsets.js",
+    "lib/R/library/rmarkdown/rmd/h/pagedtable-1.1/css/pagedtable.css",
+    "lib/R/library/rmarkdown/rmd/h/pagedtable-1.1/js/pagedtable.js",
+    "lib/R/library/rmarkdown/rmd/h/rmarkdown/rmd_loader.css",
+    "lib/R/library/rmarkdown/rmd/h/rmarkdown/rmd_loader.gif",
+    "lib/R/library/rmarkdown/rmd/h/rmarkdown/rmd_loader.js",
+    "lib/R/library/rmarkdown/rmd/h/rmarkdown/rmd_perf.css",
+    "lib/R/library/rmarkdown/rmd/h/rmarkdown/rmd_perf.js",
+    "lib/R/library/rmarkdown/rmd/h/rsiframe-1.1/rsiframe.js",
+    "lib/R/library/rmarkdown/rmd/h/tocify-1.9.1/jquery.tocify.css",
+    "lib/R/library/rmarkdown/rmd/h/tocify-1.9.1/jquery.tocify.js",
+    "lib/R/library/rmarkdown/rmd/ioslides/default.html",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/fonts/OpenSans.ttf",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/fonts/OpenSansItalic.ttf",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/fonts/OpenSansSemibold.ttf",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/fonts/OpenSansSemiboldItalic.ttf",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/fonts/SourceCodePro.ttf",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/fonts/fonts.css",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/images/google_developers_icon_128.png",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/hammer.js",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/modernizr.custom.45394.js",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/order.js",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/polyfills/classList.min.js",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/polyfills/dataset.min.js",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/polyfills/history.min.js",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/prettify/lang-r.js",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/prettify/lang-tex.js",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/prettify/lang-yaml.js",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/prettify/prettify.css",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/prettify/prettify.js",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/require-1.0.8.min.js",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/slide-controller.js",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/slide-deck.js",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/theme/css/default.css",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/theme/css/phone.css",
+    "lib/R/library/rmarkdown/rmd/ioslides/ioslides_presentation.lua",
+    "lib/R/library/rmarkdown/rmd/latex/default-1.14.tex",
+    "lib/R/library/rmarkdown/rmd/latex/default-1.15.2.tex",
+    "lib/R/library/rmarkdown/rmd/latex/default-1.17.0.2.tex",
+    "lib/R/library/rmarkdown/rmd/latex/default.tex",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-fold-dim.gif",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-fold-dim.png",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-fold.gif",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-fold.png",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-nofold-dim.gif",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-nofold-dim.png",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-nofold.gif",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-nofold.png",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-unfold-dim.gif",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-unfold-dim.png",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-unfold.gif",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-unfold.png",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet.gif",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet.png",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/example.png",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/example.svg",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/face1.gif",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/face2.gif",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/face3.gif",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/face4.gif",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/fold-bright.gif",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/fold-dim.bmp",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/fold-dim.gif",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/fold.bmp",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/fold.gif",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/icon-blue.png",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/keys2.jpg",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/nofold-dim.bmp",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/nofold-dim.gif",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/nofold.bmp",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/unfold-bright.gif",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/unfold-dim.bmp",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/unfold-dim.gif",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/unfold.bmp",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/unfold.gif",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/w3c-logo-blue.gif",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/w3c-logo-blue.svg",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/w3c-logo-slanted.jpg",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/w3c-logo-white.gif",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/w3c-logo-white.svg",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/scripts/img.srcset.js",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/scripts/slidy-irc.js",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/scripts/slidy.js",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/scripts/slidy.js.gz",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/styles/slidy.css",
+    "lib/R/library/rmarkdown/rmd/slidy/Slidy2/styles/w3c-blue.css",
+    "lib/R/library/rmarkdown/rmd/slidy/default.html"
+  ],
+  "fn": "r-rmarkdown-1.10-r351hf348343_0.tar.bz2",
+  "license": "GPL-3",
+  "license_family": "GPL3",
+  "link": {
+    "source": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-rmarkdown-1.10-r351hf348343_0",
+    "type": 1
+  },
+  "md5": "a6ee7e5c4575f6fbf6625c5c3dd6acf1",
+  "name": "r-rmarkdown",
+  "package_tarball_full_path": "C:\\Users\\dbates\\Anaconda3\\pkgs\\r-rmarkdown-1.10-r351hf348343_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/rmarkdown/COPYING",
+        "path_type": "hardlink",
+        "sha256": "5b298a3e7ee8d2c82df7ea24a2f386380ee1acebd0b7207a1cae0e415bc6bb52",
+        "sha256_in_prefix": "5b298a3e7ee8d2c82df7ea24a2f386380ee1acebd0b7207a1cae0e415bc6bb52",
+        "size_in_bytes": 35354
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "251c52c934cbc34355d8f6255ad05ebc0cf5a0a3eb9bcff6243938d995967cfe",
+        "sha256_in_prefix": "251c52c934cbc34355d8f6255ad05ebc0cf5a0a3eb9bcff6243938d995967cfe",
+        "size_in_bytes": 5317
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/INDEX",
+        "path_type": "hardlink",
+        "sha256": "94f8a62c02d0b53afbbd9c6eb662fac392092af8d60f0f72508801b813128939",
+        "sha256_in_prefix": "94f8a62c02d0b53afbbd9c6eb662fac392092af8d60f0f72508801b813128939",
+        "size_in_bytes": 4014
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/MD5",
+        "path_type": "hardlink",
+        "sha256": "92dcdb4bbbb3061eb88e7973a348d99417a0163e694ba4a1570b109e361dcd9d",
+        "sha256_in_prefix": "92dcdb4bbbb3061eb88e7973a348d99417a0163e694ba4a1570b109e361dcd9d",
+        "size_in_bytes": 19024
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "d03db49a8bc7ebf27614708df4bc2f34b5bb37d2d6891f07180d0e813c05d39a",
+        "sha256_in_prefix": "d03db49a8bc7ebf27614708df4bc2f34b5bb37d2d6891f07180d0e813c05d39a",
+        "size_in_bytes": 2413
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "sha256_in_prefix": "2c2c078843f6d430b3e17356e2fe18ef858270e0c76c5f59d04d59fd0b938c06",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "e1374fb1ba99c76b377a96b2bb58ccf6d7c3b94fcb873bfe405780039517351a",
+        "sha256_in_prefix": "e1374fb1ba99c76b377a96b2bb58ccf6d7c3b94fcb873bfe405780039517351a",
+        "size_in_bytes": 2158
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "65796f97d88cc3cf108e6839fb25fe3c1c3c136c8b85562291831bcb8c1aebb9",
+        "sha256_in_prefix": "65796f97d88cc3cf108e6839fb25fe3c1c3c136c8b85562291831bcb8c1aebb9",
+        "size_in_bytes": 1201
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "b0336e5b70a41e4895cd507ec1fdd7fdcb7526b1af3ee377a4deea4090d44218",
+        "sha256_in_prefix": "b0336e5b70a41e4895cd507ec1fdd7fdcb7526b1af3ee377a4deea4090d44218",
+        "size_in_bytes": 996
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "f97bcc56a85d09220cffac093e865a3ec41da049578d170c2373e4bd4426f498",
+        "sha256_in_prefix": "f97bcc56a85d09220cffac093e865a3ec41da049578d170c2373e4bd4426f498",
+        "size_in_bytes": 2248
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "94ae874230432882dd6c1ff73589629387fb9149c9753f1d74efb493dbbaf18d",
+        "sha256_in_prefix": "94ae874230432882dd6c1ff73589629387fb9149c9753f1d74efb493dbbaf18d",
+        "size_in_bytes": 2589
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/NEWS",
+        "path_type": "hardlink",
+        "sha256": "208dda56b26f05a29dbe31685c040d9661f45f7197f60eb65bff2a0eabfb9d32",
+        "sha256_in_prefix": "208dda56b26f05a29dbe31685c040d9661f45f7197f60eb65bff2a0eabfb9d32",
+        "size_in_bytes": 23551
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/NOTICE",
+        "path_type": "hardlink",
+        "sha256": "a8ea2d9e8aba25fac6f701f7214eec2903f1fb1fb7782ee9311e03852b3a5095",
+        "sha256_in_prefix": "a8ea2d9e8aba25fac6f701f7214eec2903f1fb1fb7782ee9311e03852b3a5095",
+        "size_in_bytes": 27648
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/R/rmarkdown",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/R/rmarkdown.rdb",
+        "path_type": "hardlink",
+        "sha256": "b74e8e1cd5dc84e80788ecd66c1a1a696c135ddf0b2646fbfe5442400c2ddd07",
+        "sha256_in_prefix": "b74e8e1cd5dc84e80788ecd66c1a1a696c135ddf0b2646fbfe5442400c2ddd07",
+        "size_in_bytes": 336643
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/R/rmarkdown.rdx",
+        "path_type": "hardlink",
+        "sha256": "9730b8bae6783d39ecfa898f6439eb2ff8b41162464742b4cf32e5107277d870",
+        "sha256_in_prefix": "9730b8bae6783d39ecfa898f6439eb2ff8b41162464742b4cf32e5107277d870",
+        "size_in_bytes": 4643
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "b61410efbac96a0e2fd1ccd2388d5aa7aaff5608dff5f61faa5e44c7b65787d6",
+        "sha256_in_prefix": "b61410efbac96a0e2fd1ccd2388d5aa7aaff5608dff5f61faa5e44c7b65787d6",
+        "size_in_bytes": 3100
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "33e70aef1b66130bab9e1d2d462f6b46bbc963bc2a9eafd88fd33a0e3659706a",
+        "sha256_in_prefix": "33e70aef1b66130bab9e1d2d462f6b46bbc963bc2a9eafd88fd33a0e3659706a",
+        "size_in_bytes": 855
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "597474336596399cb6e897849c37e9960da601b5c99bf5973be00cc5c552040a",
+        "sha256_in_prefix": "597474336596399cb6e897849c37e9960da601b5c99bf5973be00cc5c552040a",
+        "size_in_bytes": 729
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/help/rmarkdown.rdb",
+        "path_type": "hardlink",
+        "sha256": "28c139a4202f71eed74bef7aa5d49666cd63cccdd2218b2f7ca5e095b9ae40c7",
+        "sha256_in_prefix": "28c139a4202f71eed74bef7aa5d49666cd63cccdd2218b2f7ca5e095b9ae40c7",
+        "size_in_bytes": 175400
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/help/rmarkdown.rdx",
+        "path_type": "hardlink",
+        "sha256": "0989e287af08d139a5c660c844d3a746843c75c8a1101dde0a79c2a9add3dda1",
+        "sha256_in_prefix": "0989e287af08d139a5c660c844d3a746843c75c8a1101dde0a79c2a9add3dda1",
+        "size_in_bytes": 1531
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "3e94813922f5cdd6940f4dec51dfffc0cf25d67c8db4d6039818fe762d57cf67",
+        "sha256_in_prefix": "3e94813922f5cdd6940f4dec51dfffc0cf25d67c8db4d6039818fe762d57cf67",
+        "size_in_bytes": 12890
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/all_output_formats.html",
+        "path_type": "hardlink",
+        "sha256": "29a006bcdcc3a81edf611e28355b6c6cdbb1a40a512894bc9fefed938e9d9b93",
+        "sha256_in_prefix": "29a006bcdcc3a81edf611e28355b6c6cdbb1a40a512894bc9fefed938e9d9b93",
+        "size_in_bytes": 1761
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/beamer_presentation.html",
+        "path_type": "hardlink",
+        "sha256": "a944f40713b6d0c76225f7e72b6a41978ac4c9f6eb4849c5d64cb8662db1f7d9",
+        "sha256_in_prefix": "a944f40713b6d0c76225f7e72b6a41978ac4c9f6eb4849c5d64cb8662db1f7d9",
+        "size_in_bytes": 7722
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/compile_notebook.html",
+        "path_type": "hardlink",
+        "sha256": "fa35b9f3a30c31e9fc9358679d9b586c7396082fd89100666500a69d3fbda01f",
+        "sha256_in_prefix": "fa35b9f3a30c31e9fc9358679d9b586c7396082fd89100666500a69d3fbda01f",
+        "size_in_bytes": 3188
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/default_output_format.html",
+        "path_type": "hardlink",
+        "sha256": "121011ba76ba7001cba0e4bddad00f4bce0b198d4c8fce827f2ce08bd7d66886",
+        "sha256_in_prefix": "121011ba76ba7001cba0e4bddad00f4bce0b198d4c8fce827f2ce08bd7d66886",
+        "size_in_bytes": 1997
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/draft.html",
+        "path_type": "hardlink",
+        "sha256": "cf5f921c9b8d5ea6603a0420a0ca63ca23db056a531fb33a286d1544eccaac85",
+        "sha256_in_prefix": "cf5f921c9b8d5ea6603a0420a0ca63ca23db056a531fb33a286d1544eccaac85",
+        "size_in_bytes": 4004
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/find_external_resources.html",
+        "path_type": "hardlink",
+        "sha256": "b72629db0846dd0c8df860f446eeef3a9286c95f2d043d5ddb773b6251b00a2f",
+        "sha256_in_prefix": "b72629db0846dd0c8df860f446eeef3a9286c95f2d043d5ddb773b6251b00a2f",
+        "size_in_bytes": 3327
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/github_document.html",
+        "path_type": "hardlink",
+        "sha256": "212c8381fbe69328511853b3c280247593b7bdf83e9cefdb9cf8007b78b956a4",
+        "sha256_in_prefix": "212c8381fbe69328511853b3c280247593b7bdf83e9cefdb9cf8007b78b956a4",
+        "size_in_bytes": 4035
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/html-dependencies.html",
+        "path_type": "hardlink",
+        "sha256": "2933ab9f1691669b4dc487f230effe3b9fb9dac233ddcec642b28fa6cc3530a0",
+        "sha256_in_prefix": "2933ab9f1691669b4dc487f230effe3b9fb9dac233ddcec642b28fa6cc3530a0",
+        "size_in_bytes": 1846
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/html_document.html",
+        "path_type": "hardlink",
+        "sha256": "2a39bf1164ee516a35924c69bbe87c14133772ac1f19f61a1f1569ed45934181",
+        "sha256_in_prefix": "2a39bf1164ee516a35924c69bbe87c14133772ac1f19f61a1f1569ed45934181",
+        "size_in_bytes": 14209
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/html_document_base.html",
+        "path_type": "hardlink",
+        "sha256": "ac8bae21667ac0bd7e0b7ee3c8e09c94f07ef342bc60a65b6e026620b0b44b75",
+        "sha256_in_prefix": "ac8bae21667ac0bd7e0b7ee3c8e09c94f07ef342bc60a65b6e026620b0b44b75",
+        "size_in_bytes": 4169
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/html_fragment.html",
+        "path_type": "hardlink",
+        "sha256": "f855c391dc8a4854cb234e0c19aa86f387064182e9f6ac50bc40028f22901951",
+        "sha256_in_prefix": "f855c391dc8a4854cb234e0c19aa86f387064182e9f6ac50bc40028f22901951",
+        "size_in_bytes": 5319
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/html_notebook.html",
+        "path_type": "hardlink",
+        "sha256": "c45fbd688d15b393c2445f6e949521a68ea5acfff86d3ac231de599e4a214aa9",
+        "sha256_in_prefix": "c45fbd688d15b393c2445f6e949521a68ea5acfff86d3ac231de599e4a214aa9",
+        "size_in_bytes": 6955
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/html_notebook_metadata.html",
+        "path_type": "hardlink",
+        "sha256": "26215959eb721a395ad3854287b0bf792c1d88b2e0545bf2582d627849bc3c7d",
+        "sha256_in_prefix": "26215959eb721a395ad3854287b0bf792c1d88b2e0545bf2582d627849bc3c7d",
+        "size_in_bytes": 1227
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/html_notebook_output.html",
+        "path_type": "hardlink",
+        "sha256": "2a9bcc51ae2bb2acfdf65c4b1c7dcdf7786133d072e97dcd1674055a4e23b2b3",
+        "sha256_in_prefix": "2a9bcc51ae2bb2acfdf65c4b1c7dcdf7786133d072e97dcd1674055a4e23b2b3",
+        "size_in_bytes": 2861
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/html_vignette.html",
+        "path_type": "hardlink",
+        "sha256": "7bc54fcd8c7e5620af7a4288fe147af867608b342bfb126da5ed710387867de3",
+        "sha256_in_prefix": "7bc54fcd8c7e5620af7a4288fe147af867608b342bfb126da5ed710387867de3",
+        "size_in_bytes": 3919
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/includes.html",
+        "path_type": "hardlink",
+        "sha256": "a1e11f4c10a8a47964d67ea540c665ed6f67301abd59d7b67caeb27058ac97c7",
+        "sha256_in_prefix": "a1e11f4c10a8a47964d67ea540c665ed6f67301abd59d7b67caeb27058ac97c7",
+        "size_in_bytes": 2221
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/ioslides_presentation.html",
+        "path_type": "hardlink",
+        "sha256": "310a93c562d9cf2df297cd5ab7edef3e5f477351629a8b5a1494ed6ff854911f",
+        "sha256_in_prefix": "310a93c562d9cf2df297cd5ab7edef3e5f477351629a8b5a1494ed6ff854911f",
+        "size_in_bytes": 13795
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/knit_params_ask.html",
+        "path_type": "hardlink",
+        "sha256": "c583e76a36324995641d3f7903b5bba8e7e8cf06d835d618a9ffca7f3bcdd884",
+        "sha256_in_prefix": "c583e76a36324995641d3f7903b5bba8e7e8cf06d835d618a9ffca7f3bcdd884",
+        "size_in_bytes": 2203
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/knitr_options.html",
+        "path_type": "hardlink",
+        "sha256": "a294b1c5aa07c2d0abbf1497608be0c408996782c268cb56023d97e03849ad3e",
+        "sha256_in_prefix": "a294b1c5aa07c2d0abbf1497608be0c408996782c268cb56023d97e03849ad3e",
+        "size_in_bytes": 2272
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/knitr_options_html.html",
+        "path_type": "hardlink",
+        "sha256": "5f37968b6295153895d1fc8d9922a4fec78138d4677b7063bb4b2fe5299a9b57",
+        "sha256_in_prefix": "5f37968b6295153895d1fc8d9922a4fec78138d4677b7063bb4b2fe5299a9b57",
+        "size_in_bytes": 2247
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/knitr_options_pdf.html",
+        "path_type": "hardlink",
+        "sha256": "2fb4954927cb9397054e5f787ed05994cb943bde74843fe57286fd2bcf7cf0b0",
+        "sha256_in_prefix": "2fb4954927cb9397054e5f787ed05994cb943bde74843fe57286fd2bcf7cf0b0",
+        "size_in_bytes": 1848
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/latex_dependency.html",
+        "path_type": "hardlink",
+        "sha256": "f50db823f71eafd262c5a1fa197ffdd97401798805a5923e8b394900fce19598",
+        "sha256_in_prefix": "f50db823f71eafd262c5a1fa197ffdd97401798805a5923e8b394900fce19598",
+        "size_in_bytes": 1130
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/md_document.html",
+        "path_type": "hardlink",
+        "sha256": "8807b8063abb9902d2b9b9a0bace84590222337fe2c2007b0faaa02eb8313661",
+        "sha256_in_prefix": "8807b8063abb9902d2b9b9a0bace84590222337fe2c2007b0faaa02eb8313661",
+        "size_in_bytes": 5358
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/metadata.html",
+        "path_type": "hardlink",
+        "sha256": "ca5a2c5d4f93dc0a11bfd138434a03415529e10387f01ba8023a6df7e0842d34",
+        "sha256_in_prefix": "ca5a2c5d4f93dc0a11bfd138434a03415529e10387f01ba8023a6df7e0842d34",
+        "size_in_bytes": 1274
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/navbar_html.html",
+        "path_type": "hardlink",
+        "sha256": "05b8255dc42ba621daa211d831d50b0158a3fd4686a222e14bbc32ad0870548a",
+        "sha256_in_prefix": "05b8255dc42ba621daa211d831d50b0158a3fd4686a222e14bbc32ad0870548a",
+        "size_in_bytes": 1240
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/odt_document.html",
+        "path_type": "hardlink",
+        "sha256": "a4d7a1747f2b1c3f5c4f53bae153c94d2cdcbb857eaec2f2f21cd42bb7cdd9b7",
+        "sha256_in_prefix": "a4d7a1747f2b1c3f5c4f53bae153c94d2cdcbb857eaec2f2f21cd42bb7cdd9b7",
+        "size_in_bytes": 4093
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/output_format.html",
+        "path_type": "hardlink",
+        "sha256": "eba854b6de164ce40d9a6a048defca69cf97b5dfe0104340947c33d1a2473b4d",
+        "sha256_in_prefix": "eba854b6de164ce40d9a6a048defca69cf97b5dfe0104340947c33d1a2473b4d",
+        "size_in_bytes": 5686
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/output_metadata.html",
+        "path_type": "hardlink",
+        "sha256": "80218a41e46cf66da5761c2b32b7e800298691dde50c44122a8afb56ec80b781",
+        "sha256_in_prefix": "80218a41e46cf66da5761c2b32b7e800298691dde50c44122a8afb56ec80b781",
+        "size_in_bytes": 1219
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/paged_table.html",
+        "path_type": "hardlink",
+        "sha256": "44ed9f3af1f30f9e53727578fb738d4ed8ac3f9d84fd3a9d866a4a9ff0a9bade",
+        "sha256_in_prefix": "44ed9f3af1f30f9e53727578fb738d4ed8ac3f9d84fd3a9d866a4a9ff0a9bade",
+        "size_in_bytes": 1220
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/pandoc_args.html",
+        "path_type": "hardlink",
+        "sha256": "cce2c2cc5dc2dd3721135e705c7f912729e5eff7eb3df2d53f51f0cf5a83a283",
+        "sha256_in_prefix": "cce2c2cc5dc2dd3721135e705c7f912729e5eff7eb3df2d53f51f0cf5a83a283",
+        "size_in_bytes": 3366
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/pandoc_available.html",
+        "path_type": "hardlink",
+        "sha256": "d6c50be3b1550fc4791c13be6085d9e319625b926254256249b90cd7fee1c7b1",
+        "sha256_in_prefix": "d6c50be3b1550fc4791c13be6085d9e319625b926254256249b90cd7fee1c7b1",
+        "size_in_bytes": 2457
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/pandoc_citeproc_convert.html",
+        "path_type": "hardlink",
+        "sha256": "f9346199d99bb2b17c8535932412a17f4b08f73c693fb56e61e315285d5335a2",
+        "sha256_in_prefix": "f9346199d99bb2b17c8535932412a17f4b08f73c693fb56e61e315285d5335a2",
+        "size_in_bytes": 1365
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/pandoc_convert.html",
+        "path_type": "hardlink",
+        "sha256": "60183435c69afe4575f24fb13ab82ae8634c1ae5cfe5fb49fd655804e21711ec",
+        "sha256_in_prefix": "60183435c69afe4575f24fb13ab82ae8634c1ae5cfe5fb49fd655804e21711ec",
+        "size_in_bytes": 3086
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/pandoc_options.html",
+        "path_type": "hardlink",
+        "sha256": "c740611cfbb8ab665f1e73f4d62f65e6e268af11c78cc00e5894858249efc9b3",
+        "sha256_in_prefix": "c740611cfbb8ab665f1e73f4d62f65e6e268af11c78cc00e5894858249efc9b3",
+        "size_in_bytes": 2594
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/pandoc_path_arg.html",
+        "path_type": "hardlink",
+        "sha256": "47ec1456d621d86e96622f2e4e349932094889068d47858f0a87d31f832af9e3",
+        "sha256_in_prefix": "47ec1456d621d86e96622f2e4e349932094889068d47858f0a87d31f832af9e3",
+        "size_in_bytes": 1577
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/pandoc_self_contained_html.html",
+        "path_type": "hardlink",
+        "sha256": "9e0e3ece21d05acc7f4826b090416b8d926f5d1c4dfd709be287a663598a10cb",
+        "sha256_in_prefix": "9e0e3ece21d05acc7f4826b090416b8d926f5d1c4dfd709be287a663598a10cb",
+        "size_in_bytes": 1371
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/pandoc_template.html",
+        "path_type": "hardlink",
+        "sha256": "6c633b8c9d57a82950a9e2393414fec5c0a5ccef3f8c706b5d7eae8d524e9a10",
+        "sha256_in_prefix": "6c633b8c9d57a82950a9e2393414fec5c0a5ccef3f8c706b5d7eae8d524e9a10",
+        "size_in_bytes": 1585
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/parse_html_notebook.html",
+        "path_type": "hardlink",
+        "sha256": "eff5515b7343b750dfa71b5c88225a928c9a8938557217478596a954fd01e307",
+        "sha256_in_prefix": "eff5515b7343b750dfa71b5c88225a928c9a8938557217478596a954fd01e307",
+        "size_in_bytes": 1533
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/pdf_document.html",
+        "path_type": "hardlink",
+        "sha256": "74b1e3e05a69dcae114c59935e6c1d299d0f27cf32512bf6be04d3bffed4c6d9",
+        "sha256_in_prefix": "74b1e3e05a69dcae114c59935e6c1d299d0f27cf32512bf6be04d3bffed4c6d9",
+        "size_in_bytes": 8815
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/powerpoint_presentation.html",
+        "path_type": "hardlink",
+        "sha256": "cc06e11c14cd432f21c0d09a1578566d89d06c122e126fcb4342d333e2fb51a1",
+        "sha256_in_prefix": "cc06e11c14cd432f21c0d09a1578566d89d06c122e126fcb4342d333e2fb51a1",
+        "size_in_bytes": 4075
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/relative_to.html",
+        "path_type": "hardlink",
+        "sha256": "90ec5d1bf699b045b54d790eff3b49e23ae0ea8d8e1fae1d50e6feb9879a20eb",
+        "sha256_in_prefix": "90ec5d1bf699b045b54d790eff3b49e23ae0ea8d8e1fae1d50e6feb9879a20eb",
+        "size_in_bytes": 1345
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/render.html",
+        "path_type": "hardlink",
+        "sha256": "8cc907074b1ef1621b1c38647213aea8803b6c11880d6f3307a58983ac75e6f3",
+        "sha256_in_prefix": "8cc907074b1ef1621b1c38647213aea8803b6c11880d6f3307a58983ac75e6f3",
+        "size_in_bytes": 8081
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/render_delayed.html",
+        "path_type": "hardlink",
+        "sha256": "3c45d93f40618c330c7475802a85329a1a9369e676fc3d92eca52bbe714b46ce",
+        "sha256_in_prefix": "3c45d93f40618c330c7475802a85329a1a9369e676fc3d92eca52bbe714b46ce",
+        "size_in_bytes": 2209
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/render_site.html",
+        "path_type": "hardlink",
+        "sha256": "a15b9dafe479684a5a725a43fc1211e9fb17d062e0296c86ac94cb623bc443dc",
+        "sha256_in_prefix": "a15b9dafe479684a5a725a43fc1211e9fb17d062e0296c86ac94cb623bc443dc",
+        "size_in_bytes": 8934
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/render_supporting_files.html",
+        "path_type": "hardlink",
+        "sha256": "f293598991078258ebf2d6f7d18c500ce82c9949ed2c7e35ccc49878fe93e219",
+        "sha256_in_prefix": "f293598991078258ebf2d6f7d18c500ce82c9949ed2c7e35ccc49878fe93e219",
+        "size_in_bytes": 1569
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/resolve_output_format.html",
+        "path_type": "hardlink",
+        "sha256": "a502ce62f5b525c4c22204f4dd6bcd15b292308c937c07822af9b98beac3e3fc",
+        "sha256_in_prefix": "a502ce62f5b525c4c22204f4dd6bcd15b292308c937c07822af9b98beac3e3fc",
+        "size_in_bytes": 2106
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/rmarkdown-package.html",
+        "path_type": "hardlink",
+        "sha256": "af6e79364ab90a592cb5e894650fc4cee785cc8c0e024653945604859b2a46e6",
+        "sha256_in_prefix": "af6e79364ab90a592cb5e894650fc4cee785cc8c0e024653945604859b2a46e6",
+        "size_in_bytes": 1963
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/rmarkdown_format.html",
+        "path_type": "hardlink",
+        "sha256": "5218aa16368ccf0fe837f3a519880a641f3beccd7bca6b55bb5fc5a4733b7c67",
+        "sha256_in_prefix": "5218aa16368ccf0fe837f3a519880a641f3beccd7bca6b55bb5fc5a4733b7c67",
+        "size_in_bytes": 2462
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/rmd_metadata.html",
+        "path_type": "hardlink",
+        "sha256": "cbf9c69e59beb1fbcd7311e8b160010db27c6c8724b2783081552199f9739bef",
+        "sha256_in_prefix": "cbf9c69e59beb1fbcd7311e8b160010db27c6c8724b2783081552199f9739bef",
+        "size_in_bytes": 1972
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/rtf_document.html",
+        "path_type": "hardlink",
+        "sha256": "5131b753c23ae5225164ebb090c44974e99987a1e5958f8a097480856b1b7e17",
+        "sha256_in_prefix": "5131b753c23ae5225164ebb090c44974e99987a1e5958f8a097480856b1b7e17",
+        "size_in_bytes": 3110
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/run.html",
+        "path_type": "hardlink",
+        "sha256": "740a44901f065d96038c8b612cb6d87d941e7bbbb7efe51097d09c2a5613ba9f",
+        "sha256_in_prefix": "740a44901f065d96038c8b612cb6d87d941e7bbbb7efe51097d09c2a5613ba9f",
+        "size_in_bytes": 4892
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/shiny_prerendered_chunk.html",
+        "path_type": "hardlink",
+        "sha256": "1baff9ee22f99f28c252c515778fbbdfb591cd1340c3a393f0a9cb5f12f357d9",
+        "sha256_in_prefix": "1baff9ee22f99f28c252c515778fbbdfb591cd1340c3a393f0a9cb5f12f357d9",
+        "size_in_bytes": 1433
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/shiny_prerendered_clean.html",
+        "path_type": "hardlink",
+        "sha256": "1ee930de6b54848bc3d9efad984ff42ec8e12238d6e6123f2fadd6b32e884c8a",
+        "sha256_in_prefix": "1ee930de6b54848bc3d9efad984ff42ec8e12238d6e6123f2fadd6b32e884c8a",
+        "size_in_bytes": 1156
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/shiny_prerendered_server_start_code.html",
+        "path_type": "hardlink",
+        "sha256": "ebf7c07a561e14d843a158a8f4bb508101aeaf9feeb6944e24c3b698767ea590",
+        "sha256_in_prefix": "ebf7c07a561e14d843a158a8f4bb508101aeaf9feeb6944e24c3b698767ea590",
+        "size_in_bytes": 1193
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/site_resources.html",
+        "path_type": "hardlink",
+        "sha256": "2497a8f3d0a911f9eab3d2fe5581345ecf19ad3b867675c52b83f73a8638cb92",
+        "sha256_in_prefix": "2497a8f3d0a911f9eab3d2fe5581345ecf19ad3b867675c52b83f73a8638cb92",
+        "size_in_bytes": 1799
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/slidy_presentation.html",
+        "path_type": "hardlink",
+        "sha256": "c9356ea8788ec3ec91eef783e98908b87e3e7bffa0f2c153075392e461c0e295",
+        "sha256_in_prefix": "c9356ea8788ec3ec91eef783e98908b87e3e7bffa0f2c153075392e461c0e295",
+        "size_in_bytes": 8383
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/tufte_handout.html",
+        "path_type": "hardlink",
+        "sha256": "7452d95748d0452697430c7b757c1cbaeef94eff9842cf498b7cca99b5dc2523",
+        "sha256_in_prefix": "7452d95748d0452697430c7b757c1cbaeef94eff9842cf498b7cca99b5dc2523",
+        "size_in_bytes": 3825
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/word_document.html",
+        "path_type": "hardlink",
+        "sha256": "dbad2cb8d3c96d26438c0e146fa5eb7101b8be91fe6e914e329a209e61d9b28c",
+        "sha256_in_prefix": "dbad2cb8d3c96d26438c0e146fa5eb7101b8be91fe6e914e329a209e61d9b28c",
+        "size_in_bytes": 5183
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/html/yaml_front_matter.html",
+        "path_type": "hardlink",
+        "sha256": "ae50119e6fb7e071318742af40ce57d55b39a1fe1db9150d3c38863a0fb6e0d2",
+        "sha256_in_prefix": "ae50119e6fb7e071318742af40ce57d55b39a1fe1db9150d3c38863a0fb6e0d2",
+        "size_in_bytes": 1251
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmarkdown/templates/github_document/resources/default.md",
+        "path_type": "hardlink",
+        "sha256": "a0736b34184a0f8c33580a98065e611f513e7eb007c3e5d4e1b30603f5eac16a",
+        "sha256_in_prefix": "a0736b34184a0f8c33580a98065e611f513e7eb007c3e5d4e1b30603f5eac16a",
+        "size_in_bytes": 281
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmarkdown/templates/github_document/resources/github.css",
+        "path_type": "hardlink",
+        "sha256": "4cd620282c944b70eab0f1b16f0f9dacece17fc604024b7b156fc3f0c028410f",
+        "sha256_in_prefix": "4cd620282c944b70eab0f1b16f0f9dacece17fc604024b7b156fc3f0c028410f",
+        "size_in_bytes": 11269
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmarkdown/templates/github_document/resources/preview.html",
+        "path_type": "hardlink",
+        "sha256": "6473f30dc99a052742aa6da9bb9f5aa937de5c42ee17d84bc042153574ae7280",
+        "sha256_in_prefix": "6473f30dc99a052742aa6da9bb9f5aa937de5c42ee17d84bc042153574ae7280",
+        "size_in_bytes": 567
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmarkdown/templates/github_document/skeleton/skeleton.Rmd",
+        "path_type": "hardlink",
+        "sha256": "eca6650ce12b9df433955f9b034a00826506d984740d25c8ddab10509383458d",
+        "sha256_in_prefix": "eca6650ce12b9df433955f9b034a00826506d984740d25c8ddab10509383458d",
+        "size_in_bytes": 691
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmarkdown/templates/github_document/template.yaml",
+        "path_type": "hardlink",
+        "sha256": "22bd8a546a0322c28125da024e3d5147acd72976dd4f002b9c9eb3f38989fbd9",
+        "sha256_in_prefix": "22bd8a546a0322c28125da024e3d5147acd72976dd4f002b9c9eb3f38989fbd9",
+        "size_in_bytes": 136
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmarkdown/templates/html_vignette/resources/vignette.css",
+        "path_type": "hardlink",
+        "sha256": "c7d77bd4f43ea9e4f8c9416be9e1ff7afee92bb520b4b54e2c9ddc56f43f2837",
+        "sha256_in_prefix": "c7d77bd4f43ea9e4f8c9416be9e1ff7afee92bb520b4b54e2c9ddc56f43f2837",
+        "size_in_bytes": 3739
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmarkdown/templates/html_vignette/skeleton/skeleton.Rmd",
+        "path_type": "hardlink",
+        "sha256": "0d4a4b8065283ee96d6015df3b1387075ef158cb81a447d134a206bf2f47ab9f",
+        "sha256_in_prefix": "0d4a4b8065283ee96d6015df3b1387075ef158cb81a447d134a206bf2f47ab9f",
+        "size_in_bytes": 2085
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmarkdown/templates/html_vignette/template.yaml",
+        "path_type": "hardlink",
+        "sha256": "f61d12ddb33c169f324494a742d855cedd6dcac243603545e4ffbbc51498e746",
+        "sha256_in_prefix": "f61d12ddb33c169f324494a742d855cedd6dcac243603545e4ffbbc51498e746",
+        "size_in_bytes": 177
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/fragment/default.html",
+        "path_type": "hardlink",
+        "sha256": "f973d52f4acca8fc8b8b5117f73954ce7bd8f7cbf5506f80d3da3139bcc1f27a",
+        "sha256_in_prefix": "f973d52f4acca8fc8b8b5117f73954ce7bd8f7cbf5506f80d3da3139bcc1f27a",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/fragment/default.tex",
+        "path_type": "hardlink",
+        "sha256": "2564c9aea7b1190e89fb5448ad9e35cbd9e43d1d0148be7b82d7d1e7c26240dc",
+        "sha256_in_prefix": "2564c9aea7b1190e89fb5448ad9e35cbd9e43d1d0148be7b82d7d1e7c26240dc",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/_navbar.html",
+        "path_type": "hardlink",
+        "sha256": "ce7a8ed59230460c103ef14cb9808c36889625254f9fd97109b66c7424130e9e",
+        "sha256_in_prefix": "ce7a8ed59230460c103ef14cb9808c36889625254f9fd97109b66c7424130e9e",
+        "size_in_bytes": 697
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/bootstrap-theme.css",
+        "path_type": "hardlink",
+        "sha256": "00768474cf7178ebe087d5154abd5756b38958a2ffb1ba2947ef500b7d8dd094",
+        "sha256_in_prefix": "00768474cf7178ebe087d5154abd5756b38958a2ffb1ba2947ef500b7d8dd094",
+        "size_in_bytes": 26132
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/bootstrap-theme.css.map",
+        "path_type": "hardlink",
+        "sha256": "a71436a16b533dd42ca4a1a0aa1f1c823f081f0efe35b7eba870911c597fc3c1",
+        "sha256_in_prefix": "a71436a16b533dd42ca4a1a0aa1f1c823f081f0efe35b7eba870911c597fc3c1",
+        "size_in_bytes": 47721
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/bootstrap-theme.min.css",
+        "path_type": "hardlink",
+        "sha256": "6c7422a9c15b9c96f542187ad5163d70c87a911d204ee418ea214e063d728f4d",
+        "sha256_in_prefix": "6c7422a9c15b9c96f542187ad5163d70c87a911d204ee418ea214e063d728f4d",
+        "size_in_bytes": 23357
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/bootstrap.css",
+        "path_type": "hardlink",
+        "sha256": "2cdc02ea1f8f9b608a81525144e44d8d041bfa627fd568e42333fed26fafd916",
+        "sha256_in_prefix": "2cdc02ea1f8f9b608a81525144e44d8d041bfa627fd568e42333fed26fafd916",
+        "size_in_bytes": 147302
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/bootstrap.css.map",
+        "path_type": "hardlink",
+        "sha256": "ffd0553c134ecd4cb0c9f3e9a98590e2eacebb734c0761c2de302087563ec310",
+        "sha256_in_prefix": "ffd0553c134ecd4cb0c9f3e9a98590e2eacebb734c0761c2de302087563ec310",
+        "size_in_bytes": 390377
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "ef4271eb72498a8e2d28d8c06187f137f28863931f9e27f5c0ed9730368b9b82",
+        "sha256_in_prefix": "ef4271eb72498a8e2d28d8c06187f137f28863931f9e27f5c0ed9730368b9b82",
+        "size_in_bytes": 122425
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/cerulean.min.css",
+        "path_type": "hardlink",
+        "sha256": "8cac6761f24909747a80af9685ae7bf398fd56ec8782b7e0d84541c400552752",
+        "sha256_in_prefix": "8cac6761f24909747a80af9685ae7bf398fd56ec8782b7e0d84541c400552752",
+        "size_in_bytes": 128200
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/cosmo.min.css",
+        "path_type": "hardlink",
+        "sha256": "a5e3a8c337d5d594f6150e2c491a39c9b57e000ae802dfc521d5678515337e44",
+        "sha256_in_prefix": "a5e3a8c337d5d594f6150e2c491a39c9b57e000ae802dfc521d5678515337e44",
+        "size_in_bytes": 125929
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/flatly.min.css",
+        "path_type": "hardlink",
+        "sha256": "982f2d424ced6343b660091056697d1470d594b00f9596ebc3a51a2a0d9f278d",
+        "sha256_in_prefix": "982f2d424ced6343b660091056697d1470d594b00f9596ebc3a51a2a0d9f278d",
+        "size_in_bytes": 127578
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/Lato.ttf",
+        "path_type": "hardlink",
+        "sha256": "8165616cb4ff92ed4ca4912e6b473b3e59807673cafb2ed225391f6711cb2932",
+        "sha256_in_prefix": "8165616cb4ff92ed4ca4912e6b473b3e59807673cafb2ed225391f6711cb2932",
+        "size_in_bytes": 81980
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/LatoBold.ttf",
+        "path_type": "hardlink",
+        "sha256": "29c59cea14b2e4f1795d0b0bc77bd1af84d2ab9b389aaba0423627465a084668",
+        "sha256_in_prefix": "29c59cea14b2e4f1795d0b0bc77bd1af84d2ab9b389aaba0423627465a084668",
+        "size_in_bytes": 82368
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/LatoItalic.ttf",
+        "path_type": "hardlink",
+        "sha256": "eaa5630ee016c185a206cb8a3282d5a31ce3832a792b88d470a0f0f8890e800e",
+        "sha256_in_prefix": "eaa5630ee016c185a206cb8a3282d5a31ce3832a792b88d470a0f0f8890e800e",
+        "size_in_bytes": 81332
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/NewsCycle.ttf",
+        "path_type": "hardlink",
+        "sha256": "eb1291c388c8ba93b1184f8a55b8a4685e57ea3a4fa6171c3dc0caece8b2a362",
+        "sha256_in_prefix": "eb1291c388c8ba93b1184f8a55b8a4685e57ea3a4fa6171c3dc0caece8b2a362",
+        "size_in_bytes": 28716
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/NewsCycleBold.ttf",
+        "path_type": "hardlink",
+        "sha256": "f2709859f2b5dc785441d8d6dc3c998d7a10b95fd9842cb06673ae079630f0bb",
+        "sha256_in_prefix": "f2709859f2b5dc785441d8d6dc3c998d7a10b95fd9842cb06673ae079630f0bb",
+        "size_in_bytes": 28724
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/OpenSans.ttf",
+        "path_type": "hardlink",
+        "sha256": "18d36d37c1b1a6e5874a6aa2a52d502871af95fa6aa0e4cbdcd23df1c9130b80",
+        "sha256_in_prefix": "18d36d37c1b1a6e5874a6aa2a52d502871af95fa6aa0e4cbdcd23df1c9130b80",
+        "size_in_bytes": 34112
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/OpenSansBold.ttf",
+        "path_type": "hardlink",
+        "sha256": "e56c397a40f669ae984a5c7eec40275081898a28e77698efca1a8a428e240cf9",
+        "sha256_in_prefix": "e56c397a40f669ae984a5c7eec40275081898a28e77698efca1a8a428e240cf9",
+        "size_in_bytes": 35760
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/OpenSansBoldItalic.ttf",
+        "path_type": "hardlink",
+        "sha256": "e1c2babefe62ffecd9fedd32323502ebc49f13e95b16f9ac11564a023890bea0",
+        "sha256_in_prefix": "e1c2babefe62ffecd9fedd32323502ebc49f13e95b16f9ac11564a023890bea0",
+        "size_in_bytes": 33064
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/OpenSansItalic.ttf",
+        "path_type": "hardlink",
+        "sha256": "7488cad78825f74031e36906550fbaa403ec56af17a3d03625f12c48b6e8b6e5",
+        "sha256_in_prefix": "7488cad78825f74031e36906550fbaa403ec56af17a3d03625f12c48b6e8b6e5",
+        "size_in_bytes": 32808
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/OpenSansLight.ttf",
+        "path_type": "hardlink",
+        "sha256": "5290570a36dd396b7defdf1c771bc9d3601780abe5ab09210263f05945fddc97",
+        "sha256_in_prefix": "5290570a36dd396b7defdf1c771bc9d3601780abe5ab09210263f05945fddc97",
+        "size_in_bytes": 35340
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/OpenSansLightItalic.ttf",
+        "path_type": "hardlink",
+        "sha256": "8c76544b0bb5a0930747d4624217ccc11ce1a4dbf83f682844d6ea05abe59441",
+        "sha256_in_prefix": "8c76544b0bb5a0930747d4624217ccc11ce1a4dbf83f682844d6ea05abe59441",
+        "size_in_bytes": 32680
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/Raleway.ttf",
+        "path_type": "hardlink",
+        "sha256": "afbf42431f43d4d1c3a5242fad31373b511270dac5a28fcd3f76335058e8fa27",
+        "sha256_in_prefix": "afbf42431f43d4d1c3a5242fad31373b511270dac5a28fcd3f76335058e8fa27",
+        "size_in_bytes": 63796
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/RalewayBold.ttf",
+        "path_type": "hardlink",
+        "sha256": "5906d5888f56376fd29a22a9b9cfa9b9f81721653a4ef22bd9847512fed461ea",
+        "sha256_in_prefix": "5906d5888f56376fd29a22a9b9cfa9b9f81721653a4ef22bd9847512fed461ea",
+        "size_in_bytes": 62224
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/Roboto.ttf",
+        "path_type": "hardlink",
+        "sha256": "967e5cecfbfbf64099c3c1232273482dd7436f05714266953c4d2c8ee9c28af5",
+        "sha256_in_prefix": "967e5cecfbfbf64099c3c1232273482dd7436f05714266953c4d2c8ee9c28af5",
+        "size_in_bytes": 32652
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/RobotoBold.ttf",
+        "path_type": "hardlink",
+        "sha256": "3cb931c2dba3dff0f6a52eca6a58452e345c08b6b110662f9834fc75b9dc4a4f",
+        "sha256_in_prefix": "3cb931c2dba3dff0f6a52eca6a58452e345c08b6b110662f9834fc75b9dc4a4f",
+        "size_in_bytes": 32500
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/RobotoLight.ttf",
+        "path_type": "hardlink",
+        "sha256": "48a236d6ef6d13ec0046970e775141071269011464521103655d00f8fec9ad77",
+        "sha256_in_prefix": "48a236d6ef6d13ec0046970e775141071269011464521103655d00f8fec9ad77",
+        "size_in_bytes": 32664
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/RobotoMedium.ttf",
+        "path_type": "hardlink",
+        "sha256": "a86ef20f7138eb763ae83bd14ad831eb8fbffbaa0b492d2e5271eda1b0b22557",
+        "sha256_in_prefix": "a86ef20f7138eb763ae83bd14ad831eb8fbffbaa0b492d2e5271eda1b0b22557",
+        "size_in_bytes": 32580
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/SourceSansPro.ttf",
+        "path_type": "hardlink",
+        "sha256": "2a609d31517ddeffc729a87ed0826716928ea0ff69833eb62ab463924d589066",
+        "sha256_in_prefix": "2a609d31517ddeffc729a87ed0826716928ea0ff69833eb62ab463924d589066",
+        "size_in_bytes": 35064
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/SourceSansProBold.ttf",
+        "path_type": "hardlink",
+        "sha256": "8e3b650a55ef885caa89c846464fb9108817402e48bd018dbfc832b92d106a3b",
+        "sha256_in_prefix": "8e3b650a55ef885caa89c846464fb9108817402e48bd018dbfc832b92d106a3b",
+        "size_in_bytes": 34908
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/SourceSansProItalic.ttf",
+        "path_type": "hardlink",
+        "sha256": "edb3643a06b9912ab612fb11ab7d44115150ee072b06afebd42450bdcbd81022",
+        "sha256_in_prefix": "edb3643a06b9912ab612fb11ab7d44115150ee072b06afebd42450bdcbd81022",
+        "size_in_bytes": 33864
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/SourceSansProLight.ttf",
+        "path_type": "hardlink",
+        "sha256": "59fd06f07a1c82458e45d06652790dd942ec49d19c5ac625f0e3ecac0652256b",
+        "sha256_in_prefix": "59fd06f07a1c82458e45d06652790dd942ec49d19c5ac625f0e3ecac0652256b",
+        "size_in_bytes": 35368
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/fonts/Ubuntu.ttf",
+        "path_type": "hardlink",
+        "sha256": "9f16fc445278a59cec8d7a478adda73bd6fe215c9badf711385fa5b8c01739d4",
+        "sha256_in_prefix": "9f16fc445278a59cec8d7a478adda73bd6fe215c9badf711385fa5b8c01739d4",
+        "size_in_bytes": 73608
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/journal.min.css",
+        "path_type": "hardlink",
+        "sha256": "f562bb64153a10baa8cfc08f48dac58972e729ff64025cffa047242f1dd4457c",
+        "sha256_in_prefix": "f562bb64153a10baa8cfc08f48dac58972e729ff64025cffa047242f1dd4457c",
+        "size_in_bytes": 124651
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/lumen.min.css",
+        "path_type": "hardlink",
+        "sha256": "7ea10d71b7035ac1b9dc3aa67adc09ea7c40a875f6b2155a5825a0a263bd5315",
+        "sha256_in_prefix": "7ea10d71b7035ac1b9dc3aa67adc09ea7c40a875f6b2155a5825a0a263bd5315",
+        "size_in_bytes": 131260
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/paper.min.css",
+        "path_type": "hardlink",
+        "sha256": "0c9117c8bced94d3a54e38492a84050c2dbba4b4dca1c9c66b2e93554af8b0ff",
+        "sha256_in_prefix": "0c9117c8bced94d3a54e38492a84050c2dbba4b4dca1c9c66b2e93554af8b0ff",
+        "size_in_bytes": 141648
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/readable.min.css",
+        "path_type": "hardlink",
+        "sha256": "51e739b5396f5eb41b29c64e3705bf2b1f7bf12aa753e7994587d1e9eee53b30",
+        "sha256_in_prefix": "51e739b5396f5eb41b29c64e3705bf2b1f7bf12aa753e7994587d1e9eee53b30",
+        "size_in_bytes": 124680
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/sandstone.min.css",
+        "path_type": "hardlink",
+        "sha256": "72049e8f0000c92ff5d53c7a0e5e3b9d4d5ec3c0e7c6c8f85d494428cd6b9f58",
+        "sha256_in_prefix": "72049e8f0000c92ff5d53c7a0e5e3b9d4d5ec3c0e7c6c8f85d494428cd6b9f58",
+        "size_in_bytes": 125076
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/simplex.min.css",
+        "path_type": "hardlink",
+        "sha256": "ec88100d556d28024f8c8d8045f27c4070eb1d4f9dc529cbbc49fe47570f661e",
+        "sha256_in_prefix": "ec88100d556d28024f8c8d8045f27c4070eb1d4f9dc529cbbc49fe47570f661e",
+        "size_in_bytes": 127698
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/spacelab.min.css",
+        "path_type": "hardlink",
+        "sha256": "8abc0c678a40df37ae69b8da8f07ce3b630a06e23bfb038c3a6f2ae5bb0d26c3",
+        "sha256_in_prefix": "8abc0c678a40df37ae69b8da8f07ce3b630a06e23bfb038c3a6f2ae5bb0d26c3",
+        "size_in_bytes": 131641
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/united.min.css",
+        "path_type": "hardlink",
+        "sha256": "21abe2bd4d3ad5fcd831ae800ea7f7971a80b14adc979079c5fc04f7bcaccfcb",
+        "sha256_in_prefix": "21abe2bd4d3ad5fcd831ae800ea7f7971a80b14adc979079c5fc04f7bcaccfcb",
+        "size_in_bytes": 122856
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/css/yeti.min.css",
+        "path_type": "hardlink",
+        "sha256": "f582f535f0a8abbbd430f0fb8b8b8d747f1d05801cd29a94dd0b7cd612c91b55",
+        "sha256_in_prefix": "f582f535f0a8abbbd430f0fb8b8b8d747f1d05801cd29a94dd0b7cd612c91b55",
+        "size_in_bytes": 128392
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.eot",
+        "path_type": "hardlink",
+        "sha256": "13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407",
+        "sha256_in_prefix": "13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407",
+        "size_in_bytes": 20127
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.svg",
+        "path_type": "hardlink",
+        "sha256": "42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5",
+        "sha256_in_prefix": "42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5",
+        "size_in_bytes": 108738
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.ttf",
+        "path_type": "hardlink",
+        "sha256": "e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456",
+        "sha256_in_prefix": "e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456",
+        "size_in_bytes": 45404
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.woff",
+        "path_type": "hardlink",
+        "sha256": "a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742",
+        "sha256_in_prefix": "a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742",
+        "size_in_bytes": 23424
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/fonts/glyphicons-halflings-regular.woff2",
+        "path_type": "hardlink",
+        "sha256": "fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c",
+        "sha256_in_prefix": "fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c",
+        "size_in_bytes": 18028
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/js/bootstrap.js",
+        "path_type": "hardlink",
+        "sha256": "ef43a4d502ffb688656851d788c42869d47e8840d007b4f4b66f62530171acd4",
+        "sha256_in_prefix": "ef43a4d502ffb688656851d788c42869d47e8840d007b4f4b66f62530171acd4",
+        "size_in_bytes": 68890
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/js/bootstrap.min.js",
+        "path_type": "hardlink",
+        "sha256": "4a4de7903ea62d330e17410ea4db6c22bcbeb350ac6aa402d6b54b4c0cbed327",
+        "sha256_in_prefix": "4a4de7903ea62d330e17410ea4db6c22bcbeb350ac6aa402d6b54b4c0cbed327",
+        "size_in_bytes": 36816
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/js/npm.js",
+        "path_type": "hardlink",
+        "sha256": "c7aa82a1aa7d45224a38d926d2adaff7fe4aef5bcdafa2a47bdac057f4422c2d",
+        "sha256_in_prefix": "c7aa82a1aa7d45224a38d926d2adaff7fe4aef5bcdafa2a47bdac057f4422c2d",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/shim/html5shiv.min.js",
+        "path_type": "hardlink",
+        "sha256": "95ed2737d4ab0b494087a294b6eb4d28c13926f2c77ccf3bda4b1ae64bfd401a",
+        "sha256_in_prefix": "95ed2737d4ab0b494087a294b6eb4d28c13926f2c77ccf3bda4b1ae64bfd401a",
+        "size_in_bytes": 2722
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/bootstrap-3.3.5/shim/respond.min.js",
+        "path_type": "hardlink",
+        "sha256": "c7b66ee04aeac6fc31f77a14d5553af4047de35d2864fcf7560452a183dd4e62",
+        "sha256_in_prefix": "c7b66ee04aeac6fc31f77a14d5553af4047de35d2864fcf7560452a183dd4e62",
+        "size_in_bytes": 4463
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/default.html",
+        "path_type": "hardlink",
+        "sha256": "9b68d153130ae0fb23553d2b01b6438910554a42e666dfba047fe5b0506b271a",
+        "sha256_in_prefix": "9b68d153130ae0fb23553d2b01b6438910554a42e666dfba047fe5b0506b271a",
+        "size_in_bytes": 9263
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/fontawesome/css/fa-svg-with-js.css",
+        "path_type": "hardlink",
+        "sha256": "de9b4b14cabcf9a15316a1acfb4ea5e98b75432e636affb1117fc9f40ada7134",
+        "sha256_in_prefix": "de9b4b14cabcf9a15316a1acfb4ea5e98b75432e636affb1117fc9f40ada7134",
+        "size_in_bytes": 7408
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/fontawesome/fonts/fa-brands-400.ttf",
+        "path_type": "hardlink",
+        "sha256": "5864e7617609c6173b0bf22658dfcd9d69ef75526cd1d33fe10b5bf05be81f9d",
+        "sha256_in_prefix": "5864e7617609c6173b0bf22658dfcd9d69ef75526cd1d33fe10b5bf05be81f9d",
+        "size_in_bytes": 111384
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/fontawesome/fonts/fa-regular-400.ttf",
+        "path_type": "hardlink",
+        "sha256": "1888aa9fb6c7e689c1d40eb538579ca7e3bfd6dd65441b098b2fdef3c28ca6d2",
+        "sha256_in_prefix": "1888aa9fb6c7e689c1d40eb538579ca7e3bfd6dd65441b098b2fdef3c28ca6d2",
+        "size_in_bytes": 31044
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/fontawesome/fonts/fa-solid-900.ttf",
+        "path_type": "hardlink",
+        "sha256": "3bed33cbdc3d01540acd4c0aacda1b53943b5d94a09c6b341aa643395a19305f",
+        "sha256_in_prefix": "3bed33cbdc3d01540acd4c0aacda1b53943b5d94a09c6b341aa643395a19305f",
+        "size_in_bytes": 132920
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/fontawesome/js/fa-v4-shims.min.js",
+        "path_type": "hardlink",
+        "sha256": "7f3a7cde8722d166a916a4b6ce395e844996174150eaf3cf3401b3154912dde2",
+        "sha256_in_prefix": "7f3a7cde8722d166a916a4b6ce395e844996174150eaf3cf3401b3154912dde2",
+        "size_in_bytes": 15206
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/fontawesome/js/fontawesome-all.min.js",
+        "path_type": "hardlink",
+        "sha256": "e629fd9f6785d9a4cb5f5cc1cd3d3a758f35ad8c4451de510169e82a6dc4c78e",
+        "sha256_in_prefix": "e629fd9f6785d9a4cb5f5cc1cd3d3a758f35ad8c4451de510169e82a6dc4c78e",
+        "size_in_bytes": 799550
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/highlightjs/default.css",
+        "path_type": "hardlink",
+        "sha256": "8f0f75582a6a521a57b3ef8679df4648502d328283f96dd922623262eb1fc5ff",
+        "sha256_in_prefix": "8f0f75582a6a521a57b3ef8679df4648502d328283f96dd922623262eb1fc5ff",
+        "size_in_bytes": 213
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/highlightjs/highlight.js",
+        "path_type": "hardlink",
+        "sha256": "bea6e643b8c1515c321d427748569829df9d9c2506e211d27686a94e8e4f1e86",
+        "sha256_in_prefix": "bea6e643b8c1515c321d427748569829df9d9c2506e211d27686a94e8e4f1e86",
+        "size_in_bytes": 51225
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/highlightjs/textmate.css",
+        "path_type": "hardlink",
+        "sha256": "7ddcc83c6a4b689c86d6a609deb8fae51c9e3e7401f44985865558888f95ddd5",
+        "sha256_in_prefix": "7ddcc83c6a4b689c86d6a609deb8fae51c9e3e7401f44985865558888f95ddd5",
+        "size_in_bytes": 222
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/ionicons-2.0.1/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "5407c91b6c8b7305f72aec4ee5ffb99b32ed9a5413c19cf3cd1b94354d2645e8",
+        "sha256_in_prefix": "5407c91b6c8b7305f72aec4ee5ffb99b32ed9a5413c19cf3cd1b94354d2645e8",
+        "size_in_bytes": 1094
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/ionicons-2.0.1/css/ionicons.css",
+        "path_type": "hardlink",
+        "sha256": "d00bf9debbc724e9d99ab30ac24414f292c0549954fdede5cdd15fb3b0021513",
+        "sha256_in_prefix": "d00bf9debbc724e9d99ab30ac24414f292c0549954fdede5cdd15fb3b0021513",
+        "size_in_bytes": 56963
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/ionicons-2.0.1/css/ionicons.min.css",
+        "path_type": "hardlink",
+        "sha256": "ff972fc6a8d45036541e42c1228a5ab95e8ec1a2bd2147cc5f6a21d26808f523",
+        "sha256_in_prefix": "ff972fc6a8d45036541e42c1228a5ab95e8ec1a2bd2147cc5f6a21d26808f523",
+        "size_in_bytes": 51073
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/ionicons-2.0.1/fonts/ionicons.ttf",
+        "path_type": "hardlink",
+        "sha256": "2ba7f20b1d8990e17a47fe3d88e4c766628aaa2baf1dd30fca0a0db59836f5f9",
+        "sha256_in_prefix": "2ba7f20b1d8990e17a47fe3d88e4c766628aaa2baf1dd30fca0a0db59836f5f9",
+        "size_in_bytes": 188508
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/jquery-1.11.3/jquery.min.js",
+        "path_type": "hardlink",
+        "sha256": "ecb916133a9376911f10bc5c659952eb0031e457f5df367cde560edbfba38fb8",
+        "sha256_in_prefix": "ecb916133a9376911f10bc5c659952eb0031e457f5df367cde560edbfba38fb8",
+        "size_in_bytes": 95957
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/jquery-AUTHORS.txt",
+        "path_type": "hardlink",
+        "sha256": "19ffc23f3adf180dc08b86c6eb9ee85211f47e2cffa90ad6ad44a264865b1f02",
+        "sha256_in_prefix": "19ffc23f3adf180dc08b86c6eb9ee85211f47e2cffa90ad6ad44a264865b1f02",
+        "size_in_bytes": 8048
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/README",
+        "path_type": "hardlink",
+        "sha256": "cb2ebe50b497e9eb43780ccd31068e2d88dfef132225085ef8ed7f025d898d2e",
+        "sha256_in_prefix": "cb2ebe50b497e9eb43780ccd31068e2d88dfef132225085ef8ed7f025d898d2e",
+        "size_in_bytes": 408
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/images/ui-icons_444444_256x240.png",
+        "path_type": "hardlink",
+        "sha256": "52a79d69e173bd4c78630e414a232fbe08db1f298b5fb85b9ea6a196a8f2dd14",
+        "sha256_in_prefix": "52a79d69e173bd4c78630e414a232fbe08db1f298b5fb85b9ea6a196a8f2dd14",
+        "size_in_bytes": 6992
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/images/ui-icons_555555_256x240.png",
+        "path_type": "hardlink",
+        "sha256": "af3b929cabd8a9374f790039e600f4892ba56cfcb7bfabe83332638a7ffee1b1",
+        "sha256_in_prefix": "af3b929cabd8a9374f790039e600f4892ba56cfcb7bfabe83332638a7ffee1b1",
+        "size_in_bytes": 6988
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/images/ui-icons_777620_256x240.png",
+        "path_type": "hardlink",
+        "sha256": "3f2ae2f68151c482f9937f06033c37a6111c3dd456d7b464c7019d15f9f9b378",
+        "sha256_in_prefix": "3f2ae2f68151c482f9937f06033c37a6111c3dd456d7b464c7019d15f9f9b378",
+        "size_in_bytes": 4549
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/images/ui-icons_777777_256x240.png",
+        "path_type": "hardlink",
+        "sha256": "0e38987dae58a45dd5517a4f5db347af0c808710558c3b3c9be117b2aef98800",
+        "sha256_in_prefix": "0e38987dae58a45dd5517a4f5db347af0c808710558c3b3c9be117b2aef98800",
+        "size_in_bytes": 6999
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/images/ui-icons_cc0000_256x240.png",
+        "path_type": "hardlink",
+        "sha256": "5809236cef63d8b001d72d62faff97a2aebcbfb95d59ecde35df9c3604f2d6ef",
+        "sha256_in_prefix": "5809236cef63d8b001d72d62faff97a2aebcbfb95d59ecde35df9c3604f2d6ef",
+        "size_in_bytes": 4549
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/images/ui-icons_ffffff_256x240.png",
+        "path_type": "hardlink",
+        "sha256": "4d11955729f56e6fb54a32487e43aa3fd6ebbe3676c84b9c6e25b935e0c706b0",
+        "sha256_in_prefix": "4d11955729f56e6fb54a32487e43aa3fd6ebbe3676c84b9c6e25b935e0c706b0",
+        "size_in_bytes": 6299
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/index.html",
+        "path_type": "hardlink",
+        "sha256": "23d1c876b6fe721491e5b0c8686b90cef33deb2018064cc3ed57a5276a628c03",
+        "sha256_in_prefix": "23d1c876b6fe721491e5b0c8686b90cef33deb2018064cc3ed57a5276a628c03",
+        "size_in_bytes": 31572
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/jquery-ui.css",
+        "path_type": "hardlink",
+        "sha256": "a4cc89d8f8968e412ee421f537672f3f4414bba99ea7e398c9ffe150cf3b7a19",
+        "sha256_in_prefix": "a4cc89d8f8968e412ee421f537672f3f4414bba99ea7e398c9ffe150cf3b7a19",
+        "size_in_bytes": 31045
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/jquery-ui.js",
+        "path_type": "hardlink",
+        "sha256": "7df9b0a2f13962058e5ef5bd926fef7ce4e03b07b3f012690ba82254ea607ea2",
+        "sha256_in_prefix": "7df9b0a2f13962058e5ef5bd926fef7ce4e03b07b3f012690ba82254ea607ea2",
+        "size_in_bytes": 392842
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/jquery-ui.min.css",
+        "path_type": "hardlink",
+        "sha256": "38812cb2b9612c1fc2aba60d76096730492672925706c0f53608f7aa281d6d85",
+        "sha256_in_prefix": "38812cb2b9612c1fc2aba60d76096730492672925706c0f53608f7aa281d6d85",
+        "size_in_bytes": 26302
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/jquery-ui.min.js",
+        "path_type": "hardlink",
+        "sha256": "7b09a696add30f3feaca11c206977206dacefd7616a795641ee987920f1883d0",
+        "sha256_in_prefix": "7b09a696add30f3feaca11c206977206dacefd7616a795641ee987920f1883d0",
+        "size_in_bytes": 204224
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/jquery-ui.structure.css",
+        "path_type": "hardlink",
+        "sha256": "d7bc3fc2569e0e35482739dd03bb5da91763b7a01f1f871a19c435cdfd2cfeb0",
+        "sha256_in_prefix": "d7bc3fc2569e0e35482739dd03bb5da91763b7a01f1f871a19c435cdfd2cfeb0",
+        "size_in_bytes": 14618
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/jquery-ui.structure.min.css",
+        "path_type": "hardlink",
+        "sha256": "0128d08778d977d8714ea20e63581fd446ff2f5c3f6e40ea46b23ecabc17c572",
+        "sha256_in_prefix": "0128d08778d977d8714ea20e63581fd446ff2f5c3f6e40ea46b23ecabc17c572",
+        "size_in_bytes": 11809
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/jquery-ui.theme.css",
+        "path_type": "hardlink",
+        "sha256": "3f867fc008dc6f04138626220a52153ac03b9dedb11940ac89a0912fe72a043e",
+        "sha256_in_prefix": "3f867fc008dc6f04138626220a52153ac03b9dedb11940ac89a0912fe72a043e",
+        "size_in_bytes": 16531
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/jqueryui-1.11.4/jquery-ui.theme.min.css",
+        "path_type": "hardlink",
+        "sha256": "96dbdbd7e5e179190641aca936943193336e9a87186ff4fd18f61baba083b0eb",
+        "sha256_in_prefix": "96dbdbd7e5e179190641aca936943193336e9a87186ff4fd18f61baba083b0eb",
+        "size_in_bytes": 13217
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/jqueryui-AUTHORS.txt",
+        "path_type": "hardlink",
+        "sha256": "14f5a9244baf6f6b7f2fa9b859241657a94d522d16a5f7f5c856a514d6e668f9",
+        "sha256_in_prefix": "14f5a9244baf6f6b7f2fa9b859241657a94d522d16a5f7f5c856a514d6e668f9",
+        "size_in_bytes": 11988
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/navigation-1.1/codefolding.js",
+        "path_type": "hardlink",
+        "sha256": "29b6437b9d3233d5f0cbe11bd5e92aacb649d5b86b67f839fbe416bef15eb0ed",
+        "sha256_in_prefix": "29b6437b9d3233d5f0cbe11bd5e92aacb649d5b86b67f839fbe416bef15eb0ed",
+        "size_in_bytes": 1753
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/navigation-1.1/sourceembed.js",
+        "path_type": "hardlink",
+        "sha256": "0876073b4ba4ac3341c58d95bebd8e179b37d444088c403ca36b26b16674acd2",
+        "sha256_in_prefix": "0876073b4ba4ac3341c58d95bebd8e179b37d444088c403ca36b26b16674acd2",
+        "size_in_bytes": 357
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/navigation-1.1/tabsets.js",
+        "path_type": "hardlink",
+        "sha256": "46ce784c4d4508dd6e2cce1fed540432245397521aed38902e432bb88b7057e4",
+        "sha256_in_prefix": "46ce784c4d4508dd6e2cce1fed540432245397521aed38902e432bb88b7057e4",
+        "size_in_bytes": 4299
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/pagedtable-1.1/css/pagedtable.css",
+        "path_type": "hardlink",
+        "sha256": "e3bf4895c700d4ea344a02b33bfac03b43b4dbfd816ae3ca17cf8f7885be463f",
+        "sha256_in_prefix": "e3bf4895c700d4ea344a02b33bfac03b43b4dbfd816ae3ca17cf8f7885be463f",
+        "size_in_bytes": 2123
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/pagedtable-1.1/js/pagedtable.js",
+        "path_type": "hardlink",
+        "sha256": "b80fc1d3d2cef5e07a67f4243de596383bb333891320acddae34e487c5368314",
+        "sha256_in_prefix": "b80fc1d3d2cef5e07a67f4243de596383bb333891320acddae34e487c5368314",
+        "size_in_bytes": 33690
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/rmarkdown/rmd_loader.css",
+        "path_type": "hardlink",
+        "sha256": "c4e25cc7fe89f32ffa0fbe01bafe7a99e64b76398769a5d21e24275f6f5c1b86",
+        "sha256_in_prefix": "c4e25cc7fe89f32ffa0fbe01bafe7a99e64b76398769a5d21e24275f6f5c1b86",
+        "size_in_bytes": 267
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/rmarkdown/rmd_loader.gif",
+        "path_type": "hardlink",
+        "sha256": "c1cf81bef2ea82eaa43265a5ff786b7cd74e7d5f4f2de104b586f092ca0fb886",
+        "sha256_in_prefix": "c1cf81bef2ea82eaa43265a5ff786b7cd74e7d5f4f2de104b586f092ca0fb886",
+        "size_in_bytes": 723
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/rmarkdown/rmd_loader.js",
+        "path_type": "hardlink",
+        "sha256": "18ace1db350d3af9a50d9d537d830a1171e701d7847dc891d26868e3cc47783c",
+        "sha256_in_prefix": "18ace1db350d3af9a50d9d537d830a1171e701d7847dc891d26868e3cc47783c",
+        "size_in_bytes": 1030
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/rmarkdown/rmd_perf.css",
+        "path_type": "hardlink",
+        "sha256": "b0c1f35f3157ba3b15ab352d9e23a6a640e1f7c239ce3a6233ce0496e01b8b56",
+        "sha256_in_prefix": "b0c1f35f3157ba3b15ab352d9e23a6a640e1f7c239ce3a6233ce0496e01b8b56",
+        "size_in_bytes": 334
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/rmarkdown/rmd_perf.js",
+        "path_type": "hardlink",
+        "sha256": "4c4cf48e6e40f99a39ab5ce3e5837bc95b4284b05f8ae98d9a83c6013398296f",
+        "sha256_in_prefix": "4c4cf48e6e40f99a39ab5ce3e5837bc95b4284b05f8ae98d9a83c6013398296f",
+        "size_in_bytes": 2093
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/rsiframe-1.1/rsiframe.js",
+        "path_type": "hardlink",
+        "sha256": "aa4500223624346679203f882a4f2e0c1d8108afcbd26d27fed3b8e372b973f9",
+        "sha256_in_prefix": "aa4500223624346679203f882a4f2e0c1d8108afcbd26d27fed3b8e372b973f9",
+        "size_in_bytes": 4643
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/tocify-1.9.1/jquery.tocify.css",
+        "path_type": "hardlink",
+        "sha256": "edea497f6577e11468def652d823640403c4e2fdf13726b1da0200bcfa319508",
+        "sha256_in_prefix": "edea497f6577e11468def652d823640403c4e2fdf13726b1da0200bcfa319508",
+        "size_in_bytes": 1927
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/h/tocify-1.9.1/jquery.tocify.js",
+        "path_type": "hardlink",
+        "sha256": "3905005c228c249603d5c0e9ff65b5b269021ef1c43eaef8065d074098a891db",
+        "sha256_in_prefix": "3905005c228c249603d5c0e9ff65b5b269021ef1c43eaef8065d074098a891db",
+        "size_in_bytes": 31740
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/default.html",
+        "path_type": "hardlink",
+        "sha256": "187ab8e4634eac7bceb9b85f8ec7ce5c2d939f0181680235866e9b311248a8d3",
+        "sha256_in_prefix": "187ab8e4634eac7bceb9b85f8ec7ce5c2d939f0181680235866e9b311248a8d3",
+        "size_in_bytes": 4322
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/fonts/OpenSans.ttf",
+        "path_type": "hardlink",
+        "sha256": "cdafda4eb770417549be3954075375f5afa65eb506fec733e7fc02c0e8dd3647",
+        "sha256_in_prefix": "cdafda4eb770417549be3954075375f5afa65eb506fec733e7fc02c0e8dd3647",
+        "size_in_bytes": 36492
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/fonts/OpenSansItalic.ttf",
+        "path_type": "hardlink",
+        "sha256": "32770e3fc650cc6d9c4b46272c35b5bbc91e877c3a1d4b3ee6bacc7b47cc3b73",
+        "sha256_in_prefix": "32770e3fc650cc6d9c4b46272c35b5bbc91e877c3a1d4b3ee6bacc7b47cc3b73",
+        "size_in_bytes": 34416
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/fonts/OpenSansSemibold.ttf",
+        "path_type": "hardlink",
+        "sha256": "eb79b4fe68b225257618e845a2a850faf9e52de4b20c05ffaeff06479ff79c45",
+        "sha256_in_prefix": "eb79b4fe68b225257618e845a2a850faf9e52de4b20c05ffaeff06479ff79c45",
+        "size_in_bytes": 37568
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/fonts/OpenSansSemiboldItalic.ttf",
+        "path_type": "hardlink",
+        "sha256": "6a20fc35d498bdf0ce21d173fa51816aa3684d8878ebe1925130c13848e93165",
+        "sha256_in_prefix": "6a20fc35d498bdf0ce21d173fa51816aa3684d8878ebe1925130c13848e93165",
+        "size_in_bytes": 34652
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/fonts/SourceCodePro.ttf",
+        "path_type": "hardlink",
+        "sha256": "456ad3164ab32c36b9ffaaa5e7d7e6ac2fbb873a4f089df956968197e5a16ec6",
+        "sha256_in_prefix": "456ad3164ab32c36b9ffaaa5e7d7e6ac2fbb873a4f089df956968197e5a16ec6",
+        "size_in_bytes": 42380
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/fonts/fonts.css",
+        "path_type": "hardlink",
+        "sha256": "c5c85a317f4144774916cd8f5de24b538f0ff66fb029ebe880d3ae88a82a8253",
+        "sha256_in_prefix": "c5c85a317f4144774916cd8f5de24b538f0ff66fb029ebe880d3ae88a82a8253",
+        "size_in_bytes": 689
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/images/google_developers_icon_128.png",
+        "path_type": "hardlink",
+        "sha256": "4b562fba970e78b6da3767c0407322292fe0f359a77bb18ee2381e4e213d291e",
+        "sha256_in_prefix": "4b562fba970e78b6da3767c0407322292fe0f359a77bb18ee2381e4e213d291e",
+        "size_in_bytes": 4316
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/hammer.js",
+        "path_type": "hardlink",
+        "sha256": "f4d7690d0c1032652c0d62264019e66baf01d14431080c1ae930ba1d786720d9",
+        "sha256_in_prefix": "f4d7690d0c1032652c0d62264019e66baf01d14431080c1ae930ba1d786720d9",
+        "size_in_bytes": 17787
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/modernizr.custom.45394.js",
+        "path_type": "hardlink",
+        "sha256": "481a22dfb7d9ccc714f432610332fb7a25a61cc4acfa8d9a4a326daefaf85f2e",
+        "sha256_in_prefix": "481a22dfb7d9ccc714f432610332fb7a25a61cc4acfa8d9a4a326daefaf85f2e",
+        "size_in_bytes": 13245
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/order.js",
+        "path_type": "hardlink",
+        "sha256": "a09cfc64bdf7a769600c2306a469fbc64e5293fa91b0f2f87e2148d91daf9a9a",
+        "sha256_in_prefix": "a09cfc64bdf7a769600c2306a469fbc64e5293fa91b0f2f87e2148d91daf9a9a",
+        "size_in_bytes": 1472
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/polyfills/classList.min.js",
+        "path_type": "hardlink",
+        "sha256": "5f0bee7fd45e27028c59727c4c5ab341103bb39e20d318afca79129382d5e87a",
+        "sha256_in_prefix": "5f0bee7fd45e27028c59727c4c5ab341103bb39e20d318afca79129382d5e87a",
+        "size_in_bytes": 1899
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/polyfills/dataset.min.js",
+        "path_type": "hardlink",
+        "sha256": "9c36cbb607b71023f0342a64ec8a596c1896bdef31347fae1baf601aacc5b3fd",
+        "sha256_in_prefix": "9c36cbb607b71023f0342a64ec8a596c1896bdef31347fae1baf601aacc5b3fd",
+        "size_in_bytes": 677
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/polyfills/history.min.js",
+        "path_type": "hardlink",
+        "sha256": "936b93ec69658c8f2a50491ec3302c3631266952c06b660a31c1679d45cc49eb",
+        "sha256_in_prefix": "936b93ec69658c8f2a50491ec3302c3631266952c06b660a31c1679d45cc49eb",
+        "size_in_bytes": 14244
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/prettify/lang-r.js",
+        "path_type": "hardlink",
+        "sha256": "6f560aa589d3607acc7867fdabd921a77dccfa90ed7161371acd985b6b14bcb6",
+        "sha256_in_prefix": "6f560aa589d3607acc7867fdabd921a77dccfa90ed7161371acd985b6b14bcb6",
+        "size_in_bytes": 2391
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/prettify/lang-tex.js",
+        "path_type": "hardlink",
+        "sha256": "da7ced8eabb9ce21c62cc595ecbdadd7078fb64f9322ea4024cafdff35bba231",
+        "sha256_in_prefix": "da7ced8eabb9ce21c62cc595ecbdadd7078fb64f9322ea4024cafdff35bba231",
+        "size_in_bytes": 285
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/prettify/lang-yaml.js",
+        "path_type": "hardlink",
+        "sha256": "172d74071f1ab707963809f62c3a3938b0248d39ea919b78820e5acab5ba9749",
+        "sha256_in_prefix": "172d74071f1ab707963809f62c3a3938b0248d39ea919b78820e5acab5ba9749",
+        "size_in_bytes": 412
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/prettify/prettify.css",
+        "path_type": "hardlink",
+        "sha256": "1d2d628605d9eaa7d4712e414de849855f3511947e23943acf1e7219d12a6e9d",
+        "sha256_in_prefix": "1d2d628605d9eaa7d4712e414de849855f3511947e23943acf1e7219d12a6e9d",
+        "size_in_bytes": 675
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/prettify/prettify.js",
+        "path_type": "hardlink",
+        "sha256": "e2e576e3bc607cd179ff511947010f645d3441a35313aec0dbd06c4437f83b77",
+        "sha256_in_prefix": "e2e576e3bc607cd179ff511947010f645d3441a35313aec0dbd06c4437f83b77",
+        "size_in_bytes": 13632
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/require-1.0.8.min.js",
+        "path_type": "hardlink",
+        "sha256": "86f9d195cdc0af6094377d12639b0660d2e6a7bf7e008439e17b5125701bacfa",
+        "sha256_in_prefix": "86f9d195cdc0af6094377d12639b0660d2e6a7bf7e008439e17b5125701bacfa",
+        "size_in_bytes": 13699
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/slide-controller.js",
+        "path_type": "hardlink",
+        "sha256": "e15b423672c58c4a4e210bf26d668d2e3b1da0e86d6cf857bf44e57737c5721a",
+        "sha256_in_prefix": "e15b423672c58c4a4e210bf26d668d2e3b1da0e86d6cf857bf44e57737c5721a",
+        "size_in_bytes": 3487
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/js/slide-deck.js",
+        "path_type": "hardlink",
+        "sha256": "07a1af1d202e32a1bab81bf35207e3f53cbd6b2ef4bbae125af1e390c0ef1933",
+        "sha256_in_prefix": "07a1af1d202e32a1bab81bf35207e3f53cbd6b2ef4bbae125af1e390c0ef1933",
+        "size_in_bytes": 22284
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/theme/css/default.css",
+        "path_type": "hardlink",
+        "sha256": "8fd2ee376bbaf0ae7c742daa58a4a48b9a653d7756ef569436610f22ea382758",
+        "sha256_in_prefix": "8fd2ee376bbaf0ae7c742daa58a4a48b9a653d7756ef569436610f22ea382758",
+        "size_in_bytes": 37520
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides-13.5.1/theme/css/phone.css",
+        "path_type": "hardlink",
+        "sha256": "97fe1ecec930a22ce0c154cd1ccd10df93e0dc57554f53277d614cf9d7d90fa2",
+        "sha256_in_prefix": "97fe1ecec930a22ce0c154cd1ccd10df93e0dc57554f53277d614cf9d7d90fa2",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/ioslides/ioslides_presentation.lua",
+        "path_type": "hardlink",
+        "sha256": "5df2db17b77c2090799d6b0570fefcaa27eeaa61fc8f25b62e0cfe4067f7f892",
+        "sha256_in_prefix": "5df2db17b77c2090799d6b0570fefcaa27eeaa61fc8f25b62e0cfe4067f7f892",
+        "size_in_bytes": 12966
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/latex/default-1.14.tex",
+        "path_type": "hardlink",
+        "sha256": "98b6e68c6f6cc6ee35be2146173b0370ec469042454bccba0adc10633ebe1214",
+        "sha256_in_prefix": "98b6e68c6f6cc6ee35be2146173b0370ec469042454bccba0adc10633ebe1214",
+        "size_in_bytes": 6267
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/latex/default-1.15.2.tex",
+        "path_type": "hardlink",
+        "sha256": "448762cda51a7a879321dc443c95724e10efe66ae75c1ecdc7f2095b06d56fd4",
+        "sha256_in_prefix": "448762cda51a7a879321dc443c95724e10efe66ae75c1ecdc7f2095b06d56fd4",
+        "size_in_bytes": 7599
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/latex/default-1.17.0.2.tex",
+        "path_type": "hardlink",
+        "sha256": "fc032674b1fae1e365634ef0e742739a49a7518c0a6e08361736f7edf50fd499",
+        "sha256_in_prefix": "fc032674b1fae1e365634ef0e742739a49a7518c0a6e08361736f7edf50fd499",
+        "size_in_bytes": 7759
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/latex/default.tex",
+        "path_type": "hardlink",
+        "sha256": "e288ef8996b348374602221c7415842a0d5f29e3e17db11492a64209041f9977",
+        "sha256_in_prefix": "e288ef8996b348374602221c7415842a0d5f29e3e17db11492a64209041f9977",
+        "size_in_bytes": 5752
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-fold-dim.gif",
+        "path_type": "hardlink",
+        "sha256": "448a555e201d117e771c6faceb222c235c43d2ad8d811dcfc6db86fccc04640c",
+        "sha256_in_prefix": "448a555e201d117e771c6faceb222c235c43d2ad8d811dcfc6db86fccc04640c",
+        "size_in_bytes": 161
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-fold-dim.png",
+        "path_type": "hardlink",
+        "sha256": "a1e48779c59dcdcbe6580b37380baf31169e69cdfb1a4d2a0a5d5d7922bf8104",
+        "sha256_in_prefix": "a1e48779c59dcdcbe6580b37380baf31169e69cdfb1a4d2a0a5d5d7922bf8104",
+        "size_in_bytes": 2905
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-fold.gif",
+        "path_type": "hardlink",
+        "sha256": "4039c2ebec73a74492276f824baf8321b0d30303b63fdf187f739e82f077dd54",
+        "sha256_in_prefix": "4039c2ebec73a74492276f824baf8321b0d30303b63fdf187f739e82f077dd54",
+        "size_in_bytes": 163
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-fold.png",
+        "path_type": "hardlink",
+        "sha256": "831f6bff0e9e751e58c65fe4207111fd554e2ecd09cedaa1f12664c187a99c48",
+        "sha256_in_prefix": "831f6bff0e9e751e58c65fe4207111fd554e2ecd09cedaa1f12664c187a99c48",
+        "size_in_bytes": 2901
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-nofold-dim.gif",
+        "path_type": "hardlink",
+        "sha256": "4fc6e94287bd624bb74aea49caf1d345fe44d2a1958cec468b73f299baf3e56d",
+        "sha256_in_prefix": "4fc6e94287bd624bb74aea49caf1d345fe44d2a1958cec468b73f299baf3e56d",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-nofold-dim.png",
+        "path_type": "hardlink",
+        "sha256": "52e3d4e7b601c28bb5b56dd8c9555c4e0f442180f9ecff6beb898850900cb802",
+        "sha256_in_prefix": "52e3d4e7b601c28bb5b56dd8c9555c4e0f442180f9ecff6beb898850900cb802",
+        "size_in_bytes": 2892
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-nofold.gif",
+        "path_type": "hardlink",
+        "sha256": "3ed8ad5dc5dead4d2647c21cfaaa76486e77a251233a731f98a824ac2e3156d6",
+        "sha256_in_prefix": "3ed8ad5dc5dead4d2647c21cfaaa76486e77a251233a731f98a824ac2e3156d6",
+        "size_in_bytes": 157
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-nofold.png",
+        "path_type": "hardlink",
+        "sha256": "935c95ffff8a4ec6993f5e8bed883dc7a65d04f659bb0c56e1a32bc914a1e650",
+        "sha256_in_prefix": "935c95ffff8a4ec6993f5e8bed883dc7a65d04f659bb0c56e1a32bc914a1e650",
+        "size_in_bytes": 2888
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-unfold-dim.gif",
+        "path_type": "hardlink",
+        "sha256": "e0d1c0f42ea2b2201cf28267a671b7f90924a5708dd643bc017c3395f0f9d8cc",
+        "sha256_in_prefix": "e0d1c0f42ea2b2201cf28267a671b7f90924a5708dd643bc017c3395f0f9d8cc",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-unfold-dim.png",
+        "path_type": "hardlink",
+        "sha256": "4f154b6051d5ec9fdb79ac0be6581b5defb989d5fd97606e6475fbc5e7f5a867",
+        "sha256_in_prefix": "4f154b6051d5ec9fdb79ac0be6581b5defb989d5fd97606e6475fbc5e7f5a867",
+        "size_in_bytes": 2913
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-unfold.gif",
+        "path_type": "hardlink",
+        "sha256": "a05f6cfceff8c782bb0344ba6f79c151647da6b9c3f2611c6062da4b45642b06",
+        "sha256_in_prefix": "a05f6cfceff8c782bb0344ba6f79c151647da6b9c3f2611c6062da4b45642b06",
+        "size_in_bytes": 163
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet-unfold.png",
+        "path_type": "hardlink",
+        "sha256": "cb79b94da2e7536d1ed9b22f60bbd66ed1f8007b15429cea41c5943a3247c404",
+        "sha256_in_prefix": "cb79b94da2e7536d1ed9b22f60bbd66ed1f8007b15429cea41c5943a3247c404",
+        "size_in_bytes": 2909
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet.gif",
+        "path_type": "hardlink",
+        "sha256": "16c94321dc577417b7609e7325f10eaa4fb710529739d7717dedaee520e8e576",
+        "sha256_in_prefix": "16c94321dc577417b7609e7325f10eaa4fb710529739d7717dedaee520e8e576",
+        "size_in_bytes": 86
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/bullet.png",
+        "path_type": "hardlink",
+        "sha256": "03fb23b1e67e54fadd1bd1d2a6a8c05af02ab19dccea93c22e6e4c0f93580722",
+        "sha256_in_prefix": "03fb23b1e67e54fadd1bd1d2a6a8c05af02ab19dccea93c22e6e4c0f93580722",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/example.png",
+        "path_type": "hardlink",
+        "sha256": "4efe569cdbc6cf3759fec524147fe9194a2270cb4543ad7c70df0af99aeec358",
+        "sha256_in_prefix": "4efe569cdbc6cf3759fec524147fe9194a2270cb4543ad7c70df0af99aeec358",
+        "size_in_bytes": 6652
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/example.svg",
+        "path_type": "hardlink",
+        "sha256": "a292f9dbc8f97f11a2d3b9b6f05cbece7369053d858eeec782fc5a2efb6f0299",
+        "sha256_in_prefix": "a292f9dbc8f97f11a2d3b9b6f05cbece7369053d858eeec782fc5a2efb6f0299",
+        "size_in_bytes": 19040
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/face1.gif",
+        "path_type": "hardlink",
+        "sha256": "9dc651d2639fd18937e79a14c332b9a933f049d496e0566e4ebd2d3e5823ae70",
+        "sha256_in_prefix": "9dc651d2639fd18937e79a14c332b9a933f049d496e0566e4ebd2d3e5823ae70",
+        "size_in_bytes": 5279
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/face2.gif",
+        "path_type": "hardlink",
+        "sha256": "25b8a03cd995ff4d25d66ef8bd8178ccc85328d2e7c37999ee5b2d3afb459f48",
+        "sha256_in_prefix": "25b8a03cd995ff4d25d66ef8bd8178ccc85328d2e7c37999ee5b2d3afb459f48",
+        "size_in_bytes": 2378
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/face3.gif",
+        "path_type": "hardlink",
+        "sha256": "674a3dec5cccf509d0b1ec04fe26face56715784ca109ced2c9f767564b424a7",
+        "sha256_in_prefix": "674a3dec5cccf509d0b1ec04fe26face56715784ca109ced2c9f767564b424a7",
+        "size_in_bytes": 800
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/face4.gif",
+        "path_type": "hardlink",
+        "sha256": "c0cce86903ffad7903f02b8b3b1af621d848f6eb5503e8b2b1457d3e6fa1daf8",
+        "sha256_in_prefix": "c0cce86903ffad7903f02b8b3b1af621d848f6eb5503e8b2b1457d3e6fa1daf8",
+        "size_in_bytes": 846
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/fold-bright.gif",
+        "path_type": "hardlink",
+        "sha256": "8cf06982fabe69c29cc83f27d75d126d93325ebde17f912d2f5f9c8b77716dbc",
+        "sha256_in_prefix": "8cf06982fabe69c29cc83f27d75d126d93325ebde17f912d2f5f9c8b77716dbc",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/fold-dim.bmp",
+        "path_type": "hardlink",
+        "sha256": "d74aa85f5ec0013f925213e0c1f7d3973d61cf9c357507719ad40c62f66b524b",
+        "sha256_in_prefix": "d74aa85f5ec0013f925213e0c1f7d3973d61cf9c357507719ad40c62f66b524b",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/fold-dim.gif",
+        "path_type": "hardlink",
+        "sha256": "c15242b424182c1651315c49717409a5d38942b6e2cf35d26ef74806b3037993",
+        "sha256_in_prefix": "c15242b424182c1651315c49717409a5d38942b6e2cf35d26ef74806b3037993",
+        "size_in_bytes": 56
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/fold.bmp",
+        "path_type": "hardlink",
+        "sha256": "4057edc38dedaeece847904a3b651bd2edfdb63ce6d391f45b680645d073f6ed",
+        "sha256_in_prefix": "4057edc38dedaeece847904a3b651bd2edfdb63ce6d391f45b680645d073f6ed",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/fold.gif",
+        "path_type": "hardlink",
+        "sha256": "23d070c6beea740ed02eed2edba2efc44442b6c2b94a437a3ea89df27ce7927f",
+        "sha256_in_prefix": "23d070c6beea740ed02eed2edba2efc44442b6c2b94a437a3ea89df27ce7927f",
+        "size_in_bytes": 56
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/icon-blue.png",
+        "path_type": "hardlink",
+        "sha256": "b4628d07f9a96e329a3d0985371424fadb18051fa477b991c15b5e34e0d373fe",
+        "sha256_in_prefix": "b4628d07f9a96e329a3d0985371424fadb18051fa477b991c15b5e34e0d373fe",
+        "size_in_bytes": 204
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/keys2.jpg",
+        "path_type": "hardlink",
+        "sha256": "813fa437e0b1595eb3d57c31c072fdfb3a259d9a39af8c8de7e9c23f533a96bd",
+        "sha256_in_prefix": "813fa437e0b1595eb3d57c31c072fdfb3a259d9a39af8c8de7e9c23f533a96bd",
+        "size_in_bytes": 42807
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/nofold-dim.bmp",
+        "path_type": "hardlink",
+        "sha256": "c360a3f14b20e99024c09c219a849981b5fffa915efce0eec12b3b67fa0448b7",
+        "sha256_in_prefix": "c360a3f14b20e99024c09c219a849981b5fffa915efce0eec12b3b67fa0448b7",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/nofold-dim.gif",
+        "path_type": "hardlink",
+        "sha256": "788a1e85d147b787d87ab9d760a2cdb0e7e42af4218b6bec1c60d711163d3f15",
+        "sha256_in_prefix": "788a1e85d147b787d87ab9d760a2cdb0e7e42af4218b6bec1c60d711163d3f15",
+        "size_in_bytes": 48
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/nofold.bmp",
+        "path_type": "hardlink",
+        "sha256": "8b7ad8a8f3988508f0c6373c282d069dbf4002e3b45a0d94842bea754f175827",
+        "sha256_in_prefix": "8b7ad8a8f3988508f0c6373c282d069dbf4002e3b45a0d94842bea754f175827",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/unfold-bright.gif",
+        "path_type": "hardlink",
+        "sha256": "09e46329c760c18cc93051e0ddd5bbab67c46235bd006eb2af075bf1dd7899be",
+        "sha256_in_prefix": "09e46329c760c18cc93051e0ddd5bbab67c46235bd006eb2af075bf1dd7899be",
+        "size_in_bytes": 170
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/unfold-dim.bmp",
+        "path_type": "hardlink",
+        "sha256": "da5b58ee41eff946c77a87ea25cb6b2ba0f9991d68a17932c2ee45dc2e7e2528",
+        "sha256_in_prefix": "da5b58ee41eff946c77a87ea25cb6b2ba0f9991d68a17932c2ee45dc2e7e2528",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/unfold-dim.gif",
+        "path_type": "hardlink",
+        "sha256": "8d8d937bc92688d38d88ee4a660af36861580c9bbad2dd0febe7580bfc8b4928",
+        "sha256_in_prefix": "8d8d937bc92688d38d88ee4a660af36861580c9bbad2dd0febe7580bfc8b4928",
+        "size_in_bytes": 59
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/unfold.bmp",
+        "path_type": "hardlink",
+        "sha256": "8cc5bb9cbb480ce468d32d3ae4fb2227413d923c3eb14f4c4cbd66ad74358eba",
+        "sha256_in_prefix": "8cc5bb9cbb480ce468d32d3ae4fb2227413d923c3eb14f4c4cbd66ad74358eba",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/unfold.gif",
+        "path_type": "hardlink",
+        "sha256": "3a17b41f44a930d38c516279afc060acd820ccdfb30e9650c1c9f98e2582f225",
+        "sha256_in_prefix": "3a17b41f44a930d38c516279afc060acd820ccdfb30e9650c1c9f98e2582f225",
+        "size_in_bytes": 59
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/w3c-logo-blue.gif",
+        "path_type": "hardlink",
+        "sha256": "e3cf2daadba3c03d5444bec94a0109b1849b6963efd8f6e7cd3c4fecc2247789",
+        "sha256_in_prefix": "e3cf2daadba3c03d5444bec94a0109b1849b6963efd8f6e7cd3c4fecc2247789",
+        "size_in_bytes": 1791
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/w3c-logo-blue.svg",
+        "path_type": "hardlink",
+        "sha256": "777bb933c22e0dc33f401c7ed17bee30c945627c8bb3fc62a0fc613b2fe18e6b",
+        "sha256_in_prefix": "777bb933c22e0dc33f401c7ed17bee30c945627c8bb3fc62a0fc613b2fe18e6b",
+        "size_in_bytes": 1559
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/w3c-logo-slanted.jpg",
+        "path_type": "hardlink",
+        "sha256": "baf94083aab7cbaef9ef0dc7babeab0535fbc0d7c37bf56f73ab0fc61e0c24bf",
+        "sha256_in_prefix": "baf94083aab7cbaef9ef0dc7babeab0535fbc0d7c37bf56f73ab0fc61e0c24bf",
+        "size_in_bytes": 26539
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/w3c-logo-white.gif",
+        "path_type": "hardlink",
+        "sha256": "a654107277d0f98e705c88db6a592b145af0015f7d7430a5a158ce267e9ae592",
+        "sha256_in_prefix": "a654107277d0f98e705c88db6a592b145af0015f7d7430a5a158ce267e9ae592",
+        "size_in_bytes": 793
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/graphics/w3c-logo-white.svg",
+        "path_type": "hardlink",
+        "sha256": "623de835f08628315ecb2b4d64e74c833c23eb0c73555d42ffd806b97d969d39",
+        "sha256_in_prefix": "623de835f08628315ecb2b4d64e74c833c23eb0c73555d42ffd806b97d969d39",
+        "size_in_bytes": 1589
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/scripts/img.srcset.js",
+        "path_type": "hardlink",
+        "sha256": "83baf1ef53082e435c32d5fee0aa23fc1c81bda27126b798dd3ab8c50763afaa",
+        "sha256_in_prefix": "83baf1ef53082e435c32d5fee0aa23fc1c81bda27126b798dd3ab8c50763afaa",
+        "size_in_bytes": 5068
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/scripts/slidy-irc.js",
+        "path_type": "hardlink",
+        "sha256": "0b62b74e62a83483ca027372ecfd886c8a40ff291c65b452c998969b42f40227",
+        "sha256_in_prefix": "0b62b74e62a83483ca027372ecfd886c8a40ff291c65b452c998969b42f40227",
+        "size_in_bytes": 1305
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/scripts/slidy.js",
+        "path_type": "hardlink",
+        "sha256": "e7b2b2df65b27cf63f1ee07b23a84c27e1a65ad952748549e7559875c39a7759",
+        "sha256_in_prefix": "e7b2b2df65b27cf63f1ee07b23a84c27e1a65ad952748549e7559875c39a7759",
+        "size_in_bytes": 82611
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/scripts/slidy.js.gz",
+        "path_type": "hardlink",
+        "sha256": "6e97190066534b950442cc2768009767068d8be68417862b9c224b148a97f1c5",
+        "sha256_in_prefix": "6e97190066534b950442cc2768009767068d8be68417862b9c224b148a97f1c5",
+        "size_in_bytes": 13240
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/styles/slidy.css",
+        "path_type": "hardlink",
+        "sha256": "e127971a6181bb13a5ea7560eb53e87abe4c1deeaa2c5592a32b0beb8a35b644",
+        "sha256_in_prefix": "e127971a6181bb13a5ea7560eb53e87abe4c1deeaa2c5592a32b0beb8a35b644",
+        "size_in_bytes": 9541
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/Slidy2/styles/w3c-blue.css",
+        "path_type": "hardlink",
+        "sha256": "2f76522c3f3f8b0384a9a2ba51916d618c5a387057cf459bbf05156e792fe425",
+        "sha256_in_prefix": "2f76522c3f3f8b0384a9a2ba51916d618c5a387057cf459bbf05156e792fe425",
+        "size_in_bytes": 10358
+      },
+      {
+        "_path": "lib/R/library/rmarkdown/rmd/slidy/default.html",
+        "path_type": "hardlink",
+        "sha256": "07a87a7594df6347157b91dcf7a7ef9e08a7b694194a95166d704dbe44881177",
+        "sha256_in_prefix": "07a87a7594df6347157b91dcf7a7ef9e08a7b694194a95166d704dbe44881177",
+        "size_in_bytes": 1951
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 2566755,
+  "subdir": "win-64",
+  "timestamp": 1538127117581,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/r/win-64/r-rmarkdown-1.10-r351hf348343_0.tar.bz2",
+  "version": "1.10"
+}
